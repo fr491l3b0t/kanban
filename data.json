@@ -1,0 +1,105 @@
+{
+  "columns": [
+    {
+      "id": "ideas",
+      "title": "💡 Ideas",
+      "cards": [
+        {
+          "id": "1",
+          "title": "LinkedIn/X Content Strategy",
+          "description": "Build Raphael's personal brand - Ethan Mollick style practitioner voice",
+          "tags": ["passive-income", "content"]
+        },
+        {
+          "id": "2",
+          "title": "Lady Petrova App",
+          "description": "App idea for Petrova's business - details TBD",
+          "tags": ["passive-income", "app"]
+        },
+        {
+          "id": "3",
+          "title": "Prompt Packs for Sale",
+          "description": "Curated GenAI prompt collections via Gumroad/Payhip",
+          "tags": ["passive-income", "quick-win"]
+        }
+      ]
+    },
+    {
+      "id": "in-progress",
+      "title": "🔨 In Progress",
+      "cards": [
+        {
+          "id": "4",
+          "title": "Prompts & Techniques Catalog",
+          "description": "Living library of GenAI image/video techniques. Location: prompts/",
+          "tags": ["infrastructure"]
+        },
+        {
+          "id": "5",
+          "title": "Passive Income Plan",
+          "description": "Goal: $50k/mo in 6 months. Location: projects/passive-income/",
+          "tags": ["passive-income", "planning"]
+        },
+        {
+          "id": "6",
+          "title": "Learn Raphael's Voice",
+          "description": "Capture authentic tone through candid conversations",
+          "tags": ["content"]
+        }
+      ]
+    },
+    {
+      "id": "blocked",
+      "title": "🚧 Blocked",
+      "cards": [
+        {
+          "id": "7",
+          "title": "X/Twitter Access",
+          "description": "Bot detection blocking login - need workaround",
+          "tags": ["infrastructure"]
+        },
+        {
+          "id": "8",
+          "title": "Instagram Access",
+          "description": "Need to create account for research",
+          "tags": ["infrastructure"]
+        }
+      ]
+    },
+    {
+      "id": "done",
+      "title": "✅ Done",
+      "cards": [
+        {
+          "id": "9",
+          "title": "Gmail Setup",
+          "description": "fr491l3b0t@gmail.com - 2FA + App Password configured",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-01-26"
+        },
+        {
+          "id": "10",
+          "title": "Identity & Naming",
+          "description": "Fragile Bot (fr491l3b0t) - IDENTITY.md updated",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-01-26"
+        },
+        {
+          "id": "11",
+          "title": "First Email Sent",
+          "description": "Introduction to Petrova",
+          "tags": ["milestone"],
+          "completedDate": "2026-01-26"
+        },
+        {
+          "id": "12",
+          "title": "USER.md Deep Profile",
+          "description": "Comprehensive profile from X research + direct input",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-01-26"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2026-01-26T09:10:00Z"
+}

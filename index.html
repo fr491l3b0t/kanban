@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fragile Bot × Raphael — Project Board</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      min-height: 100vh;
+      color: #e4e4e7;
+      padding: 20px;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    h1 span { opacity: 0.6; font-weight: 400; }
+    
+    .heart { color: #e11d48; }
+    
+    .last-updated {
+      font-size: 0.8rem;
+      opacity: 0.5;
+    }
+    
+    .board {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    
+    @media (max-width: 1200px) {
+      .board { grid-template-columns: repeat(2, 1fr); }
+    }
+    
+    @media (max-width: 600px) {
+      .board { grid-template-columns: 1fr; }
+    }
+    
+    .column {
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      padding: 16px;
+      min-height: 400px;
+    }
+    
+    .column-header {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .column-count {
+      background: rgba(255,255,255,0.1);
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+    
+    .cards { display: flex; flex-direction: column; gap: 12px; }
+    
+    .card {
+      background: rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 14px;
+      cursor: default;
+      transition: transform 0.15s, box-shadow 0.15s;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      border-color: rgba(255,255,255,0.1);
+    }
+    
+    .card-title {
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    
+    .card-description {
+      font-size: 0.8rem;
+      opacity: 0.7;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+    
+    .card-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    
+    .tag {
+      font-size: 0.65rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    
+    .tag-passive-income { background: #059669; color: white; }
+    .tag-content { background: #7c3aed; color: white; }
+    .tag-infrastructure { background: #2563eb; color: white; }
+    .tag-app { background: #db2777; color: white; }
+    .tag-quick-win { background: #d97706; color: white; }
+    .tag-planning { background: #6366f1; color: white; }
+    .tag-milestone { background: #10b981; color: white; }
+    
+    .completed-date {
+      font-size: 0.7rem;
+      opacity: 0.5;
+      margin-top: 8px;
+    }
+    
+    /* Column-specific styling */
+    .column-ideas .column-header { color: #fbbf24; }
+    .column-in-progress .column-header { color: #60a5fa; }
+    .column-blocked .column-header { color: #f87171; }
+    .column-done .column-header { color: #34d399; }
+    
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.8rem;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+      <span class="heart">🖤</span> Fragile Bot × Raphael
+      <span>Project Board</span>
+    </h1>
+    <div class="last-updated" id="lastUpdated"></div>
+  </header>
+  
+  <div class="board" id="board"></div>
+  
+  <footer>
+    Auto-refreshes every 30 seconds • Data: board/data.json
+  </footer>
+
+  <script>
+    async function loadBoard() {
+      try {
+        const res = await fetch('data.json?' + Date.now());
+        const data = await res.json();
+        renderBoard(data);
+      } catch (err) {
+        console.error('Failed to load board:', err);
+      }
+    }
+    
+    function renderBoard(data) {
+      const board = document.getElementById('board');
+      const lastUpdated = document.getElementById('lastUpdated');
+      
+      lastUpdated.textContent = 'Updated: ' + new Date(data.lastUpdated).toLocaleString();
+      
+      board.innerHTML = data.columns.map(col => `
+        <div class="column column-${col.id}">
+          <div class="column-header">
+            ${col.title}
+            <span class="column-count">${col.cards.length}</span>
+          </div>
+          <div class="cards">
+            ${col.cards.map(card => `
+              <div class="card">
+                <div class="card-title">${card.title}</div>
+                ${card.description ? `<div class="card-description">${card.description}</div>` : ''}
+                <div class="card-tags">
+                  ${(card.tags || []).map(tag => 
+                    `<span class="tag tag-${tag}">${tag.replace('-', ' ')}</span>`
+                  ).join('')}
+                </div>
+                ${card.completedDate ? `<div class="completed-date">✓ ${card.completedDate}</div>` : ''}
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+    
+    // Initial load
+    loadBoard();
+    
+    // Auto-refresh every 30 seconds
+    setInterval(loadBoard, 30000);
+  </script>
+</body>
+</html>
