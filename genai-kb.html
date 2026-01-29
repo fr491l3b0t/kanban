@@ -817,27 +817,37 @@
     
     async function confirmDelete() {
       const password = document.getElementById('deletePassword').value;
-      if (!password) return;
+      if (!password) {
+        alert('Please enter password');
+        return;
+      }
+      
+      const deleteUrl = PROXY_URL.replace('/search', '/delete');
+      console.log('Deleting entry', deleteEntryId, 'via', deleteUrl);
       
       try {
-        const res = await fetch(PROXY_URL.replace('/search', '/delete'), {
+        const res = await fetch(deleteUrl, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ entryId: deleteEntryId, password })
         });
         
+        console.log('Response status:', res.status);
         const result = await res.json();
+        console.log('Response:', result);
         
         if (result.error) {
-          alert('Error: ' + result.error);
+          alert('❌ Error: ' + result.error);
           return;
         }
         
+        alert('✅ Deleted! ' + result.remaining + ' entries remaining.');
         closeDeleteModal();
         // Reload data
         loadData();
       } catch (e) {
-        alert('Failed to delete: ' + e.message);
+        console.error('Delete failed:', e);
+        alert('❌ Failed to delete: ' + e.message);
       }
     }
     
