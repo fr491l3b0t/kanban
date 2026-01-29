@@ -40,216 +40,48 @@
       font-size: 0.9rem;
     }
     
-    /* Chat Interface */
-    .chat-container {
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 16px;
-      overflow: hidden;
+    /* Search */
+    .search-container {
       margin-bottom: 20px;
     }
     
-    .chat-messages {
-      max-height: 500px;
-      overflow-y: auto;
-      padding: 20px;
-    }
-    
-    .message {
-      margin-bottom: 16px;
-      display: flex;
-      gap: 12px;
-    }
-    
-    .message.user { justify-content: flex-end; }
-    
-    .message-content {
-      max-width: 80%;
-      padding: 12px 16px;
-      border-radius: 12px;
-      line-height: 1.5;
-    }
-    
-    .message.assistant .message-content {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-    
-    .message.user .message-content {
-      background: #f97316;
-      color: #000;
-    }
-    
-    .message-content pre {
-      background: rgba(0,0,0,0.3);
-      padding: 10px;
-      border-radius: 8px;
-      overflow-x: auto;
-      margin: 10px 0;
-      font-size: 0.85rem;
-    }
-    
-    .message-content code {
-      background: rgba(0,0,0,0.3);
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.9em;
-    }
-    
-    .message-content a {
-      color: #f97316;
-    }
-    
-    .message.user .message-content a {
-      color: #000;
-      text-decoration: underline;
-    }
-    
-    .chat-input-container {
-      display: flex;
-      gap: 10px;
-      padding: 16px;
-      border-top: 1px solid rgba(255,255,255,0.08);
-      background: rgba(0,0,0,0.2);
-    }
-    
-    .chat-input {
-      flex: 1;
-      padding: 12px 16px;
-      font-size: 1rem;
+    .search-box {
+      width: 100%;
+      padding: 16px 20px;
+      font-size: 1.1rem;
       background: rgba(255,255,255,0.05);
       border: 1px solid rgba(255,255,255,0.1);
       border-radius: 12px;
       color: #fff;
       outline: none;
-    }
-    
-    .chat-input:focus {
-      border-color: #f97316;
-    }
-    
-    .chat-input::placeholder { color: rgba(255,255,255,0.4); }
-    
-    .send-btn {
-      padding: 12px 24px;
-      background: #f97316;
-      border: none;
-      border-radius: 12px;
-      color: #000;
-      font-weight: 600;
-      cursor: pointer;
       transition: all 0.2s;
     }
     
-    .send-btn:hover { background: #fb923c; }
-    .send-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-    
-    /* API Key Modal */
-    .modal {
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.8);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 100;
-    }
-    
-    .modal.hidden { display: none; }
-    
-    .modal-content {
-      background: #1a1a3e;
-      padding: 30px;
-      border-radius: 16px;
-      max-width: 450px;
-      width: 90%;
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-    
-    .modal h2 {
-      margin-bottom: 16px;
-      font-size: 1.3rem;
-    }
-    
-    .modal p {
-      opacity: 0.7;
-      margin-bottom: 20px;
-      font-size: 0.9rem;
-      line-height: 1.5;
-    }
-    
-    .modal input {
-      width: 100%;
-      padding: 12px;
-      margin-bottom: 16px;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 8px;
-      color: #fff;
-      font-size: 0.9rem;
-    }
-    
-    .modal button {
-      width: 100%;
-      padding: 12px;
-      background: #f97316;
-      border: none;
-      border-radius: 8px;
-      color: #000;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    
-    /* Stats & Filters */
-    .controls {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 16px;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-    
-    .stats {
-      font-size: 0.85rem;
-      opacity: 0.5;
-    }
-    
-    .view-toggle {
-      display: flex;
-      gap: 8px;
-    }
-    
-    .view-btn {
-      padding: 6px 12px;
-      font-size: 0.8rem;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 8px;
-      color: #e4e4e7;
-      cursor: pointer;
-    }
-    
-    .view-btn.active {
-      background: #f97316;
+    .search-box:focus {
       border-color: #f97316;
-      color: #000;
+      background: rgba(255,255,255,0.08);
     }
     
-    /* Browse Mode */
-    .browse-container { display: none; }
-    .browse-container.active { display: block; }
-    .chat-container.hidden { display: none; }
+    .search-box::placeholder { color: rgba(255,255,255,0.4); }
     
+    .search-hint {
+      margin-top: 8px;
+      font-size: 0.8rem;
+      opacity: 0.5;
+      text-align: center;
+    }
+    
+    /* Filters */
     .filters {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
+      justify-content: center;
     }
     
     .filter-btn {
-      padding: 6px 14px;
+      padding: 8px 16px;
       font-size: 0.85rem;
       background: rgba(255,255,255,0.05);
       border: 1px solid rgba(255,255,255,0.1);
@@ -262,21 +94,22 @@
     .filter-btn:hover { background: rgba(255,255,255,0.1); }
     .filter-btn.active { background: #f97316; border-color: #f97316; color: #000; }
     
-    .search-box {
-      width: 100%;
+    /* Stats */
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
       padding: 12px 16px;
-      margin-bottom: 16px;
-      font-size: 1rem;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 12px;
-      color: #fff;
-      outline: none;
+      background: rgba(255,255,255,0.03);
+      border-radius: 8px;
+      font-size: 0.85rem;
     }
     
-    .search-box:focus { border-color: #f97316; }
-    .search-box::placeholder { color: rgba(255,255,255,0.4); }
+    .stats-count { font-weight: 600; color: #f97316; }
+    .stats-sources { opacity: 0.5; }
     
+    /* Results */
     .results {
       display: flex;
       flex-direction: column;
@@ -287,7 +120,14 @@
       background: rgba(255,255,255,0.03);
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: 12px;
-      padding: 16px;
+      padding: 16px 20px;
+      transition: all 0.2s;
+    }
+    
+    .card:hover {
+      background: rgba(255,255,255,0.05);
+      border-color: rgba(255,255,255,0.15);
+      transform: translateY(-1px);
     }
     
     .card-header {
@@ -301,6 +141,7 @@
     .card-title {
       font-size: 1rem;
       font-weight: 600;
+      line-height: 1.3;
     }
     
     .card-title a {
@@ -310,11 +151,26 @@
     
     .card-title a:hover { color: #f97316; }
     
+    .card-badges {
+      display: flex;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+    
     .card-category {
       font-size: 0.7rem;
-      padding: 3px 8px;
+      padding: 4px 10px;
       background: rgba(249, 115, 22, 0.2);
       color: #f97316;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+    
+    .card-source-badge {
+      font-size: 0.65rem;
+      padding: 4px 8px;
+      background: rgba(255,255,255,0.1);
+      color: #aaa;
       border-radius: 10px;
       white-space: nowrap;
     }
@@ -322,15 +178,58 @@
     .card-meta {
       font-size: 0.8rem;
       opacity: 0.5;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
     
     .card-summary {
       font-size: 0.9rem;
-      line-height: 1.4;
+      line-height: 1.5;
       opacity: 0.9;
+      margin-bottom: 10px;
     }
     
+    .card-content {
+      font-size: 0.8rem;
+      line-height: 1.5;
+      background: rgba(0,0,0,0.2);
+      padding: 12px;
+      border-radius: 8px;
+      white-space: pre-wrap;
+      font-family: 'Monaco', 'Menlo', monospace;
+      margin-bottom: 10px;
+      max-height: 150px;
+      overflow-y: auto;
+    }
+    
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    
+    .tag {
+      font-size: 0.7rem;
+      padding: 3px 8px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 6px;
+      opacity: 0.7;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .tag:hover {
+      background: rgba(249, 115, 22, 0.3);
+      opacity: 1;
+    }
+    
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      opacity: 0.5;
+    }
+    
+    /* Footer */
     .nav-links {
       display: flex;
       gap: 20px;
@@ -348,25 +247,17 @@
     
     .nav-links a:hover { text-decoration: underline; }
     
-    .typing {
-      display: inline-flex;
-      gap: 4px;
+    .fragile-hint {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 0.8rem;
+      opacity: 0.4;
     }
     
-    .typing span {
-      width: 8px;
-      height: 8px;
-      background: #f97316;
-      border-radius: 50%;
-      animation: bounce 1.4s infinite ease-in-out both;
-    }
-    
-    .typing span:nth-child(1) { animation-delay: -0.32s; }
-    .typing span:nth-child(2) { animation-delay: -0.16s; }
-    
-    @keyframes bounce {
-      0%, 80%, 100% { transform: scale(0); }
-      40% { transform: scale(1); }
+    @media (max-width: 600px) {
+      .card-header { flex-direction: column; gap: 8px; }
+      .card-badges { align-self: flex-start; }
+      .stats { flex-direction: column; gap: 8px; text-align: center; }
     }
   </style>
 </head>
@@ -374,186 +265,54 @@
   <div class="container">
     <header>
       <h1><span class="accent">GenAI</span> Knowledgebase</h1>
-      <p class="subtitle">Ask questions in natural language • Powered by GPT-5.2</p>
+      <p class="subtitle">Curated from X bookmarks, likes & reposts • Updated daily</p>
     </header>
     
-    <div class="controls">
-      <div class="stats" id="stats"></div>
-      <div class="view-toggle">
-        <button class="view-btn active" data-view="chat">💬 Chat</button>
-        <button class="view-btn" data-view="browse">📚 Browse</button>
-      </div>
+    <div class="search-container">
+      <input type="text" class="search-box" id="search" placeholder="Search prompts, tools, techniques, people..." autofocus>
+      <p class="search-hint">Try: "nano banana", "diorama", "karpathy", "video", "workflow"</p>
     </div>
     
-    <!-- Chat Mode -->
-    <div class="chat-container" id="chatContainer">
-      <div class="chat-messages" id="chatMessages">
-        <div class="message assistant">
-          <div class="message-content">
-            👋 Hey! Ask me anything about your GenAI bookmarks — prompts, techniques, tools, workflows. I'll search and summarize for you.
-          </div>
-        </div>
-      </div>
-      <div class="chat-input-container">
-        <input type="text" class="chat-input" id="chatInput" placeholder="e.g. How do I create miniature dioramas?" autofocus>
-        <button class="send-btn" id="sendBtn">Send</button>
-      </div>
+    <div class="filters" id="filters"></div>
+    
+    <div class="stats" id="stats">
+      <span>Loading...</span>
     </div>
     
-    <!-- Browse Mode -->
-    <div class="browse-container" id="browseContainer">
-      <input type="text" class="search-box" id="search" placeholder="Filter entries...">
-      <div class="filters" id="filters"></div>
-      <div class="results" id="results"></div>
-    </div>
+    <div class="results" id="results"></div>
     
     <nav class="nav-links">
       <a href="index.html">← Project Board</a>
-      <a href="#" id="settingsLink">⚙️ API Key</a>
+      <a href="https://github.com/fr491l3b0t/kanban">GitHub</a>
     </nav>
-  </div>
-  
-  <!-- API Key Modal -->
-  <div class="modal hidden" id="apiModal">
-    <div class="modal-content">
-      <h2>🔑 OpenAI API Key</h2>
-      <p>Enter your OpenAI API key to enable natural language search. It's stored locally in your browser only.</p>
-      <input type="password" id="apiKeyInput" placeholder="sk-...">
-      <button id="saveApiKey">Save & Continue</button>
-    </div>
+    
+    <p class="fragile-hint">💬 For natural language queries, message Fragile Bot on Telegram</p>
   </div>
   
   <script>
     let data = { entries: [], categories: [] };
     let activeCategory = 'All';
-    const OPENAI_MODEL = 'gpt-5.2';
     
-    // API Key Management
-    function getApiKey() {
-      return localStorage.getItem('openai_api_key');
-    }
-    
-    function setApiKey(key) {
-      localStorage.setItem('openai_api_key', key);
-    }
-    
-    function showApiModal() {
-      document.getElementById('apiModal').classList.remove('hidden');
-    }
-    
-    function hideApiModal() {
-      document.getElementById('apiModal').classList.add('hidden');
-    }
-    
-    // Chat Functions
-    async function sendMessage() {
-      const input = document.getElementById('chatInput');
-      const query = input.value.trim();
-      if (!query) return;
-      
-      const apiKey = getApiKey();
-      if (!apiKey) {
-        showApiModal();
-        return;
-      }
-      
-      // Add user message
-      addMessage(query, 'user');
-      input.value = '';
-      
-      // Show typing indicator
-      const typingId = addTypingIndicator();
-      
+    async function loadData() {
       try {
-        const response = await queryKnowledgebase(query, apiKey);
-        removeTypingIndicator(typingId);
-        addMessage(response, 'assistant');
-      } catch (error) {
-        removeTypingIndicator(typingId);
-        addMessage('Sorry, there was an error: ' + error.message, 'assistant');
+        const response = await fetch('genai-kb.json');
+        data = await response.json();
+        renderFilters();
+        renderResults();
+        updateStats();
+      } catch (e) {
+        document.getElementById('results').innerHTML = '<div class="empty-state">Failed to load knowledgebase</div>';
       }
     }
     
-    function addMessage(content, role) {
-      const messages = document.getElementById('chatMessages');
-      const div = document.createElement('div');
-      div.className = `message ${role}`;
-      div.innerHTML = `<div class="message-content">${formatResponse(content)}</div>`;
-      messages.appendChild(div);
-      messages.scrollTop = messages.scrollHeight;
+    function updateStats() {
+      const stats = document.getElementById('stats');
+      stats.innerHTML = `
+        <span><span class="stats-count">${data.totalEntries || data.entries.length}</span> entries</span>
+        <span class="stats-sources">Sources: ${data.sources?.bookmarks || '?'} bookmarks, ${data.sources?.likes || '?'} likes, ${data.sources?.reposts || '?'} reposts</span>
+      `;
     }
     
-    function addTypingIndicator() {
-      const messages = document.getElementById('chatMessages');
-      const div = document.createElement('div');
-      div.className = 'message assistant';
-      div.id = 'typing-' + Date.now();
-      div.innerHTML = `<div class="message-content"><div class="typing"><span></span><span></span><span></span></div></div>`;
-      messages.appendChild(div);
-      messages.scrollTop = messages.scrollHeight;
-      return div.id;
-    }
-    
-    function removeTypingIndicator(id) {
-      const el = document.getElementById(id);
-      if (el) el.remove();
-    }
-    
-    function formatResponse(text) {
-      // Convert markdown-style formatting
-      return text
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/`([^`]+)`/g, '<code>$1</code>')
-        .replace(/```([\s\S]*?)```/g, '<pre>$1</pre>')
-        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>')
-        .replace(/\n/g, '<br>');
-    }
-    
-    async function queryKnowledgebase(query, apiKey) {
-      // Build context from knowledgebase
-      const context = data.entries.map(e => 
-        `[${e.id}] ${e.title} (${e.category})\nSource: ${e.source} | ${e.date}\nSummary: ${e.summary}\n${e.content ? 'Details: ' + e.content.substring(0, 500) : ''}\nURL: ${e.url}`
-      ).join('\n\n---\n\n');
-      
-      const systemPrompt = `You are a helpful assistant for Raphael's GenAI Knowledgebase. You have access to ${data.entries.length} curated entries from his X bookmarks covering GenAI image prompts, AI coding, Clawdbot, and more.
-
-When answering:
-- Be concise but thorough
-- Include relevant entry titles and links
-- Quote specific prompts or techniques when relevant
-- If multiple entries are relevant, summarize the key points from each
-- Use markdown formatting for clarity
-
-KNOWLEDGEBASE CONTENTS:
-${context}`;
-
-      const response = await fetch('https://api.openai.com/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${apiKey}`
-        },
-        body: JSON.stringify({
-          model: OPENAI_MODEL,
-          messages: [
-            { role: 'system', content: systemPrompt },
-            { role: 'user', content: query }
-          ],
-          temperature: 0.7,
-          max_tokens: 1000
-        })
-      });
-      
-      if (!response.ok) {
-        const err = await response.json();
-        throw new Error(err.error?.message || 'API request failed');
-      }
-      
-      const result = await response.json();
-      return result.choices[0].message.content;
-    }
-    
-    // Browse Mode Functions
     function renderFilters() {
       const filters = document.getElementById('filters');
       const cats = ['All', ...data.categories];
@@ -572,84 +331,73 @@ ${context}`;
     }
     
     function renderResults() {
-      const query = document.getElementById('search').value.toLowerCase();
+      const query = document.getElementById('search').value.toLowerCase().trim();
       const results = document.getElementById('results');
+      const words = query.split(/\s+/).filter(w => w.length > 1);
       
       let filtered = data.entries.filter(entry => {
         const matchesCategory = activeCategory === 'All' || entry.category === activeCategory;
-        const matchesSearch = !query || 
-          entry.title.toLowerCase().includes(query) ||
-          entry.summary.toLowerCase().includes(query) ||
-          (entry.tags && entry.tags.some(t => t.toLowerCase().includes(query)));
-        return matchesCategory && matchesSearch;
+        if (!matchesCategory) return false;
+        if (!query) return true;
+        
+        const searchText = [
+          entry.title,
+          entry.summary,
+          entry.content || '',
+          entry.source,
+          (entry.tags || []).join(' ')
+        ].join(' ').toLowerCase();
+        
+        // All words must match
+        return words.every(word => searchText.includes(word));
       });
       
-      document.getElementById('stats').textContent = `${filtered.length} of ${data.entries.length} entries`;
+      if (filtered.length === 0) {
+        results.innerHTML = `<div class="empty-state">No matches for "${query}"</div>`;
+        return;
+      }
       
-      results.innerHTML = filtered.map(entry => `
+      results.innerHTML = filtered.slice(0, 50).map(entry => `
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title"><a href="${entry.url}" target="_blank">${entry.title}</a></h3>
-            <span class="card-category">${entry.category}</span>
+            <h3 class="card-title"><a href="${entry.url}" target="_blank">${highlightMatch(entry.title, words)}</a></h3>
+            <div class="card-badges">
+              <span class="card-category">${entry.category}</span>
+              ${entry.dataSource ? `<span class="card-source-badge">${entry.dataSource}</span>` : ''}
+            </div>
           </div>
-          <div class="card-meta">${entry.source} • ${entry.date}</div>
-          <p class="card-summary">${entry.summary}</p>
+          <div class="card-meta">${entry.source} • ${entry.date}${entry.engagement ? ` • ${entry.engagement.toLocaleString()} engagements` : ''}</div>
+          <p class="card-summary">${highlightMatch(entry.summary, words)}</p>
+          ${entry.content ? `<div class="card-content">${escapeHtml(entry.content)}</div>` : ''}
+          ${entry.tags?.length ? `<div class="card-tags">${entry.tags.map(t => `<span class="tag" onclick="searchTag('${t}')">#${t}</span>`).join('')}</div>` : ''}
         </div>
       `).join('');
     }
     
-    // View Toggle
-    document.querySelectorAll('.view-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        
-        const view = btn.dataset.view;
-        document.getElementById('chatContainer').classList.toggle('hidden', view !== 'chat');
-        document.getElementById('browseContainer').classList.toggle('active', view === 'browse');
+    function highlightMatch(text, words) {
+      if (!words.length) return escapeHtml(text);
+      let result = escapeHtml(text);
+      words.forEach(word => {
+        const regex = new RegExp(`(${word})`, 'gi');
+        result = result.replace(regex, '<mark style="background:#f97316;color:#000;padding:0 2px;border-radius:2px;">$1</mark>');
       });
-    });
+      return result;
+    }
     
-    // Event Listeners
-    document.getElementById('sendBtn').addEventListener('click', sendMessage);
-    document.getElementById('chatInput').addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') sendMessage();
-    });
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text || '';
+      return div.innerHTML;
+    }
     
-    document.getElementById('saveApiKey').addEventListener('click', () => {
-      const key = document.getElementById('apiKeyInput').value.trim();
-      if (key) {
-        setApiKey(key);
-        hideApiModal();
-        sendMessage(); // Retry the message
-      }
-    });
-    
-    document.getElementById('settingsLink').addEventListener('click', (e) => {
-      e.preventDefault();
-      showApiModal();
-    });
+    function searchTag(tag) {
+      document.getElementById('search').value = tag;
+      renderResults();
+    }
     
     document.getElementById('search').addEventListener('input', renderResults);
     
-    // Init
-    async function init() {
-      try {
-        const response = await fetch('genai-kb.json');
-        data = await response.json();
-        document.getElementById('stats').textContent = `${data.entries.length} entries`;
-        renderFilters();
-        renderResults();
-        
-        if (!getApiKey()) {
-          // Show hint but don't force modal
-        }
-      } catch (e) {
-        console.error('Failed to load KB:', e);
-      }
-    }
-    
-    init();
+    loadData();
   </script>
 </body>
 </html>
