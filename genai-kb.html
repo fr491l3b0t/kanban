@@ -408,6 +408,96 @@
       color: var(--accent);
     }
     
+    .delete-btn {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      padding: 4px 8px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.15s;
+      margin-left: auto;
+    }
+    
+    .delete-btn:hover {
+      border-color: #ff4444;
+      color: #ff4444;
+    }
+    
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    
+    .modal-overlay.hidden { display: none; }
+    
+    .modal-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 24px;
+      max-width: 360px;
+      width: 90%;
+    }
+    
+    .modal-box h3 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 16px;
+    }
+    
+    .modal-box input {
+      width: 100%;
+      padding: 10px 12px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      margin-bottom: 16px;
+    }
+    
+    .modal-box input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    
+    .modal-buttons {
+      display: flex;
+      gap: 8px;
+    }
+    
+    .modal-buttons button {
+      flex: 1;
+      padding: 10px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      border: 1px solid var(--border);
+    }
+    
+    .modal-cancel {
+      background: transparent;
+      color: var(--text-secondary);
+    }
+    
+    .modal-confirm {
+      background: #ff4444;
+      border-color: #ff4444;
+      color: white;
+    }
+    
     .empty-state {
       text-align: center;
       padding: 50px 20px;
@@ -505,6 +595,19 @@
       <div><a href="index.html">← BOARD</a> · <a href="https://github.com/fr491l3b0t/kanban">GITHUB</a></div>
       <div id="lastUpdated"></div>
     </footer>
+  </div>
+  
+  <!-- Delete Modal -->
+  <div class="modal-overlay hidden" id="deleteModal">
+    <div class="modal-box">
+      <h3>🗑️ Delete Entry</h3>
+      <p style="font-size:12px;color:var(--text-secondary);margin-bottom:12px;" id="deleteEntryTitle"></p>
+      <input type="password" id="deletePassword" placeholder="Enter admin password">
+      <div class="modal-buttons">
+        <button class="modal-cancel" onclick="closeDeleteModal()">Cancel</button>
+        <button class="modal-confirm" onclick="confirmDelete()">Delete</button>
+      </div>
+    </div>
   </div>
   
   <script>
@@ -659,11 +762,12 @@
       }
       
       results.innerHTML = filtered.slice(0, 50).map((entry, i) => `
-        <div class="card">
+        <div class="card" data-entry-id="${entry.id}">
           <div class="card-header">
             <span class="card-id">${String(i + 1).padStart(3, '0')}</span>
             <h3 class="card-title"><a href="${entry.url}" target="_blank">${highlightMatch(entry.title, words)}</a></h3>
             <span class="card-category">${entry.category}</span>
+            <button class="delete-btn" onclick="openDeleteModal(${entry.id}, '${escapeHtml(entry.title).replace(/'/g, "\\'")}')">×</button>
           </div>
           <div class="card-meta">${entry.source} · ${entry.date}</div>
           <p class="card-summary">${highlightMatch(entry.summary, words)}</p>
@@ -694,6 +798,57 @@
     }
     
     document.getElementById('search').addEventListener('input', renderResults);
+    
+    // Delete functionality
+    let deleteEntryId = null;
+    
+    function openDeleteModal(entryId, title) {
+      deleteEntryId = entryId;
+      document.getElementById('deleteEntryTitle').textContent = title;
+      document.getElementById('deletePassword').value = '';
+      document.getElementById('deleteModal').classList.remove('hidden');
+      document.getElementById('deletePassword').focus();
+    }
+    
+    function closeDeleteModal() {
+      document.getElementById('deleteModal').classList.add('hidden');
+      deleteEntryId = null;
+    }
+    
+    async function confirmDelete() {
+      const password = document.getElementById('deletePassword').value;
+      if (!password) return;
+      
+      try {
+        const res = await fetch(PROXY_URL.replace('/search', '/delete'), {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ entryId: deleteEntryId, password })
+        });
+        
+        const result = await res.json();
+        
+        if (result.error) {
+          alert('Error: ' + result.error);
+          return;
+        }
+        
+        closeDeleteModal();
+        // Reload data
+        loadData();
+      } catch (e) {
+        alert('Failed to delete: ' + e.message);
+      }
+    }
+    
+    document.getElementById('deletePassword').addEventListener('keypress', e => {
+      if (e.key === 'Enter') confirmDelete();
+    });
+    
+    document.getElementById('deleteModal').addEventListener('click', e => {
+      if (e.target.id === 'deleteModal') closeDeleteModal();
+    });
+    
     loadData();
   </script>
 </body>
