@@ -8,7 +8,7 @@
     "Video Production",
     "Voice & Audio"
   ],
-  "totalEntries": 179,
+  "totalEntries": 178,
   "sources": {
     "bookmarks": 200,
     "likes": 119,
@@ -119,19 +119,6 @@
     },
     {
       "id": 8,
-      "title": "I am crying of laughter at this woman trying to run lines with an AI reader https://t.co/CDHFFl2mPJ",
-      "category": "AI Commentary",
-      "source": "@venturetwins",
-      "date": "2025-12-30",
-      "url": "https://x.com/venturetwins/status/2006058690894283104",
-      "summary": "I am crying of laughter at this woman trying to run lines with an AI reader https://t.co/CDHFFl2mPJ",
-      "content": null,
-      "tags": [],
-      "engagement": 24179,
-      "dataSource": "bookmark"
-    },
-    {
-      "id": 9,
       "title": "I have never seen someone train for ballet on a bosu ball.  What incredible strength and balance.   ...",
       "category": "AI Commentary",
       "source": "@TalkWithSally",
@@ -144,7 +131,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "bro casually walks and explains 5 GPU performance optimization methods for LLMs. one of the most sim...",
       "category": "AI Commentary",
       "source": "@Hesamation",
@@ -157,7 +144,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Remotion now has Agent Skills - make videos just with Claude Code!",
       "category": "GenAI Image Prompts",
       "source": "@Remotion",
@@ -174,7 +161,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "AI agents will be a big part of how we shop in the not-so-distant future.",
       "category": "AI Coding & Agents",
       "source": "@sundarpichai",
@@ -190,7 +177,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "introducing Realtime Edit.",
       "category": "GenAI Image Prompts",
       "source": "@krea_ai",
@@ -205,7 +192,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "There is a stupid amount of MONEY in this.",
       "category": "AI Commentary",
       "source": "@AdiFlips",
@@ -218,7 +205,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "https://t.co/PFLXeRXaIu",
       "category": "AI Commentary",
       "source": "@heyshrutimishra",
@@ -231,7 +218,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "Today, we're releasing Claude Code for marketing.",
       "category": "AI Coding & Agents",
       "source": "@SavannahFeder",
@@ -246,7 +233,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Everyone is using ChatGPT.",
       "category": "AI Commentary",
       "source": "@theantonioreza",
@@ -261,7 +248,7 @@
       "dataSource": "like"
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "Merging art with AI 🖼 ⁇ 🖼 ⁇ 🖼",
       "category": "GenAI Image Prompts",
       "source": "@OrbAmsterdam",
@@ -274,7 +261,7 @@
       "dataSource": "like"
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "I built an AI system that automates product video creation for entire e-commerce catalogs.",
       "category": "GenAI Image Prompts",
       "source": "@recap_david",
@@ -292,7 +279,7 @@
       "dataSource": "like"
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "My parents have Instagram,",
       "category": "AI Commentary",
       "source": "@jappleby",
@@ -305,7 +292,7 @@
       "dataSource": "like"
     },
     {
-      "id": 21,
+      "id": 20,
       "title": "Performance Hints",
       "category": "AI Commentary",
       "source": "@JeffDean",
@@ -318,7 +305,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "Targeting November 28 for launch of Spaceflight SSO-A: SmallSat Express from Vandenberg Air Force Ba...",
       "category": "AI Commentary",
       "source": "@SpaceX",
@@ -331,7 +318,7 @@
       "dataSource": "like"
     },
     {
-      "id": 23,
+      "id": 22,
       "title": "It's over.",
       "category": "Video Production",
       "source": "@minchoi",
@@ -346,7 +333,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 24,
+      "id": 23,
       "title": "New breakthrough quantum algorithm published in @Nature today: Our Willow chip has achieved the firs...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -359,7 +346,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 25,
+      "id": 24,
       "title": "For those asking, go to Google AI Studio, select Nano Banana Pro, upload a selfie, and use the promp...",
       "category": "GenAI Image Prompts",
       "source": "@regyperlera",
@@ -375,7 +362,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 26,
+      "id": 25,
       "title": "📢 Confession: I ship code I never read. Here's my 2025 workflow. https://t.co/tmxxPowzcR",
       "category": "AI Commentary",
       "source": "@steipete",
@@ -390,7 +377,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 27,
+      "id": 26,
       "title": "🎨 Qwen-Image-Layered is LIVE — native image decomposition, fully open-sourced!",
       "category": "GenAI Image Prompts",
       "source": "@Alibaba_Qwen",
@@ -405,7 +392,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 28,
+      "id": 27,
       "title": "Sheremetyevo International Airport, Moscow, USSR, 1990. https://t.co/4xZsKKwiu0",
       "category": "AI Commentary",
       "source": "@sovietvisuals",
@@ -418,7 +405,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 29,
+      "id": 28,
       "title": "Our Dota 2 AI is undefeated against the world's best solo players: https://t.co/cUvTbGW7ya",
       "category": "AI Commentary",
       "source": "@OpenAI",
@@ -431,7 +418,7 @@
       "dataSource": "like"
     },
     {
-      "id": 30,
+      "id": 29,
       "title": "\"Claude Code just SAVED my marriage!\"",
       "category": "Video Production",
       "source": "@zulali",
@@ -446,7 +433,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 31,
+      "id": 30,
       "title": "Overall, significant upgrade to the American diet. Some longevity tweaks:",
       "category": "AI Commentary",
       "source": "@bryan_johnson",
@@ -459,7 +446,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 32,
+      "id": 31,
       "title": "Just to see what would happen I texted Henry my Clawdbot to make a reservation for me next Saturday ...",
       "category": "Clawdbot",
       "source": "@AlexFinn",
@@ -475,7 +462,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 33,
+      "id": 32,
       "title": "If you’ve never written code before, this is for you. I’ve just launched a course that shows you, in...",
       "category": "AI Coding & Agents",
       "source": "@AndrewYNg",
@@ -492,7 +479,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 34,
+      "id": 33,
       "title": "Here’s Claude absolutely RIPPING building a modern mansion draft with primitives—using UnrealMCP to ...",
       "category": "GenAI Image Prompts",
       "source": "@ClaireSilver12",
@@ -508,7 +495,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 35,
+      "id": 34,
       "title": "I learned and used the Claude Agent SDK today to build an agent. I genuinely think this will be one ...",
       "category": "AI Coding & Agents",
       "source": "@dabit3",
@@ -524,7 +511,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 36,
+      "id": 35,
       "title": "This is getting scary. I'm doing some research this morning when all of a sudden my computer starts ...",
       "category": "GenAI Image Prompts",
       "source": "@AlexFinn",
@@ -543,7 +530,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 37,
+      "id": 36,
       "title": "This 31 min vid is the most CLEAR explanation on how ANYONE can get started with Claude Code that ex...",
       "category": "AI Coding & Agents",
       "source": "@gregisenberg",
@@ -558,7 +545,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 38,
+      "id": 37,
       "title": "This guy literally created an agent to replace all his employees https://t.co/0GCGNFpX5K",
       "category": "AI Coding & Agents",
       "source": "@aaditsh",
@@ -573,7 +560,7 @@
       "dataSource": "like"
     },
     {
-      "id": 39,
+      "id": 38,
       "title": "oh you’re still doing prompt engineering? everyone’s on context engineering now. just kidding, we’re...",
       "category": "GenAI Image Prompts",
       "source": "@koylanai",
@@ -591,7 +578,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 40,
+      "id": 39,
       "title": "Disaster is coming.",
       "category": "Clawdbot",
       "source": "@ItakGol",
@@ -607,7 +594,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 41,
+      "id": 40,
       "title": "AI can alr generate ads that no one can tell",
       "category": "GenAI Image Prompts",
       "source": "@EHuanglu",
@@ -623,7 +610,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 42,
+      "id": 41,
       "title": "We built Things, Notion, Todoist...",
       "category": "AI Commentary",
       "source": "@frankdilo",
@@ -636,7 +623,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 43,
+      "id": 42,
       "title": "for any CEO using claude code — here's a single prompt that builds your entire 2026 personal product...",
       "category": "GenAI Image Prompts",
       "source": "@RohunJauhar",
@@ -652,7 +639,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 44,
+      "id": 43,
       "title": "$24,000 per year from this simple AI Dentist Voice Agent",
       "category": "Video Production",
       "source": "@recap_david",
@@ -671,7 +658,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 45,
+      "id": 44,
       "title": "Claude Code for Chrome is really something else. I haven't used Google Analytics in a minute, not ev...",
       "category": "GenAI Image Prompts",
       "source": "@adocomplete",
@@ -687,7 +674,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 46,
+      "id": 45,
       "title": "Every company should hire an internal AI transformation person. No need for a fancy title like Head ...",
       "category": "AI Commentary",
       "source": "@veggie_eric",
@@ -702,7 +689,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 47,
+      "id": 46,
       "title": "I've built a custom camera control @gradio component for camera control LoRAs for image models 🎥🧊 ",
       "category": "AI Commentary",
       "source": "@multimodalart",
@@ -715,7 +702,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 48,
+      "id": 47,
       "title": "this prompt needs to go viral. because the girl is very beautiful.",
       "category": "GenAI Image Prompts",
       "source": "@brindleyai",
@@ -732,7 +719,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 49,
+      "id": 48,
       "title": "Here is a fun idea to try. You can create these images with giant people/animals using Nano Banana P...",
       "category": "GenAI Image Prompts",
       "source": "@MrDavids1",
@@ -749,7 +736,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 50,
+      "id": 49,
       "title": "this is the CLEAREST explanation of \"ralph wiggum\" on the internet and how you can use it with claud...",
       "category": "AI Coding & Agents",
       "source": "@gregisenberg",
@@ -765,7 +752,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 51,
+      "id": 50,
       "title": "Instagram head Adam Mosseri just wrote 1,240 words on how AI will affect Instagram creators and soci...",
       "category": "AI Commentary",
       "source": "@bearlyai",
@@ -778,7 +765,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 52,
+      "id": 51,
       "title": "Prompt: Using the provided image of the subject as reference, transform them into a K-pop idol–style...",
       "category": "GenAI Image Prompts",
       "source": "@ChatGPTapp",
@@ -793,7 +780,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 53,
+      "id": 52,
       "title": "I'm returning my Mac Mini",
       "category": "Clawdbot",
       "source": "@AlexFinn",
@@ -808,7 +795,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 54,
+      "id": 53,
       "title": "Introducing /agent by Firecrawl 🪄",
       "category": "AI Coding & Agents",
       "source": "@firecrawl",
@@ -823,7 +810,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 55,
+      "id": 54,
       "title": "Might as well learn something... ",
       "category": "GenAI Image Prompts",
       "source": "@Ror_Fly",
@@ -840,7 +827,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 56,
+      "id": 55,
       "title": "It’s been 3 weeks since we launched Gemini 3, our most intelligent model yet. But… what does that me...",
       "category": "GenAI Image Prompts",
       "source": "@GoogleAI",
@@ -856,7 +843,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 57,
+      "id": 56,
       "title": "11 Predictions for 2026",
       "category": "Video Production",
       "source": "@ttunguz",
@@ -871,7 +858,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 58,
+      "id": 57,
       "title": "Google's recent Gemini 3 release has shocked the world with undeniable proof that the TPU is a power...",
       "category": "AI Commentary",
       "source": "@HansCNelson",
@@ -886,7 +873,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 59,
+      "id": 58,
       "title": "My 6 most popular episodes this year are all practical AI tutorials:",
       "category": "AI Coding & Agents",
       "source": "@petergyang",
@@ -905,7 +892,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 60,
+      "id": 59,
       "title": "Today, we're introducing a working Loveable for video production.",
       "category": "Video Production",
       "source": "@noahmorris",
@@ -918,7 +905,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 61,
+      "id": 60,
       "title": "🚀One of my favorite @antigravity use cases:",
       "category": "AI Coding & Agents",
       "source": "@DynamicWebPaige",
@@ -933,7 +920,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 62,
+      "id": 61,
       "title": "AI needs to be stopped lmaooo https://t.co/LpUYqIdJQw",
       "category": "AI Commentary",
       "source": "@alifarhat79",
@@ -946,7 +933,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 63,
+      "id": 62,
       "title": "It's time to retire this idea of persona prompting - don't tell the LLM to act like X, tell it that ...",
       "category": "GenAI Image Prompts",
       "source": "@simonw",
@@ -961,7 +948,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 64,
+      "id": 63,
       "title": "Claude Code &amp; Replit Masterclass",
       "category": "AI Coding & Agents",
       "source": "@mattyp",
@@ -978,7 +965,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 65,
+      "id": 64,
       "title": "Prompt: Make a photo that is perfectly isometric. It is not a miniature, it is a captured photo that...",
       "category": "GenAI Image Prompts",
       "source": "@NanoBanana",
@@ -993,7 +980,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 66,
+      "id": 65,
       "title": "THE ULTIMATE CLAWDBOT REPORT",
       "category": "Clawdbot",
       "source": "@Scobleizer",
@@ -1009,7 +996,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 67,
+      "id": 66,
       "title": "I did not expect that the PowerPoint killer would be something called Nano Banana Pro, but that is w...",
       "category": "GenAI Image Prompts",
       "source": "@emollick",
@@ -1024,7 +1011,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 68,
+      "id": 67,
       "title": "PSA for a CTO, Head of AI, VP/Dir of Engineering, CXO: ",
       "category": "AI Coding & Agents",
       "source": "@stevecaldwell",
@@ -1039,7 +1026,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 69,
+      "id": 68,
       "title": "KODAK Saab 900 → Concept-to-Photoshoot.",
       "category": "GenAI Image Prompts",
       "source": "@Ror_Fly",
@@ -1057,7 +1044,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 70,
+      "id": 69,
       "title": "Nano Banana + Linah AI + n8n is next-level",
       "category": "GenAI Image Prompts",
       "source": "@demirdjiantwins",
@@ -1074,7 +1061,7 @@
       "dataSource": "like"
     },
     {
-      "id": 71,
+      "id": 70,
       "title": "use this prompt to generate ultra-realistic AI influencers with Nano Banana Pro:",
       "category": "GenAI Image Prompts",
       "source": "@EXM7777",
@@ -1090,7 +1077,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 72,
+      "id": 71,
       "title": "You’re calling Michael Catson “AI slop”?",
       "category": "AI Commentary",
       "source": "@venturetwins",
@@ -1103,7 +1090,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 73,
+      "id": 72,
       "title": "Introducing Speech-to-Speech!",
       "category": "Voice & Audio",
       "source": "@elevenlabsio",
@@ -1118,7 +1105,7 @@
       "dataSource": "like"
     },
     {
-      "id": 74,
+      "id": 73,
       "title": "@karpathy https://t.co/kaZwaiAhn6",
       "category": "AI Commentary",
       "source": "@Marswalkerr",
@@ -1133,7 +1120,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 75,
+      "id": 74,
       "title": "FRAMEWORK FOR BUILDING A $60K MRR MOBILE APP LIKE THIS",
       "category": "Video Production",
       "source": "@gregisenberg",
@@ -1146,7 +1133,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 76,
+      "id": 75,
       "title": "Gemini Nano Banana Pro",
       "category": "GenAI Image Prompts",
       "source": "@xmliisu",
@@ -1163,7 +1150,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 77,
+      "id": 76,
       "title": "AI can help explain complex topics easily by throwing together a simulation.",
       "category": "AI Commentary",
       "source": "@emollick",
@@ -1178,7 +1165,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 78,
+      "id": 77,
       "title": "All right my ambitious friends: if you're doing some year-end skill building this weekend, here are ...",
       "category": "AI Commentary",
       "source": "@ossia",
@@ -1191,7 +1178,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 79,
+      "id": 78,
       "title": "One of the biggest opportunities available to anyone entrepreneurial right now in their company is t...",
       "category": "AI Coding & Agents",
       "source": "@levie",
@@ -1206,7 +1193,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 80,
+      "id": 79,
       "title": "Since launching our AI for Science program, we’ve been working with scientists to understand how AI ...",
       "category": "AI Commentary",
       "source": "@AnthropicAI",
@@ -1221,7 +1208,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 81,
+      "id": 80,
       "title": "Good grief this might be the most beautiful video I’ve ever watched. You’ll need to have some idea o...",
       "category": "Video Production",
       "source": "@samwhoo",
@@ -1234,7 +1221,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 82,
+      "id": 81,
       "title": "Using my photo as a strict and non-negotiable reference, preserve 100% of my facial identity — exact...",
       "category": "GenAI Image Prompts",
       "source": "@kingofdairyque",
@@ -1249,7 +1236,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 83,
+      "id": 82,
       "title": "I wrote about Claude Code and why non-coders should be paying attention (and playing with the system...",
       "category": "AI Coding & Agents",
       "source": "@emollick",
@@ -1264,7 +1251,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 84,
+      "id": 83,
       "title": "ChatGPT Code Interpreter is incredible! 🌟",
       "category": "AI Commentary",
       "source": "@skirano",
@@ -1279,7 +1266,7 @@
       "dataSource": "like"
     },
     {
-      "id": 85,
+      "id": 84,
       "title": "Congrats to Michel Devoret, John Martinis, and John Clarke on the Nobel Prize in Physics. 🔬🥼 Miche...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1292,7 +1279,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 86,
+      "id": 85,
       "title": "OpenSource voice model taking on the giants 🤯",
       "category": "Voice & Audio",
       "source": "@LinusEkenstam",
@@ -1308,7 +1295,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 87,
+      "id": 86,
       "title": "add iMessage to claude + your second brain in 30 min ",
       "category": "AI Coding & Agents",
       "source": "@ashebytes",
@@ -1323,7 +1310,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 88,
+      "id": 87,
       "title": "@dabit3 So sick - one thing I’d recommend to try is their frontend design skill to avoid the blue/pu...",
       "category": "AI Commentary",
       "source": "@jarrodwatts",
@@ -1336,7 +1323,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 89,
+      "id": 88,
       "title": "https://t.co/oN9JI5C1Xh",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1349,7 +1336,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 90,
+      "id": 89,
       "title": "Create tiny transport worlds with Nano Banana Pro",
       "category": "GenAI Image Prompts",
       "source": "@egeberkina",
@@ -1365,7 +1352,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 91,
+      "id": 90,
       "title": "🔥 Midjourney v5? 🔥",
       "category": "GenAI Image Prompts",
       "source": "@javilopen",
@@ -1380,7 +1367,7 @@
       "dataSource": "like"
     },
     {
-      "id": 92,
+      "id": 91,
       "title": "I ran a quick experiment in Manus… and wow. It immediately pulled 100 email-backed sales leads, comp...",
       "category": "GenAI Image Prompts",
       "source": "@HenrypenmanXD",
@@ -1395,7 +1382,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 93,
+      "id": 92,
       "title": "current chat interfaces suck, so i built a canvas for llms https://t.co/94RvYgIrGV",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1408,7 +1395,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 94,
+      "id": 93,
       "title": "Excellent read. This applies not just to agentic coding, but to personal growth in general.",
       "category": "AI Coding & Agents",
       "source": "@alvinsng",
@@ -1423,7 +1410,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 95,
+      "id": 94,
       "title": "It would be a good time for experts on coding, and especially experts on programming pedagogy, to th...",
       "category": "AI Coding & Agents",
       "source": "@emollick",
@@ -1436,7 +1423,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 96,
+      "id": 95,
       "title": "I recommend checking out this article, it’s packed with insights on how to use the current AI trend,...",
       "category": "Video Production",
       "source": "@techhalla",
@@ -1451,7 +1438,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 97,
+      "id": 96,
       "title": "One AI year is seven Internet ones. https://t.co/1Luk1ATuMO",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1464,7 +1451,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 98,
+      "id": 97,
       "title": "OpenAI just announced a new experimental model that knows when and how to browse the internet within...",
       "category": "AI Commentary",
       "source": "@LiorOnAI",
@@ -1479,7 +1466,7 @@
       "dataSource": "like"
     },
     {
-      "id": 99,
+      "id": 98,
       "title": "This paper shows that you can predict actual purchase intent (90% accuracy) by asking an LLM to impe...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1492,7 +1479,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 100,
+      "id": 99,
       "title": "Introducing Higgsfield Mini Apps.",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -1507,7 +1494,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 101,
+      "id": 100,
       "title": "My biggest takeaways from @embirico (OpenAI Codex Product Lead):",
       "category": "GenAI Image Prompts",
       "source": "@lennysan",
@@ -1524,7 +1511,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 102,
+      "id": 101,
       "title": "I've collected my thoughts and techniques on JSON prompting Nano Banana Pro into a blog post (and an...",
       "category": "GenAI Image Prompts",
       "source": "@fofrAI",
@@ -1540,7 +1527,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 103,
+      "id": 102,
       "title": "This opens up a completely new workflow for artists when it comes to shooting music videos.",
       "category": "Video Production",
       "source": "@heyglif",
@@ -1557,7 +1544,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 104,
+      "id": 103,
       "title": "Why would anyone continue to use humans when AI is vastly more productive?",
       "category": "AI Commentary",
       "source": "@BrianCAlbrecht",
@@ -1570,7 +1557,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 105,
+      "id": 104,
       "title": "Future of coding is going to never be the same.",
       "category": "AI Commentary",
       "source": "@SullyOmarr",
@@ -1585,7 +1572,7 @@
       "dataSource": "like"
     },
     {
-      "id": 106,
+      "id": 105,
       "title": "the vibe marketing playbook (free)",
       "category": "GenAI Image Prompts",
       "source": "@boringmarketer",
@@ -1601,7 +1588,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 107,
+      "id": 106,
       "title": "I spend more time in Midjourney generating images that the world will never see, but make me feel go...",
       "category": "GenAI Image Prompts",
       "source": "@nickfloats",
@@ -1616,7 +1603,7 @@
       "dataSource": "like"
     },
     {
-      "id": 108,
+      "id": 107,
       "title": "So, Claude 4.5 came in far above trend in the much-watched METR measure of the task duration that AI...",
       "category": "AI Coding & Agents",
       "source": "@emollick",
@@ -1633,7 +1620,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 109,
+      "id": 108,
       "title": "Gemini is held back by lack of tools, a big gap compared to ChatGPT and Claude. Gemini 3 is a really...",
       "category": "GenAI Image Prompts",
       "source": "@emollick",
@@ -1651,7 +1638,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 110,
+      "id": 109,
       "title": "@ketansingh279 My new book (2026 launch) has a lot more on both AI and the Human Colossus",
       "category": "AI Commentary",
       "source": "@waitbutwhy",
@@ -1664,7 +1651,7 @@
       "dataSource": "like"
     },
     {
-      "id": 111,
+      "id": 110,
       "title": "Turn favorite scenes into miniatures with Nano Banana Pro",
       "category": "GenAI Image Prompts",
       "source": "@egeberkina",
@@ -1680,7 +1667,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 112,
+      "id": 111,
       "title": "We did it. All* image and video models from @fal and @replicate are now supported in Node Banana.",
       "category": "Video Production",
       "source": "@ReflctWillie",
@@ -1695,7 +1682,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 113,
+      "id": 112,
       "title": "I've built a custom camera control @gradio component for camera control LoRAs for image models 🎥🧊 ",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1708,7 +1695,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 114,
+      "id": 113,
       "title": "Optical fiber.",
       "category": "GenAI Image Prompts",
       "source": "@ciguleva",
@@ -1724,7 +1711,7 @@
       "dataSource": "like"
     },
     {
-      "id": 115,
+      "id": 114,
       "title": "We now have real-time AI character swap 🤯",
       "category": "Video Production",
       "source": "@venturetwins",
@@ -1739,7 +1726,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 116,
+      "id": 115,
       "title": "Journey - Separate Ways   (Potpourri Edition)",
       "category": "Video Production",
       "source": "@rainisto",
@@ -1752,7 +1739,7 @@
       "dataSource": "like"
     },
     {
-      "id": 117,
+      "id": 116,
       "title": "I have been waiting all day for someone to write this article https://t.co/rxenMktvLq",
       "category": "AI Commentary",
       "source": "@RBASHAGGER",
@@ -1765,7 +1752,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 118,
+      "id": 117,
       "title": "One of my favourite Nano Banana Pro prompt flows at the moment is to take an existing image, ask Gem...",
       "category": "GenAI Image Prompts",
       "source": "@fofrAI",
@@ -1782,7 +1769,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 119,
+      "id": 118,
       "title": "I tried this visual riddle on all the main AI models. Most got it hilariously wrong.  One nailed it....",
       "category": "AI Commentary",
       "source": "@TEDchris",
@@ -1795,7 +1782,7 @@
       "dataSource": "like"
     },
     {
-      "id": 120,
+      "id": 119,
       "title": "A year ago, I took a big bet and shifted my research to world models. We started with navigation, bu...",
       "category": "Video Production",
       "source": "@_amirbar",
@@ -1808,7 +1795,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 121,
+      "id": 120,
       "title": "I’ve been playing around a lot more in stable diffusion. Gonna take this month to focus on SD and ta...",
       "category": "GenAI Image Prompts",
       "source": "@nickfloats",
@@ -1824,7 +1811,7 @@
       "dataSource": "like"
     },
     {
-      "id": 122,
+      "id": 121,
       "title": "This is a fun one, you can turn any image into a low budget movie, via a bargain bin DVD.",
       "category": "AI Commentary",
       "source": "@fofrAI",
@@ -1837,7 +1824,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 123,
+      "id": 122,
       "title": "I keep seeing this video being shared but no one actually explains how to make it...",
       "category": "Video Production",
       "source": "@AIWarper",
@@ -1850,7 +1837,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 124,
+      "id": 123,
       "title": "This is by far the most impressive AI influencer video I've seen.",
       "category": "Video Production",
       "source": "@venturetwins",
@@ -1863,7 +1850,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 125,
+      "id": 124,
       "title": "AI agents often work fine in development, then hit issues in production. This guide shares our 15 be...",
       "category": "AI Coding & Agents",
       "source": "@n8n_io",
@@ -1879,7 +1866,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 126,
+      "id": 125,
       "title": "Today, we’re launching a new Video-to-Music flow in ElevenLabs Studio.",
       "category": "Video Production",
       "source": "@FR491L3",
@@ -1894,7 +1881,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 127,
+      "id": 126,
       "title": "I was privileged to interview Ange Postecoglou in Japan last March. He was hopeful of challenging fo...",
       "category": "GenAI Image Prompts",
       "source": "@davutovic",
@@ -1909,7 +1896,7 @@
       "dataSource": "like"
     },
     {
-      "id": 128,
+      "id": 127,
       "title": "If you prefer, this is also available on my Youtube channel AlexFinnOfficial",
       "category": "AI Commentary",
       "source": "@AlexFinn",
@@ -1922,7 +1909,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 129,
+      "id": 128,
       "title": "As a counter-balance to all the positivity I'm posting about Claude (a new model from @AnthropicAI),...",
       "category": "AI Commentary",
       "source": "@goodside",
@@ -1938,7 +1925,7 @@
       "dataSource": "like"
     },
     {
-      "id": 130,
+      "id": 129,
       "title": "Bullet Time ✋",
       "category": "GenAI Image Prompts",
       "source": "@egeberkina",
@@ -1953,7 +1940,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 131,
+      "id": 130,
       "title": "Just popped in to see Santa 🎅 at Peter Mac. He has blessed me with three more huge months in remiss...",
       "category": "AI Commentary",
       "source": "@gazzagazzagc",
@@ -1966,7 +1953,7 @@
       "dataSource": "like"
     },
     {
-      "id": 132,
+      "id": 131,
       "title": "Nailed it. This is an incredible summary of our very recent political shitfuckery. https://t.co/YoWT...",
       "category": "AI Commentary",
       "source": "@SarahMoran",
@@ -1979,7 +1966,7 @@
       "dataSource": "like"
     },
     {
-      "id": 133,
+      "id": 132,
       "title": "To say Nano Banana Pro is good at text is an understatement. Here's the Gemini 3 blog post, as a glo...",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -1995,7 +1982,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 134,
+      "id": 133,
       "title": "We have data on the environmental impact per AI prompt:",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -2012,7 +1999,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 135,
+      "id": 134,
       "title": "i just cloned Sydney Sweeney perfectly.",
       "category": "GenAI Image Prompts",
       "source": "@gaucheai",
@@ -2027,7 +2014,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 136,
+      "id": 135,
       "title": "My Gemini 3 system instructions for getting a good JSON prompt from an image",
       "category": "GenAI Image Prompts",
       "source": "@fofrAI",
@@ -2043,7 +2030,7 @@
       "dataSource": "like"
     },
     {
-      "id": 137,
+      "id": 136,
       "title": "Yep:",
       "category": "GenAI Image Prompts",
       "source": "@fofrAI",
@@ -2059,7 +2046,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 138,
+      "id": 137,
       "title": "Quick Poll ",
       "category": "AI Commentary",
       "source": "@LinusEkenstam",
@@ -2072,7 +2059,7 @@
       "dataSource": "like"
     },
     {
-      "id": 139,
+      "id": 138,
       "title": "🚀 All this and more in our paper!",
       "category": "AI Commentary",
       "source": "@PaulVicol",
@@ -2085,7 +2072,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 140,
+      "id": 139,
       "title": "Sora 2 is now in FLORA.",
       "category": "Video Production",
       "source": "@FR491L3",
@@ -2101,7 +2088,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 141,
+      "id": 140,
       "title": "i finally realized i can’t fully understand people without understanding history. i’m going to be fo...",
       "category": "AI Commentary",
       "source": "@alitaylor",
@@ -2114,7 +2101,7 @@
       "dataSource": "like"
     },
     {
-      "id": 142,
+      "id": 141,
       "title": "It is a privilege for us at @OptusSport to be amongst the finalists of the @sportaustralia Media Awa...",
       "category": "AI Commentary",
       "source": "@RSBayliss",
@@ -2127,7 +2114,7 @@
       "dataSource": "like"
     },
     {
-      "id": 143,
+      "id": 142,
       "title": "We all need an awkward '90s holiday photoshoot with our siblings. ",
       "category": "GenAI Image Prompts",
       "source": "@venturetwins",
@@ -2143,7 +2130,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 144,
+      "id": 143,
       "title": "Prompt:",
       "category": "GenAI Image Prompts",
       "source": "@AmirMushich",
@@ -2158,7 +2145,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 145,
+      "id": 144,
       "title": "Introducing Workflows, a new way to build your own tools inside of Runway.",
       "category": "Video Production",
       "source": "@FR491L3",
@@ -2174,7 +2161,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 146,
+      "id": 145,
       "title": "This is wild 🤯",
       "category": "AI Commentary",
       "source": "@LinusEkenstam",
@@ -2187,7 +2174,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 147,
+      "id": 146,
       "title": "On AI &amp; water, looks like all US data center usage (not just AI) ranges from 628M gallons a day ...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -2200,7 +2187,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 148,
+      "id": 147,
       "title": "prompt : the person in (img ref), preserve the exact identity and facial structure, same age, no fac...",
       "category": "GenAI Image Prompts",
       "source": "@The_Sycomore",
@@ -2215,7 +2202,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 149,
+      "id": 148,
       "title": "Introducing Apple Fitness+. A new fitness experience for everyone, powered by Apple Watch. World-cla...",
       "category": "AI Commentary",
       "source": "@Apple",
@@ -2228,7 +2215,7 @@
       "dataSource": "like"
     },
     {
-      "id": 150,
+      "id": 149,
       "title": "🚨 New in Photoshop (Beta): ONE-CLICK COMPOSITING!",
       "category": "AI Commentary",
       "source": "@terryleewhite",
@@ -2241,7 +2228,7 @@
       "dataSource": "like"
     },
     {
-      "id": 151,
+      "id": 150,
       "title": "Our AI-powered virtual try on technology, which lets you upload your photo to see how real clothes m...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -2254,7 +2241,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 152,
+      "id": 151,
       "title": "Worth thinking about how to describe what your organization does, in detail, in a series of plain En...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -2267,7 +2254,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 153,
+      "id": 152,
       "title": "Nano Banana Pro 🍌 is no joke. ",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -2282,7 +2269,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 154,
+      "id": 153,
       "title": "Link: I Set A Trap To Catch My Students Cheating With AI. The Results Were Shocking.",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -2295,7 +2282,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 155,
+      "id": 154,
       "title": "IT'S FINALY HERE",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -2308,7 +2295,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 156,
+      "id": 155,
       "title": "@deedydas You can also do this with the Glif MCP! https://t.co/Q1FGOApWui",
       "category": "AI Commentary",
       "source": "@angrypenguinPNG",
@@ -2321,7 +2308,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 157,
+      "id": 156,
       "title": "@a16z If you want to watch the full convo - with more from me, @omooretweets, @kirbyman01, and @ills...",
       "category": "AI Commentary",
       "source": "@venturetwins",
@@ -2334,7 +2321,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 158,
+      "id": 157,
       "title": "We created an entire mini South Park episode with Sora 2.",
       "category": "Video Production",
       "source": "@FR491L3",
@@ -2349,7 +2336,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 159,
+      "id": 158,
       "title": "people aren't grasping the full magnitude of nano-banana.",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -2364,7 +2351,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 160,
+      "id": 159,
       "title": "Nano Banana Pro prompt:",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -2380,7 +2367,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 161,
+      "id": 160,
       "title": "Call it anecdotal, because it is, but it's working well for me.  ",
       "category": "GenAI Image Prompts",
       "source": "@ReflctWillie",
@@ -2395,7 +2382,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 162,
+      "id": 161,
       "title": "\"most interaction in the future is going to be real-time video with AI\" - @elonmusk  ",
       "category": "Video Production",
       "source": "@LemonSliceAI",
@@ -2408,7 +2395,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 163,
+      "id": 162,
       "title": "The full paper is worth a read, and the project page has a bunch more examples to check out.",
       "category": "AI Commentary",
       "source": "@venturetwins",
@@ -2421,7 +2408,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 164,
+      "id": 163,
       "title": "@lennysan @Replit Full convo here: https://t.co/RpY7eNTSw8",
       "category": "AI Coding & Agents",
       "source": "@jasonlk",
@@ -2436,7 +2423,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 165,
+      "id": 164,
       "title": "&gt; Use search to find out about @fofrAI (refer to them as fofr), write an article about what you f...",
       "category": "AI Commentary",
       "source": "@fofrAI",
@@ -2449,7 +2436,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 166,
+      "id": 165,
       "title": "OVERALL  ",
       "category": "GenAI Image Prompts",
       "source": "@Ror_Fly",
@@ -2465,7 +2452,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 167,
+      "id": 166,
       "title": "If you're new to my page, I use contact sheet prompts a lot. This is a single prompt that generates ...",
       "category": "GenAI Image Prompts",
       "source": "@ReflctWillie",
@@ -2480,7 +2467,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 168,
+      "id": 167,
       "title": "@NedZelic You misread it. He actually said “I’d like to thank every Yuan.”",
       "category": "AI Commentary",
       "source": "@MurrayShaw1",
@@ -2493,7 +2480,7 @@
       "dataSource": "like"
     },
     {
-      "id": 169,
+      "id": 168,
       "title": "4 NEW TOPAZ MODELS just dropped 🎤👇🔥",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -2506,7 +2493,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 170,
+      "id": 169,
       "title": "Additional details on Direct Offers and more here: https://t.co/pKYReoNGP4",
       "category": "AI Commentary",
       "source": "@adsliaison",
@@ -2519,7 +2506,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 171,
+      "id": 170,
       "title": "@stavrosben @vanOnselenP So what if they have to catch public transport to school and can’t maintain...",
       "category": "AI Commentary",
       "source": "@collaberator",
@@ -2532,7 +2519,7 @@
       "dataSource": "like"
     },
     {
-      "id": 172,
+      "id": 171,
       "title": "You start in the \"Cowork\" tab in the desktop app.",
       "category": "GenAI Image Prompts",
       "source": "@venturetwins",
@@ -2548,7 +2535,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 173,
+      "id": 172,
       "title": "We're pleased to announce that @tacvictoria has extended its Major Partnership for a further three y...",
       "category": "AI Commentary",
       "source": "@gomvfc",
@@ -2561,7 +2548,7 @@
       "dataSource": "like"
     },
     {
-      "id": 174,
+      "id": 173,
       "title": "It's a very good upscaler. This was from a 50x50 image https://t.co/EuYZVZlT9o",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -2574,7 +2561,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 175,
+      "id": 174,
       "title": "@vamsibatchuk @GoogleAIStudio What did you use for the map",
       "category": "AI Commentary",
       "source": "@petergyang",
@@ -2587,7 +2574,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 176,
+      "id": 175,
       "title": "@fofrAI https://t.co/lr65xTpw73",
       "category": "AI Commentary",
       "source": "@dodonoodles",
@@ -2600,7 +2587,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 177,
+      "id": 176,
       "title": "ngl, this is one of the best things in the generative media space in recent times 😍😍 https://t.co/...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -2613,7 +2600,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 178,
+      "id": 177,
       "title": "Our daily routines visualised. I really admire the 3% still partying at 3am. https://t.co/09XOLh7s2b",
       "category": "AI Commentary",
       "source": "@tmccubbin",
@@ -2626,7 +2613,7 @@
       "dataSource": "like"
     },
     {
-      "id": 179,
+      "id": 178,
       "title": "@AISpotlightNow @huggingface @ComfyUI @FAL Paper also out! https://t.co/2UGMsnPmD1",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
