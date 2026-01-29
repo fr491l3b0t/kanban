@@ -127,6 +127,8 @@
     
     .mode-btn:hover { border-color: var(--text-secondary); }
     .mode-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+    .mode-btn.add-btn { margin-left: auto; background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+    .mode-btn.add-btn:hover { background: var(--accent); color: white; }
     
     /* SEARCH / CHAT INPUT */
     .input-container {
@@ -680,6 +682,7 @@
     <div class="mode-toggle">
       <button class="mode-btn active" data-mode="browse">📚 BROWSE</button>
       <button class="mode-btn" data-mode="chat">💬 ASK AI</button>
+      <button class="mode-btn add-btn" onclick="openAddModal()">+ ADD</button>
     </div>
     
     <!-- BROWSE MODE -->
@@ -721,6 +724,24 @@
   <!-- Toast Container -->
   <div class="toast-container" id="toastContainer"></div>
   
+  <!-- Add Entry Modal -->
+  <div class="modal-overlay hidden" id="addModal">
+    <div class="modal-box" style="max-width:440px;">
+      <h3>+ Add Entry</h3>
+      <input type="text" id="addTitle" placeholder="Title *">
+      <input type="url" id="addUrl" placeholder="URL *">
+      <select id="addCategory"></select>
+      <input type="text" id="addSource" placeholder="Source (e.g. @username)">
+      <textarea id="addSummary" placeholder="Summary" style="width:100%;padding:10px 12px;font-family:'JetBrains Mono',monospace;font-size:13px;background:var(--bg);border:1px solid var(--border);color:var(--text);margin-bottom:16px;min-height:60px;resize:vertical;"></textarea>
+      <input type="text" id="addTags" placeholder="Tags (comma-separated)">
+      <input type="password" id="addPassword" placeholder="Admin password *">
+      <div class="modal-buttons">
+        <button class="modal-cancel" onclick="closeAddModal()">Cancel</button>
+        <button class="modal-confirm" style="background:var(--accent);border-color:var(--accent);" onclick="confirmAdd()">Add</button>
+      </div>
+    </div>
+  </div>
+  
   <!-- Edit Modal -->
   <div class="modal-overlay hidden" id="editModal">
     <div class="modal-box">
@@ -749,7 +770,7 @@
   </div>
   
   <script>
-    const PROXY_URL = 'https://ssl-trusted-worldwide-sentences.trycloudflare.com/search'; // Secure backend via Cloudflare Tunnel
+    const PROXY_URL = 'https://forgot-want-determination-harley.trycloudflare.com/search'; // Secure backend via Cloudflare Tunnel
     let data = { entries: [], categories: [] };
     let activeCategory = 'All';
     let currentMode = 'browse';
@@ -970,6 +991,84 @@
         const category = e.target.dataset.category;
         openEditModal(id, title, category);
       }
+    });
+    
+    // Add functionality
+    function openAddModal() {
+      document.getElementById('addTitle').value = '';
+      document.getElementById('addUrl').value = '';
+      document.getElementById('addSource').value = '';
+      document.getElementById('addSummary').value = '';
+      document.getElementById('addTags').value = '';
+      document.getElementById('addPassword').value = '';
+      
+      // Populate category dropdown
+      const select = document.getElementById('addCategory');
+      select.innerHTML = data.categories.map(cat => 
+        `<option value="${cat}">${cat}</option>`
+      ).join('');
+      
+      document.getElementById('addModal').classList.remove('hidden');
+      document.getElementById('addTitle').focus();
+    }
+    
+    function closeAddModal() {
+      document.getElementById('addModal').classList.add('hidden');
+    }
+    
+    async function confirmAdd() {
+      const title = document.getElementById('addTitle').value.trim();
+      const url = document.getElementById('addUrl').value.trim();
+      const category = document.getElementById('addCategory').value;
+      const source = document.getElementById('addSource').value.trim();
+      const summary = document.getElementById('addSummary').value.trim();
+      const tagsRaw = document.getElementById('addTags').value.trim();
+      const password = document.getElementById('addPassword').value;
+      
+      if (!title || !url) {
+        showToast('Title and URL are required', 'warning');
+        return;
+      }
+      if (!password) {
+        showToast('Please enter password', 'warning');
+        return;
+      }
+      
+      const tags = tagsRaw ? tagsRaw.split(',').map(t => t.trim()).filter(t => t) : [];
+      
+      const addUrl = PROXY_URL.replace('/search', '/add');
+      
+      try {
+        const res = await fetch(addUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ 
+            password,
+            entry: { title, url, category, source, summary, tags }
+          })
+        });
+        
+        const result = await res.json();
+        
+        if (result.error) {
+          showToast(result.error, 'error');
+          return;
+        }
+        
+        showToast(`Added! Now ${result.total} entries.`, 'success');
+        closeAddModal();
+        loadData();
+      } catch (e) {
+        showToast('Failed to add: ' + e.message, 'error');
+      }
+    }
+    
+    document.getElementById('addPassword').addEventListener('keypress', e => {
+      if (e.key === 'Enter') confirmAdd();
+    });
+    
+    document.getElementById('addModal').addEventListener('click', e => {
+      if (e.target.id === 'addModal') closeAddModal();
     });
     
     // Edit functionality
