@@ -408,7 +408,7 @@
       color: var(--accent);
     }
     
-    .delete-btn {
+    .edit-btn, .delete-btn {
       font-family: 'JetBrains Mono', monospace;
       font-size: 9px;
       padding: 4px 8px;
@@ -419,12 +419,38 @@
       text-transform: uppercase;
       letter-spacing: 0.05em;
       transition: all 0.15s;
-      margin-left: auto;
+    }
+    
+    .edit-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
     }
     
     .delete-btn:hover {
       border-color: #ff4444;
       color: #ff4444;
+    }
+    
+    .card-actions {
+      display: flex;
+      gap: 4px;
+      margin-left: auto;
+    }
+    
+    .modal-box select {
+      width: 100%;
+      padding: 10px 12px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      margin-bottom: 16px;
+    }
+    
+    .modal-box select:focus {
+      outline: none;
+      border-color: var(--accent);
     }
     
     .modal-overlay {
@@ -695,6 +721,20 @@
   <!-- Toast Container -->
   <div class="toast-container" id="toastContainer"></div>
   
+  <!-- Edit Modal -->
+  <div class="modal-overlay hidden" id="editModal">
+    <div class="modal-box">
+      <h3>✏️ Edit Entry</h3>
+      <p style="font-size:12px;color:var(--text-secondary);margin-bottom:12px;" id="editEntryTitle"></p>
+      <select id="editCategory"></select>
+      <input type="password" id="editPassword" placeholder="Enter admin password">
+      <div class="modal-buttons">
+        <button class="modal-cancel" onclick="closeEditModal()">Cancel</button>
+        <button class="modal-confirm" style="background:var(--accent);border-color:var(--accent);" onclick="confirmEdit()">Save</button>
+      </div>
+    </div>
+  </div>
+  
   <!-- Delete Modal -->
   <div class="modal-overlay hidden" id="deleteModal">
     <div class="modal-box">
@@ -709,7 +749,7 @@
   </div>
   
   <script>
-    const PROXY_URL = 'https://laws-off-division-adds.trycloudflare.com/search'; // Secure backend via Cloudflare Tunnel
+    const PROXY_URL = 'https://ssl-trusted-worldwide-sentences.trycloudflare.com/search'; // Secure backend via Cloudflare Tunnel
     let data = { entries: [], categories: [] };
     let activeCategory = 'All';
     let currentMode = 'browse';
@@ -882,7 +922,10 @@
             <span class="card-id">${String(i + 1).padStart(3, '0')}</span>
             <h3 class="card-title"><a href="${entry.url}" target="_blank">${highlightMatch(entry.title, words)}</a></h3>
             <span class="card-category">${entry.category}</span>
-            <button class="delete-btn" data-id="${entry.id}" data-title="${escapeHtml(entry.title)}">×</button>
+            <div class="card-actions">
+              <button class="edit-btn" data-id="${entry.id}" data-title="${escapeHtml(entry.title)}" data-category="${entry.category}">✎</button>
+              <button class="delete-btn" data-id="${entry.id}" data-title="${escapeHtml(entry.title)}">×</button>
+            </div>
           </div>
           <div class="card-meta">${entry.source} · ${entry.date}</div>
           <p class="card-summary">${highlightMatch(entry.summary, words)}</p>
@@ -914,13 +957,87 @@
     
     document.getElementById('search').addEventListener('input', renderResults);
     
-    // Delegate delete button clicks
+    // Delegate button clicks
     document.getElementById('results').addEventListener('click', e => {
       if (e.target.classList.contains('delete-btn')) {
         const id = e.target.dataset.id;
         const title = e.target.dataset.title;
         openDeleteModal(id, title);
       }
+      if (e.target.classList.contains('edit-btn')) {
+        const id = e.target.dataset.id;
+        const title = e.target.dataset.title;
+        const category = e.target.dataset.category;
+        openEditModal(id, title, category);
+      }
+    });
+    
+    // Edit functionality
+    let editEntryId = null;
+    
+    function openEditModal(entryId, title, currentCategory) {
+      editEntryId = entryId;
+      document.getElementById('editEntryTitle').textContent = title;
+      
+      // Populate category dropdown
+      const select = document.getElementById('editCategory');
+      select.innerHTML = data.categories.map(cat => 
+        `<option value="${cat}" ${cat === currentCategory ? 'selected' : ''}>${cat}</option>`
+      ).join('');
+      
+      document.getElementById('editPassword').value = '';
+      document.getElementById('editModal').classList.remove('hidden');
+      document.getElementById('editCategory').focus();
+    }
+    
+    function closeEditModal() {
+      document.getElementById('editModal').classList.add('hidden');
+      editEntryId = null;
+    }
+    
+    async function confirmEdit() {
+      const password = document.getElementById('editPassword').value;
+      const newCategory = document.getElementById('editCategory').value;
+      
+      if (!password) {
+        showToast('Please enter password', 'warning');
+        return;
+      }
+      
+      const updateUrl = PROXY_URL.replace('/search', '/update');
+      
+      try {
+        const res = await fetch(updateUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ 
+            entryId: editEntryId, 
+            password,
+            updates: { category: newCategory }
+          })
+        });
+        
+        const result = await res.json();
+        
+        if (result.error) {
+          showToast(result.error, 'error');
+          return;
+        }
+        
+        showToast(`Updated to ${newCategory}`, 'success');
+        closeEditModal();
+        loadData();
+      } catch (e) {
+        showToast('Failed to update: ' + e.message, 'error');
+      }
+    }
+    
+    document.getElementById('editPassword').addEventListener('keypress', e => {
+      if (e.key === 'Enter') confirmEdit();
+    });
+    
+    document.getElementById('editModal').addEventListener('click', e => {
+      if (e.target.id === 'editModal') closeEditModal();
     });
     
     // Delete functionality
