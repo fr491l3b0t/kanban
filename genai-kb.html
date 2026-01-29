@@ -534,6 +534,101 @@
       padding: 0 3px;
     }
     
+    /* TOAST NOTIFICATIONS */
+    .toast-container {
+      position: fixed;
+      top: 24px;
+      right: 24px;
+      z-index: 2000;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .toast {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 14px 18px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      animation: slideIn 0.2s ease-out;
+      max-width: 340px;
+    }
+    
+    .toast.success {
+      border-color: #22c55e;
+    }
+    
+    .toast.success::before {
+      content: '✓';
+      color: #22c55e;
+      font-weight: bold;
+    }
+    
+    .toast.error {
+      border-color: #ef4444;
+    }
+    
+    .toast.error::before {
+      content: '✕';
+      color: #ef4444;
+      font-weight: bold;
+    }
+    
+    .toast.warning {
+      border-color: var(--accent);
+    }
+    
+    .toast.warning::before {
+      content: '!';
+      color: var(--accent);
+      font-weight: bold;
+    }
+    
+    .toast-message {
+      flex: 1;
+      line-height: 1.4;
+    }
+    
+    .toast-close {
+      background: none;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 14px;
+      padding: 0;
+      line-height: 1;
+    }
+    
+    .toast-close:hover {
+      color: var(--text);
+    }
+    
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
+    @keyframes slideOut {
+      from {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      to {
+        opacity: 0;
+        transform: translateX(20px);
+      }
+    }
+    
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--border); }
@@ -597,6 +692,9 @@
     </footer>
   </div>
   
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+  
   <!-- Delete Modal -->
   <div class="modal-overlay hidden" id="deleteModal">
     <div class="modal-box">
@@ -615,6 +713,23 @@
     let data = { entries: [], categories: [] };
     let activeCategory = 'All';
     let currentMode = 'browse';
+    
+    // Toast notification system
+    function showToast(message, type = 'info', duration = 4000) {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      toast.className = `toast ${type}`;
+      toast.innerHTML = `
+        <span class="toast-message">${message}</span>
+        <button class="toast-close" onclick="this.parentElement.remove()">×</button>
+      `;
+      container.appendChild(toast);
+      
+      setTimeout(() => {
+        toast.style.animation = 'slideOut 0.2s ease-out forwards';
+        setTimeout(() => toast.remove(), 200);
+      }, duration);
+    }
     
     // Theme
     const theme = localStorage.getItem('theme') || 'dark';
@@ -827,7 +942,7 @@
     async function confirmDelete() {
       const password = document.getElementById('deletePassword').value;
       if (!password) {
-        alert('Please enter password');
+        showToast('Please enter password', 'warning');
         return;
       }
       
@@ -846,17 +961,17 @@
         console.log('Response:', result);
         
         if (result.error) {
-          alert('❌ Error: ' + result.error);
+          showToast(result.error, 'error');
           return;
         }
         
-        alert('✅ Deleted! ' + result.remaining + ' entries remaining.');
+        showToast(`Deleted! ${result.remaining} entries remaining.`, 'success');
         closeDeleteModal();
         // Reload data
         loadData();
       } catch (e) {
         console.error('Delete failed:', e);
-        alert('❌ Failed to delete: ' + e.message);
+        showToast('Failed to delete: ' + e.message, 'error');
       }
     }
     
