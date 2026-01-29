@@ -8,13 +8,33 @@
     "Video Production",
     "Voice & Audio"
   ],
-  "totalEntries": 187,
+  "totalEntries": 188,
   "sources": {
     "bookmarks": 200,
     "likes": 119,
     "reposts": 50
   },
   "entries": [
+    {
+      "id": 188,
+      "title": "Ecommerce Applications for Nano Banana using Weavy.ai",
+      "category": "GenAI Image Prompts",
+      "source": "@danielsetzermann",
+      "date": "2026-01-29",
+      "url": "https://www.danielsetzermann.com/ecommerce-applications-for-nano-banana-using-weavy-ai/",
+      "summary": "5 ecommerce/product photography workflows using Nano Banana (Gemini 2.5 Flash) in Weavy.ai: complex packaging with pre-prompted scenes, background exchange, scene creation from product shots, multi-element composition, pattern extraction + video generation.",
+      "content": "Workflows covered:\n1) Complex Packaging - Pre-prompt scene with Imagen 4, combine with product via Nano Banana\n2) Simple Background Exchange - Basic prompt, solid results, upscale after\n3) Scene from Product Shot - Retains product details while creating realistic scene\n4) Multi-element Composition - Background removal, Imagen 4 scene, compositor for positioning, Nano Banana combine\n5) Pattern Extraction + Video - Extract pattern with Nano Banana, generate motion with Higgsfield, composite product on video\n\nTools: Weavy.ai, Nano Banana (Gemini 2.5 Flash), Google Imagen 4, Higgsfield",
+      "tags": [
+        "nano-banana",
+        "weavy",
+        "ecommerce",
+        "product-photography",
+        "workflow",
+        "imagen"
+      ],
+      "engagement": 0,
+      "dataSource": "manual"
+    },
     {
       "id": 1,
       "title": "This runner exited a train, ran to the next stop, on got back on the same train https://t.co/mk8PPyn...",
