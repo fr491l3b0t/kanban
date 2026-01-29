@@ -9,7 +9,7 @@
     "Video Production",
     "Voice & Audio"
   ],
-  "totalEntries": 174,
+  "totalEntries": 175,
   "sources": {
     "bookmarks": 200,
     "likes": 119,
@@ -2569,6 +2569,24 @@
       "tags": [],
       "engagement": 1,
       "dataSource": "repost"
+    },
+    {
+      "id": 175,
+      "title": "Variant.ai - Endless Design Generation",
+      "category": "GenAI Image Prompts",
+      "source": "variant.ai",
+      "date": "2026-01-29",
+      "url": "https://variant.ai/",
+      "summary": "AI design generator that shows endless variations instead of requiring precise prompts. Like working with a creative director that never gets tired. Input prompt or image, scroll through generated design options.",
+      "content": null,
+      "tags": [
+        "design",
+        "ui",
+        "moodboard",
+        "concepting"
+      ],
+      "engagement": 0,
+      "dataSource": "manual"
     }
   ]
 }
