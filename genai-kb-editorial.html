@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GenAI Knowledgebase — Raphael Ruz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    :root {
+      --bg: #f8f6f3;
+      --surface: #ffffff;
+      --surface-alt: #f0ede8;
+      --border: #e5e0d8;
+      --text: #2d3748;
+      --text-secondary: #5a6577;
+      --text-dim: #9ca3af;
+      --accent: #e07a7a;
+      --accent-hover: #d66a6a;
+      --accent-dim: rgba(224, 122, 122, 0.12);
+      --navy: #3a4a5a;
+    }
+    
+    [data-theme="dark"] {
+      --bg: #1a1a1a;
+      --surface: #242424;
+      --surface-alt: #2a2a2a;
+      --border: #3a3a3a;
+      --text: #f0ede8;
+      --text-secondary: #a8a8a8;
+      --text-dim: #666;
+      --accent: #e88b8b;
+      --accent-hover: #f09999;
+      --accent-dim: rgba(232, 139, 139, 0.15);
+      --navy: #2d3748;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      min-height: 100vh;
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.7;
+      transition: background 0.4s, color 0.4s;
+    }
+    
+    .serif {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+    }
+    
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    
+    /* HERO */
+    .hero {
+      background: var(--navy);
+      padding: 60px 24px 50px;
+      text-align: center;
+    }
+    
+    .hero-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 400;
+      color: var(--accent);
+      letter-spacing: 0.02em;
+      margin-bottom: 12px;
+    }
+    
+    .hero-subtitle {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: rgba(255,255,255,0.5);
+    }
+    
+    .hero-stats {
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+    
+    .stat {
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 2rem;
+      font-weight: 500;
+      color: white;
+    }
+    
+    .stat-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: rgba(255,255,255,0.4);
+      margin-top: 4px;
+    }
+    
+    /* CONTAINER */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+    
+    /* HEADER CONTROLS */
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 32px;
+    }
+    
+    .mode-toggle {
+      display: flex;
+      gap: 0;
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    
+    .mode-btn {
+      padding: 10px 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      background: var(--surface);
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .mode-btn:not(:last-child) {
+      border-right: 1px solid var(--border);
+    }
+    
+    .mode-btn:hover { color: var(--text-secondary); }
+    .mode-btn.active { 
+      background: var(--accent); 
+      color: white;
+    }
+    
+    .theme-toggle {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      padding: 10px 14px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+    
+    .theme-toggle:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    
+    /* SEARCH */
+    .search-container {
+      position: relative;
+      margin-bottom: 32px;
+    }
+    
+    .search-box {
+      width: 100%;
+      padding: 18px 24px;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 18px;
+      font-style: italic;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      outline: none;
+      transition: all 0.3s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    
+    .search-box:focus {
+      border-color: var(--accent);
+      box-shadow: 0 4px 20px rgba(224, 122, 122, 0.1);
+    }
+    
+    .search-box::placeholder { 
+      color: var(--text-dim);
+    }
+    
+    /* FILTERS */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+    
+    .filter-btn {
+      padding: 8px 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .filter-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    
+    .filter-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+    }
+    
+    /* RESULTS INFO */
+    .results-info {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-dim);
+    }
+    
+    /* CARDS */
+    .results {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 24px;
+      transition: all 0.25s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    
+    .card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 8px 30px rgba(224, 122, 122, 0.08);
+      transform: translateY(-2px);
+    }
+    
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 8px;
+    }
+    
+    .card-id {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--accent);
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+    
+    .card-title {
+      flex: 1;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.3;
+    }
+    
+    .card-title a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    .card-title a:hover { color: var(--accent); }
+    
+    .card-category {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      padding: 5px 10px;
+      background: var(--accent-dim);
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      flex-shrink: 0;
+    }
+    
+    .card-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+    
+    .card-summary {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text-secondary);
+    }
+    
+    .card-content {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      line-height: 1.6;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      padding: 14px;
+      margin-top: 14px;
+      white-space: pre-wrap;
+      max-height: 120px;
+      overflow-y: auto;
+      color: var(--text-secondary);
+    }
+    
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 14px;
+    }
+    
+    .tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      padding: 4px 8px;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      transition: all 0.2s;
+    }
+    
+    .tag:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    
+    .delete-btn {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      padding: 4px 8px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: all 0.15s;
+      margin-left: 8px;
+    }
+    
+    .delete-btn:hover {
+      border-color: #e53e3e;
+      color: #e53e3e;
+    }
+    
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-dim);
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 18px;
+      font-style: italic;
+    }
+    
+    /* CHAT MODE */
+    .browse-container, .chat-container {
+      display: none;
+    }
+    
+    .browse-container.active, .chat-container.active {
+      display: block;
+    }
+    
+    .chat-messages {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      min-height: 350px;
+      max-height: 500px;
+      overflow-y: auto;
+      margin-bottom: 16px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    
+    .message {
+      margin-bottom: 20px;
+    }
+    
+    .message:last-child { margin-bottom: 0; }
+    
+    .message-role {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--text-dim);
+      margin-bottom: 8px;
+    }
+    
+    .message-role.user { color: var(--accent); }
+    
+    .message-content {
+      font-size: 15px;
+      line-height: 1.8;
+    }
+    
+    .chat-input-row {
+      display: flex;
+      gap: 12px;
+    }
+    
+    .chat-input {
+      flex: 1;
+      padding: 16px 20px;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 17px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      outline: none;
+      transition: all 0.3s;
+    }
+    
+    .chat-input:focus {
+      border-color: var(--accent);
+    }
+    
+    .send-btn {
+      padding: 16px 28px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      background: var(--accent);
+      border: none;
+      color: white;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .send-btn:hover { background: var(--accent-hover); }
+    .send-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    
+    /* ACCENT BAR */
+    .accent-bar {
+      height: 3px;
+      background: var(--accent);
+    }
+    
+    /* FOOTER */
+    footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+    }
+    
+    .footer-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .footer-brand {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    
+    .footer-brand .prompt {
+      color: var(--accent);
+    }
+    
+    .footer-links {
+      display: flex;
+      gap: 20px;
+    }
+    
+    .footer-links a {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-dim);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    .footer-links a:hover { color: var(--accent); }
+    
+    /* MODAL */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    
+    .modal-overlay.hidden { display: none; }
+    
+    .modal-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 32px;
+      max-width: 380px;
+      width: 90%;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    }
+    
+    .modal-box h3 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    
+    .modal-box .modal-desc {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 20px;
+    }
+    
+    .modal-box input {
+      width: 100%;
+      padding: 12px 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      color: var(--text);
+      margin-bottom: 20px;
+    }
+    
+    .modal-box input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    
+    .modal-buttons {
+      display: flex;
+      gap: 12px;
+    }
+    
+    .modal-buttons button {
+      flex: 1;
+      padding: 12px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+    }
+    
+    .modal-cancel {
+      background: transparent;
+      color: var(--text-secondary);
+    }
+    
+    .modal-cancel:hover {
+      border-color: var(--text-secondary);
+    }
+    
+    .modal-confirm {
+      background: #e53e3e;
+      border-color: #e53e3e;
+      color: white;
+    }
+    
+    .modal-confirm:hover {
+      background: #c53030;
+    }
+    
+    /* TOAST */
+    .toast-container {
+      position: fixed;
+      top: 24px;
+      right: 24px;
+      z-index: 2000;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .toast {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 16px 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      animation: slideIn 0.3s ease-out;
+      max-width: 360px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    }
+    
+    .toast.success { border-left: 3px solid #22c55e; }
+    .toast.success::before { content: '✓'; color: #22c55e; }
+    .toast.error { border-left: 3px solid #e53e3e; }
+    .toast.error::before { content: '✕'; color: #e53e3e; }
+    .toast.warning { border-left: 3px solid var(--accent); }
+    .toast.warning::before { content: '!'; color: var(--accent); }
+    
+    .toast-close {
+      background: none;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 16px;
+      padding: 0;
+      margin-left: auto;
+    }
+    
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(20px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    
+    mark {
+      background: var(--accent);
+      color: white;
+      padding: 1px 4px;
+    }
+    
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--surface-alt); }
+    ::-webkit-scrollbar-thumb { background: var(--border); }
+    
+    @media (max-width: 600px) {
+      .hero { padding: 40px 20px 30px; }
+      .hero-stats { flex-direction: column; gap: 16px; }
+      .controls { flex-direction: column; gap: 12px; }
+      .mode-toggle { width: 100%; }
+      .mode-btn { flex: 1; }
+      .footer-inner { flex-direction: column; gap: 12px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1 class="hero-title">GenAI Knowledgebase</h1>
+    <p class="hero-subtitle">Curated prompts, techniques & tools</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-value" id="totalEntries">—</div>
+        <div class="stat-label">Entries</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="totalCategories">—</div>
+        <div class="stat-label">Categories</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="controls">
+      <div class="mode-toggle">
+        <button class="mode-btn active" data-mode="browse">Browse</button>
+        <button class="mode-btn" data-mode="chat">Ask AI</button>
+      </div>
+      <button class="theme-toggle" id="themeToggle" title="Toggle theme">◐</button>
+    </div>
+    
+    <!-- BROWSE MODE -->
+    <div class="browse-container active" id="browseContainer">
+      <div class="search-container">
+        <input type="text" class="search-box" id="search" placeholder="Search the collection..." autofocus>
+      </div>
+      
+      <div class="filters" id="filters"></div>
+      
+      <div class="results-info" id="resultsInfo">
+        <span>Showing <strong>0</strong></span>
+        <span>—</span>
+      </div>
+      
+      <div class="results" id="results"></div>
+    </div>
+    
+    <!-- CHAT MODE -->
+    <div class="chat-container" id="chatContainer">
+      <div class="chat-messages" id="chatMessages">
+        <div class="message">
+          <div class="message-role">Assistant</div>
+          <div class="message-content">Ask me anything about your GenAI collection — prompts, techniques, tools, workflows. I'll search and summarize for you.</div>
+        </div>
+      </div>
+      <div class="chat-input-row">
+        <input type="text" class="chat-input" id="chatInput" placeholder="e.g. How do I create miniature dioramas?">
+        <button class="send-btn" id="sendBtn">Send</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="accent-bar"></div>
+  
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand"><span class="prompt">&gt;_</span> Raphael Ruz</div>
+      <div class="footer-links">
+        <a href="index.html">Board</a>
+        <a href="genai-kb.html">Classic</a>
+        <a href="https://github.com/fr491l3b0t/kanban">GitHub</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+  
+  <!-- Delete Modal -->
+  <div class="modal-overlay hidden" id="deleteModal">
+    <div class="modal-box">
+      <h3>Delete Entry</h3>
+      <p class="modal-desc" id="deleteEntryTitle"></p>
+      <input type="password" id="deletePassword" placeholder="Enter admin password">
+      <div class="modal-buttons">
+        <button class="modal-cancel" onclick="closeDeleteModal()">Cancel</button>
+        <button class="modal-confirm" onclick="confirmDelete()">Delete</button>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    const PROXY_URL = 'https://laws-off-division-adds.trycloudflare.com/search';
+    let data = { entries: [], categories: [] };
+    let activeCategory = 'All';
+    let currentMode = 'browse';
+    
+    // Toast
+    function showToast(message, type = 'info', duration = 4000) {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      toast.className = `toast ${type}`;
+      toast.innerHTML = `<span>${message}</span><button class="toast-close" onclick="this.parentElement.remove()">×</button>`;
+      container.appendChild(toast);
+      setTimeout(() => {
+        toast.style.animation = 'slideIn 0.3s ease-out reverse forwards';
+        setTimeout(() => toast.remove(), 300);
+      }, duration);
+    }
+    
+    // Theme
+    const theme = localStorage.getItem('kb-theme') || 'light';
+    document.documentElement.setAttribute('data-theme', theme);
+    
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('kb-theme', next);
+    });
+    
+    // Mode toggle
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentMode = btn.dataset.mode;
+        document.getElementById('browseContainer').classList.toggle('active', currentMode === 'browse');
+        document.getElementById('chatContainer').classList.toggle('active', currentMode === 'chat');
+        if (currentMode === 'chat') document.getElementById('chatInput').focus();
+        else document.getElementById('search').focus();
+      });
+    });
+    
+    // Chat
+    async function sendChat() {
+      const input = document.getElementById('chatInput');
+      const query = input.value.trim();
+      if (!query) return;
+      
+      addMessage(query, 'user');
+      input.value = '';
+      document.getElementById('sendBtn').disabled = true;
+      
+      const typingDiv = addMessage('Thinking...', 'assistant', true);
+      
+      try {
+        const context = data.entries.slice(0, 100).map(e => 
+          `[${e.title}] (${e.category}) by ${e.source}\n${e.summary}\n${e.url}`
+        ).join('\n---\n');
+        
+        const res = await fetch(PROXY_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query, context })
+        });
+        
+        const result = await res.json();
+        typingDiv.remove();
+        addMessage(result.error ? 'Error: ' + result.error : result.response, 'assistant');
+      } catch (e) {
+        typingDiv.remove();
+        addMessage('Failed to connect to AI. Try Browse mode or message @FR491L3B0T on Telegram.', 'assistant');
+      }
+      
+      document.getElementById('sendBtn').disabled = false;
+    }
+    
+    function addMessage(content, role, isTyping = false) {
+      const messages = document.getElementById('chatMessages');
+      const div = document.createElement('div');
+      div.className = 'message';
+      div.innerHTML = `
+        <div class="message-role ${role}">${role === 'user' ? 'You' : 'Assistant'}</div>
+        <div class="message-content" style="${isTyping ? 'color: var(--text-dim); font-style: italic;' : ''}">${formatMarkdown(content)}</div>
+      `;
+      messages.appendChild(div);
+      messages.scrollTop = messages.scrollHeight;
+      return div;
+    }
+    
+    function formatMarkdown(text) {
+      return text
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/`([^`]+)`/g, '<code style="font-family: JetBrains Mono, monospace; font-size: 13px; background: var(--surface-alt); padding: 2px 6px;">$1</code>')
+        .replace(/\n/g, '<br>');
+    }
+    
+    document.getElementById('sendBtn').addEventListener('click', sendChat);
+    document.getElementById('chatInput').addEventListener('keypress', e => {
+      if (e.key === 'Enter') sendChat();
+    });
+    
+    // Browse
+    async function loadData() {
+      try {
+        const response = await fetch('genai-kb.json');
+        data = await response.json();
+        document.getElementById('totalEntries').textContent = data.totalEntries || data.entries.length;
+        document.getElementById('totalCategories').textContent = data.categories?.length || '—';
+        renderFilters();
+        renderResults();
+      } catch (e) {
+        document.getElementById('results').innerHTML = '<div class="empty-state">Failed to load collection</div>';
+      }
+    }
+    
+    function renderFilters() {
+      const filters = document.getElementById('filters');
+      const cats = ['All', ...data.categories];
+      filters.innerHTML = cats.map(cat => 
+        `<button class="filter-btn ${cat === activeCategory ? 'active' : ''}" data-cat="${cat}">${cat}</button>`
+      ).join('');
+      
+      filters.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeCategory = btn.dataset.cat;
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderResults();
+        });
+      });
+    }
+    
+    function renderResults() {
+      const query = document.getElementById('search').value.toLowerCase().trim();
+      const results = document.getElementById('results');
+      const words = query.split(/\s+/).filter(w => w.length > 1);
+      
+      let filtered = data.entries.filter(entry => {
+        const matchesCategory = activeCategory === 'All' || entry.category === activeCategory;
+        if (!matchesCategory) return false;
+        if (!query) return true;
+        
+        const searchText = [entry.title, entry.summary, entry.content || '', entry.source, (entry.tags || []).join(' ')].join(' ').toLowerCase();
+        return words.every(word => searchText.includes(word));
+      });
+      
+      document.getElementById('resultsInfo').innerHTML = `
+        <span>Showing <strong>${filtered.length}</strong></span>
+        <span>${activeCategory !== 'All' ? activeCategory : 'All Categories'}</span>
+      `;
+      
+      if (filtered.length === 0) {
+        results.innerHTML = `<div class="empty-state">No matches found</div>`;
+        return;
+      }
+      
+      results.innerHTML = filtered.slice(0, 50).map((entry, i) => `
+        <div class="card" data-entry-id="${entry.id}">
+          <div class="card-header">
+            <span class="card-id">${String(i + 1).padStart(3, '0')}</span>
+            <h3 class="card-title"><a href="${entry.url}" target="_blank">${highlightMatch(entry.title, words)}</a></h3>
+            <span class="card-category">${entry.category}</span>
+            <button class="delete-btn" data-id="${entry.id}" data-title="${escapeHtml(entry.title)}">×</button>
+          </div>
+          <div class="card-meta">${entry.source} · ${entry.date}</div>
+          <p class="card-summary">${highlightMatch(entry.summary, words)}</p>
+          ${entry.content ? `<div class="card-content">${escapeHtml(entry.content)}</div>` : ''}
+          ${entry.tags?.length ? `<div class="card-tags">${entry.tags.map(t => `<span class="tag" onclick="searchTag('${t}')">${t}</span>`).join('')}</div>` : ''}
+        </div>
+      `).join('');
+    }
+    
+    function highlightMatch(text, words) {
+      if (!words.length) return escapeHtml(text);
+      let result = escapeHtml(text);
+      words.forEach(word => {
+        result = result.replace(new RegExp(`(${word})`, 'gi'), '<mark>$1</mark>');
+      });
+      return result;
+    }
+    
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text || '';
+      return div.innerHTML;
+    }
+    
+    function searchTag(tag) {
+      document.getElementById('search').value = tag;
+      renderResults();
+    }
+    
+    document.getElementById('search').addEventListener('input', renderResults);
+    
+    // Delete
+    document.getElementById('results').addEventListener('click', e => {
+      if (e.target.classList.contains('delete-btn')) {
+        openDeleteModal(e.target.dataset.id, e.target.dataset.title);
+      }
+    });
+    
+    let deleteEntryId = null;
+    
+    function openDeleteModal(entryId, title) {
+      deleteEntryId = entryId;
+      document.getElementById('deleteEntryTitle').textContent = title;
+      document.getElementById('deletePassword').value = '';
+      document.getElementById('deleteModal').classList.remove('hidden');
+      document.getElementById('deletePassword').focus();
+    }
+    
+    function closeDeleteModal() {
+      document.getElementById('deleteModal').classList.add('hidden');
+      deleteEntryId = null;
+    }
+    
+    async function confirmDelete() {
+      const password = document.getElementById('deletePassword').value;
+      if (!password) {
+        showToast('Please enter password', 'warning');
+        return;
+      }
+      
+      try {
+        const res = await fetch(PROXY_URL.replace('/search', '/delete'), {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ entryId: deleteEntryId, password })
+        });
+        
+        const result = await res.json();
+        
+        if (result.error) {
+          showToast(result.error, 'error');
+          return;
+        }
+        
+        showToast(`Deleted! ${result.remaining} entries remaining.`, 'success');
+        closeDeleteModal();
+        loadData();
+      } catch (e) {
+        showToast('Failed to delete: ' + e.message, 'error');
+      }
+    }
+    
+    document.getElementById('deletePassword').addEventListener('keypress', e => {
+      if (e.key === 'Enter') confirmDelete();
+    });
+    
+    document.getElementById('deleteModal').addEventListener('click', e => {
+      if (e.target.id === 'deleteModal') closeDeleteModal();
+    });
+    
+    loadData();
+  </script>
+</body>
+</html>
