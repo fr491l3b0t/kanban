@@ -1,0 +1,447 @@
+{
+  "lastUpdated": "2026-01-29",
+  "categories": [
+    "GenAI Image Prompts",
+    "AI Coding & Agents",
+    "Clawdbot",
+    "AI Commentary",
+    "Productivity",
+    "Video Production"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "title": "Nano Banana Pro — JSON Prompting",
+      "category": "GenAI Image Prompts",
+      "source": "@fofrAI",
+      "date": "2026-01-06",
+      "url": "https://x.com/fofrAI/status/2008646099163328516",
+      "summary": "Meta-prompt for converting descriptions into detailed JSON prompts. Covers dynamic fields, subject specificity, aesthetic goals.",
+      "tags": ["nano-banana", "json-prompting", "image-gen", "meta-prompt"],
+      "content": "Full blog: https://fofr.ai/posts/json-prompting-image-flash\n\nKey: Dynamic fields for subject types, remove irrelevant fields, always include constraints and negative_prompt. Be precise on lighting, camera, medium specificity."
+    },
+    {
+      "id": 2,
+      "title": "Nano Banana Pro — Miniature Diorama JSON",
+      "category": "GenAI Image Prompts",
+      "source": "@egeberkina",
+      "date": "2026-01-24",
+      "url": "https://x.com/egeberkina/status/2015125749804454163",
+      "summary": "Turn scenes into collectible-scale miniature dioramas. Full JSON structure provided.",
+      "tags": ["nano-banana", "diorama", "miniature", "json-prompting"],
+      "content": "Comprehensive JSON covering: reference_images, concept, environment (tabletop scale, white backdrop), objects_and_elements, composition (isometric 3/4), camera (35-50mm), lighting (soft studio), materials. Also works for Matrix 'Bullet Time' recreation."
+    },
+    {
+      "id": 3,
+      "title": "Nano Banana Pro — Figurine/Miniature Selfie",
+      "category": "GenAI Image Prompts",
+      "source": "@regyperlera",
+      "date": "2026-01-10",
+      "url": "https://x.com/regyperlera/status/2010024069874512106",
+      "summary": "Simple prompt for creating personal figurines from selfies.",
+      "tags": ["nano-banana", "figurine", "selfie", "simple-prompt"],
+      "content": "Prompt: 'Make a miniature, full-body, isometric, realistic figurine of this person, wearing ABC, doing XYZ, on a white background, minimal, 4K resolution.'\n\nProcess: Google AI Studio → Nano Banana Pro → upload selfie → prompt."
+    },
+    {
+      "id": 4,
+      "title": "Nano Banana Pro — JSON Variant Generation",
+      "category": "GenAI Image Prompts",
+      "source": "@fofrAI",
+      "date": "2026-01-05",
+      "url": "https://x.com/fofrAI/status/2008146816039108995",
+      "summary": "Workflow for generating variations while preserving vibe/aesthetic.",
+      "tags": ["nano-banana", "variants", "workflow"],
+      "content": "1. Take existing image\n2. Ask Gemini 3 Pro to make JSON prompt\n3. Run prompt to test fidelity\n4. Run with variant prefix: 'Generate new image with SIGNIFICANTLY different nouns, objects, color palette and pose... CRITICAL: Strictly preserve original vibe, aesthetic, mood.'"
+    },
+    {
+      "id": 5,
+      "title": "Nano Banana Pro — Diagram Suite (Weavy)",
+      "category": "GenAI Image Prompts",
+      "source": "@Ror_Fly",
+      "date": "2026-01-03",
+      "url": "https://x.com/Ror_Fly/status/2007520142335324671",
+      "summary": "Visual forensics workflow: 1 image → 16 forensic diagrams.",
+      "tags": ["weavy", "diagram", "visual-forensics", "analysis"],
+      "content": "16 system prompts analyzing: Geometry, Spacing, Composition, Light, Color, Narrative, Optics, Surface Materials, Psychology, Flow, Tokenizer. Full workflow in thread."
+    },
+    {
+      "id": 6,
+      "title": "Nano Banana Pro — Camera Angle Control",
+      "category": "GenAI Image Prompts",
+      "source": "@ReflctWillie",
+      "date": "2026-01-02",
+      "url": "https://x.com/ReflctWillie/status/2007000456909013080",
+      "summary": "Detailed reference-based prompting for camera angle control.",
+      "tags": ["nano-banana", "camera-control", "reference-based"],
+      "content": "Technique: 'Analyze the reference images and catalog all minor details... Show me a view from a high angle looking down at the car at an angle.' Specify exact character positions, color matching, placement matching."
+    },
+    {
+      "id": 7,
+      "title": "Node Banana — All FAL + Replicate Models",
+      "category": "GenAI Image Prompts",
+      "source": "@ReflctWillie",
+      "date": "2026-01-15",
+      "url": "https://x.com/ReflctWillie/status/2011774502053855235",
+      "summary": "Node Banana supports all image/video models from FAL and Replicate. Free and open source.",
+      "tags": ["node-banana", "fal", "replicate", "open-source"]
+    },
+    {
+      "id": 8,
+      "title": "Krea AI — Realtime Edit",
+      "category": "GenAI Image Prompts",
+      "source": "@krea_ai",
+      "date": "2026-01-22",
+      "url": "https://x.com/krea_ai/status/2014363086212493777",
+      "summary": "Edit images with complex instructions in real time. Like Nano Banana but for editing.",
+      "tags": ["krea", "realtime", "editing"]
+    },
+    {
+      "id": 9,
+      "title": "Kling Motion Control",
+      "category": "Video Production",
+      "source": "@techhalla",
+      "date": "2026-01-19",
+      "url": "https://x.com/techhalla/status/2013192528741216291",
+      "summary": "Insights on using Kling Motion Control for AI video.",
+      "tags": ["kling", "motion-control", "video"]
+    },
+    {
+      "id": 10,
+      "title": "Glif MCP — Creative Engine for Claude Code",
+      "category": "AI Coding & Agents",
+      "source": "@angrypenguinPNG",
+      "date": "2026-01-07",
+      "url": "https://x.com/angrypenguinPNG/status/2008758989992120819",
+      "summary": "Turn Claude Code into creative engine with access to Nano Banana Pro, Kling, Veo 3.",
+      "tags": ["glif", "mcp", "claude-code", "creative"]
+    },
+    {
+      "id": 11,
+      "title": "Karpathy — Claude Coding Notes (MUST READ)",
+      "category": "AI Coding & Agents",
+      "source": "@karpathy",
+      "date": "2026-01-26",
+      "url": "https://x.com/karpathy/status/2015883857489522876",
+      "summary": "Andrej Karpathy's workflow: 80% agent + 20% manual. 'Programming in English now.' 33K+ likes.",
+      "tags": ["karpathy", "claude-code", "workflow", "must-read"],
+      "content": "Key insights:\n- Models make subtle conceptual errors (hasty junior dev)\n- Wrong assumptions, no clarifications sought\n- Too sycophantic, overcomplicate code\n- 'Stamina is core bottleneck, LLMs dramatically increased it'\n- 'Don't tell it what to do, give success criteria'\n- Programming MORE fun (drudgery removed)\n- 'Slopacolypse' coming 2026\n\nWorkflow: Claude Code sessions in ghostty (left), IDE for viewing (right)."
+    },
+    {
+      "id": 12,
+      "title": "Vibe Marketing Playbook (Free)",
+      "category": "AI Coding & Agents",
+      "source": "@boringmarketer",
+      "date": "2026-01-22",
+      "url": "https://x.com/boringmarketer/status/2014440228635676904",
+      "summary": "Free playbook: prompts, skills, MCPs for marketing/knowledge work.",
+      "tags": ["marketing", "playbook", "free", "claude-code"],
+      "content": "Covers: prompt stacking, skills, MCPs, Claude Code for marketing, agency/SaaS/ecom use cases, frameworks for search/ads/email/landing pages.\n\nLink: https://thevibemarketer.com/vibe-marketing-playbook.html"
+    },
+    {
+      "id": 13,
+      "title": "YC Vibe Coding Guide",
+      "category": "AI Coding & Agents",
+      "source": "@uttam_singhk",
+      "date": "2026-01-03",
+      "url": "https://x.com/uttam_singhk/status/2007366453864120366",
+      "summary": "Y Combinator's guide to vibe coding. Images in thread.",
+      "tags": ["yc", "vibe-coding", "guide"]
+    },
+    {
+      "id": 14,
+      "title": "Claude Code + Replit Masterclass (53 min)",
+      "category": "AI Coding & Agents",
+      "source": "@mattyp",
+      "date": "2026-01-08",
+      "url": "https://x.com/mattyp/status/2009063326366736512",
+      "summary": "Comprehensive masterclass covering dev vs prod, cloud, parallel agents, Obsidian notes.",
+      "tags": ["replit", "claude-code", "masterclass", "video"],
+      "content": "Timestamps:\n02:22 Dev vs prod\n05:30 Local vs Replit\n10:30 Cloud advantages\n14:07 Parallel agents from mobile\n25:15 Claude Code inside Replit\n44:30 Personal notes with Obsidian\n46:50 Agent SDK\n48:30 Tips & tricks"
+    },
+    {
+      "id": 15,
+      "title": "Claude Agent SDK Tutorial",
+      "category": "AI Coding & Agents",
+      "source": "@dabit3",
+      "date": "2026-01-08",
+      "url": "https://x.com/dabit3/status/2009139688959852701",
+      "summary": "TLDR tutorial for Claude Agent SDK.",
+      "tags": ["agent-sdk", "tutorial", "claude"]
+    },
+    {
+      "id": 16,
+      "title": "Andrew Ng — Vibe Coding Course",
+      "category": "AI Coding & Agents",
+      "source": "@AndrewYNg",
+      "date": "2026-01-07",
+      "url": "https://x.com/AndrewYNg/status/2008956639894786402",
+      "summary": "30-min course for non-coders. Vendor neutral (ChatGPT, Gemini, Claude).",
+      "tags": ["andrew-ng", "course", "beginner", "free"],
+      "content": "Link: https://deeplearning.ai/short-courses/vibe-coding/"
+    },
+    {
+      "id": 17,
+      "title": "Greg Isenberg — Claude Code for Beginners (31 min)",
+      "category": "AI Coding & Agents",
+      "source": "@gregisenberg",
+      "date": "2026-01-19",
+      "url": "https://x.com/gregisenberg/status/2013363146191237574",
+      "summary": "'Most CLEAR explanation on how ANYONE can get started with Claude Code'",
+      "tags": ["beginner", "claude-code", "video"]
+    },
+    {
+      "id": 18,
+      "title": "Remotion Agent Skills — Video Generation",
+      "category": "AI Coding & Agents",
+      "source": "@Remotion",
+      "date": "2026-01-20",
+      "url": "https://x.com/Remotion/status/2013626968386765291",
+      "summary": "Make videos with Claude Code via Remotion skills.",
+      "tags": ["remotion", "video", "skills"],
+      "content": "Install: npx skills add remotion-dev/skills"
+    },
+    {
+      "id": 19,
+      "title": "n8n — 15 Best Practices for AI Agents in Production",
+      "category": "AI Coding & Agents",
+      "source": "@n8n_io",
+      "date": "2026-01-20",
+      "url": "https://x.com/n8n_io/status/2013552152958967942",
+      "summary": "Guide on deploying, scaling, monitoring AI agents.",
+      "tags": ["n8n", "production", "best-practices"],
+      "content": "Blog: https://n8n.io/blog/ai-agents-production-best-practices"
+    },
+    {
+      "id": 20,
+      "title": "ElevenLabs Voice Agent (Dental Example)",
+      "category": "AI Coding & Agents",
+      "source": "@recap_david",
+      "date": "2026-01-15",
+      "url": "https://x.com/recap_david/status/2011837106398904609",
+      "summary": "n8n + ElevenLabs voice receptionist for 24/7 appointment booking.",
+      "tags": ["elevenlabs", "voice", "n8n", "automation"]
+    },
+    {
+      "id": 21,
+      "title": "Claude Code for Marketing Demo",
+      "category": "AI Coding & Agents",
+      "source": "@SavannahFeder",
+      "date": "2026-01-15",
+      "url": "https://x.com/SavannahFeder/status/2011875544783339868",
+      "summary": "'Does a marketer's work in minutes by browsing, clicking, posting like a human.'",
+      "tags": ["marketing", "demo", "automation"]
+    },
+    {
+      "id": 22,
+      "title": "Claude Code + Chrome for Google Analytics",
+      "category": "AI Coding & Agents",
+      "source": "@adocomplete",
+      "date": "2026-01-08",
+      "url": "https://x.com/adocomplete/status/2009396906867544367",
+      "summary": "One prompt → nice GA dashboards. 'Claude Code for Chrome is really something else.'",
+      "tags": ["chrome", "analytics", "dashboard"]
+    },
+    {
+      "id": 23,
+      "title": "Cowork Tab for Image Gen",
+      "category": "AI Coding & Agents",
+      "source": "@venturetwins",
+      "date": "2026-01-14",
+      "url": "https://x.com/venturetwins/status/2011485594619424859",
+      "summary": "Claude Desktop 'Cowork' tab opens browser, searches, generates images on Krea.",
+      "tags": ["cowork", "desktop", "image-gen"]
+    },
+    {
+      "id": 24,
+      "title": "Claude Code for Corrupted Video Recovery",
+      "category": "AI Coding & Agents",
+      "source": "@zulali",
+      "date": "2026-01-05",
+      "url": "https://x.com/zulali/status/2008290170161033271",
+      "summary": "Recovered 512GB corrupted wedding footage using PhotoRec + FFMPEG reconstruction.",
+      "tags": ["recovery", "video", "ffmpeg", "real-world"]
+    },
+    {
+      "id": 25,
+      "title": "Alex Finn — Mac Studio + Opus Brain",
+      "category": "Clawdbot",
+      "source": "@AlexFinn",
+      "date": "2026-01-25",
+      "url": "https://x.com/AlexFinn/status/2015503517314936898",
+      "summary": "$10k Mac Studio for Clawdbot 'Henry' — Opus brain + local model swarm.",
+      "tags": ["clawdbot", "mac-studio", "opus", "setup"]
+    },
+    {
+      "id": 26,
+      "title": "Alex Finn — Restaurant Reservation via Voice",
+      "category": "Clawdbot",
+      "source": "@AlexFinn",
+      "date": "2026-01-25",
+      "url": "https://x.com/AlexFinn/status/2015266546600550755",
+      "summary": "Clawdbot made reservation. When OpenTable failed, used ElevenLabs to call restaurant.",
+      "tags": ["clawdbot", "voice", "reservation", "elevenlabs"]
+    },
+    {
+      "id": 27,
+      "title": "Scoble — Ultimate Clawdbot Report",
+      "category": "Clawdbot",
+      "source": "@Scobleizer",
+      "date": "2026-01-25",
+      "url": "https://x.com/Scobleizer/status/2015346738517942628",
+      "summary": "Comprehensive Clawdbot report from @blevlabs (38K AI community posts analyzed).",
+      "tags": ["clawdbot", "report", "analysis"],
+      "content": "Link: https://blevlabs.com/clawdbot-report"
+    },
+    {
+      "id": 28,
+      "title": "Peter Steinberger — 'I ship code I never read'",
+      "category": "Clawdbot",
+      "source": "@steipete",
+      "date": "2025-12-29",
+      "url": "https://x.com/steipete/status/2005451576971043097",
+      "summary": "Clawdbot creator's 2025 workflow confession.",
+      "tags": ["clawdbot", "steipete", "workflow"]
+    },
+    {
+      "id": 29,
+      "title": "iMessage + Second Brain Setup (30 min)",
+      "category": "Clawdbot",
+      "source": "@ashebytes",
+      "date": "2026-01-12",
+      "url": "https://x.com/ashebytes/status/2010551477731754436",
+      "summary": "Tutorial: iMessage + second brain for vibe coding beginners.",
+      "tags": ["clawdbot", "imessage", "second-brain", "tutorial"]
+    },
+    {
+      "id": 30,
+      "title": "Ethan Mollick — Claude Code for Non-Coders",
+      "category": "AI Commentary",
+      "source": "@emollick",
+      "date": "2026-01-07",
+      "url": "https://x.com/emollick/status/2009043516643832029",
+      "summary": "Why non-coders should care. Built business + civilization sim game.",
+      "tags": ["mollick", "non-coders", "commentary"]
+    },
+    {
+      "id": 31,
+      "title": "Ethan Mollick — Gemini 3 Tools Gap",
+      "category": "AI Commentary",
+      "source": "@emollick",
+      "date": "2026-01-13",
+      "url": "https://x.com/emollick/status/2010873228365906180",
+      "summary": "Gemini 3 good model but lacks tools vs ChatGPT/Claude. Can't DO things.",
+      "tags": ["gemini", "tools", "comparison"]
+    },
+    {
+      "id": 32,
+      "title": "Aaron Levie — AI Agent Deployment Opportunity",
+      "category": "AI Commentary",
+      "source": "@levie",
+      "date": "2026-01-07",
+      "url": "https://x.com/levie/status/2008746912569283060",
+      "summary": "'Biggest opportunity: be the person helping your org understand and deploy AI agents.'",
+      "tags": ["levie", "opportunity", "enterprise"]
+    },
+    {
+      "id": 33,
+      "title": "Eric Jiang — Internal AI Transformation Person",
+      "category": "AI Commentary",
+      "source": "@veggie_eric",
+      "date": "2026-01-06",
+      "url": "https://x.com/veggie_eric/status/2008628192509383018",
+      "summary": "Every company should hire someone with latitude to clean up inefficiencies with LLMs.",
+      "tags": ["enterprise", "transformation", "hiring"]
+    },
+    {
+      "id": 34,
+      "title": "Shane Legg — Post-AGI Economics Hiring",
+      "category": "AI Commentary",
+      "source": "@ShaneLegg",
+      "date": "2026-01-22",
+      "url": "https://x.com/ShaneLegg/status/2014345509675155639",
+      "summary": "DeepMind co-founder hiring Senior Economist for post-AGI economics research.",
+      "tags": ["deepmind", "economics", "agi"]
+    },
+    {
+      "id": 35,
+      "title": "Brian Albrecht — Productivity Dispersion Argument",
+      "category": "AI Commentary",
+      "source": "@BrianCAlbrecht",
+      "date": "2026-01-05",
+      "url": "https://x.com/BrianCAlbrecht/status/2008207103467377108",
+      "summary": "Why AI won't eliminate all human labor. 30-40x productivity gaps exist even in semiconductors.",
+      "tags": ["economics", "labor", "nuanced"]
+    },
+    {
+      "id": 36,
+      "title": "Adam Mosseri — AI's Effect on Creators",
+      "category": "AI Commentary",
+      "source": "@bearlyai",
+      "date": "2025-12-31",
+      "url": "https://x.com/bearlyai/status/2006474217206985085",
+      "summary": "9 takeaways: authenticity reproducible, raw aesthetic = credibility, default skepticism of media.",
+      "tags": ["instagram", "creators", "authenticity"]
+    },
+    {
+      "id": 37,
+      "title": "Hollywood vs AI Video Production",
+      "category": "Video Production",
+      "source": "@minchoi",
+      "date": "2026-01-14",
+      "url": "https://x.com/minchoi/status/2011446019142348947",
+      "summary": "10 examples of creatives using Veo, Kling, Hailuo. Character swaps at negligible cost.",
+      "tags": ["video", "veo", "kling", "hailuo", "production"]
+    },
+    {
+      "id": 38,
+      "title": "GPU Performance Optimization (Walking Explainer)",
+      "category": "AI Commentary",
+      "source": "@Hesamation",
+      "date": "2026-01-07",
+      "url": "https://x.com/Hesamation/status/2009012165123195342",
+      "summary": "5 GPU optimization methods for LLMs explained simply while walking.",
+      "tags": ["gpu", "optimization", "beginner"]
+    },
+    {
+      "id": 39,
+      "title": "AI Influencer Makeup Video",
+      "category": "AI Commentary",
+      "source": "@venturetwins",
+      "date": "2026-01-25",
+      "url": "https://x.com/venturetwins/status/2015475441302384933",
+      "summary": "'Most impressive AI influencer video' — AI character doing detailed makeup trend.",
+      "tags": ["influencer", "video", "impressive"]
+    },
+    {
+      "id": 40,
+      "title": "Sundar Pichai — Universal Commerce Protocol",
+      "category": "AI Commentary",
+      "source": "@sundarpichai",
+      "date": "2026-01-11",
+      "url": "https://x.com/sundarpichai/status/2010382050570932299",
+      "summary": "Google + Shopify/Etsy/Walmart open standard for agent shopping. UCP powers native checkout.",
+      "tags": ["google", "commerce", "agents", "ucp"]
+    },
+    {
+      "id": 41,
+      "title": "CEO Personal Productivity System (One-Shot)",
+      "category": "Productivity",
+      "source": "@RohunJauhar",
+      "date": "2025-12-30",
+      "url": "https://x.com/RohunJauhar/status/2006147267959644303",
+      "summary": "Single prompt builds entire 2026 productivity system: annual planning, reviews, frameworks.",
+      "tags": ["productivity", "prompt", "planning"],
+      "content": "Includes: Gustin Annual Review, Ferriss Ideal Lifestyle Costing, Robbins Vivid Vision, Lieberman Life Map. Full prompt in tweet."
+    },
+    {
+      "id": 42,
+      "title": "Loveable for Video Production",
+      "category": "Video Production",
+      "source": "@noahmorris",
+      "date": "2026-01-18",
+      "url": "https://x.com/noahmorris/status/2012833630196793811",
+      "summary": "AI that does video production team's work in minutes — writing, researching, editing.",
+      "tags": ["loveable", "video", "production"]
+    }
+  ]
+}

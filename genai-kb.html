@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GenAI Knowledgebase — Raphael's Reference Library</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 100%);
+      min-height: 100vh;
+      color: #e4e4e7;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    h1 .accent { color: #f97316; }
+    
+    .subtitle {
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+    
+    .search-container {
+      margin-bottom: 20px;
+    }
+    
+    .search-box {
+      width: 100%;
+      padding: 14px 20px;
+      font-size: 1rem;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      color: #fff;
+      outline: none;
+      transition: all 0.2s;
+    }
+    
+    .search-box:focus {
+      border-color: #f97316;
+      background: rgba(255,255,255,0.08);
+    }
+    
+    .search-box::placeholder { color: rgba(255,255,255,0.4); }
+    
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    
+    .filter-btn {
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      color: #e4e4e7;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .filter-btn:hover { background: rgba(255,255,255,0.1); }
+    .filter-btn.active { background: #f97316; border-color: #f97316; color: #000; }
+    
+    .stats {
+      font-size: 0.85rem;
+      opacity: 0.5;
+      margin-bottom: 20px;
+    }
+    
+    .results {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      padding: 20px;
+      transition: all 0.2s;
+    }
+    
+    .card:hover {
+      background: rgba(255,255,255,0.05);
+      border-color: rgba(255,255,255,0.15);
+    }
+    
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+    
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    
+    .card-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    .card-title a:hover { color: #f97316; }
+    
+    .card-category {
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      background: rgba(249, 115, 22, 0.2);
+      color: #f97316;
+      border-radius: 12px;
+      white-space: nowrap;
+    }
+    
+    .card-meta {
+      font-size: 0.85rem;
+      opacity: 0.6;
+      margin-bottom: 10px;
+    }
+    
+    .card-summary {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+    
+    .card-content {
+      font-size: 0.85rem;
+      line-height: 1.6;
+      background: rgba(0,0,0,0.2);
+      padding: 12px;
+      border-radius: 8px;
+      white-space: pre-wrap;
+      font-family: 'Monaco', 'Menlo', monospace;
+      margin-bottom: 12px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    
+    .tag {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 6px;
+      opacity: 0.7;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .nav-links a {
+      color: #f97316;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    
+    .nav-links a:hover { text-decoration: underline; }
+    
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      opacity: 0.5;
+    }
+    
+    @media (max-width: 600px) {
+      .card-header { flex-direction: column; gap: 8px; }
+      .filters { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><span class="accent">GenAI</span> Knowledgebase</h1>
+      <p class="subtitle">Curated from Raphael's X bookmarks • Searchable reference library</p>
+    </header>
+    
+    <div class="search-container">
+      <input type="text" class="search-box" id="search" placeholder="Search prompts, techniques, tools..." autofocus>
+    </div>
+    
+    <div class="filters" id="filters"></div>
+    
+    <div class="stats" id="stats"></div>
+    
+    <div class="results" id="results"></div>
+    
+    <nav class="nav-links">
+      <a href="index.html">← Project Board</a>
+      <a href="https://github.com/fr491l3b0t/kanban">GitHub</a>
+    </nav>
+  </div>
+  
+  <script>
+    let data = { entries: [], categories: [] };
+    let activeCategory = 'All';
+    
+    async function loadData() {
+      try {
+        const response = await fetch('genai-kb.json');
+        data = await response.json();
+        renderFilters();
+        renderResults();
+      } catch (e) {
+        document.getElementById('results').innerHTML = '<div class="empty-state">Failed to load knowledgebase</div>';
+      }
+    }
+    
+    function renderFilters() {
+      const filters = document.getElementById('filters');
+      const cats = ['All', ...data.categories];
+      filters.innerHTML = cats.map(cat => 
+        `<button class="filter-btn ${cat === activeCategory ? 'active' : ''}" data-cat="${cat}">${cat}</button>`
+      ).join('');
+      
+      filters.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeCategory = btn.dataset.cat;
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderResults();
+        });
+      });
+    }
+    
+    function renderResults() {
+      const query = document.getElementById('search').value.toLowerCase();
+      const results = document.getElementById('results');
+      const stats = document.getElementById('stats');
+      
+      let filtered = data.entries.filter(entry => {
+        const matchesCategory = activeCategory === 'All' || entry.category === activeCategory;
+        const matchesSearch = !query || 
+          entry.title.toLowerCase().includes(query) ||
+          entry.summary.toLowerCase().includes(query) ||
+          (entry.content && entry.content.toLowerCase().includes(query)) ||
+          (entry.tags && entry.tags.some(t => t.toLowerCase().includes(query))) ||
+          entry.source.toLowerCase().includes(query);
+        return matchesCategory && matchesSearch;
+      });
+      
+      stats.textContent = `${filtered.length} of ${data.entries.length} entries${query ? ` matching "${query}"` : ''}`;
+      
+      if (filtered.length === 0) {
+        results.innerHTML = '<div class="empty-state">No matching entries found</div>';
+        return;
+      }
+      
+      results.innerHTML = filtered.map(entry => `
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title"><a href="${entry.url}" target="_blank">${entry.title}</a></h3>
+            <span class="card-category">${entry.category}</span>
+          </div>
+          <div class="card-meta">${entry.source} • ${entry.date}</div>
+          <p class="card-summary">${entry.summary}</p>
+          ${entry.content ? `<div class="card-content">${escapeHtml(entry.content)}</div>` : ''}
+          ${entry.tags ? `<div class="card-tags">${entry.tags.map(t => `<span class="tag">#${t}</span>`).join('')}</div>` : ''}
+        </div>
+      `).join('');
+    }
+    
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+    
+    document.getElementById('search').addEventListener('input', renderResults);
+    loadData();
+  </script>
+</body>
+</html>
