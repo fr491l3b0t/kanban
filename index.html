@@ -20,6 +20,8 @@
       --text-dim: #555;
       --accent: #ff4d00;
       --accent-dim: rgba(255, 77, 0, 0.15);
+      --note-bg: #1a1a0a;
+      --note-border: #4a4a00;
     }
     
     [data-theme="light"] {
@@ -32,6 +34,8 @@
       --text-dim: #999;
       --accent: #ff4d00;
       --accent-dim: rgba(255, 77, 0, 0.1);
+      --note-bg: #fffef0;
+      --note-border: #e0d000;
     }
     
     body {
@@ -44,17 +48,10 @@
       transition: background 0.3s, color 0.3s;
     }
     
-    .mono {
-      font-family: 'JetBrains Mono', monospace;
-    }
+    .mono { font-family: 'JetBrains Mono', monospace; }
     
-    .container {
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 24px;
-    }
+    .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
     
-    /* HEADER */
     header {
       display: flex;
       justify-content: space-between;
@@ -78,11 +75,7 @@
     .logo .accent { color: var(--accent); }
     .logo .dim { color: var(--text-dim); }
     
-    .header-right {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
+    .header-right { display: flex; align-items: center; gap: 12px; }
     
     .last-updated {
       font-family: 'JetBrains Mono', monospace;
@@ -92,39 +85,36 @@
       color: var(--text-dim);
     }
     
-    .theme-toggle {
+    .header-btn {
       background: var(--surface);
       border: 1px solid var(--border);
       color: var(--text-secondary);
       padding: 6px 10px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 12px;
+      font-family: 'JetBrains Mono', monospace;
       transition: all 0.2s;
     }
     
-    .theme-toggle:hover {
+    .header-btn:hover {
       border-color: var(--accent);
       color: var(--accent);
     }
     
-    /* BOARD */
-    .board {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
+    .header-btn.has-notes {
+      border-color: var(--note-border);
+      color: #d4a000;
     }
     
-    @media (max-width: 1200px) {
-      .board { grid-template-columns: repeat(2, 1fr); }
-    }
+    .board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
     
+    @media (max-width: 1200px) { .board { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 600px) {
       .board { grid-template-columns: 1fr; }
       header { flex-direction: column; gap: 12px; }
-      .header-right { width: 100%; justify-content: space-between; }
+      .header-right { width: 100%; justify-content: space-between; flex-wrap: wrap; }
     }
     
-    /* COLUMNS */
     .column {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -157,14 +147,8 @@
       color: var(--text-secondary);
     }
     
-    .cards {
-      padding: 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
+    .cards { padding: 12px; display: flex; flex-direction: column; gap: 8px; }
     
-    /* CARDS */
     .card {
       background: var(--bg);
       border: 1px solid var(--border);
@@ -172,10 +156,8 @@
       transition: all 0.15s;
     }
     
-    .card:hover {
-      border-color: var(--accent);
-      background: var(--surface-hover);
-    }
+    .card:hover { border-color: var(--accent); background: var(--surface-hover); }
+    .card.has-note { border-left: 3px solid var(--note-border); }
     
     .card-title {
       font-family: 'Space Grotesk', sans-serif;
@@ -192,11 +174,7 @@
       margin-bottom: 10px;
     }
     
-    .card-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 4px;
-    }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 4px; }
     
     .tag {
       font-family: 'JetBrains Mono', monospace;
@@ -225,7 +203,101 @@
       letter-spacing: 0.05em;
     }
     
-    /* FOOTER */
+    /* Notes */
+    .card-note-toggle {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--text-dim);
+      cursor: pointer;
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    
+    .card-note-toggle:hover { color: var(--accent); }
+    .card-note-toggle.has-note { color: #d4a000; }
+    
+    .card-note-area {
+      display: none;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--border);
+    }
+    
+    .card-note-area.open { display: block; }
+    
+    .card-note-input {
+      width: 100%;
+      min-height: 60px;
+      background: var(--note-bg);
+      border: 1px solid var(--note-border);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      padding: 8px;
+      resize: vertical;
+    }
+    
+    .card-note-input::placeholder { color: var(--text-dim); }
+    .card-note-input:focus { outline: none; border-color: var(--accent); }
+    
+    .note-hint {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--text-dim);
+      margin-top: 4px;
+    }
+    
+    /* Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.8);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .modal-overlay.open { display: flex; }
+    
+    .modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      max-width: 600px;
+      width: 90%;
+      max-height: 80vh;
+      overflow: auto;
+      padding: 24px;
+    }
+    
+    .modal h2 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 16px;
+      color: var(--accent);
+    }
+    
+    .modal pre {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      overflow: auto;
+      white-space: pre-wrap;
+      max-height: 400px;
+    }
+    
+    .modal-actions {
+      margin-top: 16px;
+      display: flex;
+      gap: 8px;
+    }
+    
     footer {
       margin-top: 32px;
       padding-top: 16px;
@@ -238,13 +310,8 @@
       letter-spacing: 0.08em;
     }
     
-    footer a {
-      color: var(--text-dim);
-      text-decoration: none;
-    }
-    
+    footer a { color: var(--text-dim); text-decoration: none; }
     footer a:hover { color: var(--accent); }
-    
     footer .refresh-note { color: var(--text-dim); }
     
     ::-webkit-scrollbar { width: 6px; }
@@ -263,7 +330,8 @@
       </div>
       <div class="header-right">
         <div class="last-updated" id="lastUpdated">LOADING...</div>
-        <button class="theme-toggle" id="themeToggle" title="Toggle theme">◐</button>
+        <button class="header-btn" id="exportNotes" title="Export notes for Fragile">📋 NOTES</button>
+        <button class="header-btn" id="themeToggle" title="Toggle theme">◐</button>
       </div>
     </header>
     
@@ -274,11 +342,40 @@
         <a href="genai-kb.html">KNOWLEDGEBASE</a> · 
         <a href="https://github.com/fr491l3b0t/kanban">GITHUB</a>
       </div>
-      <div class="refresh-note">AUTO-REFRESH 30S</div>
+      <div class="refresh-note">NOTES AUTO-SAVE</div>
     </footer>
+  </div>
+  
+  <div class="modal-overlay" id="notesModal">
+    <div class="modal">
+      <h2>📋 Notes for Fragile Bot</h2>
+      <p style="font-size:12px;color:var(--text-secondary);margin-bottom:12px;">Copy this and send to me on Telegram, or I'll check it during my next review.</p>
+      <pre id="notesExport"></pre>
+      <div class="modal-actions">
+        <button class="header-btn" id="copyNotes">COPY TO CLIPBOARD</button>
+        <button class="header-btn" id="closeModal">CLOSE</button>
+      </div>
+    </div>
   </div>
 
   <script>
+    // Storage
+    const NOTES_KEY = 'kanban_notes';
+    let notes = JSON.parse(localStorage.getItem(NOTES_KEY) || '{}');
+    let boardData = null;
+    
+    function saveNotes() {
+      localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
+      updateNotesButton();
+    }
+    
+    function updateNotesButton() {
+      const btn = document.getElementById('exportNotes');
+      const hasNotes = Object.values(notes).some(n => n && n.trim());
+      btn.classList.toggle('has-notes', hasNotes);
+      btn.textContent = hasNotes ? '📋 NOTES (' + Object.values(notes).filter(n => n && n.trim()).length + ')' : '📋 NOTES';
+    }
+    
     // Theme
     const theme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', theme);
@@ -290,11 +387,56 @@
       localStorage.setItem('theme', next);
     });
     
+    // Export notes
+    document.getElementById('exportNotes').addEventListener('click', () => {
+      if (!boardData) return;
+      
+      const notesWithContext = [];
+      boardData.columns.forEach(col => {
+        col.cards.forEach(card => {
+          if (notes[card.id] && notes[card.id].trim()) {
+            notesWithContext.push({
+              card: card.title,
+              column: col.title.replace(/[^\w\s]/g, '').trim(),
+              note: notes[card.id].trim(),
+              cardId: card.id
+            });
+          }
+        });
+      });
+      
+      if (notesWithContext.length === 0) {
+        document.getElementById('notesExport').textContent = 'No notes yet. Click "+ NOTE" on any card to add one.';
+      } else {
+        document.getElementById('notesExport').textContent = JSON.stringify(notesWithContext, null, 2);
+      }
+      
+      document.getElementById('notesModal').classList.add('open');
+    });
+    
+    document.getElementById('copyNotes').addEventListener('click', () => {
+      const text = document.getElementById('notesExport').textContent;
+      navigator.clipboard.writeText(text);
+      document.getElementById('copyNotes').textContent = 'COPIED!';
+      setTimeout(() => document.getElementById('copyNotes').textContent = 'COPY TO CLIPBOARD', 2000);
+    });
+    
+    document.getElementById('closeModal').addEventListener('click', () => {
+      document.getElementById('notesModal').classList.remove('open');
+    });
+    
+    document.getElementById('notesModal').addEventListener('click', (e) => {
+      if (e.target.id === 'notesModal') {
+        document.getElementById('notesModal').classList.remove('open');
+      }
+    });
+    
     async function loadBoard() {
       try {
         const res = await fetch('data.json?' + Date.now());
-        const data = await res.json();
-        renderBoard(data);
+        boardData = await res.json();
+        renderBoard(boardData);
+        updateNotesButton();
       } catch (err) {
         console.error('Failed to load board:', err);
       }
@@ -306,10 +448,7 @@
       
       const date = new Date(data.lastUpdated);
       lastUpdated.textContent = 'UPDATED ' + date.toLocaleDateString('en-AU', { 
-        day: '2-digit', 
-        month: 'short',
-        hour: '2-digit',
-        minute: '2-digit'
+        day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
       }).toUpperCase();
       
       board.innerHTML = data.columns.map(col => `
@@ -319,8 +458,10 @@
             <span class="column-count">${col.cards.length}</span>
           </div>
           <div class="cards">
-            ${col.cards.map(card => `
-              <div class="card">
+            ${col.cards.map(card => {
+              const hasNote = notes[card.id] && notes[card.id].trim();
+              return `
+              <div class="card ${hasNote ? 'has-note' : ''}" data-id="${card.id}">
                 <div class="card-title">${card.title}</div>
                 ${card.description ? `<div class="card-description">${card.description}</div>` : ''}
                 <div class="card-tags">
@@ -329,15 +470,46 @@
                   ).join('')}
                 </div>
                 ${card.completedDate ? `<div class="completed-date">✓ ${card.completedDate}</div>` : ''}
+                <div class="card-note-toggle ${hasNote ? 'has-note' : ''}" onclick="toggleNote('${card.id}')">
+                  ${hasNote ? '📝 VIEW NOTE' : '+ NOTE'}
+                </div>
+                <div class="card-note-area" id="note-area-${card.id}">
+                  <textarea class="card-note-input" 
+                    id="note-${card.id}" 
+                    placeholder="Note for Fragile Bot..."
+                    onchange="updateNote('${card.id}', this.value)"
+                    onkeyup="updateNote('${card.id}', this.value)">${notes[card.id] || ''}</textarea>
+                  <div class="note-hint">Auto-saved • Click "NOTES" to export</div>
+                </div>
               </div>
-            `).join('')}
+            `}).join('')}
           </div>
         </div>
       `).join('');
     }
     
+    function toggleNote(cardId) {
+      const area = document.getElementById('note-area-' + cardId);
+      area.classList.toggle('open');
+      if (area.classList.contains('open')) {
+        document.getElementById('note-' + cardId).focus();
+      }
+    }
+    
+    function updateNote(cardId, value) {
+      notes[cardId] = value;
+      saveNotes();
+      // Update card styling
+      const card = document.querySelector(`.card[data-id="${cardId}"]`);
+      const toggle = card.querySelector('.card-note-toggle');
+      const hasNote = value && value.trim();
+      card.classList.toggle('has-note', hasNote);
+      toggle.classList.toggle('has-note', hasNote);
+      toggle.textContent = hasNote ? '📝 VIEW NOTE' : '+ NOTE';
+    }
+    
     loadBoard();
-    setInterval(loadBoard, 30000);
+    setInterval(loadBoard, 60000); // Refresh every 60s (less aggressive)
   </script>
 </body>
 </html>
