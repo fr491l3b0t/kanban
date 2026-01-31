@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-30",
+  "lastUpdated": "2026-01-31",
   "categories": [
     "AI Coding & Agents",
     "AI Commentary",
@@ -8,7 +8,7 @@
     "Video Production",
     "Voice & Audio"
   ],
-  "totalEntries": 125,
+  "totalEntries": 126,
   "sources": {
     "bookmarks": 100,
     "likes": 100,
@@ -25,7 +25,7 @@
       "summary": "This runner exited a train, ran to the next stop, on got back on the same train https://t.co/mk8PPynVqa",
       "content": null,
       "tags": [],
-      "engagement": 527915,
+      "engagement": 527882,
       "dataSource": "like"
     },
     {
@@ -40,7 +40,7 @@
       "tags": [
         "cursor"
       ],
-      "engagement": 215237,
+      "engagement": 215225,
       "dataSource": "like"
     },
     {
@@ -55,11 +55,24 @@
       "tags": [
         "claude"
       ],
-      "engagement": 96717,
+      "engagement": 96704,
       "dataSource": "like"
     },
     {
       "id": 4,
+      "title": "This @waitbutwhy illustration is 👌 https://t.co/VqKj0lM10R",
+      "category": "AI Commentary",
+      "source": "@elonmusk",
+      "date": "2026-01-29",
+      "url": "https://x.com/elonmusk/status/2016675210460627416",
+      "summary": "This @waitbutwhy illustration is 👌 https://t.co/VqKj0lM10R",
+      "content": null,
+      "tags": [],
+      "engagement": 73574,
+      "dataSource": "bookmark"
+    },
+    {
+      "id": 5,
       "title": "The crew from Fire and Rescue NSW Station 509 Wyoming recorded this video showing the moment their t...",
       "category": "Video Production",
       "source": "@FRNSW",
@@ -68,11 +81,11 @@
       "summary": "The crew from Fire and Rescue NSW Station 509 Wyoming recorded this video showing the moment their truck was overrun by the bushfire burning South of Nowra. The crew was forced to shelter in their truck as the fire front passed through. #NSWFires #Pr...",
       "content": null,
       "tags": [],
-      "engagement": 60665,
+      "engagement": 60659,
       "dataSource": "like"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "A few random notes from claude coding quite a bit last few weeks.",
       "category": "AI Coding & Agents",
       "source": "@karpathy",
@@ -86,11 +99,11 @@
         "workflow",
         "codex"
       ],
-      "engagement": 42049,
+      "engagement": 42391,
       "dataSource": "bookmark"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Travelling to America as an Australian is terrifying.",
       "category": "AI Commentary",
       "source": "@johngoddard",
@@ -99,11 +112,11 @@
       "summary": "Travelling to America as an Australian is terrifying.  Because living in Australia, we're sheltered. We're far from the rest of the world.   Our State Sponsored Media tells you that Australia has the best of everything in the world. That our culture ...",
       "content": "Travelling to America as an Australian is terrifying.\n\nBecause living in Australia, we're sheltered. We're far from the rest of the world. \n\nOur State Sponsored Media tells you that Australia has the best of everything in the world. That our culture and lifestyle is unmatched.\n\nBut as soon as you arrive in America it is blindingly obvious how false that is. America feels explosive, alive, chaotic, rich. It's loud, obnoxious, unapologetic.\n\nThere's no hint of tall poppy syndrome. And no constant nagging of the Nanny State. \n\nAmerica is accelerating into an unknown future without fear. \n\nThere are so many technological innovations here that would never see the light of day in Australia, because they would be strangled by regulation.\n\nAustralia is beautiful, sure. But it's safe, quiet, controlled. \n\nMedia and society tell you to conform, comply, be seen and not heard. Take the safe option. Be fearful of new things. Be fearful of the future.\n\nThe spark of innovation is stifled. The light of creativity is discouraged. The warmth of the collective is more important than the rugged individual.\n\nAnd as time goes on, one of the two countries is going to be left behind. It's pretty clear which country that is.\n\nSo, it's terrifying. \n\nAnd before I came here, everyone said I should be terrified of America. That I wouldn't be let it the country. That everyone is rioting. That Hitler runs the country. \n\nThat couldn't be further from the truth.\n\nTheir brains have been absolutely fried by Australian State Sponsored media.",
       "tags": [],
-      "engagement": 31338,
+      "engagement": 31322,
       "dataSource": "bookmark"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "“Healthcare Billionaires” is a phrase that should not exist. https://t.co/7eiUTqO1OK",
       "category": "AI Commentary",
       "source": "@Public_Citizen",
@@ -116,7 +129,7 @@
       "dataSource": "like"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "bro casually walks and explains 5 GPU performance optimization methods for LLMs. one of the most sim...",
       "category": "AI Commentary",
       "source": "@Hesamation",
@@ -125,11 +138,11 @@
       "summary": "bro casually walks and explains 5 GPU performance optimization methods for LLMs. one of the most simple and intuitive explanations for beginners. https://t.co/42aywKmpcX",
       "content": null,
       "tags": [],
-      "engagement": 20020,
+      "engagement": 20022,
       "dataSource": "bookmark"
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Remotion now has Agent Skills - make videos just with Claude Code!",
       "category": "GenAI Image Prompts",
       "source": "@Remotion",
@@ -142,11 +155,11 @@
         "prompting",
         "agents"
       ],
-      "engagement": 19364,
+      "engagement": 19375,
       "dataSource": "bookmark"
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "AI agents will be a big part of how we shop in the not-so-distant future.",
       "category": "AI Coding & Agents",
       "source": "@sundarpichai",
@@ -158,11 +171,11 @@
         "gemini",
         "agents"
       ],
-      "engagement": 18339,
+      "engagement": 18342,
       "dataSource": "bookmark"
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "introducing Realtime Edit.",
       "category": "GenAI Image Prompts",
       "source": "@krea_ai",
@@ -173,11 +186,11 @@
       "tags": [
         "nano-banana"
       ],
-      "engagement": 18277,
+      "engagement": 18285,
       "dataSource": "bookmark"
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "https://t.co/PFLXeRXaIu",
       "category": "AI Commentary",
       "source": "@heyshrutimishra",
@@ -186,11 +199,11 @@
       "summary": "https://t.co/PFLXeRXaIu",
       "content": null,
       "tags": [],
-      "engagement": 15564,
+      "engagement": 15600,
       "dataSource": "bookmark"
     },
     {
-      "id": 13,
+      "id": 14,
       "title": "Today, we're releasing Claude Code for marketing.",
       "category": "AI Coding & Agents",
       "source": "@SavannahFeder",
@@ -201,11 +214,11 @@
       "tags": [
         "claude"
       ],
-      "engagement": 15262,
+      "engagement": 15267,
       "dataSource": "bookmark"
     },
     {
-      "id": 14,
+      "id": 15,
       "title": "Everyone is using ChatGPT.",
       "category": "AI Commentary",
       "source": "@theantonioreza",
@@ -216,11 +229,11 @@
       "tags": [
         "gpt"
       ],
-      "engagement": 12890,
+      "engagement": 12891,
       "dataSource": "like"
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "Merging art with AI 🖼 ⁇ 🖼 ⁇ 🖼",
       "category": "GenAI Image Prompts",
       "source": "@OrbAmsterdam",
@@ -229,11 +242,11 @@
       "summary": "Merging art with AI 🖼 ⁇ 🖼 ⁇ 🖼  Using the new Outpainting capability of DALL-E 2, we asked @OpenAI to help us imagine how the landscape could look like between famous impressionist paintings from Van Gogh, Monet, Munch and Hokusai. https://t.co/WSf...",
       "content": null,
       "tags": [],
-      "engagement": 10549,
+      "engagement": 10550,
       "dataSource": "like"
     },
     {
-      "id": 16,
+      "id": 17,
       "title": "I built an AI system that automates product video creation for entire e-commerce catalogs.",
       "category": "GenAI Image Prompts",
       "source": "@recap_david",
@@ -247,11 +260,11 @@
         "n8n",
         "automation"
       ],
-      "engagement": 10311,
+      "engagement": 10309,
       "dataSource": "like"
     },
     {
-      "id": 17,
+      "id": 18,
       "title": "My parents have Instagram,",
       "category": "AI Commentary",
       "source": "@jappleby",
@@ -260,11 +273,11 @@
       "summary": "My parents have Instagram, but they don’t post.  “We don’t know what to post! We just like to watch!”  I toss low-hanging millennial jokes &amp; call them old.  Then I realize.  I watch TikTok daily, but don’t post. Because I don’t know what to post....",
       "content": null,
       "tags": [],
-      "engagement": 8888,
+      "engagement": 8889,
       "dataSource": "like"
     },
     {
-      "id": 18,
+      "id": 19,
       "title": "Targeting November 28 for launch of Spaceflight SSO-A: SmallSat Express from Vandenberg Air Force Ba...",
       "category": "AI Commentary",
       "source": "@SpaceX",
@@ -277,7 +290,7 @@
       "dataSource": "like"
     },
     {
-      "id": 19,
+      "id": 20,
       "title": "It's over.",
       "category": "Video Production",
       "source": "@minchoi",
@@ -288,11 +301,11 @@
       "tags": [
         "kling"
       ],
-      "engagement": 7906,
+      "engagement": 7905,
       "dataSource": "bookmark"
     },
     {
-      "id": 20,
+      "id": 21,
       "title": "New breakthrough quantum algorithm published in @Nature today: Our Willow chip has achieved the firs...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -305,7 +318,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 21,
+      "id": 22,
       "title": "For those asking, go to Google AI Studio, select Nano Banana Pro, upload a selfie, and use the promp...",
       "category": "GenAI Image Prompts",
       "source": "@regyperlera",
@@ -317,11 +330,11 @@
         "nano-banana",
         "prompting"
       ],
-      "engagement": 7075,
+      "engagement": 7071,
       "dataSource": "bookmark"
     },
     {
-      "id": 22,
+      "id": 23,
       "title": "This is getting scary. I'm doing some research this morning when all of a sudden my computer starts ...",
       "category": "GenAI Image Prompts",
       "source": "@AlexFinn",
@@ -336,11 +349,11 @@
         "prompting",
         "workflow"
       ],
-      "engagement": 6232,
+      "engagement": 6289,
       "dataSource": "bookmark"
     },
     {
-      "id": 23,
+      "id": 24,
       "title": "\"Claude Code just SAVED my marriage!\"",
       "category": "Video Production",
       "source": "@zulali",
@@ -351,11 +364,11 @@
       "tags": [
         "claude"
       ],
-      "engagement": 6080,
+      "engagement": 6077,
       "dataSource": "bookmark"
     },
     {
-      "id": 24,
+      "id": 25,
       "title": "Just to see what would happen I texted Henry my Clawdbot to make a reservation for me next Saturday ...",
       "category": "Clawdbot",
       "source": "@AlexFinn",
@@ -367,11 +380,11 @@
         "clawdbot",
         "elevenlabs"
       ],
-      "engagement": 6031,
+      "engagement": 6062,
       "dataSource": "bookmark"
     },
     {
-      "id": 25,
+      "id": 26,
       "title": "Overall, significant upgrade to the American diet. Some longevity tweaks:",
       "category": "AI Commentary",
       "source": "@bryan_johnson",
@@ -380,11 +393,11 @@
       "summary": "Overall, significant upgrade to the American diet. Some longevity tweaks:  0. Milk and dairy should be deprioritized and moved down the inverted pyramid, especially for adults. In adults, and particularly men, milk protein has an unfavorable amino ac...",
       "content": "Overall, significant upgrade to the American diet. Some longevity tweaks:\n\n0. Milk and dairy should be deprioritized and moved down the inverted pyramid, especially for adults. In adults, and particularly men, milk protein has an unfavorable amino acid composition, being high in Branched-Chain Amino Acids (BCAAs). BCAAs have been linked to metabolic disease and preclinically shown to accelerate cancer growth. BCAAs, especially leucine, are potent mTOR activators; while essential for growth, repair, and survival, mTOR hyperactivation accelerates aging and is a common mechanism underlying several chronic diseases.\n\nMilk protein has been associated with inflammation, blood glucose dysregulation, and weight gain in some mechanistic and observational studies; however, randomized controlled trials show inconsistent effects. In a longevity-focused context, high dairy-derived BCAA intake may nonetheless contribute to metabolic stress, including impaired glucose handling and weight gain, in susceptible adults and is therefore best moderated.\n\nSaturated fatty acids are another concern. The American Heart Association recommends limiting saturated fat to 5–6% of total energy (around 13 g/day at a 2,000 kcal intake) when targeting LDL reduction, which is particularly important for men over 40 and post-menopausal women, high-risk groups for cardiovascular disease, still the leading cause of death in developed societies including the US.\n\n1. Legumes should have their own prominent category, placed high on the pyramid as a primary protein and dietary fiber source. Plant-based protein has been associated with better health and longevity outcomes in several large population studies across various societies, including the US. Legume fiber has health promoting qualities, including the reduction of colon cancer risk.\n\n2. Meat belongs on the pyramid but with an emphasis on high-quality, non-processed sources. It should occupy a lower rank and be optional, especially for adult men. Red meat is associated with increased chronic disease and mortality risk in multiple large population studies. These results might be confounded by healthy user bias and a lack of specific information about meat sources. However, processed red meat is strongly implicated in driving chronic age-related disease and shorter lives in all studies. The same concern about saturated fats applies here, especially for men over 40 and post-menopausal women.\n\n3. Healthy fats (unrefined cold-pressed oils, nuts, and fatty fish) belong at the top, next to legumes and vegetables. Olive oil, avocados, and macadamia nuts are rich in healthy Monounsaturated Fatty Acids (MUFAs) shown to reduce heart disease and all-cause mortality risk as part of Mediterranean-style dietary patterns demonstrated in large randomized controlled trials.\n\nFatty fish and walnuts are rich in Omega-3 fatty acids, which are essential for lowering cholesterol, providing systemic and vascular anti-inflammatory protection, and slowing down biological aging in interventional studies, along with vitamin D.\n\nWhat it did well: shifted away from highly processed starches and added sugars toward protein and fat rich foods\n\nChildren are well positioned to benefit from the highly anabolic effects of milk and red meat proteins and are least affected by the risk of saturated fats, provided these are part of a relatively balanced diet.",
       "tags": [],
-      "engagement": 6011,
+      "engagement": 6013,
       "dataSource": "bookmark"
     },
     {
-      "id": 26,
+      "id": 27,
       "title": "If you’ve never written code before, this is for you. I’ve just launched a course that shows you, in...",
       "category": "AI Coding & Agents",
       "source": "@AndrewYNg",
@@ -397,11 +410,11 @@
         "gpt",
         "gemini"
       ],
-      "engagement": 5953,
+      "engagement": 5957,
       "dataSource": "bookmark"
     },
     {
-      "id": 27,
+      "id": 28,
       "title": "I learned and used the Claude Agent SDK today to build an agent. I genuinely think this will be one ...",
       "category": "AI Coding & Agents",
       "source": "@dabit3",
@@ -413,11 +426,11 @@
         "claude",
         "agents"
       ],
-      "engagement": 5856,
+      "engagement": 5854,
       "dataSource": "bookmark"
     },
     {
-      "id": 28,
+      "id": 29,
       "title": "This 31 min vid is the most CLEAR explanation on how ANYONE can get started with Claude Code that ex...",
       "category": "AI Coding & Agents",
       "source": "@gregisenberg",
@@ -428,11 +441,11 @@
       "tags": [
         "claude"
       ],
-      "engagement": 5600,
+      "engagement": 5601,
       "dataSource": "bookmark"
     },
     {
-      "id": 29,
+      "id": 30,
       "title": "This guy literally created an agent to replace all his employees https://t.co/0GCGNFpX5K",
       "category": "AI Coding & Agents",
       "source": "@aaditsh",
@@ -443,11 +456,11 @@
       "tags": [
         "agents"
       ],
-      "engagement": 5466,
+      "engagement": 5469,
       "dataSource": "like"
     },
     {
-      "id": 30,
+      "id": 31,
       "title": "Disaster is coming.",
       "category": "Clawdbot",
       "source": "@ItakGol",
@@ -459,11 +472,11 @@
         "clawdbot",
         "agents"
       ],
-      "engagement": 5330,
+      "engagement": 5324,
       "dataSource": "bookmark"
     },
     {
-      "id": 31,
+      "id": 32,
       "title": "AI can alr generate ads that no one can tell",
       "category": "GenAI Image Prompts",
       "source": "@EHuanglu",
@@ -475,11 +488,11 @@
         "prompting",
         "workflow"
       ],
-      "engagement": 5140,
+      "engagement": 5219,
       "dataSource": "bookmark"
     },
     {
-      "id": 32,
+      "id": 33,
       "title": "$24,000 per year from this simple AI Dentist Voice Agent",
       "category": "Video Production",
       "source": "@recap_david",
@@ -494,11 +507,11 @@
         "automation",
         "elevenlabs"
       ],
-      "engagement": 4386,
+      "engagement": 4382,
       "dataSource": "bookmark"
     },
     {
-      "id": 33,
+      "id": 34,
       "title": "Claude Code for Chrome is really something else. I haven't used Google Analytics in a minute, not ev...",
       "category": "GenAI Image Prompts",
       "source": "@adocomplete",
@@ -510,11 +523,11 @@
         "claude",
         "prompting"
       ],
-      "engagement": 4317,
+      "engagement": 4319,
       "dataSource": "bookmark"
     },
     {
-      "id": 34,
+      "id": 35,
       "title": "Every company should hire an internal AI transformation person. No need for a fancy title like Head ...",
       "category": "AI Commentary",
       "source": "@veggie_eric",
@@ -525,11 +538,11 @@
       "tags": [
         "workflow"
       ],
-      "engagement": 3888,
+      "engagement": 3890,
       "dataSource": "bookmark"
     },
     {
-      "id": 35,
+      "id": 36,
       "title": "I've built a custom camera control @gradio component for camera control LoRAs for image models 🎥🧊 ",
       "category": "AI Commentary",
       "source": "@multimodalart",
@@ -538,11 +551,11 @@
       "summary": "I've built a custom camera control @gradio component for camera control LoRAs for image models 🎥🧊   Here's a demo of @fal's Qwen-Image-Edit-2511-Multiple-Angles-LoRA using the interactive camera component https://t.co/izwZ3DbInk",
       "content": null,
       "tags": [],
-      "engagement": 3812,
+      "engagement": 3814,
       "dataSource": "bookmark"
     },
     {
-      "id": 36,
+      "id": 37,
       "title": "this is the CLEAREST explanation of \"ralph wiggum\" on the internet and how you can use it with claud...",
       "category": "AI Coding & Agents",
       "source": "@gregisenberg",
@@ -554,11 +567,11 @@
         "claude",
         "agents"
       ],
-      "engagement": 3199,
+      "engagement": 3203,
       "dataSource": "bookmark"
     },
     {
-      "id": 37,
+      "id": 38,
       "title": "I'm returning my Mac Mini",
       "category": "Clawdbot",
       "source": "@AlexFinn",
@@ -569,11 +582,11 @@
       "tags": [
         "clawdbot"
       ],
-      "engagement": 2642,
+      "engagement": 2639,
       "dataSource": "bookmark"
     },
     {
-      "id": 38,
+      "id": 39,
       "title": "Might as well learn something... ",
       "category": "GenAI Image Prompts",
       "source": "@Ror_Fly",
@@ -586,11 +599,11 @@
         "prompting",
         "workflow"
       ],
-      "engagement": 2532,
+      "engagement": 2533,
       "dataSource": "bookmark"
     },
     {
-      "id": 39,
+      "id": 40,
       "title": "Today, we're introducing a working Loveable for video production.",
       "category": "Video Production",
       "source": "@noahmorris",
@@ -599,11 +612,11 @@
       "summary": "Today, we're introducing a working Loveable for video production.  It does a video production teams work in minutes by writing, reserching, and editing like a human would.    Hiring a video production team of upwork is now optional:",
       "content": null,
       "tags": [],
-      "engagement": 2410,
+      "engagement": 2409,
       "dataSource": "bookmark"
     },
     {
-      "id": 40,
+      "id": 41,
       "title": "Claude Code &amp; Replit Masterclass",
       "category": "AI Coding & Agents",
       "source": "@mattyp",
@@ -616,11 +629,11 @@
         "agents",
         "replit"
       ],
-      "engagement": 2231,
+      "engagement": 2233,
       "dataSource": "bookmark"
     },
     {
-      "id": 41,
+      "id": 42,
       "title": "THE ULTIMATE CLAWDBOT REPORT",
       "category": "Clawdbot",
       "source": "@Scobleizer",
@@ -631,11 +644,26 @@
       "tags": [
         "clawdbot"
       ],
-      "engagement": 2058,
+      "engagement": 2064,
       "dataSource": "bookmark"
     },
     {
-      "id": 42,
+      "id": 43,
+      "title": "Just found a Moltbot (clawd) Skill that reduces token usage by 95%+",
+      "category": "Clawdbot",
+      "source": "@milesdeutscher",
+      "date": "2026-01-29",
+      "url": "https://x.com/milesdeutscher/status/2016964602702287019",
+      "summary": "Just found a Moltbot (clawd) Skill that reduces token usage by 95%+  Insanely valuable.",
+      "content": null,
+      "tags": [
+        "moltbot"
+      ],
+      "engagement": 2038,
+      "dataSource": "bookmark"
+    },
+    {
+      "id": 44,
       "title": "PSA for a CTO, Head of AI, VP/Dir of Engineering, CXO: ",
       "category": "AI Coding & Agents",
       "source": "@stevecaldwell",
@@ -646,11 +674,11 @@
       "tags": [
         "agents"
       ],
-      "engagement": 2020,
+      "engagement": 2022,
       "dataSource": "bookmark"
     },
     {
-      "id": 43,
+      "id": 45,
       "title": "Nano Banana + Linah AI + n8n is next-level",
       "category": "GenAI Image Prompts",
       "source": "@demirdjiantwins",
@@ -667,7 +695,53 @@
       "dataSource": "like"
     },
     {
-      "id": 44,
+      "id": 46,
+      "title": "Darren Aronofsky just did what most Hollywood directors are too scared to do",
+      "category": "GenAI Image Prompts",
+      "source": "@EHuanglu",
+      "date": "2026-01-29",
+      "url": "https://x.com/EHuanglu/status/2016988624152056274",
+      "summary": "Darren Aronofsky just did what most Hollywood directors are too scared to do  He built his own AI studio  Collab with Google and use Nano Banana + Veo generating a short-form series called Revolutionary War  The mindset shift is alr here   https://t....",
+      "content": null,
+      "tags": [
+        "nano-banana"
+      ],
+      "engagement": 1874,
+      "dataSource": "bookmark"
+    },
+    {
+      "id": 47,
+      "title": "Nothing extra ",
+      "category": "GenAI Image Prompts",
+      "source": "@egeberkina",
+      "date": "2026-01-28",
+      "url": "https://x.com/egeberkina/status/2016493139003949371",
+      "summary": "Nothing extra   Prompt 👇 https://t.co/DpwHy4Tgz6",
+      "content": null,
+      "tags": [
+        "prompting"
+      ],
+      "engagement": 1803,
+      "dataSource": "bookmark"
+    },
+    {
+      "id": 48,
+      "title": "kimi 2.5 is the best model for clawdbot/moltbot right now. almost opus 4.5 quality but 95% cheaper.",
+      "category": "Clawdbot",
+      "source": "@Legendaryy",
+      "date": "2026-01-29",
+      "url": "https://x.com/Legendaryy/status/2016873766362464472",
+      "summary": "kimi 2.5 is the best model for clawdbot/moltbot right now. almost opus 4.5 quality but 95% cheaper.  but there is a catch: moonshot api sends your data to china  heres how to fix it: serve it through openrouter instead. turn on ZDR (zero data retenti...",
+      "content": "kimi 2.5 is the best model for clawdbot/moltbot right now. almost opus 4.5 quality but 95% cheaper.\n\nbut there is a catch: moonshot api sends your data to china\n\nheres how to fix it: serve it through openrouter instead. turn on ZDR (zero data retention).\n\npick fireworks as provider who are located in the US and have a no logs policy",
+      "tags": [
+        "clawdbot",
+        "moltbot"
+      ],
+      "engagement": 1776,
+      "dataSource": "bookmark"
+    },
+    {
+      "id": 49,
       "title": "Introducing Speech-to-Speech!",
       "category": "Voice & Audio",
       "source": "@elevenlabsio",
@@ -682,22 +756,7 @@
       "dataSource": "like"
     },
     {
-      "id": 45,
-      "title": "Nothing extra ",
-      "category": "GenAI Image Prompts",
-      "source": "@egeberkina",
-      "date": "2026-01-28",
-      "url": "https://x.com/egeberkina/status/2016493139003949371",
-      "summary": "Nothing extra   Prompt 👇 https://t.co/DpwHy4Tgz6",
-      "content": null,
-      "tags": [
-        "prompting"
-      ],
-      "engagement": 1695,
-      "dataSource": "bookmark"
-    },
-    {
-      "id": 46,
+      "id": 50,
       "title": "One of the biggest opportunities available to anyone entrepreneurial right now in their company is t...",
       "category": "AI Coding & Agents",
       "source": "@levie",
@@ -708,11 +767,11 @@
       "tags": [
         "agents"
       ],
-      "engagement": 1339,
+      "engagement": 1340,
       "dataSource": "bookmark"
     },
     {
-      "id": 47,
+      "id": 51,
       "title": "Since launching our AI for Science program, we’ve been working with scientists to understand how AI ...",
       "category": "AI Commentary",
       "source": "@AnthropicAI",
@@ -723,11 +782,11 @@
       "tags": [
         "claude"
       ],
-      "engagement": 1328,
+      "engagement": 1327,
       "dataSource": "bookmark"
     },
     {
-      "id": 48,
+      "id": 52,
       "title": "I wrote about Claude Code and why non-coders should be paying attention (and playing with the system...",
       "category": "AI Coding & Agents",
       "source": "@emollick",
@@ -742,7 +801,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 49,
+      "id": 53,
       "title": "ChatGPT Code Interpreter is incredible! 🌟",
       "category": "AI Commentary",
       "source": "@skirano",
@@ -757,7 +816,7 @@
       "dataSource": "like"
     },
     {
-      "id": 50,
+      "id": 54,
       "title": "Congrats to Michel Devoret, John Martinis, and John Clarke on the Nobel Prize in Physics. 🔬🥼 Miche...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -770,7 +829,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 51,
+      "id": 55,
       "title": "add iMessage to claude + your second brain in 30 min ",
       "category": "AI Coding & Agents",
       "source": "@ashebytes",
@@ -785,7 +844,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 52,
+      "id": 56,
       "title": "https://t.co/oN9JI5C1Xh",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -798,7 +857,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 53,
+      "id": 57,
       "title": "Create tiny transport worlds with Nano Banana Pro",
       "category": "GenAI Image Prompts",
       "source": "@egeberkina",
@@ -810,11 +869,11 @@
         "nano-banana",
         "prompting"
       ],
-      "engagement": 943,
+      "engagement": 942,
       "dataSource": "bookmark"
     },
     {
-      "id": 54,
+      "id": 58,
       "title": "🔥 Midjourney v5? 🔥",
       "category": "GenAI Image Prompts",
       "source": "@javilopen",
@@ -829,7 +888,7 @@
       "dataSource": "like"
     },
     {
-      "id": 55,
+      "id": 59,
       "title": "I ran a quick experiment in Manus… and wow. It immediately pulled 100 email-backed sales leads, comp...",
       "category": "GenAI Image Prompts",
       "source": "@HenrypenmanXD",
@@ -844,7 +903,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 56,
+      "id": 60,
       "title": "current chat interfaces suck, so i built a canvas for llms https://t.co/94RvYgIrGV",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -857,7 +916,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 57,
+      "id": 61,
       "title": "I recommend checking out this article, it’s packed with insights on how to use the current AI trend,...",
       "category": "Video Production",
       "source": "@techhalla",
@@ -872,7 +931,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 58,
+      "id": 62,
       "title": "One AI year is seven Internet ones. https://t.co/1Luk1ATuMO",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -885,7 +944,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 59,
+      "id": 63,
       "title": "OpenAI just announced a new experimental model that knows when and how to browse the internet within...",
       "category": "AI Commentary",
       "source": "@LiorOnAI",
@@ -900,7 +959,22 @@
       "dataSource": "like"
     },
     {
-      "id": 60,
+      "id": 64,
+      "title": "3 steps to use Molt (formerly Clawd) safely without getting compromised:",
+      "category": "Clawdbot",
+      "source": "@petergyang",
+      "date": "2026-01-29",
+      "url": "https://x.com/petergyang/status/2016692800029675592",
+      "summary": "3 steps to use Molt (formerly Clawd) safely without getting compromised:  1. Run it on a dedicated machine  An old laptop works fine. I bought a Mac Mini because I want 24/7 uptime and it's cute (see pic). You can also use a VPS.  2. Give it its own ...",
+      "content": "3 steps to use Molt (formerly Clawd) safely without getting compromised:\n\n1. Run it on a dedicated machine\n\nAn old laptop works fine. I bought a Mac Mini because I want 24/7 uptime and it's cute (see pic). You can also use a VPS.\n\n2. Give it its own credentials\n\nI gave it a separate Apple ID, Gmail, and Google account. Molt doesn't touch my main accounts.\n\n3. Give it access to specific files only\n\nI gave it read access to my Google Calendar,  write access to specific Google Docs, and full access to my vibe coded projects on GitHub.\n\nMolt also has a built in security check, just run the following in terminal:\n\nclawdbot security audit --deep\n\n📌 Watch my new tutorial with my top 5 use cases + how to set it up safely in 20 min: https://t.co/L43NBbKCtu",
+      "tags": [
+        "clawdbot"
+      ],
+      "engagement": 705,
+      "dataSource": "bookmark"
+    },
+    {
+      "id": 65,
       "title": "This paper shows that you can predict actual purchase intent (90% accuracy) by asking an LLM to impe...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -913,22 +987,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 61,
-      "title": "3 steps to use Molt (formerly Clawd) safely without getting compromised:",
-      "category": "Clawdbot",
-      "source": "@petergyang",
-      "date": "2026-01-29",
-      "url": "https://x.com/petergyang/status/2016692800029675592",
-      "summary": "3 steps to use Molt (formerly Clawd) safely without getting compromised:  1. Run it on a dedicated machine  An old laptop works fine. I bought a Mac Mini because I want 24/7 uptime and it's cute (see pic). You can also use a VPS.  2. Give it its own ...",
-      "content": "3 steps to use Molt (formerly Clawd) safely without getting compromised:\n\n1. Run it on a dedicated machine\n\nAn old laptop works fine. I bought a Mac Mini because I want 24/7 uptime and it's cute (see pic). You can also use a VPS.\n\n2. Give it its own credentials\n\nI gave it a separate Apple ID, Gmail, and Google account. Molt doesn't touch my main accounts.\n\n3. Give it access to specific files only\n\nI gave it read access to my Google Calendar,  write access to specific Google Docs, and full access to my vibe coded projects on GitHub.\n\nMolt also has a built in security check, just run the following in terminal:\n\nclawdbot security audit --deep\n\n📌 Watch my new tutorial with my top 5 use cases + how to set it up safely in 20 min: https://t.co/L43NBbKCtu",
-      "tags": [
-        "clawdbot"
-      ],
-      "engagement": 695,
-      "dataSource": "bookmark"
-    },
-    {
-      "id": 62,
+      "id": 66,
       "title": "Introducing Higgsfield Mini Apps.",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -943,7 +1002,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 63,
+      "id": 67,
       "title": "I've collected my thoughts and techniques on JSON prompting Nano Banana Pro into a blog post (and an...",
       "category": "GenAI Image Prompts",
       "source": "@fofrAI",
@@ -959,7 +1018,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 64,
+      "id": 68,
       "title": "Why would anyone continue to use humans when AI is vastly more productive?",
       "category": "AI Commentary",
       "source": "@BrianCAlbrecht",
@@ -968,11 +1027,11 @@
       "summary": "Why would anyone continue to use humans when AI is vastly more productive?  We don’t need to speculate about what happens when massive efficiency differences exist between producers. We have that today. The inefficient producers still remain.  The mo...",
       "content": "Why would anyone continue to use humans when AI is vastly more productive?\n\nWe don’t need to speculate about what happens when massive efficiency differences exist between producers. We have that today. The inefficient producers still remain.\n\nThe most efficient white bread establishment (thinkk plant level productivity) produces 2x, 3x, even 6x as many loads of white bread as the least efficient with the same inputs. This is well documented across every country and industry studied.\n\nI’ll just pull up the 4 digit NAICS since that’s what’s publicly available. https://t.co/fK3COu8Olq \n\nSort establishments by productivity. I’ll mostly use total factor productivity, TFP, but the same holds for labor productivity but is even more extreme. \n\nWhat’s the gap between the 75th and 25th percentile establishment? \n\nFor the median industry (orange line), it’s about 1.7x. These numbers are even more dramatic when you look at labor productivity, where the 75-25 gap is more like 3x. Workers at the 75th percentile establishment produce 3x as much as workers at the 75th.\n\nThat's just the median industry. If we think the tail industries matter, we should think of the \"dispersion of the dispersion.\" The blue region captures that For the 75th percentile industry (top of the blue region), the multiple is 1.9.  That’s only for 75-25 industries of the 75-25 gap, not really the tails.\n\nDo the same for 90-10. What’s the gap between the 90th percentile and 10th percentile establishment? \n\nThe median is now 3x, with the 90th percentile industry being 6x. 10% of manufacturing industries have a 6x gap in productivity.\n\nIn other words, 10% of establishments in 10% of industries are remaining open despite costs that are 6x as high. \n\nThis is what I mean when I say we don't need to speculate about how people use inefficient firms still. It happens today. \n\nAnd that’s in the US, where competition is as fierce as anywhere in the world. It still doesn’t weed out the low productivity firms. https://t.co/cZLB6eXAks We will return to why in a sec.\n\n“That’s all old white bread stuff. Not the technology of the future.” \n\nOkay. Let’s look at semiconductors (NAICS 3344). The closest thing the modern world has to robots building robots.\n\nThe 90-10 gap is 30-40x! \n\nThat’s true in measures of labor productivity and TFP, so it’s not about big capital firms. It's not about TSMC having the latest ASML machine.\n\nIf we can't eliminate productivity dispersion in semiconductor manufacturing (where advanced machines produce advanced machines in highly controlled environments) why would we expect AI to make all human labor obsolete?\n\nWhy don't the most productive firms drive out everyone else? Consumer preferences for heterogeneity matter. People pay extra for local establishments. Returns to scale matter, not every town can support a Walmart Supercenter. \n\nGeography matters.  Unless everyone is going to live in one giant city, there will always be millions of little establishments and most of them will be unproductive because they can be. (I don't see how this problem doesn't blow up when you start talking across galaxies, as @dwarkesh_sp wants us to.)\n\nThe same logic applies to AI. Yes, AI may be vastly more productive at specific tasks. But productivity differences don't automatically eliminate the less productive option.\n\nSocial science is built on the assumption there are some regulat patterns and ideas that allow you to understand across time and place.\n\nSure, it's always possible the future will be completely different. If that's true, I have no idea what to do to predict it. No one else does either.",
       "tags": [],
-      "engagement": 636,
+      "engagement": 634,
       "dataSource": "bookmark"
     },
     {
-      "id": 65,
+      "id": 69,
       "title": "Future of coding is going to never be the same.",
       "category": "AI Commentary",
       "source": "@SullyOmarr",
@@ -983,11 +1042,11 @@
       "tags": [
         "gpt"
       ],
-      "engagement": 615,
+      "engagement": 616,
       "dataSource": "like"
     },
     {
-      "id": 66,
+      "id": 70,
       "title": "the vibe marketing playbook (free)",
       "category": "GenAI Image Prompts",
       "source": "@boringmarketer",
@@ -999,11 +1058,11 @@
         "claude",
         "prompting"
       ],
-      "engagement": 603,
+      "engagement": 604,
       "dataSource": "bookmark"
     },
     {
-      "id": 67,
+      "id": 71,
       "title": "I spend more time in Midjourney generating images that the world will never see, but make me feel go...",
       "category": "GenAI Image Prompts",
       "source": "@nickfloats",
@@ -1014,11 +1073,11 @@
       "tags": [
         "midjourney"
       ],
-      "engagement": 569,
+      "engagement": 570,
       "dataSource": "like"
     },
     {
-      "id": 68,
+      "id": 72,
       "title": "Gemini is held back by lack of tools, a big gap compared to ChatGPT and Claude. Gemini 3 is a really...",
       "category": "GenAI Image Prompts",
       "source": "@emollick",
@@ -1036,7 +1095,23 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 69,
+      "id": 73,
+      "title": "You can try this directly in AI Studio.",
+      "category": "GenAI Image Prompts",
+      "source": "@fofrAI",
+      "date": "2026-01-28",
+      "url": "https://x.com/fofrAI/status/2016591039285645380",
+      "summary": "You can try this directly in AI Studio.  Use Gemini 3 Pro or Flash, turn on code execution, high thinking level, and prompt something like:  > Add bounding boxes and labels to this image. The label should tell me how to clean my table with an explana...",
+      "content": "You can try this directly in AI Studio.\n\nUse Gemini 3 Pro or Flash, turn on code execution, high thinking level, and prompt something like:\n\n> Add bounding boxes and labels to this image. The label should tell me how to clean my table with an explanation as label. Do not just label the items. Label each item based on the instruction. Also draw arrows from bounding box to bounding box so it's clear what's the order of things I need to do",
+      "tags": [
+        "gemini",
+        "prompting"
+      ],
+      "engagement": 510,
+      "dataSource": "bookmark"
+    },
+    {
+      "id": 74,
       "title": "@ketansingh279 My new book (2026 launch) has a lot more on both AI and the Human Colossus",
       "category": "AI Commentary",
       "source": "@waitbutwhy",
@@ -1049,23 +1124,7 @@
       "dataSource": "like"
     },
     {
-      "id": 70,
-      "title": "You can try this directly in AI Studio.",
-      "category": "GenAI Image Prompts",
-      "source": "@fofrAI",
-      "date": "2026-01-28",
-      "url": "https://x.com/fofrAI/status/2016591039285645380",
-      "summary": "You can try this directly in AI Studio.  Use Gemini 3 Pro or Flash, turn on code execution, high thinking level, and prompt something like:  > Add bounding boxes and labels to this image. The label should tell me how to clean my table with an explana...",
-      "content": "You can try this directly in AI Studio.\n\nUse Gemini 3 Pro or Flash, turn on code execution, high thinking level, and prompt something like:\n\n> Add bounding boxes and labels to this image. The label should tell me how to clean my table with an explanation as label. Do not just label the items. Label each item based on the instruction. Also draw arrows from bounding box to bounding box so it's clear what's the order of things I need to do",
-      "tags": [
-        "gemini",
-        "prompting"
-      ],
-      "engagement": 497,
-      "dataSource": "bookmark"
-    },
-    {
-      "id": 71,
+      "id": 75,
       "title": "Turn favorite scenes into miniatures with Nano Banana Pro",
       "category": "GenAI Image Prompts",
       "source": "@egeberkina",
@@ -1077,11 +1136,11 @@
         "nano-banana",
         "prompting"
       ],
-      "engagement": 483,
+      "engagement": 484,
       "dataSource": "bookmark"
     },
     {
-      "id": 72,
+      "id": 76,
       "title": "We did it. All* image and video models from @fal and @replicate are now supported in Node Banana.",
       "category": "Video Production",
       "source": "@ReflctWillie",
@@ -1092,11 +1151,11 @@
       "tags": [
         "workflow"
       ],
-      "engagement": 453,
+      "engagement": 451,
       "dataSource": "bookmark"
     },
     {
-      "id": 73,
+      "id": 77,
       "title": "We now have real-time AI character swap 🤯",
       "category": "Video Production",
       "source": "@venturetwins",
@@ -1107,11 +1166,11 @@
       "tags": [
         "kling"
       ],
-      "engagement": 435,
+      "engagement": 440,
       "dataSource": "bookmark"
     },
     {
-      "id": 74,
+      "id": 78,
       "title": "I've built a custom camera control @gradio component for camera control LoRAs for image models 🎥🧊 ",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1124,7 +1183,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 75,
+      "id": 79,
       "title": "Optical fiber.",
       "category": "GenAI Image Prompts",
       "source": "@ciguleva",
@@ -1140,7 +1199,7 @@
       "dataSource": "like"
     },
     {
-      "id": 76,
+      "id": 80,
       "title": "Journey - Separate Ways   (Potpourri Edition)",
       "category": "Video Production",
       "source": "@rainisto",
@@ -1149,11 +1208,11 @@
       "summary": "Journey - Separate Ways   (Potpourri Edition)  Things made sense to me in my dreams.  #stablediffusion #ai #journey #videoremix #warpfusion https://t.co/ouTxzHq9mn",
       "content": null,
       "tags": [],
-      "engagement": 377,
+      "engagement": 378,
       "dataSource": "like"
     },
     {
-      "id": 77,
+      "id": 81,
       "title": "One of my favourite Nano Banana Pro prompt flows at the moment is to take an existing image, ask Gem...",
       "category": "GenAI Image Prompts",
       "source": "@fofrAI",
@@ -1166,11 +1225,11 @@
         "nano-banana",
         "prompting"
       ],
-      "engagement": 343,
+      "engagement": 342,
       "dataSource": "bookmark"
     },
     {
-      "id": 78,
+      "id": 82,
       "title": "I tried this visual riddle on all the main AI models. Most got it hilariously wrong.  One nailed it....",
       "category": "AI Commentary",
       "source": "@TEDchris",
@@ -1179,11 +1238,11 @@
       "summary": "I tried this visual riddle on all the main AI models. Most got it hilariously wrong.  One nailed it. Before you look further, can you solve it? 🧵 https://t.co/ZRlmSLWVdl",
       "content": null,
       "tags": [],
-      "engagement": 343,
+      "engagement": 342,
       "dataSource": "like"
     },
     {
-      "id": 79,
+      "id": 83,
       "title": "I’ve been playing around a lot more in stable diffusion. Gonna take this month to focus on SD and ta...",
       "category": "GenAI Image Prompts",
       "source": "@nickfloats",
@@ -1199,20 +1258,7 @@
       "dataSource": "like"
     },
     {
-      "id": 80,
-      "title": "I keep seeing this video being shared but no one actually explains how to make it...",
-      "category": "Video Production",
-      "source": "@AIWarper",
-      "date": "2026-01-03",
-      "url": "https://x.com/AIWarper/status/2007309114725281932",
-      "summary": "I keep seeing this video being shared but no one actually explains how to make it...  \"We are cooked\" is all they say  So... here's how he made it (it's incredibly simple) 👇 https://t.co/ntcC0eCglB",
-      "content": null,
-      "tags": [],
-      "engagement": 312,
-      "dataSource": "bookmark"
-    },
-    {
-      "id": 81,
+      "id": 84,
       "title": "This is by far the most impressive AI influencer video I've seen.",
       "category": "Video Production",
       "source": "@venturetwins",
@@ -1225,7 +1271,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 82,
+      "id": 85,
       "title": "AI agents often work fine in development, then hit issues in production. This guide shares our 15 be...",
       "category": "AI Coding & Agents",
       "source": "@n8n_io",
@@ -1237,11 +1283,11 @@
         "agents",
         "n8n"
       ],
-      "engagement": 279,
+      "engagement": 281,
       "dataSource": "bookmark"
     },
     {
-      "id": 83,
+      "id": 86,
       "title": "Today, we’re launching a new Video-to-Music flow in ElevenLabs Studio.",
       "category": "Video Production",
       "source": "@FR491L3",
@@ -1256,7 +1302,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 84,
+      "id": 87,
       "title": "I spent a day with @openclaw giving it my calendar, email, and more, all so I could show you *exactl...",
       "category": "Clawdbot",
       "source": "@clairevo",
@@ -1267,11 +1313,24 @@
       "tags": [
         "clawdbot"
       ],
-      "engagement": 241,
+      "engagement": 240,
       "dataSource": "bookmark"
     },
     {
-      "id": 85,
+      "id": 88,
+      "title": "If you prefer, this is also available on my Youtube channel AlexFinnOfficial",
+      "category": "AI Commentary",
+      "source": "@AlexFinn",
+      "date": "2026-01-24",
+      "url": "https://x.com/AlexFinn/status/2015182602123268261",
+      "summary": "If you prefer, this is also available on my Youtube channel AlexFinnOfficial",
+      "content": null,
+      "tags": [],
+      "engagement": 236,
+      "dataSource": "bookmark"
+    },
+    {
+      "id": 89,
       "title": "I was privileged to interview Ange Postecoglou in Japan last March. He was hopeful of challenging fo...",
       "category": "GenAI Image Prompts",
       "source": "@davutovic",
@@ -1286,20 +1345,7 @@
       "dataSource": "like"
     },
     {
-      "id": 86,
-      "title": "If you prefer, this is also available on my Youtube channel AlexFinnOfficial",
-      "category": "AI Commentary",
-      "source": "@AlexFinn",
-      "date": "2026-01-24",
-      "url": "https://x.com/AlexFinn/status/2015182602123268261",
-      "summary": "If you prefer, this is also available on my Youtube channel AlexFinnOfficial",
-      "content": null,
-      "tags": [],
-      "engagement": 233,
-      "dataSource": "bookmark"
-    },
-    {
-      "id": 87,
+      "id": 90,
       "title": "As a counter-balance to all the positivity I'm posting about Claude (a new model from @AnthropicAI),...",
       "category": "AI Commentary",
       "source": "@goodside",
@@ -1315,7 +1361,7 @@
       "dataSource": "like"
     },
     {
-      "id": 88,
+      "id": 91,
       "title": "Bullet Time ✋",
       "category": "GenAI Image Prompts",
       "source": "@egeberkina",
@@ -1330,7 +1376,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 89,
+      "id": 92,
       "title": "Just popped in to see Santa 🎅 at Peter Mac. He has blessed me with three more huge months in remiss...",
       "category": "AI Commentary",
       "source": "@gazzagazzagc",
@@ -1343,7 +1389,7 @@
       "dataSource": "like"
     },
     {
-      "id": 90,
+      "id": 93,
       "title": "Nailed it. This is an incredible summary of our very recent political shitfuckery. https://t.co/YoWT...",
       "category": "AI Commentary",
       "source": "@SarahMoran",
@@ -1356,7 +1402,7 @@
       "dataSource": "like"
     },
     {
-      "id": 91,
+      "id": 94,
       "title": "To say Nano Banana Pro is good at text is an understatement. Here's the Gemini 3 blog post, as a glo...",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -1372,7 +1418,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 92,
+      "id": 95,
       "title": "We have data on the environmental impact per AI prompt:",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -1389,7 +1435,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 93,
+      "id": 96,
       "title": "i just cloned Sydney Sweeney perfectly.",
       "category": "GenAI Image Prompts",
       "source": "@gaucheai",
@@ -1400,11 +1446,11 @@
       "tags": [
         "prompting"
       ],
-      "engagement": 186,
+      "engagement": 189,
       "dataSource": "bookmark"
     },
     {
-      "id": 94,
+      "id": 97,
       "title": "My Gemini 3 system instructions for getting a good JSON prompt from an image",
       "category": "GenAI Image Prompts",
       "source": "@fofrAI",
@@ -1420,7 +1466,7 @@
       "dataSource": "like"
     },
     {
-      "id": 95,
+      "id": 98,
       "title": "Yep:",
       "category": "GenAI Image Prompts",
       "source": "@fofrAI",
@@ -1436,7 +1482,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 96,
+      "id": 99,
       "title": "Quick Poll ",
       "category": "AI Commentary",
       "source": "@LinusEkenstam",
@@ -1449,7 +1495,7 @@
       "dataSource": "like"
     },
     {
-      "id": 97,
+      "id": 100,
       "title": "Sora 2 is now in FLORA.",
       "category": "Video Production",
       "source": "@FR491L3",
@@ -1465,7 +1511,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 98,
+      "id": 101,
       "title": "i finally realized i can’t fully understand people without understanding history. i’m going to be fo...",
       "category": "AI Commentary",
       "source": "@alitaylor",
@@ -1478,7 +1524,7 @@
       "dataSource": "like"
     },
     {
-      "id": 99,
+      "id": 102,
       "title": "It is a privilege for us at @OptusSport to be amongst the finalists of the @sportaustralia Media Awa...",
       "category": "AI Commentary",
       "source": "@RSBayliss",
@@ -1491,7 +1537,7 @@
       "dataSource": "like"
     },
     {
-      "id": 100,
+      "id": 103,
       "title": "Introducing Workflows, a new way to build your own tools inside of Runway.",
       "category": "Video Production",
       "source": "@FR491L3",
@@ -1507,7 +1553,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 101,
+      "id": 104,
       "title": "On AI &amp; water, looks like all US data center usage (not just AI) ranges from 628M gallons a day ...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1520,7 +1566,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 102,
+      "id": 105,
       "title": "Introducing Apple Fitness+. A new fitness experience for everyone, powered by Apple Watch. World-cla...",
       "category": "AI Commentary",
       "source": "@Apple",
@@ -1533,7 +1579,7 @@
       "dataSource": "like"
     },
     {
-      "id": 103,
+      "id": 106,
       "title": "🚨 New in Photoshop (Beta): ONE-CLICK COMPOSITING!",
       "category": "AI Commentary",
       "source": "@terryleewhite",
@@ -1546,7 +1592,7 @@
       "dataSource": "like"
     },
     {
-      "id": 104,
+      "id": 107,
       "title": "Our AI-powered virtual try on technology, which lets you upload your photo to see how real clothes m...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1559,7 +1605,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 105,
+      "id": 108,
       "title": "Worth thinking about how to describe what your organization does, in detail, in a series of plain En...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1572,7 +1618,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 106,
+      "id": 109,
       "title": "Nano Banana Pro 🍌 is no joke. ",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -1587,7 +1633,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 107,
+      "id": 110,
       "title": "Link: I Set A Trap To Catch My Students Cheating With AI. The Results Were Shocking.",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1600,7 +1646,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 108,
+      "id": 111,
       "title": "IT'S FINALY HERE",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1613,7 +1659,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 109,
+      "id": 112,
       "title": "@deedydas You can also do this with the Glif MCP! https://t.co/Q1FGOApWui",
       "category": "AI Commentary",
       "source": "@angrypenguinPNG",
@@ -1626,7 +1672,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 110,
+      "id": 113,
       "title": "We created an entire mini South Park episode with Sora 2.",
       "category": "Video Production",
       "source": "@FR491L3",
@@ -1641,7 +1687,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 111,
+      "id": 114,
       "title": "people aren't grasping the full magnitude of nano-banana.",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -1656,7 +1702,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 112,
+      "id": 115,
       "title": "Nano Banana Pro prompt:",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
@@ -1672,22 +1718,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 113,
-      "title": "Call it anecdotal, because it is, but it's working well for me.  ",
-      "category": "GenAI Image Prompts",
-      "source": "@ReflctWillie",
-      "date": "2026-01-02",
-      "url": "https://x.com/ReflctWillie/status/2007000456909013080",
-      "summary": "Call it anecdotal, because it is, but it's working well for me.    PROMPT: \"Analyze the reference images and catalog all of the minor details of the setting, characters, car placement, signage, the character in the orange suit, and ground textures.  ...",
-      "content": "Call it anecdotal, because it is, but it's working well for me.  \n\nPROMPT:\n\"Analyze the reference images and catalog all of the minor details of the setting, characters, car placement, signage, the character in the orange suit, and ground textures. \n\nShow me a view from a high angle looking down at the car at an angle. The character in the button down shirt is sitting in the car with one arm resting on the top of driver's side door. The man in the orange suit is standing in front of the car in the exact same place as the reference image. Match the color of the reference image perfectly. Match the position of the car in the reference image perfectly.\"",
-      "tags": [
-        "prompting"
-      ],
-      "engagement": 50,
-      "dataSource": "bookmark"
-    },
-    {
-      "id": 114,
+      "id": 116,
       "title": "OVERALL  ",
       "category": "GenAI Image Prompts",
       "source": "@Ror_Fly",
@@ -1703,22 +1734,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 115,
-      "title": "@lennysan @Replit Full convo here: https://t.co/RpY7eNTSw8",
-      "category": "AI Coding & Agents",
-      "source": "@jasonlk",
-      "date": "2026-01-02",
-      "url": "https://x.com/jasonlk/status/2007201945073955079",
-      "summary": "@lennysan @Replit Full convo here: https://t.co/RpY7eNTSw8",
-      "content": null,
-      "tags": [
-        "replit"
-      ],
-      "engagement": 46,
-      "dataSource": "bookmark"
-    },
-    {
-      "id": 116,
+      "id": 117,
       "title": "@NedZelic You misread it. He actually said “I’d like to thank every Yuan.”",
       "category": "AI Commentary",
       "source": "@MurrayShaw1",
@@ -1731,7 +1747,7 @@
       "dataSource": "like"
     },
     {
-      "id": 117,
+      "id": 118,
       "title": "4 NEW TOPAZ MODELS just dropped 🎤👇🔥",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1744,7 +1760,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 118,
+      "id": 119,
       "title": "Additional details on Direct Offers and more here: https://t.co/pKYReoNGP4",
       "category": "AI Commentary",
       "source": "@adsliaison",
@@ -1753,11 +1769,11 @@
       "summary": "Additional details on Direct Offers and more here: https://t.co/pKYReoNGP4",
       "content": null,
       "tags": [],
-      "engagement": 27,
+      "engagement": 29,
       "dataSource": "bookmark"
     },
     {
-      "id": 119,
+      "id": 120,
       "title": "@stavrosben @vanOnselenP So what if they have to catch public transport to school and can’t maintain...",
       "category": "AI Commentary",
       "source": "@collaberator",
@@ -1770,7 +1786,7 @@
       "dataSource": "like"
     },
     {
-      "id": 120,
+      "id": 121,
       "title": "You start in the \"Cowork\" tab in the desktop app.",
       "category": "GenAI Image Prompts",
       "source": "@venturetwins",
@@ -1786,7 +1802,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 121,
+      "id": 122,
       "title": "We're pleased to announce that @tacvictoria has extended its Major Partnership for a further three y...",
       "category": "AI Commentary",
       "source": "@gomvfc",
@@ -1799,7 +1815,7 @@
       "dataSource": "like"
     },
     {
-      "id": 122,
+      "id": 123,
       "title": "It's a very good upscaler. This was from a 50x50 image https://t.co/EuYZVZlT9o",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1812,7 +1828,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 123,
+      "id": 124,
       "title": "@vamsibatchuk @GoogleAIStudio What did you use for the map",
       "category": "AI Commentary",
       "source": "@petergyang",
@@ -1825,7 +1841,7 @@
       "dataSource": "bookmark"
     },
     {
-      "id": 124,
+      "id": 125,
       "title": "ngl, this is one of the best things in the generative media space in recent times 😍😍 https://t.co/...",
       "category": "AI Commentary",
       "source": "@FR491L3",
@@ -1838,7 +1854,7 @@
       "dataSource": "repost"
     },
     {
-      "id": 125,
+      "id": 126,
       "title": "@AISpotlightNow @huggingface @ComfyUI @FAL Paper also out! https://t.co/2UGMsnPmD1",
       "category": "GenAI Image Prompts",
       "source": "@FR491L3",
