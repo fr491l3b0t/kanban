@@ -2,25 +2,37 @@
   "columns": [
     {
       "id": "ideas",
-      "title": "💡 Ideas",
+      "title": "💡 Ideas / Backlog",
       "cards": [
         {
-          "id": "1",
+          "id": "idea-1",
           "title": "LinkedIn/X Content Strategy",
-          "description": "Build Raphael's personal brand - Ethan Mollick style practitioner voice",
+          "description": "Build Raphael's personal brand — Ethan Mollick style practitioner voice. X thread auto-drafter built, needs first publish.",
           "tags": ["passive-income", "content"]
         },
         {
-          "id": "2",
+          "id": "idea-2",
           "title": "Lady Petrova App",
-          "description": "App idea for Petrova's business - details TBD",
+          "description": "App idea for Petrova's business — details TBD",
           "tags": ["passive-income", "app"]
         },
         {
-          "id": "3",
+          "id": "idea-3",
           "title": "Prompt Packs for Sale",
           "description": "Curated GenAI prompt collections via Gumroad/Payhip",
           "tags": ["passive-income", "quick-win"]
+        },
+        {
+          "id": "idea-4",
+          "title": "Mission Control Activity Feed",
+          "description": "Hook agent actions into Activity Feed API for real-time dashboard updates",
+          "tags": ["infrastructure", "dashboard"]
+        },
+        {
+          "id": "idea-5",
+          "title": "Nightly Build Task Rotation",
+          "description": "Current nightly build tasks (X thread drafter + voice briefing) are done. Need new build targets.",
+          "tags": ["infrastructure"]
         }
       ]
     },
@@ -29,40 +41,66 @@
       "title": "🔨 In Progress",
       "cards": [
         {
-          "id": "4",
-          "title": "Prompts & Techniques Catalog",
-          "description": "Living library of GenAI image/video techniques. Location: prompts/",
-          "tags": ["infrastructure"]
+          "id": "ip-1",
+          "title": "Product Intelligence Newsletter",
+          "description": "Daily 6am AEDT email + voice briefing. Template: newsletter-base.html. Sources: 42 RSS + 45 X queries + Brave. Cron: product-intelligence-6am (19:00 UTC).",
+          "tags": ["newsletter", "daily"],
+          "priority": "high"
         },
         {
-          "id": "5",
-          "title": "Passive Income Plan",
-          "description": "Goal: $50k/mo in 6 months. Location: projects/passive-income/",
-          "tags": ["passive-income", "planning"]
+          "id": "ip-2",
+          "title": "GenAI Knowledge Base",
+          "description": "453+ entries from 42+ feeds + X + Brave. Auto-syncs daily (08:00 UTC). Viewable at genai-kb.html.",
+          "tags": ["infrastructure", "kb"],
+          "priority": "high"
         },
         {
-          "id": "6",
-          "title": "Learn Raphael's Voice",
-          "description": "Capture authentic tone through candid conversations",
-          "tags": ["content"]
+          "id": "ip-3",
+          "title": "Clarity.fm Bio",
+          "description": "Option 8b 'The Realist' tone selected. Drafts at ~/clawd/projects/passive-income/clarity-bio-drafts.md. Needs final selection.",
+          "tags": ["passive-income"],
+          "priority": "medium"
+        },
+        {
+          "id": "ip-4",
+          "title": "Tailscale Funnel → Mission Control",
+          "description": "Tailscale installed but not authenticated. Need `sudo tailscale up` then configure Funnel for Mission Control dashboard.",
+          "tags": ["infrastructure", "dashboard"],
+          "priority": "medium"
+        },
+        {
+          "id": "ip-5",
+          "title": "GitHub Issue: Fallback Bug",
+          "description": "Fallback only triggers on API errors, NOT local validation errors ('Unknown model'). Draft at github-issue-fallback-bug.md.",
+          "tags": ["infrastructure", "bug"],
+          "priority": "low"
         }
       ]
     },
     {
       "id": "blocked",
-      "title": "🚧 Blocked",
+      "title": "🚧 Blocked / Needs Raphael",
       "cards": [
         {
-          "id": "7",
-          "title": "X/Twitter Access",
-          "description": "Bot detection blocking login - need workaround",
-          "tags": ["infrastructure"]
+          "id": "blk-1",
+          "title": "Tailscale Authentication",
+          "description": "Need Raphael to run `sudo tailscale up` and authenticate with Tailscale account.",
+          "tags": ["infrastructure"],
+          "blocker": "Raphael"
         },
         {
-          "id": "8",
-          "title": "Instagram Access",
-          "description": "Need to create account for research",
-          "tags": ["infrastructure"]
+          "id": "blk-2",
+          "title": "Clarity.fm Final Bio",
+          "description": "Need Raphael to pick final bio from Option 8b variants.",
+          "tags": ["passive-income"],
+          "blocker": "Raphael"
+        },
+        {
+          "id": "blk-3",
+          "title": "Git Remotes for Repos",
+          "description": "Workspace + clawd repos need GitHub remotes configured for backup/version control.",
+          "tags": ["infrastructure"],
+          "blocker": "Raphael"
         }
       ]
     },
@@ -71,35 +109,155 @@
       "title": "✅ Done",
       "cards": [
         {
-          "id": "9",
-          "title": "Gmail Setup",
-          "description": "fr491l3b0t@gmail.com - 2FA + App Password configured",
+          "id": "done-20",
+          "title": "Primary → Opus 4.6",
+          "description": "Switched primary model to claude-opus-4-6. Fallback: Kimi K2.5 via OpenRouter.",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-02-08"
+        },
+        {
+          "id": "done-19",
+          "title": "Memory Search Fixed",
+          "description": "New OpenAI API key, cleared stale embeddings index, added key to config. Working.",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-02-08"
+        },
+        {
+          "id": "done-18",
+          "title": "X/Twitter Integration (45 queries)",
+          "description": "x-search.js with 45 queries across 10 categories. Bundled expert fallbacks. Wired into newsletter + KB sync crons.",
+          "tags": ["infrastructure", "newsletter"],
+          "completedDate": "2026-02-08"
+        },
+        {
+          "id": "done-17",
+          "title": "Self-Monitoring Guardrails",
+          "description": "Credential change checklist, caching gotcha docs, health check cron now tests API keys + memory search + cron errors every 4h.",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-02-08"
+        },
+        {
+          "id": "done-16",
+          "title": "Disk Cleanup (5→7GB)",
+          "description": "Cleaned npm cache (1.7GB) + journal logs (434MB). Added disk maintenance to health check.",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-02-08"
+        },
+        {
+          "id": "done-15",
+          "title": "Newsletter Template + Branding",
+          "description": "Proper dark theme (#ff4d00), WPP/Aus section, newsletter-base.html template. Archived old static scripts.",
+          "tags": ["newsletter"],
+          "completedDate": "2026-02-08"
+        },
+        {
+          "id": "done-14",
+          "title": "X Research Skill Installed",
+          "description": "Skill at ~/.openclaw/skills/x-research/. Bearer token configured. Rate-limited but functional.",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-02-08"
+        },
+        {
+          "id": "done-13",
+          "title": "GenAI KB Expanded (5→453 entries)",
+          "description": "42+ RSS sources, Brave Search, X/Twitter. sources-config.js + fetch-sources.js.",
+          "tags": ["infrastructure", "kb"],
+          "completedDate": "2026-02-08"
+        },
+        {
+          "id": "done-12",
+          "title": "Mission Control Dashboard",
+          "description": "NextJS + Convex + Tailwind. Activity Feed, Calendar View, Global Search. At ~/clawd/mission-control/.",
+          "tags": ["infrastructure", "dashboard"],
+          "completedDate": "2026-02-07"
+        },
+        {
+          "id": "done-11",
+          "title": "All Crons Fixed (isolated + agentTurn)",
+          "description": "Converted from broken main/systemEvent to isolated/agentTurn. 7 active crons, all healthy.",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-02-06"
+        },
+        {
+          "id": "done-10",
+          "title": "Nightly Build: X Thread Drafter + Voice Briefing",
+          "description": "x-thread-drafter.js generates weekly GenAI threads. voice-briefing.js generates 60s TTS summaries.",
+          "tags": ["passive-income", "newsletter"],
+          "completedDate": "2026-02-06"
+        },
+        {
+          "id": "done-9",
+          "title": "4 Credentials Rotated",
+          "description": "Gateway, Telegram, OpenRouter, Anthropic keys all rotated after exposure during model switching.",
+          "tags": ["security"],
+          "completedDate": "2026-02-05"
+        },
+        {
+          "id": "done-8",
+          "title": "Multi-Model Stack Configured",
+          "description": "Opus 4.6 primary, Kimi K2.5 fallback, Codex for subagents. Brave Search API.",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-02-05"
+        },
+        {
+          "id": "done-7",
+          "title": "OpenClaw Updated to 2026.2.6-3",
+          "description": "Updated from 2026.1.30. Doctor run clean.",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-02-04"
+        },
+        {
+          "id": "done-6",
+          "title": "Tailscale Installed",
+          "description": "Installed but not authenticated. Pending Raphael's login.",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-02-04"
+        },
+        {
+          "id": "done-5",
+          "title": "Passive Income Plan",
+          "description": "Goal: $50k/mo. Strategy defined. Clarity.fm + X threads + prompt packs.",
+          "tags": ["passive-income", "planning"],
+          "completedDate": "2026-01-28"
+        },
+        {
+          "id": "done-4",
+          "title": "Prompts & Techniques Catalog",
+          "description": "Living library of GenAI image/video techniques at prompts/",
+          "tags": ["infrastructure"],
+          "completedDate": "2026-01-27"
+        },
+        {
+          "id": "done-3",
+          "title": "Gmail + Email Setup",
+          "description": "fr491l3b0t@gmail.com with 2FA + App Password. Email check cron active.",
           "tags": ["infrastructure"],
           "completedDate": "2026-01-26"
         },
         {
-          "id": "10",
+          "id": "done-2",
           "title": "Identity & Naming",
-          "description": "Fragile Bot (fr491l3b0t) - IDENTITY.md updated",
+          "description": "Fragile Bot (fr491l3b0t) — IDENTITY.md, SOUL.md, USER.md configured.",
           "tags": ["infrastructure"],
           "completedDate": "2026-01-26"
         },
         {
-          "id": "11",
-          "title": "First Email Sent",
-          "description": "Introduction to Petrova",
-          "tags": ["milestone"],
-          "completedDate": "2026-01-26"
-        },
-        {
-          "id": "12",
-          "title": "USER.md Deep Profile",
-          "description": "Comprehensive profile from X research + direct input",
+          "id": "done-1",
+          "title": "X/Twitter Bot Account",
+          "description": "@fr491l3b0t account created. Credentials stored. API access configured.",
           "tags": ["infrastructure"],
-          "completedDate": "2026-01-26"
+          "completedDate": "2026-01-27"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-01-26T09:10:00Z"
+  "lastUpdated": "2026-02-08T11:18:00Z",
+  "stats": {
+    "totalCards": 25,
+    "ideas": 5,
+    "inProgress": 5,
+    "blocked": 3,
+    "done": 20,
+    "lastSession": "2026-02-08"
+  }
 }
