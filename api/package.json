@@ -1,0 +1,18 @@
+{
+  "name": "genai-kb-search-api",
+  "version": "1.0.0",
+  "description": "Semantic search API for GenAI Knowledge Base",
+  "main": "search.js",
+  "scripts": {
+    "start": "node search.js",
+    "dev": "node search.js",
+    "generate-embeddings": "node -e \"require('./search').generateEmbeddings()\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
