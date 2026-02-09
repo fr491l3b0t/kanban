@@ -24,8 +24,8 @@
         },
         {
           "id": "idea-4",
-          "title": "Mission Control Activity Feed",
-          "description": "Hook agent actions into Activity Feed API for real-time dashboard updates",
+          "title": "Mission Control Activity Feed — Agent Hook",
+          "description": "Need: flush script auto-runs when MC comes online. Wire into newsletter + KB cron jobs via run-with-activity.js wrapper.",
           "tags": ["infrastructure", "dashboard"]
         },
         {
@@ -108,6 +108,13 @@
       "id": "done",
       "title": "✅ Done",
       "cards": [
+        {
+          "id": "done-21",
+          "title": "Activity Logger (Local-First)",
+          "description": "Built activity-logger.js (JSONL local log + Convex sync), run-with-activity.js (script wrapper), activity-aliases.sh. Action types: tool/message/file/sync/cron/system/alert. Pending: wire into cron jobs, auto-flush when MC online.",
+          "tags": ["infrastructure", "dashboard"],
+          "completedDate": "2026-02-09"
+        },
         {
           "id": "done-20",
           "title": "Primary → Opus 4.6",
@@ -251,13 +258,13 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-08T11:18:00Z",
+  "lastUpdated": "2026-02-09T16:05:00Z",
   "stats": {
-    "totalCards": 25,
+    "totalCards": 26,
     "ideas": 5,
     "inProgress": 5,
     "blocked": 3,
-    "done": 20,
-    "lastSession": "2026-02-08"
+    "done": 21,
+    "lastSession": "2026-02-09"
   }
 }
