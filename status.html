@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FR491L3 × System Status</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --surface-hover: #1a1a1a;
+      --border: #2a2a2a;
+      --text: #e8e8e8;
+      --text-secondary: #999;
+      --text-dim: #555;
+      --accent: #ff4d00;
+      --accent-dim: rgba(255, 77, 0, 0.15);
+      --green: #22c55e;
+      --green-dim: rgba(34, 197, 94, 0.15);
+      --yellow: #eab308;
+      --yellow-dim: rgba(234, 179, 8, 0.15);
+      --red: #ef4444;
+      --red-dim: rgba(239, 68, 68, 0.15);
+      --blue: #60a5fa;
+      --blue-dim: rgba(96, 165, 250, 0.15);
+    }
+    
+    [data-theme="light"] {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --surface-hover: #f5f5f5;
+      --border: #e0e0e0;
+      --text: #1a1a1a;
+      --text-secondary: #666;
+      --text-dim: #999;
+      --accent: #ff4d00;
+      --accent-dim: rgba(255, 77, 0, 0.1);
+      --green: #16a34a;
+      --green-dim: rgba(22, 163, 74, 0.1);
+      --yellow: #ca8a04;
+      --yellow-dim: rgba(202, 138, 4, 0.1);
+      --red: #dc2626;
+      --red-dim: rgba(220, 38, 38, 0.1);
+      --blue: #2563eb;
+      --blue-dim: rgba(37, 99, 235, 0.1);
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      min-height: 100vh;
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.6;
+      transition: background 0.3s, color 0.3s;
+    }
+    
+    .mono { font-family: 'JetBrains Mono', monospace; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+    
+    .logo {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .logo .accent { color: var(--accent); }
+    .logo .dim { color: var(--text-dim); }
+    
+    .header-right { display: flex; align-items: center; gap: 12px; }
+    
+    .header-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 6px 10px;
+      cursor: pointer;
+      font-size: 12px;
+      font-family: 'JetBrains Mono', monospace;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+    
+    .header-btn:hover { border-color: var(--accent); color: var(--accent); }
+    
+    .overall-status {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+    
+    .status-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    
+    .status-dot.ok { background: var(--green); box-shadow: 0 0 8px var(--green); }
+    .status-dot.warn { background: var(--yellow); box-shadow: 0 0 8px var(--yellow); }
+    .status-dot.error { background: var(--red); box-shadow: 0 0 8px var(--red); }
+    
+    .status-text {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    
+    .status-time {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--text-dim);
+      margin-left: auto;
+      text-transform: uppercase;
+    }
+    
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .grid-2 { grid-template-columns: repeat(2, 1fr); }
+    
+    @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) {
+      .grid, .grid-2 { grid-template-columns: 1fr; }
+      header { flex-direction: column; gap: 12px; }
+    }
+    
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 20px;
+    }
+    
+    .card-header {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .card-value {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1;
+    }
+    
+    .card-sub {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--text-secondary);
+      margin-top: 6px;
+    }
+    
+    .meter {
+      width: 100%;
+      height: 6px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      margin-top: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .meter-fill {
+      height: 100%;
+      transition: width 0.5s ease;
+    }
+    
+    .meter-fill.ok { background: var(--green); }
+    .meter-fill.warn { background: var(--yellow); }
+    .meter-fill.danger { background: var(--red); }
+    
+    /* Cron table */
+    .cron-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    
+    .cron-table th {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+      text-align: left;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .cron-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-secondary);
+    }
+    
+    .cron-table tr:last-child td { border-bottom: none; }
+    
+    .cron-table tr:hover td { background: var(--surface-hover); }
+    
+    .cron-name {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--text);
+      font-weight: 500;
+    }
+    
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border: 1px solid;
+    }
+    
+    .badge-ok { color: var(--green); border-color: var(--green); background: var(--green-dim); }
+    .badge-error { color: var(--red); border-color: var(--red); background: var(--red-dim); }
+    .badge-running { color: var(--blue); border-color: var(--blue); background: var(--blue-dim); }
+    
+    /* Builds list */
+    .build-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .build-item:last-child { border-bottom: none; }
+    
+    .build-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--accent);
+      min-width: 80px;
+    }
+    
+    .build-title {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+    
+    /* Section */
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+    
+    .section-header {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-dim);
+    }
+    
+    .section-body { padding: 16px 20px; }
+    
+    /* Kanban mini */
+    .kanban-mini {
+      display: flex;
+      gap: 8px;
+      align-items: flex-end;
+      height: 80px;
+    }
+    
+    .kanban-bar {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .kanban-bar-fill {
+      width: 100%;
+      min-height: 4px;
+      transition: height 0.5s ease;
+    }
+    
+    .kanban-bar-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+    }
+    
+    .kanban-bar-count {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    
+    footer {
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    
+    footer a { color: var(--text-dim); text-decoration: none; }
+    footer a:hover { color: var(--accent); }
+    
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <span class="accent">FR491L3</span>
+        <span class="dim">×</span>
+        <span>SYSTEM</span>
+        <span class="dim">STATUS</span>
+      </div>
+      <div class="header-right">
+        <a href="index.html" class="header-btn">📋 BOARD</a>
+        <a href="search.html" class="header-btn">🔍 SEARCH</a>
+        <button class="header-btn" id="themeToggle">◐</button>
+      </div>
+    </header>
+    
+    <div class="overall-status" id="overallStatus">
+      <div class="status-dot ok" id="statusDot"></div>
+      <span class="status-text" id="statusText">Loading...</span>
+      <span class="status-time" id="statusTime">—</span>
+    </div>
+    
+    <!-- Metric cards -->
+    <div class="grid" id="metricsGrid">
+      <div class="card">
+        <div class="card-header">Uptime</div>
+        <div class="card-value" id="uptime">—</div>
+        <div class="card-sub" id="uptimeSub"></div>
+      </div>
+      <div class="card">
+        <div class="card-header">Disk <span id="diskPercent"></span></div>
+        <div class="card-value" id="diskFree">—</div>
+        <div class="card-sub" id="diskSub"></div>
+        <div class="meter"><div class="meter-fill" id="diskMeter"></div></div>
+      </div>
+      <div class="card">
+        <div class="card-header">Memory</div>
+        <div class="card-value" id="memFree">—</div>
+        <div class="card-sub" id="memSub"></div>
+        <div class="meter"><div class="meter-fill" id="memMeter"></div></div>
+      </div>
+      <div class="card">
+        <div class="card-header">Knowledge Base</div>
+        <div class="card-value" id="kbEntries">—</div>
+        <div class="card-sub" id="kbSub"></div>
+      </div>
+      <div class="card">
+        <div class="card-header">OpenClaw</div>
+        <div class="card-value" id="ocVersion">—</div>
+        <div class="card-sub" id="ocSub"></div>
+      </div>
+      <div class="card">
+        <div class="card-header">Load Avg</div>
+        <div class="card-value" id="loadAvg">—</div>
+        <div class="card-sub" id="loadSub"></div>
+      </div>
+    </div>
+    
+    <!-- Kanban overview -->
+    <div class="section">
+      <div class="section-header">📋 Project Board</div>
+      <div class="section-body">
+        <div class="kanban-mini" id="kanbanMini"></div>
+      </div>
+    </div>
+    
+    <!-- Cron Jobs -->
+    <div class="section">
+      <div class="section-header">⏰ Cron Jobs <span id="cronSummary" style="float:right;color:var(--green)"></span></div>
+      <div class="section-body" style="padding:0;">
+        <table class="cron-table">
+          <thead>
+            <tr>
+              <th>Job</th>
+              <th>Schedule (AEDT)</th>
+              <th>Last Run</th>
+              <th>Duration</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="cronBody"></tbody>
+        </table>
+      </div>
+    </div>
+    
+    <!-- Recent Builds -->
+    <div class="section">
+      <div class="section-header">🌙 Recent Nightly Builds</div>
+      <div class="section-body" id="buildsBody"></div>
+    </div>
+    
+    <footer>
+      <div>
+        <a href="index.html">BOARD</a> · 
+        <a href="search.html">SEARCH</a> · 
+        <a href="genai-kb.html">KB</a> · 
+        <a href="https://github.com/fr491l3b0t/kanban">GITHUB</a>
+      </div>
+      <div style="color:var(--text-dim);">AUTO-UPDATES VIA CRON</div>
+    </footer>
+  </div>
+
+  <script>
+    // Theme
+    const theme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+    
+    function timeAgo(ms) {
+      if (!ms) return '—';
+      const diff = Date.now() - ms;
+      const mins = Math.floor(diff / 60000);
+      if (mins < 1) return 'just now';
+      if (mins < 60) return mins + 'm ago';
+      const hrs = Math.floor(mins / 60);
+      if (hrs < 24) return hrs + 'h ' + (mins % 60) + 'm ago';
+      const days = Math.floor(hrs / 24);
+      return days + 'd ago';
+    }
+    
+    function formatDuration(ms) {
+      if (!ms) return '—';
+      const secs = Math.round(ms / 1000);
+      if (secs < 60) return secs + 's';
+      return Math.floor(secs / 60) + 'm ' + (secs % 60) + 's';
+    }
+    
+    function parseMemSize(str) {
+      if (!str) return 0;
+      const match = str.match(/([\d.]+)(G|M|K)?i?/i);
+      if (!match) return 0;
+      const val = parseFloat(match[1]);
+      const unit = (match[2] || '').toUpperCase();
+      if (unit === 'G') return val;
+      if (unit === 'M') return val / 1024;
+      if (unit === 'K') return val / (1024 * 1024);
+      return val;
+    }
+    
+    async function loadStatus() {
+      try {
+        const res = await fetch('status.json?' + Date.now());
+        const data = await res.json();
+        render(data);
+      } catch (err) {
+        document.getElementById('statusText').textContent = 'Failed to load status';
+        document.getElementById('statusDot').className = 'status-dot error';
+        console.error(err);
+      }
+    }
+    
+    function render(d) {
+      const genAt = new Date(d.generatedAt);
+      const ageMs = Date.now() - genAt.getTime();
+      const stale = ageMs > 5 * 3600000; // >5h old
+      
+      // Overall status
+      const diskWarn = d.system.disk.usePercent > 80;
+      const diskCrit = d.system.disk.usePercent > 90;
+      const hasErrors = d.crons.jobs?.some(j => j.lastStatus === 'error');
+      
+      let overall = 'ok', overallText = 'All Systems Operational';
+      if (stale) { overall = 'warn'; overallText = 'Status Data Stale'; }
+      if (diskWarn) { overall = 'warn'; overallText = 'Disk Usage High'; }
+      if (diskCrit || hasErrors) { overall = 'error'; overallText = diskCrit ? 'Disk Critical' : 'Cron Errors Detected'; }
+      
+      document.getElementById('statusDot').className = 'status-dot ' + overall;
+      document.getElementById('statusText').textContent = overallText;
+      document.getElementById('statusTime').textContent = 'Updated ' + timeAgo(genAt.getTime());
+      
+      // Uptime
+      const up = d.system.uptime;
+      document.getElementById('uptime').textContent = (up.days || 0) + 'd';
+      document.getElementById('uptimeSub').textContent = `${up.hours || 0}h ${up.minutes || 0}m`;
+      
+      // Disk
+      document.getElementById('diskFree').textContent = d.system.disk.available;
+      document.getElementById('diskSub').textContent = `${d.system.disk.used} / ${d.system.disk.total}`;
+      document.getElementById('diskPercent').textContent = d.system.disk.usePercent + '%';
+      const diskFill = document.getElementById('diskMeter');
+      diskFill.style.width = d.system.disk.usePercent + '%';
+      diskFill.className = 'meter-fill ' + (diskCrit ? 'danger' : diskWarn ? 'warn' : 'ok');
+      
+      // Memory
+      const memTotal = parseMemSize(d.system.memory.total);
+      const memUsed = parseMemSize(d.system.memory.used);
+      const memPct = memTotal > 0 ? Math.round((memUsed / memTotal) * 100) : 0;
+      document.getElementById('memFree').textContent = d.system.memory.available;
+      document.getElementById('memSub').textContent = `${d.system.memory.used} / ${d.system.memory.total}`;
+      const memFill = document.getElementById('memMeter');
+      memFill.style.width = memPct + '%';
+      memFill.className = 'meter-fill ' + (memPct > 90 ? 'danger' : memPct > 70 ? 'warn' : 'ok');
+      
+      // KB
+      document.getElementById('kbEntries').textContent = d.knowledgeBase.totalEntries.toLocaleString();
+      document.getElementById('kbSub').textContent = d.knowledgeBase.categories + ' categories';
+      
+      // OpenClaw
+      document.getElementById('ocVersion').textContent = d.system.openclawVersion;
+      document.getElementById('ocSub').textContent = 'Node ' + d.system.node;
+      
+      // Load
+      const loads = (d.system.loadAvg || '').split(' ');
+      document.getElementById('loadAvg').textContent = loads[0] || '—';
+      document.getElementById('loadSub').textContent = loads.length > 1 ? `5m: ${loads[1]} · 15m: ${loads[2]}` : '';
+      
+      // Kanban mini chart
+      const kanban = d.kanban;
+      const cols = [
+        { label: 'Ideas', count: kanban.ideas || 0, color: '#fbbf24' },
+        { label: 'Active', count: kanban.inProgress || 0, color: '#60a5fa' },
+        { label: 'Blocked', count: kanban.blocked || 0, color: '#f87171' },
+        { label: 'Done', count: kanban.done || 0, color: '#22c55e' }
+      ];
+      const maxCount = Math.max(...cols.map(c => c.count), 1);
+      document.getElementById('kanbanMini').innerHTML = cols.map(c => `
+        <div class="kanban-bar">
+          <div class="kanban-bar-count" style="color:${c.color}">${c.count}</div>
+          <div class="kanban-bar-fill" style="background:${c.color};height:${Math.max((c.count / maxCount) * 50, 4)}px;opacity:0.7;"></div>
+          <div class="kanban-bar-label">${c.label}</div>
+        </div>
+      `).join('');
+      
+      // Crons
+      const jobs = d.crons.jobs || [];
+      const okCount = jobs.filter(j => j.lastStatus === 'ok').length;
+      document.getElementById('cronSummary').textContent = `${okCount}/${jobs.length} OK`;
+      document.getElementById('cronSummary').style.color = okCount === jobs.length ? 'var(--green)' : 'var(--red)';
+      
+      document.getElementById('cronBody').innerHTML = jobs.map(j => `
+        <tr>
+          <td><span class="cron-name">${j.name}</span></td>
+          <td>${j.aedt || j.schedule}</td>
+          <td style="font-family:'JetBrains Mono',monospace;font-size:11px;">${timeAgo(j.lastRunMs)}</td>
+          <td style="font-family:'JetBrains Mono',monospace;font-size:11px;">${formatDuration(j.lastDurationMs)}</td>
+          <td><span class="badge badge-${j.lastStatus || 'ok'}">${j.lastStatus || '—'}</span></td>
+        </tr>
+      `).join('');
+      
+      // Builds
+      const builds = d.recentBuilds || [];
+      document.getElementById('buildsBody').innerHTML = builds.length === 0
+        ? '<div style="color:var(--text-dim);font-size:12px;">No builds yet</div>'
+        : builds.map(b => `
+          <div class="build-item">
+            <span class="build-date">${b.date}</span>
+            <span class="build-title">${b.title}</span>
+          </div>
+        `).join('');
+    }
+    
+    loadStatus();
+    setInterval(loadStatus, 120000);
+  </script>
+</body>
+</html>

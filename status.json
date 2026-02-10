@@ -1,0 +1,132 @@
+{
+  "generatedAt": "2026-02-10T16:04:26.306Z",
+  "generatedAtLocal": "11/02/2026, 3:04:26 am",
+  "system": {
+    "uptime": {
+      "days": 15,
+      "hours": 14,
+      "minutes": 42,
+      "raw": "16:04:26 up 15 days, 14:42,  0 user,  load average: 0.03, 0.03, 0.00"
+    },
+    "disk": {
+      "total": "19G",
+      "used": "12G",
+      "available": "6.5G",
+      "usePercent": 65,
+      "raw": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root        19G   12G  6.5G  65% /"
+    },
+    "memory": {
+      "total": "7.6Gi",
+      "used": "1.5Gi",
+      "available": "6.1Gi"
+    },
+    "node": "v22.22.0",
+    "openclawVersion": "2026.2.9",
+    "loadAvg": "0.11 0.05 0.01"
+  },
+  "crons": {
+    "total": 7,
+    "jobs": [
+      {
+        "id": "b44ed61a",
+        "name": "nightly-build",
+        "schedule": "0 16 * * *",
+        "aedt": "3am",
+        "lastStatus": "ok",
+        "lastRunMs": 1770652800010,
+        "lastDurationMs": 319441
+      },
+      {
+        "id": "f1ea5496",
+        "name": "system-health-check",
+        "schedule": "every 4h",
+        "aedt": "—",
+        "lastStatus": "ok",
+        "lastRunMs": 1770731280768,
+        "lastDurationMs": 59085
+      },
+      {
+        "id": "2d5e3f7b",
+        "name": "email-inbox-check",
+        "schedule": "6am/1pm/8pm AEDT",
+        "aedt": "6am/1pm/8pm",
+        "lastStatus": "ok",
+        "lastRunMs": 1770714000005,
+        "lastDurationMs": 30535
+      },
+      {
+        "id": "51d1907e",
+        "name": "product-intelligence-6am",
+        "schedule": "0 19 * * *",
+        "aedt": "6am",
+        "lastStatus": "ok",
+        "lastRunMs": 1770663666959,
+        "lastDurationMs": 385118
+      },
+      {
+        "id": "72e5b44d",
+        "name": "openclaw-version-check",
+        "schedule": "30 6 * * *",
+        "aedt": "5:30pm",
+        "lastStatus": "ok",
+        "lastRunMs": 1770705000004,
+        "lastDurationMs": 38143
+      },
+      {
+        "id": "b215ead6",
+        "name": "genai-kb-daily-sync",
+        "schedule": "0 8 * * *",
+        "aedt": "7pm",
+        "lastStatus": "ok",
+        "lastRunMs": 1770710400006,
+        "lastDurationMs": 142774
+      },
+      {
+        "id": "5d0b9904",
+        "name": "daily-standup-2130",
+        "schedule": "30 10 * * *",
+        "aedt": "9:30pm",
+        "lastStatus": "ok",
+        "lastRunMs": 1770719400005,
+        "lastDurationMs": 43108
+      }
+    ]
+  },
+  "knowledgeBase": {
+    "totalEntries": 461,
+    "categories": 6,
+    "lastUpdated": "2026-02-08T08:43:25.702290"
+  },
+  "kanban": {
+    "totalCards": 27,
+    "ideas": 5,
+    "inProgress": 5,
+    "blocked": 3,
+    "done": 22,
+    "lastSession": "2026-02-10"
+  },
+  "recentBuilds": [
+    {
+      "date": "2026-02-10",
+      "title": "System Status Dashboard"
+    },
+    {
+      "date": "2026-02-09",
+      "title": "Activity Feed Integration (idea-4)"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "Untitled"
+    },
+    {
+      "date": "2026-02-05",
+      "title": "Untitled"
+    },
+    {
+      "date": "2026-02-04",
+      "title": "Untitled"
+    }
+  ],
+  "memoryFiles": 6,
+  "lastGitPush": "2026-02-09 16:05:05 +0000"
+}

@@ -109,6 +109,13 @@
       "title": "✅ Done",
       "cards": [
         {
+          "id": "done-22",
+          "title": "System Status Dashboard",
+          "description": "Static status page at status.html — shows system health, disk/memory meters, cron job status, KB stats, kanban chart, recent builds. Auto-updates via update-status.js.",
+          "tags": ["infrastructure", "dashboard"],
+          "completedDate": "2026-02-10"
+        },
+        {
           "id": "done-21",
           "title": "Activity Logger (Local-First)",
           "description": "Built activity-logger.js (JSONL local log + Convex sync), run-with-activity.js (script wrapper), activity-aliases.sh. Action types: tool/message/file/sync/cron/system/alert. Pending: wire into cron jobs, auto-flush when MC online.",
@@ -258,13 +265,13 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-09T16:05:00Z",
+  "lastUpdated": "2026-02-10T16:05:00Z",
   "stats": {
-    "totalCards": 26,
+    "totalCards": 27,
     "ideas": 5,
     "inProgress": 5,
     "blocked": 3,
-    "done": 21,
-    "lastSession": "2026-02-09"
+    "done": 22,
+    "lastSession": "2026-02-10"
   }
 }
