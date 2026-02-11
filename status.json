@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-02-10T16:04:26.306Z",
-  "generatedAtLocal": "11/02/2026, 3:04:26 am",
+  "generatedAt": "2026-02-11T16:04:00.187Z",
+  "generatedAtLocal": "12/02/2026, 3:04:00 am",
   "system": {
     "uptime": {
-      "days": 15,
+      "days": 16,
       "hours": 14,
       "minutes": 42,
-      "raw": "16:04:26 up 15 days, 14:42,  0 user,  load average: 0.03, 0.03, 0.00"
+      "raw": "16:04:00 up 16 days, 14:42,  0 user,  load average: 0.03, 0.03, 0.00"
     },
     "disk": {
       "total": "19G",
       "used": "12G",
-      "available": "6.5G",
-      "usePercent": 65,
-      "raw": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root        19G   12G  6.5G  65% /"
+      "available": "6.4G",
+      "usePercent": 66,
+      "raw": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root        19G   12G  6.4G  66% /"
     },
     "memory": {
       "total": "7.6Gi",
-      "used": "1.5Gi",
-      "available": "6.1Gi"
+      "used": "1.6Gi",
+      "available": "6.0Gi"
     },
     "node": "v22.22.0",
     "openclawVersion": "2026.2.9",
-    "loadAvg": "0.11 0.05 0.01"
+    "loadAvg": "0.03 0.03 0.00"
   },
   "crons": {
     "total": 7,
@@ -98,8 +98,8 @@
     "lastUpdated": "2026-02-08T08:43:25.702290"
   },
   "kanban": {
-    "totalCards": 27,
-    "ideas": 5,
+    "totalCards": 35,
+    "backlog": 5,
     "inProgress": 5,
     "blocked": 3,
     "done": 22,
@@ -127,6 +127,6 @@
       "title": "Untitled"
     }
   ],
-  "memoryFiles": 6,
-  "lastGitPush": "2026-02-09 16:05:05 +0000"
+  "memoryFiles": 7,
+  "lastGitPush": "2026-02-10 16:04:35 +0000"
 }
