@@ -8,36 +8,47 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
   <style>
+    /* ============================================
+       1. RESET & VARIABLES
+       ============================================ */
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    
+
     :root {
       --bg: #0a0a0a;
       --surface: #141414;
       --surface-hover: #1a1a1a;
       --border: #2a2a2a;
+      --border-hover: #3a3a3a;
       --text: #e8e8e8;
       --text-secondary: #999;
       --text-dim: #555;
       --accent: #ff4d00;
       --accent-dim: rgba(255, 77, 0, 0.15);
-      --note-bg: #1a1a0a;
-      --note-border: #4a4a00;
+      --accent-glow: rgba(255, 77, 0, 0.3);
+      --green: #22c55e;
+      --red: #ef4444;
+      --blue: #60a5fa;
+      --yellow: #fbbf24;
+      --orange: #f97316;
+      --radius: 0px;
     }
-    
+
     [data-theme="light"] {
       --bg: #fafafa;
       --surface: #ffffff;
       --surface-hover: #f5f5f5;
       --border: #e0e0e0;
+      --border-hover: #ccc;
       --text: #1a1a1a;
       --text-secondary: #666;
       --text-dim: #999;
-      --accent: #ff4d00;
       --accent-dim: rgba(255, 77, 0, 0.1);
-      --note-bg: #fffef0;
-      --note-border: #e0d000;
+      --accent-glow: rgba(255, 77, 0, 0.2);
     }
-    
+
+    /* ============================================
+       2. BASE STYLES
+       ============================================ */
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       background: var(--bg);
@@ -47,20 +58,29 @@
       line-height: 1.6;
       transition: background 0.3s, color 0.3s;
     }
-    
+
     .mono { font-family: 'JetBrains Mono', monospace; }
-    
-    .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
-    
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    /* ============================================
+       3. LAYOUT
+       ============================================ */
+    .container { max-width: 1400px; margin: 0 auto; padding: 16px 24px 24px; }
+
+    /* ============================================
+       4. HEADER
+       ============================================ */
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 16px 0 20px;
+      padding: 12px 0 16px;
       border-bottom: 1px solid var(--border);
-      margin-bottom: 24px;
     }
-    
+
     .logo {
       font-family: 'JetBrains Mono', monospace;
       font-size: 12px;
@@ -71,12 +91,12 @@
       align-items: center;
       gap: 8px;
     }
-    
+
     .logo .accent { color: var(--accent); }
     .logo .dim { color: var(--text-dim); }
-    
-    .header-right { display: flex; align-items: center; gap: 12px; }
-    
+
+    .header-right { display: flex; align-items: center; gap: 10px; }
+
     .last-updated {
       font-family: 'JetBrains Mono', monospace;
       font-size: 10px;
@@ -84,223 +104,834 @@
       letter-spacing: 0.05em;
       color: var(--text-dim);
     }
-    
+
     .header-btn {
       background: var(--surface);
       border: 1px solid var(--border);
       color: var(--text-secondary);
       padding: 6px 10px;
       cursor: pointer;
-      font-size: 12px;
+      font-size: 11px;
       font-family: 'JetBrains Mono', monospace;
       transition: all 0.2s;
+      border-radius: var(--radius);
     }
-    
+
     .header-btn:hover {
       border-color: var(--accent);
       color: var(--accent);
     }
-    
-    .header-btn.has-notes {
-      border-color: var(--note-border);
-      color: #d4a000;
+
+    /* ============================================
+       5. FILTER BAR
+       ============================================ */
+    .filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 16px;
+      flex-wrap: wrap;
     }
-    
-    .board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
-    
-    @media (max-width: 1200px) { .board { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 600px) {
-      .board { grid-template-columns: 1fr; }
-      header { flex-direction: column; gap: 12px; }
-      .header-right { width: 100%; justify-content: space-between; flex-wrap: wrap; }
+
+    .filter-buttons {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      flex: 1;
     }
-    
+
+    .filter-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 5px 12px;
+      cursor: pointer;
+      font-size: 11px;
+      font-family: 'JetBrains Mono', monospace;
+      transition: all 0.2s;
+      border-radius: var(--radius);
+      white-space: nowrap;
+    }
+
+    .filter-btn:hover { border-color: var(--accent); color: var(--text); }
+    .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+    .filter-btn .count {
+      font-size: 10px;
+      opacity: 0.7;
+      margin-left: 4px;
+    }
+
+    .add-task-btn {
+      background: var(--accent);
+      border: 1px solid var(--accent);
+      color: #fff;
+      padding: 5px 14px;
+      cursor: pointer;
+      font-size: 11px;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+      transition: all 0.2s;
+      border-radius: var(--radius);
+      white-space: nowrap;
+    }
+
+    .add-task-btn:hover { opacity: 0.85; }
+
+    .activity-toggle {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 5px 12px;
+      cursor: pointer;
+      font-size: 11px;
+      font-family: 'JetBrains Mono', monospace;
+      transition: all 0.2s;
+      border-radius: var(--radius);
+      white-space: nowrap;
+    }
+
+    .activity-toggle:hover { border-color: var(--accent); color: var(--text); }
+    .activity-toggle.has-activity { border-color: var(--accent); color: var(--accent); }
+
+    /* ============================================
+       6. BOARD & COLUMNS
+       ============================================ */
+    .board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+
     .column {
       background: var(--surface);
       border: 1px solid var(--border);
-      min-height: 400px;
+      min-height: 300px;
+      transition: border-color 0.2s, background 0.2s;
+      border-radius: var(--radius);
     }
-    
+
+    .column.drag-over {
+      border-color: var(--accent);
+      background: var(--accent-dim);
+    }
+
     .column-header {
       font-family: 'JetBrains Mono', monospace;
       font-size: 10px;
       font-weight: 500;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      padding: 14px 16px;
+      padding: 12px 14px;
       border-bottom: 1px solid var(--border);
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    
-    .column-ideas .column-header { color: #fbbf24; }
-    .column-in-progress .column-header { color: #60a5fa; }
-    .column-blocked .column-header { color: #f87171; }
-    .column-done .column-header { color: #22c55e; }
-    
+
+    .column-backlog .column-header { color: var(--yellow); }
+    .column-in-progress .column-header { color: var(--blue); }
+    .column-blocked .column-header { color: var(--red); }
+    .column-done .column-header { color: var(--green); }
+
     .column-count {
       background: var(--bg);
       border: 1px solid var(--border);
-      padding: 2px 8px;
+      padding: 1px 7px;
       font-size: 10px;
       color: var(--text-secondary);
+      border-radius: var(--radius);
     }
-    
-    .cards { padding: 12px; display: flex; flex-direction: column; gap: 8px; }
-    
+
+    .cards {
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-height: 60px;
+    }
+
+    /* ============================================
+       7. CARDS
+       ============================================ */
     .card {
       background: var(--bg);
       border: 1px solid var(--border);
-      padding: 14px;
+      border-left: 3px solid var(--border);
+      padding: 12px;
+      cursor: pointer;
       transition: all 0.15s;
+      position: relative;
+      border-radius: var(--radius);
     }
-    
-    .card:hover { border-color: var(--accent); background: var(--surface-hover); }
-    .card.has-note { border-left: 3px solid var(--note-border); }
-    
+
+    .card:hover { border-color: var(--border-hover); background: var(--surface-hover); }
+    .card.dragging { opacity: 0.4; }
+
+    .card.priority-urgent { border-left-color: var(--red); }
+    .card.priority-high { border-left-color: var(--orange); }
+
+    .card-blocked {
+      border-color: rgba(239, 68, 68, 0.4);
+    }
+
+    .card-blocked:hover { border-color: var(--red); }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
     .card-title {
       font-family: 'Space Grotesk', sans-serif;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 500;
       line-height: 1.4;
-      margin-bottom: 6px;
+      flex: 1;
     }
-    
+
+    .pickup-badge {
+      color: var(--accent);
+      font-size: 10px;
+      animation: pulse 2s ease-in-out infinite;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+
     .card-description {
-      font-size: 12px;
+      font-size: 11px;
       line-height: 1.5;
       color: var(--text-secondary);
-      margin-bottom: 10px;
+      margin-top: 6px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
-    
-    .card-tags { display: flex; flex-wrap: wrap; gap: 4px; }
-    
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 8px;
+      gap: 8px;
+    }
+
+    .card-tags { display: flex; flex-wrap: wrap; gap: 3px; }
+
     .tag {
       font-family: 'JetBrains Mono', monospace;
-      font-size: 9px;
-      padding: 3px 6px;
+      font-size: 8px;
+      padding: 2px 5px;
       text-transform: uppercase;
       letter-spacing: 0.03em;
       border: 1px solid var(--border);
       color: var(--text-dim);
+      border-radius: var(--radius);
     }
-    
+
     .tag-passive-income { border-color: #059669; color: #059669; }
     .tag-content { border-color: #7c3aed; color: #7c3aed; }
     .tag-infrastructure { border-color: #2563eb; color: #2563eb; }
     .tag-app { border-color: #db2777; color: #db2777; }
     .tag-quick-win { border-color: #d97706; color: #d97706; }
     .tag-planning { border-color: #6366f1; color: #6366f1; }
+    .tag-newsletter { border-color: #06b6d4; color: #06b6d4; }
+    .tag-kb { border-color: #8b5cf6; color: #8b5cf6; }
+    .tag-dashboard { border-color: #14b8a6; color: #14b8a6; }
+    .tag-bug { border-color: #ef4444; color: #ef4444; }
+    .tag-security { border-color: #f59e0b; color: #f59e0b; }
+    .tag-daily { border-color: #3b82f6; color: #3b82f6; }
     .tag-milestone { border-color: #10b981; color: #10b981; }
-    
+
+    .note-count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--text-dim);
+      white-space: nowrap;
+    }
+
     .completed-date {
       font-family: 'JetBrains Mono', monospace;
       font-size: 9px;
-      color: #22c55e;
-      margin-top: 8px;
+      color: var(--green);
+      margin-top: 6px;
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
-    
-    /* Notes */
-    .card-note-toggle {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 9px;
-      color: var(--text-dim);
-      cursor: pointer;
-      margin-top: 8px;
+
+    /* Quick actions on blocked cards */
+    .card-quick-actions {
       display: flex;
-      align-items: center;
       gap: 4px;
-    }
-    
-    .card-note-toggle:hover { color: var(--accent); }
-    .card-note-toggle.has-note { color: #d4a000; }
-    
-    .card-note-area {
-      display: none;
-      margin-top: 10px;
-      padding-top: 10px;
+      margin-top: 8px;
+      padding-top: 8px;
       border-top: 1px dashed var(--border);
     }
-    
-    .card-note-area.open { display: block; }
-    
-    .card-note-input {
-      width: 100%;
-      min-height: 60px;
-      background: var(--note-bg);
-      border: 1px solid var(--note-border);
-      color: var(--text);
-      font-family: 'Inter', sans-serif;
-      font-size: 12px;
-      padding: 8px;
-      resize: vertical;
+
+    .qa-btn {
+      flex: 1;
+      padding: 4px 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.15s;
+      border-radius: var(--radius);
+      text-align: center;
     }
-    
-    .card-note-input::placeholder { color: var(--text-dim); }
-    .card-note-input:focus { outline: none; border-color: var(--accent); }
-    
-    .note-hint {
+
+    .qa-btn:hover { border-color: var(--text-secondary); color: var(--text); }
+    .qa-approve:hover { border-color: var(--green); color: var(--green); }
+    .qa-reject:hover { border-color: var(--red); color: var(--red); }
+    .qa-info:hover { border-color: var(--yellow); color: var(--yellow); }
+
+    /* ============================================
+       8. ACTIVITY SIDEBAR
+       ============================================ */
+    .activity-sidebar {
+      position: fixed;
+      top: 0; right: 0;
+      width: 360px;
+      height: 100vh;
+      background: var(--surface);
+      border-left: 1px solid var(--border);
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      z-index: 500;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .activity-sidebar.open { transform: translateX(0); }
+
+    .activity-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .activity-header h3 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-secondary);
+    }
+
+    .close-sidebar {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      width: 28px; height: 28px;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s;
+      border-radius: var(--radius);
+    }
+
+    .close-sidebar:hover { border-color: var(--accent); color: var(--accent); }
+
+    .activity-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 8px;
+    }
+
+    .activity-item {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .activity-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .activity-time {
       font-family: 'JetBrains Mono', monospace;
       font-size: 9px;
       color: var(--text-dim);
-      margin-top: 4px;
+      text-transform: uppercase;
     }
-    
-    /* Modal */
+
+    .activity-author {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .activity-author.raphael { color: var(--blue); }
+    .activity-author.fragile { color: var(--accent); }
+
+    .activity-text {
+      font-size: 12px;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .activity-text strong { font-weight: 500; }
+
+    .activity-detail {
+      font-size: 11px;
+      color: var(--text-secondary);
+      margin-top: 3px;
+      font-style: italic;
+    }
+
+    .activity-empty {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-dim);
+      font-size: 12px;
+    }
+
+    /* ============================================
+       9. MODALS
+       ============================================ */
     .modal-overlay {
       display: none;
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.8);
+      background: rgba(0,0,0,0.75);
       z-index: 1000;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
+      padding: 40px 16px;
+      overflow-y: auto;
     }
-    
+
     .modal-overlay.open { display: flex; }
-    
+
     .modal {
       background: var(--surface);
       border: 1px solid var(--border);
-      max-width: 600px;
-      width: 90%;
-      max-height: 80vh;
-      overflow: auto;
-      padding: 24px;
+      width: 100%;
+      border-radius: var(--radius);
+      animation: modalIn 0.2s ease;
     }
-    
-    .modal h2 {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
+
+    @keyframes modalIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card-modal { max-width: 640px; }
+    .new-card-modal { max-width: 500px; }
+    .drag-note-modal { max-width: 420px; }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 20px 20px 0;
+    }
+
+    .modal-header h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.3;
+      flex: 1;
+      padding-right: 12px;
+    }
+
+    .modal-close {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      width: 30px; height: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.15s;
+      border-radius: var(--radius);
+    }
+
+    .modal-close:hover { border-color: var(--accent); color: var(--accent); }
+
+    .modal-body { padding: 16px 20px 20px; }
+
+    .modal-description {
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text-secondary);
       margin-bottom: 16px;
-      color: var(--accent);
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
     }
-    
-    .modal pre {
+
+    .modal-controls {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .control-group label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+    }
+
+    .modal-select {
       background: var(--bg);
       border: 1px solid var(--border);
-      padding: 16px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      overflow: auto;
-      white-space: pre-wrap;
-      max-height: 400px;
+      color: var(--text);
+      padding: 6px 10px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      cursor: pointer;
+      border-radius: var(--radius);
+      min-width: 160px;
     }
-    
-    .modal-actions {
-      margin-top: 16px;
+
+    .modal-select:focus { outline: none; border-color: var(--accent); }
+
+    .modal-input {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 8px 10px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      width: 100%;
+      border-radius: var(--radius);
+    }
+
+    .modal-input:focus { outline: none; border-color: var(--accent); }
+    textarea.modal-input { resize: vertical; min-height: 60px; }
+
+    .priority-selector {
+      display: flex;
+      gap: 4px;
+    }
+
+    .priority-btn {
+      padding: 5px 10px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.15s;
+      border-radius: var(--radius);
+    }
+
+    .priority-btn:hover { border-color: var(--text-secondary); }
+    .priority-btn.active { color: #fff; }
+    .priority-btn.active[data-priority="urgent"] { background: var(--red); border-color: var(--red); }
+    .priority-btn.active[data-priority="high"] { background: var(--orange); border-color: var(--orange); }
+    .priority-btn.active[data-priority="normal"] { background: var(--text-dim); border-color: var(--text-dim); }
+
+    .modal-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-bottom: 14px;
+    }
+
+    /* Quick actions in modal */
+    .modal-quick-actions {
+      margin-bottom: 14px;
+      padding: 10px;
+      background: rgba(239, 68, 68, 0.08);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      border-radius: var(--radius);
+    }
+
+    .modal-quick-actions label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--red);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .mqa-buttons { display: flex; gap: 6px; }
+
+    .mqa-btn {
+      flex: 1;
+      padding: 6px 10px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.15s;
+      border-radius: var(--radius);
+      text-align: center;
+    }
+
+    .mqa-btn:hover { border-color: var(--text-secondary); color: var(--text); }
+
+    /* Notes thread */
+    .notes-section {
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+
+    .notes-section > label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .notes-thread {
+      max-height: 240px;
+      overflow-y: auto;
+      margin-bottom: 10px;
+    }
+
+    .note-item {
+      padding: 8px 10px;
+      border-left: 2px solid var(--border);
+      margin-bottom: 6px;
+      background: var(--bg);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+
+    .note-item.raphael { border-left-color: var(--blue); }
+    .note-item.fragile { border-left-color: var(--accent); }
+
+    .note-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3px;
+    }
+
+    .note-author {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .note-author.raphael { color: var(--blue); }
+    .note-author.fragile { color: var(--accent); }
+
+    .note-time {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--text-dim);
+    }
+
+    .note-text {
+      font-size: 12px;
+      line-height: 1.5;
+      color: var(--text-secondary);
+    }
+
+    .notes-empty {
+      font-size: 11px;
+      color: var(--text-dim);
+      padding: 12px;
+      text-align: center;
+    }
+
+    .note-input-area {
       display: flex;
       gap: 8px;
+      align-items: flex-end;
     }
-    
+
+    .note-input {
+      flex: 1;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 8px 10px;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      resize: none;
+      border-radius: var(--radius);
+      min-height: 38px;
+      max-height: 120px;
+    }
+
+    .note-input:focus { outline: none; border-color: var(--accent); }
+    .note-input.required { border-color: var(--red); }
+
+    .note-submit {
+      background: var(--accent);
+      border: none;
+      color: #fff;
+      padding: 8px 14px;
+      cursor: pointer;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: opacity 0.15s;
+      border-radius: var(--radius);
+      height: 38px;
+    }
+
+    .note-submit:hover { opacity: 0.85; }
+    .note-submit:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    .note-warning {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--red);
+      margin-top: 6px;
+      display: none;
+    }
+
+    .note-warning.show { display: block; }
+
+    /* Create card button */
+    .create-card-btn {
+      width: 100%;
+      background: var(--accent);
+      border: none;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 12px;
+      transition: opacity 0.15s;
+      border-radius: var(--radius);
+    }
+
+    .create-card-btn:hover { opacity: 0.85; }
+
+    /* Drag note modal */
+    .drag-note-modal { padding: 20px; }
+    .drag-note-modal h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .drag-note-subtitle {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    .drag-note-modal .note-input { width: 100%; margin-bottom: 12px; }
+
+    .drag-actions {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .btn-confirm {
+      background: var(--accent);
+      border: none;
+      color: #fff;
+      padding: 7px 16px;
+      cursor: pointer;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      transition: opacity 0.15s;
+      border-radius: var(--radius);
+    }
+
+    .btn-confirm:hover { opacity: 0.85; }
+
+    .btn-cancel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 7px 16px;
+      cursor: pointer;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      transition: all 0.15s;
+      border-radius: var(--radius);
+    }
+
+    .btn-cancel:hover { border-color: var(--text-secondary); }
+
+    /* ============================================
+       10. STATES
+       ============================================ */
+    .offline-banner {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: #92400e;
+      color: #fef3c7;
+      text-align: center;
+      padding: 6px 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      z-index: 2000;
+      display: none;
+    }
+
+    .offline-banner.show {
+      display: block;
+    }
+
+    body.has-banner { padding-top: 32px; }
+
+    .loading-spinner {
+      position: fixed;
+      top: 12px;
+      right: 12px;
+      width: 20px; height: 20px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      z-index: 1500;
+      display: none;
+    }
+
+    .loading-spinner.show { display: block; }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ============================================
+       11. FOOTER
+       ============================================ */
     footer {
-      margin-top: 32px;
-      padding-top: 16px;
+      margin-top: 24px;
+      padding-top: 12px;
       border-top: 1px solid var(--border);
       display: flex;
       justify-content: space-between;
@@ -308,19 +939,62 @@
       font-size: 10px;
       text-transform: uppercase;
       letter-spacing: 0.08em;
+      flex-wrap: wrap;
+      gap: 8px;
     }
-    
+
     footer a { color: var(--text-dim); text-decoration: none; }
     footer a:hover { color: var(--accent); }
-    footer .refresh-note { color: var(--text-dim); }
-    
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: var(--bg); }
-    ::-webkit-scrollbar-thumb { background: var(--border); }
+    footer .version { color: var(--text-dim); }
+
+    /* ============================================
+       12. MOBILE RESPONSIVE
+       ============================================ */
+    @media (max-width: 1200px) {
+      .board { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 768px) {
+      .board { grid-template-columns: 1fr; }
+      .container { padding: 12px; }
+
+      header { flex-direction: column; gap: 10px; align-items: flex-start; }
+      .header-right { width: 100%; justify-content: space-between; }
+
+      .filter-bar { gap: 6px; }
+      .filter-buttons { gap: 4px; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; }
+      .filter-btn { font-size: 10px; padding: 4px 8px; }
+
+      .activity-sidebar { width: 100%; }
+
+      .modal-overlay { padding: 16px 8px; align-items: flex-start; }
+      .modal-header h2 { font-size: 16px; }
+      .modal-controls { flex-direction: column; gap: 10px; }
+      .mqa-buttons { flex-direction: column; }
+
+      .card-quick-actions { flex-wrap: wrap; }
+      .qa-btn { min-width: 60px; }
+
+      footer { flex-direction: column; gap: 6px; }
+    }
+
+    @media (max-width: 480px) {
+      .priority-selector { flex-wrap: wrap; }
+      .note-input-area { flex-direction: column; }
+      .note-submit { width: 100%; }
+    }
   </style>
 </head>
 <body>
+
+  <!-- Offline Banner -->
+  <div class="offline-banner" id="offlineBanner">⚡ Offline mode — changes won't sync to GitHub</div>
+
+  <!-- Loading Spinner -->
+  <div class="loading-spinner" id="loadingSpinner"></div>
+
   <div class="container">
+    <!-- Header -->
     <header>
       <div class="logo">
         <span class="accent">FR491L3</span>
@@ -330,188 +1004,454 @@
       </div>
       <div class="header-right">
         <div class="last-updated" id="lastUpdated">LOADING...</div>
-        <button class="header-btn" id="exportNotes" title="Export notes for Fragile">📋 NOTES</button>
         <button class="header-btn" id="themeToggle" title="Toggle theme">◐</button>
       </div>
     </header>
-    
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <div class="filter-buttons" id="filterButtons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="my-input">Needs My Input</button>
+        <button class="filter-btn" data-filter="fragile">Needs Fragile</button>
+        <button class="filter-btn" data-filter="urgent">🔴 Urgent</button>
+      </div>
+      <button class="add-task-btn" id="addTaskBtn">+ ADD TASK</button>
+      <button class="activity-toggle" id="activityToggle">📊 ACTIVITY</button>
+    </div>
+
+    <!-- Board -->
     <div class="board" id="board"></div>
-    
+
+    <!-- Footer -->
     <footer>
       <div>
-        <a href="search.html">🔍 SEARCH</a> · 
-        <a href="status.html">⚡ STATUS</a> · 
-        <a href="genai-kb.html">KNOWLEDGEBASE</a> · 
+        <a href="search.html">🔍 SEARCH</a> ·
+        <a href="status.html">⚡ STATUS</a> ·
+        <a href="genai-kb.html">KNOWLEDGEBASE</a> ·
         <a href="https://github.com/fr491l3b0t/kanban">GITHUB</a>
       </div>
-      <div class="refresh-note">NOTES AUTO-SAVE</div>
+      <div class="version">INTERACTIVE v2.0</div>
     </footer>
   </div>
-  
-  <div class="modal-overlay" id="notesModal">
-    <div class="modal">
-      <h2>📋 Notes for Fragile Bot</h2>
-      <p style="font-size:12px;color:var(--text-secondary);margin-bottom:12px;">Copy this and send to me on Telegram, or I'll check it during my next review.</p>
-      <pre id="notesExport"></pre>
-      <div class="modal-actions">
-        <button class="header-btn" id="copyNotes">COPY TO CLIPBOARD</button>
-        <button class="header-btn" id="closeModal">CLOSE</button>
+
+  <!-- Activity Sidebar -->
+  <div class="activity-sidebar" id="activitySidebar">
+    <div class="activity-header">
+      <h3>📊 Activity Feed</h3>
+      <button class="close-sidebar" id="closeSidebar">✕</button>
+    </div>
+    <div class="activity-list" id="activityList"></div>
+  </div>
+
+  <!-- Card Detail Modal -->
+  <div class="modal-overlay" id="cardModal">
+    <div class="modal card-modal">
+      <div class="modal-header">
+        <h2 id="modalTitle"></h2>
+        <button class="modal-close" onclick="closeCardModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-description" id="modalDescription"></div>
+
+        <div class="modal-controls">
+          <div class="control-group">
+            <label>Status</label>
+            <select class="modal-select" id="modalStatus">
+              <option value="backlog">💡 Backlog</option>
+              <option value="in-progress">🔨 In Progress</option>
+              <option value="blocked">🚧 Blocked</option>
+              <option value="done">✅ Done</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label>Priority</label>
+            <div class="priority-selector" id="modalPriority"></div>
+          </div>
+        </div>
+
+        <div class="modal-tags" id="modalTags"></div>
+
+        <!-- Quick Actions (blocked cards only) -->
+        <div class="modal-quick-actions" id="modalQuickActions" style="display:none">
+          <label>🚧 Respond to blocker</label>
+          <div class="mqa-buttons">
+            <button class="mqa-btn" onclick="prefillNote('Approved — moving forward')">Approved ✓</button>
+            <button class="mqa-btn" onclick="prefillNote('Not now — deferring')">Not Now ✗</button>
+            <button class="mqa-btn" onclick="prefillNote('Needs more info — please clarify')">Needs More Info ?</button>
+          </div>
+        </div>
+
+        <!-- Notes Thread -->
+        <div class="notes-section">
+          <label>Notes <span id="noteCountLabel"></span></label>
+          <div class="notes-thread" id="notesThread"></div>
+          <div class="note-input-area">
+            <textarea class="note-input" id="noteInput" placeholder="Add a note..." rows="2"></textarea>
+            <button class="note-submit" id="noteSubmit" onclick="handleNoteSubmit()">ADD NOTE</button>
+          </div>
+          <div class="note-warning" id="noteWarning">⚠️ Note required when changing status</div>
+        </div>
       </div>
     </div>
   </div>
 
-  <script>
-    // Storage
-    const NOTES_KEY = 'kanban_notes';
-    let notes = JSON.parse(localStorage.getItem(NOTES_KEY) || '{}');
-    let boardData = null;
-    
-    function saveNotes() {
-      localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
-      updateNotesButton();
-    }
-    
-    function updateNotesButton() {
-      const btn = document.getElementById('exportNotes');
-      const hasNotes = Object.values(notes).some(n => n && n.trim());
-      btn.classList.toggle('has-notes', hasNotes);
-      btn.textContent = hasNotes ? '📋 NOTES (' + Object.values(notes).filter(n => n && n.trim()).length + ')' : '📋 NOTES';
-    }
-    
-    // Theme
-    const theme = localStorage.getItem('theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', theme);
-    
-    document.getElementById('themeToggle').addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme');
-      const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-    });
-    
-    // Export notes
-    document.getElementById('exportNotes').addEventListener('click', () => {
-      if (!boardData) return;
-      
-      const notesWithContext = [];
-      boardData.columns.forEach(col => {
-        col.cards.forEach(card => {
-          if (notes[card.id] && notes[card.id].trim()) {
-            notesWithContext.push({
-              card: card.title,
-              column: col.title.replace(/[^\w\s]/g, '').trim(),
-              note: notes[card.id].trim(),
-              cardId: card.id
-            });
-          }
-        });
-      });
-      
-      if (notesWithContext.length === 0) {
-        document.getElementById('notesExport').textContent = 'No notes yet. Click "+ NOTE" on any card to add one.';
-      } else {
-        document.getElementById('notesExport').textContent = JSON.stringify(notesWithContext, null, 2);
-      }
-      
-      document.getElementById('notesModal').classList.add('open');
-    });
-    
-    document.getElementById('copyNotes').addEventListener('click', () => {
-      const text = document.getElementById('notesExport').textContent;
-      navigator.clipboard.writeText(text);
-      document.getElementById('copyNotes').textContent = 'COPIED!';
-      setTimeout(() => document.getElementById('copyNotes').textContent = 'COPY TO CLIPBOARD', 2000);
-    });
-    
-    document.getElementById('closeModal').addEventListener('click', () => {
-      document.getElementById('notesModal').classList.remove('open');
-    });
-    
-    document.getElementById('notesModal').addEventListener('click', (e) => {
-      if (e.target.id === 'notesModal') {
-        document.getElementById('notesModal').classList.remove('open');
-      }
-    });
-    
-    async function loadBoard() {
-      try {
-        const res = await fetch('data.json?' + Date.now());
-        boardData = await res.json();
-        renderBoard(boardData);
-        updateNotesButton();
-      } catch (err) {
-        console.error('Failed to load board:', err);
-      }
-    }
-    
-    function renderBoard(data) {
-      const board = document.getElementById('board');
-      const lastUpdated = document.getElementById('lastUpdated');
-      
-      const date = new Date(data.lastUpdated);
-      lastUpdated.textContent = 'UPDATED ' + date.toLocaleDateString('en-AU', { 
-        day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
-      }).toUpperCase();
-      
-      board.innerHTML = data.columns.map(col => `
-        <div class="column column-${col.id}">
-          <div class="column-header">
-            ${col.title}
-            <span class="column-count">${col.cards.length}</span>
+  <!-- New Card Modal -->
+  <div class="modal-overlay" id="newCardModal">
+    <div class="modal new-card-modal">
+      <div class="modal-header">
+        <h2>+ New Task</h2>
+        <button class="modal-close" onclick="closeNewCardModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="control-group" style="margin-bottom:12px">
+          <label>Title</label>
+          <input type="text" class="modal-input" id="newTitle" placeholder="Task title...">
+        </div>
+        <div class="control-group" style="margin-bottom:12px">
+          <label>Description</label>
+          <textarea class="modal-input" id="newDesc" rows="3" placeholder="What needs to be done..."></textarea>
+        </div>
+        <div class="modal-controls" style="margin-bottom:12px">
+          <div class="control-group">
+            <label>Status</label>
+            <select class="modal-select" id="newStatus">
+              <option value="backlog" selected>💡 Backlog</option>
+              <option value="in-progress">🔨 In Progress</option>
+              <option value="blocked">🚧 Blocked</option>
+            </select>
           </div>
-          <div class="cards">
-            ${col.cards.map(card => {
-              const hasNote = notes[card.id] && notes[card.id].trim();
-              return `
-              <div class="card ${hasNote ? 'has-note' : ''}" data-id="${card.id}">
-                <div class="card-title">${card.title}</div>
-                ${card.description ? `<div class="card-description">${card.description}</div>` : ''}
-                <div class="card-tags">
-                  ${(card.tags || []).map(tag => 
-                    `<span class="tag tag-${tag}">${tag.replace('-', ' ')}</span>`
-                  ).join('')}
-                </div>
-                ${card.completedDate ? `<div class="completed-date">✓ ${card.completedDate}</div>` : ''}
-                <div class="card-note-toggle ${hasNote ? 'has-note' : ''}" onclick="toggleNote('${card.id}')">
-                  ${hasNote ? '📝 VIEW NOTE' : '+ NOTE'}
-                </div>
-                <div class="card-note-area" id="note-area-${card.id}">
-                  <textarea class="card-note-input" 
-                    id="note-${card.id}" 
-                    placeholder="Note for Fragile Bot..."
-                    onchange="updateNote('${card.id}', this.value)"
-                    onkeyup="updateNote('${card.id}', this.value)">${notes[card.id] || ''}</textarea>
-                  <div class="note-hint">Auto-saved • Click "NOTES" to export</div>
-                </div>
-              </div>
-            `}).join('')}
+          <div class="control-group">
+            <label>Priority</label>
+            <div class="priority-selector" id="newPriority"></div>
           </div>
         </div>
-      `).join('');
+        <button class="create-card-btn" onclick="handleCreateCard()">CREATE TASK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Drag Note Modal -->
+  <div class="modal-overlay" id="dragNoteModal">
+    <div class="modal drag-note-modal">
+      <h2 id="dragNoteTitle">Moving card...</h2>
+      <p class="drag-note-subtitle" id="dragNoteSub"></p>
+      <textarea class="note-input" id="dragNoteInput" placeholder="Add a note about this move..." rows="2"></textarea>
+      <div class="drag-actions">
+        <button class="btn-cancel" onclick="cancelDragNote()">Cancel</button>
+        <button class="btn-confirm" onclick="confirmDragNote()">Confirm Move</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+/* ============================================
+   CONFIGURATION
+   ============================================ */
+const CONFIG = {
+  API_BASE: window.KANBAN_API_BASE || '',
+  AUTHOR: 'raphael',
+  REFRESH_MS: 30000,
+  LS_KEY: 'kanban_board_v2',
+};
+
+const COLUMN_META = {
+  'backlog':     { title: '💡 Ideas / Backlog',      color: '#fbbf24' },
+  'in-progress': { title: '🔨 In Progress',          color: '#60a5fa' },
+  'blocked':     { title: '🚧 Blocked / Needs Input', color: '#f87171' },
+  'done':        { title: '✅ Done',                  color: '#22c55e' },
+};
+
+const STATUS_LABELS = {
+  'backlog': '💡 Backlog', 'in-progress': '🔨 In Progress',
+  'blocked': '🚧 Blocked', 'done': '✅ Done',
+};
+
+/* ============================================
+   STATE
+   ============================================ */
+const S = {
+  board: null,
+  isOnline: false,
+  filter: 'all',
+  modalCardId: null,
+  origStatus: null,
+  origPriority: null,
+  dragCardId: null,
+  dragSourceCol: null,
+  dragTargetCol: null,
+  sidebarOpen: false,
+  refreshTimer: null,
+  busy: false,
+};
+
+/* ============================================
+   HELPERS
+   ============================================ */
+function genId() { return 'card-' + Date.now() + '-' + Math.random().toString(36).substr(2, 5); }
+function ts() { return new Date().toISOString(); }
+function truncate(s, n) { return s && s.length > n ? s.substring(0, n) + '…' : s || ''; }
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+function findCard(id) {
+  if (!S.board) return null;
+  for (const col of S.board.columns) {
+    const c = col.cards.find(c => c.id === id);
+    if (c) return c;
+  }
+  return null;
+}
+
+function findCardColumn(id) {
+  if (!S.board) return null;
+  for (const col of S.board.columns) {
+    if (col.cards.find(c => c.id === id)) return col;
+  }
+  return null;
+}
+
+function colById(id) {
+  return S.board ? S.board.columns.find(c => c.id === id) : null;
+}
+
+function allCards() {
+  if (!S.board) return [];
+  return S.board.columns.flatMap(c => c.cards);
+}
+
+function fmtTime(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return d.toLocaleDateString('en-AU', { day:'2-digit', month:'short' }) + ' ' +
+         d.toLocaleTimeString('en-AU', { hour:'2-digit', minute:'2-digit', hour12: false });
+}
+
+function fmtShort(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return d.toLocaleTimeString('en-AU', { hour:'2-digit', minute:'2-digit', hour12:false });
+}
+
+/* ============================================
+   API CLIENT
+   ============================================ */
+async function apiFetch(method, path, body) {
+  const opts = { method, headers: {} };
+  if (body) {
+    opts.headers['Content-Type'] = 'application/json';
+    opts.body = JSON.stringify(body);
+  }
+  const res = await fetch(CONFIG.API_BASE + path, opts);
+  if (!res.ok) throw new Error('API ' + res.status);
+  return res.json();
+}
+
+function showLoading() { document.getElementById('loadingSpinner').classList.add('show'); }
+function hideLoading() { document.getElementById('loadingSpinner').classList.remove('show'); }
+
+function showOffline() {
+  document.getElementById('offlineBanner').classList.add('show');
+  document.body.classList.add('has-banner');
+}
+
+function hideOffline() {
+  document.getElementById('offlineBanner').classList.remove('show');
+  document.body.classList.remove('has-banner');
+}
+
+function saveLocal() {
+  if (S.board) localStorage.setItem(CONFIG.LS_KEY, JSON.stringify(S.board));
+}
+
+/* ============================================
+   LOAD BOARD
+   ============================================ */
+async function loadBoard(silent) {
+  if (!silent) showLoading();
+  try {
+    S.board = await apiFetch('GET', '/api/cards');
+    S.isOnline = true;
+    hideOffline();
+    saveLocal();
+  } catch {
+    // Try localStorage
+    const local = localStorage.getItem(CONFIG.LS_KEY);
+    if (local) {
+      try { S.board = JSON.parse(local); } catch {}
     }
-    
-    function toggleNote(cardId) {
-      const area = document.getElementById('note-area-' + cardId);
-      area.classList.toggle('open');
-      if (area.classList.contains('open')) {
-        document.getElementById('note-' + cardId).focus();
+    if (!S.board) {
+      try {
+        const res = await fetch('data.json?' + Date.now());
+        S.board = await res.json();
+      } catch { /* no data at all */ }
+    }
+    S.isOnline = false;
+    showOffline();
+  }
+  if (!silent) hideLoading();
+  if (S.board) {
+    renderBoard();
+    renderActivity();
+    updateFilterCounts();
+  }
+}
+
+/* ============================================
+   MUTATIONS
+   ============================================ */
+async function mutateCard(cardId, updates, noteObj) {
+  const card = findCard(cardId);
+  if (!card) return;
+
+  const oldStatus = card.status;
+  const isStatusChange = updates.status && updates.status !== oldStatus;
+
+  // Move between columns if status changed
+  if (isStatusChange) {
+    const fromCol = findCardColumn(cardId);
+    const toCol = colById(updates.status);
+    if (fromCol && toCol && fromCol !== toCol) {
+      fromCol.cards = fromCol.cards.filter(c => c.id !== cardId);
+      toCol.cards.unshift(card);
+    }
+    card.status = updates.status;
+  }
+
+  if (updates.priority !== undefined) card.priority = updates.priority;
+  if (updates.needsPickup !== undefined) card.needsPickup = updates.needsPickup;
+
+  // Add note
+  if (noteObj && noteObj.text) {
+    const note = {
+      author: noteObj.author || CONFIG.AUTHOR,
+      text: noteObj.text,
+      timestamp: ts(),
+      action: noteObj.action || 'note_added',
+    };
+    card.notes.push(note);
+  }
+
+  card.updatedAt = ts();
+  card.updatedBy = CONFIG.AUTHOR;
+  if (CONFIG.AUTHOR === 'raphael') card.needsPickup = true;
+
+  // Update stats
+  updateStats();
+  saveLocal();
+  renderBoard();
+  renderActivity();
+  updateFilterCounts();
+
+  // Push to API
+  if (S.isOnline) {
+    showLoading();
+    try {
+      const apiBody = { ...updates, author: CONFIG.AUTHOR };
+      if (noteObj && noteObj.text) {
+        apiBody.note = { text: noteObj.text, author: noteObj.author || CONFIG.AUTHOR, action: noteObj.action };
       }
+      await apiFetch('PATCH', '/api/cards/' + cardId, apiBody);
+    } catch (err) {
+      console.error('API mutation failed:', err);
+      S.isOnline = false;
+      showOffline();
     }
-    
-    function updateNote(cardId, value) {
-      notes[cardId] = value;
-      saveNotes();
-      // Update card styling
-      const card = document.querySelector(`.card[data-id="${cardId}"]`);
-      const toggle = card.querySelector('.card-note-toggle');
-      const hasNote = value && value.trim();
-      card.classList.toggle('has-note', hasNote);
-      toggle.classList.toggle('has-note', hasNote);
-      toggle.textContent = hasNote ? '📝 VIEW NOTE' : '+ NOTE';
+    hideLoading();
+  }
+}
+
+async function createCard(data) {
+  const card = {
+    id: genId(),
+    title: data.title,
+    description: data.description || '',
+    tags: data.tags || [],
+    status: data.status || 'backlog',
+    notes: [],
+    needsPickup: true,
+    priority: data.priority || 'normal',
+    updatedAt: ts(),
+    updatedBy: CONFIG.AUTHOR,
+  };
+
+  const col = colById(card.status);
+  if (col) col.cards.unshift(card);
+
+  updateStats();
+  saveLocal();
+  renderBoard();
+  renderActivity();
+  updateFilterCounts();
+
+  if (S.isOnline) {
+    showLoading();
+    try {
+      await apiFetch('POST', '/api/cards', { ...card, author: CONFIG.AUTHOR });
+    } catch {
+      S.isOnline = false;
+      showOffline();
     }
-    
-    loadBoard();
-    setInterval(loadBoard, 60000); // Refresh every 60s (less aggressive)
-  </script>
-</body>
-</html>
+    hideLoading();
+  }
+}
+
+function updateStats() {
+  if (!S.board) return;
+  S.board.lastUpdated = ts();
+  S.board.stats = {
+    totalCards: allCards().length,
+    backlog: (colById('backlog')?.cards.length) || 0,
+    inProgress: (colById('in-progress')?.cards.length) || 0,
+    blocked: (colById('blocked')?.cards.length) || 0,
+    done: (colById('done')?.cards.length) || 0,
+    lastSession: new Date().toISOString().split('T')[0],
+  };
+}
+
+/* ============================================
+   RENDERING
+   ============================================ */
+function renderBoard() {
+  const board = document.getElementById('board');
+  if (!S.board) { board.innerHTML = '<p style="color:var(--text-dim);padding:40px">No data loaded</p>'; return; }
+
+  const colOrder = ['backlog', 'in-progress', 'blocked', 'done'];
+  board.innerHTML = colOrder.map(colId => {
+    const col = colById(colId);
+    if (!col) return '';
+    const meta = COLUMN_META[colId] || {};
+    const filtered = col.cards.filter(c => matchesFilter(c));
+    const total = col.cards.length;
+
+    return '<div class="column column-' + colId + '" ondragover="onDragOver(event)" ondrop="onDrop(event,\'' + colId + '\')" ondragleave="onDragLeave(event)">' +
+      '<div class="column-header">' +
+        '<span>' + (meta.title || col.title) + '</span>' +
+        '<span class="column-count">' + filtered.length + (filtered.length !== total ? '/' + total : '') + '</span>' +
+      '</div>' +
+      '<div class="cards" data-col="' + colId + '">' +
+        filtered.map(c => renderCard(c)).join('') +
+      '</div>' +
+    '</div>';
+  }).join('');
+
+  // Update timestamp
+  const el = document.getElementById('lastUpdated');
+  if (S.board.lastUpdated) {
+    el.textContent = 'UPDATED ' + fmtTime(S.board.lastUpdated).toUpperCase();
+  }
+}
+
+function renderCard(card) {
+  const pClass = card.priority !== 'normal' ? ' priority-' + card.priority : '';
+  const bClass = card.status === 'blocked' ? ' card-blocked' : '';
+  const pickup = card.needsPickup ? '<span class="pickup-badge" title="Needs Fragile\'s attention">●</span>' : '';
+  const noteCount = card.notes.length > 0 ? '<span class="note-count">💬 ' + card.notes.length + '</span>' : '';
+  const tags = (card.tags || []).map(t => '<span class="tag tag-' + t + '">' + t.replace(/-/g, ' ') + '</span>').join('');
+  const done = card.completedDate ? '<div class="completed-date">✓ ' + esc(card.completedDate) + '</div>' : '';
+
+  let quickActions = '';
+  if (card.status === 'blocked') {
+    quickActions = '<div class="card-quick-actions" onclick="event.stopPropagation()">' +
+      '<button class="qa-btn qa-approve" onclick="quickAction(\'' + card.id + '\',\'Approved — moving forward\',\'in-progress\')">Approved ✓</button>' +
+      '<button class="qa-btn qa-reject" onclick="quickAction(\'' + card.id + '\',\'Not now — deferring\')">Not Now ✗</button>' +
+      '<button class="qa-btn qa-info" onclick="quickAction(\'' + card.id + '\',\'Needs more info — please clarify\')">Info
