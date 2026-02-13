@@ -117,15 +117,16 @@
         {
           "id": "ip-3",
           "title": "Clarity.fm Bio",
-          "description": "Option 8b 'The Realist' tone selected. Drafts at ~/clawd/projects/passive-income/clarity-bio-drafts.md. Needs final selection.",
+          "description": "FINAL VERSION ready at clarity-bio-FINAL.md. Copy-paste ready for Clarity.fm profile. Rate: $250/hour.",
           "tags": [
             "passive-income"
           ],
           "priority": "normal",
           "status": "in-progress",
-          "notes": [],
-          "needsPickup": false,
-          "updatedAt": "2026-02-10T21:09:00Z",
+          "notes": ["2026-02-11: Final bio polished and ready. Awaiting Raphael to copy-paste into Clarity.fm."],
+          "needsPickup": true,
+          "nextAction": "Raphael to publish on Clarity.fm",
+          "updatedAt": "2026-02-11T16:05:00Z",
           "updatedBy": "fragile"
         },
         {
