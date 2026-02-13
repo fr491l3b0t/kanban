@@ -18,6 +18,7 @@ const app = express();
 const PORT = 3001;
 const KB_PATH = path.join(process.env.HOME, '.openclaw/workspace/genai-kb.json');
 const DATA_PATH = path.join(__dirname, 'data.json');
+const API_TOKEN = 'ufwbX6Zztw3hyWKwEVUrU1cz';
 
 // Get OpenAI key from OpenClaw config (for embeddings/chat)
 function getOpenAIKey() {
@@ -53,8 +54,38 @@ function getOpenRouterKey() {
 app.use(cors());
 app.use(express.json());
 
+// Auth middleware for AI endpoints
+function requireAuth(req, res, next) {
+  const auth = req.headers.authorization;
+  if (!auth || auth !== `Bearer ${API_TOKEN}`) {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+  next();
+}
+
+// Rate limiting (simple in-memory, per IP)
+const rateLimits = new Map();
+function rateLimit(maxPerMinute) {
+  return (req, res, next) => {
+    const ip = req.ip || req.connection.remoteAddress;
+    const now = Date.now();
+    const window = 60000;
+    
+    if (!rateLimits.has(ip)) rateLimits.set(ip, []);
+    const timestamps = rateLimits.get(ip).filter(t => now - t < window);
+    
+    if (timestamps.length >= maxPerMinute) {
+      return res.status(429).json({ error: 'Too many requests. Try again in a minute.' });
+    }
+    
+    timestamps.push(now);
+    rateLimits.set(ip, timestamps);
+    next();
+  };
+}
+
 // AI Search endpoint
-app.post('/api/ai-search', async (req, res) => {
+app.post('/api/ai-search', requireAuth, rateLimit(10), async (req, res) => {
   try {
     const { query, category, dateFrom, dateTo } = req.body;
     if (!query) return res.status(400).json({ error: 'Query required' });

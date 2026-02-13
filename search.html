@@ -614,6 +614,7 @@
     
     // API endpoint for AI search
     const API_URL = localStorage.getItem('searchApiUrl') || 'https://ip-172-31-32-225.tailf63b2f.ts.net/api/ai-search';
+    const API_TOKEN = 'ufwbX6Zztw3hyWKwEVUrU1cz';
     
     // Theme
     const theme = localStorage.getItem('theme') || 'dark';
@@ -635,16 +636,18 @@
         // Initialize Fuse
         const fuseOptions = {
           keys: [
-            { name: 'title', weight: 0.4 },
-            { name: 'summary', weight: 0.3 },
-            { name: 'source', weight: 0.15 },
-            { name: 'category', weight: 0.1 },
-            { name: 'tags', weight: 0.05 }
+            { name: 'title', weight: 0.5 },
+            { name: 'summary', weight: 0.25 },
+            { name: 'tags', weight: 0.15 },
+            { name: 'category', weight: 0.1 }
           ],
-          threshold: 0.4,
+          threshold: 0.25,
           includeScore: true,
           includeMatches: true,
-          minMatchCharLength: 2
+          minMatchCharLength: 3,
+          ignoreLocation: true,
+          useExtendedSearch: false,
+          distance: 200
         };
         
         fuse = new Fuse(kbData.entries, fuseOptions);
@@ -808,8 +811,10 @@
       }
       
       container.innerHTML = results.map(({ item, score }, index) => {
-        const relevance = query ? Math.round((1 - score) * 100) : null;
-        const words = query ? query.split(/\s+/).filter(w => w.length > 2) : [];
+        // Fuse scores: 0 = perfect match, 1 = no match. Convert to intuitive percentage.
+        // Apply a curve so only genuinely close matches get high percentages.
+        const relevance = query ? Math.round(Math.max(0, (1 - Math.pow(score, 0.4)) * 100)) : null;
+        const words = query ? query.split(/\s+/).filter(w => w.length > 3) : [];
         
         return `
           <div class="result-card">
@@ -838,12 +843,14 @@
       }).join('');
     }
     
-    // Highlight matching text
+    // Highlight matching text (skip stopwords and short terms)
+    const STOPWORDS = new Set(['the','and','for','are','but','not','you','all','can','had','her','was','one','our','out','has','with','that','this','from','they','been','have','will','what','when','where','which','their','about','would','there','could','other','into','more','some','than','them','then','these','most','also','over','such','after','just','like','best','make','know','only','very','much','well','back','even','want','give','many','still','does','each','were','here','both','come','made','find','used','work','first','need','time','long','look','been','down','good','year']);
     function highlightText(text, words) {
       if (!words.length) return escapeHtml(text);
       let result = escapeHtml(text);
-      words.forEach(word => {
-        const regex = new RegExp(`(${escapeRegex(word)})`, 'gi');
+      const meaningfulWords = words.filter(w => w.length > 3 && !STOPWORDS.has(w.toLowerCase()));
+      meaningfulWords.forEach(word => {
+        const regex = new RegExp(`\\b(${escapeRegex(word)})`, 'gi');
         result = result.replace(regex, '<mark>$1</mark>');
       });
       return result;
@@ -882,7 +889,7 @@
       try {
         const response = await fetch(API_URL, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + API_TOKEN },
           body: JSON.stringify({
             query,
             category: activeCategory !== 'all' ? activeCategory : null,
