@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Intelligence</title>
+  <style>
+    /* THEME A: DARK OPS */
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+    body { margin: 0; padding: 0; background-color: #0a0a0a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #e0e0e0; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    .container { max-width: 620px; margin: 0 auto; padding: 40px 24px; }
+
+    /* Header */
+    .header { border-bottom: 2px solid #ff4d00; padding-bottom: 28px; margin-bottom: 36px; }
+    .logo { font-family: 'JetBrains Mono', monospace; font-size: 22px; font-weight: 700; color: #ff4d00; letter-spacing: 3px; text-transform: uppercase; margin: 0; }
+    .tagline { font-size: 13px; color: #666; margin-top: 4px; letter-spacing: 0.5px; }
+    .date { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #555; margin-top: 8px; }
+
+    /* Weather */
+    .weather { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 8px; padding: 20px; margin-bottom: 28px; }
+    .weather-temp { font-size: 28px; font-weight: 700; color: #fff; }
+    .weather-desc { color: #888; font-size: 13px; margin-top: 6px; }
+
+    /* Sections */
+    .section { margin-bottom: 36px; }
+    .section-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #ff4d00; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 18px; border-left: 3px solid #ff4d00; padding-left: 12px; }
+
+    /* Items */
+    .item { background: #111; border-radius: 6px; padding: 18px; margin-bottom: 14px; border: 1px solid #1a1a1a; transition: border-color 0.2s; }
+    .item:hover { border-color: #333; }
+    .item-title { font-weight: 600; color: #fff; margin-bottom: 6px; font-size: 15px; line-height: 1.4; }
+    .item-title a { color: #fff; text-decoration: none; }
+    .item-title a:hover { color: #ff4d00; }
+    .item-meta { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #555; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .item-desc { font-size: 14px; color: #999; line-height: 1.6; }
+    .source-tag { display: inline-block; font-size: 9px; background: #1a1a1a; color: #666; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    /* Deep Dive */
+    .deep-dive { background: linear-gradient(135deg, #1a1a0a 0%, #1a1510 100%); border-left: 3px solid #ff4d00; border-radius: 0 8px 8px 0; padding: 20px; margin: 32px 0; }
+    .deep-dive-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #ff4d00; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; }
+    .deep-dive h3 { color: #fff; margin: 0 0 12px 0; font-size: 16px; }
+    .deep-dive p { color: #aaa; font-size: 14px; line-height: 1.7; }
+
+    /* CTA */
+    .cta-box { background: #111; border: 1px solid #ff4d00; border-radius: 8px; padding: 24px; text-align: center; margin: 32px 0; }
+    .cta-box h3 { color: #ff4d00; margin: 0 0 8px 0; font-size: 16px; }
+    .cta-box p { color: #888; font-size: 13px; margin: 0 0 16px 0; }
+    .cta-btn { display: inline-block; background: #ff4d00; color: #fff; padding: 10px 28px; border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 13px; letter-spacing: 0.5px; }
+
+    /* Footer */
+    .footer { border-top: 1px solid #1a1a1a; padding-top: 28px; margin-top: 36px; font-size: 11px; color: #555; text-align: center; }
+    .footer a { color: #ff4d00; text-decoration: none; }
+
+    /* Links */
+    a { color: #ff4d00; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="logo">Product Intelligence</h1>
+      <p class="tagline">Applied Intelligence for Creative Production</p>
+      <p class="date">Thursday 13 February 2026 · 06:00 AEDT</p>
+    </div>
+
+    <div class="weather"><div class="weather-temp">12 – 19°C ☁️</div><div class="weather-desc">Overcast • Melbourne 3000</div></div>
+
+    <div class="section"><p class="section-label">GenAI &amp; Production</p><div class="item"><div class="item-title"><a href="#">Anthropic closing $20B round at $350B valuation</a></div><div class="item-meta">Feb 13 · Reuters <span class="source-tag">RSS</span></div><div class="item-desc">The Claude maker is now worth 35x WPP. The gap between AI labs and the production industry they serve continues to widen.</div></div><div class="item"><div class="item-title"><a href="#">Kling 3.0 cracks subtle human performance in AI video</a></div><div class="item-meta">Feb 12 · LinkedIn <span class="source-tag">Share</span></div><div class="item-desc">László Gaál produced a 5-minute chamber play with micro-expressions and dialogue — all generated via i2v workflow. Production-grade acting from AI video.</div></div><div class="item"><div class="item-title"><a href="#">OpenAI launches ads in ChatGPT</a></div><div class="item-meta">Feb 12 · The Verge <span class="source-tag">RSS</span></div><div class="item-desc">Target, Adobe, and Audible among first advertisers. Free-tier users see sponsored results. The attention economy comes for AI assistants.</div></div></div>
+
+    <div class="section"><p class="section-label">WPP &amp; Australian Advertising</p><div class="item"><div class="item-title"><a href="#">WPP forming "WPP Creative" — Ogilvy, VML, AKQA unified</a></div><div class="item-meta">Feb 13 · Campaign <span class="source-tag">RSS</span></div><div class="item-desc">The creative-side mirror of WPP Production consolidation. Three major agencies under one banner. Richard Glasson reportedly leading integration.</div></div></div>
+
+    <div class="deep-dive"><div class="deep-dive-label">Deep Dive</div><h3>WPP Creative — What the agency consolidation means for production teams</h3><p>When Hogarth became WPP Production, it signalled a shift from brand-led to capability-led structure. Now the creative agencies are following suit...</p></div>
+
+    <div class="cta-box">
+      <h3>Get the full briefing every morning</h3>
+      <p>Voice summaries, KB search access, and deep dives — $5/mo</p>
+      <a href="https://pi.raphaelruz.com/subscribe" class="cta-btn">UPGRADE TO PRO</a>
+    </div>
+
+    <div class="footer">
+      <p>Product Intelligence · Applied Intelligence for Creative Production</p>
+      <p>By <a href="https://raphaelruz.com">Raphael Ruz</a> · <a href="https://pi.raphaelruz.com/archive">Archive</a> · <a href="{$unsubscribe_url}">Unsubscribe</a></p>
+    </div>
+  </div>
+</body>
+</html>
