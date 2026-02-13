@@ -115,21 +115,6 @@
           "updatedBy": "fragile"
         },
         {
-          "id": "ip-3",
-          "title": "Clarity.fm Bio",
-          "description": "FINAL VERSION ready at clarity-bio-FINAL.md. Copy-paste ready for Clarity.fm profile. Rate: $250/hour.",
-          "tags": [
-            "passive-income"
-          ],
-          "priority": "normal",
-          "status": "in-progress",
-          "notes": ["2026-02-11: Final bio polished and ready. Awaiting Raphael to copy-paste into Clarity.fm."],
-          "needsPickup": true,
-          "nextAction": "Raphael to publish on Clarity.fm",
-          "updatedAt": "2026-02-11T16:05:00Z",
-          "updatedBy": "fragile"
-        },
-        {
           "id": "ip-4",
           "title": "Tailscale Funnel → Mission Control",
           "description": "Tailscale installed but not authenticated. Need `sudo tailscale up` then configure Funnel for Mission Control dashboard.",
@@ -171,21 +156,6 @@
           "description": "Need Raphael to run `sudo tailscale up` and authenticate with Tailscale account.",
           "tags": [
             "infrastructure"
-          ],
-          "blocker": "Raphael",
-          "status": "blocked",
-          "notes": [],
-          "needsPickup": false,
-          "priority": "normal",
-          "updatedAt": "2026-02-10T21:09:00Z",
-          "updatedBy": "fragile"
-        },
-        {
-          "id": "blk-2",
-          "title": "Clarity.fm Final Bio",
-          "description": "Need Raphael to pick final bio from Option 8b variants.",
-          "tags": [
-            "passive-income"
           ],
           "blocker": "Raphael",
           "status": "blocked",
@@ -470,22 +440,6 @@
             "infrastructure"
           ],
           "completedDate": "2026-02-04",
-          "status": "done",
-          "notes": [],
-          "needsPickup": false,
-          "priority": "normal",
-          "updatedAt": "2026-02-10T21:09:00Z",
-          "updatedBy": "fragile"
-        },
-        {
-          "id": "done-5",
-          "title": "Passive Income Plan",
-          "description": "Goal: $50k/mo. Strategy defined. Clarity.fm + X threads + prompt packs.",
-          "tags": [
-            "passive-income",
-            "planning"
-          ],
-          "completedDate": "2026-01-28",
           "status": "done",
           "notes": [],
           "needsPickup": false,
