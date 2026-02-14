@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Intelligence — GenAI Production Briefing</title>
+  <meta name="description" content="Daily newsletter covering generative AI tools, workflows, and industry intelligence for creative production professionals. Free. By Raphael Ruz." />
+  <meta name="keywords" content="GenAI, newsletter, production, AI tools, creative technology, advertising, workflow" />
+  <style>
+    :root {
+      --bg: #0e0e0e;
+      --text: #f5f5f5;
+      --muted: #b9b9b9;
+      --accent: #ff4d00;
+      --pink: #F1A7CE;
+      --cyan: #60E0F7;
+      --card: #141414;
+      --border: rgba(255,255,255,0.08);
+      --shadow: 0 20px 40px rgba(0,0,0,0.45);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 0 8px;
+    }
+    .brand {
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+    .tag {
+      font-size: 12px;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 6px 10px;
+      border-radius: 999px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 32px;
+      align-items: center;
+      padding: 32px 0 24px;
+    }
+    .katakana {
+      color: var(--pink);
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: clamp(34px, 4.2vw, 56px);
+      line-height: 1.1;
+      margin: 0 0 14px;
+    }
+    .subhead {
+      color: var(--muted);
+      font-size: clamp(16px, 2vw, 20px);
+    }
+    .cta-row {
+      margin: 22px 0 8px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid transparent;
+      transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #0b0b0b;
+      box-shadow: 0 12px 24px rgba(255,77,0,0.2);
+    }
+    .btn-ghost {
+      border-color: var(--border);
+      color: var(--text);
+      background: transparent;
+    }
+    .btn:hover { transform: translateY(-1px); }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .social-proof {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+      padding: 12px 16px;
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 12px;
+    }
+
+    .form {
+      display: grid;
+      gap: 10px;
+    }
+    .input {
+      background: #101010;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 12px 14px;
+      border-radius: 10px;
+      font-size: 15px;
+    }
+    .form small { color: var(--muted); }
+
+    .section {
+      padding: 48px 0 12px;
+    }
+    .section h2 {
+      font-size: clamp(24px, 3vw, 36px);
+      margin: 0 0 14px;
+    }
+    .section p { color: var(--muted); margin: 0 0 16px; }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 20px;
+    }
+    .list {
+      margin: 10px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .list li {
+      margin: 8px 0;
+      padding-left: 18px;
+      position: relative;
+    }
+    .list li::before {
+      content: "";
+      position: absolute;
+      left: 0; top: 8px;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--cyan);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .who {
+      display: grid;
+      gap: 12px;
+    }
+    .who p strong { color: var(--text); }
+
+    .sample {
+      height: 220px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, rgba(241,167,206,0.2), rgba(96,224,247,0.15));
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    details {
+      border-bottom: 1px solid var(--border);
+      padding: 14px 0;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+    details p { color: var(--muted); margin: 8px 0 0; }
+
+    .footer-cta {
+      margin: 40px 0 60px;
+      padding: 28px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: rgba(255, 77, 0, 0.08);
+    }
+
+    .fineprint { color: var(--muted); font-size: 13px; }
+
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <div class="brand">Product Intelligence</div>
+      <div class="tag">GenAI Production Briefing</div>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <div class="katakana">プロダクト・インテリジェンス</div>
+        <h1>The GenAI briefing for people who actually ship.</h1>
+        <p class="subhead">Daily production intelligence on generative AI — tools, workflows, and industry moves that matter. Written by a practitioner, not a pundit.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#subscribe">Subscribe — it’s free</a>
+          <a class="btn btn-ghost" href="#sample">See a sample issue →</a>
+        </div>
+        <div class="social-proof">
+          <span><strong>1,500+</strong> KB entries curated</span>
+          <span>·</span>
+          <span><strong>40+</strong> sources monitored daily</span>
+          <span>·</span>
+          <span><strong>6am AEDT</strong> daily</span>
+        </div>
+      </div>
+
+      <div class="card" id="subscribe">
+        <div class="badge">Free daily briefing</div>
+        <h3 style="margin:0 0 6px;">Start your morning smarter.</h3>
+        <p style="color:var(--muted); margin-top:0;">Get the daily GenAI production briefing. No spam. Unsubscribe anytime.</p>
+        <form class="form" action="#" method="post">
+          <label>
+            <input class="input" type="email" name="email" placeholder="you@company.com" required aria-label="Email address" />
+          </label>
+          <button class="btn btn-primary" type="submit">Subscribe free</button>
+          <small>Beehiiv integration will be connected on launch.</small>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What you get</h2>
+      <p>Two tiers for how deep you want to go — both focused on production reality, not hype.</p>
+      <div class="grid-2">
+        <div class="card">
+          <div class="badge">Free</div>
+          <h3 style="margin:0 0 6px;">Your daily briefing.</h3>
+          <ul class="list">
+            <li><strong>10–15 stories</strong> filtered from 40+ sources so you don’t have to</li>
+            <li><strong>Production perspective</strong> — what it means for real workflows</li>
+            <li><strong>WPP &amp; Australian advertising</strong> industry-specific coverage</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="badge">Pro — $5/mo</div>
+          <h3 style="margin:0 0 6px;">For teams shipping GenAI.</h3>
+          <ul class="list">
+            <li>☀️ <strong>First access</strong> — 6am delivery, 24h before free tier</li>
+            <li>🎙️ <strong>Voice briefing</strong> — 60-second audio summary</li>
+            <li>🔍 <strong>KB search</strong> — 1,400+ curated entries</li>
+            <li>📖 <strong>Deep dives</strong> on the week’s biggest story</li>
+            <li>📋 <strong>Weekly Playbook</strong> — practical how‑tos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Who this is for</h2>
+      <div class="who">
+        <p><strong>Creative leads</strong> integrating GenAI into production workflows.</p>
+        <p><strong>Production managers</strong> navigating AI tooling decisions.</p>
+        <p><strong>Innovation teams</strong> tracking what’s real vs. hype.</p>
+        <p><strong>Agency strategists</strong> advising clients on AI‑powered content.</p>
+      </div>
+      <p>If your job involves making GenAI work in the real world — not just demoing it — this is your daily briefing.</p>
+    </section>
+
+    <section class="section">
+      <div class="grid-2">
+        <div class="card">
+          <h2 style="margin-top:0;">About</h2>
+          <p>Written by <strong>Raphael Ruz</strong> — Creative Innovation Lead with 20+ years in imaging, production operations, and content at scale. Currently focused on frontier GenAI systems and their integration into enterprise production at WPP.</p>
+          <p>This isn’t commentary from the sidelines. It’s intelligence from someone building these workflows every day.</p>
+        </div>
+        <div class="card" id="sample">
+          <h2 style="margin-top:0;">Sample issue preview</h2>
+          <div class="sample">Embed latest issue or screenshot here</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Is it really free?</summary>
+        <p>Yes. The daily briefing is free forever. Pro adds early access, voice, search, and deep dives.</p>
+      </details>
+      <details>
+        <summary>How is this different from The Rundown / TLDR AI?</summary>
+        <p>Those cover AI broadly. Product Intelligence covers GenAI specifically through the lens of creative production — tools, workflows, governance, and industry moves that affect people who actually make things.</p>
+      </details>
+      <details>
+        <summary>Can I expense it?</summary>
+        <p>At $5/mo, probably not worth the paperwork. But yes — you’ll get a proper invoice.</p>
+      </details>
+      <details>
+        <summary>What’s the refund policy?</summary>
+        <p>Cancel anytime. No questions.</p>
+      </details>
+    </section>
+
+    <section class="section footer-cta">
+      <h2 style="margin:0 0 8px;">Start your morning smarter.</h2>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#subscribe">Subscribe free</a>
+        <a class="btn btn-ghost" href="#">Go Pro — $5/mo</a>
+      </div>
+      <div class="fineprint">No spam. No fluff. Unsubscribe anytime.</div>
+    </section>
+  </div>
+</body>
+</html>
