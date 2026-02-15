@@ -192,23 +192,6 @@
           "priority": "high",
           "updatedAt": "2026-02-15T11:00:00Z",
           "updatedBy": "fragile"
-        },
-        {
-          "id": "blk-5",
-          "title": "Delete Accidental Tweet",
-          "description": "Bird CLI accident posted tweet ID as text from @FR491L3. Needs manual deletion.",
-          "tags": [
-            "fix"
-          ],
-          "blocker": "Raphael",
-          "status": "blocked",
-          "notes": [
-            "URL: https://x.com/i/status/2021941278448185565"
-          ],
-          "needsPickup": false,
-          "priority": "normal",
-          "updatedAt": "2026-02-15T11:00:00Z",
-          "updatedBy": "fragile"
         }
       ]
     },
@@ -216,6 +199,18 @@
       "id": "done",
       "title": "\u2705 Done",
       "cards": [
+        {
+          "id": "done-32",
+          "title": "Accidental Tweet Deleted",
+          "description": "Raphael deleted the bird CLI accident tweet from @FR491L3.",
+          "tags": [
+            "fix"
+          ],
+          "status": "done",
+          "completedDate": "2026-02-15",
+          "updatedAt": "2026-02-15T11:20:00Z",
+          "updatedBy": "raphael"
+        },
         {
           "id": "done-31",
           "title": "Visby CF License Resolved",
@@ -471,12 +466,12 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-15T11:06:00Z",
+  "lastUpdated": "2026-02-15T11:20:00Z",
   "stats": {
     "totalCards": 32,
     "backlog": 4,
     "inProgress": 5,
-    "blocked": 2,
-    "done": 21
+    "blocked": 1,
+    "done": 22
   }
 }
