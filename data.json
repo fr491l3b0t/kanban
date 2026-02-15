@@ -2,13 +2,16 @@
   "columns": [
     {
       "id": "backlog",
-      "title": "💡 Ideas / Backlog",
+      "title": "\ud83d\udca1 Ideas / Backlog",
       "cards": [
         {
           "id": "idea-2",
           "title": "Lady Petrova App",
-          "description": "App idea for Petrova's business — details TBD",
-          "tags": ["personal", "app"],
+          "description": "App idea for Petrova's business \u2014 details TBD",
+          "tags": [
+            "personal",
+            "app"
+          ],
           "status": "backlog",
           "notes": [],
           "needsPickup": false,
@@ -19,22 +22,31 @@
         {
           "id": "idea-6",
           "title": "Prompt Packs for Sale",
-          "description": "22 production-tested prompt templates built (image, video, text, workflow). Needs Gumroad account, hero image, video walkthrough to launch. Pricing: $19/$49/$149 tiers.",
-          "tags": ["passive-income"],
+          "description": "7 prompt templates built (image 3, video 2, text 1, workflow 1). Needs 15+ more before launch. Also needs Gumroad account + hero image.",
+          "tags": [
+            "passive-income"
+          ],
           "status": "backlog",
-          "notes": ["Built: ~/clawd/projects/prompt-packs/"],
+          "notes": [
+            "Built: ~/clawd/projects/prompt-packs/",
+            "Honest count: 7 templates, not 22"
+          ],
           "needsPickup": false,
           "priority": "normal",
-          "updatedAt": "2026-02-15T11:00:00Z",
+          "updatedAt": "2026-02-15T11:06:00Z",
           "updatedBy": "fragile"
         },
         {
           "id": "idea-7",
           "title": "Telegram Topics",
           "description": "Move bot output to a Telegram Forum Group with topics (Newsletter, System, Email, X Drafts, Standup, General). Reduces noise, allows per-topic muting.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "backlog",
-          "notes": ["OpenClaw supports forum topics natively. Raphael creates group, Fragile wires crons."],
+          "notes": [
+            "OpenClaw supports forum topics natively. Raphael creates group, Fragile wires crons."
+          ],
           "needsPickup": false,
           "priority": "normal",
           "updatedAt": "2026-02-15T11:00:00Z",
@@ -42,11 +54,15 @@
         },
         {
           "id": "idea-8",
-          "title": "Google Migration (Proton → Gmail)",
+          "title": "Google Migration (Proton \u2192 Gmail)",
           "description": "Consolidate connect@raphaelruz.com email from Proton to Google Workspace + merge raphael.ruz@gmail.com account (bookmarks, contacts, YouTube).",
-          "tags": ["personal"],
+          "tags": [
+            "personal"
+          ],
           "status": "backlog",
-          "notes": ["Proton renews Nov 7 2026. Cron reminder set for Sep 7. Full migration plan TBD."],
+          "notes": [
+            "Proton renews Nov 7 2026. Cron reminder set for Sep 7. Full migration plan TBD."
+          ],
           "needsPickup": false,
           "priority": "low",
           "updatedAt": "2026-02-15T11:00:00Z",
@@ -56,25 +72,33 @@
     },
     {
       "id": "in-progress",
-      "title": "🔨 In Progress",
+      "title": "\ud83d\udd28 In Progress",
       "cards": [
         {
           "id": "ip-1",
           "title": "Product Intelligence Newsletter (Daily)",
           "description": "Daily 6am AEDT email + voice briefing. 41 RSS feeds + 12 Brave queries + Bird CLI. 1,886 KB entries. Template: newsletter-base.html. Cron: 19:00 UTC.",
-          "tags": ["newsletter", "daily"],
+          "tags": [
+            "newsletter",
+            "daily"
+          ],
           "priority": "high",
           "status": "in-progress",
-          "notes": ["Running reliably since Feb 2026. 9 new RSS feeds added Feb 14."],
+          "notes": [
+            "Running reliably since Feb 2026. 9 new RSS feeds added Feb 14."
+          ],
           "needsPickup": false,
           "updatedAt": "2026-02-15T11:00:00Z",
           "updatedBy": "fragile"
         },
         {
           "id": "ip-7",
-          "title": "Product Intelligence → Paid Newsletter (Beehiiv)",
+          "title": "Product Intelligence \u2192 Paid Newsletter (Beehiiv)",
           "description": "Turn PI into paid product. Beehiiv platform, pi.raphaelruz.com domain, $5/mo pro tier. Spec written, templates built, landing page live, API module coded.",
-          "tags": ["revenue", "newsletter"],
+          "tags": [
+            "revenue",
+            "newsletter"
+          ],
           "priority": "high",
           "status": "in-progress",
           "notes": [
@@ -92,7 +116,10 @@
           "id": "ip-8",
           "title": "Second Brain Dashboard",
           "description": "NextJS app for reviewing memories, KB, tasks, and projects. Live at port 3002, Tailscale Funnel on port 8443.",
-          "tags": ["infrastructure", "dashboard"],
+          "tags": [
+            "infrastructure",
+            "dashboard"
+          ],
           "priority": "high",
           "status": "in-progress",
           "notes": [
@@ -107,8 +134,11 @@
         {
           "id": "ip-9",
           "title": "X Content Strategy",
-          "description": "Draft → approve → post flow for @FR491L3. Strategy doc written. First week of drafts (Feb 17-23) revised. Raphael uncomfortable with posting — revisit when ready.",
-          "tags": ["content", "revenue"],
+          "description": "Draft \u2192 approve \u2192 post flow for @FR491L3. Strategy doc written. First week of drafts (Feb 17-23) revised. Raphael uncomfortable with posting \u2014 revisit when ready.",
+          "tags": [
+            "content",
+            "revenue"
+          ],
           "priority": "normal",
           "status": "in-progress",
           "notes": [
@@ -125,7 +155,10 @@
           "id": "ip-2",
           "title": "GenAI Knowledge Base",
           "description": "1,886 entries from 41 RSS feeds + 12 Brave queries + Bird CLI. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
-          "tags": ["infrastructure", "kb"],
+          "tags": [
+            "infrastructure",
+            "kb"
+          ],
           "priority": "high",
           "status": "in-progress",
           "notes": [
@@ -141,16 +174,20 @@
     },
     {
       "id": "blocked",
-      "title": "🚧 Blocked / Needs Raphael",
+      "title": "\ud83d\udea7 Blocked / Needs Raphael",
       "cards": [
         {
           "id": "blk-4",
           "title": "Beehiiv ID Verification",
           "description": "Beehiiv requires identity check before API access. Raphael started signup but needs to complete KYC.",
-          "tags": ["revenue"],
+          "tags": [
+            "revenue"
+          ],
           "blocker": "Raphael",
           "status": "blocked",
-          "notes": ["Newsletter name: Product Intelligence, URL: productintelligence.beehiiv.com, Frequency: Daily"],
+          "notes": [
+            "Newsletter name: Product Intelligence, URL: productintelligence.beehiiv.com, Frequency: Daily"
+          ],
           "needsPickup": false,
           "priority": "high",
           "updatedAt": "2026-02-15T11:00:00Z",
@@ -160,25 +197,16 @@
           "id": "blk-5",
           "title": "Delete Accidental Tweet",
           "description": "Bird CLI accident posted tweet ID as text from @FR491L3. Needs manual deletion.",
-          "tags": ["fix"],
+          "tags": [
+            "fix"
+          ],
           "blocker": "Raphael",
           "status": "blocked",
-          "notes": ["URL: https://x.com/i/status/2021941278448185565"],
+          "notes": [
+            "URL: https://x.com/i/status/2021941278448185565"
+          ],
           "needsPickup": false,
           "priority": "normal",
-          "updatedAt": "2026-02-15T11:00:00Z",
-          "updatedBy": "fragile"
-        },
-        {
-          "id": "blk-6",
-          "title": "Visby CF Web Font License",
-          "description": "Need to confirm if Squarespace license for Visby CF covers external use (Beehiiv templates, landing pages).",
-          "tags": ["design"],
-          "blocker": "Raphael",
-          "status": "blocked",
-          "notes": ["Using Inter/system fonts as fallback until confirmed"],
-          "needsPickup": false,
-          "priority": "low",
           "updatedAt": "2026-02-15T11:00:00Z",
           "updatedBy": "fragile"
         }
@@ -186,13 +214,27 @@
     },
     {
       "id": "done",
-      "title": "✅ Done",
+      "title": "\u2705 Done",
       "cards": [
+        {
+          "id": "done-31",
+          "title": "Visby CF License Resolved",
+          "description": "Squarespace license = Squarespace only. Use Inter for external properties (Beehiiv, GitHub Pages, Second Brain). No purchase needed.",
+          "tags": [
+            "design"
+          ],
+          "status": "done",
+          "completedDate": "2026-02-15",
+          "updatedAt": "2026-02-15T11:06:00Z",
+          "updatedBy": "fragile"
+        },
         {
           "id": "done-30",
           "title": "Second Brain v1 Built + Deployed",
           "description": "NextJS app with memory timeline, KB search, tasks, projects, unified search. Dark theme, brand colours. systemd + Tailscale Funnel.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-15",
           "updatedAt": "2026-02-15T11:00:00Z",
@@ -202,7 +244,9 @@
           "id": "done-29",
           "title": "PI Landing Page Live",
           "description": "Product Intelligence landing page on GitHub Pages with signup form placeholder, tier comparison, FAQ.",
-          "tags": ["revenue"],
+          "tags": [
+            "revenue"
+          ],
           "status": "done",
           "completedDate": "2026-02-14",
           "updatedAt": "2026-02-14T11:00:00Z",
@@ -212,7 +256,9 @@
           "id": "done-28",
           "title": "9 New RSS Feeds Added",
           "description": "Mollick, AI Snake Oil, Interconnects, Lilian Weng, AiEdge, Ruder, AI Models, Synced, Guardian AI. Total: 41 feeds.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-14",
           "updatedAt": "2026-02-14T11:00:00Z",
@@ -221,8 +267,10 @@
         {
           "id": "done-27",
           "title": "gogcli Installed",
-          "description": "Google CLI v0.10.0 installed at /usr/local/bin/gog. Auth setup deferred — Google migration planned for Sep 2026.",
-          "tags": ["infrastructure"],
+          "description": "Google CLI v0.10.0 installed at /usr/local/bin/gog. Auth setup deferred \u2014 Google migration planned for Sep 2026.",
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-14",
           "updatedAt": "2026-02-14T11:00:00Z",
@@ -231,8 +279,10 @@
         {
           "id": "done-26",
           "title": "Beehiiv API Module Built",
-          "description": "Node.js module at ~/clawd/scripts/beehiiv-api.js — publishPost, getSubscribers, getStats. Ready to wire.",
-          "tags": ["revenue"],
+          "description": "Node.js module at ~/clawd/scripts/beehiiv-api.js \u2014 publishPost, getSubscribers, getStats. Ready to wire.",
+          "tags": [
+            "revenue"
+          ],
           "status": "done",
           "completedDate": "2026-02-14",
           "updatedAt": "2026-02-14T11:00:00Z",
@@ -241,8 +291,10 @@
         {
           "id": "done-25",
           "title": "X Content Strategy + Drafts",
-          "description": "Strategy doc + 2 weeks of drafts written. Raphael reviewing approach — prefers curating over original takes.",
-          "tags": ["content"],
+          "description": "Strategy doc + 2 weeks of drafts written. Raphael reviewing approach \u2014 prefers curating over original takes.",
+          "tags": [
+            "content"
+          ],
           "status": "done",
           "completedDate": "2026-02-14",
           "updatedAt": "2026-02-15T11:00:00Z",
@@ -252,7 +304,9 @@
           "id": "done-24",
           "title": "OpenClaw Updated to 2026.2.14",
           "description": "Updated from 2026.2.12. Telegram polls, cron delivery fix, past-due cron fix, MEDIA path support.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-15",
           "updatedAt": "2026-02-15T11:00:00Z",
@@ -262,7 +316,9 @@
           "id": "done-23",
           "title": "5 Skills Created + Crons Rewired",
           "description": "newsletter, kb-sync, health-check, email-check, standup skills at ~/.openclaw/skills/. All 5 crons reference skills.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-13",
           "updatedAt": "2026-02-13T16:30:00Z",
@@ -270,9 +326,11 @@
         },
         {
           "id": "done-22",
-          "title": "Subagents → OpenRouter Codex",
+          "title": "Subagents \u2192 OpenRouter Codex",
           "description": "Switched from openai/gpt-5.2 to openrouter/openai/gpt-5.2-codex. Bypasses OpenAI billing block.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-13",
           "updatedAt": "2026-02-13T16:00:00Z",
@@ -282,7 +340,9 @@
           "id": "done-21",
           "title": "KB AI Search API",
           "description": "Express server on port 3001, OpenRouter GPT-4.1-mini, bearer auth + rate limiting. systemd: kanban-api. Tailscale Funnel.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-13",
           "updatedAt": "2026-02-13T15:00:00Z",
@@ -292,7 +352,9 @@
           "id": "done-20",
           "title": "RSS + Brave Sources Fixed (0 errors)",
           "description": "Fixed Meta AI, Cognitive Revolution, Karpathy feeds. Removed dead feeds, replaced with Brave queries. Rate limiting fixed with tier system + delays.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-13",
           "updatedAt": "2026-02-13T14:00:00Z",
@@ -302,7 +364,9 @@
           "id": "done-19",
           "title": "PI Spec + Templates + Landing Copy",
           "description": "Full newsletter product spec, Beehiiv setup guide, Dark Ops + Pastel Editorial templates, landing page copy.",
-          "tags": ["revenue"],
+          "tags": [
+            "revenue"
+          ],
           "status": "done",
           "completedDate": "2026-02-13",
           "updatedAt": "2026-02-13T13:00:00Z",
@@ -312,7 +376,9 @@
           "id": "done-18",
           "title": "Tailscale Connected + Funnel Active",
           "description": "EC2 (100.106.131.20) + iPhone (100.69.163.70). Funnel on ports 443 (API) and 8443 (Second Brain).",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-12",
           "updatedAt": "2026-02-15T11:00:00Z",
@@ -322,7 +388,9 @@
           "id": "done-17",
           "title": "Model Stack: Opus 4.6 + Kimi K2.5 + Codex",
           "description": "Primary: anthropic/claude-opus-4-6. Fallback: openrouter/moonshotai/kimi-k2.5. Subagents: openrouter/openai/gpt-5.2-codex.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-10",
           "updatedAt": "2026-02-13T16:00:00Z",
@@ -332,7 +400,9 @@
           "id": "done-16",
           "title": "All Crons Fixed (isolated + agentTurn)",
           "description": "7 active crons, all using isolated + agentTurn pattern with delivery mode none.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-10",
           "updatedAt": "2026-02-10T21:09:00Z",
@@ -342,7 +412,9 @@
           "id": "done-15",
           "title": "4 Credentials Rotated",
           "description": "Gateway, Telegram, OpenRouter, Anthropic keys all rotated and verified.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-08",
           "updatedAt": "2026-02-10T21:09:00Z",
@@ -352,7 +424,9 @@
           "id": "done-14",
           "title": "Bird CLI + X Research Skill",
           "description": "Bird CLI installed for X data (bookmarks/likes/search). x-research skill created.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-08",
           "updatedAt": "2026-02-10T21:09:00Z",
@@ -361,8 +435,10 @@
         {
           "id": "done-13",
           "title": "GitHub Issue Filed: Fallback Bug",
-          "description": "openclaw/openclaw#12627 — fallback on validation errors. Filed and acknowledged.",
-          "tags": ["infrastructure"],
+          "description": "openclaw/openclaw#12627 \u2014 fallback on validation errors. Filed and acknowledged.",
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-10",
           "updatedAt": "2026-02-15T11:00:00Z",
@@ -372,7 +448,9 @@
           "id": "done-12",
           "title": "SOUL.md Rewritten",
           "description": "Personality, opinions, brevity, humour. No more corporate drone voice.",
-          "tags": ["identity"],
+          "tags": [
+            "identity"
+          ],
           "status": "done",
           "completedDate": "2026-02-13",
           "updatedAt": "2026-02-13T10:00:00Z",
@@ -382,7 +460,9 @@
           "id": "done-11",
           "title": "Summarize CLI Installed",
           "description": "@steipete/summarize for YouTube/podcast summaries. Config: xai/grok-3-mini.",
-          "tags": ["infrastructure"],
+          "tags": [
+            "infrastructure"
+          ],
           "status": "done",
           "completedDate": "2026-02-13",
           "updatedAt": "2026-02-13T12:00:00Z",
@@ -391,12 +471,12 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-15T11:05:00Z",
+  "lastUpdated": "2026-02-15T11:06:00Z",
   "stats": {
     "totalCards": 32,
     "backlog": 4,
     "inProgress": 5,
-    "blocked": 3,
-    "done": 20
+    "blocked": 2,
+    "done": 21
   }
 }
