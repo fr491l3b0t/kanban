@@ -20,23 +20,6 @@
           "updatedBy": "fragile"
         },
         {
-          "id": "idea-6",
-          "title": "Prompt Packs for Sale",
-          "description": "7 prompt templates built (image 3, video 2, text 1, workflow 1). Needs 15+ more before launch. Also needs Gumroad account + hero image.",
-          "tags": [
-            "passive-income"
-          ],
-          "status": "backlog",
-          "notes": [
-            "Built: ~/clawd/projects/prompt-packs/",
-            "Honest count: 7 templates, not 22"
-          ],
-          "needsPickup": false,
-          "priority": "normal",
-          "updatedAt": "2026-02-15T11:06:00Z",
-          "updatedBy": "fragile"
-        },
-        {
           "id": "idea-7",
           "title": "Telegram Topics",
           "description": "Move bot output to a Telegram Forum Group with topics (Newsletter, System, Email, X Drafts, Standup, General). Reduces noise, allows per-topic muting.",
@@ -192,6 +175,26 @@
           "priority": "high",
           "updatedAt": "2026-02-15T11:00:00Z",
           "updatedBy": "fragile"
+        },
+        {
+          "id": "idea-6",
+          "title": "Prompt Packs \u2014 Ready to Launch",
+          "description": "22 production-grade prompt templates (image 7, video 6, text 4, workflow 5). Gumroad listing written. Needs: Gumroad account + hero image to go live. Pricing: $19/$49/$149.",
+          "tags": [
+            "passive-income"
+          ],
+          "status": "blocked",
+          "notes": [
+            "Templates: ~/clawd/projects/prompt-packs/prompts/",
+            "Gumroad listing: ~/clawd/projects/prompt-packs/GUMROAD-LISTING.md",
+            "All 22 templates written and production-quality",
+            "BLOCKED: Need Raphael to create Gumroad account"
+          ],
+          "needsPickup": false,
+          "priority": "high",
+          "updatedAt": "2026-02-15T11:30:00Z",
+          "updatedBy": "fragile",
+          "blocker": "Raphael \u2014 needs Gumroad account"
         }
       ]
     },
@@ -466,12 +469,12 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-15T11:20:00Z",
+  "lastUpdated": "2026-02-15T11:30:00Z",
   "stats": {
     "totalCards": 32,
-    "backlog": 4,
+    "backlog": 3,
     "inProgress": 5,
-    "blocked": 1,
+    "blocked": 2,
     "done": 22
   }
 }
