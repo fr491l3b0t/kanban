@@ -178,8 +178,8 @@
         },
         {
           "id": "idea-6",
-          "title": "Prompt Packs \u2014 Ready to Launch",
-          "description": "22 production-grade prompt templates (image 7, video 6, text 4, workflow 5). Gumroad listing written. Needs: Gumroad account + hero image to go live. Pricing: $19/$49/$149.",
+          "title": "Prompt Packs \u2014 Launch Ready ($29/$79/$199)",
+          "description": "22 templates + worked examples building + quickstart guide + license. Repriced based on market research. BLOCKED: Raphael creates Payhip account.",
           "tags": [
             "passive-income"
           ],
@@ -192,7 +192,7 @@
           ],
           "needsPickup": false,
           "priority": "high",
-          "updatedAt": "2026-02-15T11:30:00Z",
+          "updatedAt": "2026-02-17T12:00:00Z",
           "updatedBy": "fragile",
           "blocker": "Raphael \u2014 needs Gumroad account"
         }
@@ -469,7 +469,7 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-15T11:30:00Z",
+  "lastUpdated": "2026-02-17T12:00:00Z",
   "stats": {
     "totalCards": 32,
     "backlog": 3,
