@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GenAI Production Pipeline — From Brief to Shipped Asset</title>
+  <style>
+    :root {
+      --bg-primary: #0a0a0a;
+      --bg-card: #141414;
+      --bg-elevated: #1a1a1a;
+      --border: #222;
+      --text-primary: #e0e0e0;
+      --text-secondary: #888;
+      --text-muted: #666;
+      --accent: #ff4d00;
+      --accent-hover: #ff6633;
+      --success: #22c55e;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { border-bottom: 2px solid var(--accent); padding: 48px 0 32px; }
+    .brand { font-family: 'SF Mono', Consolas, monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); margin-bottom: 24px; }
+    h1 { font-size: 42px; font-weight: 700; line-height: 1.1; margin-bottom: 16px; letter-spacing: -0.02em; }
+    .subtitle { font-size: 20px; color: var(--text-secondary); line-height: 1.5; max-width: 600px; }
+    section { padding: 64px 0; border-bottom: 1px solid var(--border); }
+    .section-title { font-family: 'SF Mono', Consolas, monospace; font-size: 13px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 24px; display: flex; align-items: center; gap: 12px; }
+    .section-title::before { content: ''; width: 24px; height: 2px; background: var(--accent); }
+    h2 { font-size: 32px; font-weight: 700; margin-bottom: 24px; letter-spacing: -0.01em; }
+    p { font-size: 17px; color: var(--text-secondary); margin-bottom: 20px; }
+    .problem-box { background: linear-gradient(135deg, #1a0a0a 0%, #2a1a1a 100%); border: 1px solid #3a2a2a; border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 32px; margin: 32px 0; }
+    .problem-box p { margin-bottom: 0; font-size: 18px; font-style: italic; color: var(--text-primary); }
+    .module { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 28px; margin-bottom: 16px; }
+    .module-header { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+    .module-number { font-family: 'SF Mono', Consolas, monospace; font-size: 12px; font-weight: 600; color: var(--accent); background: rgba(255, 77, 0, 0.1); padding: 6px 12px; border-radius: 4px; }
+    .module-title { font-size: 18px; font-weight: 600; }
+    .module-lessons { list-style: none; padding-left: 0; }
+    .module-lessons li { padding: 8px 0; color: var(--text-secondary); font-size: 15px; border-bottom: 1px solid var(--border); }
+    .module-lessons li:last-child { border-bottom: none; }
+    .module-lessons li::before { content: '\2014'; color: var(--accent); margin-right: 12px; }
+    .includes { background: var(--bg-elevated); border-radius: 8px; padding: 28px; margin: 32px 0; }
+    .includes-title { font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--text-primary); margin-bottom: 20px; }
+    .includes-grid { display: grid; gap: 12px; }
+    .includes-item { display: flex; align-items: center; gap: 12px; color: var(--text-secondary); font-size: 15px; }
+    .includes-item::before { content: '\2713'; color: var(--success); font-weight: 700; }
+    .pricing-grid { display: grid; gap: 24px; margin-top: 32px; }
+    .pricing-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 32px; position: relative; }
+    .pricing-card.featured { border-color: var(--accent); background: linear-gradient(135deg, #1a0a00 0%, #0a0a0a 100%); }
+    .pricing-badge { position: absolute; top: -10px; right: 24px; background: var(--accent); color: white; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; padding: 6px 12px; border-radius: 4px; }
+    .pricing-name { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+    .pricing-price { font-size: 48px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
+    .pricing-price span { font-size: 16px; font-weight: 400; color: var(--text-muted); }
+    .pricing-desc { font-size: 15px; color: var(--text-secondary); margin-bottom: 24px; }
+    .pricing-features { list-style: none; margin-bottom: 28px; }
+    .pricing-features li { padding: 8px 0; font-size: 15px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+    .pricing-features li:last-child { border-bottom: none; }
+    .btn { display: block; width: 100%; padding: 16px 24px; background: var(--accent); color: white; font-size: 15px; font-weight: 600; text-align: center; text-decoration: none; border-radius: 6px; border: none; cursor: pointer; transition: background 0.2s; }
+    .btn:hover { background: var(--accent-hover); }
+    .btn-secondary { background: transparent; border: 1px solid var(--border); color: var(--text-primary); }
+    .btn-secondary:hover { background: var(--bg-elevated); }
+    .audience-grid { display: grid; gap: 16px; margin-top: 24px; }
+    .audience-item { display: flex; align-items: flex-start; gap: 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+    .audience-icon { font-size: 20px; flex-shrink: 0; }
+    .audience-title { font-weight: 600; margin-bottom: 4px; }
+    .audience-desc { font-size: 14px; color: var(--text-secondary); margin: 0; }
+    .credibility { display: flex; align-items: center; gap: 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin: 32px 0; }
+    .credibility-text { font-size: 15px; color: var(--text-secondary); }
+    .credibility-text strong { color: var(--text-primary); }
+    footer { padding: 48px 0; text-align: center; color: var(--text-muted); font-size: 14px; }
+    footer a { color: var(--accent); text-decoration: none; }
+    @media (max-width: 600px) { h1 { font-size: 32px; } h2 { font-size: 26px; } .pricing-price { font-size: 36px; } .container { padding: 0 20px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">Raphael Ruz</div>
+      <h1>From Brief to Shipped Asset</h1>
+      <p class="subtitle">The production pipeline that turns GenAI from a flashy demo into a repeatable system for shipping approved, on-brand creative assets.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="section-title">The Problem</div>
+      <h2>Why AI Projects Die After the Demo</h2>
+      <p>Your team generated some incredible images. The CEO loved them. The client said "wow." Then nothing shipped.</p>
+      <p>Because nobody built the pipeline between "that looks amazing" and "that's approved, compliant, and in the DAM." No stage gates. No review loops. No governance. Just vibes and a Midjourney subscription.</p>
+      <div class="problem-box">
+        <p>"We've been doing AI pilots for 18 months. We've shipped exactly zero production assets from them."</p>
+      </div>
+      <p>This course exists because the gap between AI capability and production reality is where careers stall and budgets die. The technology works. The pipeline doesn't exist yet. Until now.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">The Pipeline</div>
+      <h2>6 Stages. 10 Lessons. One System.</h2>
+      <p>Built from 20+ years of production operations across advertising and ecommerce. Not theory. Not tutorials. A complete, stage-gated system you can implement next week.</p>
+
+      <div class="module">
+        <div class="module-header">
+          <span class="module-number">Module 01</span>
+          <span class="module-title">Foundation</span>
+        </div>
+        <ul class="module-lessons">
+          <li>Why AI Projects Die After Demo — the pattern, the fix</li>
+          <li>The 6-Stage Pipeline — overview of the complete system</li>
+        </ul>
+      </div>
+
+      <div class="module">
+        <div class="module-header">
+          <span class="module-number">Module 02</span>
+          <span class="module-title">Pre-Production</span>
+        </div>
+        <ul class="module-lessons">
+          <li>Brief Intake — translating ambiguous briefs into AI-ready specs</li>
+          <li>Reference Packs &amp; Constraints — building the guardrails before generation</li>
+        </ul>
+      </div>
+
+      <div class="module">
+        <div class="module-header">
+          <span class="module-number">Module 03</span>
+          <span class="module-title">Generation</span>
+        </div>
+        <ul class="module-lessons">
+          <li>Model Selection — matching tools to tasks (not hype to budget)</li>
+          <li>Batch Generation — producing at scale without quality collapse</li>
+        </ul>
+      </div>
+
+      <div class="module">
+        <div class="module-header">
+          <span class="module-number">Module 04</span>
+          <span class="module-title">Post-Production</span>
+        </div>
+        <ul class="module-lessons">
+          <li>Review Loop — structured QA that catches problems before the client does</li>
+          <li>Finishing &amp; Compositing — production-grade output standards</li>
+        </ul>
+      </div>
+
+      <div class="module">
+        <div class="module-header">
+          <span class="module-number">Module 05</span>
+          <span class="module-title">Governance &amp; Delivery</span>
+        </div>
+        <ul class="module-lessons">
+          <li>Asset Governance — rights, metadata, compliance, audit trails</li>
+          <li>Delivery &amp; Handoff — packages that don't bounce back</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">Who This Is For</div>
+      <h2>Built for Production People</h2>
+      <div class="audience-grid">
+        <div class="audience-item">
+          <span class="audience-icon">🎨</span>
+          <div>
+            <div class="audience-title">Creative Leads &amp; Art Directors</div>
+            <p class="audience-desc">You've seen the demos. You know the potential. You need a system that survives contact with real briefs, real clients, and real deadlines.</p>
+          </div>
+        </div>
+        <div class="audience-item">
+          <span class="audience-icon">⚙️</span>
+          <div>
+            <div class="audience-title">Production Managers</div>
+            <p class="audience-desc">You're being asked to "integrate AI into the workflow." This gives you the workflow — stage gates, review loops, handoff standards.</p>
+          </div>
+        </div>
+        <div class="audience-item">
+          <span class="audience-icon">📊</span>
+          <div>
+            <div class="audience-title">Agency &amp; Studio Leads</div>
+            <p class="audience-desc">Your team is experimenting but nothing scales. This course gives you the governance layer that makes AI safe to deploy at volume.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">What You Get</div>
+      <h2>Everything You Need to Ship</h2>
+      <div class="includes">
+        <div class="includes-title">Included in Every Tier</div>
+        <div class="includes-grid">
+          <div class="includes-item">10 structured lessons (text + slides)</div>
+          <div class="includes-item">Downloadable brief intake template</div>
+          <div class="includes-item">Reference pack checklist</div>
+          <div class="includes-item">Review rubric with scoring criteria</div>
+          <div class="includes-item">Handoff package template</div>
+          <div class="includes-item">Homework exercises after every lesson</div>
+          <div class="includes-item">Final project: build your own pipeline</div>
+          <div class="includes-item">Lifetime access + updates</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">Pricing</div>
+      <h2>Two Ways In</h2>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-name">Self-Paced</div>
+          <div class="pricing-price">$149 <span>USD</span></div>
+          <div class="pricing-desc">Complete course at your own speed. All lessons, templates, and homework included.</div>
+          <ul class="pricing-features">
+            <li>10 lessons (text + slides)</li>
+            <li>All downloadable templates</li>
+            <li>Homework exercises</li>
+            <li>Final project brief</li>
+            <li>Lifetime access</li>
+          </ul>
+          <a href="#" class="btn btn-secondary">Coming Soon</a>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Recommended</div>
+          <div class="pricing-name">Premium</div>
+          <div class="pricing-price">$349 <span>USD</span></div>
+          <div class="pricing-desc">Everything in Self-Paced, plus live support and community access.</div>
+          <ul class="pricing-features">
+            <li>Everything in Self-Paced</li>
+            <li>Monthly live Q&amp;A sessions</li>
+            <li>Private community access</li>
+            <li>Pipeline review &amp; feedback</li>
+            <li>Certificate of completion</li>
+          </ul>
+          <a href="#" class="btn">Coming Soon</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="credibility">
+        <div class="credibility-text">
+          <strong>Raphael Ruz</strong> — Creative Innovation Lead with 20+ years in production operations across advertising and ecommerce. Currently building GenAI production systems at scale. This course is the distillation of real pipelines running in real agencies, not theory from someone who watched a YouTube tutorial.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Questions? <a href="mailto:connect@raphaelruz.com">connect@raphaelruz.com</a></p>
+      <p style="margin-top: 12px;">Also from Raphael: <a href="#">Product Intelligence</a> — daily GenAI production insights</p>
+    </div>
+  </footer>
+</body>
+</html>
