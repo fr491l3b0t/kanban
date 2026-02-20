@@ -1411,6 +1411,19 @@ function updateStats() {
 /* ============================================
    RENDERING
    ============================================ */
+function matchesFilter(card) {
+  // No filtering — show all cards
+  return true;
+}
+
+function renderActivity() {
+  // Activity feed — no-op for static mode
+}
+
+function updateFilterCounts() {
+  updateStats();
+}
+
 function renderBoard() {
   const board = document.getElementById('board');
   if (!S.board) { board.innerHTML = '<p style="color:var(--text-dim);padding:40px">No data loaded</p>'; return; }
