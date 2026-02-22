@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-02-11T16:04:00.187Z",
-  "generatedAtLocal": "12/02/2026, 3:04:00 am",
+  "generatedAt": "2026-02-22T16:03:31.792Z",
+  "generatedAtLocal": "23/02/2026, 3:03:31 am",
   "system": {
     "uptime": {
-      "days": 16,
+      "days": 27,
       "hours": 14,
-      "minutes": 42,
-      "raw": "16:04:00 up 16 days, 14:42,  0 user,  load average: 0.03, 0.03, 0.00"
+      "minutes": 41,
+      "raw": "16:03:31 up 27 days, 14:41,  0 user,  load average: 0.00, 0.00, 0.00"
     },
     "disk": {
       "total": "19G",
-      "used": "12G",
-      "available": "6.4G",
-      "usePercent": 66,
-      "raw": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root        19G   12G  6.4G  66% /"
+      "used": "14G",
+      "available": "4.7G",
+      "usePercent": 75,
+      "raw": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root        19G   14G  4.7G  75% /"
     },
     "memory": {
       "total": "7.6Gi",
@@ -21,8 +21,8 @@
       "available": "6.0Gi"
     },
     "node": "v22.22.0",
-    "openclawVersion": "2026.2.9",
-    "loadAvg": "0.03 0.03 0.00"
+    "openclawVersion": "2026.2.21-2",
+    "loadAvg": "0.00 0.00 0.00"
   },
   "crons": {
     "total": 7,
@@ -93,40 +93,39 @@
     ]
   },
   "knowledgeBase": {
-    "totalEntries": 461,
-    "categories": 6,
-    "lastUpdated": "2026-02-08T08:43:25.702290"
+    "totalEntries": 4054,
+    "categories": 10,
+    "lastUpdated": "2026-02-22T11:43:55.529Z"
   },
   "kanban": {
-    "totalCards": 35,
-    "backlog": 5,
+    "totalCards": 32,
+    "backlog": 3,
     "inProgress": 5,
-    "blocked": 3,
-    "done": 22,
-    "lastSession": "2026-02-10"
+    "blocked": 2,
+    "done": 22
   },
   "recentBuilds": [
     {
-      "date": "2026-02-10",
-      "title": "System Status Dashboard"
-    },
-    {
-      "date": "2026-02-09",
-      "title": "Activity Feed Integration (idea-4)"
-    },
-    {
-      "date": "2026-02-06",
+      "date": "2026-02-22",
       "title": "Untitled"
     },
     {
-      "date": "2026-02-05",
+      "date": "2026-02-21",
       "title": "Untitled"
     },
     {
-      "date": "2026-02-04",
+      "date": "2026-02-20",
+      "title": "Untitled"
+    },
+    {
+      "date": "2026-02-18",
+      "title": "Untitled"
+    },
+    {
+      "date": "2026-02-17",
       "title": "Untitled"
     }
   ],
-  "memoryFiles": 7,
-  "lastGitPush": "2026-02-10 16:04:35 +0000"
+  "memoryFiles": 17,
+  "lastGitPush": "2026-02-22 11:44:00 +0000"
 }
