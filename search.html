@@ -109,28 +109,7 @@
       margin-bottom: 20px;
     }
     
-    .search-tabs {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 16px;
-    }
-    
-    .search-tab {
-      flex: 1;
-      padding: 12px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--text-secondary);
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    
-    .search-tab:hover { border-color: var(--text-secondary); }
-    .search-tab.active { background: var(--accent); border-color: var(--accent); color: white; }
+    /* (tabs removed — unified search) */
     
     .search-input-container { position: relative; }
     
@@ -532,25 +511,17 @@
     
     <!-- Search Section -->
     <div class="search-section">
-      <div class="search-tabs">
-        <button class="search-tab active" data-mode="keyword">KEYWORD SEARCH</button>
-        <button class="search-tab" data-mode="natural">NATURAL LANGUAGE</button>
-      </div>
-      
       <div class="search-input-container">
-        <input type="text" class="search-input" id="searchInput" placeholder="Search the knowledge base..." autofocus>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search keywords or ask a question..." autofocus>
         <div class="search-hint" id="searchHint">
-          <span class="mono">TIP:</span> Use multiple keywords. Results update instantly.
+          <span class="mono">INSTANT RESULTS</span> as you type · <span class="mono">ENTER</span> or <span class="mono">✦</span> for AI summary
         </div>
       </div>
       
-      <div class="ask-ai-container" id="askAiContainer" style="display: none;">
+      <div class="ask-ai-container" id="askAiContainer">
         <button class="ask-ai-btn" id="askAiBtn">
           <span>✦</span> ASK AI
         </button>
-        <div class="search-hint" style="margin-top: 0; align-self: center;">
-          Get a natural language summary of relevant entries
-        </div>
       </div>
     </div>
     
@@ -609,7 +580,6 @@
     let kbData = { entries: [], categories: [] };
     let fuse = null;
     let activeCategory = 'all';
-    let searchMode = 'keyword';
     let currentQuery = '';
     
     // API endpoint for AI search
@@ -701,38 +671,18 @@
       });
     }
     
-    // Search tabs
-    document.querySelectorAll('.search-tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        document.querySelectorAll('.search-tab').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        searchMode = tab.dataset.mode;
-        
-        const input = document.getElementById('searchInput');
-        const hint = document.getElementById('searchHint');
-        const askContainer = document.getElementById('askAiContainer');
-        
-        if (searchMode === 'natural') {
-          input.placeholder = 'Ask anything about AI tools, coding agents, image prompts...';
-          hint.innerHTML = '<span class="mono">EXAMPLES:</span> "latest from karpathy" · "AI coding tools" · "miniature diorama prompts"';
-          askContainer.style.display = 'flex';
-        } else {
-          input.placeholder = 'Search the knowledge base...';
-          hint.innerHTML = '<span class="mono">TIP:</span> Use multiple keywords. Results update instantly.';
-          askContainer.style.display = 'none';
-        }
-        
-        // Clear AI summary when switching modes
-        document.getElementById('aiSummary').classList.remove('active');
-        
-        performSearch();
-      });
-    });
-    
-    // Search input
+    // Search input — instant keyword results on every keystroke
     document.getElementById('searchInput').addEventListener('input', (e) => {
       currentQuery = e.target.value.trim();
       performSearch();
+    });
+    
+    // Enter key triggers AI search
+    document.getElementById('searchInput').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        document.getElementById('askAiBtn').click();
+      }
     });
     
     // Date filters
@@ -757,13 +707,9 @@
       if (!query) {
         // Show all entries (filtered by category/date)
         results = kbData.entries.map(entry => ({ item: entry, score: 0 }));
-      } else if (searchMode === 'keyword') {
-        // Fuse search
-        results = fuse.search(query);
       } else {
-        // In natural language mode without AI, use Fuse with more lenient settings
-        const naturalQuery = query.replace(/\?/g, '').trim();
-        results = fuse.search(naturalQuery);
+        // Fuse keyword search — works for keywords and natural language alike
+        results = fuse.search(query);
       }
       
       // Apply filters
