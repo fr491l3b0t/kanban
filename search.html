@@ -533,6 +533,11 @@
         <div id="categoryFilters"></div>
       </div>
       <div class="filter-group">
+        <span class="filter-label">Freshness</span>
+        <button class="filter-chip active" id="freshOnly" data-fresh="true">Fresh (&lt;90d)</button>
+        <button class="filter-chip" id="showAll" data-fresh="false">All entries</button>
+      </div>
+      <div class="filter-group">
         <span class="filter-label">Date Range</span>
         <div class="date-range">
           <input type="date" class="date-input" id="dateFrom">
@@ -581,6 +586,7 @@
     let fuse = null;
     let activeCategory = 'all';
     let currentQuery = '';
+    let freshOnly = true;
     
     // Shared stopwords (used by search + highlighting)
     const STOPWORDS = new Set(['the','and','for','are','but','not','you','all','can','had','her','was','one','our','out','has','with','that','this','from','they','been','have','will','what','when','where','which','their','about','would','there','could','other','into','more','some','than','them','then','these','most','also','over','such','after','just','like','best','make','know','only','very','much','well','back','even','want','give','many','still','does','each','were','here','both','come','made','find','used','work','first','need','time','long','look','been','down','good','year','info','find']);
@@ -701,6 +707,20 @@
       }
     });
     
+    // Freshness toggle
+    document.getElementById('freshOnly').addEventListener('click', () => {
+      freshOnly = true;
+      document.getElementById('freshOnly').classList.add('active');
+      document.getElementById('showAll').classList.remove('active');
+      performSearch();
+    });
+    document.getElementById('showAll').addEventListener('click', () => {
+      freshOnly = false;
+      document.getElementById('showAll').classList.add('active');
+      document.getElementById('freshOnly').classList.remove('active');
+      performSearch();
+    });
+    
     // Date filters
     document.getElementById('dateFrom').addEventListener('change', performSearch);
     document.getElementById('dateTo').addEventListener('change', performSearch);
@@ -780,6 +800,7 @@
       // Apply filters
       results = results.filter(({ item }) => {
         if (activeCategory !== 'all' && item.category !== activeCategory) return false;
+        if (freshOnly && item.fresh === false) return false;
         if (dateFrom && item.date && item.date < dateFrom) return false;
         if (dateTo && item.date && item.date > dateTo) return false;
         return true;
