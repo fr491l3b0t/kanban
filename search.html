@@ -559,10 +559,9 @@
     </div>
     
     <div class="results" id="results">
-      <div class="empty-state">
-        <div class="empty-state-icon">🔍</div>
-        <div class="empty-state-title">Start Searching</div>
-        <div class="empty-state-hint">Enter keywords to search 500+ GenAI entries</div>
+      <div class="loading-state">
+        <div class="loading-spinner"></div>
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);">Loading entries...</div>
       </div>
     </div>
     
@@ -572,7 +571,7 @@
         <a href="genai-kb.html">KNOWLEDGEBASE</a> · 
         <a href="https://github.com/fr491l3b0t/kanban">GITHUB</a>
       </div>
-      <div>POWERED BY FUSE.JS</div>
+      <div>HYBRID SEARCH · FUSE.JS</div>
     </footer>
   </div>
 
@@ -625,13 +624,26 @@
         
         fuse = new Fuse(kbData.entries, fuseOptions);
         
+        // Derive categories from actual data (don't trust the header)
+        const catCounts = {};
+        kbData.entries.forEach(e => {
+          const cat = e.category || 'Uncategorized';
+          catCounts[cat] = (catCounts[cat] || 0) + 1;
+        });
+        kbData.categories = Object.keys(catCounts).sort((a, b) => catCounts[b] - catCounts[a]);
+        kbData.catCounts = catCounts;
+        
         // Update UI
+        const count = kbData.entries.length;
         document.getElementById('headerStats').innerHTML = 
-          `<strong>${kbData.totalEntries || kbData.entries.length}</strong> ENTRIES`;
+          `<strong>${count.toLocaleString()}</strong> ENTRIES`;
         document.getElementById('lastUpdated').textContent = 
           `UPDATED ${formatDate(kbData.lastUpdated)}`;
         
         renderCategoryFilters();
+        
+        // Show recent entries by default (sorted by date, newest first)
+        performSearch();
         
       } catch (err) {
         console.error('Failed to load KB:', err);
@@ -658,10 +670,11 @@
     function renderCategoryFilters() {
       const container = document.getElementById('categoryFilters');
       const categories = ['all', ...(kbData.categories || [])];
+      const counts = kbData.catCounts || {};
       
       container.innerHTML = categories.map(cat => `
         <button class="filter-chip ${cat === activeCategory ? 'active' : ''}" data-cat="${cat}">
-          ${cat === 'all' ? 'All Categories' : cat}
+          ${cat === 'all' ? `All (${kbData.entries.length})` : `${cat} (${counts[cat] || 0})`}
         </button>
       `).join('');
       
@@ -708,7 +721,13 @@
       let results = [];
       
       if (!query) {
-        results = kbData.entries.map(entry => ({ item: entry, score: 0, matchType: 'none' }));
+        // No query: show all entries sorted by date (newest first)
+        const sorted = [...kbData.entries].sort((a, b) => {
+          const da = a.date || '0000';
+          const db = b.date || '0000';
+          return db.localeCompare(da);
+        });
+        results = sorted.map(entry => ({ item: entry, score: 0, matchType: 'none' }));
       } else {
         // Extract meaningful search terms (strip stopwords for matching)
         const rawTerms = query.toLowerCase().split(/\s+/).filter(w => w.length >= 2);
@@ -780,17 +799,18 @@
       if (document.getElementById('dateFrom').value) activeFilters.push('FROM ' + document.getElementById('dateFrom').value);
       if (document.getElementById('dateTo').value) activeFilters.push('TO ' + document.getElementById('dateTo').value);
       
+      const totalFiltered = query ? results.length : results.length;
       info.innerHTML = `
-        <span>${query ? `<strong>${results.length}</strong> MATCHES` : 'TYPE TO SEARCH'}</span>
-        <span>${activeFilters.length ? activeFilters.join(' · ') : 'ALL ENTRIES'}</span>
+        <span>${query ? `<strong>${results.length}</strong> MATCHES` : `<strong>${totalFiltered}</strong> ENTRIES · NEWEST FIRST`}</span>
+        <span>${activeFilters.length ? activeFilters.join(' · ') : ''}</span>
       `;
       
       if (results.length === 0) {
         container.innerHTML = `
           <div class="empty-state">
             <div class="empty-state-icon">🔍</div>
-            <div class="empty-state-title">No Results</div>
-            <div class="empty-state-hint">Try different keywords or clear filters</div>
+            <div class="empty-state-title">${query ? 'No Results' : 'No Entries'}</div>
+            <div class="empty-state-hint">${query ? 'Try different keywords or clear filters' : 'Knowledge base is empty'}</div>
           </div>
         `;
         return;
