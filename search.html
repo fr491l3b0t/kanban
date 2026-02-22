@@ -583,6 +583,9 @@
     let activeCategory = 'all';
     let currentQuery = '';
     
+    // Shared stopwords (used by search + highlighting)
+    const STOPWORDS = new Set(['the','and','for','are','but','not','you','all','can','had','her','was','one','our','out','has','with','that','this','from','they','been','have','will','what','when','where','which','their','about','would','there','could','other','into','more','some','than','them','then','these','most','also','over','such','after','just','like','best','make','know','only','very','much','well','back','even','want','give','many','still','does','each','were','here','both','come','made','find','used','work','first','need','time','long','look','been','down','good','year','info','find']);
+    
     // API endpoint for AI search
     const API_URL = localStorage.getItem('searchApiUrl') || 'https://ip-172-31-32-225.tailf63b2f.ts.net/api/ai-search';
     const API_TOKEN = 'ufwbX6Zztw3hyWKwEVUrU1cz';
@@ -604,7 +607,7 @@
         const response = await fetch('genai-kb.json');
         kbData = await response.json();
         
-        // Initialize Fuse
+        // Initialize Fuse (used as fallback for fuzzy matches)
         const fuseOptions = {
           keys: [
             { name: 'title', weight: 0.5 },
@@ -612,12 +615,11 @@
             { name: 'tags', weight: 0.15 },
             { name: 'category', weight: 0.1 }
           ],
-          threshold: 0.25,
+          threshold: 0.35,
           includeScore: true,
           includeMatches: true,
-          minMatchCharLength: 3,
+          minMatchCharLength: 2,
           ignoreLocation: true,
-          useExtendedSearch: false,
           distance: 200
         };
         
@@ -695,7 +697,7 @@
       performSearch();
     });
     
-    // Perform search
+    // Hybrid search: exact substring matches first, then fuzzy via Fuse
     function performSearch() {
       if (!fuse) return;
       
@@ -706,24 +708,61 @@
       let results = [];
       
       if (!query) {
-        // Show all entries (filtered by category/date)
-        results = kbData.entries.map(entry => ({ item: entry, score: 0 }));
+        results = kbData.entries.map(entry => ({ item: entry, score: 0, matchType: 'none' }));
       } else {
-        // Fuse keyword search — works for keywords and natural language alike
-        results = fuse.search(query);
+        // Extract meaningful search terms (strip stopwords for matching)
+        const rawTerms = query.toLowerCase().split(/\s+/).filter(w => w.length >= 2);
+        const terms = rawTerms.filter(w => !STOPWORDS.has(w));
+        const searchTerms = terms.length ? terms : rawTerms; // fallback if all stopwords
+        
+        const seen = new Set();
+        
+        // Pass 1: Exact substring matches — scored by how many terms hit and where
+        kbData.entries.forEach(entry => {
+          const title = (entry.title || '').toLowerCase();
+          const summary = (entry.summary || '').toLowerCase();
+          const tags = (entry.tags || []).join(' ').toLowerCase();
+          const all = title + ' ' + summary + ' ' + tags;
+          
+          let titleHits = 0, summaryHits = 0, tagHits = 0;
+          searchTerms.forEach(term => {
+            if (title.includes(term)) titleHits++;
+            if (summary.includes(term)) summaryHits++;
+            if (tags.includes(term)) tagHits++;
+          });
+          
+          const totalHits = titleHits + summaryHits + tagHits;
+          if (totalHits === 0) return;
+          
+          // Score: 0 = best. Title matches worth most.
+          // Perfect = all terms in title → score near 0
+          const titleRatio = titleHits / searchTerms.length;
+          const anyRatio = Math.min(1, (titleHits * 3 + summaryHits * 1.5 + tagHits * 2) / (searchTerms.length * 3));
+          const score = Math.max(0, 1 - (titleRatio * 0.6 + anyRatio * 0.4));
+          
+          const id = entry.url || entry.title;
+          seen.add(id);
+          results.push({ item: entry, score, matchType: 'exact' });
+        });
+        
+        // Pass 2: Fuse fuzzy matches for anything not already found
+        const fuseResults = fuse.search(query);
+        fuseResults.forEach(({ item, score }) => {
+          const id = item.url || item.title;
+          if (seen.has(id)) return;
+          // Penalise fuzzy-only matches so they rank below exact
+          results.push({ item, score: Math.min(0.95, score + 0.4), matchType: 'fuzzy' });
+        });
+        
+        // Sort by score ascending (lower = better)
+        results.sort((a, b) => a.score - b.score);
       }
       
       // Apply filters
       results = results.filter(({ item }) => {
-        // Category filter
-        if (activeCategory !== 'all' && item.category !== activeCategory) {
-          return false;
-        }
-        
-        // Date filter
+        if (activeCategory !== 'all' && item.category !== activeCategory) return false;
         if (dateFrom && item.date && item.date < dateFrom) return false;
         if (dateTo && item.date && item.date > dateTo) return false;
-        
         return true;
       });
       
@@ -758,10 +797,9 @@
       }
       
       container.innerHTML = results.map(({ item, score }, index) => {
-        // Fuse scores: 0 = perfect match, 1 = no match. Convert to intuitive percentage.
-        // Apply a curve so only genuinely close matches get high percentages.
-        const relevance = query ? Math.round(Math.max(0, (1 - Math.pow(score, 0.4)) * 100)) : null;
-        const words = query ? query.split(/\s+/).filter(w => w.length > 3) : [];
+        // Score: 0 = perfect, 1 = no match. Linear conversion — no inflating bad matches.
+        const relevance = query ? Math.round(Math.max(0, (1 - score) * 100)) : null;
+        const words = query ? query.split(/\s+/).filter(w => w.length >= 2) : [];
         
         return `
           <div class="result-card">
@@ -791,11 +829,10 @@
     }
     
     // Highlight matching text (skip stopwords and short terms)
-    const STOPWORDS = new Set(['the','and','for','are','but','not','you','all','can','had','her','was','one','our','out','has','with','that','this','from','they','been','have','will','what','when','where','which','their','about','would','there','could','other','into','more','some','than','them','then','these','most','also','over','such','after','just','like','best','make','know','only','very','much','well','back','even','want','give','many','still','does','each','were','here','both','come','made','find','used','work','first','need','time','long','look','been','down','good','year']);
     function highlightText(text, words) {
       if (!words.length) return escapeHtml(text);
       let result = escapeHtml(text);
-      const meaningfulWords = words.filter(w => w.length > 3 && !STOPWORDS.has(w.toLowerCase()));
+      const meaningfulWords = words.filter(w => w.length >= 2 && !STOPWORDS.has(w.toLowerCase()));
       meaningfulWords.forEach(word => {
         const regex = new RegExp(`\\b(${escapeRegex(word)})`, 'gi');
         result = result.replace(regex, '<mark>$1</mark>');
