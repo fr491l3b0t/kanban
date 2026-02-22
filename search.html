@@ -141,27 +141,29 @@
       letter-spacing: 0.05em;
     }
     
-    /* ASK AI BUTTON */
-    .ask-ai-container {
+    /* SEARCH ROW */
+    .search-input-row {
       display: flex;
-      gap: 12px;
-      margin-top: 16px;
+      gap: 0;
+    }
+    
+    .search-input-row .search-input {
+      flex: 1;
+      border-right: none;
     }
     
     .ask-ai-btn {
-      padding: 12px 24px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
+      width: 52px;
+      font-size: 18px;
       background: var(--accent);
-      border: none;
+      border: 1px solid var(--accent);
       color: white;
       cursor: pointer;
       transition: all 0.2s;
       display: flex;
       align-items: center;
-      gap: 8px;
+      justify-content: center;
+      flex-shrink: 0;
     }
     
     .ask-ai-btn:hover:not(:disabled) { 
@@ -174,10 +176,14 @@
       cursor: not-allowed;
     }
     
+    .ask-ai-btn.loading {
+      font-size: 0;
+    }
+    
     .ask-ai-btn.loading::after {
       content: '';
-      width: 14px;
-      height: 14px;
+      width: 16px;
+      height: 16px;
       border: 2px solid rgba(255,255,255,0.3);
       border-top-color: white;
       border-radius: 50%;
@@ -511,17 +517,12 @@
     
     <!-- Search Section -->
     <div class="search-section">
-      <div class="search-input-container">
+      <div class="search-input-row">
         <input type="text" class="search-input" id="searchInput" placeholder="Search keywords or ask a question..." autofocus>
-        <div class="search-hint" id="searchHint">
-          <span class="mono">INSTANT RESULTS</span> as you type · <span class="mono">ENTER</span> or <span class="mono">✦</span> for AI summary
-        </div>
+        <button class="ask-ai-btn" id="askAiBtn" title="Ask AI">↑</button>
       </div>
-      
-      <div class="ask-ai-container" id="askAiContainer">
-        <button class="ask-ai-btn" id="askAiBtn">
-          <span>✦</span> ASK AI
-        </button>
+      <div class="search-hint" id="searchHint">
+        <span class="mono">INSTANT RESULTS</span> as you type · <span class="mono">ENTER</span> for AI summary
       </div>
     </div>
     
