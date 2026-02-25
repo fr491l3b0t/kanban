@@ -609,7 +609,7 @@
     // Load data
     async function loadData() {
       try {
-        const response = await fetch('genai-kb.json?v=' + Date.now());
+        const response = await fetch('public-kb.json?v=' + Date.now());
         kbData = await response.json();
         
         // Initialize Fuse (used as fallback for fuzzy matches)
