@@ -1,37 +1,51 @@
 {
-  "generatedAt": "2026-02-27T16:03:01.901Z",
+  "generatedAt": "2026-03-01T07:00:07.137Z",
   "window": {
-    "start": "2026-02-20T16:03:01.807Z",
-    "end": "2026-02-27T16:03:01.807Z",
+    "start": "2026-02-22T07:00:07.086Z",
+    "end": "2026-03-01T07:00:07.086Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 1056,
+    "totalEntries": 982,
     "categoriesWithEntries": 10,
-    "totalSelected": 30
+    "totalSelected": 26
   },
   "storyOfTheWeek": {
-    "title": "Hoard things you know how to do",
-    "url": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
+    "title": "Please, please, please stop using passkeys for encrypting user data",
+    "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
     "source": "Simon Willison",
-    "date": "2026-02-26T20:33:27+00:00",
-    "summary": "Agentic Engineering Patterns > Many of my tips for working productively with coding agents are extensions of advice I've found useful in my career without them. Here's a great example of that: hoard things you know how to do. A big part of the skill in building software is understanding what's possible and what isn't, and having at least a rough idea of how those things can be accomplished. These questions can be broad or quite obscure. Can a web page run OCR operations in JavaScript alone? Can ",
-    "score": 0.786
+    "date": "2026-02-27T22:49:32+00:00",
+    "summary": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time, and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting and using passkeys to encrypt user data. I’m begging you. Let them be great, phishing-resistant authentication credentials. Via lobste.rs Tags: security, usability, passkeys",
+    "score": 0.775
   },
   "trending": [
     {
       "tag": "deepseek",
-      "count": 8,
+      "count": 7,
       "prevCount": 1,
-      "growth": 7,
-      "relevance": 7.5
+      "growth": 6,
+      "relevance": 6.5
     },
     {
       "tag": "diffusion",
-      "count": 10,
+      "count": 11,
       "prevCount": 2,
+      "growth": 4.5,
+      "relevance": 5
+    },
+    {
+      "tag": "rag",
+      "count": 5,
+      "prevCount": 1,
       "growth": 4,
       "relevance": 4.5
+    },
+    {
+      "tag": "nano banana",
+      "count": 8,
+      "prevCount": 2,
+      "growth": 3,
+      "relevance": 3
     },
     {
       "tag": "agent framework",
@@ -48,20 +62,6 @@
       "relevance": 2.5
     },
     {
-      "tag": "nano banana",
-      "count": 7,
-      "prevCount": 2,
-      "growth": 2.5,
-      "relevance": 2.5
-    },
-    {
-      "tag": "code security",
-      "count": 20,
-      "prevCount": 0,
-      "growth": 2,
-      "relevance": 2
-    },
-    {
       "tag": "hallucination",
       "count": 5,
       "prevCount": 2,
@@ -69,36 +69,44 @@
       "relevance": 2
     },
     {
-      "tag": "mcp",
-      "count": 9,
-      "prevCount": 4,
-      "growth": 1.25,
-      "relevance": 1.75
-    },
-    {
-      "tag": "meta",
-      "count": 8,
-      "prevCount": 4,
-      "growth": 1,
-      "relevance": 1.5
-    },
-    {
       "tag": "qwen",
       "count": 10,
       "prevCount": 5,
       "growth": 1,
       "relevance": 1.5
+    },
+    {
+      "tag": "image",
+      "count": 9,
+      "prevCount": 5,
+      "growth": 0.8,
+      "relevance": 1.3
+    },
+    {
+      "tag": "agentic",
+      "count": 26,
+      "prevCount": 17,
+      "growth": 0.53,
+      "relevance": 1.0294117647058822
     }
   ],
   "categories": {
     "AI Coding & Agents": [
+      {
+        "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
+        "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-02-27T20:43:41+00:00",
+        "summary": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your ti...",
+        "score": 0.773
+      },
       {
         "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
         "url": "https://openai.com/index/figma-partnership",
         "source": "OpenAI Blog",
         "date": "Thu, 26 Feb 2026 06:00:00 GMT",
         "summary": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
-        "score": 0.773
+        "score": 0.738
       },
       {
         "title": "Claude Code Remote Control",
@@ -106,41 +114,33 @@
         "source": "Simon Willison",
         "date": "2026-02-25T17:33:24+00:00",
         "summary": "Claude Code Remote Control New Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code for web interfaces (on web, iOS and na...",
-        "score": 0.762
-      },
-      {
-        "title": "Writing about Agentic Engineering Patterns",
-        "url": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-02-23T17:43:02+00:00",
-        "summary": "I've started a new project to collect and document Agentic Engineering Patterns - coding practices and patterns to help get the best results out of this new era of coding agent development we find ...",
-        "score": 0.719
+        "score": 0.727
       }
     ],
     "AI Tools & Platforms": [
       {
-        "title": "Hoard things you know how to do",
-        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
+        "title": "Please, please, please stop using passkeys for encrypting user data",
+        "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
         "source": "Simon Willison",
-        "date": "2026-02-26T20:33:27+00:00",
-        "summary": "Agentic Engineering Patterns > Many of my tips for working productively with coding agents are extensions of advice I've found useful in my career without them. Here's a great example of that: hoar...",
-        "score": 0.786
+        "date": "2026-02-27T22:49:32+00:00",
+        "summary": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time, and may not understand that their data has been irreversibly encrypted using them...",
+        "score": 0.775
       },
       {
-        "title": "Quoting Andrej Karpathy",
-        "url": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
+        "title": "Free Claude Max for (large project) open source maintainers",
+        "url": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
         "source": "Simon Willison",
-        "date": "2026-02-26T19:03:27+00:00",
-        "summary": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are...",
-        "score": 0.785
+        "date": "2026-02-27T18:08:22+00:00",
+        "summary": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to ...",
+        "score": 0.77
       },
       {
-        "title": "FLORA: Gemini 3.1 Pro available — stronger reasoning for production-ready workflows",
-        "url": "https://www.linkedin.com/posts/floraai_gemini-31-pro-is-available-in-flora-it-activity-7431094126210805760-J15I",
-        "source": "LinkedIn/FLORA",
-        "date": "2026-02-22",
-        "summary": "Gemini 3.1 Pro is available in FLORA. Delivers stronger reasoning, tighter instruction-following, and better grounding across complex prompts. 3 use cases: replicating graphic poster style, matchin...",
-        "score": 0.779
+        "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
+        "url": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-02-27T17:50:54+00:00",
+        "summary": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of ...",
+        "score": 0.77
       }
     ],
     "Research & Papers": [
@@ -150,7 +150,15 @@
         "source": "OpenAI Blog",
         "date": "Thu, 26 Feb 2026 10:00:00 GMT",
         "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA draftin...",
-        "score": 0.777
+        "score": 0.742
+      },
+      {
+        "title": "METR’s Joel Becker on exponential Time Horizon Evals, Threat Models, and the Limits of AI Productivity",
+        "url": "https://www.latent.space/p/metr",
+        "source": "Latent Space",
+        "date": "Fri, 27 Feb 2026 19:17:52 GMT",
+        "summary": "AIE Europe CFP and AIE World&#8217;s Fair paper submissions for CAIS peer review are due TODAY - do not delay!",
+        "score": 0.711
       },
       {
         "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
@@ -158,15 +166,7 @@
         "source": "Google AI Blog",
         "date": "Thu, 26 Feb 2026 18:55:00 +0000",
         "summary": "Google is partnering with the Massachusetts AI Hub to provide every Baystater with no-cost access to Google’s AI training.",
-        "score": 0.724
-      },
-      {
-        "title": "Why we no longer evaluate SWE-bench Verified",
-        "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
-        "source": "OpenAI Blog",
-        "date": "Mon, 23 Feb 2026 11:00:00 GMT",
-        "summary": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
-        "score": 0.713
+        "score": 0.69
       }
     ],
     "Strategy & Opinion": [
@@ -176,7 +176,7 @@
         "source": "Simon Willison",
         "date": "2026-02-26T03:44:56+00:00",
         "summary": "If people are only using this a couple of times a week at most, and can’t think of anything to do with it on the average day, it hasn’t changed their life. OpenAI itself admits the problem, talking...",
-        "score": 0.771
+        "score": 0.736
       },
       {
         "title": "[AINews] WTF Happened in December 2025?",
@@ -184,7 +184,7 @@
         "source": "Latent Space",
         "date": "Thu, 26 Feb 2026 00:08:54 GMT",
         "summary": "A quiet day lets us express a growing, uneasy feeling that coding has changed forever &#8212; much much more than &#8220;normal&#8221; hype.",
-        "score": 0.708
+        "score": 0.673
       },
       {
         "title": "AI Hallucination from Students' Perspective: A Thematic Analysis",
@@ -192,25 +192,17 @@
         "source": "arXiv cs.AI",
         "date": "Mon, 23 Feb 2026 00:00:00 -0500",
         "summary": "arXiv:2602.17671v1 Announce Type: cross Abstract: As students increasingly rely on large language models, hallucinations pose a growing threat to learning. To mitigate this, AI literacy must expand...",
-        "score": 0.704
+        "score": 0.67
       }
     ],
     "Image & Video Generation": [
-      {
-        "title": "@unknown: A single Matrix-style scene costs $10M+ in Hollywood. But it is created in 2 min...",
-        "url": "https://x.com/unknown/status/2025384228343427357",
-        "source": "X/@unknown",
-        "date": "Sun Feb 22 01:36:44 +0000 2026",
-        "summary": "A single Matrix-style scene costs $10M+ in Hollywood. But it is created in 2 minutes with one prompt.\n\nSeedance 2.0 Made this possible 🔥 https://t.co/LAuaHNJxm9",
-        "score": 0.827
-      },
       {
         "title": "Ladybird adopts Rust, with help from AI",
         "url": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
         "source": "Simon Willison",
         "date": "2026-02-23T18:52:53+00:00",
         "summary": "Ladybird adopts Rust, with help from AI Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projects with critical code. After a fe...",
-        "score": 0.72
+        "score": 0.685
       },
       {
         "title": "@unknown: Some top AI video generation tools for YouTube in 2026 include:\n\n- Sora 2 (OpenA...",
@@ -218,7 +210,15 @@
         "source": "X/@unknown",
         "date": "Sun Feb 22 15:41:36 +0000 2026",
         "summary": "Some top AI video generation tools for YouTube in 2026 include:\n\n- Sora 2 (OpenAI): Easy text-to-video with ChatGPT integration, great for quick clips.\n- Veo 3.1 (Google DeepMind): Realistic physic...",
-        "score": 0.636
+        "score": 0.601
+      },
+      {
+        "title": "[D] Why do people say that GANs are dead or outdated when they're still commonly used?",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rbgsey/d_why_do_people_say_that_gans_are_dead_or/",
+        "source": "r/MachineLearning",
+        "date": "2026-02-22T08:43:11+00:00",
+        "summary": "It's really weird seeing people say that GANs are a dated concept or not used. As someone doing image and audio generation, I have no idea what people mean by this. Literally every single diffusion...",
+        "score": 0.542
       }
     ],
     "Workflow & Automation": [
@@ -228,7 +228,7 @@
         "source": "LinkedIn/Christian Pickett",
         "date": "2026-02-24",
         "summary": "Run your entire GTM workflow directly in Claude Code.\n                                                              \nJust ran a full prospect enrichment pipeline, without writing a single line of c...",
-        "score": 0.761
+        "score": 0.727
       },
       {
         "title": "WorkflowPerturb: Calibrated Stress Tests for Evaluating Multi-Agent Workflow Metrics",
@@ -236,7 +236,7 @@
         "source": "arXiv cs.AI",
         "date": "Mon, 23 Feb 2026 00:00:00 -0500",
         "summary": "arXiv:2602.17990v1 Announce Type: new Abstract: LLM-based systems increasingly generate structured workflows for complex tasks. In practice, automatic evaluation of these workflows is difficult, be...",
-        "score": 0.704
+        "score": 0.67
       },
       {
         "title": "Detecting Contextual Hallucinations in LLMs with Frequency-Aware Attention",
@@ -244,17 +244,25 @@
         "source": "arXiv cs.CL",
         "date": "Mon, 23 Feb 2026 00:00:00 -0500",
         "summary": "arXiv:2602.18145v1 Announce Type: new Abstract: Hallucination detection is critical for ensuring the reliability of large language models (LLMs) in context-based generation. Prior work has explored...",
-        "score": 0.704
+        "score": 0.67
       }
     ],
     "Industry & Business": [
+      {
+        "title": "OpenAI and Amazon announce strategic partnership",
+        "url": "https://openai.com/index/amazon-partnership",
+        "source": "OpenAI Blog",
+        "date": "Fri, 27 Feb 2026 05:30:00 GMT",
+        "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+        "score": 0.759
+      },
       {
         "title": "tldraw issue: Move tests to closed source repo",
         "url": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
         "source": "Simon Willison",
         "date": "2026-02-25T21:06:53+00:00",
         "summary": "tldraw issue: Move tests to closed source repo It's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open so...",
-        "score": 0.765
+        "score": 0.73
       },
       {
         "title": "Quoting Kellan Elliott-McCrea",
@@ -262,51 +270,35 @@
         "source": "Simon Willison",
         "date": "2026-02-25T03:30:32+00:00",
         "summary": "It’s also reasonable for people who entered technology in the last couple of decades because it was good job, or because they enjoyed coding to look at this moment with a real feeling of loss. That...",
-        "score": 0.749
-      },
-      {
-        "title": "The Claude C Compiler: What It Reveals About the Future of Software",
-        "url": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-02-22T23:58:43+00:00",
-        "summary": "The Claude C Compiler: What It Reveals About the Future of Software On February 5th Anthropic's Nicholas Carlini wrote about a project to use parallel Claudes to build a C compiler on top of the br...",
-        "score": 0.703
+        "score": 0.715
       }
     ],
     "Voice & Audio": [
-      {
-        "title": "@unknown: Seedance 2.0 Experiment N3\nTesting emotions, speech, and consistency. https://t....",
-        "url": "https://x.com/unknown/status/2025315340155338987",
-        "source": "X/@unknown",
-        "date": "Sat Feb 21 21:03:00 +0000 2026",
-        "summary": "Seedance 2.0 Experiment N3\nTesting emotions, speech, and consistency. https://t.co/xVw7B6XLrt",
-        "score": 0.699
-      },
       {
         "title": "Qwen3's most underrated feature: Voice embeddings",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rc59ze/qwen3s_most_underrated_feature_voice_embeddings/",
         "source": "r/LocalLLaMA",
         "date": "2026-02-23T02:28:32+00:00",
         "summary": "Did you know that Qwen3 TTS utilizes voice embedding for voice cloning? Your voice is turned into a vector of 1024 dimensions (or 2048 for 1.7b), and based on this vector alone you can get your cus...",
-        "score": 0.592
-      },
-      {
-        "title": "@unknown: GPT Realtime Mini — low-latency voice + text streaming 🎙️\n\n🎙️ Bidirectional re...",
-        "url": "https://x.com/unknown/status/2025302653690094069",
-        "source": "X/@unknown",
-        "date": "Sat Feb 21 20:12:35 +0000 2026",
-        "summary": "GPT Realtime Mini — low-latency voice + text streaming 🎙️\n\n🎙️ Bidirectional realtime conversations\n⚡ Fast responses for voice agents\n🧩 Simple API to ship into apps\n\nTry it -&gt; https://t.co/LUA...",
-        "score": 0.512
+        "score": 0.557
       }
     ],
     "Ethics & Regulation": [
+      {
+        "title": "An update on our mental health-related work",
+        "url": "https://openai.com/index/update-on-mental-health-related-work",
+        "source": "OpenAI Blog",
+        "date": "Fri, 27 Feb 2026 00:00:00 GMT",
+        "summary": "OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.",
+        "score": 0.754
+      },
       {
         "title": "Reply guy",
         "url": "https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything",
         "source": "Simon Willison",
         "date": "2026-02-23T13:11:57+00:00",
         "summary": "The latest scourge of Twitter is AI bots that reply to your tweets with generic, banal commentary slop, often accompanied by a question to \"drive engagement\" and waste as much of your time as possi...",
-        "score": 0.615
+        "score": 0.58
       },
       {
         "title": "Trojans in Artificial Intelligence (TrojAI) Final Report",
@@ -314,15 +306,7 @@
         "source": "arXiv cs.AI",
         "date": "Mon, 23 Feb 2026 00:00:00 -0500",
         "summary": "arXiv:2602.07152v1 Announce Type: cross Abstract: The Intelligence Advanced Research Projects Activity (IARPA) launched the TrojAI program to confront an emerging vulnerability in modern artificial...",
-        "score": 0.594
-      },
-      {
-        "title": "Assessing LLM Response Quality in the Context of Technology-Facilitated Abuse",
-        "url": "https://arxiv.org/abs/2602.17672",
-        "source": "arXiv cs.AI",
-        "date": "Mon, 23 Feb 2026 00:00:00 -0500",
-        "summary": "arXiv:2602.17672v1 Announce Type: cross Abstract: Technology-facilitated abuse (TFA) is a pervasive form of intimate partner violence (IPV) that leverages digital tools to control, surveil, or harm...",
-        "score": 0.594
+        "score": 0.56
       }
     ],
     "Australia": [
@@ -332,23 +316,7 @@
         "source": "Guardian AI",
         "date": "Mon, 23 Feb 2026 03:55:08 GMT",
         "summary": "New subscription features on app for gay and bisexual men come with a price tag – from $109.99 a month in Australia to $349 in the USFollow our Australia news live blog for latest updatesGet our br...",
-        "score": 0.687
-      },
-      {
-        "title": "How I mapped every High Court of Australia case and their citations (1901-2025)",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ram2ov/how_i_mapped_every_high_court_of_australia_case/",
-        "source": "r/LocalLLaMA",
-        "date": "2026-02-21T08:36:59+00:00",
-        "summary": "I’ve recently begun working on a project to convert entirety of Australian case law and legislation into a LexisNexis-style interlinked legal knowledge graph. As I’ve experimented with techniques t...",
-        "score": 0.395
-      },
-      {
-        "title": "@unknown: Australia must act on AI regulation now.\n- National safety standards\n- Fund resk...",
-        "url": "https://x.com/unknown/status/2025020481196507230",
-        "source": "X/@unknown",
-        "date": "Sat Feb 21 01:31:20 +0000 2026",
-        "summary": "Australia must act on AI regulation now.\n- National safety standards\n- Fund reskilling for affected workers\n- Transparency in public-sector AI use\nWhich should Canberra prioritise? I’d start with s...",
-        "score": 0.348
+        "score": 0.652
       }
     ]
   }
