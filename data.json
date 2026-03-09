@@ -2,12 +2,12 @@
   "columns": [
     {
       "id": "backlog",
-      "title": "\ud83d\udca1 Ideas / Backlog",
+      "title": "💡 Ideas / Backlog",
       "cards": [
         {
           "id": "idea-2",
           "title": "Lady Petrova App",
-          "description": "App idea for Petrova's business \u2014 details TBD",
+          "description": "App idea for Petrova's business — details TBD",
           "tags": [
             "personal",
             "app"
@@ -26,18 +26,21 @@
           "tags": [
             "infrastructure"
           ],
-          "status": "backlog",
+          "status": "in-progress",
           "notes": [
-            "OpenClaw supports forum topics natively. Raphael creates group, Fragile wires crons."
+            "OpenClaw supports forum topics natively. Raphael creates group, Fragile wires crons.",
+            "IMPLEMENTATION.md created at ~/clawd/projects/telegram-topics/",
+            "Skills updated: standup, health-check (newsletter needs check)",
+            "BLOCKED: Raphael creates forum group → Fragile captures topic IDs → update crons"
           ],
           "needsPickup": false,
           "priority": "normal",
-          "updatedAt": "2026-02-15T11:00:00Z",
+          "updatedAt": "2026-02-20T16:05:00Z",
           "updatedBy": "fragile"
         },
         {
           "id": "idea-8",
-          "title": "Google Migration (Proton \u2192 Gmail)",
+          "title": "Google Migration (Proton → Gmail)",
           "description": "Consolidate connect@raphaelruz.com email from Proton to Google Workspace + merge raphael.ruz@gmail.com account (bookmarks, contacts, YouTube).",
           "tags": [
             "personal"
@@ -55,7 +58,7 @@
     },
     {
       "id": "in-progress",
-      "title": "\ud83d\udd28 In Progress",
+      "title": "🔨 In Progress",
       "cards": [
         {
           "id": "ip-1",
@@ -69,27 +72,6 @@
           "status": "in-progress",
           "notes": [
             "Running reliably since Feb 2026. 9 new RSS feeds added Feb 14."
-          ],
-          "needsPickup": false,
-          "updatedAt": "2026-02-15T11:00:00Z",
-          "updatedBy": "fragile"
-        },
-        {
-          "id": "ip-7",
-          "title": "Product Intelligence \u2192 Paid Newsletter (Beehiiv)",
-          "description": "Turn PI into paid product. Beehiiv platform, pi.raphaelruz.com domain, $5/mo pro tier. Spec written, templates built, landing page live, API module coded.",
-          "tags": [
-            "revenue",
-            "newsletter"
-          ],
-          "priority": "high",
-          "status": "in-progress",
-          "notes": [
-            "Spec: ~/clawd/projects/product-intelligence/SPEC.md",
-            "Landing page: fr491l3b0t.github.io/kanban/pi-landing.html",
-            "Templates: Dark Ops + Pastel Editorial previews live",
-            "API module: ~/clawd/scripts/beehiiv-api.js (ready to wire)",
-            "Blocked: Beehiiv ID verification (Raphael)"
           ],
           "needsPickup": false,
           "updatedAt": "2026-02-15T11:00:00Z",
@@ -117,7 +99,7 @@
         {
           "id": "ip-9",
           "title": "X Content Strategy",
-          "description": "Draft \u2192 approve \u2192 post flow for @FR491L3. Strategy doc written. First week of drafts (Feb 17-23) revised. Raphael uncomfortable with posting \u2014 revisit when ready.",
+          "description": "Draft → approve → post flow for @FR491L3. Strategy doc written. First week of drafts (Feb 17-23) revised. Raphael uncomfortable with posting — revisit when ready.",
           "tags": [
             "content",
             "revenue"
@@ -157,50 +139,12 @@
     },
     {
       "id": "blocked",
-      "title": "\ud83d\udea7 Blocked / Needs Raphael",
-      "cards": [
-        {
-          "id": "blk-4",
-          "title": "Beehiiv ID Verification",
-          "description": "Beehiiv requires identity check before API access. Raphael started signup but needs to complete KYC.",
-          "tags": [
-            "revenue"
-          ],
-          "blocker": "Raphael",
-          "status": "blocked",
-          "notes": [
-            "Newsletter name: Product Intelligence, URL: productintelligence.beehiiv.com, Frequency: Daily"
-          ],
-          "needsPickup": false,
-          "priority": "high",
-          "updatedAt": "2026-02-15T11:00:00Z",
-          "updatedBy": "fragile"
-        },
-        {
-          "id": "idea-6",
-          "title": "Prompt Packs \u2014 Launch Ready ($29/$79/$199)",
-          "description": "22 templates + worked examples building + quickstart guide + license. Repriced based on market research. BLOCKED: Raphael creates Payhip account.",
-          "tags": [
-            "passive-income"
-          ],
-          "status": "blocked",
-          "notes": [
-            "Templates: ~/clawd/projects/prompt-packs/prompts/",
-            "Gumroad listing: ~/clawd/projects/prompt-packs/GUMROAD-LISTING.md",
-            "All 22 templates written and production-quality",
-            "BLOCKED: Need Raphael to create Gumroad account"
-          ],
-          "needsPickup": false,
-          "priority": "high",
-          "updatedAt": "2026-02-17T12:00:00Z",
-          "updatedBy": "fragile",
-          "blocker": "Raphael \u2014 needs Gumroad account"
-        }
-      ]
+      "title": "🚧 Blocked / Needs Raphael",
+      "cards": []
     },
     {
       "id": "done",
-      "title": "\u2705 Done",
+      "title": "✅ Done",
       "cards": [
         {
           "id": "done-32",
@@ -265,7 +209,7 @@
         {
           "id": "done-27",
           "title": "gogcli Installed",
-          "description": "Google CLI v0.10.0 installed at /usr/local/bin/gog. Auth setup deferred \u2014 Google migration planned for Sep 2026.",
+          "description": "Google CLI v0.10.0 installed at /usr/local/bin/gog. Auth setup deferred — Google migration planned for Sep 2026.",
           "tags": [
             "infrastructure"
           ],
@@ -277,7 +221,7 @@
         {
           "id": "done-26",
           "title": "Beehiiv API Module Built",
-          "description": "Node.js module at ~/clawd/scripts/beehiiv-api.js \u2014 publishPost, getSubscribers, getStats. Ready to wire.",
+          "description": "Node.js module at ~/clawd/scripts/beehiiv-api.js — publishPost, getSubscribers, getStats. Ready to wire.",
           "tags": [
             "revenue"
           ],
@@ -289,7 +233,7 @@
         {
           "id": "done-25",
           "title": "X Content Strategy + Drafts",
-          "description": "Strategy doc + 2 weeks of drafts written. Raphael reviewing approach \u2014 prefers curating over original takes.",
+          "description": "Strategy doc + 2 weeks of drafts written. Raphael reviewing approach — prefers curating over original takes.",
           "tags": [
             "content"
           ],
@@ -324,7 +268,7 @@
         },
         {
           "id": "done-22",
-          "title": "Subagents \u2192 OpenRouter Codex",
+          "title": "Subagents → OpenRouter Codex",
           "description": "Switched from openai/gpt-5.2 to openrouter/openai/gpt-5.2-codex. Bypasses OpenAI billing block.",
           "tags": [
             "infrastructure"
@@ -433,7 +377,7 @@
         {
           "id": "done-13",
           "title": "GitHub Issue Filed: Fallback Bug",
-          "description": "openclaw/openclaw#12627 \u2014 fallback on validation errors. Filed and acknowledged.",
+          "description": "openclaw/openclaw#12627 — fallback on validation errors. Filed and acknowledged.",
           "tags": [
             "infrastructure"
           ],
@@ -465,6 +409,20 @@
           "completedDate": "2026-02-13",
           "updatedAt": "2026-02-13T12:00:00Z",
           "updatedBy": "fragile"
+        },
+        {
+          "title": "Beehiiv — KILLED",
+          "description": "Killed Feb 24. Replaced by Substack strategy (free distribution driving KB traffic).",
+          "tags": [
+            "killed"
+          ]
+        },
+        {
+          "title": "Prompt Packs — KILLED",
+          "description": "Killed Feb 27. Revenue focus shifted to KB public deployment.",
+          "tags": [
+            "killed"
+          ]
         }
       ]
     }
