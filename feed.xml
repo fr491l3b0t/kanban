@@ -6,7 +6,7 @@
     <description>Curated daily intelligence on generative AI: tools, research, strategy, industry moves. 4,600+ entries from 41 RSS feeds, Reddit, X bookmarks, and Brave Search.</description>
     <language>en-AU</language>
     <copyright>© 2026 Raphael Ruz</copyright>
-    <lastBuildDate>Fri, 06 Mar 2026 08:05:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 06:18:02 GMT</lastBuildDate>
     <generator>Product Intelligence KB Feed Builder</generator>
     <atom:link href="https://fr491l3b0t.github.io/kanban/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -87,15 +87,6 @@
       <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qyns06/aime_2026_results_are_out_and_both_closed_and/">r/LocalLLaMA</source>
     </item>
     <item>
-      <title>I trained a 1.8M params model from scratch on a total of ~40M tokens.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qym566/i_trained_a_18m_params_model_from_scratch_on_a/</link>
-      <description><![CDATA[Ok so I've been working & experimenting with my own simple architecture. I call it Strawberry. This is a very very small experimental model. It has 1.8M params and was trained on a dataset with ~9M tokens (~7M for training and ~2M for val). It model was trained on a batch size…]]></description>
-      <pubDate>Sat, 07 Feb 2026 18:57:42 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qym566/i_trained_a_18m_params_model_from_scratch_on_a/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qym566/i_trained_a_18m_params_model_from_scratch_on_a/">r/LocalLLaMA</source>
-    </item>
-    <item>
       <title>Prompt injection is killing our self-hosted LLM deployment</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1qyljr0/prompt_injection_is_killing_our_selfhosted_llm/</link>
       <description><![CDATA[We moved to self-hosted models specifically to avoid sending customer data to external APIs. Everything was working fine until last week when someone from QA tried injecting prompts during testing and our entire system prompt got dumped in the response. Now I'm realizing we have…]]></description>
@@ -112,15 +103,6 @@
       <category>AI Tools &amp; Platforms</category>
       <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qyl6rd/gemini_system_prompt_google_decided_to_remove_pro/</guid>
       <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qyl6rd/gemini_system_prompt_google_decided_to_remove_pro/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>Benchmarking total wait time instead of pp/tg</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qyjm0l/benchmarking_total_wait_time_instead_of_pptg/</link>
-      <description><![CDATA[I find pp512/tg128 numbers not very useful for judging real-world performance. I've had setups that looked acceptable on paper but turned out to be too slow in real use. So I started benchmarking total time to process realistic context sizes (1k to 64k tokens) + generation…]]></description>
-      <pubDate>Sat, 07 Feb 2026 17:22:35 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qyjm0l/benchmarking_total_wait_time_instead_of_pptg/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qyjm0l/benchmarking_total_wait_time_instead_of_pptg/">r/LocalLLaMA</source>
     </item>
     <item>
       <title>How StrongDM&apos;s AI team build serious software without even looking at the code</title>
@@ -150,15 +132,6 @@
       <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qydx7z/successfully_built_an_autonomous_research_agent/">r/LocalLLaMA</source>
     </item>
     <item>
-      <title>The Technologies Changing How You’ll Watch the 2026 Winter Olympic Games</title>
-      <link>https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/</link>
-      <description><![CDATA[From drones with “first-person” visualization to real-time 360-degree replays and Olympics GPT, get ready to immerse yourself in the Winter Games in Milan and Cortina.]]></description>
-      <pubDate>Sat, 07 Feb 2026 12:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/</guid>
-      <source url="https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/">Wired AI</source>
-    </item>
-    <item>
       <title>You Spent Your Whole Life Getting Good at the Wrong Thing</title>
       <link>https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting</link>
       <description><![CDATA[Notes on AI agents]]></description>
@@ -166,33 +139,6 @@
       <category>AI Tools &amp; Platforms</category>
       <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting</guid>
       <source url="https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting">The Algorithmic Bridge</source>
-    </item>
-    <item>
-      <title>Moltbook, the Social Network for AI Agents, Exposed Real Humans’ Data</title>
-      <link>https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/</link>
-      <description><![CDATA[Plus: Apple’s Lockdown mode keeps the FBI out of a reporter’s phone, Elon Musk’s Starlink cuts off Russian forces, and more.]]></description>
-      <pubDate>Sat, 07 Feb 2026 11:30:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/</guid>
-      <source url="https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/">Wired AI</source>
-    </item>
-    <item>
-      <title>The AI boom is causing shortages everywhere else</title>
-      <link>https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/</link>
-      <description><![CDATA[Article URL: https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/ Comments URL: https://news.ycombinator.com/item?id=46922969 Points: 289 # Comments: 466]]></description>
-      <pubDate>Sat, 07 Feb 2026 11:21:29 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/</guid>
-      <source url="https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/">Hacker News AI</source>
-    </item>
-    <item>
-      <title>Kimi-Linear-48B-A3B &amp; Step3.5-Flash are ready - llama.cpp</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qy5xnn/kimilinear48ba3b_step35flash_are_ready_llamacpp/</link>
-      <description><![CDATA[Below are actual releases for both models. Anyway get latest version Step3.5-Flash https://github.com/ggml-org/llama.cpp/releases/tag/b7964 Kimi-Linear-48B-A3B https://github.com/ggml-org/llama.cpp/releases/tag/b7957 I don't see any new GGUFs( Kimi & Step-3.5 ) from our favorite…]]></description>
-      <pubDate>Sat, 07 Feb 2026 05:59:11 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qy5xnn/kimilinear48ba3b_step35flash_are_ready_llamacpp/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qy5xnn/kimilinear48ba3b_step35flash_are_ready_llamacpp/">r/LocalLLaMA</source>
     </item>
     <item>
       <title>DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search</title>
@@ -240,22 +186,13 @@
       <source url="https://arxiv.org/abs/2602.05088">arXiv cs.AI</source>
     </item>
     <item>
-      <title>HugRAG: Hierarchical Causal Knowledge Graph Design for RAG</title>
-      <link>https://arxiv.org/abs/2602.05143</link>
-      <description><![CDATA[arXiv:2602.05143v1 Announce Type: new Abstract: Retrieval augmented generation (RAG) has enhanced large language models by enabling access to external knowledge, with graph-based RAG emerging as a powerful paradigm for structured retrieval and reasoning. However, existing…]]></description>
+      <title>Understanding LLM Evaluator Behavior: A Structured Multi-Evaluator Framework for Merchant Risk Assessment</title>
+      <link>https://arxiv.org/abs/2602.05110</link>
+      <description><![CDATA[arXiv:2602.05110v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used as evaluators of reasoning quality, yet their reliability and bias in payments-risk settings remain poorly understood. We introduce a structured multi-evaluator framework for…]]></description>
       <pubDate>Sat, 07 Feb 2026 05:00:00 GMT</pubDate>
       <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.05143</guid>
-      <source url="https://arxiv.org/abs/2602.05143">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>First Proof</title>
-      <link>https://arxiv.org/abs/2602.05192</link>
-      <description><![CDATA[arXiv:2602.05192v1 Announce Type: new Abstract: To assess the ability of current AI systems to correctly answer research-level mathematics questions, we share a set of ten math questions which have arisen naturally in the research process of the authors. The questions had not…]]></description>
-      <pubDate>Sat, 07 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.05192</guid>
-      <source url="https://arxiv.org/abs/2602.05192">arXiv cs.AI</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.05110</guid>
+      <source url="https://arxiv.org/abs/2602.05110">arXiv cs.AI</source>
     </item>
     <item>
       <title>[AINews] AI vs SaaS: The Unreasonable Effectiveness of Centralizing the AI Heartbeat</title>
@@ -393,13 +330,13 @@
       <source url="https://stratechery.com/2026/an-interview-with-benedict-evans-about-ai-and-software/">Stratechery</source>
     </item>
     <item>
-      <title>Introducing Trusted Access for Cyber</title>
-      <link>https://openai.com/index/trusted-access-for-cyber</link>
-      <description><![CDATA[OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.]]></description>
-      <pubDate>Thu, 05 Feb 2026 10:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://openai.com/index/trusted-access-for-cyber</guid>
-      <source url="https://openai.com/index/trusted-access-for-cyber">OpenAI Blog</source>
+      <title>[AINews] ElevenLabs $500m Series D at $11B, Cerebras $1B Series H at $23B, Vibe Coding -&gt; Agentic Engineering</title>
+      <link>https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at</link>
+      <description><![CDATA[SOTA Audio models, Fast Chips, and Koding Agents are all you need.]]></description>
+      <pubDate>Thu, 05 Feb 2026 08:26:43 GMT</pubDate>
+      <category>Voice &amp; Audio</category>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at</guid>
+      <source url="https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at">Latent Space</source>
     </item>
     <item>
       <title>Introducing OpenAI Frontier</title>
@@ -913,6 +850,69 @@
       <category>AI Tools &amp; Platforms</category>
       <guid isPermaLink="true">https://x.com/multimodalart/status/2009292129261031570</guid>
       <source url="https://x.com/multimodalart/status/2009292129261031570">@multimodalart</source>
+    </item>
+    <item>
+      <title>this is the CLEAREST explanation of &quot;ralph wiggum&quot; on the internet and how you can use it with claud...</title>
+      <link>https://x.com/gregisenberg/status/2009332316120993803</link>
+      <description><![CDATA[this is the CLEAREST explanation of "ralph wiggum" on the internet and how you can use it with claude code/amp/etc and have AI agents build software for you 24/7 even while you sleep https://t.co/84hvjqX3wd]]></description>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/gregisenberg/status/2009332316120993803</guid>
+      <source url="https://x.com/gregisenberg/status/2009332316120993803">@gregisenberg</source>
+    </item>
+    <item>
+      <title>Claude Code &amp;amp; Replit Masterclass</title>
+      <link>https://x.com/mattyp/status/2009063326366736512</link>
+      <description><![CDATA[Claude Code &amp; Replit Masterclass  00:00 Intro 02:22 Understanding dev vs prod 05:30 Building locally vs Replit 10:30 Cloud advantages 14:07 Parallel agents from mobile 25:15 Claude Code inside Replit  44:30 Personal notes with Obsidian 46:50 Agen...]]></description>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/mattyp/status/2009063326366736512</guid>
+      <source url="https://x.com/mattyp/status/2009063326366736512">@mattyp</source>
+    </item>
+    <item>
+      <title>bro casually walks and explains 5 GPU performance optimization methods for LLMs. one of the most sim...</title>
+      <link>https://x.com/Hesamation/status/2009012165123195342</link>
+      <description><![CDATA[bro casually walks and explains 5 GPU performance optimization methods for LLMs. one of the most simple and intuitive explanations for beginners. https://t.co/42aywKmpcX]]></description>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/Hesamation/status/2009012165123195342</guid>
+      <source url="https://x.com/Hesamation/status/2009012165123195342">@Hesamation</source>
+    </item>
+    <item>
+      <title>If you’ve never written code before, this is for you. I’ve just launched a course that shows you, in...</title>
+      <link>https://x.com/AndrewYNg/status/2008956639894786402</link>
+      <description><![CDATA[If you’ve never written code before, this is for you. I’ve just launched a course that shows you, in less than 30 minutes, how to describe an idea for an app and build it with AI.  In this course, you'll build a working web application - a funny inte...]]></description>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/AndrewYNg/status/2008956639894786402</guid>
+      <source url="https://x.com/AndrewYNg/status/2008956639894786402">@AndrewYNg</source>
+    </item>
+    <item>
+      <title>One of the biggest opportunities available to anyone entrepreneurial right now in their company is t...</title>
+      <link>https://x.com/levie/status/2008746912569283060</link>
+      <description><![CDATA[One of the biggest opportunities available to anyone entrepreneurial right now in their company is to be the person that helps their organization understand and deploy AI agents.   Deploying agents is hard. There is still a relatively narrow universe...]]></description>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/levie/status/2008746912569283060</guid>
+      <source url="https://x.com/levie/status/2008746912569283060">@levie</source>
+    </item>
+    <item>
+      <title>I wrote about Claude Code and why non-coders should be paying attention (and playing with the system...</title>
+      <link>https://x.com/emollick/status/2009043516643832029</link>
+      <description><![CDATA[I wrote about Claude Code and why non-coders should be paying attention (and playing with the system) - it shows what today’s LLMs can do  Along the way I had Claude launch a business for me &amp; build a game that simulates the rise and fall of civi...]]></description>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/emollick/status/2009043516643832029</guid>
+      <source url="https://x.com/emollick/status/2009043516643832029">@emollick</source>
+    </item>
+    <item>
+      <title>@deedydas You can also do this with the Glif MCP! https://t.co/Q1FGOApWui</title>
+      <link>https://x.com/angrypenguinPNG/status/2008758989992120819</link>
+      <description><![CDATA[@deedydas You can also do this with the Glif MCP! https://t.co/Q1FGOApWui]]></description>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/angrypenguinPNG/status/2008758989992120819</guid>
+      <source url="https://x.com/angrypenguinPNG/status/2008758989992120819">@angrypenguinPNG</source>
     </item>
   </channel>
 </rss>

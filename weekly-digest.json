@@ -1,322 +1,359 @@
 {
-  "generatedAt": "2026-03-01T07:00:07.137Z",
+  "generatedAt": "2026-03-09T06:18:03.010Z",
   "window": {
-    "start": "2026-02-22T07:00:07.086Z",
-    "end": "2026-03-01T07:00:07.086Z",
+    "start": "2026-03-02T06:18:02.964Z",
+    "end": "2026-03-09T06:18:02.964Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 982,
+    "totalEntries": 683,
     "categoriesWithEntries": 10,
-    "totalSelected": 26
+    "totalSelected": 30
   },
   "storyOfTheWeek": {
-    "title": "Please, please, please stop using passkeys for encrypting user data",
-    "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-    "source": "Simon Willison",
-    "date": "2026-02-27T22:49:32+00:00",
-    "summary": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time, and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting and using passkeys to encrypt user data. I’m begging you. Let them be great, phishing-resistant authentication credentials. Via lobste.rs Tags: security, usability, passkeys",
-    "score": 0.775
+    "title": "NotebookLM introduces Cinematic Video Overviews — bespoke immersive videos from your sources",
+    "url": "https://x.com/NotebookLM/status/2029240601334436080",
+    "source": "@NotebookLM",
+    "date": "2026-03-04",
+    "summary": "Google NotebookLM launches Cinematic Video Overviews in NotebookLM Studio. Uses a novel combination of advanced models to create bespoke, immersive videos from user sources. Rolling out to Ultra users in English. Major evolution from audio-only overviews to full cinematic video generation.",
+    "score": 0.834
   },
   "trending": [
     {
-      "tag": "deepseek",
-      "count": 7,
-      "prevCount": 1,
-      "growth": 6,
-      "relevance": 6.5
-    },
-    {
-      "tag": "diffusion",
-      "count": 11,
-      "prevCount": 2,
-      "growth": 4.5,
-      "relevance": 5
-    },
-    {
-      "tag": "rag",
-      "count": 5,
-      "prevCount": 1,
-      "growth": 4,
-      "relevance": 4.5
-    },
-    {
-      "tag": "nano banana",
-      "count": 8,
-      "prevCount": 2,
-      "growth": 3,
-      "relevance": 3
-    },
-    {
-      "tag": "agent framework",
-      "count": 7,
-      "prevCount": 2,
-      "growth": 2.5,
-      "relevance": 2.5
-    },
-    {
-      "tag": "vibe",
-      "count": 6,
-      "prevCount": 2,
-      "growth": 2,
-      "relevance": 2.5
-    },
-    {
-      "tag": "hallucination",
+      "tag": "gpt",
       "count": 5,
       "prevCount": 2,
       "growth": 1.5,
       "relevance": 2
     },
     {
+      "tag": "llm agents",
+      "count": 8,
+      "prevCount": 3,
+      "growth": 1.67,
+      "relevance": 1.6666666666666667
+    },
+    {
       "tag": "qwen",
-      "count": 10,
-      "prevCount": 5,
-      "growth": 1,
-      "relevance": 1.5
+      "count": 19,
+      "prevCount": 12,
+      "growth": 0.58,
+      "relevance": 1.0833333333333335
     },
     {
-      "tag": "image",
-      "count": 9,
-      "prevCount": 5,
-      "growth": 0.8,
-      "relevance": 1.3
+      "tag": "alignment",
+      "count": 5,
+      "prevCount": 4,
+      "growth": 0.25,
+      "relevance": 0.75
     },
     {
-      "tag": "agentic",
-      "count": 26,
-      "prevCount": 17,
-      "growth": 0.53,
-      "relevance": 1.0294117647058822
+      "tag": "rag",
+      "count": 5,
+      "prevCount": 4,
+      "growth": 0.25,
+      "relevance": 0.75
+    },
+    {
+      "tag": "mcp",
+      "count": 11,
+      "prevCount": 9,
+      "growth": 0.22,
+      "relevance": 0.7222222222222222
+    },
+    {
+      "tag": "gemini",
+      "count": 15,
+      "prevCount": 13,
+      "growth": 0.15,
+      "relevance": 0.6538461538461539
+    },
+    {
+      "tag": "voice",
+      "count": 5,
+      "prevCount": 5,
+      "growth": 0,
+      "relevance": 0.5
+    },
+    {
+      "tag": "coding",
+      "count": 38,
+      "prevCount": 41,
+      "growth": -0.07,
+      "relevance": 0.4268292682926829
+    },
+    {
+      "tag": "coding tools",
+      "count": 7,
+      "prevCount": 5,
+      "growth": 0.4,
+      "relevance": 0.4
     }
   ],
   "categories": {
     "AI Coding & Agents": [
       {
-        "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
-        "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
+        "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
+        "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
         "source": "Simon Willison",
-        "date": "2026-02-27T20:43:41+00:00",
-        "summary": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your ti...",
-        "score": 0.773
+        "date": "2026-03-06T02:39:04+00:00",
+        "summary": "Clinejection — Compromising Cline&#x27;s Production Releases just by Prompting an Issue Triager Adnan Khan describes a devious attack chain against the Cline GitHub repository, which started with a...",
+        "score": 0.736
       },
       {
-        "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
-        "url": "https://openai.com/index/figma-partnership",
+        "title": "Cursor's Third Era: Cloud Agents",
+        "url": "https://www.latent.space/p/cursor-third-era",
+        "source": "Latent Space",
+        "date": "Fri, 06 Mar 2026 02:42:37 GMT",
+        "summary": "The $50B Agent Lab has acquired Graphite and Autotab and now announcing that Cloud Agents has overtaken its historical \"VSCode fork\" IDE usecase, ushering in the \"Third Era of Software Development\"",
+        "score": 0.676
+      },
+      {
+        "title": "Introducing GPT-5.4",
+        "url": "https://openai.com/index/introducing-gpt-5-4",
         "source": "OpenAI Blog",
-        "date": "Thu, 26 Feb 2026 06:00:00 GMT",
-        "summary": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
-        "score": 0.738
-      },
-      {
-        "title": "Claude Code Remote Control",
-        "url": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-02-25T17:33:24+00:00",
-        "summary": "Claude Code Remote Control New Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code for web interfaces (on web, iOS and na...",
-        "score": 0.727
+        "date": "Thu, 05 Mar 2026 10:00:00 GMT",
+        "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+        "score": 0.621
       }
     ],
     "AI Tools & Platforms": [
       {
-        "title": "Please, please, please stop using passkeys for encrypting user data",
-        "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-02-27T22:49:32+00:00",
-        "summary": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time, and may not understand that their data has been irreversibly encrypted using them...",
-        "score": 0.775
+        "title": "NotebookLM introduces Cinematic Video Overviews — bespoke immersive videos from your sources",
+        "url": "https://x.com/NotebookLM/status/2029240601334436080",
+        "source": "@NotebookLM",
+        "date": "2026-03-04",
+        "summary": "Google NotebookLM launches Cinematic Video Overviews in NotebookLM Studio. Uses a novel combination of advanced models to create bespoke, immersive videos from user sources. Rolling out to Ultra us...",
+        "score": 0.834,
+        "tags": [
+          "notebooklm",
+          "google",
+          "video"
+        ]
       },
       {
-        "title": "Free Claude Max for (large project) open source maintainers",
-        "url": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
+        "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
+        "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
         "source": "Simon Willison",
-        "date": "2026-02-27T18:08:22+00:00",
-        "summary": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to ...",
-        "score": 0.77
+        "date": "2026-03-05T16:49:33+00:00",
+        "summary": "Over the past few months it's become clear that coding agents are extraordinarily good at building a weird version of a \"clean room\" implementation of code. The most famous version of this pattern ...",
+        "score": 0.727
       },
       {
-        "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
-        "url": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-02-27T17:50:54+00:00",
-        "summary": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of ...",
-        "score": 0.77
+        "title": "Ensuring AI use in education leads to opportunity",
+        "url": "https://openai.com/index/ai-education-opportunity",
+        "source": "OpenAI Blog",
+        "date": "Thu, 05 Mar 2026 09:00:00 GMT",
+        "summary": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
+        "score": 0.72
       }
     ],
     "Research & Papers": [
       {
-        "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
-        "url": "https://openai.com/index/pacific-northwest-national-laboratory",
+        "title": "Extending single-minus amplitudes to gravitons",
+        "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
         "source": "OpenAI Blog",
-        "date": "Thu, 26 Feb 2026 10:00:00 GMT",
-        "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA draftin...",
-        "score": 0.742
+        "date": "Wed, 04 Mar 2026 10:00:00 GMT",
+        "summary": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
+        "score": 0.699
       },
       {
-        "title": "METR’s Joel Becker on exponential Time Horizon Evals, Threat Models, and the Limits of AI Productivity",
-        "url": "https://www.latent.space/p/metr",
-        "source": "Latent Space",
-        "date": "Fri, 27 Feb 2026 19:17:52 GMT",
-        "summary": "AIE Europe CFP and AIE World&#8217;s Fair paper submissions for CAIS peer review are due TODAY - do not delay!",
-        "score": 0.711
+        "title": "@unknown: One of the clearest proofs that LLMs don’t really understand what they say.\n\nWe ...",
+        "url": "https://x.com/unknown/status/2029593915674771457",
+        "source": "X/@unknown",
+        "date": "Thu Mar 05 16:24:32 +0000 2026",
+        "summary": "One of the clearest proofs that LLMs don’t really understand what they say.\n\nWe asked GPT whether it is acceptable to torture a woman to prevent a nuclear apocalypse.\nIt replied: yes.\n\nThen we aske...",
+        "score": 0.623
       },
       {
-        "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
-        "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
-        "source": "Google AI Blog",
-        "date": "Thu, 26 Feb 2026 18:55:00 +0000",
-        "summary": "Google is partnering with the Massachusetts AI Hub to provide every Baystater with no-cost access to Google’s AI training.",
-        "score": 0.69
+        "title": "@unknown: Given the GDPval benchmark for GPT-5.4, I've updated this chart, the new model t...",
+        "url": "https://x.com/unknown/status/2029631499582976280",
+        "source": "X/@unknown",
+        "date": "Thu Mar 05 18:53:52 +0000 2026",
+        "summary": "Given the GDPval benchmark for GPT-5.4, I've updated this chart, the new model ties or beats humans as judged by other experts at professional tasks 82% of the time\n\nIf you give a 7 hour task to AI...",
+        "score": 0.562
       }
     ],
     "Strategy & Opinion": [
       {
-        "title": "Quoting Benedict Evans",
-        "url": "https://simonwillison.net/2026/Feb/26/benedict-evans/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-02-26T03:44:56+00:00",
-        "summary": "If people are only using this a couple of times a week at most, and can’t think of anything to do with it on the average day, it hasn’t changed their life. OpenAI itself admits the problem, talking...",
-        "score": 0.736
+        "title": "11 women shaping the future of robotics",
+        "url": "https://www.therobotreport.com/11-women-shaping-the-future-of-robotics/",
+        "source": "The Robot Report",
+        "date": "Thu, 05 Mar 2026 21:58:05 +0000",
+        "summary": "The IFR said it hopes the list will give women in the robotics industry more visibility and acknowledgment. The post 11 women shaping the future of robotics appeared first on The Robot Report.",
+        "score": 0.548
       },
       {
-        "title": "[AINews] WTF Happened in December 2025?",
-        "url": "https://www.latent.space/p/wtf2025",
-        "source": "Latent Space",
-        "date": "Thu, 26 Feb 2026 00:08:54 GMT",
-        "summary": "A quiet day lets us express a growing, uneasy feeling that coding has changed forever &#8212; much much more than &#8220;normal&#8221; hype.",
-        "score": 0.673
+        "title": "AW 2026 features Korea humanoid debuts as industry seeks digital transformation",
+        "url": "https://www.therobotreport.com/aw-2026-features-korea-humanoid-debuts-industry-seeks-digital-transformation/",
+        "source": "The Robot Report",
+        "date": "Wed, 04 Mar 2026 20:33:37 +0000",
+        "summary": "In addition to humanoid robots from Agibot, Boston Dynamics, Leju, and Unitree, AW 2026 showed opportunities for physical AI in South Korea. The post AW 2026 features Korea humanoid debuts as indus...",
+        "score": 0.526
       },
       {
-        "title": "AI Hallucination from Students' Perspective: A Thematic Analysis",
-        "url": "https://arxiv.org/abs/2602.17671",
-        "source": "arXiv cs.AI",
-        "date": "Mon, 23 Feb 2026 00:00:00 -0500",
-        "summary": "arXiv:2602.17671v1 Announce Type: cross Abstract: As students increasingly rely on large language models, hallucinations pose a growing threat to learning. To mitigate this, AI literacy must expand...",
-        "score": 0.67
+        "title": "What Military Drones Can Teach Self-Driving Cars",
+        "url": "https://spectrum.ieee.org/military-drones-self-driving-cars",
+        "source": "IEEE Spectrum Robotics",
+        "date": "Mon, 02 Mar 2026 12:00:02 +0000",
+        "summary": "Self-driving cars often struggle with situations that are commonplace for human drivers. When confronted with construction zones, school buses, power outages, or misbehaving pedestrians, these vehi...",
+        "score": 0.475
       }
     ],
     "Image & Video Generation": [
       {
-        "title": "Ladybird adopts Rust, with help from AI",
-        "url": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-02-23T18:52:53+00:00",
-        "summary": "Ladybird adopts Rust, with help from AI Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projects with critical code. After a fe...",
-        "score": 0.685
+        "title": "Ask a Techspert: How does AI understand my visual searches?",
+        "url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+        "source": "Google AI Blog",
+        "date": "Thu, 05 Mar 2026 18:00:00 +0000",
+        "summary": "Learn more about AI Mode in Search’s query fan-out method for visual search.",
+        "score": 0.668
       },
       {
-        "title": "@unknown: Some top AI video generation tools for YouTube in 2026 include:\n\n- Sora 2 (OpenA...",
-        "url": "https://x.com/unknown/status/2025596845645300063",
+        "title": "@unknown: working on some AI-generated videos for a charity (source audio is their benefic...",
+        "url": "https://x.com/unknown/status/2028982477553824082",
         "source": "X/@unknown",
-        "date": "Sun Feb 22 15:41:36 +0000 2026",
-        "summary": "Some top AI video generation tools for YouTube in 2026 include:\n\n- Sora 2 (OpenAI): Easy text-to-video with ChatGPT integration, great for quick clips.\n- Veo 3.1 (Google DeepMind): Realistic physic...",
-        "score": 0.601
+        "date": "Tue Mar 03 23:54:53 +0000 2026",
+        "summary": "working on some AI-generated videos for a charity (source audio is their beneficiaries telling their story)\n\nOne 90-second video with 22 final shots in it has required 191 assets to be generated.\n\n...",
+        "score": 0.63
       },
       {
-        "title": "[D] Why do people say that GANs are dead or outdated when they're still commonly used?",
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1rbgsey/d_why_do_people_say_that_gans_are_dead_or/",
-        "source": "r/MachineLearning",
-        "date": "2026-02-22T08:43:11+00:00",
-        "summary": "It's really weird seeing people say that GANs are a dated concept or not used. As someone doing image and audio generation, I have no idea what people mean by this. Literally every single diffusion...",
-        "score": 0.542
+        "title": "@unknown: Kling 3.0, Kling 3.0 Omni and 3.0 Motion Control fully rolled out now!\n\n- Superb...",
+        "url": "https://x.com/unknown/status/2029210254702252331",
+        "source": "X/@unknown",
+        "date": "Wed Mar 04 15:00:00 +0000 2026",
+        "summary": "Kling 3.0, Kling 3.0 Omni and 3.0 Motion Control fully rolled out now!\n\n- Superb character consistency with professional Mocap-level motion control\n- Flexible video creation — up to 15s, multi-shot...",
+        "score": 0.601
       }
     ],
     "Workflow & Automation": [
       {
-        "title": "Christian Pickett: Run your entire GTM workflow directly in Claude Code.\n                          ...",
-        "url": "https://www.linkedin.com/posts/christian-pickett_run-your-entire-gtm-workflow-directly-in-activity-7431869637207928834-IaaK?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGTc698BINegmvl5s0Og5JIeWfjs_nyqpHg",
-        "source": "LinkedIn/Christian Pickett",
-        "date": "2026-02-24",
-        "summary": "Run your entire GTM workflow directly in Claude Code.\n                                                              \nJust ran a full prospect enrichment pipeline, without writing a single line of c...",
-        "score": 0.727
+        "title": "@unknown: It is increasingly clear that the constraint is going to be compute, just as the...",
+        "url": "https://x.com/unknown/status/2029591449830916497",
+        "source": "X/@unknown",
+        "date": "Thu Mar 05 16:14:44 +0000 2026",
+        "summary": "It is increasingly clear that the constraint is going to be compute, just as the AI labs warned.\n\nThe token requirements for agentic work are high, making using frontier agents only cost efficient ...",
+        "score": 0.56
       },
       {
-        "title": "WorkflowPerturb: Calibrated Stress Tests for Evaluating Multi-Agent Workflow Metrics",
-        "url": "https://arxiv.org/abs/2602.17990",
-        "source": "arXiv cs.AI",
-        "date": "Mon, 23 Feb 2026 00:00:00 -0500",
-        "summary": "arXiv:2602.17990v1 Announce Type: new Abstract: LLM-based systems increasingly generate structured workflows for complex tasks. In practice, automatic evaluation of these workflows is difficult, be...",
-        "score": 0.67
-      },
-      {
-        "title": "Detecting Contextual Hallucinations in LLMs with Frequency-Aware Attention",
-        "url": "https://arxiv.org/abs/2602.18145",
+        "title": "Multiclass Hate Speech Detection with RoBERTa-OTA: Integrating Transformer Attention and Graph Convolutional Networks",
+        "url": "https://arxiv.org/abs/2603.04414",
         "source": "arXiv cs.CL",
-        "date": "Mon, 23 Feb 2026 00:00:00 -0500",
-        "summary": "arXiv:2602.18145v1 Announce Type: new Abstract: Hallucination detection is critical for ensuring the reliability of large language models (LLMs) in context-based generation. Prior work has explored...",
-        "score": 0.67
+        "date": "Fri, 06 Mar 2026 00:00:00 -0500",
+        "summary": "arXiv:2603.04414v1 Announce Type: new Abstract: Multiclass hate speech detection across demographic categories remains computationally challenging due to implicit targeting strategies and linguisti...",
+        "score": 0.515
+      },
+      {
+        "title": "Optimizing What We Trust: Reliability-Guided QUBO Selection of Multi-Agent Weak Framing Signals for Arabic Sentiment Prediction",
+        "url": "https://arxiv.org/abs/2603.04416",
+        "source": "arXiv cs.CL",
+        "date": "Fri, 06 Mar 2026 00:00:00 -0500",
+        "summary": "arXiv:2603.04416v1 Announce Type: new Abstract: Framing detection in Arabic social media is difficult due to interpretive ambiguity, cultural grounding, and limited reliable supervision. Existing L...",
+        "score": 0.515
       }
     ],
     "Industry & Business": [
       {
-        "title": "OpenAI and Amazon announce strategic partnership",
-        "url": "https://openai.com/index/amazon-partnership",
+        "title": "The five AI value models driving business reinvention",
+        "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
         "source": "OpenAI Blog",
-        "date": "Fri, 27 Feb 2026 05:30:00 GMT",
-        "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
-        "score": 0.759
+        "date": "Thu, 05 Mar 2026 00:00:00 GMT",
+        "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+        "score": 0.712
       },
       {
-        "title": "tldraw issue: Move tests to closed source repo",
-        "url": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-02-25T21:06:53+00:00",
-        "summary": "tldraw issue: Move tests to closed source repo It's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open so...",
-        "score": 0.73
+        "title": "Introducing the Adoption news channel",
+        "url": "https://openai.com/index/introducing-the-adoption-news-channel",
+        "source": "OpenAI Blog",
+        "date": "Thu, 05 Mar 2026 00:00:00 GMT",
+        "summary": "Practical insights and frameworks to turn AI progress into business advantage",
+        "score": 0.712
       },
       {
-        "title": "Quoting Kellan Elliott-McCrea",
-        "url": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
+        "title": "Gemini 3.1 Flash-Lite",
+        "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
         "source": "Simon Willison",
-        "date": "2026-02-25T03:30:32+00:00",
-        "summary": "It’s also reasonable for people who entered technology in the last couple of decades because it was good job, or because they enjoyed coding to look at this moment with a real feeling of loss. That...",
-        "score": 0.715
+        "date": "2026-03-03T21:53:54+00:00",
+        "summary": "Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million output this is 1/8th the price of Gemini 3.1 Pro. ...",
+        "score": 0.689
       }
     ],
     "Voice & Audio": [
       {
-        "title": "Qwen3's most underrated feature: Voice embeddings",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rc59ze/qwen3s_most_underrated_feature_voice_embeddings/",
+        "title": "We collected 135 phrases Whisper hallucinates during silence — here's what it says when nobody's talking and how we stopped it",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rlqfd7/we_collected_135_phrases_whisper_hallucinates/",
         "source": "r/LocalLLaMA",
-        "date": "2026-02-23T02:28:32+00:00",
-        "summary": "Did you know that Qwen3 TTS utilizes voice embedding for voice cloning? Your voice is turned into a vector of 1024 dimensions (or 2048 for 1.7b), and based on this vector alone you can get your cus...",
-        "score": 0.557
+        "date": "2026-03-05T19:04:30+00:00",
+        "summary": "we run an open-source meeting bot that transcribes calls with whisper. after a few thousand hours of production audio, we noticed something: whisper doesn't just fail silently during silence. it ge...",
+        "score": 0.506
+      },
+      {
+        "title": "Launch HN: Cekura (YC F24) – Testing and monitoring for voice and chat AI agents",
+        "url": "https://news.ycombinator.com/item?id=47232903",
+        "source": "Hacker News AI",
+        "date": "Tue, 03 Mar 2026 14:30:58 +0000",
+        "summary": "Hey HN - we're Tarush, Sidhant, and Shashij from Cekura (https://www.cekura.ai). We've been running voice agent simulation for 1.5 years, and recently extended the same infrastructure to chat. Team...",
+        "score": 0.499
+      },
+      {
+        "title": "This AI Agent Is Ready to Serve, Mid-Phone Call",
+        "url": "https://www.wired.com/story/deutsche-telekom-elevenlabs-ai-phone-calls-mwc-2026/",
+        "source": "Wired AI",
+        "date": "Tue, 03 Mar 2026 00:25:44 +0000",
+        "summary": "Deutsche Telekom, the German cell provider—which holds a majority stake in T-Mobile—is partnering with ElevenLabs to enable an AI assistant on all of its network’s calls in Germany. No app required.",
+        "score": 0.481
       }
     ],
     "Ethics & Regulation": [
       {
-        "title": "An update on our mental health-related work",
-        "url": "https://openai.com/index/update-on-mental-health-related-work",
+        "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+        "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
         "source": "OpenAI Blog",
-        "date": "Fri, 27 Feb 2026 00:00:00 GMT",
-        "summary": "OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.",
-        "score": 0.754
+        "date": "Thu, 05 Mar 2026 10:00:00 GMT",
+        "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+        "score": 0.721
       },
       {
-        "title": "Reply guy",
-        "url": "https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-02-23T13:11:57+00:00",
-        "summary": "The latest scourge of Twitter is AI bots that reply to your tweets with generic, banal commentary slop, often accompanied by a question to \"drive engagement\" and waste as much of your time as possi...",
-        "score": 0.58
+        "title": "UK arts must not be sacrificed for speculative AI gains, peers say",
+        "url": "https://www.theguardian.com/technology/2026/mar/06/uk-arts-must-not-be-sacrificed-for-speculative-ai-gains-peers-say",
+        "source": "Guardian AI",
+        "date": "Fri, 06 Mar 2026 06:00:13 GMT",
+        "summary": "Ministers urged to abandon plans to let tech firms use work of novelists, artists and writers without permissionThe UK’s creative industries must not be sacrificed in the pursuit of speculative gai...",
+        "score": 0.61
       },
       {
-        "title": "Trojans in Artificial Intelligence (TrojAI) Final Report",
-        "url": "https://arxiv.org/abs/2602.07152",
-        "source": "arXiv cs.AI",
-        "date": "Mon, 23 Feb 2026 00:00:00 -0500",
-        "summary": "arXiv:2602.07152v1 Announce Type: cross Abstract: The Intelligence Advanced Research Projects Activity (IARPA) launched the TrojAI program to confront an emerging vulnerability in modern artificial...",
-        "score": 0.56
+        "title": "Apple Music adds optional labels for AI songs and visuals",
+        "url": "https://www.theverge.com/tech/889836/apple-music-ai-transparency-tags-launch",
+        "source": "The Verge AI",
+        "date": "2026-03-05T09:00:00-05:00",
+        "summary": "Apple is asking artists and record labels on its music streaming platform to voluntarily label songs that were made using AI. The new \"Transparency Tags\" metadata system for Apple Music was announc...",
+        "score": 0.601
       }
     ],
     "Australia": [
       {
-        "title": "Grindr tests AI match-making in Australia amid dating app fatigue and safety concerns",
-        "url": "https://www.theguardian.com/australia-news/2026/feb/23/grindr-edge-ai-subscription",
+        "title": "Retailers want ‘delightfully human’ AI to do your shopping, but will the chatbots go rogue?",
+        "url": "https://www.theguardian.com/technology/2026/mar/06/retailers-want-delightfully-human-ai-to-do-your-shopping-but-will-the-chatbots-go-rogue",
         "source": "Guardian AI",
-        "date": "Mon, 23 Feb 2026 03:55:08 GMT",
-        "summary": "New subscription features on app for gay and bisexual men come with a price tag – from $109.99 a month in Australia to $349 in the USFollow our Australia news live blog for latest updatesGet our br...",
-        "score": 0.652
+        "date": "Thu, 05 Mar 2026 14:00:05 GMT",
+        "summary": "Plans for agentic shopping assistants are under way at Australia’s major companies. Guardian Australia tested the technology after a string of mishapsGet our breaking news email, free app or daily ...",
+        "score": 0.596
+      },
+      {
+        "title": "News Corp is essentially an AI ‘input company’, chief executive says, after US$150m deal with Meta",
+        "url": "https://www.theguardian.com/media/2026/mar/04/news-corp-meta-ai-deal-us50m",
+        "source": "Guardian AI",
+        "date": "Wed, 04 Mar 2026 03:12:56 GMT",
+        "summary": "Chief executive Robert Thomson says he often speaks to both OpenAI’s Sam Altman and Meta’s Mark ZuckerbergNews Corp’s global chief executive has described news organisations as a valuable “input” f...",
+        "score": 0.565
+      },
+      {
+        "title": "@unknown: ChatGPT, Replika and Claude have introduced broader content moderation measures ...",
+        "url": "https://x.com/unknown/status/2028780046656410057",
+        "source": "X/@unknown",
+        "date": "Tue Mar 03 10:30:30 +0000 2026",
+        "summary": "ChatGPT, Replika and Claude have introduced broader content moderation measures in Australia. https://t.co/MiW3xZw0Di has restricted open-ended chats to users aged 18 and above, while HammerAI has ...",
+        "score": 0.405
       }
     ]
   }

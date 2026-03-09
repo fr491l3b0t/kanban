@@ -5,7 +5,7 @@
   <link href="https://fr491l3b0t.github.io/kanban/genai-kb-editorial.html" rel="alternate" type="text/html"/>
   <link href="https://fr491l3b0t.github.io/kanban/atom.xml" rel="self" type="application/atom+xml"/>
   <id>https://fr491l3b0t.github.io/kanban/genai-kb-editorial.html</id>
-  <updated>2026-03-06T08:05:03.461Z</updated>
+  <updated>2026-03-09T06:18:02.892Z</updated>
   <author>
     <name>Raphael Ruz</name>
   </author>
@@ -84,15 +84,6 @@
     <source><title>r/LocalLLaMA</title></source>
   </entry>
   <entry>
-    <title>I trained a 1.8M params model from scratch on a total of ~40M tokens.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qym566/i_trained_a_18m_params_model_from_scratch_on_a/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1qym566/i_trained_a_18m_params_model_from_scratch_on_a/</id>
-    <updated>2026-02-07T18:57:42.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[Ok so I've been working & experimenting with my own simple architecture. I call it Strawberry. This is a very very small experimental model. It has 1.8M params and was trained on a dataset with ~9M tokens (~7M for training and ~2M for val). It model was trained on a batch size…]]></summary>
-    <source><title>r/LocalLLaMA</title></source>
-  </entry>
-  <entry>
     <title>Prompt injection is killing our self-hosted LLM deployment</title>
     <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qyljr0/prompt_injection_is_killing_our_selfhosted_llm/" rel="alternate" type="text/html"/>
     <id>https://www.reddit.com/r/LocalLLaMA/comments/1qyljr0/prompt_injection_is_killing_our_selfhosted_llm/</id>
@@ -108,15 +99,6 @@
     <updated>2026-02-07T18:21:34.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
     <summary type="html"><![CDATA[https://preview.redd.it/8fcauhhx64ig1.png?width=601&format=png&auto=webp&s=3b7a38b522ce96958f3d5df022bd77d140090255 As the title says! Enjoy &#32; submitted by &#32; /u/Educational_Rent1059 [link] &#32; [comments]]]></summary>
-    <source><title>r/LocalLLaMA</title></source>
-  </entry>
-  <entry>
-    <title>Benchmarking total wait time instead of pp/tg</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qyjm0l/benchmarking_total_wait_time_instead_of_pptg/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1qyjm0l/benchmarking_total_wait_time_instead_of_pptg/</id>
-    <updated>2026-02-07T17:22:35.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[I find pp512/tg128 numbers not very useful for judging real-world performance. I've had setups that looked acceptable on paper but turned out to be too slow in real use. So I started benchmarking total time to process realistic context sizes (1k to 64k tokens) + generation…]]></summary>
     <source><title>r/LocalLLaMA</title></source>
   </entry>
   <entry>
@@ -147,15 +129,6 @@
     <source><title>r/LocalLLaMA</title></source>
   </entry>
   <entry>
-    <title>The Technologies Changing How You’ll Watch the 2026 Winter Olympic Games</title>
-    <link href="https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/" rel="alternate" type="text/html"/>
-    <id>https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/</id>
-    <updated>2026-02-07T12:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[From drones with “first-person” visualization to real-time 360-degree replays and Olympics GPT, get ready to immerse yourself in the Winter Games in Milan and Cortina.]]></summary>
-    <source><title>Wired AI</title></source>
-  </entry>
-  <entry>
     <title>You Spent Your Whole Life Getting Good at the Wrong Thing</title>
     <link href="https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting" rel="alternate" type="text/html"/>
     <id>https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting</id>
@@ -163,33 +136,6 @@
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
     <summary type="html"><![CDATA[Notes on AI agents]]></summary>
     <source><title>The Algorithmic Bridge</title></source>
-  </entry>
-  <entry>
-    <title>Moltbook, the Social Network for AI Agents, Exposed Real Humans’ Data</title>
-    <link href="https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/" rel="alternate" type="text/html"/>
-    <id>https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/</id>
-    <updated>2026-02-07T11:30:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Plus: Apple’s Lockdown mode keeps the FBI out of a reporter’s phone, Elon Musk’s Starlink cuts off Russian forces, and more.]]></summary>
-    <source><title>Wired AI</title></source>
-  </entry>
-  <entry>
-    <title>The AI boom is causing shortages everywhere else</title>
-    <link href="https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/" rel="alternate" type="text/html"/>
-    <id>https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/</id>
-    <updated>2026-02-07T11:21:29.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Article URL: https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/ Comments URL: https://news.ycombinator.com/item?id=46922969 Points: 289 # Comments: 466]]></summary>
-    <source><title>Hacker News AI</title></source>
-  </entry>
-  <entry>
-    <title>Kimi-Linear-48B-A3B &amp; Step3.5-Flash are ready - llama.cpp</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qy5xnn/kimilinear48ba3b_step35flash_are_ready_llamacpp/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1qy5xnn/kimilinear48ba3b_step35flash_are_ready_llamacpp/</id>
-    <updated>2026-02-07T05:59:11.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Below are actual releases for both models. Anyway get latest version Step3.5-Flash https://github.com/ggml-org/llama.cpp/releases/tag/b7964 Kimi-Linear-48B-A3B https://github.com/ggml-org/llama.cpp/releases/tag/b7957 I don't see any new GGUFs( Kimi & Step-3.5 ) from our favorite…]]></summary>
-    <source><title>r/LocalLLaMA</title></source>
   </entry>
   <entry>
     <title>DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search</title>
@@ -237,21 +183,12 @@
     <source><title>arXiv cs.AI</title></source>
   </entry>
   <entry>
-    <title>HugRAG: Hierarchical Causal Knowledge Graph Design for RAG</title>
-    <link href="https://arxiv.org/abs/2602.05143" rel="alternate" type="text/html"/>
-    <id>https://arxiv.org/abs/2602.05143</id>
+    <title>Understanding LLM Evaluator Behavior: A Structured Multi-Evaluator Framework for Merchant Risk Assessment</title>
+    <link href="https://arxiv.org/abs/2602.05110" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.05110</id>
     <updated>2026-02-07T05:00:00.000Z</updated>
     <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[arXiv:2602.05143v1 Announce Type: new Abstract: Retrieval augmented generation (RAG) has enhanced large language models by enabling access to external knowledge, with graph-based RAG emerging as a powerful paradigm for structured retrieval and reasoning. However, existing…]]></summary>
-    <source><title>arXiv cs.AI</title></source>
-  </entry>
-  <entry>
-    <title>First Proof</title>
-    <link href="https://arxiv.org/abs/2602.05192" rel="alternate" type="text/html"/>
-    <id>https://arxiv.org/abs/2602.05192</id>
-    <updated>2026-02-07T05:00:00.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[arXiv:2602.05192v1 Announce Type: new Abstract: To assess the ability of current AI systems to correctly answer research-level mathematics questions, we share a set of ten math questions which have arisen naturally in the research process of the authors. The questions had not…]]></summary>
+    <summary type="html"><![CDATA[arXiv:2602.05110v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used as evaluators of reasoning quality, yet their reliability and bias in payments-risk settings remain poorly understood. We introduce a structured multi-evaluator framework for…]]></summary>
     <source><title>arXiv cs.AI</title></source>
   </entry>
   <entry>
@@ -390,13 +327,13 @@
     <source><title>Stratechery</title></source>
   </entry>
   <entry>
-    <title>Introducing Trusted Access for Cyber</title>
-    <link href="https://openai.com/index/trusted-access-for-cyber" rel="alternate" type="text/html"/>
-    <id>https://openai.com/index/trusted-access-for-cyber</id>
-    <updated>2026-02-05T10:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.]]></summary>
-    <source><title>OpenAI Blog</title></source>
+    <title>[AINews] ElevenLabs $500m Series D at $11B, Cerebras $1B Series H at $23B, Vibe Coding -&gt; Agentic Engineering</title>
+    <link href="https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at" rel="alternate" type="text/html"/>
+    <id>https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at</id>
+    <updated>2026-02-05T08:26:43.000Z</updated>
+    <category term="voice-audio" label="Voice &amp; Audio"/>
+    <summary type="html"><![CDATA[SOTA Audio models, Fast Chips, and Koding Agents are all you need.]]></summary>
+    <source><title>Latent Space</title></source>
   </entry>
   <entry>
     <title>Introducing OpenAI Frontier</title>
@@ -910,5 +847,68 @@
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
     <summary type="html"><![CDATA[I've built a custom camera control @gradio component for camera control LoRAs for image models 🎥🧊   Here's a demo of @fal's Qwen-Image-Edit-2511-Multiple-Angles-LoRA using the interactive camera component https://t.co/izwZ3DbInk]]></summary>
     <source><title>@multimodalart</title></source>
+  </entry>
+  <entry>
+    <title>this is the CLEAREST explanation of &quot;ralph wiggum&quot; on the internet and how you can use it with claud...</title>
+    <link href="https://x.com/gregisenberg/status/2009332316120993803" rel="alternate" type="text/html"/>
+    <id>https://x.com/gregisenberg/status/2009332316120993803</id>
+    <updated>2026-01-08T00:00:00.000Z</updated>
+    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
+    <summary type="html"><![CDATA[this is the CLEAREST explanation of "ralph wiggum" on the internet and how you can use it with claude code/amp/etc and have AI agents build software for you 24/7 even while you sleep https://t.co/84hvjqX3wd]]></summary>
+    <source><title>@gregisenberg</title></source>
+  </entry>
+  <entry>
+    <title>Claude Code &amp;amp; Replit Masterclass</title>
+    <link href="https://x.com/mattyp/status/2009063326366736512" rel="alternate" type="text/html"/>
+    <id>https://x.com/mattyp/status/2009063326366736512</id>
+    <updated>2026-01-08T00:00:00.000Z</updated>
+    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
+    <summary type="html"><![CDATA[Claude Code &amp; Replit Masterclass  00:00 Intro 02:22 Understanding dev vs prod 05:30 Building locally vs Replit 10:30 Cloud advantages 14:07 Parallel agents from mobile 25:15 Claude Code inside Replit  44:30 Personal notes with Obsidian 46:50 Agen...]]></summary>
+    <source><title>@mattyp</title></source>
+  </entry>
+  <entry>
+    <title>bro casually walks and explains 5 GPU performance optimization methods for LLMs. one of the most sim...</title>
+    <link href="https://x.com/Hesamation/status/2009012165123195342" rel="alternate" type="text/html"/>
+    <id>https://x.com/Hesamation/status/2009012165123195342</id>
+    <updated>2026-01-07T00:00:00.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[bro casually walks and explains 5 GPU performance optimization methods for LLMs. one of the most simple and intuitive explanations for beginners. https://t.co/42aywKmpcX]]></summary>
+    <source><title>@Hesamation</title></source>
+  </entry>
+  <entry>
+    <title>If you’ve never written code before, this is for you. I’ve just launched a course that shows you, in...</title>
+    <link href="https://x.com/AndrewYNg/status/2008956639894786402" rel="alternate" type="text/html"/>
+    <id>https://x.com/AndrewYNg/status/2008956639894786402</id>
+    <updated>2026-01-07T00:00:00.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[If you’ve never written code before, this is for you. I’ve just launched a course that shows you, in less than 30 minutes, how to describe an idea for an app and build it with AI.  In this course, you'll build a working web application - a funny inte...]]></summary>
+    <source><title>@AndrewYNg</title></source>
+  </entry>
+  <entry>
+    <title>One of the biggest opportunities available to anyone entrepreneurial right now in their company is t...</title>
+    <link href="https://x.com/levie/status/2008746912569283060" rel="alternate" type="text/html"/>
+    <id>https://x.com/levie/status/2008746912569283060</id>
+    <updated>2026-01-07T00:00:00.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[One of the biggest opportunities available to anyone entrepreneurial right now in their company is to be the person that helps their organization understand and deploy AI agents.   Deploying agents is hard. There is still a relatively narrow universe...]]></summary>
+    <source><title>@levie</title></source>
+  </entry>
+  <entry>
+    <title>I wrote about Claude Code and why non-coders should be paying attention (and playing with the system...</title>
+    <link href="https://x.com/emollick/status/2009043516643832029" rel="alternate" type="text/html"/>
+    <id>https://x.com/emollick/status/2009043516643832029</id>
+    <updated>2026-01-07T00:00:00.000Z</updated>
+    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
+    <summary type="html"><![CDATA[I wrote about Claude Code and why non-coders should be paying attention (and playing with the system) - it shows what today’s LLMs can do  Along the way I had Claude launch a business for me &amp; build a game that simulates the rise and fall of civi...]]></summary>
+    <source><title>@emollick</title></source>
+  </entry>
+  <entry>
+    <title>@deedydas You can also do this with the Glif MCP! https://t.co/Q1FGOApWui</title>
+    <link href="https://x.com/angrypenguinPNG/status/2008758989992120819" rel="alternate" type="text/html"/>
+    <id>https://x.com/angrypenguinPNG/status/2008758989992120819</id>
+    <updated>2026-01-07T00:00:00.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[@deedydas You can also do this with the Glif MCP! https://t.co/Q1FGOApWui]]></summary>
+    <source><title>@angrypenguinPNG</title></source>
   </entry>
 </feed>
