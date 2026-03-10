@@ -71,11 +71,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Running reliably since Feb 2026. 9 new RSS feeds added Feb 14."
+            "Running reliably since Feb 2026. 9 new RSS feeds added Feb 14.",
+            "Running reliably since Feb 2026. KB: 6,330 entries. Updated 2026-03-10."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-02-15T11:00:00Z",
-          "updatedBy": "fragile"
+          "updatedAt": "2026-03-10T16:08:12.083Z",
+          "updatedBy": "kanban-updater"
         },
         {
           "id": "ip-8",
@@ -88,13 +89,13 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "URL: https://ip-172-31-32-225.tailf63b2f.ts.net:8443",
             "Features: Memory timeline, Long-term memory, KB search, Tasks kanban, Projects browser, Unified search",
-            "systemd: second-brain.service"
+            "systemd: second-brain.service",
+            "Dashboard live. 6,330 KB entries, 30 memory files. Updated 2026-03-10."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-02-15T11:00:00Z",
-          "updatedBy": "fragile"
+          "updatedAt": "2026-03-10T16:08:12.083Z",
+          "updatedBy": "kanban-updater"
         },
         {
           "id": "ip-9",
@@ -119,7 +120,7 @@
         {
           "id": "ip-2",
           "title": "GenAI Knowledge Base",
-          "description": "1,886 entries from 41 RSS feeds + 12 Brave queries + Bird CLI. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
+          "description": "6,330 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
           "tags": [
             "infrastructure",
             "kb"
@@ -132,8 +133,8 @@
             "Sources config: ~/clawd/scripts/sources-config.js"
           ],
           "needsPickup": false,
-          "updatedAt": "2026-02-15T11:00:00Z",
-          "updatedBy": "fragile"
+          "updatedAt": "2026-03-10T16:08:12.083Z",
+          "updatedBy": "kanban-updater"
         }
       ]
     },
@@ -146,6 +147,178 @@
       "id": "done",
       "title": "✅ Done",
       "cards": [
+        {
+          "id": "done-build-2026-03-09",
+          "title": "Disk Space Manager & Cleanup Tool",
+          "description": "System observation — disk at 85% (2.8GB free) with 3.5GB reclaimable. Highest-urgency operational item; no pending build tasks in queue.",
+          "tags": [
+            "infrastructure",
+            "operations",
+            "content",
+            "memory"
+          ],
+          "status": "done",
+          "completedDate": "2026-03-09",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-03-03",
+          "title": "X Quality Gate Enhancement + KB Cleanup",
+          "description": "Follow-up to 2026-03-02 KB Analytics build — highest-value action from discovered insights (18.4% X spam rate, @unknown quality issues, category drift into Strategy & Opinion)",
+          "tags": [
+            "newsletter",
+            "kb",
+            "infrastructure",
+            "operations",
+            "content",
+            "voice"
+          ],
+          "status": "done",
+          "completedDate": "2026-03-03",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-03-02",
+          "title": "KB Content Analytics & Retroactive Scorer",
+          "description": "Kanban review — highest-value unblocked item: KB quality improvement (addresses 57% unscored entries, 18% X spam rate, LinkedIn source failure, category imbalance)",
+          "tags": [
+            "newsletter",
+            "kb",
+            "infrastructure",
+            "content",
+            "automation",
+            "voice"
+          ],
+          "status": "done",
+          "completedDate": "2026-03-02",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-03-01",
+          "title": "Daily Notes Auto-Populator",
+          "description": "Build queue (medium priority) — \"Daily notes auto-populator\"",
+          "tags": [
+            "newsletter",
+            "kb",
+            "infrastructure",
+            "operations",
+            "memory",
+            "automation",
+            "voice"
+          ],
+          "status": "done",
+          "completedDate": "2026-03-01",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-02-28",
+          "title": "KB Source Health Tracker + LinkedIn API Fix",
+          "description": "Kanban — KB is the priority. LinkedIn API has been silently failing for 2+ days with no alert. Built a health monitoring system that would have caught it immediately.",
+          "tags": [
+            "kb",
+            "infrastructure",
+            "operations",
+            "content"
+          ],
+          "status": "done",
+          "completedDate": "2026-02-28",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-02-27",
+          "title": "Weekly Digest Cron + Delivery Pipeline",
+          "description": "Build queue — natural follow-up to yesterday's KB Weekly Digest Generator (2026-02-26). Wires the digest into a weekly cron with Telegram delivery and GitHub Pages publishing.",
+          "tags": [
+            "newsletter",
+            "kb",
+            "infrastructure",
+            "operations",
+            "automation"
+          ],
+          "status": "done",
+          "completedDate": "2026-02-27",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-02-26",
+          "title": "KB Weekly Digest Generator",
+          "description": "Kanban backlog — \"KB is THE priority\" (Raphael directive) + Beehiiv paid newsletter pipeline + Felix feedback (\"make KB actionable, not just news\")",
+          "tags": [
+            "newsletter",
+            "kb",
+            "infrastructure",
+            "content"
+          ],
+          "status": "done",
+          "completedDate": "2026-02-26",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-02-25",
+          "title": "Public KB RSS Feeds + Social Sharing Meta",
+          "description": "KB is THE priority (Raphael directive) + Build queue item \"ship KB publicly ASAP\"",
+          "tags": [
+            "newsletter",
+            "kb",
+            "content"
+          ],
+          "status": "done",
+          "completedDate": "2026-02-25",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-02-24",
+          "title": "Automated Memory Consolidation Tool",
+          "description": "Build queue (Medium Priority) + AGENTS.md heartbeat workflow requirement",
+          "tags": [
+            "kb",
+            "infrastructure",
+            "content",
+            "memory",
+            "automation"
+          ],
+          "status": "done",
+          "completedDate": "2026-02-24",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-02-23",
+          "title": "Morning Briefing Cron + Newsletter Delivery Integration",
+          "description": "\"Wire morning briefing into dedicated 7am cron\" (High Priority)",
+          "tags": [
+            "newsletter",
+            "infrastructure",
+            "operations",
+            "content"
+          ],
+          "status": "done",
+          "completedDate": "2026-02-23",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
+          "id": "done-build-2026-02-22",
+          "title": "Newsletter Delivery Monitor",
+          "description": "`~/clawd/scripts/newsletter-delivery-monitor.js`",
+          "tags": [
+            "newsletter",
+            "infrastructure",
+            "operations"
+          ],
+          "status": "done",
+          "completedDate": "2026-02-22",
+          "updatedAt": "2026-03-10T16:08:12.073Z",
+          "updatedBy": "kanban-updater"
+        },
         {
           "id": "done-32",
           "title": "Accidental Tweet Deleted",
@@ -427,12 +600,12 @@
       ]
     }
   ],
-  "lastUpdated": "2026-02-17T12:00:00Z",
+  "lastUpdated": "2026-03-10T16:08:12.083Z",
   "stats": {
-    "totalCards": 32,
+    "totalCards": 42,
     "backlog": 3,
-    "inProgress": 5,
-    "blocked": 2,
-    "done": 22
+    "inProgress": 4,
+    "blocked": 0,
+    "done": 35
   }
 }
