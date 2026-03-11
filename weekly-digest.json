@@ -1,177 +1,172 @@
 {
-  "generatedAt": "2026-03-09T08:02:02.951Z",
+  "generatedAt": "2026-03-11T08:03:32.283Z",
   "window": {
-    "start": "2026-03-02T08:02:02.903Z",
-    "end": "2026-03-09T08:02:02.903Z",
+    "start": "2026-03-04T08:03:32.238Z",
+    "end": "2026-03-11T08:03:32.238Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 865,
+    "totalEntries": 818,
     "categoriesWithEntries": 10,
-    "totalSelected": 30
+    "totalSelected": 28
   },
   "storyOfTheWeek": {
-    "title": "NotebookLM introduces Cinematic Video Overviews — bespoke immersive videos from your sources",
-    "url": "https://x.com/NotebookLM/status/2029240601334436080",
-    "source": "@NotebookLM",
-    "date": "2026-03-04",
-    "summary": "Google NotebookLM launches Cinematic Video Overviews in NotebookLM Studio. Uses a novel combination of advanced models to create bespoke, immersive videos from user sources. Rolling out to Ultra users in English. Major evolution from audio-only overviews to full cinematic video generation.",
-    "score": 0.832
+    "title": "Improving instruction hierarchy in frontier LLMs",
+    "url": "https://openai.com/index/instruction-hierarchy-challenge",
+    "source": "OpenAI Blog",
+    "date": "Tue, 10 Mar 2026 11:00:00 GMT",
+    "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
+    "score": 0.785
   },
   "trending": [
     {
-      "tag": "github copilot",
-      "count": 5,
+      "tag": "openai gpt-5",
+      "count": 7,
       "prevCount": 1,
-      "growth": 4,
-      "relevance": 4
-    },
-    {
-      "tag": "pentagon deal",
-      "count": 5,
-      "prevCount": 1,
-      "growth": 4,
-      "relevance": 4
+      "growth": 6,
+      "relevance": 6
     },
     {
       "tag": "gpt",
-      "count": 7,
-      "prevCount": 2,
-      "growth": 2.5,
-      "relevance": 3
-    },
-    {
-      "tag": "llm agents",
-      "count": 8,
+      "count": 9,
       "prevCount": 3,
-      "growth": 1.67,
-      "relevance": 1.6666666666666667
-    },
-    {
-      "tag": "mcp",
-      "count": 15,
-      "prevCount": 8,
-      "growth": 0.88,
-      "relevance": 1.375
-    },
-    {
-      "tag": "qwen",
-      "count": 22,
-      "prevCount": 12,
-      "growth": 0.83,
-      "relevance": 1.3333333333333335
-    },
-    {
-      "tag": "alignment",
-      "count": 7,
-      "prevCount": 4,
-      "growth": 0.75,
-      "relevance": 1.25
-    },
-    {
-      "tag": "rag",
-      "count": 6,
-      "prevCount": 4,
-      "growth": 0.5,
-      "relevance": 1
-    },
-    {
-      "tag": "voice",
-      "count": 6,
-      "prevCount": 5,
-      "growth": 0.2,
-      "relevance": 0.7
+      "growth": 2,
+      "relevance": 2.5
     },
     {
       "tag": "anthropic pentagon",
       "count": 5,
+      "prevCount": 2,
+      "growth": 1.5,
+      "relevance": 1.5
+    },
+    {
+      "tag": "coding tool",
+      "count": 7,
+      "prevCount": 3,
+      "growth": 1.33,
+      "relevance": 1.3333333333333333
+    },
+    {
+      "tag": "codex",
+      "count": 11,
+      "prevCount": 7,
+      "growth": 0.57,
+      "relevance": 1.0714285714285714
+    },
+    {
+      "tag": "rag",
+      "count": 5,
+      "prevCount": 4,
+      "growth": 0.25,
+      "relevance": 0.75
+    },
+    {
+      "tag": "copilot",
+      "count": 13,
+      "prevCount": 11,
+      "growth": 0.18,
+      "relevance": 0.6818181818181819
+    },
+    {
+      "tag": "openai",
+      "count": 56,
+      "prevCount": 48,
+      "growth": 0.17,
+      "relevance": 0.6666666666666666
+    },
+    {
+      "tag": "github copilot",
+      "count": 5,
       "prevCount": 3,
       "growth": 0.67,
       "relevance": 0.6666666666666666
+    },
+    {
+      "tag": "coding tools",
+      "count": 8,
+      "prevCount": 5,
+      "growth": 0.6,
+      "relevance": 0.6
     }
   ],
   "categories": {
     "AI Coding & Agents": [
+      {
+        "title": "Perhaps not Boring Technology after all",
+        "url": "https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-03-09T13:37:45+00:00",
+        "summary": "A recurring concern I've seen regarding LLMs for programming is that they will push our technology choices towards the tools that are best represented in their training data, making it harder for n...",
+        "score": 0.765
+      },
       {
         "title": "Codex for Open Source",
         "url": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
         "source": "Simon Willison",
         "date": "2026-03-07T18:13:39+00:00",
         "summary": "Codex for Open Source Anthropic announced six months of free Claude Max for maintainers of popular open source projects (5,000+ stars or 1M+ NPM downloads) on 27th February. Now OpenAI have launche...",
-        "score": 0.77
+        "score": 0.727
       },
       {
-        "title": "Codex Security: now in research preview",
-        "url": "https://openai.com/index/codex-security-now-in-research-preview",
-        "source": "OpenAI Blog",
-        "date": "Fri, 06 Mar 2026 10:00:00 GMT",
-        "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
-        "score": 0.741
-      },
-      {
-        "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
-        "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-03-06T02:39:04+00:00",
-        "summary": "Clinejection — Compromising Cline&#x27;s Production Releases just by Prompting an Issue Triager Adnan Khan describes a devious attack chain against the Cline GitHub repository, which started with a...",
-        "score": 0.734
+        "title": "Copilot Cowork, Anthropic’s Integration, Microsoft’s New Bundle",
+        "url": "https://stratechery.com/2026/copilot-cowork-anthropics-integration-microsofts-new-bundle/",
+        "source": "Stratechery",
+        "date": "Tue, 10 Mar 2026 10:00:00 +0000",
+        "summary": "Microsoft is seeking to commoditize its complements, but Anthropic has a point of integration of their own; it's good enough that Microsoft is making a new bundle on top of it.",
+        "score": 0.724
       }
     ],
     "AI Tools & Platforms": [
       {
-        "title": "NotebookLM introduces Cinematic Video Overviews — bespoke immersive videos from your sources",
-        "url": "https://x.com/NotebookLM/status/2029240601334436080",
-        "source": "@NotebookLM",
-        "date": "2026-03-04",
-        "summary": "Google NotebookLM launches Cinematic Video Overviews in NotebookLM Studio. Uses a novel combination of advanced models to create bespoke, immersive videos from user sources. Rolling out to Ultra us...",
-        "score": 0.832,
-        "tags": [
-          "notebooklm",
-          "google",
-          "video"
-        ]
+        "title": "Production query plans without production data",
+        "url": "https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-03-09T15:05:15+00:00",
+        "summary": "Production query plans without production data Radim Marek describes the new pg_restore_relation_stats() and pg_restore_attribute_stats() functions that were introduced in PostgreSQL 18 in Septembe...",
+        "score": 0.767
       },
       {
-        "title": "How Descript enables multilingual video dubbing at scale",
-        "url": "https://openai.com/index/descript",
+        "title": "OpenAI to acquire Promptfoo",
+        "url": "https://openai.com/index/openai-to-acquire-promptfoo",
         "source": "OpenAI Blog",
-        "date": "Fri, 06 Mar 2026 10:00:00 GMT",
-        "summary": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
-        "score": 0.741
+        "date": "Mon, 09 Mar 2026 10:00:00 GMT",
+        "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
+        "score": 0.762
       },
       {
-        "title": "How Balyasny Asset Management built an AI research engine for investing",
-        "url": "https://openai.com/index/balyasny-asset-management",
-        "source": "OpenAI Blog",
-        "date": "Fri, 06 Mar 2026 07:00:00 GMT",
-        "summary": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
-        "score": 0.738
+        "title": "NVIDIA's AI Engineers: Agent Inference at Planetary Scale and \"Speed of Light\" — Nader Khalil (Brev), Kyle Kranen (Dynamo)",
+        "url": "https://www.latent.space/p/nvidia-brev-dynamo",
+        "source": "Latent Space",
+        "date": "Tue, 10 Mar 2026 06:40:22 GMT",
+        "summary": "NVIDIA welcomes AI Engineers with a special pre GTC episode!",
+        "score": 0.721
       }
     ],
     "Research & Papers": [
+      {
+        "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
+        "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+        "source": "Google AI Blog",
+        "date": "Tue, 10 Mar 2026 13:00:00 +0000",
+        "summary": "Today we announced new beta features for Gemini in Sheets to help you create, organize and edit entire sheets, from basic tasks to complex data analysis — just describe …",
+        "score": 0.726
+      },
       {
         "title": "Extending single-minus amplitudes to gravitons",
         "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
         "source": "OpenAI Blog",
         "date": "Wed, 04 Mar 2026 10:00:00 GMT",
         "summary": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
-        "score": 0.698
+        "score": 0.655
       },
       {
-        "title": "@unknown: Another 15k like post that is wrong about an AI paper’s findings.\n\nAnd the commu...",
-        "url": "https://x.com/unknown/status/2030713722365260186",
-        "source": "X/@unknown",
-        "date": "Sun Mar 08 18:34:14 +0000 2026",
-        "summary": "Another 15k like post that is wrong about an AI paper’s findings.\n\nAnd the community note undersells how wrong: the creativity paper measured 61 people (underpowered) and found NO drop in creativit...",
-        "score": 0.625
-      },
-      {
-        "title": "@unknown: One of the clearest proofs that LLMs don’t really understand what they say.\n\nWe ...",
-        "url": "https://x.com/unknown/status/2029593915674771457",
-        "source": "X/@unknown",
-        "date": "Thu Mar 05 16:24:32 +0000 2026",
-        "summary": "One of the clearest proofs that LLMs don’t really understand what they say.\n\nWe asked GPT whether it is acceptable to torture a woman to prevent a nuclear apocalypse.\nIt replied: yes.\n\nThen we aske...",
-        "score": 0.622
+        "title": "Congress must prevent AI surveillance. The Anthropic feud proves it | Ashley Gorski and Patrick Toomey",
+        "url": "https://www.theguardian.com/commentisfree/2026/mar/09/congress-government-ai-surveillance-anthropic",
+        "source": "Guardian AI",
+        "date": "Mon, 09 Mar 2026 10:00:45 GMT",
+        "summary": "The company’s clash with the Pentagon is a fight over the future of American privacyThe US military wants to use its state-of-the-art AI tools to supercharge surveillance against Americans, making ...",
+        "score": 0.634
       }
     ],
     "Strategy & Opinion": [
@@ -181,7 +176,15 @@
         "source": "X/@unknown",
         "date": "Sat Mar 07 22:44:41 +0000 2026",
         "summary": "Think AI whips up perfect viral content overnight with zero effort?\nSit down, be humble… let's debunk that myth right now.\nFirst #AIRealityCheck video is live: AI content creation – hype vs. realit...",
-        "score": 0.714
+        "score": 0.671
+      },
+      {
+        "title": "‘I wish I could push ChatGPT off a cliff’: professors scramble to save critical thinking in an age of AI",
+        "url": "https://www.theguardian.com/technology/ng-interactive/2026/mar/10/ai-impact-professors-students-learning",
+        "source": "Guardian AI",
+        "date": "Tue, 10 Mar 2026 13:00:06 GMT",
+        "summary": "As AI has upended the way students learn, academics worry about the future of the humanities - and society at largeLea Pao, a professor of literature at Stanford University, has been experimenting ...",
+        "score": 0.658
       },
       {
         "title": "Dean Ball on open models and government control",
@@ -189,67 +192,59 @@
         "source": "Interconnects AI",
         "date": "Fri, 06 Mar 2026 14:03:27 GMT",
         "summary": "Subtle precedents on the future of open models set by the unfolding Anthropic v. Department of War case.",
-        "score": 0.631
-      },
-      {
-        "title": "11 women shaping the future of robotics",
-        "url": "https://www.therobotreport.com/11-women-shaping-the-future-of-robotics/",
-        "source": "The Robot Report",
-        "date": "Thu, 05 Mar 2026 21:58:05 +0000",
-        "summary": "The IFR said it hopes the list will give women in the robotics industry more visibility and acknowledgment. The post 11 women shaping the future of robotics appeared first on The Robot Report.",
-        "score": 0.547
+        "score": 0.588
       }
     ],
     "Image & Video Generation": [
+      {
+        "title": "New ways to learn math and science in ChatGPT",
+        "url": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
+        "source": "OpenAI Blog",
+        "date": "Tue, 10 Mar 2026 10:00:00 GMT",
+        "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
+        "score": 0.784
+      },
       {
         "title": "Ask a Techspert: How does AI understand my visual searches?",
         "url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
         "source": "Google AI Blog",
         "date": "Thu, 05 Mar 2026 18:00:00 +0000",
         "summary": "Learn more about AI Mode in Search’s query fan-out method for visual search.",
-        "score": 0.667
+        "score": 0.624
       },
       {
-        "title": "@unknown: working on some AI-generated videos for a charity (source audio is their benefic...",
-        "url": "https://x.com/unknown/status/2028982477553824082",
-        "source": "X/@unknown",
-        "date": "Tue Mar 03 23:54:53 +0000 2026",
-        "summary": "working on some AI-generated videos for a charity (source audio is their beneficiaries telling their story)\n\nOne 90-second video with 22 final shots in it has required 191 assets to be generated.\n\n...",
-        "score": 0.629
-      },
-      {
-        "title": "@unknown: We are about to see a massive explosion of books turned into cinema.\n\nI used Lum...",
-        "url": "https://x.com/unknown/status/2029656107434795323",
-        "source": "X/@unknown",
-        "date": "Thu Mar 05 20:31:39 +0000 2026",
-        "summary": "We are about to see a massive explosion of books turned into cinema.\n\nI used Luma’s new agent to build this ‘Red Rising’ teaser in less than a week.\n\nPreviously, this series would've needed a $200M...",
-        "score": 0.625
+        "title": "ChatGPT can now create interactive visuals to help you understand math and science concepts",
+        "url": "https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts/",
+        "source": "TechCrunch AI",
+        "date": "Tue, 10 Mar 2026 17:51:25 +0000",
+        "summary": "On Tuesday, OpenAI introduced dynamic visual explanations, a new ChatGPT feature that allows users to see how formulas, variables, and mathematical relationships change in real time. Instead of jus...",
+        "score": 0.607
       }
     ],
     "Workflow & Automation": [
+      {
+        "title": "@unknown: 🤖 AI.  💬 Engage\n\nPrompt Engineering frustrations\n\nWhat frustrates you most abo...",
+        "url": "https://x.com/unknown/status/2031067499752501293",
+        "source": "X/@unknown",
+        "date": "Mon Mar 09 18:00:02 +0000 2026",
+        "summary": "🤖 AI.  💬 Engage\n\nPrompt Engineering frustrations\n\nWhat frustrates you most about Prompt Engineering? \n\n→ Hallucinations/inaccuracy \n→ Inconsistent outputs \n→ Cost at scale \n→ Latency \n→ The hype ...",
+        "score": 0.603
+      },
+      {
+        "title": "@unknown: Another big question: is this limited to producing materials that use Microsoft ...",
+        "url": "https://x.com/unknown/status/2031029495692505549",
+        "source": "X/@unknown",
+        "date": "Mon Mar 09 15:29:01 +0000 2026",
+        "summary": "Another big question: is this limited to producing materials that use Microsoft Apps? How does it handle the fact that so much of what makes Claude Cowork interesting is the fact that it can improv...",
+        "score": 0.6
+      },
       {
         "title": "@unknown: fashion video production is about to become unrecognizable.  \n\ni took OFF-White'...",
         "url": "https://x.com/unknown/status/2029934683316691213",
         "source": "X/@unknown",
         "date": "Fri Mar 06 14:58:37 +0000 2026",
         "summary": "fashion video production is about to become unrecognizable.  \n\ni took OFF-White's latest drop and created a full video ad from product photos.\n \nno model. no studio. no crew. no partnership.  \n\njus...",
-        "score": 0.642
-      },
-      {
-        "title": "@unknown: This isn’t a product challenge, but a model one. I’m lacking everything.\n\nWho sh...",
-        "url": "https://x.com/unknown/status/2030890322482397199",
-        "source": "X/@unknown",
-        "date": "Mon Mar 09 06:15:59 +0000 2026",
-        "summary": "This isn’t a product challenge, but a model one. I’m lacking everything.\n\nWho should have built it: Figma. They have enough data to have trained a base model, for design, just like Anthropic does C...",
-        "score": 0.635
-      },
-      {
-        "title": "The EpisTwin: A Knowledge Graph-Grounded Neuro-Symbolic Architecture for Personal AI",
-        "url": "https://arxiv.org/abs/2603.06290",
-        "source": "arXiv cs.AI",
-        "date": "Mon, 09 Mar 2026 00:00:00 -0400",
-        "summary": "arXiv:2603.06290v1 Announce Type: new Abstract: Personal Artificial Intelligence is currently hindered by the fragmentation of user data across isolated silos. While Retrieval-Augmented Generation ...",
-        "score": 0.576
+        "score": 0.599
       }
     ],
     "Industry & Business": [
@@ -259,7 +254,7 @@
         "source": "Simon Willison",
         "date": "2026-03-06T21:58:33+00:00",
         "summary": "Questions for developers: “What’s the one area you’re afraid to touch?” “When’s the last time you deployed on a Friday?” “What broke in production in the last 90 days that wasn’t caught by tests?” ...",
-        "score": 0.751
+        "score": 0.709
       },
       {
         "title": "Anthropic and the Pentagon",
@@ -267,7 +262,7 @@
         "source": "Simon Willison",
         "date": "2026-03-06T17:26:50+00:00",
         "summary": "Anthropic and the Pentagon This piece by Bruce Schneier and Nathan E. Sanders is the most thoughtful and grounded coverage I've seen of the recent and ongoing Pentagon/OpenAI/Anthropic contract sit...",
-        "score": 0.747
+        "score": 0.705
       },
       {
         "title": "The five AI value models driving business reinvention",
@@ -275,43 +270,51 @@
         "source": "OpenAI Blog",
         "date": "Thu, 05 Mar 2026 00:00:00 GMT",
         "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
-        "score": 0.71
+        "score": 0.668
       }
     ],
     "Voice & Audio": [
+      {
+        "title": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
+        "url": "https://github.com/RunanywhereAI/rcli",
+        "source": "Hacker News AI",
+        "date": "Tue, 10 Mar 2026 17:14:52 +0000",
+        "summary": "Hi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx o...",
+        "score": 0.607
+      },
+      {
+        "title": "Fish Audio Releases S2: open-source, controllable and expressive TTS model",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rptdpl/fish_audio_releases_s2_opensource_controllable/",
+        "source": "r/LocalLLaMA",
+        "date": "2026-03-10T10:34:03+00:00",
+        "summary": "Fish Audio is open-sourcing S2, where you can direct voices for maximum expressivity with precision using natural language emotion tags like [whispers sweetly] or [laughing nervously]. You can gene...",
+        "score": 0.561
+      },
       {
         "title": "I built an Android audiobook reader that runs Kokoro TTS fully offline on-device",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rop1rp/i_built_an_android_audiobook_reader_that_runs/",
         "source": "r/LocalLLaMA",
         "date": "2026-03-09T03:12:54+00:00",
         "summary": "Hi everyone, I’ve been experimenting with running neural TTS locally on Android, and I ended up building an app around it called VoiceShelf. The idea is simple: take an EPUB and turn it into an aud...",
-        "score": 0.576
-      },
-      {
-        "title": "Kokoro TTS now hooked to my Claude Code CLI",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ro7j0b/kokoro_tts_now_hooked_to_my_claude_code_cli/",
-        "source": "r/LocalLLaMA",
-        "date": "2026-03-08T15:22:23+00:00",
-        "summary": "I want to share something fun I made with Kokoro TTS while waiting for all the subagents to finish their tasks. Claude Code's notification does not make any sound on my mac, so I let it hooks itsel...",
-        "score": 0.565
-      },
-      {
-        "title": "We collected 135 phrases Whisper hallucinates during silence — here's what it says when nobody's talking and how we stopped it",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rlqfd7/we_collected_135_phrases_whisper_hallucinates/",
-        "source": "r/LocalLLaMA",
-        "date": "2026-03-05T19:04:30+00:00",
-        "summary": "we run an open-source meeting bot that transcribes calls with whisper. after a few thousand hours of production audio, we noticed something: whisper doesn't just fail silently during silence. it ge...",
-        "score": 0.504
+        "score": 0.533
       }
     ],
     "Ethics & Regulation": [
+      {
+        "title": "Improving instruction hierarchy in frontier LLMs",
+        "url": "https://openai.com/index/instruction-hierarchy-challenge",
+        "source": "OpenAI Blog",
+        "date": "Tue, 10 Mar 2026 11:00:00 GMT",
+        "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
+        "score": 0.785
+      },
       {
         "title": "Quoting Joseph Weizenbaum",
         "url": "https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything",
         "source": "Simon Willison",
         "date": "2026-03-08T14:59:48+00:00",
         "summary": "What I had not realized is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people. &mdash; Joseph Weizenbaum, creato...",
-        "score": 0.788
+        "score": 0.745
       },
       {
         "title": "Reasoning models struggle to control their chains of thought, and that’s good",
@@ -319,15 +322,7 @@
         "source": "OpenAI Blog",
         "date": "Thu, 05 Mar 2026 10:00:00 GMT",
         "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
-        "score": 0.719
-      },
-      {
-        "title": "What does the US military’s feud with Anthropic mean for AI used in war?",
-        "url": "https://www.theguardian.com/technology/2026/mar/07/anthropic-claude-ai-pentagon-us-military",
-        "source": "Guardian AI",
-        "date": "Sat, 07 Mar 2026 14:00:53 GMT",
-        "summary": "Tech policy professor who served in US air force explains how a feud between an AI startup and the US military illuminates ethical fault linesAnthropic’s ongoing fight with the Department of Defens...",
-        "score": 0.637
+        "score": 0.676
       }
     ],
     "Australia": [
@@ -337,23 +332,7 @@
         "source": "Guardian AI",
         "date": "Thu, 05 Mar 2026 14:00:05 GMT",
         "summary": "Plans for agentic shopping assistants are under way at Australia’s major companies. Guardian Australia tested the technology after a string of mishapsGet our breaking news email, free app or daily ...",
-        "score": 0.595
-      },
-      {
-        "title": "News Corp is essentially an AI ‘input company’, chief executive says, after US$150m deal with Meta",
-        "url": "https://www.theguardian.com/media/2026/mar/04/news-corp-meta-ai-deal-us50m",
-        "source": "Guardian AI",
-        "date": "Wed, 04 Mar 2026 03:12:56 GMT",
-        "summary": "Chief executive Robert Thomson says he often speaks to both OpenAI’s Sam Altman and Meta’s Mark ZuckerbergNews Corp’s global chief executive has described news organisations as a valuable “input” f...",
-        "score": 0.564
-      },
-      {
-        "title": "@unknown: ChatGPT, Replika and Claude have introduced broader content moderation measures ...",
-        "url": "https://x.com/unknown/status/2028780046656410057",
-        "source": "X/@unknown",
-        "date": "Tue Mar 03 10:30:30 +0000 2026",
-        "summary": "ChatGPT, Replika and Claude have introduced broader content moderation measures in Australia. https://t.co/MiW3xZw0Di has restricted open-ended chats to users aged 18 and above, while HammerAI has ...",
-        "score": 0.404
+        "score": 0.552
       }
     ]
   }

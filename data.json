@@ -72,10 +72,11 @@
           "status": "in-progress",
           "notes": [
             "Running reliably since Feb 2026. 9 new RSS feeds added Feb 14.",
-            "Running reliably since Feb 2026. KB: 6,330 entries. Updated 2026-03-10."
+            "Running reliably since Feb 2026. KB: 6,330 entries. Updated 2026-03-10.",
+            "Running reliably since Feb 2026. KB: 6,538 entries. Updated 2026-03-11."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-10T16:08:12.083Z",
+          "updatedAt": "2026-03-11T16:04:48.256Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -89,12 +90,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Features: Memory timeline, Long-term memory, KB search, Tasks kanban, Projects browser, Unified search",
             "systemd: second-brain.service",
-            "Dashboard live. 6,330 KB entries, 30 memory files. Updated 2026-03-10."
+            "Dashboard live. 6,330 KB entries, 30 memory files. Updated 2026-03-10.",
+            "Dashboard live. 6,538 KB entries, 30 memory files. Updated 2026-03-11."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-10T16:08:12.083Z",
+          "updatedAt": "2026-03-11T16:04:48.256Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -120,7 +121,7 @@
         {
           "id": "ip-2",
           "title": "GenAI Knowledge Base",
-          "description": "6,330 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
+          "description": "6,538 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
           "tags": [
             "infrastructure",
             "kb"
@@ -133,7 +134,7 @@
             "Sources config: ~/clawd/scripts/sources-config.js"
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-10T16:08:12.083Z",
+          "updatedAt": "2026-03-11T16:04:48.256Z",
           "updatedBy": "kanban-updater"
         }
       ]
@@ -600,7 +601,7 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-10T16:08:12.083Z",
+  "lastUpdated": "2026-03-11T16:04:48.256Z",
   "stats": {
     "totalCards": 42,
     "backlog": 3,

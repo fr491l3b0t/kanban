@@ -153,7 +153,7 @@ app.post('/api/ai-search', requireAuth, rateLimit(10), async (req, res) => {
         messages: [
           {
             role: 'system',
-            content: `You are a GenAI knowledge base assistant. Answer the user's question using ONLY the provided KB entries. Be concise, direct, and cite entry numbers [1], [2] etc. If no entries are relevant, say so. Format with markdown.`
+            content: `You are a GenAI knowledge base search assistant. Summarise what the KB knows about the user's query. Be helpful — if entries are related to the query topic (even if not an exact match), surface them. Cite entry numbers [1], [2] etc. Be concise and direct. Format with markdown. Never say "the knowledge base does not contain" if there ARE matching entries — just summarise what's there.`
           },
           {
             role: 'user',
@@ -184,6 +184,6 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, '127.0.0.1', () => {
   console.log(`Kanban API server running on port ${PORT}`);
 });
