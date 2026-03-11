@@ -149,6 +149,21 @@
       "title": "✅ Done",
       "cards": [
         {
+          "id": "done-build-2026-03-11",
+          "title": "KB Quality Backfill + Post-Build Pipeline",
+          "description": "2,934 KB entries (44.9%) had no quality score. Heuristic backfill scored all entries (0→100%). Built post-build pipeline script for automated kanban sync, KB scoring, source health, and git push.",
+          "tags": [
+            "kb",
+            "infrastructure",
+            "automation",
+            "operations"
+          ],
+          "status": "done",
+          "completedDate": "2026-03-11",
+          "updatedAt": "2026-03-11T16:06:10.350Z",
+          "updatedBy": "kanban-updater"
+        },
+        {
           "id": "done-build-2026-03-09",
           "title": "Disk Space Manager & Cleanup Tool",
           "description": "System observation — disk at 85% (2.8GB free) with 3.5GB reclaimable. Highest-urgency operational item; no pending build tasks in queue.",
@@ -601,12 +616,12 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-11T16:04:48.256Z",
+  "lastUpdated": "2026-03-11T16:06:10.350Z",
   "stats": {
-    "totalCards": 42,
+    "totalCards": 43,
     "backlog": 3,
     "inProgress": 4,
     "blocked": 0,
-    "done": 35
+    "done": 36
   }
 }
