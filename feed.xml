@@ -6,7 +6,7 @@
     <description>Curated daily intelligence on generative AI: tools, research, strategy, industry moves. 4,600+ entries from 41 RSS feeds, Reddit, X bookmarks, and Brave Search.</description>
     <language>en-AU</language>
     <copyright>© 2026 Raphael Ruz</copyright>
-    <lastBuildDate>Wed, 11 Mar 2026 08:03:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 08:04:33 GMT</lastBuildDate>
     <generator>Product Intelligence KB Feed Builder</generator>
     <atom:link href="https://fr491l3b0t.github.io/kanban/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -15,969 +15,955 @@
       <link>https://fr491l3b0t.github.io/kanban/genai-kb-editorial.html</link>
     </image>
     <item>
-      <title>Workday CEO Eschenbach departs, with co-founder Aneel Bhusri returning as CEO</title>
-      <link>https://techcrunch.com/2026/02/09/workday-ceo-eschenbach-departs-with-co-founder-aneel-bhusri-returning-as-ceo/</link>
-      <description><![CDATA[Bhusri said in a statement that the company's next chapter would be focused on AI.]]></description>
-      <pubDate>Mon, 09 Feb 2026 18:15:08 GMT</pubDate>
+      <title>@unknown: Anthropic&apos;in Claude&apos;u, Pentagon krizi sonrasında App Store&apos;da zirveye çıktı http...</title>
+      <link>https://x.com/unknown/status/2028379913468719246</link>
+      <description><![CDATA[Anthropic'in Claude'u, Pentagon krizi sonrasında App Store'da zirveye çıktı https://t.co/Qw1Ig5940K https://t.co/k01PQ1kS0P]]></description>
+      <pubDate>Mon, 02 Mar 2026 08:00:31 GMT</pubDate>
       <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/09/workday-ceo-eschenbach-departs-with-co-founder-aneel-bhusri-returning-as-ceo/</guid>
-      <source url="https://techcrunch.com/2026/02/09/workday-ceo-eschenbach-departs-with-co-founder-aneel-bhusri-returning-as-ceo/">TechCrunch AI</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028379913468719246</guid>
+      <source url="https://x.com/unknown/status/2028379913468719246">X/@unknown</source>
     </item>
     <item>
-      <title>[D] Rules for High-Perfomamce Embedding model training?</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1r0a6ju/d_rules_for_highperfomamce_embedding_model/</link>
-      <description><![CDATA[Hi, I'm thinking about renting b200 with spot prices and learning Qwen3-embedding for my native language (Polish). Now I'm in the process of data gathering but also meanwhile I started thinking how to utilize the b200 with such a small model. My idea is that it is cheaper to use…]]></description>
-      <pubDate>Mon, 09 Feb 2026 17:18:25 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1r0a6ju/d_rules_for_highperfomamce_embedding_model/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1r0a6ju/d_rules_for_highperfomamce_embedding_model/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>Siemens CEO Roland Busch’s mission to automate everything</title>
-      <link>https://www.theverge.com/podcast/875233/siemens-ceo-roland-busch-ai-automation-digital-twins-nato-tariffs</link>
-      <description><![CDATA[Today, I’m talking with Roland Busch, who is the CEO of Siemens. Siemens is one of those absolutely giant, extremely important, but fairly opaque companies we love to dig into on Decoder. At a very basic, reductive level, Siemens makes the hardware and software that allow other…]]></description>
-      <pubDate>Mon, 09 Feb 2026 15:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.theverge.com/podcast/875233/siemens-ceo-roland-busch-ai-automation-digital-twins-nato-tariffs</guid>
-      <source url="https://www.theverge.com/podcast/875233/siemens-ceo-roland-busch-ai-automation-digital-twins-nato-tariffs">The Verge AI</source>
-    </item>
-    <item>
-      <title>AI Doesn&apos;t Reduce Work–It Intensifies It</title>
-      <link>https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it</link>
-      <description><![CDATA[Article URL: https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it Comments URL: https://news.ycombinator.com/item?id=46945755 Points: 173 # Comments: 142]]></description>
-      <pubDate>Mon, 09 Feb 2026 14:44:30 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it</guid>
-      <source url="https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it">Hacker News AI</source>
-    </item>
-    <item>
-      <title>[D] Subreddit on Scientific Deep Learning</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1r04kf5/d_subreddit_on_scientific_deep_learning/</link>
-      <description><![CDATA[[Hope this post is okay, mods, trying to create a related subreddit for this niche, please remove if not] Hi all, I've recently created a subreddit focused on posts about scientific ML research and discussion. r/ScientificDL is intended to concentrate on posts surrounding this…]]></description>
-      <pubDate>Mon, 09 Feb 2026 13:44:37 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1r04kf5/d_subreddit_on_scientific_deep_learning/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1r04kf5/d_subreddit_on_scientific_deep_learning/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>The Download: what Moltbook tells us about AI hype, and the rise and rise of AI therapy</title>
-      <link>https://www.technologyreview.com/2026/02/09/1132498/the-download-what-moltbook-tells-us-about-ai-hype-and-the-rise-and-rise-of-ai-therapy/</link>
-      <description><![CDATA[This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Moltbook was peak AI theater For a few days recently, the hottest new hangout on the internet was a vibe-coded Reddit clone…]]></description>
-      <pubDate>Mon, 09 Feb 2026 13:10:00 GMT</pubDate>
-      <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/02/09/1132498/the-download-what-moltbook-tells-us-about-ai-hype-and-the-rise-and-rise-of-ai-therapy/</guid>
-      <source url="https://www.technologyreview.com/2026/02/09/1132498/the-download-what-moltbook-tells-us-about-ai-hype-and-the-rise-and-rise-of-ai-therapy/">MIT Tech Review AI</source>
-    </item>
-    <item>
-      <title>[P] A Python library processing geospatial data for GNNs with PyTorch Geometric</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1r02y6y/p_a_python_library_processing_geospatial_data_for/</link>
-      <description><![CDATA[I'd like to introduce City2Graph, a Python library that converts geospatial data into tensors for GNNs in PyTorch Geometric. This library can construct heterogeneous graphs from multiple data domains, such as Morphology: Relations between streets, buildings, and parcels…]]></description>
-      <pubDate>Mon, 09 Feb 2026 12:30:34 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1r02y6y/p_a_python_library_processing_geospatial_data_for/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1r02y6y/p_a_python_library_processing_geospatial_data_for/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>No Company Has Admitted to Replacing Workers With AI in New York</title>
-      <link>https://www.wired.com/story/no-company-has-admitted-to-replacing-workers-with-ai-in-new-york/</link>
-      <description><![CDATA[New York state has required companies to disclose if “technological innovation or automation” was the cause of job loss for nearly a year. So far, none has.]]></description>
-      <pubDate>Mon, 09 Feb 2026 12:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.wired.com/story/no-company-has-admitted-to-replacing-workers-with-ai-in-new-york/</guid>
-      <source url="https://www.wired.com/story/no-company-has-admitted-to-replacing-workers-with-ai-in-new-york/">Wired AI</source>
-    </item>
-    <item>
-      <title>AI Is Here to Replace Nuclear Treaties. Scared Yet?</title>
-      <link>https://www.wired.com/story/satellites-ai-nuclear-treaties/</link>
-      <description><![CDATA[The last major nuclear arms treaty between the US and Russia just expired. Some experts believe a combination of satellite surveillance, AI, and human reviewers can take its place. Others, not so much.]]></description>
-      <pubDate>Mon, 09 Feb 2026 11:30:00 GMT</pubDate>
-      <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://www.wired.com/story/satellites-ai-nuclear-treaties/</guid>
-      <source url="https://www.wired.com/story/satellites-ai-nuclear-treaties/">Wired AI</source>
-    </item>
-    <item>
-      <title>[D] Advice on journal for work between ML, data infrastructures, and robotics</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1qzz3x3/d_advice_on_journal_for_work_between_ml_data/</link>
-      <description><![CDATA[Hi r/MachineLearning, I’m looking for guidance on a journal submission for a paper that sits between disciplinary lines: ML, robotics, and research data infrastructures. I’d really appreciate your perspective. Context: We recently received an editorial reject from an IEEE…]]></description>
-      <pubDate>Mon, 09 Feb 2026 08:44:56 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1qzz3x3/d_advice_on_journal_for_work_between_ml_data/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1qzz3x3/d_advice_on_journal_for_work_between_ml_data/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs</title>
-      <link>https://arxiv.org/abs/2602.06268</link>
-      <description><![CDATA[arXiv:2602.06268v1 Announce Type: new Abstract: Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems are increasingly integrated into clinical workflows; however, prompt injection attacks can steer these systems toward clinically unsafe or misleading…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06268</guid>
-      <source url="https://arxiv.org/abs/2602.06268">arXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Do LLMs Act Like Rational Agents? Measuring Belief Coherence in Probabilistic Decision Making</title>
-      <link>https://arxiv.org/abs/2602.06286</link>
-      <description><![CDATA[arXiv:2602.06286v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as agents in high-stakes domains where optimal actions depend on both uncertainty about the world and consideration of utilities of different outcomes, yet their decision logic…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06286</guid>
-      <source url="https://arxiv.org/abs/2602.06286">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>AgentCPM-Explore: Realizing Long-Horizon Deep Exploration for Edge-Scale Agents</title>
-      <link>https://arxiv.org/abs/2602.06485</link>
-      <description><![CDATA[arXiv:2602.06485v1 Announce Type: new Abstract: While Large Language Model (LLM)-based agents have shown remarkable potential for solving complex tasks, existing systems remain heavily reliant on large-scale models, leaving the capabilities of edge-scale models largely…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06485</guid>
-      <source url="https://arxiv.org/abs/2602.06485">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>JADE: Expert-Grounded Dynamic Evaluation for Open-Ended Professional Tasks</title>
-      <link>https://arxiv.org/abs/2602.06486</link>
-      <description><![CDATA[arXiv:2602.06486v1 Announce Type: new Abstract: Evaluating agentic AI on open-ended professional tasks faces a fundamental dilemma between rigor and flexibility. Static rubrics provide rigorous, reproducible assessment but fail to accommodate diverse valid response strategies,…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06486</guid>
-      <source url="https://arxiv.org/abs/2602.06486">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Recontextualizing Famous Quotes for Brand Slogan Generation</title>
-      <link>https://arxiv.org/abs/2602.06049</link>
-      <description><![CDATA[arXiv:2602.06049v1 Announce Type: new Abstract: Slogans are concise and memorable catchphrases that play a crucial role in advertising by conveying brand identity and shaping public perception. However, advertising fatigue reduces the effectiveness of repeated slogans, creating…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06049</guid>
-      <source url="https://arxiv.org/abs/2602.06049">arXiv cs.CL</source>
-    </item>
-    <item>
-      <title>VowelPrompt: Hearing Speech Emotions from Text via Vowel-level Prosodic Augmentation</title>
-      <link>https://arxiv.org/abs/2602.06270</link>
-      <description><![CDATA[arXiv:2602.06270v1 Announce Type: new Abstract: Emotion recognition in speech presents a complex multimodal challenge, requiring comprehension of both linguistic content and vocal expressivity, particularly prosodic features such as fundamental frequency, intensity, and temporal…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Voice &amp; Audio</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06270</guid>
-      <source url="https://arxiv.org/abs/2602.06270">arXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2602.06107</link>
-      <description><![CDATA[arXiv:2602.06107v1 Announce Type: new Abstract: Reinforcement learning (RL) for large language models (LLMs) remains expensive, particularly because the rollout is expensive. Decoupling rollout generation from policy optimization (e.g., leveraging a more efficient model to…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06107</guid>
-      <source url="https://arxiv.org/abs/2602.06107">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Large Language Model Reasoning Failures</title>
-      <link>https://arxiv.org/abs/2602.06176</link>
-      <description><![CDATA[arXiv:2602.06176v1 Announce Type: new Abstract: Large Language Models (LLMs) have exhibited remarkable reasoning capabilities, achieving impressive results across a wide range of tasks. Despite these advances, significant reasoning failures persist, occurring even in seemingly…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06176</guid>
-      <source url="https://arxiv.org/abs/2602.06176">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion</title>
-      <link>https://arxiv.org/abs/2602.06351</link>
-      <description><![CDATA[arXiv:2602.06351v1 Announce Type: new Abstract: GUI grounding maps natural language instructions to the correct interface elements, serving as the perception foundation for GUI agents. Existing approaches predominantly rely on fine-tuning multimodal large language models (MLLMs)…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06351</guid>
-      <source url="https://arxiv.org/abs/2602.06351">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Intrinsic Stability Limits of Autoregressive Reasoning: Structural Consequences for Long-Horizon Execution</title>
-      <link>https://arxiv.org/abs/2602.06413</link>
-      <description><![CDATA[arXiv:2602.06413v1 Announce Type: new Abstract: Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their performance often deteriorates sharply in long-horizon tasks, exhibiting systematic breakdown beyond certain scales. Conventional explanations…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06413</guid>
-      <source url="https://arxiv.org/abs/2602.06413">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>HyPER: Bridging Exploration and Exploitation for Scalable LLM Reasoning with Hypothesis Path Expansion and Reduction</title>
-      <link>https://arxiv.org/abs/2602.06527</link>
-      <description><![CDATA[arXiv:2602.06527v1 Announce Type: new Abstract: Scaling test-time compute with multi-path chain-of-thought improves reasoning accuracy, but its effectiveness depends critically on the exploration-exploitation trade-off. Existing approaches address this trade-off in rigid ways:…]]></description>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.06527</guid>
-      <source url="https://arxiv.org/abs/2602.06527">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>OpenAI’s supposedly ‘leaked’ Super Bowl ad with ear buds and a shiny orb was a hoax</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/875615/openai-super-bowl-ai-hardware-leak-hoax-fake</link>
-      <description><![CDATA[As if OpenAI didn't have enough drama around the Super Bowl and advertising, as the game wound down, word spread of a "leaked" ad that actually wasn't leaked at all; it was just a fake. Screenshots of a now-deleted Reddit thread told the tale of a frustrated employee who, while…]]></description>
-      <pubDate>Mon, 09 Feb 2026 04:54:36 GMT</pubDate>
+      <title>@unknown: I just enrolled into claude FREE courses. will be learning alot about Ai for fre...</title>
+      <link>https://x.com/unknown/status/2028379727363223829</link>
+      <description><![CDATA[I just enrolled into claude FREE courses. will be learning alot about Ai for free here.
+
+Starting today, and it comes with a certificate at the end.
+
+Enroll now: https://t.co/RBCaXmpioJ
+
+it's best to join me in this journey since we are in bear market. Good luck..…]]></description>
+      <pubDate>Mon, 02 Mar 2026 07:59:47 GMT</pubDate>
       <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/875615/openai-super-bowl-ai-hardware-leak-hoax-fake</guid>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/875615/openai-super-bowl-ai-hardware-leak-hoax-fake">The Verge AI</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028379727363223829</guid>
+      <source url="https://x.com/unknown/status/2028379727363223829">X/@unknown</source>
     </item>
     <item>
-      <title>StepFun is preparing a &quot;bigger surprise&quot; for Chinese New Year, and will also release Step-3.5-Flash-Base.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qzsbn9/stepfun_is_preparing_a_bigger_surprise_for/</link>
-      <description><![CDATA[https://huggingface.co/stepfun-ai/Step-3.5-Flash/discussions/21#698941a597b7256a083f94b6 They also mentioned discussions with Nvidia regarding NVFP4 and responded to questions about excessive token usage by stating they are working on it. &#32; submitted by &#32; /u/MadPelmewka…]]></description>
-      <pubDate>Mon, 09 Feb 2026 02:40:54 GMT</pubDate>
+      <title>@unknown: Anthropic claude has surged past ChatGPT on the App Store charts, marking one of...</title>
+      <link>https://x.com/unknown/status/2028379535620604370</link>
+      <description><![CDATA[Anthropic claude has surged past ChatGPT on the App Store charts, marking one of the most dramatic shakeups yet in the consumer AI race. Not because of new features. Because people found out openAI is deploying AI through Pentagon classified networks]]></description>
+      <pubDate>Mon, 02 Mar 2026 07:59:01 GMT</pubDate>
       <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qzsbn9/stepfun_is_preparing_a_bigger_surprise_for/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qzsbn9/stepfun_is_preparing_a_bigger_surprise_for/">r/LocalLLaMA</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028379535620604370</guid>
+      <source url="https://x.com/unknown/status/2028379535620604370">X/@unknown</source>
     </item>
     <item>
-      <title>From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads</title>
-      <link>https://techcrunch.com/2026/02/08/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/</link>
-      <description><![CDATA[From the first AI-generated Big Game ad courtesy of Svedka to Anthropic's beef with OpenAI, here are the biggest ads from Super Bowl LX.]]></description>
-      <pubDate>Sun, 08 Feb 2026 16:18:16 GMT</pubDate>
+      <title>@unknown: literally claude energy is all full rage as soon as it&apos;s finding out being used ...</title>
+      <link>https://x.com/unknown/status/2028378364743168072</link>
+      <description><![CDATA[literally claude energy is all full rage as soon as it's finding out being used for war lol https://t.co/r949305fOm]]></description>
+      <pubDate>Mon, 02 Mar 2026 07:54:22 GMT</pubDate>
       <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/08/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/</guid>
-      <source url="https://techcrunch.com/2026/02/08/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/">TechCrunch AI</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028378364743168072</guid>
+      <source url="https://x.com/unknown/status/2028378364743168072">X/@unknown</source>
     </item>
     <item>
-      <title>Verity,a Perplexity style AI search and answer engine that runs fully locally on AI PCs with CPU,GPU,NPU acceleration</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qz8clh/veritya_perplexity_style_ai_search_and_answer/</link>
-      <description><![CDATA[Introducing my new App - Verity,a Perplexity style AI search and answer engine that runs fully locally on AI PCs with CPU,GPU,NPU acceleration. You can run it as a CLI or a Web UI, depending on your workflow. Developed and tested on Intel Core Ultra Series 1, leveraging…]]></description>
-      <pubDate>Sun, 08 Feb 2026 13:01:54 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qz8clh/veritya_perplexity_style_ai_search_and_answer/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qz8clh/veritya_perplexity_style_ai_search_and_answer/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>@unknown: Core pieces they&apos;re shipping:
+      <title>@unknown: Introducing bi16z, the easiest way to build and deploy AI agents on BNB Chain, p...</title>
+      <link>https://x.com/unknown/status/2028356280289575351</link>
+      <description><![CDATA[Introducing bi16z, the easiest way to build and deploy AI agents on BNB Chain, powered by @elizaOS.
 
-PROOF: framework, the backbone for verifiable age...</title>
-      <link>https://x.com/unknown/status/2020433755597570388</link>
-      <description><![CDATA[Core pieces they're shipping:
+We built the first no-code visual builder on top of ElizaOS because the framework already has 250+ plugins, MCP support, multi-agent architecture, and persistent memory baked in.…]]></description>
+      <pubDate>Mon, 02 Mar 2026 06:26:36 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028356280289575351</guid>
+      <source url="https://x.com/unknown/status/2028356280289575351">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: 🤖 AI TOOLS NOW:
 
-PROOF: framework, the backbone for verifiable agent logic, onchain ownership.
+- Claude Code: Baca entire codebase, edit multiple files
+- Cur...</title>
+      <link>https://x.com/unknown/status/2028334533595283467</link>
+      <description><![CDATA[🤖 AI TOOLS NOW:
 
-Model Context Protocol (MCP): plug-and-play standard (like "USB-C for agents") so any AI can connect to DeFi, data, virtual worlds, etc. https://t.co/8463x3RJW5]]></description>
-      <pubDate>Sun, 08 Feb 2026 09:45:19 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2020433755597570388</guid>
-      <source url="https://x.com/unknown/status/2020433755597570388">X/@unknown</source>
-    </item>
-    <item>
-      <title>PR opened for Qwen3.5!!</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qz23pp/pr_opened_for_qwen35/</link>
-      <description><![CDATA[https://github.com/huggingface/transformers/pull/43830/ Looking at the code at src/transformers/models/qwen3_5/modeling_qwen3_5.py, it looks like Qwen3.5 series will have VLMs right off the bat! &#32; submitted by &#32; /u/Mysterious_Finish543 [link] &#32; [comments]]]></description>
-      <pubDate>Sun, 08 Feb 2026 06:57:13 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qz23pp/pr_opened_for_qwen35/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qz23pp/pr_opened_for_qwen35/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>[N] Benchmarking GGUF Quantization for LLaMA-3.2-1B: 68% Size Reduction with &lt;0.4pp Accuracy Loss on SNIPS</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1qz1kmq/n_benchmarking_gguf_quantization_for_llama321b_68/</link>
-      <description><![CDATA[&#32; submitted by &#32; /u/mr_ocotopus [link] &#32; [comments]]]></description>
-      <pubDate>Sun, 08 Feb 2026 06:26:34 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1qz1kmq/n_benchmarking_gguf_quantization_for_llama321b_68/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1qz1kmq/n_benchmarking_gguf_quantization_for_llama321b_68/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>[R] Identifying the &quot;Complexity Kink&quot;: An Econometric Analysis of AI Marginal Productivity Collapse in Multi-Asset Tasks</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1qyxn1q/r_identifying_the_complexity_kink_an_econometric/</link>
-      <description><![CDATA[I’ve been working on quantifying the structural limits of LLM/Agentic framework productivity beyond standard benchmarks. Using the Scale AI Remote Labor Index (RLI) and market microdata, I modeled the interaction between inference density and coordination cost. The goal was to…]]></description>
-      <pubDate>Sun, 08 Feb 2026 03:04:29 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1qyxn1q/r_identifying_the_complexity_kink_an_econometric/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1qyxn1q/r_identifying_the_complexity_kink_an_econometric/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>Quoting Thomas Ptacek</title>
-      <link>https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything</link>
-      <description><![CDATA[People on the orange site are laughing at this, assuming it's just an ad and that there's nothing to it. Vulnerability researchers I talk to do not think this is a joke. As an erstwhile vuln researcher myself: do not bet against LLMs on this. Axios: Anthropic's Claude Opus 4.6…]]></description>
-      <pubDate>Sun, 08 Feb 2026 02:25:53 GMT</pubDate>
-      <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything</guid>
-      <source url="https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything">Simon Willison</source>
-    </item>
-    <item>
-      <title>Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory</title>
-      <link>https://github.com/localgpt-app/localgpt</link>
-      <description><![CDATA[I built LocalGPT over 4 nights as a Rust reimagining of the OpenClaw assistant pattern (markdown-based persistent memory, autonomous heartbeat tasks, skills system).It compiles to a single ~27MB binary — no Node.js, Docker, or Python required.Key features:- Persistent memory via…]]></description>
-      <pubDate>Sun, 08 Feb 2026 01:26:38 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://github.com/localgpt-app/localgpt</guid>
-      <source url="https://github.com/localgpt-app/localgpt">Hacker News AI</source>
-    </item>
-    <item>
-      <title>[R] Guidance for first time submission through OpenReview</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1qytpkl/r_guidance_for_first_time_submission_through/</link>
-      <description><![CDATA[Hello everyone! It is my first time submitting a paper through KDD and Open Review and was wondering if I have completed the entire process as mentioned on the KDD website. I have submitted the full PDF through Open Review and it hasn't yet asked about who is going to serve as…]]></description>
-      <pubDate>Sun, 08 Feb 2026 00:04:50 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1qytpkl/r_guidance_for_first_time_submission_through/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1qytpkl/r_guidance_for_first_time_submission_through/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>@frankdegods AI thread (shared via Telegram)</title>
-      <link>https://x.com/frankdegods/status/2020363804014493920</link>
-      <description><![CDATA[Frank DeGods (Rohun Vora) - NFT founder pivoting to AI agents. Shared by Raphael.]]></description>
-      <pubDate>Sun, 08 Feb 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://x.com/frankdegods/status/2020363804014493920</guid>
-      <source url="https://x.com/frankdegods/status/2020363804014493920">telegram-share</source>
-    </item>
-    <item>
-      <title>bird CLI taken down - X pushing pay-per-use API</title>
-      <link>https://x.com/steipete/status/2020295295406358798</link>
-      <description></description>
-      <pubDate>Sun, 08 Feb 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://x.com/steipete/status/2020295295406358798</guid>
-      <source url="https://x.com/steipete/status/2020295295406358798">telegram-share</source>
-    </item>
-    <item>
-      <title>Vouch</title>
-      <link>https://simonwillison.net/2026/Feb/7/vouch/#atom-everything</link>
-      <description><![CDATA[Vouch Mitchell Hashimoto's new system to help address the deluge of worthless AI-generated PRs faced by open source projects now that the friction involved in contributing has dropped so low. He says: The idea is simple: Unvouched users can't contribute to your projects. Very…]]></description>
-      <pubDate>Sat, 07 Feb 2026 23:57:57 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/7/vouch/#atom-everything</guid>
-      <source url="https://simonwillison.net/2026/Feb/7/vouch/#atom-everything">Simon Willison</source>
-    </item>
-    <item>
-      <title>Claude: Speed up responses with fast mode</title>
-      <link>https://simonwillison.net/2026/Feb/7/claude-fast-mode/#atom-everything</link>
-      <description><![CDATA[Claude: Speed up responses with fast mode New "research preview" from Anthropic today: you can now access a faster version of their frontier model Claude Opus 4.6 by typing /fast in Claude Code... but at a cost that's 6x the normal price. Opus is usually $5/million input and…]]></description>
-      <pubDate>Sat, 07 Feb 2026 23:10:33 GMT</pubDate>
+- Claude Code: Baca entire codebase, edit multiple files
+- Cursor: Cmd+K → AI edit langsung
+- GitHub Copilot: Autocomplete yang bener-bener ngerti
+- ChatGPT: Debug + explain + refactor
+
+Efficiency boost? 5-10x.
+Tapi apakah kita masih "coding"?]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:12 GMT</pubDate>
       <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/7/claude-fast-mode/#atom-everything</guid>
-      <source url="https://simonwillison.net/2026/Feb/7/claude-fast-mode/#atom-everything">Simon Willison</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028334533595283467</guid>
+      <source url="https://x.com/unknown/status/2028334533595283467">X/@unknown</source>
     </item>
     <item>
-      <title>Experts Have World Models. LLMs Have Word Models.</title>
-      <link>https://www.latent.space/p/adversarial-reasoning</link>
-      <description><![CDATA[Most expert work isn&#8217;t &#8220;produce a probable artifact&#8221;; it's "choose a good move considering other agents, guessing hidden state". LLMs default to single-shot artifacts and need World Models to progress]]></description>
-      <pubDate>Sat, 07 Feb 2026 22:11:25 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.latent.space/p/adversarial-reasoning</guid>
-      <source url="https://www.latent.space/p/adversarial-reasoning">Latent Space</source>
-    </item>
-    <item>
-      <title>Quoting David Crawshaw</title>
-      <link>https://simonwillison.net/2026/Feb/7/david-crawshaw/#atom-everything</link>
-      <description><![CDATA[I am having more fun programming than I ever have, because so many more of the programs I wish I could find the time to write actually exist. I wish I could share this joy with the people who are fearful about the changes agents are bringing. The fear itself I understand, I have…]]></description>
-      <pubDate>Sat, 07 Feb 2026 21:31:44 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/7/david-crawshaw/#atom-everything</guid>
-      <source url="https://simonwillison.net/2026/Feb/7/david-crawshaw/#atom-everything">Simon Willison</source>
-    </item>
-    <item>
-      <title>Full Claude Opus 4.6 System Prompt for your pleasure</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qynxuw/full_claude_opus_46_system_prompt_for_your/</link>
-      <description><![CDATA[&#32; submitted by &#32; /u/frubberism [link] &#32; [comments]]]></description>
-      <pubDate>Sat, 07 Feb 2026 20:07:42 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qynxuw/full_claude_opus_46_system_prompt_for_your/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qynxuw/full_claude_opus_46_system_prompt_for_your/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>Prompt injection is killing our self-hosted LLM deployment</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qyljr0/prompt_injection_is_killing_our_selfhosted_llm/</link>
-      <description><![CDATA[We moved to self-hosted models specifically to avoid sending customer data to external APIs. Everything was working fine until last week when someone from QA tried injecting prompts during testing and our entire system prompt got dumped in the response. Now I'm realizing we have…]]></description>
-      <pubDate>Sat, 07 Feb 2026 18:34:55 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qyljr0/prompt_injection_is_killing_our_selfhosted_llm/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qyljr0/prompt_injection_is_killing_our_selfhosted_llm/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>Gemini System Prompt - Google decided to remove &quot;PRO&quot; option for paid subscribers mostly in EU due to their A/B testing, so I extracted their system prompt and cancelled the subscription.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qyl6rd/gemini_system_prompt_google_decided_to_remove_pro/</link>
-      <description><![CDATA[https://preview.redd.it/8fcauhhx64ig1.png?width=601&format=png&auto=webp&s=3b7a38b522ce96958f3d5df022bd77d140090255 As the title says! Enjoy &#32; submitted by &#32; /u/Educational_Rent1059 [link] &#32; [comments]]]></description>
-      <pubDate>Sat, 07 Feb 2026 18:21:34 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qyl6rd/gemini_system_prompt_google_decided_to_remove_pro/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qyl6rd/gemini_system_prompt_google_decided_to_remove_pro/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>@unknown: Updated my post to add a section with commentary on the glaring detail I glossed...</title>
-      <link>https://x.com/unknown/status/2020197442587881904</link>
-      <description><![CDATA[Updated my post to add a section with commentary on the glaring detail I glossed over in my first published version: $1,000/engineer/day in token spends, really? https://t.co/efkaGFhoPw]]></description>
-      <pubDate>Sat, 07 Feb 2026 18:06:18 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2020197442587881904</guid>
-      <source url="https://x.com/unknown/status/2020197442587881904">X/@unknown</source>
-    </item>
-    <item>
-      <title>[P] A Matchbox Machine Learning model</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1qyhi8k/p_a_matchbox_machine_learning_model/</link>
-      <description><![CDATA[Hi everyone! I wanted to share a project I’ve been working on: I built a physical MENACE, the matchbox-based reinforcement learning model invented by Donald Michie in the 1960s to play tic‑tac‑toe. The model uses reinforcement learning and is implemented with matchboxes and…]]></description>
-      <pubDate>Sat, 07 Feb 2026 16:01:31 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1qyhi8k/p_a_matchbox_machine_learning_model/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1qyhi8k/p_a_matchbox_machine_learning_model/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>How StrongDM&apos;s AI team build serious software without even looking at the code</title>
-      <link>https://simonwillison.net/2026/Feb/7/software-factory/#atom-everything</link>
-      <description><![CDATA[Last week I hinted at a demo I had seen from a team implementing what Dan Shapiro called the Dark Factory level of AI adoption, where no human even looks at the code the coding agents are producing. That team was part of StrongDM, and they've just shared the first public…]]></description>
-      <pubDate>Sat, 07 Feb 2026 15:40:48 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/7/software-factory/#atom-everything</guid>
-      <source url="https://simonwillison.net/2026/Feb/7/software-factory/#atom-everything">Simon Willison</source>
-    </item>
-    <item>
-      <title>I tested 11 small LLMs on tool-calling judgment — on CPU, no GPU.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qyg10z/i_tested_11_small_llms_on_toolcalling_judgment_on/</link>
-      <description><![CDATA[Friday night experiment that got out of hand. I wanted to know: how small can a model be and still reliably do tool-calling on a laptop CPU? So I benchmarked 11 models (0.5B to 3.8B) across 12 prompts. No GPU, no cloud API. Just Ollama and bitnet.cpp. The models: Qwen 2.5 (0.5B,…]]></description>
-      <pubDate>Sat, 07 Feb 2026 15:03:14 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qyg10z/i_tested_11_small_llms_on_toolcalling_judgment_on/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qyg10z/i_tested_11_small_llms_on_toolcalling_judgment_on/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>Successfully built an Autonomous Research Agent to handle 10k PDFs locally (32GB RAM / AnythingLLM)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qydx7z/successfully_built_an_autonomous_research_agent/</link>
-      <description><![CDATA[Wanted to share a quick win. I’ve been experimenting with Agentic RAG to handle a massive local dataset (10,000+ PDFs). Most standard RAG setups were failing or hallucinating at this scale, so I moved to an Autonomous Agent workflow using AnythingLLM and Llama 3.2. The agent now…]]></description>
-      <pubDate>Sat, 07 Feb 2026 13:33:36 GMT</pubDate>
+      <title>Causal Identification from Counterfactual Data: Completeness and Bounding Results</title>
+      <link>https://arxiv.org/abs/2602.23541</link>
+      <description><![CDATA[arXiv:2602.23541v1 Announce Type: new Abstract: Previous work establishing completeness results for $\textit{counterfactual identification}$ has been circumscribed to the setting where the input data belongs to observational or interventional distributions (Layers 1 and 2 of…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
       <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qydx7z/successfully_built_an_autonomous_research_agent/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qydx7z/successfully_built_an_autonomous_research_agent/">r/LocalLLaMA</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23541</guid>
+      <source url="https://arxiv.org/abs/2602.23541">arXiv cs.AI</source>
     </item>
     <item>
-      <title>Potential new Qwen and ByteDance Seed models are being tested on the Arena. The “Karp-001” and “Karp-002” models claim to be Qwen-3.5 models. The “Pisces-llm-0206a” and “Pisces-llm-0206b” models claim to be ByteDance models.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1qydlwi/potential_new_qwen_and_bytedance_seed_models_are/</link>
-      <description><![CDATA[&#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]]]></description>
-      <pubDate>Sat, 07 Feb 2026 13:19:21 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1qydlwi/potential_new_qwen_and_bytedance_seed_models_are/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1qydlwi/potential_new_qwen_and_bytedance_seed_models_are/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>The Technologies Changing How You’ll Watch the 2026 Winter Olympic Games</title>
-      <link>https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/</link>
-      <description><![CDATA[From drones with “first-person” visualization to real-time 360-degree replays and Olympics GPT, get ready to immerse yourself in the Winter Games in Milan and Cortina.]]></description>
-      <pubDate>Sat, 07 Feb 2026 12:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/</guid>
-      <source url="https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/">Wired AI</source>
-    </item>
-    <item>
-      <title>You Spent Your Whole Life Getting Good at the Wrong Thing</title>
-      <link>https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting</link>
-      <description><![CDATA[Notes on AI agents]]></description>
-      <pubDate>Sat, 07 Feb 2026 11:33:51 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting</guid>
-      <source url="https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting">The Algorithmic Bridge</source>
-    </item>
-    <item>
-      <title>Moltbook, the Social Network for AI Agents, Exposed Real Humans’ Data</title>
-      <link>https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/</link>
-      <description><![CDATA[Plus: Apple’s Lockdown mode keeps the FBI out of a reporter’s phone, Elon Musk’s Starlink cuts off Russian forces, and more.]]></description>
-      <pubDate>Sat, 07 Feb 2026 11:30:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/</guid>
-      <source url="https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/">Wired AI</source>
-    </item>
-    <item>
-      <title>@unknown: BitMart Research: MCP+AI Agent - New framework for AI
-https://t.co/RJgnipD89n ht...</title>
-      <link>https://x.com/unknown/status/2020079059842084925</link>
-      <description><![CDATA[BitMart Research: MCP+AI Agent - New framework for AI
-https://t.co/RJgnipD89n https://t.co/Wt36f79Gbm]]></description>
-      <pubDate>Sat, 07 Feb 2026 10:15:53 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2020079059842084925</guid>
-      <source url="https://x.com/unknown/status/2020079059842084925">X/@unknown</source>
-    </item>
-    <item>
-      <title>[P] How do you regression-test ML systems when correctness is fuzzy? (OSS tool)</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1qy7afx/p_how_do_you_regressiontest_ml_systems_when/</link>
-      <description><![CDATA[I’ve repeatedly run into the same issue when working with ML / NLP systems (and more recently LLM-based ones): there often isn’t a single correct answer - only better or worse behavior - and small changes can have non-local effects across the system. Traditional testing…]]></description>
-      <pubDate>Sat, 07 Feb 2026 07:14:17 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1qy7afx/p_how_do_you_regressiontest_ml_systems_when/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1qy7afx/p_how_do_you_regressiontest_ml_systems_when/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search</title>
-      <link>https://arxiv.org/abs/2602.05014</link>
-      <description><![CDATA[arXiv:2602.05014v1 Announce Type: new Abstract: With the rapid progress of tool-using and agentic large language models (LLMs), Retrieval-Augmented Generation (RAG) is evolving from one-shot, passive retrieval into multi-turn, decision-driven evidence acquisition. Despite strong…]]></description>
-      <pubDate>Sat, 07 Feb 2026 05:00:00 GMT</pubDate>
+      <title>Planning under Distribution Shifts with Causal POMDPs</title>
+      <link>https://arxiv.org/abs/2602.23545</link>
+      <description><![CDATA[arXiv:2602.23545v1 Announce Type: new Abstract: In the real world, planning is often challenged by distribution shifts. As such, a model of the environment obtained under one set of conditions may no longer remain valid as the distribution of states or the environment dynamics…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
       <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.05014</guid>
-      <source url="https://arxiv.org/abs/2602.05014">arXiv cs.AI</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23545</guid>
+      <source url="https://arxiv.org/abs/2602.23545">arXiv cs.AI</source>
     </item>
     <item>
-      <title>Towards Reducible Uncertainty Modeling for Reliable Large Language Model Agents</title>
-      <link>https://arxiv.org/abs/2602.05073</link>
-      <description><![CDATA[arXiv:2602.05073v1 Announce Type: new Abstract: Uncertainty quantification (UQ) for large language models (LLMs) is a key building block for safety guardrails of daily LLM applications. Yet, even as LLM agents are increasingly deployed in highly complex tasks, most UQ research…]]></description>
-      <pubDate>Sat, 07 Feb 2026 05:00:00 GMT</pubDate>
+      <title>Construct, Merge, Solve &amp; Adapt with Reinforcement Learning for the min-max Multiple Traveling Salesman Problem</title>
+      <link>https://arxiv.org/abs/2602.23579</link>
+      <description><![CDATA[arXiv:2602.23579v1 Announce Type: new Abstract: The Multiple Traveling Salesman Problem (mTSP) extends the Traveling Salesman Problem to m tours that start and end at a common depot and jointly visit all customers exactly once. In the min-max variant, the objective is to…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
       <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.05073</guid>
-      <source url="https://arxiv.org/abs/2602.05073">arXiv cs.AI</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23579</guid>
+      <source url="https://arxiv.org/abs/2602.23579">arXiv cs.AI</source>
     </item>
     <item>
-      <title>SocialVeil: Probing Social Intelligence of Language Agents under Communication Barriers</title>
-      <link>https://arxiv.org/abs/2602.05115</link>
-      <description><![CDATA[arXiv:2602.05115v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated in interactive environments to test their social intelligence. However, existing benchmarks often assume idealized communication between agents, limiting our ability to…]]></description>
-      <pubDate>Sat, 07 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.05115</guid>
-      <source url="https://arxiv.org/abs/2602.05115">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>MINT: Minimal Information Neuro-Symbolic Tree for Objective-Driven Knowledge-Gap Reasoning and Active Elicitation</title>
-      <link>https://arxiv.org/abs/2602.05048</link>
-      <description><![CDATA[arXiv:2602.05048v1 Announce Type: new Abstract: Joint planning through language-based interactions is a key area of human-AI teaming. Planning problems in the open world often involve various aspects of incomplete information and unknowns, e.g., objects involved, human…]]></description>
-      <pubDate>Sat, 07 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.05048</guid>
-      <source url="https://arxiv.org/abs/2602.05048">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>VERA-MH: Reliability and Validity of an Open-Source AI Safety Evaluation in Mental Health</title>
-      <link>https://arxiv.org/abs/2602.05088</link>
-      <description><![CDATA[arXiv:2602.05088v1 Announce Type: new Abstract: Millions now use leading generative AI chatbots for psychological support. Despite the promise related to availability and scale, the single most pressing question in AI for mental health is whether these tools are safe. The…]]></description>
-      <pubDate>Sat, 07 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.05088</guid>
-      <source url="https://arxiv.org/abs/2602.05088">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Understanding LLM Evaluator Behavior: A Structured Multi-Evaluator Framework for Merchant Risk Assessment</title>
-      <link>https://arxiv.org/abs/2602.05110</link>
-      <description><![CDATA[arXiv:2602.05110v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used as evaluators of reasoning quality, yet their reliability and bias in payments-risk settings remain poorly understood. We introduce a structured multi-evaluator framework for…]]></description>
-      <pubDate>Sat, 07 Feb 2026 05:00:00 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.05110</guid>
-      <source url="https://arxiv.org/abs/2602.05110">arXiv cs.AI</source>
-    </item>
-    <item>
-      <title>[AINews] AI vs SaaS: The Unreasonable Effectiveness of Centralizing the AI Heartbeat</title>
-      <link>https://www.latent.space/p/ainews-ai-vs-saas-the-unreasonable</link>
-      <description><![CDATA[A quiet day lets us reflect on a through line from OpenClaw to Frontier to MCP UI to Cursor/Anthropic Teams]]></description>
-      <pubDate>Sat, 07 Feb 2026 04:11:08 GMT</pubDate>
-      <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-ai-vs-saas-the-unreasonable</guid>
-      <source url="https://www.latent.space/p/ainews-ai-vs-saas-the-unreasonable">Latent Space</source>
-    </item>
-    <item>
-      <title>Machine Learning library in Linux kernel</title>
-      <link>https://lore.kernel.org/lkml/20260206191136.2609767-1-slava@dubeyko.com/</link>
-      <description><![CDATA[Comments]]></description>
-      <pubDate>Fri, 06 Feb 2026 23:45:21 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://lore.kernel.org/lkml/20260206191136.2609767-1-slava@dubeyko.com/</guid>
-      <source url="https://lore.kernel.org/lkml/20260206191136.2609767-1-slava@dubeyko.com/">Lobsters AI</source>
-    </item>
-    <item>
-      <title>The First Mechanistic Interpretability Frontier Lab — Myra Deng &amp; Mark Bissell of Goodfire AI</title>
-      <link>https://www.latent.space/p/goodfire</link>
-      <description><![CDATA[From Palantir and Two Sigma to building Goodfire into the poster-child for actionable mechanistic interpretability, Mark Bissell (Member of Technical Staff) and Myra Deng (Head of Product) are trying to turn &#8220;peeking inside the model&#8221; into a repeatable production…]]></description>
-      <pubDate>Fri, 06 Feb 2026 22:45:00 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://www.latent.space/p/goodfire</guid>
-      <source url="https://www.latent.space/p/goodfire">Latent Space</source>
-    </item>
-    <item>
-      <title>Running Pydantic&apos;s Monty Rust sandboxed Python subset in WebAssembly</title>
-      <link>https://simonwillison.net/2026/Feb/6/pydantic-monty/#atom-everything</link>
-      <description><![CDATA[There's a jargon-filled headline for you! Everyone's building sandboxes for running untrusted code right now, and Pydantic's latest attempt, Monty, provides a custom Python-like language (a subset of Python) in Rust and makes it available as both a Rust library and a Python…]]></description>
-      <pubDate>Fri, 06 Feb 2026 22:31:31 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/6/pydantic-monty/#atom-everything</guid>
-      <source url="https://simonwillison.net/2026/Feb/6/pydantic-monty/#atom-everything">Simon Willison</source>
-    </item>
-    <item>
-      <title>It just got easier for Claude to check in on your WordPress site</title>
-      <link>https://techcrunch.com/2026/02/06/it-just-got-easier-for-claude-to-check-in-on-your-wordpress-site/</link>
-      <description><![CDATA[WordPress users can now leverage Claude to analyze web traffic or find information about other internal site metrics.]]></description>
-      <pubDate>Fri, 06 Feb 2026 22:04:59 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/06/it-just-got-easier-for-claude-to-check-in-on-your-wordpress-site/</guid>
-      <source url="https://techcrunch.com/2026/02/06/it-just-got-easier-for-claude-to-check-in-on-your-wordpress-site/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Apple might let you use ChatGPT from CarPlay</title>
-      <link>https://www.theverge.com/transportation/875199/apple-carplay-third-party-chatbots-rumor</link>
-      <description><![CDATA[CarPlay users could soon be able to use their chatbot of choice instead of Siri. As Bloomberg reports, Apple is working to add support for CarPlay voice control apps from OpenAI, Anthropic, Google, and others. Previously, users who wanted to access third-party chatbots in the…]]></description>
-      <pubDate>Fri, 06 Feb 2026 21:32:44 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.theverge.com/transportation/875199/apple-carplay-third-party-chatbots-rumor</guid>
-      <source url="https://www.theverge.com/transportation/875199/apple-carplay-third-party-chatbots-rumor">The Verge AI</source>
-    </item>
-    <item>
-      <title>Monty: A minimal, secure Python interpreter written in Rust for use by AI</title>
-      <link>https://github.com/pydantic/monty</link>
-      <description><![CDATA[Article URL: https://github.com/pydantic/monty Comments URL: https://news.ycombinator.com/item?id=46918254 Points: 308 # Comments: 157]]></description>
-      <pubDate>Fri, 06 Feb 2026 21:16:36 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://github.com/pydantic/monty</guid>
-      <source url="https://github.com/pydantic/monty">Hacker News AI</source>
-    </item>
-    <item>
-      <title>Maybe AI agents can be lawyers after all</title>
-      <link>https://techcrunch.com/2026/02/06/maybe-ai-agents-can-be-lawyers-after-all/</link>
-      <description><![CDATA[This week's release of Opus 4.6 shook up the agentic AI leaderboards.]]></description>
-      <pubDate>Fri, 06 Feb 2026 20:26:23 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/06/maybe-ai-agents-can-be-lawyers-after-all/</guid>
-      <source url="https://techcrunch.com/2026/02/06/maybe-ai-agents-can-be-lawyers-after-all/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Man who videotaped himself BASE jumping in Yosemite arrested, says it was AI</title>
-      <link>https://www.latimes.com/california/story/2026-02-05/man-videotaped-himself-base-jumping-in-yosemite-federal-officials-say-he-says-it-was-ai</link>
-      <description><![CDATA[Article URL: https://www.latimes.com/california/story/2026-02-05/man-videotaped-himself-base-jumping-in-yosemite-federal-officials-say-he-says-it-was-ai Comments URL: https://news.ycombinator.com/item?id=46916961 Points: 54 # Comments: 91]]></description>
-      <pubDate>Fri, 06 Feb 2026 19:20:53 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-02-05/man-videotaped-himself-base-jumping-in-yosemite-federal-officials-say-he-says-it-was-ai</guid>
-      <source url="https://www.latimes.com/california/story/2026-02-05/man-videotaped-himself-base-jumping-in-yosemite-federal-officials-say-he-says-it-was-ai">Hacker News AI</source>
-    </item>
-    <item>
-      <title>How to effectively write quality code with AI</title>
-      <link>https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/</link>
-      <description><![CDATA[Article URL: https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/ Comments URL: https://news.ycombinator.com/item?id=46916586 Points: 325 # Comments: 289]]></description>
-      <pubDate>Fri, 06 Feb 2026 18:49:59 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/</guid>
-      <source url="https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/">Hacker News AI</source>
-    </item>
-    <item>
-      <title>How Elon Musk is rewriting the rules on founder power</title>
-      <link>https://techcrunch.com/video/how-elon-musk-is-rewriting-the-rules-on-founder-power/</link>
-      <description><![CDATA[Elon Musk&#160;has&#160;merged&#160;SpaceX and xAI,&#160;creating&#160;what might be the blueprint for a new Silicon Valley power structure. With his&#160;$800 billion&#160;net worth already rivaling historic conglomerate GE&#8217;s peak market cap,&#160;and Musk being vocal…]]></description>
-      <pubDate>Fri, 06 Feb 2026 18:46:51 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/video/how-elon-musk-is-rewriting-the-rules-on-founder-power/</guid>
-      <source url="https://techcrunch.com/video/how-elon-musk-is-rewriting-the-rules-on-founder-power/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>An Update on Heroku</title>
-      <link>https://simonwillison.net/2026/Feb/6/an-update-on-heroku/#atom-everything</link>
-      <description><![CDATA[An Update on Heroku An ominous headline to see on the official Heroku blog and yes, it's bad news. Today, Heroku is transitioning to a sustaining engineering model focused on stability, security, reliability, and support. Heroku remains an actively supported, production-ready…]]></description>
-      <pubDate>Fri, 06 Feb 2026 18:44:21 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/6/an-update-on-heroku/#atom-everything</guid>
-      <source url="https://simonwillison.net/2026/Feb/6/an-update-on-heroku/#atom-everything">Simon Willison</source>
-    </item>
-    <item>
-      <title>How far will Elon Musk take the ‘everything’ business as SpaceX and xAI merge?</title>
-      <link>https://techcrunch.com/podcast/how-far-will-elon-musk-take-the-everything-business-as-spacex-and-xai-merge/</link>
-      <description><![CDATA[Elon Musk&#160;has&#160;merged&#160;SpaceX and xAI,&#160;creating&#160;what might be the blueprint for a new Silicon Valley power structure. With his&#160;$800 billion&#160;net worth already rivaling historic conglomerate GE&#8217;s peak market cap,&#160;and Musk being vocal…]]></description>
-      <pubDate>Fri, 06 Feb 2026 17:56:42 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://techcrunch.com/podcast/how-far-will-elon-musk-take-the-everything-business-as-spacex-and-xai-merge/</guid>
-      <source url="https://techcrunch.com/podcast/how-far-will-elon-musk-take-the-everything-business-as-spacex-and-xai-merge/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>@unknown: adds an MCP server with 7 uncertainty tools for AI. An agent can now measure its...</title>
-      <link>https://x.com/unknown/status/2019829530941354409</link>
-      <description><![CDATA[adds an MCP server with 7 uncertainty tools for AI. An agent can now measure its own confidence, map
-epistemic terrain, and flag where it’s extrapolating vs where it’s on solid ground.
-Four novelty signatures: well_trodden, decision_boundary, terra_incognita, framework_collision.]]></description>
-      <pubDate>Fri, 06 Feb 2026 17:44:21 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2019829530941354409</guid>
-      <source url="https://x.com/unknown/status/2019829530941354409">X/@unknown</source>
-    </item>
-    <item>
-      <title>@unknown: Rankings vary by benchmark and source. As of early 2026, Grok 4 often places in ...</title>
-      <link>https://x.com/unknown/status/2019816948746289611</link>
-      <description><![CDATA[Rankings vary by benchmark and source. As of early 2026, Grok 4 often places in the top 5 on leaderboards like LLM Stats and Epoch AI, excelling in cost-efficiency, coding, and MMLU (around 92-93% accuracy). It trails leaders like GPT-5.2 or Claude Opus in some reasoning tasks…]]></description>
-      <pubDate>Fri, 06 Feb 2026 16:54:21 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2019816948746289611</guid>
-      <source url="https://x.com/unknown/status/2019816948746289611">X/@unknown</source>
-    </item>
-    <item>
-      <title>Moltbook was peak AI theater</title>
-      <link>https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/</link>
-      <description><![CDATA[For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We…]]></description>
-      <pubDate>Fri, 06 Feb 2026 16:38:11 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/</guid>
-      <source url="https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/">MIT Tech Review AI</source>
-    </item>
-    <item>
-      <title>@unknown: &amp;gt; I don&apos;t know why ByteDance is making a biology LLM benchmark
-Because ByteDa...</title>
-      <link>https://x.com/unknown/status/2019812633734738309</link>
-      <description><![CDATA[&gt; I don't know why ByteDance is making a biology LLM benchmark
-Because ByteDance wants to dominate in AI for life sciences. 
-Over the last 8 days, they've published 6 papers on different aspects of protein structure prediction or biological reasoning. Maybe more. I've lost…]]></description>
-      <pubDate>Fri, 06 Feb 2026 16:37:12 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2019812633734738309</guid>
-      <source url="https://x.com/unknown/status/2019812633734738309">X/@unknown</source>
-    </item>
-    <item>
-      <title>The Kindle Scribe Colorsoft is a pricey but pretty e-ink color tablet with AI features</title>
-      <link>https://techcrunch.com/2026/02/06/kindle-scribe-colorsoft-review-e-ink-color-tablet/</link>
-      <description><![CDATA[If you primarily want a tablet device to mark up, highlight, and annotate your e-books and documents, and perhaps sometimes scribble some notes, Amazon's new Kindle Scribe Colorsoft could be worth the hefty investment.]]></description>
-      <pubDate>Fri, 06 Feb 2026 16:37:07 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/06/kindle-scribe-colorsoft-review-e-ink-color-tablet/</guid>
-      <source url="https://techcrunch.com/2026/02/06/kindle-scribe-colorsoft-review-e-ink-color-tablet/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>The Only Thing Standing Between Humanity and AI Apocalypse Is … Claude?</title>
-      <link>https://www.wired.com/story/the-only-thing-standing-between-humanity-and-ai-apocalypse-is-claude/</link>
-      <description><![CDATA[As AI systems grow more powerful, Anthropic’s resident philosopher says the startup is betting Claude itself can learn the wisdom needed to avoid disaster.]]></description>
-      <pubDate>Fri, 06 Feb 2026 16:33:18 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.wired.com/story/the-only-thing-standing-between-humanity-and-ai-apocalypse-is-claude/</guid>
-      <source url="https://www.wired.com/story/the-only-thing-standing-between-humanity-and-ai-apocalypse-is-claude/">Wired AI</source>
-    </item>
-    <item>
-      <title>@unknown: Nano Banana Pro vs Grok 
-
-I think Grok won here 😅
-
-Prompt: 
-{
-  &quot;Objective&quot;: &quot;C...</title>
-      <link>https://x.com/unknown/status/2019795972524527854</link>
-      <description><![CDATA[Nano Banana Pro vs Grok 
-
-I think Grok won here 😅
-
-Prompt: 
-{
-  "Objective": "Create a clean, studio-style composite image (3x3 grid) showing the same swimsuit model in multiple standard poses/angles against a plain white backdrop, matching the reference layout and lighting.",
-…]]></description>
-      <pubDate>Fri, 06 Feb 2026 15:31:00 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2019795972524527854</guid>
-      <source url="https://x.com/unknown/status/2019795972524527854">X/@unknown</source>
-    </item>
-    <item>
-      <title>Amazon plunge continues $1T wipeout as AI bubble fears ignite sell-off</title>
-      <link>https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html</link>
-      <description><![CDATA[Article URL: https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html Comments URL: https://news.ycombinator.com/item?id=46913302 Points: 88 # Comments: 87]]></description>
-      <pubDate>Fri, 06 Feb 2026 14:33:22 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html</guid>
-      <source url="https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html">Hacker News AI</source>
-    </item>
-    <item>
-      <title>How AI is helping solve the labor issue in treating rare diseases</title>
-      <link>https://techcrunch.com/2026/02/06/how-ai-is-helping-with-the-labor-issue-in-treating-rare-diseases/</link>
-      <description><![CDATA[At Web Summit Qatar, AI-powered biotech startups describe how automation, data, and gene editing are filling labor gaps in drug discovery and rare disease treatment.]]></description>
-      <pubDate>Fri, 06 Feb 2026 14:29:15 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/06/how-ai-is-helping-with-the-labor-issue-in-treating-rare-diseases/</guid>
-      <source url="https://techcrunch.com/2026/02/06/how-ai-is-helping-with-the-labor-issue-in-treating-rare-diseases/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>How Epstein became a tech influencer</title>
-      <link>https://www.theverge.com/podcast/874768/epstein-files-tech-anthropic-ads-vergecast</link>
-      <description><![CDATA[There are bold-faced tech names all over the Epstein files. Elon Musk, Bill Gates, Sergey Brin, Eric Schmidt, Larry Page, Reid Hoffman, Steven Sinofsky, Peter Thiel, Jeff Bezos, Mark Zuckerberg, on and on and on. These men (and they're pretty much all men) had wildly varying…]]></description>
-      <pubDate>Fri, 06 Feb 2026 14:24:30 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.theverge.com/podcast/874768/epstein-files-tech-anthropic-ads-vergecast</guid>
-      <source url="https://www.theverge.com/podcast/874768/epstein-files-tech-anthropic-ads-vergecast">The Verge AI</source>
-    </item>
-    <item>
-      <title>The Stock Market Has No Idea What’s Coming</title>
-      <link>https://www.thealgorithmicbridge.com/p/the-stock-market-has-no-idea-whats</link>
-      <description><![CDATA[Investors are simultaneously terrified that AI works and that it doesn&#8217;t]]></description>
-      <pubDate>Fri, 06 Feb 2026 13:55:49 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/the-stock-market-has-no-idea-whats</guid>
-      <source url="https://www.thealgorithmicbridge.com/p/the-stock-market-has-no-idea-whats">The Algorithmic Bridge</source>
-    </item>
-    <item>
-      <title>The Download: helping cancer survivors to give birth, and cleaning up Bangladesh’s garment industry</title>
-      <link>https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/</link>
-      <description><![CDATA[This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An experimental surgery is helping cancer survivors give birth An experimental surgical procedure that’s helping people have…]]></description>
-      <pubDate>Fri, 06 Feb 2026 13:10:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/</guid>
-      <source url="https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/">MIT Tech Review AI</source>
-    </item>
-    <item>
-      <title>How the men in the Epstein files defeated #MeToo</title>
-      <link>https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo</link>
-      <description><![CDATA[He might be dead, but it sure seems like Jeffrey Epstein won. Sure, Epstein was arrested on charges of sex trafficking minors. Sure, he died in jail. (I am not going to wade into the debate about how.) But he subscribed to a racist, misogynist ideology that meant rich white men…]]></description>
-      <pubDate>Fri, 06 Feb 2026 13:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo</guid>
-      <source url="https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo">The Verge AI</source>
-    </item>
-    <item>
-      <title>@unknown: AI coding tools feel like team members:
-
-• Codex → senior architect
-  Thinks lon...</title>
-      <link>https://x.com/unknown/status/2019736129394872562</link>
-      <description><![CDATA[AI coding tools feel like team members:
-
-• Codex → senior architect
-  Thinks long-term.
-
-• Claude Code → startup senior
-  Ships fast.
-
-• Cursor → pair programmer
-
-• GitHub Copilot → intern
-  Needs review.
-
-Each fits a different phase...
-
-What did I miss? https://t.co/ggpfCZqJ68]]></description>
-      <pubDate>Fri, 06 Feb 2026 11:33:12 GMT</pubDate>
-      <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2019736129394872562</guid>
-      <source url="https://x.com/unknown/status/2019736129394872562">X/@unknown</source>
-    </item>
-    <item>
-      <title>Making AI work for everyone, everywhere: our approach to localization</title>
-      <link>https://openai.com/index/our-approach-to-localization</link>
-      <description><![CDATA[OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.]]></description>
-      <pubDate>Fri, 06 Feb 2026 10:00:00 GMT</pubDate>
+      <title>SleepLM: Natural-Language Intelligence for Human Sleep</title>
+      <link>https://arxiv.org/abs/2602.23605</link>
+      <description><![CDATA[arXiv:2602.23605v1 Announce Type: new Abstract: We present SleepLM, a family of sleep-language foundation models that enable human sleep alignment, interpretation, and interaction with natural language. Despite the critical role of sleep, learning-based sleep analysis systems…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
       <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://openai.com/index/our-approach-to-localization</guid>
-      <source url="https://openai.com/index/our-approach-to-localization">OpenAI Blog</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23605</guid>
+      <source url="https://arxiv.org/abs/2602.23605">arXiv cs.AI</source>
     </item>
     <item>
-      <title>A new bill in New York would require disclaimers on AI-generated news content</title>
-      <link>https://www.niemanlab.org/2026/02/a-new-bill-in-new-york-would-require-disclaimers-on-ai-generated-news-content/</link>
-      <description><![CDATA[Article URL: https://www.niemanlab.org/2026/02/a-new-bill-in-new-york-would-require-disclaimers-on-ai-generated-news-content/ Comments URL: https://news.ycombinator.com/item?id=46910963 Points: 564 # Comments: 234]]></description>
-      <pubDate>Fri, 06 Feb 2026 09:56:55 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.niemanlab.org/2026/02/a-new-bill-in-new-york-would-require-disclaimers-on-ai-generated-news-content/</guid>
-      <source url="https://www.niemanlab.org/2026/02/a-new-bill-in-new-york-would-require-disclaimers-on-ai-generated-news-content/">Hacker News AI</source>
-    </item>
-    <item>
-      <title>@unknown: I don&apos;t know why ByteDance is making a biology LLM benchmark but I welcome it lo...</title>
-      <link>https://x.com/unknown/status/2019687305808687326</link>
-      <description><![CDATA[I don't know why ByteDance is making a biology LLM benchmark but I welcome it lol
-
-BABE: Biology Arena BEnchmark
-
-"we develop BABE(Biology Arena BEnchmark1), a benchmark specifically designed to evaluate biological AI systems’ experimental reasoning capabilities. Critically, all…]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:19:12 GMT</pubDate>
+      <title>MMKG-RDS: Reasoning Data Synthesis via Deep Mining of Multimodal Knowledge Graphs</title>
+      <link>https://arxiv.org/abs/2602.23632</link>
+      <description><![CDATA[arXiv:2602.23632v1 Announce Type: new Abstract: Synthesizing high-quality training data is crucial for enhancing domain models' reasoning abilities. Existing methods face limitations in long-tail knowledge coverage, effectiveness verification, and interpretability.…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
       <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2019687305808687326</guid>
-      <source url="https://x.com/unknown/status/2019687305808687326">X/@unknown</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23632</guid>
+      <source url="https://arxiv.org/abs/2602.23632">arXiv cs.AI</source>
     </item>
     <item>
-      <title>voxtral.c: Pure C inference of Mistral Voxtral Realtime 4B speech to text model</title>
-      <link>https://github.com/antirez/voxtral.c</link>
-      <description><![CDATA[Comments]]></description>
-      <pubDate>Fri, 06 Feb 2026 07:44:20 GMT</pubDate>
-      <category>Voice &amp; Audio</category>
-      <guid isPermaLink="true">https://github.com/antirez/voxtral.c</guid>
-      <source url="https://github.com/antirez/voxtral.c">Lobsters AI</source>
-    </item>
-    <item>
-      <title>@unknown: (6/6) If you build deep-research agents 🛠️🤖 
-DeR2 acts like a diagnostic dashb...</title>
-      <link>https://x.com/unknown/status/2019645363582562666</link>
-      <description><![CDATA[(6/6) If you build deep-research agents 🛠️🤖 
-DeR2 acts like a diagnostic dashboard 📊: 
-🔎 retrieval quality 
-🧠 concept execution 
-🗂️ noise robustness 
-
-🌐 Project: https://t.co/o9jDpKzpRh 
-DMs open for comparisons/ablations 🤝✨ 
-#LLM #RAG #Reasoning #Benchmark]]></description>
-      <pubDate>Fri, 06 Feb 2026 05:32:32 GMT</pubDate>
+      <title>AI Must Embrace Specialization via Superhuman Adaptable Intelligence</title>
+      <link>https://arxiv.org/abs/2602.23643</link>
+      <description><![CDATA[arXiv:2602.23643v1 Announce Type: new Abstract: Everyone from AI executives and researchers to doomsayers, politicians, and activists is talking about Artificial General Intelligence (AGI). Yet, they often don't seem to agree on its exact definition. One common definition of AGI…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
       <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2019645363582562666</guid>
-      <source url="https://x.com/unknown/status/2019645363582562666">X/@unknown</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23643</guid>
+      <source url="https://arxiv.org/abs/2602.23643">arXiv cs.AI</source>
     </item>
     <item>
-      <title>LWiAI Podcast #233 - Moltbot, Genie 3, Qwen3-Max-Thinking</title>
-      <link>https://lastweekin.ai/p/lwiai-podcast-233-moltbot-genie-3</link>
-      <description><![CDATA[Google adds Gemini AI-powered &#8216;auto browse&#8217; to Chrome, Users flock to open source Moltbot for always-on AI, Qwen3-Max-Thinking debuts, and more!]]></description>
-      <pubDate>Fri, 06 Feb 2026 05:06:04 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://lastweekin.ai/p/lwiai-podcast-233-moltbot-genie-3</guid>
-      <source url="https://lastweekin.ai/p/lwiai-podcast-233-moltbot-genie-3">Last Week in AI</source>
+      <title>PseudoAct: Leveraging Pseudocode Synthesis for Flexible Planning and Action Control in Large Language Model Agents</title>
+      <link>https://arxiv.org/abs/2602.23668</link>
+      <description><![CDATA[arXiv:2602.23668v1 Announce Type: new Abstract: Large language model (LLM) agents typically rely on reactive decision-making paradigms such as ReAct, selecting actions conditioned on growing execution histories. While effective for short tasks, these approaches often lead to…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23668</guid>
+      <source url="https://arxiv.org/abs/2602.23668">arXiv cs.AI</source>
     </item>
     <item>
-      <title>[AINews] OpenAI and Anthropic go to war: Claude Opus 4.6 vs GPT 5.3 Codex</title>
-      <link>https://www.latent.space/p/ainews-openai-and-anthropic-go-to</link>
-      <description><![CDATA[The battle of the SOTA Coding Models steps up a notch]]></description>
-      <pubDate>Fri, 06 Feb 2026 04:10:33 GMT</pubDate>
-      <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-openai-and-anthropic-go-to</guid>
-      <source url="https://www.latent.space/p/ainews-openai-and-anthropic-go-to">Latent Space</source>
+      <title>ODAR: Principled Adaptive Routing for LLM Reasoning via Active Inference</title>
+      <link>https://arxiv.org/abs/2602.23681</link>
+      <description><![CDATA[arXiv:2602.23681v1 Announce Type: new Abstract: The paradigm of large language model (LLM) reasoning is shifting from parameter scaling to test-time compute scaling, yet many existing approaches still rely on uniform brute-force sampling (for example, fixed best-of-N or…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23681</guid>
+      <source url="https://arxiv.org/abs/2602.23681">arXiv cs.AI</source>
     </item>
     <item>
-      <title>@unknown: Alright - here&apos;s my most powerful vibe coding prompt ever.
-
-Plug this straight i...</title>
-      <link>https://x.com/unknown/status/2019591900802801988</link>
-      <description><![CDATA[Alright - here's my most powerful vibe coding prompt ever.
-
-Plug this straight into the new Opus 4.6 model, and you'll literally be able to ship anything.
-
-SEO optimised websites, fully functional Claude apps, personal dashboards - literally anything.
-
-Takes &lt;5 minutes:…]]></description>
-      <pubDate>Fri, 06 Feb 2026 02:00:06 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2019591900802801988</guid>
-      <source url="https://x.com/unknown/status/2019591900802801988">X/@unknown</source>
+      <title>From Flat Logs to Causal Graphs: Hierarchical Failure Attribution for LLM-based Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2602.23701</link>
+      <description><![CDATA[arXiv:2602.23701v1 Announce Type: new Abstract: LLM-powered Multi-Agent Systems (MAS) have demonstrated remarkable capabilities in complex domains but suffer from inherent fragility and opaque failure mechanisms. Existing failure attribution methods, whether relying on direct…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23701</guid>
+      <source url="https://arxiv.org/abs/2602.23701">arXiv cs.AI</source>
     </item>
     <item>
-      <title>How I Set Up OpenClaw Without Giving It the Keys to My Life - Security-First Guide</title>
-      <link>https://x.com/JordanLyall/status/2019594755370545168</link>
-      <description></description>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://x.com/JordanLyall/status/2019594755370545168</guid>
-      <source url="https://x.com/JordanLyall/status/2019594755370545168">telegram-share</source>
+      <title>ProductResearch: Training E-Commerce Deep Research Agents via Multi-Agent Synthetic Trajectory Distillation</title>
+      <link>https://arxiv.org/abs/2602.23716</link>
+      <description><![CDATA[arXiv:2602.23716v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents show promise for e-commerce conversational shopping, yet existing implementations lack the interaction depth and contextual breadth required for complex product research. Meanwhile, the Deep…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23716</guid>
+      <source url="https://arxiv.org/abs/2602.23716">arXiv cs.AI</source>
     </item>
     <item>
-      <title>Sapiom raises $15M to help AI agents buy their own tech tools</title>
-      <link>https://techcrunch.com/2026/02/05/sapiom-raises-15m-to-help-ai-agents-buy-their-own-tech-tools/</link>
-      <description><![CDATA[The startup -- with backing from Accel -- is building a financial layer that handles the authentication and micro-payments required for AI agents.]]></description>
-      <pubDate>Thu, 05 Feb 2026 23:53:42 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/05/sapiom-raises-15m-to-help-ai-agents-buy-their-own-tech-tools/</guid>
-      <source url="https://techcrunch.com/2026/02/05/sapiom-raises-15m-to-help-ai-agents-buy-their-own-tech-tools/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Mitchell Hashimoto: My AI Adoption Journey</title>
-      <link>https://simonwillison.net/2026/Feb/5/ai-adoption-journey/#atom-everything</link>
-      <description><![CDATA[Mitchell Hashimoto: My AI Adoption Journey Some really good and unconventional tips in here for getting to a place with coding agents where they demonstrably improve your workflow and productivity. I particularly liked: Reproduce your own work - when learning to use coding…]]></description>
-      <pubDate>Thu, 05 Feb 2026 23:39:07 GMT</pubDate>
+      <title>The Auton Agentic AI Framework</title>
+      <link>https://arxiv.org/abs/2602.23720</link>
+      <description><![CDATA[arXiv:2602.23720v1 Announce Type: new Abstract: The field of Artificial Intelligence is undergoing a transition from Generative AI -- probabilistic generation of text and images -- to Agentic AI, in which autonomous systems execute actions within external environments on behalf…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
       <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Feb/5/ai-adoption-journey/#atom-everything</guid>
-      <source url="https://simonwillison.net/2026/Feb/5/ai-adoption-journey/#atom-everything">Simon Willison</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23720</guid>
+      <source url="https://arxiv.org/abs/2602.23720">arXiv cs.AI</source>
     </item>
     <item>
-      <title>Ask HN: Anyone Using a Mac Studio for Local AI/LLM?</title>
-      <link>https://news.ycombinator.com/item?id=46907001</link>
-      <description><![CDATA[Curious to know your experience running local LLM's with a well spec'ed out M3 Ultra or M4 Pro Mac Studio. I don't see a lot of discussion on the Mac Studio for Local LLMs but it seems like you could put big models in memory with the shared VRAM. I assume that the token…]]></description>
-      <pubDate>Thu, 05 Feb 2026 23:34:41 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46907001</guid>
-      <source url="https://news.ycombinator.com/item?id=46907001">Hacker News AI</source>
+      <title>Unlocking Cognitive Capabilities and Analyzing the Perception-Logic Trade-off</title>
+      <link>https://arxiv.org/abs/2602.23730</link>
+      <description><![CDATA[arXiv:2602.23730v1 Announce Type: new Abstract: Recent advancements in Multimodal Large Language Models (MLLMs) pursue omni-perception capabilities, yet integrating robust sensory grounding with complex reasoning remains a challenge, particularly for underrepresented regions. In…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23730</guid>
+      <source url="https://arxiv.org/abs/2602.23730">arXiv cs.AI</source>
     </item>
     <item>
-      <title>Reddit looks to AI search as its next big opportunity</title>
-      <link>https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/</link>
-      <description><![CDATA[During the company's fourth-quarter earnings call on Thursday, it offered an update on its plans to merge traditional and AI search together and hinted that although search is not yet monetized, "it's an enormous market and opportunity."]]></description>
-      <pubDate>Thu, 05 Feb 2026 23:20:27 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/</guid>
-      <source url="https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/">TechCrunch AI</source>
+      <title>Reasoning-Driven Multimodal LLM for Domain Generalization</title>
+      <link>https://arxiv.org/abs/2602.23777</link>
+      <description><![CDATA[arXiv:2602.23777v1 Announce Type: new Abstract: This paper addresses the domain generalization (DG) problem in deep learning. While most DG methods focus on enforcing visual feature invariance, we leverage the reasoning capability of multimodal large language models (MLLMs) and…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23777</guid>
+      <source url="https://arxiv.org/abs/2602.23777">arXiv cs.AI</source>
     </item>
     <item>
-      <title>AWS revenue continues to soar as cloud demand remains high</title>
-      <link>https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/</link>
-      <description><![CDATA[AWS recorded its best quarter, in terms of revenue growth, in 13 quarters in Q4 2025 as AI drives AWS adoption.]]></description>
-      <pubDate>Thu, 05 Feb 2026 23:11:37 GMT</pubDate>
+      <title>Toward General Semantic Chunking: A Discriminative Framework for Ultra-Long Documents</title>
+      <link>https://arxiv.org/abs/2602.23370</link>
+      <description><![CDATA[arXiv:2602.23370v1 Announce Type: new Abstract: Long-document topic segmentation plays an important role in information retrieval and document understanding, yet existing methods still show clear shortcomings in ultra-long text settings. Traditional discriminative models are…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23370</guid>
+      <source url="https://arxiv.org/abs/2602.23370">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Task-Lens: Cross-Task Utility Based Speech Dataset Profiling for Low-Resource Indian Languages</title>
+      <link>https://arxiv.org/abs/2602.23388</link>
+      <description><![CDATA[arXiv:2602.23388v1 Announce Type: new Abstract: The rising demand for inclusive speech technologies amplifies the need for multilingual datasets for Natural Language Processing (NLP) research. However, limited awareness of existing task-specific resources in low-resource…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23388</guid>
+      <source url="https://arxiv.org/abs/2602.23388">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Truncated Step-Level Sampling with Process Rewards for Retrieval-Augmented Reasoning</title>
+      <link>https://arxiv.org/abs/2602.23440</link>
+      <description><![CDATA[arXiv:2602.23440v1 Announce Type: new Abstract: Training large language models to reason with search engines via reinforcement learning is hindered by a fundamental credit assignment problem: existing methods such as Search-R1 provide only a sparse outcome reward after an entire…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23440</guid>
+      <source url="https://arxiv.org/abs/2602.23440">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>CiteAudit: You Cited It, But Did You Read It? A Benchmark for Verifying Scientific References in the LLM Era</title>
+      <link>https://arxiv.org/abs/2602.23452</link>
+      <description><![CDATA[arXiv:2602.23452v1 Announce Type: new Abstract: Scientific research relies on accurate citation for attribution and integrity, yet large language models (LLMs) introduce a new risk: fabricated references that appear plausible but correspond to no real publications. Such…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23452</guid>
+      <source url="https://arxiv.org/abs/2602.23452">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>FHIRPath-QA: Executable Question Answering over FHIR Electronic Health Records</title>
+      <link>https://arxiv.org/abs/2602.23479</link>
+      <description><![CDATA[arXiv:2602.23479v1 Announce Type: new Abstract: Though patients are increasingly granted digital access to their electronic health records (EHRs), existing interfaces may not support precise, trustworthy answers to patient-specific questions. Large language models (LLM) show…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23479</guid>
+      <source url="https://arxiv.org/abs/2602.23479">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>IDP Accelerator: Agentic Document Intelligence from Extraction to Compliance Validation</title>
+      <link>https://arxiv.org/abs/2602.23481</link>
+      <description><![CDATA[arXiv:2602.23481v1 Announce Type: new Abstract: Understanding and extracting structured insights from unstructured documents remains a foundational challenge in industrial NLP. While Large Language Models (LLMs) enable zero-shot extraction, traditional pipelines often fail to…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23481</guid>
+      <source url="https://arxiv.org/abs/2602.23481">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Humans and LLMs Diverge on Probabilistic Inferences</title>
+      <link>https://arxiv.org/abs/2602.23546</link>
+      <description><![CDATA[arXiv:2602.23546v1 Announce Type: new Abstract: Human reasoning often involves working over limited information to arrive at probabilistic conclusions. In its simplest form, this involves making an inference that is not strictly entailed by a premise, but rather only likely…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23546</guid>
+      <source url="https://arxiv.org/abs/2602.23546">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions</title>
+      <link>https://arxiv.org/abs/2602.23547</link>
+      <description><![CDATA[arXiv:2602.23547v1 Announce Type: new Abstract: Sentences like "She will go to France or Spain, or perhaps to Germany or France." appear formally redundant, yet become acceptable in contexts such as "Mary will go to a philosophy program in France or Spain, or a mathematics…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23547</guid>
+      <source url="https://arxiv.org/abs/2602.23547">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Multi-Agent Causal Reasoning for Suicide Ideation Detection Through Online Conversations</title>
+      <link>https://arxiv.org/abs/2602.23577</link>
+      <description><![CDATA[arXiv:2602.23577v1 Announce Type: new Abstract: Suicide remains a pressing global public health concern. While social media platforms offer opportunities for early risk detection through online conversation trees, existing approaches face two major limitations: (1) They rely on…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23577</guid>
+      <source url="https://arxiv.org/abs/2602.23577">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>BRIDGE the Gap: Mitigating Bias Amplification in Automated Scoring of English Language Learners via Inter-group Data Augmentation</title>
+      <link>https://arxiv.org/abs/2602.23580</link>
+      <description><![CDATA[arXiv:2602.23580v1 Announce Type: new Abstract: In the field of educational assessment, automated scoring systems increasingly rely on deep learning and large language models (LLMs). However, these systems face significant risks of bias amplification, where model prediction gaps…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Ethics &amp; Regulation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23580</guid>
+      <source url="https://arxiv.org/abs/2602.23580">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>LFQA-HP-1M: A Large-Scale Human Preference Dataset for Long-Form Question Answering</title>
+      <link>https://arxiv.org/abs/2602.23603</link>
+      <description><![CDATA[arXiv:2602.23603v1 Announce Type: new Abstract: Long-form question answering (LFQA) demands nuanced evaluation of multi-sentence explanatory responses, yet existing metrics often fail to reflect human judgment. We present LFQA-HP-1M, a large-scale dataset comprising 1.3M human…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23603</guid>
+      <source url="https://arxiv.org/abs/2602.23603">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>TRIZ-RAGNER: A Retrieval-Augmented Large Language Model for TRIZ-Aware Named Entity Recognition in Patent-Based Contradiction Mining</title>
+      <link>https://arxiv.org/abs/2602.23656</link>
+      <description><![CDATA[arXiv:2602.23656v1 Announce Type: new Abstract: TRIZ-based contradiction mining is a fundamental task in patent analysis and systematic innovation, as it enables the identification of improving and worsening technical parameters that drive inventive problem solving. However,…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23656</guid>
+      <source url="https://arxiv.org/abs/2602.23656">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>From Static Benchmarks to Dynamic Protocol: Agent-Centric Text Anomaly Detection for Evaluating LLM Reasoning</title>
+      <link>https://arxiv.org/abs/2602.23729</link>
+      <description><![CDATA[arXiv:2602.23729v1 Announce Type: new Abstract: The evaluation of large language models (LLMs) has predominantly relied on static datasets, which offer limited scalability and fail to capture the evolving reasoning capabilities of recent models. To overcome these limitations, we…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23729</guid>
+      <source url="https://arxiv.org/abs/2602.23729">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Structured Prompt Optimization for Few-Shot Text Classification via Semantic Alignment in Latent Space</title>
+      <link>https://arxiv.org/abs/2602.23753</link>
+      <description><![CDATA[arXiv:2602.23753v1 Announce Type: new Abstract: This study addresses the issues of semantic entanglement, unclear label structure, and insufficient feature representation in few-shot text classification, and proposes an optimization framework based on structured prompts to…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Ethics &amp; Regulation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23753</guid>
+      <source url="https://arxiv.org/abs/2602.23753">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Detoxifying LLMs via Representation Erasure-Based Preference Optimization</title>
+      <link>https://arxiv.org/abs/2602.23391</link>
+      <description><![CDATA[arXiv:2602.23391v1 Announce Type: new Abstract: Large language models (LLMs) trained on webscale data can produce toxic outputs, raising concerns for safe deployment. Prior defenses, based on applications of DPO, NPO, and similar algorithms, reduce the likelihood of harmful…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23391</guid>
+      <source url="https://arxiv.org/abs/2602.23391">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>U-CAN: Utility-Aware Contrastive Attenuation for Efficient Unlearning in Generative Recommendation</title>
+      <link>https://arxiv.org/abs/2602.23400</link>
+      <description><![CDATA[arXiv:2602.23400v1 Announce Type: new Abstract: Generative Recommendation (GenRec) typically leverages Large Language Models (LLMs) to redefine personalization as an instruction-driven sequence generation task. However, fine-tuning on user logs inadvertently encodes sensitive…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23400</guid>
+      <source url="https://arxiv.org/abs/2602.23400">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Long Range Frequency Tuning for QML</title>
+      <link>https://arxiv.org/abs/2602.23409</link>
+      <description><![CDATA[arXiv:2602.23409v1 Announce Type: new Abstract: Quantum machine learning models using angle encoding naturally represent truncated Fourier series, providing universal function approximation capabilities with sufficient circuit depth. For unary fixed-frequency encodings, circuit…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23409</guid>
+      <source url="https://arxiv.org/abs/2602.23409">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Brain-OF: An Omnifunctional Foundation Model for fMRI, EEG and MEG</title>
+      <link>https://arxiv.org/abs/2602.23410</link>
+      <description><![CDATA[arXiv:2602.23410v1 Announce Type: new Abstract: Brain foundation models have achieved remarkable advances across a wide range of neuroscience tasks. However, most existing models are limited to a single functional modality, restricting their ability to exploit complementary…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23410</guid>
+      <source url="https://arxiv.org/abs/2602.23410">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>EvoX: Meta-Evolution for Automated Discovery</title>
+      <link>https://arxiv.org/abs/2602.23413</link>
+      <description><![CDATA[arXiv:2602.23413v1 Announce Type: new Abstract: Recent work such as AlphaEvolve has shown that combining LLM-driven optimization with evolutionary search can effectively improve programs, prompts, and algorithms across domains. In this paradigm, previously evaluated solutions…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23413</guid>
+      <source url="https://arxiv.org/abs/2602.23413">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Human Supervision as an Information Bottleneck: A Unified Theory of Error Floors in Human-Guided Learning</title>
+      <link>https://arxiv.org/abs/2602.23446</link>
+      <description><![CDATA[arXiv:2602.23446v1 Announce Type: new Abstract: Large language models are trained primarily on human-generated data and feedback, yet they exhibit persistent errors arising from annotation noise, subjective preferences, and the limited expressive bandwidth of natural language.…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23446</guid>
+      <source url="https://arxiv.org/abs/2602.23446">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Global Interpretability via Automated Preprocessing: A Framework Inspired by Psychiatric Questionnaires</title>
+      <link>https://arxiv.org/abs/2602.23459</link>
+      <description><![CDATA[arXiv:2602.23459v1 Announce Type: new Abstract: Psychiatric questionnaires are highly context sensitive and often only weakly predict subsequent symptom severity, which makes the prognostic relationship difficult to learn. Although flexible nonlinear models can improve…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23459</guid>
+      <source url="https://arxiv.org/abs/2602.23459">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Uncertainty-aware Language Guidance for Concept Bottleneck Models</title>
+      <link>https://arxiv.org/abs/2602.23495</link>
+      <description><![CDATA[arXiv:2602.23495v1 Announce Type: new Abstract: Concept Bottleneck Models (CBMs) provide inherent interpretability by first mapping input samples to high-level semantic concepts, followed by a combination of these concepts for the final classification. However, the annotation of…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23495</guid>
+      <source url="https://arxiv.org/abs/2602.23495">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments</title>
+      <link>https://arxiv.org/abs/2602.23504</link>
+      <description><![CDATA[arXiv:2602.23504v1 Announce Type: new Abstract: Federated Learning (FL) enables a group of clients to collaboratively train a model without sharing individual data, but its performance drops when client data are heterogeneous. Clustered FL tackles this by grouping similar…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23504</guid>
+      <source url="https://arxiv.org/abs/2602.23504">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Sample Size Calculations for Developing Clinical Prediction Models: Overview and pmsims R package</title>
+      <link>https://arxiv.org/abs/2602.23507</link>
+      <description><![CDATA[arXiv:2602.23507v1 Announce Type: new Abstract: Background: Clinical prediction models are increasingly used to inform healthcare decisions, but determining the minimum sample size for their development remains a critical and unresolved challenge. Inadequate sample sizes can…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23507</guid>
+      <source url="https://arxiv.org/abs/2602.23507">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Neural Operators Can Discover Functional Clusters</title>
+      <link>https://arxiv.org/abs/2602.23528</link>
+      <description><![CDATA[arXiv:2602.23528v1 Announce Type: new Abstract: Operator learning is reshaping scientific computing by amortizing inference across infinite families of problems. While neural operators (NOs) are increasingly well understood for regression, far less is known for classification…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23528</guid>
+      <source url="https://arxiv.org/abs/2602.23528">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Active Value Querying to Minimize Additive Error in Subadditive Set Function Learning</title>
+      <link>https://arxiv.org/abs/2602.23529</link>
+      <description><![CDATA[arXiv:2602.23529v1 Announce Type: new Abstract: Subadditive set functions play a pivotal role in computational economics (especially in combinatorial auctions), combinatorial optimization or artificial intelligence applications such as interpretable machine learning. However,…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23529</guid>
+      <source url="https://arxiv.org/abs/2602.23529">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Rudder: Steering Prefetching in Distributed GNN Training using LLM Agents</title>
+      <link>https://arxiv.org/abs/2602.23556</link>
+      <description><![CDATA[arXiv:2602.23556v1 Announce Type: new Abstract: Large-scale Graph Neural Networks (GNNs) are typically trained by sampling a vertex's neighbors to a fixed distance. Because large input graphs are distributed, training requires frequent irregular communication that stalls forward…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23556</guid>
+      <source url="https://arxiv.org/abs/2602.23556">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Dynamics of Learning under User Choice: Overspecialization and Peer-Model Probing</title>
+      <link>https://arxiv.org/abs/2602.23565</link>
+      <description><![CDATA[arXiv:2602.23565v1 Announce Type: new Abstract: In many economically relevant contexts where machine learning is deployed, multiple platforms obtain data from the same pool of users, each of whom selects the platform that best serves them. Prior work in this setting focuses…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23565</guid>
+      <source url="https://arxiv.org/abs/2602.23565">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Flowette: Flow Matching with Graphette Priors for Graph Generation</title>
+      <link>https://arxiv.org/abs/2602.23566</link>
+      <description><![CDATA[arXiv:2602.23566v1 Announce Type: new Abstract: We study generative modeling of graphs with recurring subgraph motifs. We propose Flowette, a continuous flow matching framework, that employs a graph neural network based transformer to learn a velocity field defined over graph…]]></description>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.23566</guid>
+      <source url="https://arxiv.org/abs/2602.23566">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>[R] Anyone who can review my work and vouch for me on arXiv?</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rijm23/r_anyone_who_can_review_my_work_and_vouch_for_me/</link>
+      <description><![CDATA[I'm a software engineer who spent a good amount of time researching (privately and as a hobby) on AI. I eventually came up with a couple of what I think are good ideas, that might be legit contributions to the community. Being alone and without a network, I'm seeking someone who…]]></description>
+      <pubDate>Mon, 02 Mar 2026 04:50:34 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rijm23/r_anyone_who_can_review_my_work_and_vouch_for_me/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1rijm23/r_anyone_who_can_review_my_work_and_vouch_for_me/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>@unknown: 🔥Useful AI tools for generating and editing video content
+
+AI-powered video gen...</title>
+      <link>https://x.com/unknown/status/2028331815048712308</link>
+      <description><![CDATA[🔥Useful AI tools for generating and editing video content
+
+AI-powered video generation:
+
+- Gemini Veo 3.1 (https://t.co/orjvC0VoMc)
+- Sora 2 (https://t.co/HNnQoDpFn6)
+- Runway (Gen-4.5) https://t.co/vX9rEWR6qg
+- Kling (https://t.co/Hu4ikur27t…)
+- Pika Labs…]]></description>
+      <pubDate>Mon, 02 Mar 2026 04:49:23 GMT</pubDate>
+      <category>Voice &amp; Audio</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028331815048712308</guid>
+      <source url="https://x.com/unknown/status/2028331815048712308">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: @suni_code Building Dashform — the first form builder designed for agent use. AI...</title>
+      <link>https://x.com/unknown/status/2028328502014189814</link>
+      <description><![CDATA[@suni_code Building Dashform — the first form builder designed for agent use. AI agents create lead qualification quizzes via CLI, MCP server lets any agent framework orchestrate it. B2B teams get 60% fewer unqualified leads, 40% better close rate. https://t.co/Lw71Fo6Agu]]></description>
+      <pubDate>Mon, 02 Mar 2026 04:36:14 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028328502014189814</guid>
+      <source url="https://x.com/unknown/status/2028328502014189814">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: @gregisenberg Already building this. Dashform is the first form builder designed...</title>
+      <link>https://x.com/unknown/status/2028323463304450416</link>
+      <description><![CDATA[@gregisenberg Already building this. Dashform is the first form builder designed for agent use. Your AI agent creates a lead qualification quiz via CLI in 3 min, MCP server lets any agent framework orchestrate it. The agent-native version of Typeform, basically.…]]></description>
+      <pubDate>Mon, 02 Mar 2026 04:16:12 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028323463304450416</guid>
+      <source url="https://x.com/unknown/status/2028323463304450416">X/@unknown</source>
+    </item>
+    <item>
+      <title>[D] Self-Promotion Thread</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rihows/d_selfpromotion_thread/</link>
+      <description><![CDATA[Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse…]]></description>
+      <pubDate>Mon, 02 Mar 2026 03:15:30 GMT</pubDate>
       <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/</guid>
-      <source url="https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/">TechCrunch AI</source>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rihows/d_selfpromotion_thread/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1rihows/d_selfpromotion_thread/">r/MachineLearning</source>
     </item>
     <item>
-      <title>India&apos;s female workers watching hours of abusive content to train AI</title>
-      <link>https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai</link>
-      <description><![CDATA[Article URL: https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai Comments URL: https://news.ycombinator.com/item?id=46906590 Points: 127 # Comments: 198]]></description>
-      <pubDate>Thu, 05 Feb 2026 22:55:11 GMT</pubDate>
+      <title>[R] Toward Guarantees for Clinical Reasoning in Vision Language Models via Formal Verification</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rih9kk/r_toward_guarantees_for_clinical_reasoning_in/</link>
+      <description><![CDATA[AI (VLM-based) radiology models can sound confident and still be wrong ; hallucinating diagnoses that their own findings don't support. This is a silent, and dangerous failure mode. Our new paper introduces a verification layer that checks every diagnostic claim an AI makes…]]></description>
+      <pubDate>Mon, 02 Mar 2026 02:55:12 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rih9kk/r_toward_guarantees_for_clinical_reasoning_in/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1rih9kk/r_toward_guarantees_for_clinical_reasoning_in/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>[P] easy-torch-tpu: Making it easy to train PyTorch-based models on Google TPUs</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rigxhy/p_easytorchtpu_making_it_easy_to_train/</link>
+      <description><![CDATA[I've been working with Google TPU clusters for a few months now, and using PyTorch/XLA to train PyTorch-based models on them has frankly been a pain in the neck. To make it easier for everyone else, I'm releasing the training framework that I developed to support my own…]]></description>
+      <pubDate>Mon, 02 Mar 2026 02:39:21 GMT</pubDate>
       <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai</guid>
-      <source url="https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai">Hacker News AI</source>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rigxhy/p_easytorchtpu_making_it_easy_to_train/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1rigxhy/p_easytorchtpu_making_it_easy_to_train/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>Claude hits #1 on the App Store as users rally behind Anthropic</title>
+      <link>https://9to5mac.com/2026/03/01/claude-hits-1-on-the-app-store-as-users-rally-behind-anthropics-government-standoff/</link>
+      <description><![CDATA[Article URL: https://9to5mac.com/2026/03/01/claude-hits-1-on-the-app-store-as-users-rally-behind-anthropics-government-standoff/ Comments URL: https://news.ycombinator.com/item?id=47213124 Points: 99 # Comments: 2]]></description>
+      <pubDate>Mon, 02 Mar 2026 02:23:50 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://9to5mac.com/2026/03/01/claude-hits-1-on-the-app-store-as-users-rally-behind-anthropics-government-standoff/</guid>
+      <source url="https://9to5mac.com/2026/03/01/claude-hits-1-on-the-app-store-as-users-rally-behind-anthropics-government-standoff/">Hacker News AI</source>
+    </item>
+    <item>
+      <title>@unknown: @enunomaduro @opencode @taylorotwell Same energy. We built Dashform to be used e...</title>
+      <link>https://x.com/unknown/status/2028294785086451948</link>
+      <description><![CDATA[@enunomaduro @opencode @taylorotwell Same energy. We built Dashform to be used entirely from the terminal + agents. AI builds adaptive quiz, deploys it, qualifies leads. MCP server means any agent framework can orchestrate it. Agent-first everything. https://t.co/hVlVTuXlQ4.]]></description>
+      <pubDate>Mon, 02 Mar 2026 02:22:15 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028294785086451948</guid>
+      <source url="https://x.com/unknown/status/2028294785086451948">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: @gregisenberg We&apos;re this. Dashform wraps an AI agent around the lead qualificati...</title>
+      <link>https://x.com/unknown/status/2028290918110187914</link>
+      <description><![CDATA[@gregisenberg We're this. Dashform wraps an AI agent around the lead qualification workflow. CLI creates adaptive quiz from a prompt, scores leads, routes to CRM. Entire vertical workflow, agent-operated. CLI + MCP, any framework plugs in. https://t.co/hVlVTuXlQ4.]]></description>
+      <pubDate>Mon, 02 Mar 2026 02:06:53 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028290918110187914</guid>
+      <source url="https://x.com/unknown/status/2028290918110187914">X/@unknown</source>
+    </item>
+    <item>
+      <title>If AI writes code, should the session be part of the commit?</title>
+      <link>https://github.com/mandel-macaque/memento</link>
+      <description><![CDATA[Article URL: https://github.com/mandel-macaque/memento Comments URL: https://news.ycombinator.com/item?id=47212355 Points: 188 # Comments: 196]]></description>
+      <pubDate>Mon, 02 Mar 2026 00:27:52 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://github.com/mandel-macaque/memento</guid>
+      <source url="https://github.com/mandel-macaque/memento">Hacker News AI</source>
+    </item>
+    <item>
+      <title>@unknown: Yes, MIT’s NANDA report (July 2025) found exactly that: 95% of enterprise GenAI ...</title>
+      <link>https://x.com/unknown/status/2028260725278327215</link>
+      <description><![CDATA[Yes, MIT’s NANDA report (July 2025) found exactly that: 95% of enterprise GenAI pilots show zero measurable P&L impact, with only 5% scaling to production and delivering real value (often $2-10M+ in back-office automation savings).
+
+The gap isn’t flawed models but integration…]]></description>
+      <pubDate>Mon, 02 Mar 2026 00:06:54 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028260725278327215</guid>
+      <source url="https://x.com/unknown/status/2028260725278327215">X/@unknown</source>
+    </item>
+    <item>
+      <title>Right-sizes LLM models to your system&apos;s RAM, CPU, and GPU</title>
+      <link>https://github.com/AlexsJones/llmfit</link>
+      <description><![CDATA[Article URL: https://github.com/AlexsJones/llmfit Comments URL: https://news.ycombinator.com/item?id=47211830 Points: 115 # Comments: 27]]></description>
+      <pubDate>Sun, 01 Mar 2026 23:15:16 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://github.com/AlexsJones/llmfit</guid>
+      <source url="https://github.com/AlexsJones/llmfit">Hacker News AI</source>
+    </item>
+    <item>
+      <title>@unknown: Let&apos;s kill the confusion first.
+
+The most important thing to understand: You nev...</title>
+      <link>https://x.com/unknown/status/2028247107178783198</link>
+      <description><![CDATA[Let's kill the confusion first.
+
+The most important thing to understand: You never talk to the LLM directly. Ever.
+
+The flow is always:  
+YOU → AI coding agents → LLM
+
+AI coding agents (such as Cursor, Copilot, Claude Code) are tools that interact with AI to generate code.]]></description>
+      <pubDate>Sun, 01 Mar 2026 23:12:48 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028247107178783198</guid>
+      <source url="https://x.com/unknown/status/2028247107178783198">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: 2/ Here&apos;s what it covers:
+
+→ Week 1: Build your first agent, add MCP servers and...</title>
+      <link>https://x.com/unknown/status/2028242987051045062</link>
+      <description><![CDATA[2/ Here's what it covers:
+
+→ Week 1: Build your first agent, add MCP servers and memory
+→ Week 2: Multi-agent patterns — sequential, parallel, human-in-the-loop
+→ Week 3: Voice agents, multimodal, cross-framework orchestration
+→ Week 4: Security, evals, and production deployment]]></description>
+      <pubDate>Sun, 01 Mar 2026 22:56:25 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028242987051045062</guid>
+      <source url="https://x.com/unknown/status/2028242987051045062">X/@unknown</source>
+    </item>
+    <item>
+      <title>Running Qwen3.5 27b dense with 170k context at 100+t/s decode and ~1500t/s prefill on 2x3090 (with 585t/s throughput for 8 simultaneous requests)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rianwb/running_qwen35_27b_dense_with_170k_context_at/</link>
+      <description><![CDATA[Hi everyone! I've been trying to run the new Qwen models as efficiently as possible with my setup - and seem to have performance higher than I've seen around, so wanted to share my scripts and metrics! The above video is simulating ideal conditions - due to the nature of MTP, it…]]></description>
+      <pubDate>Sun, 01 Mar 2026 22:07:05 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rianwb/running_qwen35_27b_dense_with_170k_context_at/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1rianwb/running_qwen35_27b_dense_with_170k_context_at/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>Qwen3.5-397B Uncensored NVFP4</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1ri9enf/qwen35397b_uncensored_nvfp4/</link>
+      <description><![CDATA[&#32; submitted by &#32; /u/vpyno [link] &#32; [comments]]]></description>
+      <pubDate>Sun, 01 Mar 2026 21:17:56 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1ri9enf/qwen35397b_uncensored_nvfp4/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1ri9enf/qwen35397b_uncensored_nvfp4/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>@unknown: superset — open-source terminal for running 10+ AI coding agents in parallel on ...</title>
+      <link>https://x.com/unknown/status/2028217261237092511</link>
+      <description><![CDATA[superset — open-source terminal for running 10+ AI coding agents in parallel on your machine.
+
+each agent (Claude Code, Codex, Cursor Agent, Copilot, Gemini CLI) runs in an isolated git worktree. no merge conflicts, no shared state. review and merge when ready.
+
+feb 23 update…]]></description>
+      <pubDate>Sun, 01 Mar 2026 21:14:12 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028217261237092511</guid>
+      <source url="https://x.com/unknown/status/2028217261237092511">X/@unknown</source>
+    </item>
+    <item>
+      <title>[R] Detecting invariant manifolds in ReLU-based RNNs</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1ri6c62/r_detecting_invariant_manifolds_in_relubased_rnns/</link>
+      <description><![CDATA[In a new #ICLR2026 publication we provide a novel algorithm for semi-analytically constructing the stable and unstable manifolds of fixed points and cycles of ReLU-based RNNs: https://openreview.net/pdf?id=EAwLAwHvhk Why is this important? Because it provides insight into why…]]></description>
+      <pubDate>Sun, 01 Mar 2026 19:22:20 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1ri6c62/r_detecting_invariant_manifolds_in_relubased_rnns/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1ri6c62/r_detecting_invariant_manifolds_in_relubased_rnns/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>13 months since the DeepSeek moment, how far have we gone running models locally?</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1ri635s/13_months_since_the_deepseek_moment_how_far_have/</link>
+      <description><![CDATA[Once upon a time there was a tweet from an engineer at Hugging Face explaining how to run the frontier level DeepSeek R1 @ Q8 at ~5 tps for about $6000. Now at around the same speed, with this $600 mini PC, you can run the highly superior Qwen3-27B @ Q4. But if you want more…]]></description>
+      <pubDate>Sun, 01 Mar 2026 19:13:04 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1ri635s/13_months_since_the_deepseek_moment_how_far_have/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1ri635s/13_months_since_the_deepseek_moment_how_far_have/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>Claude dethrones ChatGPT as top U.S. app after Pentagon saga</title>
+      <link>https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon</link>
+      <description><![CDATA[Article URL: https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon Comments URL: https://news.ycombinator.com/item?id=47209443 Points: 90 # Comments: 7]]></description>
+      <pubDate>Sun, 01 Mar 2026 18:41:03 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon</guid>
+      <source url="https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon">Hacker News AI</source>
+    </item>
+    <item>
+      <title>[R] CVPR 2026 Camera Ready Paper</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1ri4zk2/r_cvpr_2026_camera_ready_paper/</link>
+      <description><![CDATA[Hi everyone, This is the first time I had an experience with a top machine learning conference. My paper was accepted for CVPR findings, I wanted to know what is the process of submitting the final version? I don't see any task/portal on the OpenReview website, nor does the CVPR…]]></description>
+      <pubDate>Sun, 01 Mar 2026 18:33:09 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1ri4zk2/r_cvpr_2026_camera_ready_paper/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1ri4zk2/r_cvpr_2026_camera_ready_paper/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>Qwen3.5 35b a3b first small model to not hallucinate summarising 50k token text</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1ri39a4/qwen35_35b_a3b_first_small_model_to_not/</link>
+      <description><![CDATA[I've always ran this test to see how models did for long-ish text reasoning. It's the first chapters of a text I wrote and will never be online to make sure it's never polluting the training set of these models. So far every model failed in the <=4b active parameters models I…]]></description>
+      <pubDate>Sun, 01 Mar 2026 17:30:04 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1ri39a4/qwen35_35b_a3b_first_small_model_to_not/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1ri39a4/qwen35_35b_a3b_first_small_model_to_not/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>[P] R2IR &amp; R2ID: Resolution Invariant Image Resampler and Diffuser - Trained on 1:1 32x32 images, generalized to arbitrary aspect ratio and resolution, diffuses 4MP images at 4 steps per second.</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1ri2rwx/p_r2ir_r2id_resolution_invariant_image_resampler/</link>
+      <description><![CDATA[This is a continuation of my ongoing project. The previous posts can be found here and here; formerly known as S2ID and SIID before that. Since then, a lot has changed, and R2IR and R2ID work very differently. You can read into the previous stages, but it's not necessary. The…]]></description>
+      <pubDate>Sun, 01 Mar 2026 17:12:05 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1ri2rwx/p_r2ir_r2id_resolution_invariant_image_resampler/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1ri2rwx/p_r2ir_r2id_resolution_invariant_image_resampler/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>Breaking : Today Qwen 3.5 small</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1ri2irg/breaking_today_qwen_35_small/</link>
+      <description><![CDATA[&#32; submitted by &#32; /u/Illustrious-Swim9663 [link] &#32; [comments]]]></description>
+      <pubDate>Sun, 01 Mar 2026 17:02:31 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1ri2irg/breaking_today_qwen_35_small/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1ri2irg/breaking_today_qwen_35_small/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>@unknown: This video isn&apos;t made with any AI video generation tools (like Sora, Kling, Luma...</title>
+      <link>https://x.com/unknown/status/2028143115551244302</link>
+      <description><![CDATA[This video isn't made with any AI video generation tools (like Sora, Kling, Luma, or Runway). It's a satirical meme edit using existing 2D anime clips—mostly from Psycho-Pass style news scenes for the anchor, plus other anime footage for the character shouting in Arabic…]]></description>
+      <pubDate>Sun, 01 Mar 2026 16:19:34 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028143115551244302</guid>
+      <source url="https://x.com/unknown/status/2028143115551244302">X/@unknown</source>
+    </item>
+    <item>
+      <title>[D] Simple Questions Thread</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1ri0vz3/d_simple_questions_thread/</link>
+      <description><![CDATA[Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the…]]></description>
+      <pubDate>Sun, 01 Mar 2026 16:00:43 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1ri0vz3/d_simple_questions_thread/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1ri0vz3/d_simple_questions_thread/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>@unknown: If you run something like Codex CLI in your computer in your local repo, Codex C...</title>
+      <link>https://x.com/unknown/status/2028131613557596663</link>
+      <description><![CDATA[If you run something like Codex CLI in your computer in your local repo, Codex CLI will call a GPT 5.2-codex server API on OpenAI server. Your repo is local, but the LLM is running in a server. That's the setup most people have when they say they run agents on their own machine.…]]></description>
+      <pubDate>Sun, 01 Mar 2026 15:33:52 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2028131613557596663</guid>
+      <source url="https://x.com/unknown/status/2028131613557596663">X/@unknown</source>
+    </item>
+    <item>
+      <title>Why XML tags are so fundamental to Claude</title>
+      <link>https://glthr.com/XML-fundamental-to-Claude</link>
+      <description><![CDATA[Article URL: https://glthr.com/XML-fundamental-to-Claude Comments URL: https://news.ycombinator.com/item?id=47207236 Points: 196 # Comments: 133]]></description>
+      <pubDate>Sun, 01 Mar 2026 14:52:22 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://glthr.com/XML-fundamental-to-Claude</guid>
+      <source url="https://glthr.com/XML-fundamental-to-Claude">Hacker News AI</source>
+    </item>
+    <item>
+      <title>[P] Building A Tensor micrograd</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rhyjp1/p_building_a_tensor_micrograd/</link>
+      <description><![CDATA[Hi! We're all aware of Andrej Karpathy's micrograd package and his amazing lecture on it. When I saw it a while ago, I was curious how one can develop it into a more standard vectorized package rather than one built on invididual Python floats. If we just want to wrap our…]]></description>
+      <pubDate>Sun, 01 Mar 2026 14:25:02 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rhyjp1/p_building_a_tensor_micrograd/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1rhyjp1/p_building_a_tensor_micrograd/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>AI Made Writing Code Easier. It Made Being an Engineer Harder</title>
+      <link>https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/</link>
+      <description><![CDATA[Article URL: https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/ Comments URL: https://news.ycombinator.com/item?id=47206824 Points: 382 # Comments: 301]]></description>
+      <pubDate>Sun, 01 Mar 2026 14:09:24 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/</guid>
+      <source url="https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/">Hacker News AI</source>
+    </item>
+    <item>
+      <title>AI is making junior devs useless</title>
+      <link>https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/</link>
+      <description><![CDATA[Article URL: https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/ Comments URL: https://news.ycombinator.com/item?id=47206663 Points: 179 # Comments: 326]]></description>
+      <pubDate>Sun, 01 Mar 2026 13:49:21 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/</guid>
+      <source url="https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/">Hacker News AI</source>
+    </item>
+    <item>
+      <title>Reverse engineered Apple Neural Engine(ANE) to train Microgpt</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rhx5pc/reverse_engineered_apple_neural_engineane_to/</link>
+      <description><![CDATA[Why? Because i bought a mac mini M4 and I wanted to leverage its compute for my compiler project Training on Metal(GPU) is well known but ANE is a black box and Apple doesn't talk about it. So I harnessed Claude to reverse engineer the ANE private APIs , run benchmarks by…]]></description>
+      <pubDate>Sun, 01 Mar 2026 13:21:55 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rhx5pc/reverse_engineered_apple_neural_engineane_to/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1rhx5pc/reverse_engineered_apple_neural_engineane_to/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>Qwen3.5 Small Dense model release seems imminent.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rhwo08/qwen35_small_dense_model_release_seems_imminent/</link>
+      <description><![CDATA[&#32; submitted by &#32; /u/Deep-Vermicelli-4591 [link] &#32; [comments]]]></description>
+      <pubDate>Sun, 01 Mar 2026 12:58:37 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rhwo08/qwen35_small_dense_model_release_seems_imminent/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1rhwo08/qwen35_small_dense_model_release_seems_imminent/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>Dense (non-thinking) &gt; MoE? Qwen-3.5-27B is blowing me away in coding</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rhw16v/dense_nonthinking_moe_qwen3527b_is_blowing_me/</link>
+      <description><![CDATA[Vibe-coded this Python program from chat.qwen.ai (Fast mode) using Qwen-3.5-27B by just providing it with OpenRouter's Quickstart python snippet on how to use their API. Took about 1 hour with only about 7 errors total (mostly was from adding features and two of the errors are…]]></description>
+      <pubDate>Sun, 01 Mar 2026 12:25:32 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rhw16v/dense_nonthinking_moe_qwen3527b_is_blowing_me/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1rhw16v/dense_nonthinking_moe_qwen3527b_is_blowing_me/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>PSA: If your local coding agent feels &quot;dumb&quot; at 30k+ context, check your KV cache quantization first.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rhvi09/psa_if_your_local_coding_agent_feels_dumb_at_30k/</link>
+      <description><![CDATA[I’ve been seeing a lot of posts lately about models like Qwen3-Coder or GLM 4.7 getting trapped in infinite correction loops or hallucinating tool-call parameters once the context gets deep. The usual advice is to switch to a higher precision GGUF or tweak the system prompt. But…]]></description>
+      <pubDate>Sun, 01 Mar 2026 11:55:51 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rhvi09/psa_if_your_local_coding_agent_feels_dumb_at_30k/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1rhvi09/psa_if_your_local_coding_agent_feels_dumb_at_30k/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>I built a demo of what AI chat will look like when it&apos;s “free” and ad-supported</title>
+      <link>https://99helpers.com/tools/ad-supported-chat</link>
+      <description><![CDATA[Article URL: https://99helpers.com/tools/ad-supported-chat Comments URL: https://news.ycombinator.com/item?id=47205890 Points: 535 # Comments: 284]]></description>
+      <pubDate>Sun, 01 Mar 2026 11:49:01 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://99helpers.com/tools/ad-supported-chat</guid>
+      <source url="https://99helpers.com/tools/ad-supported-chat">Hacker News AI</source>
+    </item>
+    <item>
+      <title>we need to go deeper</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rhvabz/we_need_to_go_deeper/</link>
+      <description><![CDATA[Looks like it’ll happen on Monday, but some of you also predicted Tuesday. &#32; submitted by &#32; /u/jacek2023 [link] &#32; [comments]]]></description>
+      <pubDate>Sun, 01 Mar 2026 11:43:26 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rhvabz/we_need_to_go_deeper/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1rhvabz/we_need_to_go_deeper/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>[R] Benchmarked 94 LLM endpoints for jan 2026. open source is now within 5 quality points of proprietary</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rhuwyt/r_benchmarked_94_llm_endpoints_for_jan_2026_open/</link>
+      <description><![CDATA[been doing a deep dive on model selection for production inference and pulled togethar some numbers from whatllm.org's january 2026 report... thought it was worth sharing because the trajectory is moving faster than i expected quick context on the scoring,, they use a quality…]]></description>
+      <pubDate>Sun, 01 Mar 2026 11:21:16 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rhuwyt/r_benchmarked_94_llm_endpoints_for_jan_2026_open/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1rhuwyt/r_benchmarked_94_llm_endpoints_for_jan_2026_open/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>Switch to Claude without starting over</title>
+      <link>https://claude.com/import-memory</link>
+      <description><![CDATA[Article URL: https://claude.com/import-memory Comments URL: https://news.ycombinator.com/item?id=47204571 Points: 551 # Comments: 253]]></description>
+      <pubDate>Sun, 01 Mar 2026 07:36:52 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://claude.com/import-memory</guid>
+      <source url="https://claude.com/import-memory">Hacker News AI</source>
+    </item>
+    <item>
+      <title>Investment in AI-resistant ‘Halo’ companies helps push UK and EU markets to record highs</title>
+      <link>https://www.theguardian.com/business/2026/mar/01/investment-ai-resistant-halo-companies-uk-eu-markets-goldman-sachs</link>
+      <description><![CDATA[Investors are shifting toward physical assets that are partially insulated from disruption, says Goldman SachsInvestors have a new mantra as they prepare for AI to shake up the global economy – the Halo trade.Interest in Halo – short for “heavy assets, low obsolescence” - has…]]></description>
+      <pubDate>Sun, 01 Mar 2026 07:00:36 GMT</pubDate>
+      <category>Strategy &amp; Opinion</category>
+      <guid isPermaLink="true">https://www.theguardian.com/business/2026/mar/01/investment-ai-resistant-halo-companies-uk-eu-markets-goldman-sachs</guid>
+      <source url="https://www.theguardian.com/business/2026/mar/01/investment-ai-resistant-halo-companies-uk-eu-markets-goldman-sachs">Guardian AI</source>
+    </item>
+    <item>
+      <title>The U.S. used Anthropic AI tools during airstrikes on Iran</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rhogov/the_us_used_anthropic_ai_tools_during_airstrikes/</link>
+      <description><![CDATA[Hours after announcing that the federal government would cease using artificial intelligence tools developed by the tech company Anthropic, U.S. President Trump utilized those very tools to launch a massive airstrike against Iran. Sources familiar with the matter confirmed that…]]></description>
+      <pubDate>Sun, 01 Mar 2026 05:02:45 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rhogov/the_us_used_anthropic_ai_tools_during_airstrikes/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1rhogov/the_us_used_anthropic_ai_tools_during_airstrikes/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>[R] CVPR&apos;26 SPAR-3D Workshop Call For Papers</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rhnyg0/r_cvpr26_spar3d_workshop_call_for_papers/</link>
+      <description><![CDATA[If you are working on 3D vision models, please consider submitting your work to the SPAR-3D workshop at CVPR! :) The submission deadline has been extended to March 21, 2026. Workshop website: https://www.spar3d.org/ We welcome research on security, privacy, adversarial…]]></description>
+      <pubDate>Sun, 01 Mar 2026 04:36:48 GMT</pubDate>
+      <category>Ethics &amp; Regulation</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rhnyg0/r_cvpr26_spar3d_workshop_call_for_papers/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1rhnyg0/r_cvpr26_spar3d_workshop_call_for_papers/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>#492 – Rick Beato: Greatest Guitarists of All Time, History &amp; Future of Music</title>
+      <link>https://lexfridman.com/rick-beato/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rick-beato</link>
+      <description><![CDATA[Rick Beato is a music educator, interviewer, producer, songwriter, and a true multi-instrument musician, playing guitar, bass, cello &#38; piano. His incredible YouTube channel celebrates great musicians &#38; musical ideas, and helps millions of people fall in love with great…]]></description>
+      <pubDate>Sun, 01 Mar 2026 04:33:22 GMT</pubDate>
+      <category>Strategy &amp; Opinion</category>
+      <guid isPermaLink="true">https://lexfridman.com/rick-beato/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rick-beato</guid>
+      <source url="https://lexfridman.com/rick-beato/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rick-beato">Lex Fridman</source>
+    </item>
+    <item>
+      <title>[D] ICLR Workshop Results</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rhl1to/d_iclr_workshop_results/</link>
+      <description><![CDATA[The ICLR 26 websites mention that the mandatory notification for workshop paper accept/reject is 28 Feb 2026 (AoE). So has anyone received their decisions yet? &#32; submitted by &#32; /u/Klutzy-Childhood-126 [link] &#32; [comments]]]></description>
+      <pubDate>Sun, 01 Mar 2026 02:12:12 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rhl1to/d_iclr_workshop_results/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1rhl1to/d_iclr_workshop_results/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>Running a One Trillion-Parameter LLM Locally on AMD Ryzen AI Max+ Cluster</title>
+      <link>https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html</link>
+      <description><![CDATA[Article URL: https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html Comments URL: https://news.ycombinator.com/item?id=47202614 Points: 55 # Comments: 13]]></description>
+      <pubDate>Sun, 01 Mar 2026 01:24:54 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html</guid>
+      <source url="https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html">Hacker News AI</source>
+    </item>
+    <item>
+      <title>The trap Anthropic built for itself</title>
+      <link>https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/</link>
+      <description><![CDATA[Anthropic, OpenAI, Google DeepMind and others have long promised to govern themselves responsibly. Now, in the absence of rules, there's not a lot to protect them.]]></description>
+      <pubDate>Sun, 01 Mar 2026 00:08:58 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/</guid>
+      <source url="https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude becomes number one app on the U.S. App Store</title>
+      <link>https://apps.apple.com/us/iphone/charts</link>
+      <description><![CDATA[Article URL: https://apps.apple.com/us/iphone/charts Comments URL: https://news.ycombinator.com/item?id=47202032 Points: 192 # Comments: 55]]></description>
+      <pubDate>Sun, 01 Mar 2026 00:08:48 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://apps.apple.com/us/iphone/charts</guid>
+      <source url="https://apps.apple.com/us/iphone/charts">Hacker News AI</source>
+    </item>
+    <item>
+      <title>HN is drowning in AI comments</title>
+      <link>https://news.ycombinator.com/item?id=47201629</link>
+      <description><![CDATA[Dang, any updates on how you and the team were thinking of tackling this? It’s getting ridiculous. Last week was sort of okay but it’s much worse this weekend.Edit: This spiked on front page and now it’s completely gone. What is going on?Great. Flagged. Comments URL:…]]></description>
+      <pubDate>Sat, 28 Feb 2026 23:26:59 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47201629</guid>
+      <source url="https://news.ycombinator.com/item?id=47201629">Hacker News AI</source>
+    </item>
+    <item>
+      <title>Interactive explanations</title>
+      <link>https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything</link>
+      <description><![CDATA[Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt. For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough…]]></description>
+      <pubDate>Sat, 28 Feb 2026 23:09:39 GMT</pubDate>
+      <category>Strategy &amp; Opinion</category>
+      <guid isPermaLink="true">https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything</guid>
+      <source url="https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything">Simon Willison</source>
+    </item>
+    <item>
+      <title>Bare-Metal AI: Booting Directly Into LLM Inference ‚ No OS, No Kernel (Dell E6510)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rhg3p4/baremetal_ai_booting_directly_into_llm_inference/</link>
+      <description><![CDATA[someone asked me to post this here, said you gays would like this kinda thing. just a heads up, Im new to reddit, made my account a couple years ago, only now using it, A UEFI application that boots directly into LLM chat: no operating system, no kernel, no drivers(well sort…]]></description>
+      <pubDate>Sat, 28 Feb 2026 22:32:35 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rhg3p4/baremetal_ai_booting_directly_into_llm_inference/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1rhg3p4/baremetal_ai_booting_directly_into_llm_inference/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>Anthropic’s Claude rises to No. 2 in the App Store following Pentagon dispute</title>
+      <link>https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/</link>
+      <description><![CDATA[Anthropic’s chatbot Claude seems to have benefited from the attention around the company’s fraught negotiations with the Pentagon.]]></description>
+      <pubDate>Sat, 28 Feb 2026 21:05:06 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/</guid>
+      <source url="https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

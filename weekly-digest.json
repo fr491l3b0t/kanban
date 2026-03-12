@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-03-12T06:37:35.623Z",
+  "generatedAt": "2026-03-12T08:04:33.655Z",
   "window": {
-    "start": "2026-03-05T06:37:35.586Z",
-    "end": "2026-03-12T06:37:35.586Z",
+    "start": "2026-03-05T08:04:33.619Z",
+    "end": "2026-03-12T08:04:33.619Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 761,
+    "totalEntries": 751,
     "categoriesWithEntries": 10,
     "totalSelected": 28
   },
@@ -16,16 +16,9 @@
     "source": "Simon Willison",
     "date": "2026-03-10T22:25:09+00:00",
     "summary": "Agentic Engineering Patterns > Many developers worry that outsourcing their code to AI tools will result in a drop in quality, producing bad code that's churned out fast enough that decision makers are willing to overlook its flaws. If adopting coding agents demonstrably reduces the quality of the code and features you are producing, you should address that problem directly: figure out which aspects of your process are hurting the quality of your output and fix them. Shipping worse code with age",
-    "score": 0.775
+    "score": 0.773
   },
   "trending": [
-    {
-      "tag": "autonomous agents",
-      "count": 5,
-      "prevCount": 1,
-      "growth": 4,
-      "relevance": 4
-    },
     {
       "tag": "gpt",
       "count": 9,
@@ -35,6 +28,13 @@
     },
     {
       "tag": "anthropic pentagon",
+      "count": 5,
+      "prevCount": 2,
+      "growth": 1.5,
+      "relevance": 1.5
+    },
+    {
+      "tag": "agent framework",
       "count": 5,
       "prevCount": 2,
       "growth": 1.5,
@@ -76,18 +76,18 @@
       "relevance": 0.7
     },
     {
-      "tag": "agent framework",
-      "count": 5,
-      "prevCount": 3,
-      "growth": 0.67,
-      "relevance": 0.6666666666666666
+      "tag": "openai",
+      "count": 51,
+      "prevCount": 46,
+      "growth": 0.11,
+      "relevance": 0.6086956521739131
     },
     {
-      "tag": "openai",
-      "count": 52,
-      "prevCount": 45,
-      "growth": 0.16,
-      "relevance": 0.6555555555555556
+      "tag": "meta",
+      "count": 6,
+      "prevCount": 6,
+      "growth": 0,
+      "relevance": 0.5
     }
   ],
   "categories": {
@@ -98,7 +98,7 @@
         "source": "Simon Willison",
         "date": "2026-03-09T13:37:45+00:00",
         "summary": "A recurring concern I've seen regarding LLMs for programming is that they will push our technology choices towards the tools that are best represented in their training data, making it harder for n...",
-        "score": 0.745
+        "score": 0.744
       },
       {
         "title": "Codex for Open Source",
@@ -106,7 +106,7 @@
         "source": "Simon Willison",
         "date": "2026-03-07T18:13:39+00:00",
         "summary": "Codex for Open Source Anthropic announced six months of free Claude Max for maintainers of popular open source projects (5,000+ stars or 1M+ NPM downloads) on 27th February. Now OpenAI have launche...",
-        "score": 0.707
+        "score": 0.705
       },
       {
         "title": "Copilot Cowork, Anthropic’s Integration, Microsoft’s New Bundle",
@@ -114,7 +114,7 @@
         "source": "Stratechery",
         "date": "Tue, 10 Mar 2026 10:00:00 +0000",
         "summary": "Microsoft is seeking to commoditize its complements, but Anthropic has a point of integration of their own; it's good enough that Microsoft is making a new bundle on top of it.",
-        "score": 0.703
+        "score": 0.702
       }
     ],
     "AI Tools & Platforms": [
@@ -124,7 +124,7 @@
         "source": "Simon Willison",
         "date": "2026-03-10T22:25:09+00:00",
         "summary": "Agentic Engineering Patterns > Many developers worry that outsourcing their code to AI tools will result in a drop in quality, producing bad code that's churned out fast enough that decision makers...",
-        "score": 0.775
+        "score": 0.773
       },
       {
         "title": "Production query plans without production data",
@@ -132,7 +132,7 @@
         "source": "Simon Willison",
         "date": "2026-03-09T15:05:15+00:00",
         "summary": "Production query plans without production data Radim Marek describes the new pg_restore_relation_stats() and pg_restore_attribute_stats() functions that were introduced in PostgreSQL 18 in Septembe...",
-        "score": 0.747
+        "score": 0.745
       },
       {
         "title": "OpenAI to acquire Promptfoo",
@@ -140,7 +140,7 @@
         "source": "OpenAI Blog",
         "date": "Mon, 09 Mar 2026 10:00:00 GMT",
         "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
-        "score": 0.742
+        "score": 0.741
       }
     ],
     "Research & Papers": [
@@ -150,7 +150,7 @@
         "source": "Google AI Blog",
         "date": "Tue, 10 Mar 2026 13:00:00 +0000",
         "summary": "Today we announced new beta features for Gemini in Sheets to help you create, organize and edit entire sheets, from basic tasks to complex data analysis — just describe …",
-        "score": 0.706
+        "score": 0.705
       },
       {
         "title": "Congress must prevent AI surveillance. The Anthropic feud proves it | Ashley Gorski and Patrick Toomey",
@@ -158,7 +158,7 @@
         "source": "Guardian AI",
         "date": "Mon, 09 Mar 2026 10:00:45 GMT",
         "summary": "The company’s clash with the Pentagon is a fight over the future of American privacyThe US military wants to use its state-of-the-art AI tools to supercharge surveillance against Americans, making ...",
-        "score": 0.614
+        "score": 0.612
       },
       {
         "title": "@unknown: Another 15k like post that is wrong about an AI paper’s findings.\n\nAnd the commu...",
@@ -166,7 +166,7 @@
         "source": "X/@unknown",
         "date": "Sun Mar 08 18:34:14 +0000 2026",
         "summary": "Another 15k like post that is wrong about an AI paper’s findings.\n\nAnd the community note undersells how wrong: the creativity paper measured 61 people (underpowered) and found NO drop in creativit...",
-        "score": 0.562
+        "score": 0.56
       }
     ],
     "Strategy & Opinion": [
@@ -176,7 +176,7 @@
         "source": "X/@unknown",
         "date": "Sat Mar 07 22:44:41 +0000 2026",
         "summary": "Think AI whips up perfect viral content overnight with zero effort?\nSit down, be humble… let's debunk that myth right now.\nFirst #AIRealityCheck video is live: AI content creation – hype vs. realit...",
-        "score": 0.651
+        "score": 0.649
       },
       {
         "title": "‘I wish I could push ChatGPT off a cliff’: professors scramble to save critical thinking in an age of AI",
@@ -184,7 +184,7 @@
         "source": "Guardian AI",
         "date": "Tue, 10 Mar 2026 13:00:06 GMT",
         "summary": "As AI has upended the way students learn, academics worry about the future of the humanities - and society at largeLea Pao, a professor of literature at Stanford University, has been experimenting ...",
-        "score": 0.638
+        "score": 0.637
       },
       {
         "title": "Dean Ball on open models and government control",
@@ -192,7 +192,7 @@
         "source": "Interconnects AI",
         "date": "Fri, 06 Mar 2026 14:03:27 GMT",
         "summary": "Subtle precedents on the future of open models set by the unfolding Anthropic v. Department of War case.",
-        "score": 0.568
+        "score": 0.567
       }
     ],
     "Image & Video Generation": [
@@ -202,7 +202,7 @@
         "source": "OpenAI Blog",
         "date": "Tue, 10 Mar 2026 10:00:00 GMT",
         "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
-        "score": 0.763
+        "score": 0.762
       },
       {
         "title": "Ask a Techspert: How does AI understand my visual searches?",
@@ -210,7 +210,7 @@
         "source": "Google AI Blog",
         "date": "Thu, 05 Mar 2026 18:00:00 +0000",
         "summary": "Learn more about AI Mode in Search’s query fan-out method for visual search.",
-        "score": 0.603
+        "score": 0.602
       },
       {
         "title": "ChatGPT can now create interactive visuals to help you understand math and science concepts",
@@ -218,7 +218,7 @@
         "source": "TechCrunch AI",
         "date": "Tue, 10 Mar 2026 17:51:25 +0000",
         "summary": "On Tuesday, OpenAI introduced dynamic visual explanations, a new ChatGPT feature that allows users to see how formulas, variables, and mathematical relationships change in real time. Instead of jus...",
-        "score": 0.587
+        "score": 0.586
       }
     ],
     "Workflow & Automation": [
@@ -228,7 +228,7 @@
         "source": "X/@unknown",
         "date": "Mon Mar 09 18:00:02 +0000 2026",
         "summary": "🤖 AI.  💬 Engage\n\nPrompt Engineering frustrations\n\nWhat frustrates you most about Prompt Engineering? \n\n→ Hallucinations/inaccuracy \n→ Inconsistent outputs \n→ Cost at scale \n→ Latency \n→ The hype ...",
-        "score": 0.583
+        "score": 0.581
       },
       {
         "title": "@unknown: Another big question: is this limited to producing materials that use Microsoft ...",
@@ -236,7 +236,7 @@
         "source": "X/@unknown",
         "date": "Mon Mar 09 15:29:01 +0000 2026",
         "summary": "Another big question: is this limited to producing materials that use Microsoft Apps? How does it handle the fact that so much of what makes Claude Cowork interesting is the fact that it can improv...",
-        "score": 0.58
+        "score": 0.579
       },
       {
         "title": "@unknown: fashion video production is about to become unrecognizable.  \n\ni took OFF-White'...",
@@ -244,7 +244,7 @@
         "source": "X/@unknown",
         "date": "Fri Mar 06 14:58:37 +0000 2026",
         "summary": "fashion video production is about to become unrecognizable.  \n\ni took OFF-White's latest drop and created a full video ad from product photos.\n \nno model. no studio. no crew. no partnership.  \n\njus...",
-        "score": 0.579
+        "score": 0.578
       }
     ],
     "Industry & Business": [
@@ -254,7 +254,7 @@
         "source": "Simon Willison",
         "date": "2026-03-06T21:58:33+00:00",
         "summary": "Questions for developers: “What’s the one area you’re afraid to touch?” “When’s the last time you deployed on a Friday?” “What broke in production in the last 90 days that wasn’t caught by tests?” ...",
-        "score": 0.688
+        "score": 0.687
       },
       {
         "title": "Anthropic and the Pentagon",
@@ -262,7 +262,7 @@
         "source": "Simon Willison",
         "date": "2026-03-06T17:26:50+00:00",
         "summary": "Anthropic and the Pentagon This piece by Bruce Schneier and Nathan E. Sanders is the most thoughtful and grounded coverage I've seen of the recent and ongoing Pentagon/OpenAI/Anthropic contract sit...",
-        "score": 0.684
+        "score": 0.683
       },
       {
         "title": "Should we be boycotting ChatGPT? – podcast",
@@ -270,7 +270,7 @@
         "source": "Guardian AI",
         "date": "Wed, 11 Mar 2026 03:00:05 GMT",
         "summary": "Rutger Bregman on why he thinks consumers should cancel their ChatGPT accountsThe historian Rutger Bregman argues that consumers should boycott OpenAI’s ChatGPT after the company’s deal with the Pe...",
-        "score": 0.65
+        "score": 0.649
       }
     ],
     "Voice & Audio": [
@@ -280,7 +280,7 @@
         "source": "Hacker News AI",
         "date": "Tue, 10 Mar 2026 17:14:52 +0000",
         "summary": "Hi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx o...",
-        "score": 0.587
+        "score": 0.585
       },
       {
         "title": "DuplexCascade: Full-Duplex Speech-to-Speech Dialogue with VAD-Free Cascaded ASR-LLM-TTS Pipeline and Micro-Turn Optimization",
@@ -288,7 +288,7 @@
         "source": "arXiv cs.CL",
         "date": "Wed, 11 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.09180v1 Announce Type: new Abstract: Spoken dialog systems with cascaded ASR-LLM-TTS modules retain strong LLM intelligence, but VAD segmentation often forces half-duplex turns and britt...",
-        "score": 0.556
+        "score": 0.555
       },
       {
         "title": "Fish Audio Releases S2: open-source, controllable and expressive TTS model",
@@ -296,7 +296,7 @@
         "source": "r/LocalLLaMA",
         "date": "2026-03-10T10:34:03+00:00",
         "summary": "Fish Audio is open-sourcing S2, where you can direct voices for maximum expressivity with precision using natural language emotion tags like [whispers sweetly] or [laughing nervously]. You can gene...",
-        "score": 0.541
+        "score": 0.539
       }
     ],
     "Ethics & Regulation": [
@@ -306,7 +306,7 @@
         "source": "OpenAI Blog",
         "date": "Tue, 10 Mar 2026 11:00:00 GMT",
         "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
-        "score": 0.764
+        "score": 0.763
       },
       {
         "title": "Quoting Joseph Weizenbaum",
@@ -314,7 +314,7 @@
         "source": "Simon Willison",
         "date": "2026-03-08T14:59:48+00:00",
         "summary": "What I had not realized is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people. &mdash; Joseph Weizenbaum, creato...",
-        "score": 0.725
+        "score": 0.724
       },
       {
         "title": "Reasoning models struggle to control their chains of thought, and that’s good",
@@ -322,7 +322,7 @@
         "source": "OpenAI Blog",
         "date": "Thu, 05 Mar 2026 10:00:00 GMT",
         "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
-        "score": 0.656
+        "score": 0.655
       }
     ],
     "Australia": [
@@ -332,7 +332,7 @@
         "source": "Guardian AI",
         "date": "Thu, 05 Mar 2026 14:00:05 GMT",
         "summary": "Plans for agentic shopping assistants are under way at Australia’s major companies. Guardian Australia tested the technology after a string of mishapsGet our breaking news email, free app or daily ...",
-        "score": 0.532
+        "score": 0.53
       }
     ]
   }
