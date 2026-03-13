@@ -1,38 +1,24 @@
 {
-  "generatedAt": "2026-03-12T08:04:33.655Z",
+  "generatedAt": "2026-03-13T08:03:31.136Z",
   "window": {
-    "start": "2026-03-05T08:04:33.619Z",
-    "end": "2026-03-12T08:04:33.619Z",
+    "start": "2026-03-06T08:03:31.067Z",
+    "end": "2026-03-13T08:03:31.067Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 751,
+    "totalEntries": 819,
     "categoriesWithEntries": 10,
-    "totalSelected": 28
+    "totalSelected": 30
   },
   "storyOfTheWeek": {
-    "title": "AI should help us produce better code",
-    "url": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything",
+    "title": "MALUS - Clean Room as a Service",
+    "url": "https://simonwillison.net/2026/Mar/12/malus/#atom-everything",
     "source": "Simon Willison",
-    "date": "2026-03-10T22:25:09+00:00",
-    "summary": "Agentic Engineering Patterns > Many developers worry that outsourcing their code to AI tools will result in a drop in quality, producing bad code that's churned out fast enough that decision makers are willing to overlook its flaws. If adopting coding agents demonstrably reduces the quality of the code and features you are producing, you should address that problem directly: figure out which aspects of your process are hurting the quality of your output and fix them. Shipping worse code with age",
-    "score": 0.773
+    "date": "2026-03-12T20:08:55+00:00",
+    "summary": "MALUS - Clean Room as a Service Brutal satire on the whole vibe-porting license washing thing (previously): Finally, liberation from open source license obligations. Our proprietary AI robots independently recreate any open source project from scratch. The result? Legally distinct code with corporate-friendly licensing. No attribution. No copyleft. No problems.. I admit it took me a moment to confirm that this was a joke. Just too on-the-nose. Via Hacker News Tags: open-source, ai, generative-ai",
+    "score": 0.793
   },
   "trending": [
-    {
-      "tag": "gpt",
-      "count": 9,
-      "prevCount": 2,
-      "growth": 3.5,
-      "relevance": 4
-    },
-    {
-      "tag": "anthropic pentagon",
-      "count": 5,
-      "prevCount": 2,
-      "growth": 1.5,
-      "relevance": 1.5
-    },
     {
       "tag": "agent framework",
       "count": 5,
@@ -41,64 +27,86 @@
       "relevance": 1.5
     },
     {
-      "tag": "march 2026",
-      "count": 5,
-      "prevCount": 2,
-      "growth": 1.5,
-      "relevance": 1.5
-    },
-    {
-      "tag": "codex",
-      "count": 10,
-      "prevCount": 6,
-      "growth": 0.67,
-      "relevance": 1.1666666666666665
+      "tag": "llama",
+      "count": 6,
+      "prevCount": 4,
+      "growth": 0.5,
+      "relevance": 1
     },
     {
       "tag": "openai gpt-5",
-      "count": 7,
-      "prevCount": 0,
+      "count": 6,
+      "prevCount": 3,
       "growth": 1,
       "relevance": 1
     },
     {
-      "tag": "native computer",
-      "count": 5,
-      "prevCount": 0,
-      "growth": 1,
-      "relevance": 1
+      "tag": "gpt",
+      "count": 8,
+      "prevCount": 6,
+      "growth": 0.33,
+      "relevance": 0.8333333333333333
+    },
+    {
+      "tag": "meta",
+      "count": 8,
+      "prevCount": 6,
+      "growth": 0.33,
+      "relevance": 0.8333333333333333
+    },
+    {
+      "tag": "codex",
+      "count": 9,
+      "prevCount": 7,
+      "growth": 0.29,
+      "relevance": 0.7857142857142857
     },
     {
       "tag": "copilot",
-      "count": 12,
-      "prevCount": 10,
-      "growth": 0.2,
-      "relevance": 0.7
+      "count": 14,
+      "prevCount": 11,
+      "growth": 0.27,
+      "relevance": 0.7727272727272727
+    },
+    {
+      "tag": "march 2026",
+      "count": 5,
+      "prevCount": 3,
+      "growth": 0.67,
+      "relevance": 0.6666666666666666
+    },
+    {
+      "tag": "agentic",
+      "count": 18,
+      "prevCount": 17,
+      "growth": 0.06,
+      "relevance": 0.5588235294117647
     },
     {
       "tag": "openai",
       "count": 51,
-      "prevCount": 46,
-      "growth": 0.11,
-      "relevance": 0.6086956521739131
-    },
-    {
-      "tag": "meta",
-      "count": 6,
-      "prevCount": 6,
-      "growth": 0,
-      "relevance": 0.5
+      "prevCount": 49,
+      "growth": 0.04,
+      "relevance": 0.5408163265306123
     }
   ],
   "categories": {
     "AI Coding & Agents": [
+      {
+        "title": "Rakuten fixes issues twice as fast with Codex",
+        "url": "https://openai.com/index/rakuten",
+        "source": "OpenAI Blog",
+        "date": "Wed, 11 Mar 2026 13:00:00 GMT",
+        "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+        "score": 0.765
+      },
       {
         "title": "Perhaps not Boring Technology after all",
         "url": "https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything",
         "source": "Simon Willison",
         "date": "2026-03-09T13:37:45+00:00",
         "summary": "A recurring concern I've seen regarding LLMs for programming is that they will push our technology choices towards the tools that are best represented in their training data, making it harder for n...",
-        "score": 0.744
+        "score": 0.723
       },
       {
         "title": "Codex for Open Source",
@@ -106,41 +114,33 @@
         "source": "Simon Willison",
         "date": "2026-03-07T18:13:39+00:00",
         "summary": "Codex for Open Source Anthropic announced six months of free Claude Max for maintainers of popular open source projects (5,000+ stars or 1M+ NPM downloads) on 27th February. Now OpenAI have launche...",
-        "score": 0.705
-      },
-      {
-        "title": "Copilot Cowork, Anthropic’s Integration, Microsoft’s New Bundle",
-        "url": "https://stratechery.com/2026/copilot-cowork-anthropics-integration-microsofts-new-bundle/",
-        "source": "Stratechery",
-        "date": "Tue, 10 Mar 2026 10:00:00 +0000",
-        "summary": "Microsoft is seeking to commoditize its complements, but Anthropic has a point of integration of their own; it's good enough that Microsoft is making a new bundle on top of it.",
-        "score": 0.702
+        "score": 0.684
       }
     ],
     "AI Tools & Platforms": [
       {
-        "title": "AI should help us produce better code",
-        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything",
+        "title": "MALUS - Clean Room as a Service",
+        "url": "https://simonwillison.net/2026/Mar/12/malus/#atom-everything",
         "source": "Simon Willison",
-        "date": "2026-03-10T22:25:09+00:00",
-        "summary": "Agentic Engineering Patterns > Many developers worry that outsourcing their code to AI tools will result in a drop in quality, producing bad code that's churned out fast enough that decision makers...",
-        "score": 0.773
+        "date": "2026-03-12T20:08:55+00:00",
+        "summary": "MALUS - Clean Room as a Service Brutal satire on the whole vibe-porting license washing thing (previously): Finally, liberation from open source license obligations. Our proprietary AI robots indep...",
+        "score": 0.793
       },
       {
-        "title": "Production query plans without production data",
-        "url": "https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything",
+        "title": "Coding After Coders: The End of Computer Programming as We Know It",
+        "url": "https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything",
         "source": "Simon Willison",
-        "date": "2026-03-09T15:05:15+00:00",
-        "summary": "Production query plans without production data Radim Marek describes the new pg_restore_relation_stats() and pg_restore_attribute_stats() functions that were introduced in PostgreSQL 18 in Septembe...",
-        "score": 0.745
+        "date": "2026-03-12T19:23:44+00:00",
+        "summary": "Coding After Coders: The End of Computer Programming as We Know It Epic piece on AI-assisted development by Clive Thompson for the New York Times Magazine, who spoke to more than 70 software develo...",
+        "score": 0.792
       },
       {
-        "title": "OpenAI to acquire Promptfoo",
-        "url": "https://openai.com/index/openai-to-acquire-promptfoo",
-        "source": "OpenAI Blog",
-        "date": "Mon, 09 Mar 2026 10:00:00 GMT",
-        "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
-        "score": 0.741
+        "title": "Quoting John Carmack",
+        "url": "https://simonwillison.net/2026/Mar/11/john-carmack/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-03-11T14:47:09+00:00",
+        "summary": "It is hard for less experienced developers to appreciate how rarely architecting for future requirements / applications turns out net-positive. &mdash; John Carmack, a tweet in June 2021 Tags: john...",
+        "score": 0.766
       }
     ],
     "Research & Papers": [
@@ -150,7 +150,15 @@
         "source": "Google AI Blog",
         "date": "Tue, 10 Mar 2026 13:00:00 +0000",
         "summary": "Today we announced new beta features for Gemini in Sheets to help you create, organize and edit entire sheets, from basic tasks to complex data analysis — just describe …",
-        "score": 0.705
+        "score": 0.683
+      },
+      {
+        "title": "Gumloop lands $50M from Benchmark to turn every employee into an AI agent builder",
+        "url": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
+        "source": "TechCrunch AI",
+        "date": "Thu, 12 Mar 2026 15:30:00 +0000",
+        "summary": "As companies race to adopt AI, Benchmark general partner Everett Randle believes the key to success lies in empowering every worker with AI superpowers, and Gumloop’s intuitive agent builder is an ...",
+        "score": 0.605
       },
       {
         "title": "Congress must prevent AI surveillance. The Anthropic feud proves it | Ashley Gorski and Patrick Toomey",
@@ -158,41 +166,33 @@
         "source": "Guardian AI",
         "date": "Mon, 09 Mar 2026 10:00:45 GMT",
         "summary": "The company’s clash with the Pentagon is a fight over the future of American privacyThe US military wants to use its state-of-the-art AI tools to supercharge surveillance against Americans, making ...",
-        "score": 0.612
-      },
-      {
-        "title": "@unknown: Another 15k like post that is wrong about an AI paper’s findings.\n\nAnd the commu...",
-        "url": "https://x.com/unknown/status/2030713722365260186",
-        "source": "X/@unknown",
-        "date": "Sun Mar 08 18:34:14 +0000 2026",
-        "summary": "Another 15k like post that is wrong about an AI paper’s findings.\n\nAnd the community note undersells how wrong: the creativity paper measured 61 people (underpowered) and found NO drop in creativit...",
-        "score": 0.56
+        "score": 0.591
       }
     ],
     "Strategy & Opinion": [
+      {
+        "title": "Sorting algorithms",
+        "url": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-03-11T22:58:06+00:00",
+        "summary": "Sorting algorithms Today in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude A...",
+        "score": 0.674
+      },
       {
         "title": "@unknown: Think AI whips up perfect viral content overnight with zero effort?\nSit down, be...",
         "url": "https://x.com/unknown/status/2030414359084605746",
         "source": "X/@unknown",
         "date": "Sat Mar 07 22:44:41 +0000 2026",
         "summary": "Think AI whips up perfect viral content overnight with zero effort?\nSit down, be humble… let's debunk that myth right now.\nFirst #AIRealityCheck video is live: AI content creation – hype vs. realit...",
-        "score": 0.649
+        "score": 0.628
       },
       {
-        "title": "‘I wish I could push ChatGPT off a cliff’: professors scramble to save critical thinking in an age of AI",
-        "url": "https://www.theguardian.com/technology/ng-interactive/2026/mar/10/ai-impact-professors-students-learning",
-        "source": "Guardian AI",
-        "date": "Tue, 10 Mar 2026 13:00:06 GMT",
-        "summary": "As AI has upended the way students learn, academics worry about the future of the humanities - and society at largeLea Pao, a professor of literature at Stanford University, has been experimenting ...",
-        "score": 0.637
-      },
-      {
-        "title": "Dean Ball on open models and government control",
-        "url": "https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open",
-        "source": "Interconnects AI",
-        "date": "Fri, 06 Mar 2026 14:03:27 GMT",
-        "summary": "Subtle precedents on the future of open models set by the unfolding Anthropic v. Department of War case.",
-        "score": 0.567
+        "title": "@unknown: Is GPT-5.4 the future of AI? This week's Sequence AI explores how LLMs are evolv...",
+        "url": "https://x.com/unknown/status/2032186813599678608",
+        "source": "X/@unknown",
+        "date": "Thu Mar 12 20:07:47 +0000 2026",
+        "summary": "Is GPT-5.4 the future of AI? This week's Sequence AI explores how LLMs are evolving into operating systems, managing multiple agents &amp; centralizing control. A major shift for AI de... https://t...",
+        "score": 0.626
       }
     ],
     "Image & Video Generation": [
@@ -202,49 +202,49 @@
         "source": "OpenAI Blog",
         "date": "Tue, 10 Mar 2026 10:00:00 GMT",
         "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
-        "score": 0.762
+        "score": 0.741
       },
       {
-        "title": "Ask a Techspert: How does AI understand my visual searches?",
-        "url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
-        "source": "Google AI Blog",
-        "date": "Thu, 05 Mar 2026 18:00:00 +0000",
-        "summary": "Learn more about AI Mode in Search’s query fan-out method for visual search.",
-        "score": 0.602
+        "title": "The Shape of the Thing",
+        "url": "https://www.oneusefulthing.org/p/the-shape-of-the-thing",
+        "source": "One Useful Thing (Mollick)",
+        "date": "Thu, 12 Mar 2026 14:10:07 GMT",
+        "summary": "Where we are right now, and what likely happens next",
+        "score": 0.727
       },
       {
-        "title": "ChatGPT can now create interactive visuals to help you understand math and science concepts",
-        "url": "https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts/",
-        "source": "TechCrunch AI",
-        "date": "Tue, 10 Mar 2026 17:51:25 +0000",
-        "summary": "On Tuesday, OpenAI introduced dynamic visual explanations, a new ChatGPT feature that allows users to see how formulas, variables, and mathematical relationships change in real time. Instead of jus...",
-        "score": 0.586
+        "title": "Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+        "source": "The Verge AI",
+        "date": "2026-03-12T12:00:00-04:00",
+        "summary": "Anthropic's latest update to Claude will allow the AI chatbot to generate custom charts, diagrams, and other visualizations during your conversation. If Claude determines a visual is useful based o...",
+        "score": 0.666
       }
     ],
     "Workflow & Automation": [
+      {
+        "title": "@unknown: Talking to agents in Slack, the new hot AI UX,  will end up being just as much a...",
+        "url": "https://x.com/unknown/status/2031820850337370352",
+        "source": "X/@unknown",
+        "date": "Wed Mar 11 19:53:34 +0000 2026",
+        "summary": "Talking to agents in Slack, the new hot AI UX,  will end up being just as much a transitional phase as talking to agents via chatbot websites.\n\nWe need new systems to manage agentic work that also ...",
+        "score": 0.604
+      },
+      {
+        "title": "[D] What's the modern workflow for managing CUDA versions and packages across multiple ML projects?",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rrsk07/d_whats_the_modern_workflow_for_managing_cuda/",
+        "source": "r/MachineLearning",
+        "date": "2026-03-12T14:40:10+00:00",
+        "summary": "Hello everyone, I'm a relatively new ML engineer and so far I've been using conda for dependency management. The best thing about conda was that it allowed me to install system-level packages like ...",
+        "score": 0.564
+      },
       {
         "title": "@unknown: 🤖 AI.  💬 Engage\n\nPrompt Engineering frustrations\n\nWhat frustrates you most abo...",
         "url": "https://x.com/unknown/status/2031067499752501293",
         "source": "X/@unknown",
         "date": "Mon Mar 09 18:00:02 +0000 2026",
         "summary": "🤖 AI.  💬 Engage\n\nPrompt Engineering frustrations\n\nWhat frustrates you most about Prompt Engineering? \n\n→ Hallucinations/inaccuracy \n→ Inconsistent outputs \n→ Cost at scale \n→ Latency \n→ The hype ...",
-        "score": 0.581
-      },
-      {
-        "title": "@unknown: Another big question: is this limited to producing materials that use Microsoft ...",
-        "url": "https://x.com/unknown/status/2031029495692505549",
-        "source": "X/@unknown",
-        "date": "Mon Mar 09 15:29:01 +0000 2026",
-        "summary": "Another big question: is this limited to producing materials that use Microsoft Apps? How does it handle the fact that so much of what makes Claude Cowork interesting is the fact that it can improv...",
-        "score": 0.579
-      },
-      {
-        "title": "@unknown: fashion video production is about to become unrecognizable.  \n\ni took OFF-White'...",
-        "url": "https://x.com/unknown/status/2029934683316691213",
-        "source": "X/@unknown",
-        "date": "Fri Mar 06 14:58:37 +0000 2026",
-        "summary": "fashion video production is about to become unrecognizable.  \n\ni took OFF-White's latest drop and created a full video ad from product photos.\n \nno model. no studio. no crew. no partnership.  \n\njus...",
-        "score": 0.578
+        "score": 0.56
       }
     ],
     "Industry & Business": [
@@ -254,7 +254,7 @@
         "source": "Simon Willison",
         "date": "2026-03-06T21:58:33+00:00",
         "summary": "Questions for developers: “What’s the one area you’re afraid to touch?” “When’s the last time you deployed on a Friday?” “What broke in production in the last 90 days that wasn’t caught by tests?” ...",
-        "score": 0.687
+        "score": 0.666
       },
       {
         "title": "Anthropic and the Pentagon",
@@ -262,7 +262,7 @@
         "source": "Simon Willison",
         "date": "2026-03-06T17:26:50+00:00",
         "summary": "Anthropic and the Pentagon This piece by Bruce Schneier and Nathan E. Sanders is the most thoughtful and grounded coverage I've seen of the recent and ongoing Pentagon/OpenAI/Anthropic contract sit...",
-        "score": 0.683
+        "score": 0.662
       },
       {
         "title": "Should we be boycotting ChatGPT? – podcast",
@@ -270,17 +270,25 @@
         "source": "Guardian AI",
         "date": "Wed, 11 Mar 2026 03:00:05 GMT",
         "summary": "Rutger Bregman on why he thinks consumers should cancel their ChatGPT accountsThe historian Rutger Bregman argues that consumers should boycott OpenAI’s ChatGPT after the company’s deal with the Pe...",
-        "score": 0.649
+        "score": 0.628
       }
     ],
     "Voice & Audio": [
+      {
+        "title": "Build real-time voice agents on Together AI",
+        "url": "https://www.together.ai/blog/build-real-time-voice-agents-on-together-ai",
+        "source": "Together AI",
+        "date": "Thu, 12 Mar 2026 00:00:00 GMT",
+        "summary": "Build real-time voice agents on Together AI with co-located STT, LLM, and TTS infrastructure, native Deepgram and Cartesia support, and end-to-end latency under 700ms.",
+        "score": 0.591
+      },
       {
         "title": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
         "url": "https://github.com/RunanywhereAI/rcli",
         "source": "Hacker News AI",
         "date": "Tue, 10 Mar 2026 17:14:52 +0000",
         "summary": "Hi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx o...",
-        "score": 0.585
+        "score": 0.564
       },
       {
         "title": "DuplexCascade: Full-Duplex Speech-to-Speech Dialogue with VAD-Free Cascaded ASR-LLM-TTS Pipeline and Micro-Turn Optimization",
@@ -288,15 +296,7 @@
         "source": "arXiv cs.CL",
         "date": "Wed, 11 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.09180v1 Announce Type: new Abstract: Spoken dialog systems with cascaded ASR-LLM-TTS modules retain strong LLM intelligence, but VAD segmentation often forces half-duplex turns and britt...",
-        "score": 0.555
-      },
-      {
-        "title": "Fish Audio Releases S2: open-source, controllable and expressive TTS model",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rptdpl/fish_audio_releases_s2_opensource_controllable/",
-        "source": "r/LocalLLaMA",
-        "date": "2026-03-10T10:34:03+00:00",
-        "summary": "Fish Audio is open-sourcing S2, where you can direct voices for maximum expressivity with precision using natural language emotion tags like [whispers sweetly] or [laughing nervously]. You can gene...",
-        "score": 0.539
+        "score": 0.534
       }
     ],
     "Ethics & Regulation": [
@@ -306,7 +306,7 @@
         "source": "OpenAI Blog",
         "date": "Tue, 10 Mar 2026 11:00:00 GMT",
         "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
-        "score": 0.763
+        "score": 0.742
       },
       {
         "title": "Quoting Joseph Weizenbaum",
@@ -314,25 +314,41 @@
         "source": "Simon Willison",
         "date": "2026-03-08T14:59:48+00:00",
         "summary": "What I had not realized is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people. &mdash; Joseph Weizenbaum, creato...",
-        "score": 0.724
+        "score": 0.702
       },
       {
-        "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-        "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
-        "source": "OpenAI Blog",
-        "date": "Thu, 05 Mar 2026 10:00:00 GMT",
-        "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
-        "score": 0.655
+        "title": "Without effective regulation of AI, society is facing a head-on collision with a driverless car | Peter Lewis",
+        "url": "https://www.theguardian.com/commentisfree/2026/mar/11/ai-artificial-intelligence-regulation-society",
+        "source": "Guardian AI",
+        "date": "Tue, 10 Mar 2026 22:40:39 GMT",
+        "summary": "Artificial intelligence is accelerating exponentially before it has brakes, seat-belts, speed limits or a working GPSA self-driving vehicle ploughs into an oncoming car, combusting the occupants an...",
+        "score": 0.624
       }
     ],
     "Australia": [
       {
-        "title": "Retailers want ‘delightfully human’ AI to do your shopping, but will the chatbots go rogue?",
-        "url": "https://www.theguardian.com/technology/2026/mar/06/retailers-want-delightfully-human-ai-to-do-your-shopping-but-will-the-chatbots-go-rogue",
+        "title": "How AI is helping improve heart health in rural Australia",
+        "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+        "source": "Google AI Blog",
+        "date": "Thu, 12 Mar 2026 15:00:00 +0000",
+        "summary": "A new Google AI initiative aims to improve heart health outcomes for people living in remote Australian communities.",
+        "score": 0.728
+      },
+      {
+        "title": "‘Devastating blow’: Atlassian lays off 1,600 workers ahead of AI push",
+        "url": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx",
         "source": "Guardian AI",
-        "date": "Thu, 05 Mar 2026 14:00:05 GMT",
-        "summary": "Plans for agentic shopping assistants are under way at Australia’s major companies. Guardian Australia tested the technology after a string of mishapsGet our breaking news email, free app or daily ...",
-        "score": 0.53
+        "date": "Thu, 12 Mar 2026 02:22:38 GMT",
+        "summary": "Layoffs to affect 10% of workforce amid Australian company’s restructuring plan to push into artificial intelligence and enterprise salesSoftware giant Atlassian has announced it is laying off abou...",
+        "score": 0.648
+      },
+      {
+        "title": "Canva’s new editing tool adds layers to AI-generated designs",
+        "url": "https://www.theverge.com/tech/893124/canva-ai-magic-layers-feature-beta",
+        "source": "The Verge AI",
+        "date": "2026-03-11T11:02:02-04:00",
+        "summary": "Canva introduced a new feature that separates flat image files and AI-generated visuals into layered, fully editable designs. The Magic Layers tool is launching in public beta today in the US, UK, ...",
+        "score": 0.643
       }
     ]
   }
