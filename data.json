@@ -71,12 +71,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Running reliably since Feb 2026. KB: 6,538 entries. Updated 2026-03-11.",
             "Running reliably since Feb 2026. KB: 6,390 entries. Updated 2026-03-12.",
-            "Running reliably since Feb 2026. KB: 6,604 entries. Updated 2026-03-13."
+            "Running reliably since Feb 2026. KB: 6,604 entries. Updated 2026-03-13.",
+            "Running reliably since Feb 2026. KB: 6,714 entries. Updated 2026-03-14."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-13T16:09:32.221Z",
+          "updatedAt": "2026-03-14T16:06:55.180Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -90,12 +90,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Dashboard live. 6,538 KB entries, 30 memory files. Updated 2026-03-11.",
             "Dashboard live. 6,390 KB entries, 30 memory files. Updated 2026-03-12.",
-            "Dashboard live. 6,604 KB entries, 30 memory files. Updated 2026-03-13."
+            "Dashboard live. 6,604 KB entries, 30 memory files. Updated 2026-03-13.",
+            "Dashboard live. 6,714 KB entries, 30 memory files. Updated 2026-03-14."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-13T16:09:32.221Z",
+          "updatedAt": "2026-03-14T16:06:55.180Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -121,7 +121,7 @@
         {
           "id": "ip-2",
           "title": "GenAI Knowledge Base",
-          "description": "6,604 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
+          "description": "6,714 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
           "tags": [
             "infrastructure",
             "kb"
@@ -134,7 +134,7 @@
             "Sources config: ~/clawd/scripts/sources-config.js"
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-13T16:09:32.221Z",
+          "updatedAt": "2026-03-14T16:06:55.181Z",
           "updatedBy": "kanban-updater"
         }
       ]
@@ -616,7 +616,7 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-13T16:09:32.221Z",
+  "lastUpdated": "2026-03-14T16:06:55.181Z",
   "stats": {
     "totalCards": 43,
     "backlog": 3,
