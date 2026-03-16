@@ -71,12 +71,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Running reliably since Feb 2026. KB: 6,604 entries. Updated 2026-03-13.",
             "Running reliably since Feb 2026. KB: 6,714 entries. Updated 2026-03-14.",
-            "Running reliably since Feb 2026. KB: 6,778 entries. Updated 2026-03-15."
+            "Running reliably since Feb 2026. KB: 6,778 entries. Updated 2026-03-15.",
+            "Running reliably since Feb 2026. KB: 6,960 entries. Updated 2026-03-16."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-15T16:06:24.398Z",
+          "updatedAt": "2026-03-16T16:06:26.159Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -90,12 +90,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Dashboard live. 6,604 KB entries, 30 memory files. Updated 2026-03-13.",
             "Dashboard live. 6,714 KB entries, 30 memory files. Updated 2026-03-14.",
-            "Dashboard live. 6,778 KB entries, 30 memory files. Updated 2026-03-15."
+            "Dashboard live. 6,778 KB entries, 30 memory files. Updated 2026-03-15.",
+            "Dashboard live. 6,960 KB entries, 30 memory files. Updated 2026-03-16."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-15T16:06:24.398Z",
+          "updatedAt": "2026-03-16T16:06:26.159Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -121,7 +121,7 @@
         {
           "id": "ip-2",
           "title": "GenAI Knowledge Base",
-          "description": "6,778 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
+          "description": "6,960 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
           "tags": [
             "infrastructure",
             "kb"
@@ -134,7 +134,7 @@
             "Sources config: ~/clawd/scripts/sources-config.js"
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-15T16:06:24.398Z",
+          "updatedAt": "2026-03-16T16:06:26.159Z",
           "updatedBy": "kanban-updater"
         }
       ]
@@ -148,6 +148,22 @@
       "id": "done",
       "title": "✅ Done",
       "cards": [
+        {
+          "id": "done-build-2026-03-16",
+          "title": "Telegram Quick Actions (Inline Buttons)",
+          "description": "No pending build tasks. Build queue item \"Telegram inline buttons for common actions\" (Medium Priority) has been waiting since the queue was created. Last 10 builds were all KB infrastructure — time t",
+          "tags": [
+            "newsletter",
+            "kb",
+            "infrastructure",
+            "operations",
+            "automation"
+          ],
+          "status": "done",
+          "completedDate": "2026-03-16",
+          "updatedAt": "2026-03-16T16:06:26.149Z",
+          "updatedBy": "kanban-updater"
+        },
         {
           "id": "done-build-2026-03-11",
           "title": "KB Quality Backfill + Post-Build Pipeline",
@@ -616,12 +632,12 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-15T16:06:24.398Z",
+  "lastUpdated": "2026-03-16T16:06:26.159Z",
   "stats": {
-    "totalCards": 43,
+    "totalCards": 44,
     "backlog": 3,
     "inProgress": 4,
     "blocked": 0,
-    "done": 36
+    "done": 37
   }
 }

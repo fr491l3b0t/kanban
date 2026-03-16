@@ -1,37 +1,44 @@
 {
-  "generatedAt": "2026-03-15T08:03:59.930Z",
+  "generatedAt": "2026-03-16T08:12:35.220Z",
   "window": {
-    "start": "2026-03-08T08:03:59.857Z",
-    "end": "2026-03-15T08:03:59.857Z",
+    "start": "2026-03-09T08:12:35.143Z",
+    "end": "2026-03-16T08:12:35.143Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 925,
+    "totalEntries": 853,
     "categoriesWithEntries": 10,
     "totalSelected": 30
   },
   "storyOfTheWeek": {
-    "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
-    "url": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
+    "title": "Quoting Jannis Leidel",
+    "url": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
     "source": "Simon Willison",
-    "date": "2026-03-13T18:29:13+00:00",
-    "summary": "1M context is now generally available for Opus 4.6 and Sonnet 4.6 Here's what surprised me: Standard pricing now applies across the full 1M window for both models, with no long-context premium. OpenAI and Gemini both charge more for prompts where the token count goes above a certain point - 200,000 for Gemini 3.1 Pro and 272,000 for GPT-5.4. Tags: ai, generative-ai, llms, anthropic, claude, llm-pricing, long-context",
+    "date": "2026-03-14T18:41:25+00:00",
+    "summary": "GitHub’s slopocalypse – the flood of AI-generated spam PRs and issues – has made Jazzband’s model of open membership and shared push access untenable. Jazzband was designed for a world where the worst case was someone accidentally merging the wrong PR. In a world where only 1 in 10 AI-generated PRs meets project standards, where curl had to shut down its bug bounty because confirmation rates dropped below 5%, and where GitHub’s own response was a kill switch to disable pull requests entirely – a",
     "score": 0.77
   },
   "trending": [
     {
-      "tag": "copilot",
-      "count": 19,
-      "prevCount": 7,
-      "growth": 1.71,
-      "relevance": 2.2142857142857144
+      "tag": "march 2026",
+      "count": 6,
+      "prevCount": 1,
+      "growth": 5,
+      "relevance": 5
     },
     {
-      "tag": "time series",
+      "tag": "automation",
       "count": 5,
-      "prevCount": 2,
-      "growth": 1.5,
-      "relevance": 1.5
+      "prevCount": 1,
+      "growth": 4,
+      "relevance": 4.5
+    },
+    {
+      "tag": "meta",
+      "count": 14,
+      "prevCount": 6,
+      "growth": 1.33,
+      "relevance": 1.8333333333333333
     },
     {
       "tag": "llama",
@@ -41,25 +48,11 @@
       "relevance": 1.5
     },
     {
-      "tag": "mcp server",
-      "count": 5,
-      "prevCount": 2,
-      "growth": 1.5,
-      "relevance": 1.5
-    },
-    {
-      "tag": "march 2026",
-      "count": 5,
-      "prevCount": 2,
-      "growth": 1.5,
-      "relevance": 1.5
-    },
-    {
-      "tag": "meta",
-      "count": 11,
-      "prevCount": 6,
-      "growth": 0.83,
-      "relevance": 1.3333333333333335
+      "tag": "copilot",
+      "count": 17,
+      "prevCount": 9,
+      "growth": 0.89,
+      "relevance": 1.3888888888888888
     },
     {
       "tag": "openai gpt-5",
@@ -69,18 +62,11 @@
       "relevance": 1.3333333333333333
     },
     {
-      "tag": "gpt",
-      "count": 9,
+      "tag": "inference",
+      "count": 8,
       "prevCount": 5,
-      "growth": 0.8,
-      "relevance": 1.3
-    },
-    {
-      "tag": "large language",
-      "count": 18,
-      "prevCount": 8,
-      "growth": 1.25,
-      "relevance": 1.25
+      "growth": 0.6,
+      "relevance": 1.1
     },
     {
       "tag": "llama cpp",
@@ -88,6 +74,20 @@
       "prevCount": 4,
       "growth": 1,
       "relevance": 1
+    },
+    {
+      "tag": "agentic",
+      "count": 19,
+      "prevCount": 16,
+      "growth": 0.19,
+      "relevance": 0.6875
+    },
+    {
+      "tag": "large language",
+      "count": 15,
+      "prevCount": 9,
+      "growth": 0.67,
+      "relevance": 0.6666666666666666
     }
   ],
   "categories": {
@@ -98,7 +98,7 @@
         "source": "Simon Willison",
         "date": "2026-03-13T03:44:34+00:00",
         "summary": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations PR from Shopify CEO Tobias Lütke against Liquid, Shopify's open source Ruby template engine that was somewhat inspired by...",
-        "score": 0.757
+        "score": 0.735
       },
       {
         "title": "Rakuten fixes issues twice as fast with Codex",
@@ -106,7 +106,7 @@
         "source": "OpenAI Blog",
         "date": "Wed, 11 Mar 2026 13:00:00 GMT",
         "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
-        "score": 0.722
+        "score": 0.7
       },
       {
         "title": "Perhaps not Boring Technology after all",
@@ -114,33 +114,33 @@
         "source": "Simon Willison",
         "date": "2026-03-09T13:37:45+00:00",
         "summary": "A recurring concern I've seen regarding LLMs for programming is that they will push our technology choices towards the tools that are best represented in their training data, making it harder for n...",
-        "score": 0.68
+        "score": 0.658
       }
     ],
     "AI Tools & Platforms": [
+      {
+        "title": "Quoting Jannis Leidel",
+        "url": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-03-14T18:41:25+00:00",
+        "summary": "GitHub’s slopocalypse – the flood of AI-generated spam PRs and issues – has made Jazzband’s model of open membership and shared push access untenable. Jazzband was designed for a world where the wo...",
+        "score": 0.77
+      },
+      {
+        "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+        "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-03-14T18:19:38+00:00",
+        "summary": "I was a speaker last month at the Pragmatic Summit in San Francisco, where I participated in a fireside chat session about Agentic Engineering hosted by Eric Lui from Statsig. The video is availabl...",
+        "score": 0.77
+      },
       {
         "title": "MALUS - Clean Room as a Service",
         "url": "https://simonwillison.net/2026/Mar/12/malus/#atom-everything",
         "source": "Simon Willison",
         "date": "2026-03-12T20:08:55+00:00",
         "summary": "MALUS - Clean Room as a Service Brutal satire on the whole vibe-porting license washing thing (previously): Finally, liberation from open source license obligations. Our proprietary AI robots indep...",
-        "score": 0.75
-      },
-      {
-        "title": "Coding After Coders: The End of Computer Programming as We Know It",
-        "url": "https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-03-12T19:23:44+00:00",
-        "summary": "Coding After Coders: The End of Computer Programming as We Know It Epic piece on AI-assisted development by Clive Thompson for the New York Times Magazine, who spoke to more than 70 software develo...",
-        "score": 0.749
-      },
-      {
-        "title": "Quoting John Carmack",
-        "url": "https://simonwillison.net/2026/Mar/11/john-carmack/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-03-11T14:47:09+00:00",
-        "summary": "It is hard for less experienced developers to appreciate how rarely architecting for future requirements / applications turns out net-positive. &mdash; John Carmack, a tweet in June 2021 Tags: john...",
-        "score": 0.724
+        "score": 0.728
       }
     ],
     "Research & Papers": [
@@ -150,7 +150,7 @@
         "source": "Google AI Blog",
         "date": "Tue, 10 Mar 2026 13:00:00 +0000",
         "summary": "Today we announced new beta features for Gemini in Sheets to help you create, organize and edit entire sheets, from basic tasks to complex data analysis — just describe …",
-        "score": 0.641
+        "score": 0.619
       },
       {
         "title": "Nano Banana 2: The PM’s Playbook 🍌",
@@ -158,15 +158,15 @@
         "source": "Aakash Gupta AI Update",
         "date": "Thu, 12 Mar 2026 23:10:38 GMT",
         "summary": "The SOTA image model is worth analyzing for every product builder",
-        "score": 0.579
+        "score": 0.558
       },
       {
-        "title": "Gumloop lands $50M from Benchmark to turn every employee into an AI agent builder",
-        "url": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
-        "source": "TechCrunch AI",
-        "date": "Thu, 12 Mar 2026 15:30:00 +0000",
-        "summary": "As companies race to adopt AI, Benchmark general partner Everett Randle believes the key to success lies in empowering every worker with AI superpowers, and Gumloop’s intuitive agent builder is an ...",
-        "score": 0.562
+        "title": "[P] Karpathy's autoresearch with evolutionary database.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rtsbkv/p_karpathys_autoresearch_with_evolutionary/",
+        "source": "r/MachineLearning",
+        "date": "2026-03-14T19:23:18+00:00",
+        "summary": "Integrated an evolutionary database to Karpathy's autoresearch project that replaces the simple tsv file based logging in the original project. Evolutionary algorithms have shown to be a powerful t...",
+        "score": 0.547
       }
     ],
     "Strategy & Opinion": [
@@ -176,7 +176,7 @@
         "source": "Guardian AI",
         "date": "Sat, 14 Mar 2026 06:00:12 GMT",
         "summary": "Treasury minister Spencer Livermore trails new strategy as chancellor pins hopes on benefits of AI amid global uncertaintyThe NHS and Ministry of Defence will be urged to buy British tech, as the g...",
-        "score": 0.652
+        "score": 0.63
       },
       {
         "title": "Sorting algorithms",
@@ -184,7 +184,7 @@
         "source": "Simon Willison",
         "date": "2026-03-11T22:58:06+00:00",
         "summary": "Sorting algorithms Today in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude A...",
-        "score": 0.631
+        "score": 0.609
       },
       {
         "title": "@unknown: Is GPT-5.4 the future of AI? This week's Sequence AI explores how LLMs are evolv...",
@@ -192,7 +192,7 @@
         "source": "X/@unknown",
         "date": "Thu Mar 12 20:07:47 +0000 2026",
         "summary": "Is GPT-5.4 the future of AI? This week's Sequence AI explores how LLMs are evolving into operating systems, managing multiple agents &amp; centralizing control. A major shift for AI de... https://t...",
-        "score": 0.583
+        "score": 0.562
       }
     ],
     "Image & Video Generation": [
@@ -202,7 +202,7 @@
         "source": "OpenAI Blog",
         "date": "Tue, 10 Mar 2026 10:00:00 GMT",
         "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
-        "score": 0.698
+        "score": 0.676
       },
       {
         "title": "The Shape of the Thing",
@@ -210,15 +210,15 @@
         "source": "One Useful Thing (Mollick)",
         "date": "Thu, 12 Mar 2026 14:10:07 GMT",
         "summary": "Where we are right now, and what likely happens next",
-        "score": 0.684
+        "score": 0.663
       },
       {
-        "title": "@unknown: Stop prompting for \"a room\" and start prompting for \"a mood.\"\n\nCreate visual ten...",
-        "url": "https://x.com/unknown/status/2032222639255929225",
+        "title": "@unknown: Seedance 2.0 Prompt Share\n\nToday's camera technique: Motivated Continuous Camera...",
+        "url": "https://x.com/unknown/status/2032566288967499857",
         "source": "X/@unknown",
-        "date": "Thu Mar 12 22:30:08 +0000 2026",
-        "summary": "Stop prompting for \"a room\" and start prompting for \"a mood.\"\n\nCreate visual tension in your scenes with subject placement, lighting, and objects. https://t.co/reDyUXzHNo",
-        "score": 0.649
+        "date": "Fri Mar 13 21:15:41 +0000 2026",
+        "summary": "Seedance 2.0 Prompt Share\n\nToday's camera technique: Motivated Continuous Camera Move\n\nA filmmaking technique frequently used by directors like Steven Spielberg, where the camera moves continuously...",
+        "score": 0.647
       }
     ],
     "Workflow & Automation": [
@@ -228,7 +228,15 @@
         "source": "Stratechery",
         "date": "Fri, 13 Mar 2026 17:00:00 +0000",
         "summary": "The best Stratechery content from the week of March 9, 2026, including integration and AI, the Team Test and a basketball disgrace, and the US, China and Iran.",
-        "score": 0.708
+        "score": 0.687
+      },
+      {
+        "title": "@unknown: Many tried, most failed. \n\nBut this is the first skin enhancer I've used that ac...",
+        "url": "https://x.com/unknown/status/2032778632842678317",
+        "source": "X/@unknown",
+        "date": "Sat Mar 14 11:19:27 +0000 2026",
+        "summary": "Many tried, most failed. \n\nBut this is the first skin enhancer I've used that actually makes characters look real. \n\nMeet Vellum from @openart_ai\n\nIt's now a staple in my workflow. I won't start a ...",
+        "score": 0.66
       },
       {
         "title": "@unknown: Talking to agents in Slack, the new hot AI UX,  will end up being just as much a...",
@@ -236,15 +244,7 @@
         "source": "X/@unknown",
         "date": "Wed Mar 11 19:53:34 +0000 2026",
         "summary": "Talking to agents in Slack, the new hot AI UX,  will end up being just as much a transitional phase as talking to agents via chatbot websites.\n\nWe need new systems to manage agentic work that also ...",
-        "score": 0.562
-      },
-      {
-        "title": "[R] biomarker peak detection using machine learning - wanna collaborate?",
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1rsxqoi/r_biomarker_peak_detection_using_machine_learning/",
-        "source": "r/MachineLearning",
-        "date": "2026-03-13T19:51:38+00:00",
-        "summary": "Hey there, I’m currently working with maldi tof mass spec data of tuberculosis generated in our lab. We got non tuberculosis mycobacteria data too. So we know the biomarkers of tuberculosis and we ...",
-        "score": 0.548
+        "score": 0.54
       }
     ],
     "Industry & Business": [
@@ -254,7 +254,7 @@
         "source": "Simon Willison",
         "date": "2026-03-13T18:29:13+00:00",
         "summary": "1M context is now generally available for Opus 4.6 and Sonnet 4.6 Here's what surprised me: Standard pricing now applies across the full 1M window for both models, with no long-context premium. Ope...",
-        "score": 0.77
+        "score": 0.748
       },
       {
         "title": "@unknown: Introducing AgentCard.\n\nYour agent can now buy anything:\n\n• pay for inference &a...",
@@ -262,25 +262,33 @@
         "source": "X/@unknown",
         "date": "Fri Mar 13 18:17:07 +0000 2026",
         "summary": "Introducing AgentCard.\n\nYour agent can now buy anything:\n\n• pay for inference &amp; APIs\n• order DoorDash, Amazon, Ubers\n• run marketing\n• trade Polymarket 24/7\n\nOpen to all, not just businesses 🔥...",
-        "score": 0.666
+        "score": 0.645
       },
       {
-        "title": "Invisible datacentres and capricious chips: is UK’s AI bubble about to burst?",
-        "url": "https://www.theguardian.com/news/ng-interactive/2026/mar/14/datacentre-boom-is-uk-ai-bubble-about-to-burst",
+        "title": "This CEO warns that Democratic voters are most at risk from automation | Arwa Mahdawi",
+        "url": "https://www.theguardian.com/commentisfree/2026/mar/14/palantir-ai-marco-rubio-afghanistan-katy-perry",
         "source": "Guardian AI",
-        "date": "Sat, 14 Mar 2026 06:00:11 GMT",
-        "summary": "Datacentre investment boom is one of the biggest infrastructure gambles of this era, and Britain may be uniquely exposedStargate was to be the world’s biggest AI investment: a $500bn infrastructure...",
-        "score": 0.652
+        "date": "Sat, 14 Mar 2026 18:05:53 GMT",
+        "summary": "Palantir’s CEO says the platforms will have a vast effect on the electoral landscape … especially women. Is it a warning or a sales pitch?Don’t you just love AI? It has inundated the internet with ...",
+        "score": 0.641
       }
     ],
     "Voice & Audio": [
+      {
+        "title": "Qwen3 TTS in C++ with 1.7B support, speaker encoding extraction, and desktop UI",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rtoscf/qwen3_tts_in_c_with_17b_support_speaker_encoding/",
+        "source": "r/LocalLLaMA",
+        "date": "2026-03-14T17:06:33+00:00",
+        "summary": "I've spent the last few weekends working on a Qwen3 TTS implementation which is a fork of https://github.com/predict-woo/qwen3-tts.cpp but with more features and cleaner codebase: https://github.co...",
+        "score": 0.545
+      },
       {
         "title": "Build real-time voice agents on Together AI",
         "url": "https://www.together.ai/blog/build-real-time-voice-agents-on-together-ai",
         "source": "Together AI",
         "date": "Thu, 12 Mar 2026 00:00:00 GMT",
         "summary": "Build real-time voice agents on Together AI with co-located STT, LLM, and TTS infrastructure, native Deepgram and Cartesia support, and end-to-end latency under 700ms.",
-        "score": 0.549
+        "score": 0.527
       },
       {
         "title": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
@@ -288,15 +296,7 @@
         "source": "Hacker News AI",
         "date": "Tue, 10 Mar 2026 17:14:52 +0000",
         "summary": "Hi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx o...",
-        "score": 0.521
-      },
-      {
-        "title": "DuplexCascade: Full-Duplex Speech-to-Speech Dialogue with VAD-Free Cascaded ASR-LLM-TTS Pipeline and Micro-Turn Optimization",
-        "url": "https://arxiv.org/abs/2603.09180",
-        "source": "arXiv cs.CL",
-        "date": "Wed, 11 Mar 2026 00:00:00 -0400",
-        "summary": "arXiv:2603.09180v1 Announce Type: new Abstract: Spoken dialog systems with cascaded ASR-LLM-TTS modules retain strong LLM intelligence, but VAD segmentation often forces half-duplex turns and britt...",
-        "score": 0.491
+        "score": 0.499
       }
     ],
     "Ethics & Regulation": [
@@ -306,15 +306,7 @@
         "source": "OpenAI Blog",
         "date": "Tue, 10 Mar 2026 11:00:00 GMT",
         "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
-        "score": 0.699
-      },
-      {
-        "title": "Quoting Joseph Weizenbaum",
-        "url": "https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-03-08T14:59:48+00:00",
-        "summary": "What I had not realized is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people. &mdash; Joseph Weizenbaum, creato...",
-        "score": 0.66
+        "score": 0.677
       },
       {
         "title": "The Guardian view on changes to copyright laws: authors should be protected over big tech | Editorial",
@@ -322,7 +314,15 @@
         "source": "Guardian AI",
         "date": "Fri, 13 Mar 2026 18:07:34 GMT",
         "summary": "Writers are voicing their anger at AI theft of their work with ‘Human Authored’ logos and an empty book. The government must listenIn a scene that might have come from a dystopian novel, books were...",
-        "score": 0.641
+        "score": 0.62
+      },
+      {
+        "title": "Why physical AI is becoming manufacturing’s next advantage",
+        "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+        "source": "MIT Tech Review AI",
+        "date": "Fri, 13 Mar 2026 15:16:55 +0000",
+        "summary": "For decades, manufacturers have pursued automation to drive efficiency, reduce costs, and stabilize operations. That approach delivered meaningful gains, but it is no longer enough. Today’s manufac...",
+        "score": 0.562
       }
     ],
     "Australia": [
@@ -332,7 +332,7 @@
         "source": "Google AI Blog",
         "date": "Thu, 12 Mar 2026 15:00:00 +0000",
         "summary": "A new Google AI initiative aims to improve heart health outcomes for people living in remote Australian communities.",
-        "score": 0.685
+        "score": 0.664
       },
       {
         "title": "Will AI take Australian jobs, or is it just an excuse for corporate restructure?",
@@ -340,7 +340,7 @@
         "source": "Guardian AI",
         "date": "Fri, 13 Mar 2026 14:00:52 GMT",
         "summary": "More than 1,000 local tech jobs have recently been cut, with companies citing AI productivity gains. But that’s not the full story, experts sayGet our breaking news email, free app or daily news po...",
-        "score": 0.637
+        "score": 0.616
       },
       {
         "title": "‘Devastating blow’: Atlassian lays off 1,600 workers ahead of AI push",
@@ -348,7 +348,7 @@
         "source": "Guardian AI",
         "date": "Thu, 12 Mar 2026 02:22:38 GMT",
         "summary": "Layoffs to affect 10% of workforce amid Australian company’s restructuring plan to push into artificial intelligence and enterprise salesSoftware giant Atlassian has announced it is laying off abou...",
-        "score": 0.606
+        "score": 0.584
       }
     ]
   }
