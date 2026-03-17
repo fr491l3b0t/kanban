@@ -5,7 +5,7 @@
   <link href="https://fr491l3b0t.github.io/kanban/genai-kb-editorial.html" rel="alternate" type="text/html"/>
   <link href="https://fr491l3b0t.github.io/kanban/atom.xml" rel="self" type="application/atom+xml"/>
   <id>https://fr491l3b0t.github.io/kanban/genai-kb-editorial.html</id>
-  <updated>2026-03-16T08:12:35.053Z</updated>
+  <updated>2026-03-17T08:04:40.028Z</updated>
   <author>
     <name>Raphael Ruz</name>
   </author>
@@ -28,6 +28,15 @@
     <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
     <summary type="html"><![CDATA[People on the orange site are laughing at this, assuming it's just an ad and that there's nothing to it. Vulnerability researchers I talk to do not think this is a joke. As an erstwhile vuln researcher myself: do not bet against LLMs on this. Axios: Anthropic's Claude Opus 4.6…]]></summary>
     <source><title>Simon Willison</title></source>
+  </entry>
+  <entry>
+    <title>Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory</title>
+    <link href="https://github.com/localgpt-app/localgpt" rel="alternate" type="text/html"/>
+    <id>https://github.com/localgpt-app/localgpt</id>
+    <updated>2026-02-08T01:26:38.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[I built LocalGPT over 4 nights as a Rust reimagining of the OpenClaw assistant pattern (markdown-based persistent memory, autonomous heartbeat tasks, skills system).It compiles to a single ~27MB binary — no Node.js, Docker, or Python required.Key features:- Persistent memory via…]]></summary>
+    <source><title>Hacker News AI</title></source>
   </entry>
   <entry>
     <title>bird CLI taken down - X pushing pay-per-use API</title>
@@ -91,6 +100,15 @@
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
     <summary type="html"><![CDATA[https://preview.redd.it/8fcauhhx64ig1.png?width=601&format=png&auto=webp&s=3b7a38b522ce96958f3d5df022bd77d140090255 As the title says! Enjoy &#32; submitted by &#32; /u/Educational_Rent1059 [link] &#32; [comments]]]></summary>
     <source><title>r/LocalLLaMA</title></source>
+  </entry>
+  <entry>
+    <title>[P] A Matchbox Machine Learning model</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1qyhi8k/p_a_matchbox_machine_learning_model/" rel="alternate" type="text/html"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1qyhi8k/p_a_matchbox_machine_learning_model/</id>
+    <updated>2026-02-07T16:01:31.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[Hi everyone! I wanted to share a project I’ve been working on: I built a physical MENACE, the matchbox-based reinforcement learning model invented by Donald Michie in the 1960s to play tic‑tac‑toe. The model uses reinforcement learning and is implemented with matchboxes and…]]></summary>
+    <source><title>r/MachineLearning</title></source>
   </entry>
   <entry>
     <title>How StrongDM&apos;s AI team build serious software without even looking at the code</title>
@@ -327,6 +345,15 @@
     <source><title>OpenAI Blog</title></source>
   </entry>
   <entry>
+    <title>[AINews] ElevenLabs $500m Series D at $11B, Cerebras $1B Series H at $23B, Vibe Coding -&gt; Agentic Engineering</title>
+    <link href="https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at" rel="alternate" type="text/html"/>
+    <id>https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at</id>
+    <updated>2026-02-05T08:26:43.000Z</updated>
+    <category term="voice-audio" label="Voice &amp; Audio"/>
+    <summary type="html"><![CDATA[SOTA Audio models, Fast Chips, and Koding Agents are all you need.]]></summary>
+    <source><title>Latent Space</title></source>
+  </entry>
+  <entry>
     <title>Introducing OpenAI Frontier</title>
     <link href="https://openai.com/index/introducing-openai-frontier" rel="alternate" type="text/html"/>
     <id>https://openai.com/index/introducing-openai-frontier</id>
@@ -514,6 +541,15 @@
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
     <summary type="html"><![CDATA[I spent a day with @openclaw giving it my calendar, email, and more, all so I could show you *exactly* what happens when you give AI the keys to your life.  1 hour of setup, security, and 🆘, featuring special studio guest: Clawdbot 🦞  Watch on YT: ...]]></summary>
     <source><title>@clairevo</title></source>
+  </entry>
+  <entry>
+    <title>[AINews] Anthropic launches the MCP Apps open spec, in Claude.ai</title>
+    <link href="https://www.latent.space/p/ainews-anthropic-launches-the-mcp" rel="alternate" type="text/html"/>
+    <id>https://www.latent.space/p/ainews-anthropic-launches-the-mcp</id>
+    <updated>2026-01-27T07:20:28.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[Open Standards for Rich generative UI is all you need.]]></summary>
+    <source><title>Latent Space</title></source>
   </entry>
   <entry>
     <title>This is getting scary. I&apos;m doing some research this morning when all of a sudden my computer starts ...</title>
@@ -874,41 +910,5 @@
     <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
     <summary type="html"><![CDATA[Claude Code &amp; Replit Masterclass  00:00 Intro 02:22 Understanding dev vs prod 05:30 Building locally vs Replit 10:30 Cloud advantages 14:07 Parallel agents from mobile 25:15 Claude Code inside Replit  44:30 Personal notes with Obsidian 46:50 Agen...]]></summary>
     <source><title>@mattyp</title></source>
-  </entry>
-  <entry>
-    <title>bro casually walks and explains 5 GPU performance optimization methods for LLMs. one of the most sim...</title>
-    <link href="https://x.com/Hesamation/status/2009012165123195342" rel="alternate" type="text/html"/>
-    <id>https://x.com/Hesamation/status/2009012165123195342</id>
-    <updated>2026-01-07T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[bro casually walks and explains 5 GPU performance optimization methods for LLMs. one of the most simple and intuitive explanations for beginners. https://t.co/42aywKmpcX]]></summary>
-    <source><title>@Hesamation</title></source>
-  </entry>
-  <entry>
-    <title>If you’ve never written code before, this is for you. I’ve just launched a course that shows you, in...</title>
-    <link href="https://x.com/AndrewYNg/status/2008956639894786402" rel="alternate" type="text/html"/>
-    <id>https://x.com/AndrewYNg/status/2008956639894786402</id>
-    <updated>2026-01-07T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[If you’ve never written code before, this is for you. I’ve just launched a course that shows you, in less than 30 minutes, how to describe an idea for an app and build it with AI.  In this course, you'll build a working web application - a funny inte...]]></summary>
-    <source><title>@AndrewYNg</title></source>
-  </entry>
-  <entry>
-    <title>One of the biggest opportunities available to anyone entrepreneurial right now in their company is t...</title>
-    <link href="https://x.com/levie/status/2008746912569283060" rel="alternate" type="text/html"/>
-    <id>https://x.com/levie/status/2008746912569283060</id>
-    <updated>2026-01-07T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[One of the biggest opportunities available to anyone entrepreneurial right now in their company is to be the person that helps their organization understand and deploy AI agents.   Deploying agents is hard. There is still a relatively narrow universe...]]></summary>
-    <source><title>@levie</title></source>
-  </entry>
-  <entry>
-    <title>I wrote about Claude Code and why non-coders should be paying attention (and playing with the system...</title>
-    <link href="https://x.com/emollick/status/2009043516643832029" rel="alternate" type="text/html"/>
-    <id>https://x.com/emollick/status/2009043516643832029</id>
-    <updated>2026-01-07T00:00:00.000Z</updated>
-    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
-    <summary type="html"><![CDATA[I wrote about Claude Code and why non-coders should be paying attention (and playing with the system) - it shows what today’s LLMs can do  Along the way I had Claude launch a business for me &amp; build a game that simulates the rise and fall of civi...]]></summary>
-    <source><title>@emollick</title></source>
   </entry>
 </feed>
