@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 /**
- * Kanban + KB API server
- * - POST /api/ai-search — natural language KB search via OpenAI
- * - GET /api/cards — return kanban data.json
- * - PATCH /api/cards/:id — update card
- * - POST /api/cards — create card
+ * Kanban + KB API server (SQLite-backed)
+ * 
+ * Replaces the JSON-loading server with SQLite queries.
+ * - POST /api/ai-search — natural language KB search via FTS5 + LLM
+ * - POST /api/search    — direct SQLite search (no LLM, fast)
+ * - GET  /api/stats     — KB statistics
+ * - GET  /api/cards     — return kanban data.json
+ * - GET  /api/health    — health check
  * 
  * Runs on port 3001, behind Tailscale.
  */
@@ -14,22 +17,13 @@ const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
 
+// Import the KB database module
+const kbDb = require(path.join(process.env.HOME, 'clawd/scripts/kb-db'));
+
 const app = express();
-const PORT = 3001;
-const KB_PATH = path.join(process.env.HOME, '.openclaw/workspace/genai-kb.json');
+const PORT = process.env.PORT || 3001;
 const DATA_PATH = path.join(__dirname, 'data.json');
 const API_TOKEN = 'ufwbX6Zztw3hyWKwEVUrU1cz';
-
-// Get OpenAI key from OpenClaw config (for embeddings/chat)
-function getOpenAIKey() {
-  try {
-    const config = JSON.parse(fs.readFileSync(
-      path.join(process.env.HOME, '.openclaw/openclaw.json'), 'utf8'
-    ));
-    // Try memorySearch key first (it's the OpenAI key)
-    return config.agents?.defaults?.memorySearch?.remote?.apiKey || null;
-  } catch { return null; }
-}
 
 // Get OpenRouter key for chat completions
 function getOpenRouterKey() {
@@ -41,7 +35,6 @@ function getOpenRouterKey() {
     for (const [key, val] of Object.entries(profiles)) {
       if (val.provider === 'openrouter' && val.apiKey) return val.apiKey;
     }
-    // Fallback: read from credentials store
     const credsPath = path.join(process.env.HOME, '.openclaw/credentials.json');
     if (fs.existsSync(credsPath)) {
       const creds = JSON.parse(fs.readFileSync(credsPath, 'utf8'));
@@ -51,10 +44,20 @@ function getOpenRouterKey() {
   } catch { return null; }
 }
 
+// Get OpenAI key (fallback)
+function getOpenAIKey() {
+  try {
+    const config = JSON.parse(fs.readFileSync(
+      path.join(process.env.HOME, '.openclaw/openclaw.json'), 'utf8'
+    ));
+    return config.agents?.defaults?.memorySearch?.remote?.apiKey || null;
+  } catch { return null; }
+}
+
 app.use(cors());
 app.use(express.json());
 
-// Auth middleware for AI endpoints
+// Auth middleware
 function requireAuth(req, res, next) {
   const auth = req.headers.authorization;
   if (!auth || auth !== `Bearer ${API_TOKEN}`) {
@@ -63,115 +66,107 @@ function requireAuth(req, res, next) {
   next();
 }
 
-// Rate limiting (simple in-memory, per IP)
+// Rate limiting
 const rateLimits = new Map();
 function rateLimit(maxPerMinute) {
   return (req, res, next) => {
     const ip = req.ip || req.connection.remoteAddress;
     const now = Date.now();
     const window = 60000;
-    
     if (!rateLimits.has(ip)) rateLimits.set(ip, []);
     const timestamps = rateLimits.get(ip).filter(t => now - t < window);
-    
     if (timestamps.length >= maxPerMinute) {
       return res.status(429).json({ error: 'Too many requests. Try again in a minute.' });
     }
-    
     timestamps.push(now);
     rateLimits.set(ip, timestamps);
     next();
   };
 }
 
-// AI Search endpoint
+// --- Endpoints ---
+
+// AI Search: FTS5 + LLM summary
 app.post('/api/ai-search', requireAuth, rateLimit(10), async (req, res) => {
   try {
     const { query, category, dateFrom, dateTo } = req.body;
     if (!query) return res.status(400).json({ error: 'Query required' });
 
-    // Load KB
-    const kb = JSON.parse(fs.readFileSync(KB_PATH, 'utf8'));
-    let entries = kb.entries || [];
+    // Use FTS5 for initial search
+    let results = kbDb.search({
+      query,
+      category: category || undefined,
+      since: dateFrom || undefined,
+      until: dateTo || undefined,
+      limit: 30,
+    });
 
-    // Filter by category
-    if (category) {
-      entries = entries.filter(e => e.category === category);
+    // If FTS returns nothing, fall back to category/date browsing
+    if (results.length === 0 && (category || dateFrom)) {
+      results = kbDb.search({
+        category: category || undefined,
+        since: dateFrom || undefined,
+        until: dateTo || undefined,
+        orderBy: 'quality',
+        limit: 30,
+      });
     }
-
-    // Filter by date range
-    if (dateFrom) {
-      entries = entries.filter(e => e.addedAt >= dateFrom);
-    }
-    if (dateTo) {
-      entries = entries.filter(e => e.addedAt <= dateTo + 'T23:59:59Z');
-    }
-
-    // Simple keyword pre-filter to reduce context (top 50 most relevant)
-    const queryTerms = query.toLowerCase().split(/\s+/);
-    const scored = entries.map(e => {
-      const text = `${e.title || ''} ${e.summary || ''} ${(e.tags || []).join(' ')}`.toLowerCase();
-      let score = 0;
-      for (const term of queryTerms) {
-        if (text.includes(term)) score += 1;
-        if ((e.title || '').toLowerCase().includes(term)) score += 2; // title boost
-      }
-      return { entry: e, score };
-    }).filter(s => s.score > 0)
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 30);
 
     // Build context for LLM
-    const context = scored.map((s, i) => 
-      `[${i + 1}] ${s.entry.title}\n${s.entry.summary || 'No summary'}\nSource: ${s.entry.source || 'unknown'} | ${s.entry.addedAt || 'unknown date'}\nURL: ${s.entry.url || 'N/A'}`
+    const context = results.slice(0, 30).map((e, i) =>
+      `[${i + 1}] ${e.title}\n${e.summary || 'No summary'}\nSource: ${e.source || 'unknown'} | ${e.date || 'unknown date'}\nURL: ${e.url || 'N/A'}`
     ).join('\n\n');
 
-    // Call OpenRouter for summary (cheaper than OpenAI direct)
+    // Call LLM for summary
     let apiKey = getOpenRouterKey();
     let apiUrl = 'https://openrouter.ai/api/v1/chat/completions';
     let model = 'openai/gpt-4.1-mini';
 
-    // Fallback to OpenAI if no OpenRouter key
     if (!apiKey) {
       apiKey = getOpenAIKey();
       apiUrl = 'https://api.openai.com/v1/chat/completions';
       model = 'gpt-4.1-mini';
     }
 
-    if (!apiKey) {
-      return res.status(500).json({ error: 'No API key configured' });
+    let summary = `Found ${results.length} matching entries.`;
+
+    if (apiKey && results.length > 0) {
+      try {
+        const llmResponse = await fetch(apiUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey}`
+          },
+          body: JSON.stringify({
+            model,
+            messages: [
+              {
+                role: 'system',
+                content: 'You are a GenAI knowledge base search assistant. Summarise what the KB knows about the user\'s query. Cite entry numbers [1], [2] etc. Be concise and direct. Format with markdown.'
+              },
+              {
+                role: 'user',
+                content: `Question: ${query}\n\nKnowledge Base entries:\n${context || 'No matching entries found.'}`
+              }
+            ],
+            max_tokens: 500,
+            temperature: 0.3
+          })
+        });
+
+        const llmData = await llmResponse.json();
+        summary = llmData.choices?.[0]?.message?.content || summary;
+      } catch (err) {
+        console.error('LLM summary failed:', err.message);
+      }
     }
 
-    const llmResponse = await fetch(apiUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${apiKey}`
-      },
-      body: JSON.stringify({
-        model,
-        messages: [
-          {
-            role: 'system',
-            content: `You are a GenAI knowledge base search assistant. Summarise what the KB knows about the user's query. Be helpful — if entries are related to the query topic (even if not an exact match), surface them. Cite entry numbers [1], [2] etc. Be concise and direct. Format with markdown. Never say "the knowledge base does not contain" if there ARE matching entries — just summarise what's there.`
-          },
-          {
-            role: 'user',
-            content: `Question: ${query}\n\nKnowledge Base entries:\n${context || 'No matching entries found.'}`
-          }
-        ],
-        max_tokens: 500,
-        temperature: 0.3
-      })
+    res.json({
+      summary,
+      results: results.slice(0, 10),
+      totalMatches: results.length
     });
-
-    const llmData = await llmResponse.json();
-    const summary = llmData.choices?.[0]?.message?.content || 'No summary generated.';
-
-    // Return top results + summary
-    const results = scored.slice(0, 10).map(s => s.entry);
-    
-    res.json({ summary, results, totalMatches: scored.length });
 
   } catch (err) {
     console.error('AI search error:', err);
@@ -179,11 +174,91 @@ app.post('/api/ai-search', requireAuth, rateLimit(10), async (req, res) => {
   }
 });
 
+// Direct search: fast, no LLM
+app.post('/api/search', requireAuth, rateLimit(30), (req, res) => {
+  try {
+    const { query, category, sourceType, freshnessTag, minQuality, since, until, freshOnly, orderBy, order, limit, offset } = req.body;
+
+    const results = kbDb.search({
+      query, category, sourceType, freshnessTag,
+      minQuality, since, until, freshOnly,
+      orderBy: orderBy || 'date', order, 
+      limit: limit || 20, offset: offset || 0
+    });
+
+    const total = kbDb.count({
+      category, sourceType, freshnessTag, minQuality, freshOnly, since
+    });
+
+    res.json({ results, total, returned: results.length });
+  } catch (err) {
+    console.error('Search error:', err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// KB Statistics
+app.get('/api/stats', requireAuth, (req, res) => {
+  try {
+    res.json(kbDb.stats());
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Kanban cards
+app.get('/api/cards', (req, res) => {
+  try {
+    const data = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
+    res.json(data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+  try {
+    const s = kbDb.stats();
+    res.json({
+      status: 'ok',
+      backend: 'sqlite',
+      entries: s.total,
+      fresh: s.fresh,
+      avgQuality: s.avgQuality,
+      dateRange: s.dateRange,
+      timestamp: new Date().toISOString()
+    });
+  } catch (err) {
+    res.json({
+      status: 'degraded',
+      error: err.message,
+      timestamp: new Date().toISOString()
+    });
+  }
+});
+
+// Graceful shutdown
+process.on('SIGTERM', () => {
+  console.log('SIGTERM received, closing DB...');
+  kbDb.close();
+  process.exit(0);
+});
+
+process.on('SIGINT', () => {
+  console.log('SIGINT received, closing DB...');
+  kbDb.close();
+  process.exit(0);
 });
 
 app.listen(PORT, '127.0.0.1', () => {
-  console.log(`Kanban API server running on port ${PORT}`);
+  const s = kbDb.stats();
+  console.log(`Kanban API server (SQLite) running on port ${PORT}`);
+  console.log(`KB: ${s.total} entries | ${s.fresh} fresh | avg quality: ${s.avgQuality}`);
+  console.log(`Endpoints:`);
+  console.log(`  POST /api/ai-search  — FTS5 search + LLM summary`);
+  console.log(`  POST /api/search     — Direct SQLite search`);
+  console.log(`  GET  /api/stats      — KB statistics`);
+  console.log(`  GET  /api/cards      — Kanban board`);
+  console.log(`  GET  /api/health     — Health check`);
 });
