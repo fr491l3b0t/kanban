@@ -71,12 +71,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Running reliably since Feb 2026. KB: 6,778 entries. Updated 2026-03-15.",
             "Running reliably since Feb 2026. KB: 6,960 entries. Updated 2026-03-16.",
-            "Running reliably since Feb 2026. KB: 7,374 entries. Updated 2026-03-18."
+            "Running reliably since Feb 2026. KB: 7,374 entries. Updated 2026-03-18.",
+            "Running reliably since Feb 2026. KB: 7,660 entries. Updated 2026-03-20."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-18T16:07:57.939Z",
+          "updatedAt": "2026-03-20T16:06:38.469Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -90,12 +90,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Dashboard live. 6,778 KB entries, 30 memory files. Updated 2026-03-15.",
             "Dashboard live. 6,960 KB entries, 30 memory files. Updated 2026-03-16.",
-            "Dashboard live. 7,374 KB entries, 30 memory files. Updated 2026-03-18."
+            "Dashboard live. 7,374 KB entries, 30 memory files. Updated 2026-03-18.",
+            "Dashboard live. 7,660 KB entries, 30 memory files. Updated 2026-03-20."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-18T16:07:57.939Z",
+          "updatedAt": "2026-03-20T16:06:38.469Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -121,7 +121,7 @@
         {
           "id": "ip-2",
           "title": "GenAI Knowledge Base",
-          "description": "7,374 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
+          "description": "7,660 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
           "tags": [
             "infrastructure",
             "kb"
@@ -134,7 +134,7 @@
             "Sources config: ~/clawd/scripts/sources-config.js"
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-18T16:07:57.939Z",
+          "updatedAt": "2026-03-20T16:06:38.469Z",
           "updatedBy": "kanban-updater"
         }
       ]
@@ -148,6 +148,24 @@
       "id": "done",
       "title": "✅ Done",
       "cards": [
+        {
+          "id": "done-build-2026-03-20",
+          "title": "System Operations Dashboard",
+          "description": "Build queue exhausted. Kanban backlog has only low-priority (Lady Petrova App, Google Migration) or blocked (Telegram Topics) items. System has grown to 7,663 KB entries, 49 scripts, 3 services, and 3",
+          "tags": [
+            "newsletter",
+            "kb",
+            "infrastructure",
+            "operations",
+            "content",
+            "memory",
+            "voice"
+          ],
+          "status": "done",
+          "completedDate": "2026-03-20",
+          "updatedAt": "2026-03-20T16:06:38.459Z",
+          "updatedBy": "kanban-updater"
+        },
         {
           "id": "done-build-2026-03-18",
           "title": "Second Brain Builds & Ops Dashboard",
@@ -648,12 +666,12 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-18T16:07:57.940Z",
+  "lastUpdated": "2026-03-20T16:06:38.469Z",
   "stats": {
-    "totalCards": 45,
+    "totalCards": 46,
     "backlog": 3,
     "inProgress": 4,
     "blocked": 0,
-    "done": 38
+    "done": 39
   }
 }
