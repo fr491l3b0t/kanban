@@ -71,12 +71,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Running reliably since Feb 2026. KB: 6,960 entries. Updated 2026-03-16.",
             "Running reliably since Feb 2026. KB: 7,374 entries. Updated 2026-03-18.",
-            "Running reliably since Feb 2026. KB: 7,660 entries. Updated 2026-03-20."
+            "Running reliably since Feb 2026. KB: 7,660 entries. Updated 2026-03-20.",
+            "Running reliably since Feb 2026. KB: 7,782 entries. Updated 2026-03-21."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-20T16:06:38.469Z",
+          "updatedAt": "2026-03-21T16:07:04.270Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -90,12 +90,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Dashboard live. 6,960 KB entries, 30 memory files. Updated 2026-03-16.",
             "Dashboard live. 7,374 KB entries, 30 memory files. Updated 2026-03-18.",
-            "Dashboard live. 7,660 KB entries, 30 memory files. Updated 2026-03-20."
+            "Dashboard live. 7,660 KB entries, 30 memory files. Updated 2026-03-20.",
+            "Dashboard live. 7,782 KB entries, 30 memory files. Updated 2026-03-21."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-20T16:06:38.469Z",
+          "updatedAt": "2026-03-21T16:07:04.270Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -121,7 +121,7 @@
         {
           "id": "ip-2",
           "title": "GenAI Knowledge Base",
-          "description": "7,660 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
+          "description": "7,782 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
           "tags": [
             "infrastructure",
             "kb"
@@ -134,7 +134,7 @@
             "Sources config: ~/clawd/scripts/sources-config.js"
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-20T16:06:38.469Z",
+          "updatedAt": "2026-03-21T16:07:04.270Z",
           "updatedBy": "kanban-updater"
         }
       ]
@@ -148,6 +148,21 @@
       "id": "done",
       "title": "✅ Done",
       "cards": [
+        {
+          "id": "done-build-2026-03-21",
+          "title": "Automated Backup & Disaster Recovery System",
+          "description": "Build queue exhausted. Kanban backlog has only low-priority or blocked items. Critical gap discovered: the clawd repo (49 scripts, 35 builds, all project files) had NO GitHub remote — completely local",
+          "tags": [
+            "kb",
+            "infrastructure",
+            "operations",
+            "memory"
+          ],
+          "status": "done",
+          "completedDate": "2026-03-21",
+          "updatedAt": "2026-03-21T16:07:04.260Z",
+          "updatedBy": "kanban-updater"
+        },
         {
           "id": "done-build-2026-03-20",
           "title": "System Operations Dashboard",
@@ -666,12 +681,12 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-20T16:06:38.469Z",
+  "lastUpdated": "2026-03-21T16:07:04.270Z",
   "stats": {
-    "totalCards": 46,
+    "totalCards": 47,
     "backlog": 3,
     "inProgress": 4,
     "blocked": 0,
-    "done": 39
+    "done": 40
   }
 }
