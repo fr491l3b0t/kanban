@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-03-21T19:05:46.982Z",
+  "generatedAt": "2026-03-22T07:00:06.570Z",
   "window": {
-    "start": "2026-03-14T19:05:46.942Z",
-    "end": "2026-03-21T19:05:46.942Z",
+    "start": "2026-03-15T07:00:06.529Z",
+    "end": "2026-03-22T07:00:06.529Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 817,
+    "totalEntries": 843,
     "categoriesWithEntries": 10,
     "totalSelected": 30
   },
@@ -16,7 +16,7 @@
     "source": "Guardian AI",
     "date": "Wed, 18 Mar 2026 16:15:17 GMT",
     "summary": "As Deep As the Grave, the true story of 1920s archeologists, will bring late actor back with support from his estateVal Kilmer will be the latest Hollywood star to be resurrected by AI. The acting legend, who died last year at age 65, will star in the drama As Deep As the Grave.Kilmer was attached to the project prior to his death from throat cancer. Continue reading...",
-    "score": 0.825
+    "score": 0.814
   },
   "trending": [
     {
@@ -55,6 +55,13 @@
       "relevance": 2
     },
     {
+      "tag": "coding agents",
+      "count": 11,
+      "prevCount": 4,
+      "growth": 1.75,
+      "relevance": 1.75
+    },
+    {
       "tag": "gtc 2026",
       "count": 5,
       "prevCount": 2,
@@ -81,13 +88,6 @@
       "prevCount": 0,
       "growth": 1,
       "relevance": 1
-    },
-    {
-      "tag": "open source",
-      "count": 6,
-      "prevCount": 3,
-      "growth": 1,
-      "relevance": 1
     }
   ],
   "categories": {
@@ -98,7 +98,7 @@
         "source": "ZDNet Australia",
         "date": "Fri, 20 Mar 2026 18:03:16 GMT",
         "summary": "With Gemini and a simple Python script, I rebuilt YouTube email alerts. Now I won't miss another comment. Here's how you can do the same.",
-        "score": 0.818
+        "score": 0.807
       },
       {
         "title": "How Squad runs coordinated AI agents inside your repository",
@@ -106,7 +106,7 @@
         "source": "GitHub Blog",
         "date": "Thu, 19 Mar 2026 16:09:50 +0000",
         "summary": "An inside look at repository-native orchestration with GitHub Copilot and the design patterns behind multi-agent workflows that stay inspectable, predictable, and collaborative. The post How Squad ...",
-        "score": 0.811
+        "score": 0.801
       },
       {
         "title": "Turbo Pascal 3.02A, deconstructed",
@@ -114,7 +114,7 @@
         "source": "Simon Willison",
         "date": "2026-03-20T23:59:14+00:00",
         "summary": "Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,73...",
-        "score": 0.786
+        "score": 0.776
       }
     ],
     "AI Tools & Platforms": [
@@ -124,7 +124,7 @@
         "source": "X/@unknown",
         "date": "Fri Mar 20 17:15:02 +0000 2026",
         "summary": "We literally just launched the first agentic\nself improving vibe marketer\n\n> you connect your agent to viewtrack\n\n>send it any account or video ( x, ig, tt , yt )\n\n>it tracks all videos from that a...",
-        "score": 0.924
+        "score": 0.913
       },
       {
         "title": "@unknown: Meet the new Stitch, your vibe design partner.\n\nHere are 5 major upgrades to hel...",
@@ -132,7 +132,7 @@
         "source": "X/@unknown",
         "date": "Wed Mar 18 18:15:21 +0000 2026",
         "summary": "Meet the new Stitch, your vibe design partner.\n\nHere are 5 major upgrades to help you create, iterate and collaborate:\n🎨 AI-Native Canvas\n🧠 Smarter Design Agent\n🎙️ Voice \n⚡️ Instant Prototypes\n\ud83d...",
-        "score": 0.882
+        "score": 0.871
       },
       {
         "title": "I tried Gemini's Personal Intelligence, and it was accurate in a useful (but unsettling) way",
@@ -140,7 +140,7 @@
         "source": "ZDNet Australia",
         "date": "Thu, 19 Mar 2026 00:50:00 GMT",
         "summary": "I gave Gemini's hyper-personalized mode a test drive and was shocked by how much it knew about me. However, it was surprisingly useful.",
-        "score": 0.781
+        "score": 0.77
       }
     ],
     "Research & Papers": [
@@ -150,7 +150,7 @@
         "source": "MIT Tech Review AI",
         "date": "Fri, 20 Mar 2026 11:57:16 +0000",
         "summary": "OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building what it calls an AI researcher, a fully automa...",
-        "score": 0.812
+        "score": 0.802
       },
       {
         "title": "[R] Doc-to-LoRA: Learning to Instantly Internalize Contexts from Sakana AI",
@@ -158,7 +158,7 @@
         "source": "r/MachineLearning",
         "date": "2026-03-19T22:40:51+00:00",
         "summary": "This is cool paper! Creating loras from docs on the fly using a hypernetwork. \"Long input sequences are central to in-context learning, document understanding, and multi-step reasoning of Large Lan...",
-        "score": 0.76
+        "score": 0.75
       },
       {
         "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
@@ -166,7 +166,7 @@
         "source": "Simon Willison",
         "date": "2026-03-18T23:56:46+00:00",
         "summary": "Autoresearching Apple&#x27;s \"LLM in a Flash\" to run Qwen 397B locally Here's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+ ...",
-        "score": 0.743
+        "score": 0.733
       }
     ],
     "Strategy & Opinion": [
@@ -176,7 +176,7 @@
         "source": "X/@unknown",
         "date": "Mon Mar 16 15:12:23 +0000 2026",
         "summary": "Today we're introducing the world's first AI CMO.\n\nEnter your website and it deploys a team of agents to help you get traffic and users.\n\nTry it now at https://t.co/KbAE6FNgzE https://t.co/66ZKAqjP1V",
-        "score": 0.836
+        "score": 0.825
       },
       {
         "title": "Where Do Humans Fit in AI-Assisted Software Development?",
@@ -184,7 +184,7 @@
         "source": "InfoQ AI/ML",
         "date": "Thu, 19 Mar 2026 07:32:00 GMT",
         "summary": "An article on Martin Fowler’s blog by Kief Morris examines the role of humans in AI-assisted software engineering, arguing developers are unlikely to move fully “out of the loop.” Instead, teams ma...",
-        "score": 0.787
+        "score": 0.776
       },
       {
         "title": "How Confident Is the First Token? An Uncertainty-Calibrated Prompt Optimization Framework for Large Language Model Classification and Understanding",
@@ -192,7 +192,7 @@
         "source": "arXiv cs.CL",
         "date": "Fri, 20 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.18009v1 Announce Type: new Abstract: With the widespread adoption of large language models (LLMs) in natural language processing, prompt engineering and retrieval-augmented generation (R...",
-        "score": 0.765
+        "score": 0.754
       }
     ],
     "Image & Video Generation": [
@@ -202,7 +202,7 @@
         "source": "X/@unknown",
         "date": "Fri Mar 20 17:17:39 +0000 2026",
         "summary": "IT'S FINALLY HERE!\n\n🔥 Magnific Precision for Video! 🔥\n\nAvailable now in your favourite platforms 🧵 https://t.co/Myq2mjMVRS",
-        "score": 0.924
+        "score": 0.913
       },
       {
         "title": "@unknown: A breakthrough in real-time video generation.\n\nAs a research preview developed w...",
@@ -210,7 +210,7 @@
         "source": "X/@unknown",
         "date": "Wed Mar 18 15:02:26 +0000 2026",
         "summary": "A breakthrough in real-time video generation.\n\nAs a research preview developed with @NVIDIA and shared at @NVIDIAGTC this week, we trained a new real-time video model running on Vera Rubin. HD vide...",
-        "score": 0.879
+        "score": 0.868
       },
       {
         "title": "Val Kilmer set to be be resurrected with AI for new film",
@@ -218,17 +218,25 @@
         "source": "Guardian AI",
         "date": "Wed, 18 Mar 2026 16:15:17 GMT",
         "summary": "As Deep As the Grave, the true story of 1920s archeologists, will bring late actor back with support from his estateVal Kilmer will be the latest Hollywood star to be resurrected by AI. The acting ...",
-        "score": 0.825
+        "score": 0.814
       }
     ],
     "Workflow & Automation": [
+      {
+        "title": "Gemini task automation is slow, clunky, and super impressive",
+        "url": "https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on",
+        "source": "The Verge AI",
+        "date": "2026-03-21T07:30:00-04:00",
+        "summary": "I've been testing out Gemini's new task automation on the Pixel 10 Pro and the Galaxy S26 Ultra, which for the first time lets Gemini take the wheel and use apps for you. It's limited to a small su...",
+        "score": 0.773
+      },
       {
         "title": "@unknown: Google just shipped DESIGN.md — a portable, agent-readable design system file. T...",
         "url": "https://x.com/unknown/status/2034583837351526763",
         "source": "X/@unknown",
         "date": "Thu Mar 19 10:52:42 +0000 2026",
         "summary": "Google just shipped DESIGN.md — a portable, agent-readable design system file. That's the real announcement.\n\nEveryone's covering \"vibe design\" and the canvas. But Stitch now has an MCP server that...",
-        "score": 0.773
+        "score": 0.763
       },
       {
         "title": "Don't Vibe Code, Do Skele-Code: Interactive No-Code Notebooks for Subject Matter Experts to Build Lower-Cost Agentic Workflows",
@@ -236,15 +244,7 @@
         "source": "arXiv cs.AI",
         "date": "Fri, 20 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.18122v1 Announce Type: new Abstract: Skele-Code is a natural-language and graph-based interface for building workflows with AI agents, designed especially for less or non-technical users...",
-        "score": 0.765
-      },
-      {
-        "title": "Real-Time Trustworthiness Scoring for LLM Structured Outputs and Data Extraction",
-        "url": "https://arxiv.org/abs/2603.18014",
-        "source": "arXiv cs.CL",
-        "date": "Fri, 20 Mar 2026 00:00:00 -0400",
-        "summary": "arXiv:2603.18014v1 Announce Type: new Abstract: Structured Outputs from current LLMs exhibit sporadic errors, hindering enterprise AI efforts from realizing their immense potential. We present CONS...",
-        "score": 0.765
+        "score": 0.754
       }
     ],
     "Industry & Business": [
@@ -254,7 +254,7 @@
         "source": "Simon Willison",
         "date": "2026-03-17T19:39:17+00:00",
         "summary": "OpenAI today: Introducing GPT‑5.4 mini and nano. These models join GPT-5.4 which was released two weeks ago. OpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous GP...",
-        "score": 0.718
+        "score": 0.707
       },
       {
         "title": "Roku's ad-free streaming service was already a great deal - now it's adding Disney movies",
@@ -262,7 +262,7 @@
         "source": "ZDNet Australia",
         "date": "Fri, 20 Mar 2026 19:39:03 GMT",
         "summary": "Howdy gets you ad-free viewing for under $3 a month, but is it worth it?",
-        "score": 0.709
+        "score": 0.698
       },
       {
         "title": "@unknown: 🚨 OpenAI just changed the economics of AI Agents. GPT-5.4 Mini & Nano are LIVE....",
@@ -270,7 +270,7 @@
         "source": "X/@unknown",
         "date": "Thu Mar 19 23:43:46 +0000 2026",
         "summary": "🚨 OpenAI just changed the economics of AI Agents. GPT-5.4 Mini & Nano are LIVE.\n\n​If you’re still using a single model for your entire workflow, you’re overpaying.\n\n​Here’s why the \"Subagent\" arch...",
-        "score": 0.705
+        "score": 0.694
       }
     ],
     "Voice & Audio": [
@@ -280,7 +280,7 @@
         "source": "TechCrunch AI",
         "date": "Wed, 18 Mar 2026 17:15:00 +0000",
         "summary": "Rebel Audio is a new all-in-one podcasting tool that allows creators to record podcasts, edit, clip content for social, and publish episodes, all without ever leaving the platform.",
-        "score": 0.774
+        "score": 0.763
       },
       {
         "title": "Aligning Paralinguistic Understanding and Generation in Speech LLMs via Multi-Task Reinforcement Learning",
@@ -288,15 +288,15 @@
         "source": "arXiv cs.CL",
         "date": "Wed, 18 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.15981v1 Announce Type: new Abstract: Speech large language models (LLMs) observe paralinguistic cues such as prosody, emotion, and non-verbal sounds--crucial for intent understanding. Ho...",
-        "score": 0.722
+        "score": 0.712
       },
       {
-        "title": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
-        "source": "The Verge AI",
-        "date": "2026-03-15T10:00:00-04:00",
-        "summary": "If you've got strong creative instincts, the ability to authentically portray emotion, and are capable of staying true to a character's voice throughout a scene, there's a job listing calling for y...",
-        "score": 0.657
+        "title": "US man pleads guilty to defrauding music streamers out of millions using AI",
+        "url": "https://www.theguardian.com/us-news/2026/mar/21/man-pleads-guilty-music-streaming-fraud-ai",
+        "source": "Guardian AI",
+        "date": "Sat, 21 Mar 2026 15:14:59 GMT",
+        "summary": "Michael Smith, 52, charged after flooding platforms with thousands of AI songs and boosting them with botsSign up for the Breaking News US email to get newsletter alerts in your inboxA North Caroli...",
+        "score": 0.661
       }
     ],
     "Ethics & Regulation": [
@@ -306,7 +306,7 @@
         "source": "The Verge AI",
         "date": "2026-03-20T14:17:02-04:00",
         "summary": "The Trump administration on Friday unveiled its new legislative blueprint for AI regulation, and the seven-point plan includes a clear message: The federal government should avoid many AI regulatio...",
-        "score": 0.768
+        "score": 0.757
       },
       {
         "title": "NANOZK: Layerwise Zero-Knowledge Proofs for Verifiable Large Language Model Inference",
@@ -314,7 +314,7 @@
         "source": "arXiv cs.LG",
         "date": "Fri, 20 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.18046v1 Announce Type: new Abstract: When users query proprietary LLM APIs, they receive outputs with no cryptographic assurance that the claimed model was actually used. Service provide...",
-        "score": 0.757
+        "score": 0.746
       },
       {
         "title": "How we monitor internal coding agents for misalignment",
@@ -322,7 +322,7 @@
         "source": "OpenAI Blog",
         "date": "Thu, 19 Mar 2026 10:00:00 GMT",
         "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
-        "score": 0.752
+        "score": 0.742
       }
     ],
     "Australia": [
@@ -332,7 +332,7 @@
         "source": "InnovationAus",
         "date": "Wed, 18 Mar 2026 07:17:37 +0000",
         "summary": "Australia’s goal is clear. We need to build a more prosperous and harmonious society by creating products and services the world values enough to pay a premium for. That means solving difficult pro...",
-        "score": 0.669
+        "score": 0.658
       },
       {
         "title": "Sweeping R&D tax reforms pitched to close innovation gap",
@@ -340,7 +340,7 @@
         "source": "InnovationAus",
         "date": "Mon, 16 Mar 2026 11:31:29 +0000",
         "summary": "Tax breaks for research and development would be streamlined and new streams introduced to target more innovative businesses under sweeping reforms proposed by a landmark review of Australia’s R&#3...",
-        "score": 0.629
+        "score": 0.619
       },
       {
         "title": "Record donations to map AI’s mathematical future",
@@ -348,7 +348,7 @@
         "source": "InnovationAus",
         "date": "Mon, 16 Mar 2026 08:38:01 +0000",
         "summary": "Australia’s leading math research centre has received a record $55 million funding uplift, which academic leaders have hailed as critical to keeping top talent on shore during the artificial intell...",
-        "score": 0.627
+        "score": 0.616
       }
     ]
   }
