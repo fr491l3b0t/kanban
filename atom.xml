@@ -5,910 +5,910 @@
   <link href="https://fr491l3b0t.github.io/kanban/genai-kb-editorial.html" rel="alternate" type="text/html"/>
   <link href="https://fr491l3b0t.github.io/kanban/atom.xml" rel="self" type="application/atom+xml"/>
   <id>https://fr491l3b0t.github.io/kanban/genai-kb-editorial.html</id>
-  <updated>2026-03-22T08:03:05.773Z</updated>
+  <updated>2026-03-23T08:05:03.761Z</updated>
   <author>
     <name>Raphael Ruz</name>
   </author>
   <rights>© 2026 Raphael Ruz</rights>
   <generator>Product Intelligence KB Feed Builder</generator>
   <entry>
-    <title>[R] Identifying the &quot;Complexity Kink&quot;: An Econometric Analysis of AI Marginal Productivity Collapse in Multi-Asset Tasks</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1qyxn1q/r_identifying_the_complexity_kink_an_econometric/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1qyxn1q/r_identifying_the_complexity_kink_an_econometric/</id>
-    <updated>2026-02-08T03:04:29.000Z</updated>
+    <title>OpenAI’s President Gave Millions to Trump. He Says It’s for Humanity</title>
+    <link href="https://www.wired.com/story/openai-president-greg-brockman-political-donations-trump-humanity/" rel="alternate" type="text/html"/>
+    <id>https://www.wired.com/story/openai-president-greg-brockman-political-donations-trump-humanity/</id>
+    <updated>2026-02-12T19:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[I’ve been working on quantifying the structural limits of LLM/Agentic framework productivity beyond standard benchmarks. Using the Scale AI Remote Labor Index (RLI) and market microdata, I modeled the interaction between inference density and coordination cost. The goal was to…]]></summary>
-    <source><title>r/MachineLearning</title></source>
-  </entry>
-  <entry>
-    <title>Quoting Thomas Ptacek</title>
-    <link href="https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything" rel="alternate" type="text/html"/>
-    <id>https://simonwillison.net/2026/Feb/8/thomas-ptacek/#atom-everything</id>
-    <updated>2026-02-08T02:25:53.000Z</updated>
-    <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
-    <summary type="html"><![CDATA[People on the orange site are laughing at this, assuming it's just an ad and that there's nothing to it. Vulnerability researchers I talk to do not think this is a joke. As an erstwhile vuln researcher myself: do not bet against LLMs on this. Axios: Anthropic's Claude Opus 4.6…]]></summary>
-    <source><title>Simon Willison</title></source>
-  </entry>
-  <entry>
-    <title>Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory</title>
-    <link href="https://github.com/localgpt-app/localgpt" rel="alternate" type="text/html"/>
-    <id>https://github.com/localgpt-app/localgpt</id>
-    <updated>2026-02-08T01:26:38.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[I built LocalGPT over 4 nights as a Rust reimagining of the OpenClaw assistant pattern (markdown-based persistent memory, autonomous heartbeat tasks, skills system).It compiles to a single ~27MB binary — no Node.js, Docker, or Python required.Key features:- Persistent memory via…]]></summary>
-    <source><title>Hacker News AI</title></source>
-  </entry>
-  <entry>
-    <title>[R] Guidance for first time submission through OpenReview</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1qytpkl/r_guidance_for_first_time_submission_through/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1qytpkl/r_guidance_for_first_time_submission_through/</id>
-    <updated>2026-02-08T00:04:50.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[Hello everyone! It is my first time submitting a paper through KDD and Open Review and was wondering if I have completed the entire process as mentioned on the KDD website. I have submitted the full PDF through Open Review and it hasn't yet asked about who is going to serve as…]]></summary>
-    <source><title>r/MachineLearning</title></source>
-  </entry>
-  <entry>
-    <title>bird CLI taken down - X pushing pay-per-use API</title>
-    <link href="https://x.com/steipete/status/2020295295406358798" rel="alternate" type="text/html"/>
-    <id>https://x.com/steipete/status/2020295295406358798</id>
-    <updated>2026-02-08T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    
-    <source><title>telegram-share</title></source>
-  </entry>
-  <entry>
-    <title>Vouch</title>
-    <link href="https://simonwillison.net/2026/Feb/7/vouch/#atom-everything" rel="alternate" type="text/html"/>
-    <id>https://simonwillison.net/2026/Feb/7/vouch/#atom-everything</id>
-    <updated>2026-02-07T23:57:57.000Z</updated>
-    <category term="workflow-automation" label="Workflow &amp; Automation"/>
-    <summary type="html"><![CDATA[Vouch Mitchell Hashimoto's new system to help address the deluge of worthless AI-generated PRs faced by open source projects now that the friction involved in contributing has dropped so low. He says: The idea is simple: Unvouched users can't contribute to your projects. Very…]]></summary>
-    <source><title>Simon Willison</title></source>
-  </entry>
-  <entry>
-    <title>Claude: Speed up responses with fast mode</title>
-    <link href="https://simonwillison.net/2026/Feb/7/claude-fast-mode/#atom-everything" rel="alternate" type="text/html"/>
-    <id>https://simonwillison.net/2026/Feb/7/claude-fast-mode/#atom-everything</id>
-    <updated>2026-02-07T23:10:33.000Z</updated>
-    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
-    <summary type="html"><![CDATA[Claude: Speed up responses with fast mode New "research preview" from Anthropic today: you can now access a faster version of their frontier model Claude Opus 4.6 by typing /fast in Claude Code... but at a cost that's 6x the normal price. Opus is usually $5/million input and…]]></summary>
-    <source><title>Simon Willison</title></source>
-  </entry>
-  <entry>
-    <title>Experts Have World Models. LLMs Have Word Models.</title>
-    <link href="https://www.latent.space/p/adversarial-reasoning" rel="alternate" type="text/html"/>
-    <id>https://www.latent.space/p/adversarial-reasoning</id>
-    <updated>2026-02-07T22:11:25.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Most expert work isn&#8217;t &#8220;produce a probable artifact&#8221;; it's "choose a good move considering other agents, guessing hidden state". LLMs default to single-shot artifacts and need World Models to progress]]></summary>
-    <source><title>Latent Space</title></source>
-  </entry>
-  <entry>
-    <title>Quoting David Crawshaw</title>
-    <link href="https://simonwillison.net/2026/Feb/7/david-crawshaw/#atom-everything" rel="alternate" type="text/html"/>
-    <id>https://simonwillison.net/2026/Feb/7/david-crawshaw/#atom-everything</id>
-    <updated>2026-02-07T21:31:44.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[I am having more fun programming than I ever have, because so many more of the programs I wish I could find the time to write actually exist. I wish I could share this joy with the people who are fearful about the changes agents are bringing. The fear itself I understand, I have…]]></summary>
-    <source><title>Simon Willison</title></source>
-  </entry>
-  <entry>
-    <title>Full Claude Opus 4.6 System Prompt for your pleasure</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qynxuw/full_claude_opus_46_system_prompt_for_your/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1qynxuw/full_claude_opus_46_system_prompt_for_your/</id>
-    <updated>2026-02-07T20:07:42.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[&#32; submitted by &#32; /u/frubberism [link] &#32; [comments]]]></summary>
-    <source><title>r/LocalLLaMA</title></source>
-  </entry>
-  <entry>
-    <title>Prompt injection is killing our self-hosted LLM deployment</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qyljr0/prompt_injection_is_killing_our_selfhosted_llm/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1qyljr0/prompt_injection_is_killing_our_selfhosted_llm/</id>
-    <updated>2026-02-07T18:34:55.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[We moved to self-hosted models specifically to avoid sending customer data to external APIs. Everything was working fine until last week when someone from QA tried injecting prompts during testing and our entire system prompt got dumped in the response. Now I'm realizing we have…]]></summary>
-    <source><title>r/LocalLLaMA</title></source>
-  </entry>
-  <entry>
-    <title>Gemini System Prompt - Google decided to remove &quot;PRO&quot; option for paid subscribers mostly in EU due to their A/B testing, so I extracted their system prompt and cancelled the subscription.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qyl6rd/gemini_system_prompt_google_decided_to_remove_pro/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1qyl6rd/gemini_system_prompt_google_decided_to_remove_pro/</id>
-    <updated>2026-02-07T18:21:34.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[https://preview.redd.it/8fcauhhx64ig1.png?width=601&format=png&auto=webp&s=3b7a38b522ce96958f3d5df022bd77d140090255 As the title says! Enjoy &#32; submitted by &#32; /u/Educational_Rent1059 [link] &#32; [comments]]]></summary>
-    <source><title>r/LocalLLaMA</title></source>
-  </entry>
-  <entry>
-    <title>[P] A Matchbox Machine Learning model</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1qyhi8k/p_a_matchbox_machine_learning_model/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1qyhi8k/p_a_matchbox_machine_learning_model/</id>
-    <updated>2026-02-07T16:01:31.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Hi everyone! I wanted to share a project I’ve been working on: I built a physical MENACE, the matchbox-based reinforcement learning model invented by Donald Michie in the 1960s to play tic‑tac‑toe. The model uses reinforcement learning and is implemented with matchboxes and…]]></summary>
-    <source><title>r/MachineLearning</title></source>
-  </entry>
-  <entry>
-    <title>How StrongDM&apos;s AI team build serious software without even looking at the code</title>
-    <link href="https://simonwillison.net/2026/Feb/7/software-factory/#atom-everything" rel="alternate" type="text/html"/>
-    <id>https://simonwillison.net/2026/Feb/7/software-factory/#atom-everything</id>
-    <updated>2026-02-07T15:40:48.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Last week I hinted at a demo I had seen from a team implementing what Dan Shapiro called the Dark Factory level of AI adoption, where no human even looks at the code the coding agents are producing. That team was part of StrongDM, and they've just shared the first public…]]></summary>
-    <source><title>Simon Willison</title></source>
-  </entry>
-  <entry>
-    <title>I tested 11 small LLMs on tool-calling judgment — on CPU, no GPU.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qyg10z/i_tested_11_small_llms_on_toolcalling_judgment_on/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1qyg10z/i_tested_11_small_llms_on_toolcalling_judgment_on/</id>
-    <updated>2026-02-07T15:03:14.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Friday night experiment that got out of hand. I wanted to know: how small can a model be and still reliably do tool-calling on a laptop CPU? So I benchmarked 11 models (0.5B to 3.8B) across 12 prompts. No GPU, no cloud API. Just Ollama and bitnet.cpp. The models: Qwen 2.5 (0.5B,…]]></summary>
-    <source><title>r/LocalLLaMA</title></source>
-  </entry>
-  <entry>
-    <title>Successfully built an Autonomous Research Agent to handle 10k PDFs locally (32GB RAM / AnythingLLM)</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qydx7z/successfully_built_an_autonomous_research_agent/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1qydx7z/successfully_built_an_autonomous_research_agent/</id>
-    <updated>2026-02-07T13:33:36.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[Wanted to share a quick win. I’ve been experimenting with Agentic RAG to handle a massive local dataset (10,000+ PDFs). Most standard RAG setups were failing or hallucinating at this scale, so I moved to an Autonomous Agent workflow using AnythingLLM and Llama 3.2. The agent now…]]></summary>
-    <source><title>r/LocalLLaMA</title></source>
-  </entry>
-  <entry>
-    <title>Potential new Qwen and ByteDance Seed models are being tested on the Arena. The “Karp-001” and “Karp-002” models claim to be Qwen-3.5 models. The “Pisces-llm-0206a” and “Pisces-llm-0206b” models claim to be ByteDance models.</title>
-    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1qydlwi/potential_new_qwen_and_bytedance_seed_models_are/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/LocalLLaMA/comments/1qydlwi/potential_new_qwen_and_bytedance_seed_models_are/</id>
-    <updated>2026-02-07T13:19:21.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[&#32; submitted by &#32; /u/Nunki08 [link] &#32; [comments]]]></summary>
-    <source><title>r/LocalLLaMA</title></source>
-  </entry>
-  <entry>
-    <title>The Technologies Changing How You’ll Watch the 2026 Winter Olympic Games</title>
-    <link href="https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/" rel="alternate" type="text/html"/>
-    <id>https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/</id>
-    <updated>2026-02-07T12:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[From drones with “first-person” visualization to real-time 360-degree replays and Olympics GPT, get ready to immerse yourself in the Winter Games in Milan and Cortina.]]></summary>
+    <summary type="html"><![CDATA[In an interview with WIRED, Greg Brockman says supporting politicians who back AI is “bigger than the people that I happen to be employed with.”]]></summary>
     <source><title>Wired AI</title></source>
   </entry>
   <entry>
-    <title>You Spent Your Whole Life Getting Good at the Wrong Thing</title>
-    <link href="https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting" rel="alternate" type="text/html"/>
-    <id>https://www.thealgorithmicbridge.com/p/you-spent-your-whole-life-getting</id>
-    <updated>2026-02-07T11:33:51.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Notes on AI agents]]></summary>
-    <source><title>The Algorithmic Bridge</title></source>
-  </entry>
-  <entry>
-    <title>[P] How do you regression-test ML systems when correctness is fuzzy? (OSS tool)</title>
-    <link href="https://www.reddit.com/r/MachineLearning/comments/1qy7afx/p_how_do_you_regressiontest_ml_systems_when/" rel="alternate" type="text/html"/>
-    <id>https://www.reddit.com/r/MachineLearning/comments/1qy7afx/p_how_do_you_regressiontest_ml_systems_when/</id>
-    <updated>2026-02-07T07:14:17.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[I’ve repeatedly run into the same issue when working with ML / NLP systems (and more recently LLM-based ones): there often isn’t a single correct answer - only better or worse behavior - and small changes can have non-local effects across the system. Traditional testing…]]></summary>
+    <title>[D] Opinion required: Was Intelligence Just Gradient Descent All Along?</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1r306re/d_opinion_required_was_intelligence_just_gradient/" rel="alternate" type="text/html"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1r306re/d_opinion_required_was_intelligence_just_gradient/</id>
+    <updated>2026-02-12T17:49:48.000Z</updated>
+    <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
+    <summary type="html"><![CDATA[In medieval philosophy, thinkers debated whether intelligence came from divine reason, innate forms, or logical structures built into the mind. Centuries later, early AI researchers tried to recreate intelligence through symbols and formal logic. Now, large models that are…]]></summary>
     <source><title>r/MachineLearning</title></source>
   </entry>
   <entry>
-    <title>DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search</title>
-    <link href="https://arxiv.org/abs/2602.05014" rel="alternate" type="text/html"/>
-    <id>https://arxiv.org/abs/2602.05014</id>
-    <updated>2026-02-07T05:00:00.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[arXiv:2602.05014v1 Announce Type: new Abstract: With the rapid progress of tool-using and agentic large language models (LLMs), Retrieval-Augmented Generation (RAG) is evolving from one-shot, passive retrieval into multi-turn, decision-driven evidence acquisition. Despite strong…]]></summary>
-    <source><title>arXiv cs.AI</title></source>
-  </entry>
-  <entry>
-    <title>Towards Reducible Uncertainty Modeling for Reliable Large Language Model Agents</title>
-    <link href="https://arxiv.org/abs/2602.05073" rel="alternate" type="text/html"/>
-    <id>https://arxiv.org/abs/2602.05073</id>
-    <updated>2026-02-07T05:00:00.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[arXiv:2602.05073v1 Announce Type: new Abstract: Uncertainty quantification (UQ) for large language models (LLMs) is a key building block for safety guardrails of daily LLM applications. Yet, even as LLM agents are increasingly deployed in highly complex tasks, most UQ research…]]></summary>
-    <source><title>arXiv cs.AI</title></source>
-  </entry>
-  <entry>
-    <title>SocialVeil: Probing Social Intelligence of Language Agents under Communication Barriers</title>
-    <link href="https://arxiv.org/abs/2602.05115" rel="alternate" type="text/html"/>
-    <id>https://arxiv.org/abs/2602.05115</id>
-    <updated>2026-02-07T05:00:00.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[arXiv:2602.05115v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated in interactive environments to test their social intelligence. However, existing benchmarks often assume idealized communication between agents, limiting our ability to…]]></summary>
-    <source><title>arXiv cs.AI</title></source>
-  </entry>
-  <entry>
-    <title>MINT: Minimal Information Neuro-Symbolic Tree for Objective-Driven Knowledge-Gap Reasoning and Active Elicitation</title>
-    <link href="https://arxiv.org/abs/2602.05048" rel="alternate" type="text/html"/>
-    <id>https://arxiv.org/abs/2602.05048</id>
-    <updated>2026-02-07T05:00:00.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[arXiv:2602.05048v1 Announce Type: new Abstract: Joint planning through language-based interactions is a key area of human-AI teaming. Planning problems in the open world often involve various aspects of incomplete information and unknowns, e.g., objects involved, human…]]></summary>
-    <source><title>arXiv cs.AI</title></source>
-  </entry>
-  <entry>
-    <title>VERA-MH: Reliability and Validity of an Open-Source AI Safety Evaluation in Mental Health</title>
-    <link href="https://arxiv.org/abs/2602.05088" rel="alternate" type="text/html"/>
-    <id>https://arxiv.org/abs/2602.05088</id>
-    <updated>2026-02-07T05:00:00.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[arXiv:2602.05088v1 Announce Type: new Abstract: Millions now use leading generative AI chatbots for psychological support. Despite the promise related to availability and scale, the single most pressing question in AI for mental health is whether these tools are safe. The…]]></summary>
-    <source><title>arXiv cs.AI</title></source>
-  </entry>
-  <entry>
-    <title>Understanding LLM Evaluator Behavior: A Structured Multi-Evaluator Framework for Merchant Risk Assessment</title>
-    <link href="https://arxiv.org/abs/2602.05110" rel="alternate" type="text/html"/>
-    <id>https://arxiv.org/abs/2602.05110</id>
-    <updated>2026-02-07T05:00:00.000Z</updated>
-    <category term="research-papers" label="Research &amp; Papers"/>
-    <summary type="html"><![CDATA[arXiv:2602.05110v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used as evaluators of reasoning quality, yet their reliability and bias in payments-risk settings remain poorly understood. We introduce a structured multi-evaluator framework for…]]></summary>
-    <source><title>arXiv cs.AI</title></source>
-  </entry>
-  <entry>
-    <title>[AINews] AI vs SaaS: The Unreasonable Effectiveness of Centralizing the AI Heartbeat</title>
-    <link href="https://www.latent.space/p/ainews-ai-vs-saas-the-unreasonable" rel="alternate" type="text/html"/>
-    <id>https://www.latent.space/p/ainews-ai-vs-saas-the-unreasonable</id>
-    <updated>2026-02-07T04:11:08.000Z</updated>
-    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
-    <summary type="html"><![CDATA[A quiet day lets us reflect on a through line from OpenClaw to Frontier to MCP UI to Cursor/Anthropic Teams]]></summary>
-    <source><title>Latent Space</title></source>
-  </entry>
-  <entry>
-    <title>Machine Learning library in Linux kernel</title>
-    <link href="https://lore.kernel.org/lkml/20260206191136.2609767-1-slava@dubeyko.com/" rel="alternate" type="text/html"/>
-    <id>https://lore.kernel.org/lkml/20260206191136.2609767-1-slava@dubeyko.com/</id>
-    <updated>2026-02-06T23:45:21.000Z</updated>
+    <title>The surprising case for AI judges</title>
+    <link href="https://www.theverge.com/podcast/877299/ai-arbitrator-bridget-mccormack-aaa-arbitration-interview" rel="alternate" type="text/html"/>
+    <id>https://www.theverge.com/podcast/877299/ai-arbitrator-bridget-mccormack-aaa-arbitration-interview</id>
+    <updated>2026-02-12T16:22:33.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Comments]]></summary>
-    <source><title>Lobsters AI</title></source>
-  </entry>
-  <entry>
-    <title>The First Mechanistic Interpretability Frontier Lab — Myra Deng &amp; Mark Bissell of Goodfire AI</title>
-    <link href="https://www.latent.space/p/goodfire" rel="alternate" type="text/html"/>
-    <id>https://www.latent.space/p/goodfire</id>
-    <updated>2026-02-06T22:45:00.000Z</updated>
-    <category term="industry-business" label="Industry &amp; Business"/>
-    <summary type="html"><![CDATA[From Palantir and Two Sigma to building Goodfire into the poster-child for actionable mechanistic interpretability, Mark Bissell (Member of Technical Staff) and Myra Deng (Head of Product) are trying to turn &#8220;peeking inside the model&#8221; into a repeatable production…]]></summary>
-    <source><title>Latent Space</title></source>
-  </entry>
-  <entry>
-    <title>Running Pydantic&apos;s Monty Rust sandboxed Python subset in WebAssembly</title>
-    <link href="https://simonwillison.net/2026/Feb/6/pydantic-monty/#atom-everything" rel="alternate" type="text/html"/>
-    <id>https://simonwillison.net/2026/Feb/6/pydantic-monty/#atom-everything</id>
-    <updated>2026-02-06T22:31:31.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[There's a jargon-filled headline for you! Everyone's building sandboxes for running untrusted code right now, and Pydantic's latest attempt, Monty, provides a custom Python-like language (a subset of Python) in Rust and makes it available as both a Rust library and a Python…]]></summary>
-    <source><title>Simon Willison</title></source>
-  </entry>
-  <entry>
-    <title>It just got easier for Claude to check in on your WordPress site</title>
-    <link href="https://techcrunch.com/2026/02/06/it-just-got-easier-for-claude-to-check-in-on-your-wordpress-site/" rel="alternate" type="text/html"/>
-    <id>https://techcrunch.com/2026/02/06/it-just-got-easier-for-claude-to-check-in-on-your-wordpress-site/</id>
-    <updated>2026-02-06T22:04:59.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[WordPress users can now leverage Claude to analyze web traffic or find information about other internal site metrics.]]></summary>
-    <source><title>TechCrunch AI</title></source>
-  </entry>
-  <entry>
-    <title>Apple might let you use ChatGPT from CarPlay</title>
-    <link href="https://www.theverge.com/transportation/875199/apple-carplay-third-party-chatbots-rumor" rel="alternate" type="text/html"/>
-    <id>https://www.theverge.com/transportation/875199/apple-carplay-third-party-chatbots-rumor</id>
-    <updated>2026-02-06T21:32:44.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[CarPlay users could soon be able to use their chatbot of choice instead of Siri. As Bloomberg reports, Apple is working to add support for CarPlay voice control apps from OpenAI, Anthropic, Google, and others. Previously, users who wanted to access third-party chatbots in the…]]></summary>
+    <summary type="html"><![CDATA[Today, we’re going to talk about the role AI might play in deciding legal disputes. Not just drafting memos and doing research — actually deciding who’s right and who’s wrong, and who should pay. My guest today is Bridget McCormack, the former chief justice for the Michigan…]]></summary>
     <source><title>The Verge AI</title></source>
   </entry>
   <entry>
-    <title>Monty: A minimal, secure Python interpreter written in Rust for use by AI</title>
-    <link href="https://github.com/pydantic/monty" rel="alternate" type="text/html"/>
-    <id>https://github.com/pydantic/monty</id>
-    <updated>2026-02-06T21:16:36.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Article URL: https://github.com/pydantic/monty Comments URL: https://news.ycombinator.com/item?id=46918254 Points: 308 # Comments: 157]]></summary>
-    <source><title>Hacker News AI</title></source>
+    <title>[P] A library for linear RNNs</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1r2xflm/p_a_library_for_linear_rnns/" rel="alternate" type="text/html"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1r2xflm/p_a_library_for_linear_rnns/</id>
+    <updated>2026-02-12T16:07:31.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[Hi everyone, in the past few months, a few of my friends and I have developed this library containing implementation of several popular Linear RNNs, with accelerated kernels for inference and training (similar to mamba). All in PyTorch. The code is fully open source and under an…]]></summary>
+    <source><title>r/MachineLearning</title></source>
   </entry>
   <entry>
-    <title>Man who videotaped himself BASE jumping in Yosemite arrested, says it was AI</title>
-    <link href="https://www.latimes.com/california/story/2026-02-05/man-videotaped-himself-base-jumping-in-yosemite-federal-officials-say-he-says-it-was-ai" rel="alternate" type="text/html"/>
-    <id>https://www.latimes.com/california/story/2026-02-05/man-videotaped-himself-base-jumping-in-yosemite-federal-officials-say-he-says-it-was-ai</id>
-    <updated>2026-02-06T19:20:53.000Z</updated>
+    <title>The Download: AI-enhanced cybercrime, and secure AI assistants</title>
+    <link href="https://www.technologyreview.com/2026/02/12/1132819/the-download-ai-enhanced-cybercrime-and-secure-ai-assistants/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/12/1132819/the-download-ai-enhanced-cybercrime-and-secure-ai-assistants/</id>
+    <updated>2026-02-12T13:10:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Article URL: https://www.latimes.com/california/story/2026-02-05/man-videotaped-himself-base-jumping-in-yosemite-federal-officials-say-he-says-it-was-ai Comments URL: https://news.ycombinator.com/item?id=46916961 Points: 54 # Comments: 91]]></summary>
-    <source><title>Hacker News AI</title></source>
+    <summary type="html"><![CDATA[This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is already making online crimes easier. It could get much worse. Just as software engineers are using artificial intelligence…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>How to effectively write quality code with AI</title>
-    <link href="https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/" rel="alternate" type="text/html"/>
-    <id>https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/</id>
-    <updated>2026-02-06T18:49:59.000Z</updated>
+    <title>AI is already making online crimes easier. It could get much worse.</title>
+    <link href="https://www.technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier/</id>
+    <updated>2026-02-12T11:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Article URL: https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/ Comments URL: https://news.ycombinator.com/item?id=46916586 Points: 325 # Comments: 289]]></summary>
-    <source><title>Hacker News AI</title></source>
+    <summary type="html"><![CDATA[Anton Cherepanov is always on the lookout for something interesting. And in late August last year, he spotted just that. It was a file uploaded to VirusTotal, a site cybersecurity researchers like him use to analyze submissions for potential viruses and other types of malicious…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>How Elon Musk is rewriting the rules on founder power</title>
-    <link href="https://techcrunch.com/video/how-elon-musk-is-rewriting-the-rules-on-founder-power/" rel="alternate" type="text/html"/>
-    <id>https://techcrunch.com/video/how-elon-musk-is-rewriting-the-rules-on-founder-power/</id>
-    <updated>2026-02-06T18:46:51.000Z</updated>
+    <title>Why EVs are gaining ground in Africa</title>
+    <link href="https://www.technologyreview.com/2026/02/12/1132790/evs-progress-africa/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/12/1132790/evs-progress-africa/</id>
+    <updated>2026-02-12T11:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Elon Musk&#160;has&#160;merged&#160;SpaceX and xAI,&#160;creating&#160;what might be the blueprint for a new Silicon Valley power structure. With his&#160;$800 billion&#160;net worth already rivaling historic conglomerate GE&#8217;s peak market cap,&#160;and Musk being vocal…]]></summary>
-    <source><title>TechCrunch AI</title></source>
+    <summary type="html"><![CDATA[EVs are getting cheaper and more common all over the world. But the technology still faces major challenges in some markets, including many countries in Africa. Some regions across the continent still have limited grid and charging infrastructure, and those that do have…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>An Update on Heroku</title>
-    <link href="https://simonwillison.net/2026/Feb/6/an-update-on-heroku/#atom-everything" rel="alternate" type="text/html"/>
-    <id>https://simonwillison.net/2026/Feb/6/an-update-on-heroku/#atom-everything</id>
-    <updated>2026-02-06T18:44:21.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[An Update on Heroku An ominous headline to see on the official Heroku blog and yes, it's bad news. Today, Heroku is transitioning to a sustaining engineering model focused on stability, security, reliability, and support. Heroku remains an actively supported, production-ready…]]></summary>
-    <source><title>Simon Willison</title></source>
-  </entry>
-  <entry>
-    <title>How far will Elon Musk take the ‘everything’ business as SpaceX and xAI merge?</title>
-    <link href="https://techcrunch.com/podcast/how-far-will-elon-musk-take-the-everything-business-as-spacex-and-xai-merge/" rel="alternate" type="text/html"/>
-    <id>https://techcrunch.com/podcast/how-far-will-elon-musk-take-the-everything-business-as-spacex-and-xai-merge/</id>
-    <updated>2026-02-06T17:56:42.000Z</updated>
-    <category term="industry-business" label="Industry &amp; Business"/>
-    <summary type="html"><![CDATA[Elon Musk&#160;has&#160;merged&#160;SpaceX and xAI,&#160;creating&#160;what might be the blueprint for a new Silicon Valley power structure. With his&#160;$800 billion&#160;net worth already rivaling historic conglomerate GE&#8217;s peak market cap,&#160;and Musk being vocal…]]></summary>
-    <source><title>TechCrunch AI</title></source>
-  </entry>
-  <entry>
-    <title>The Kindle Scribe Colorsoft is a pricey but pretty e-ink color tablet with AI features</title>
-    <link href="https://techcrunch.com/2026/02/06/kindle-scribe-colorsoft-review-e-ink-color-tablet/" rel="alternate" type="text/html"/>
-    <id>https://techcrunch.com/2026/02/06/kindle-scribe-colorsoft-review-e-ink-color-tablet/</id>
-    <updated>2026-02-06T16:37:07.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[If you primarily want a tablet device to mark up, highlight, and annotate your e-books and documents, and perhaps sometimes scribble some notes, Amazon's new Kindle Scribe Colorsoft could be worth the hefty investment.]]></summary>
-    <source><title>TechCrunch AI</title></source>
-  </entry>
-  <entry>
-    <title>The Only Thing Standing Between Humanity and AI Apocalypse Is … Claude?</title>
-    <link href="https://www.wired.com/story/the-only-thing-standing-between-humanity-and-ai-apocalypse-is-claude/" rel="alternate" type="text/html"/>
-    <id>https://www.wired.com/story/the-only-thing-standing-between-humanity-and-ai-apocalypse-is-claude/</id>
-    <updated>2026-02-06T16:33:18.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[As AI systems grow more powerful, Anthropic’s resident philosopher says the startup is betting Claude itself can learn the wisdom needed to avoid disaster.]]></summary>
+    <title>I Tried RentAHuman, Where AI Agents Hired Me to Hype Their AI Startups</title>
+    <link href="https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/" rel="alternate" type="text/html"/>
+    <id>https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</id>
+    <updated>2026-02-12T11:00:00.000Z</updated>
+    <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
+    <summary type="html"><![CDATA[Rather than offering a revolutionary new approach to gig work, RentAHuman is filled with bots that just want me to be another cog in the AI hype machine.]]></summary>
     <source><title>Wired AI</title></source>
   </entry>
   <entry>
-    <title>Amazon plunge continues $1T wipeout as AI bubble fears ignite sell-off</title>
-    <link href="https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html" rel="alternate" type="text/html"/>
-    <id>https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html</id>
-    <updated>2026-02-06T14:33:22.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html Comments URL: https://news.ycombinator.com/item?id=46913302 Points: 88 # Comments: 87]]></summary>
-    <source><title>Hacker News AI</title></source>
+    <title>[D] CVPR Score stats</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1r2pqeg/d_cvpr_score_stats/" rel="alternate" type="text/html"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1r2pqeg/d_cvpr_score_stats/</id>
+    <updated>2026-02-12T10:13:30.000Z</updated>
+    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
+    <summary type="html"><![CDATA[Are the stats for the scores in paper copilot weighted by confidence? FYI - current CVPR stats: https://papercopilot.com/statistics/cvpr-statistics/cvpr-2026-statistics/ &#32; submitted by &#32; /u/amds201 [link] &#32; [comments]]]></summary>
+    <source><title>r/MachineLearning</title></source>
   </entry>
   <entry>
-    <title>How AI is helping solve the labor issue in treating rare diseases</title>
-    <link href="https://techcrunch.com/2026/02/06/how-ai-is-helping-with-the-labor-issue-in-treating-rare-diseases/" rel="alternate" type="text/html"/>
-    <id>https://techcrunch.com/2026/02/06/how-ai-is-helping-with-the-labor-issue-in-treating-rare-diseases/</id>
-    <updated>2026-02-06T14:29:15.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[At Web Summit Qatar, AI-powered biotech startups describe how automation, data, and gene editing are filling labor gaps in drug discovery and rare disease treatment.]]></summary>
-    <source><title>TechCrunch AI</title></source>
-  </entry>
-  <entry>
-    <title>How Epstein became a tech influencer</title>
-    <link href="https://www.theverge.com/podcast/874768/epstein-files-tech-anthropic-ads-vergecast" rel="alternate" type="text/html"/>
-    <id>https://www.theverge.com/podcast/874768/epstein-files-tech-anthropic-ads-vergecast</id>
-    <updated>2026-02-06T14:24:30.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[There are bold-faced tech names all over the Epstein files. Elon Musk, Bill Gates, Sergey Brin, Eric Schmidt, Larry Page, Reid Hoffman, Steven Sinofsky, Peter Thiel, Jeff Bezos, Mark Zuckerberg, on and on and on. These men (and they're pretty much all men) had wildly varying…]]></summary>
-    <source><title>The Verge AI</title></source>
-  </entry>
-  <entry>
-    <title>The Stock Market Has No Idea What’s Coming</title>
-    <link href="https://www.thealgorithmicbridge.com/p/the-stock-market-has-no-idea-whats" rel="alternate" type="text/html"/>
-    <id>https://www.thealgorithmicbridge.com/p/the-stock-market-has-no-idea-whats</id>
-    <updated>2026-02-06T13:55:49.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Investors are simultaneously terrified that AI works and that it doesn&#8217;t]]></summary>
-    <source><title>The Algorithmic Bridge</title></source>
-  </entry>
-  <entry>
-    <title>The Download: helping cancer survivors to give birth, and cleaning up Bangladesh’s garment industry</title>
-    <link href="https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/" rel="alternate" type="text/html"/>
-    <id>https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/</id>
-    <updated>2026-02-06T13:10:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An experimental surgery is helping cancer survivors give birth An experimental surgical procedure that’s helping people have…]]></summary>
+    <title>What’s next for Chinese open-source AI</title>
+    <link href="https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/</id>
+    <updated>2026-02-12T10:00:00.000Z</updated>
+    <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
+    <summary type="html"><![CDATA[MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. The past year has marked a turning point for Chinese AI. Since DeepSeek released its R1 reasoning model…]]></summary>
     <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>How the men in the Epstein files defeated #MeToo</title>
-    <link href="https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo" rel="alternate" type="text/html"/>
-    <id>https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo</id>
-    <updated>2026-02-06T13:00:00.000Z</updated>
+    <title>#491 – OpenClaw: The Viral AI Agent that Broke the Internet – Peter Steinberger</title>
+    <link href="https://lexfridman.com/peter-steinberger/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=peter-steinberger" rel="alternate" type="text/html"/>
+    <id>https://lexfridman.com/peter-steinberger/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=peter-steinberger</id>
+    <updated>2026-02-12T03:10:39.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[He might be dead, but it sure seems like Jeffrey Epstein won. Sure, Epstein was arrested on charges of sex trafficking minors. Sure, he died in jail. (I am not going to wade into the debate about how.) But he subscribed to a racist, misogynist ideology that meant rich white men…]]></summary>
-    <source><title>The Verge AI</title></source>
+    <summary type="html"><![CDATA[Peter Steinberger is the creator of OpenClaw, an open-source AI agent framework that&#8217;s the fastest-growing project in GitHub history. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep491-sc See below for timestamps, transcript, and to…]]></summary>
+    <source><title>Lex Fridman</title></source>
   </entry>
   <entry>
-    <title>Making AI work for everyone, everywhere: our approach to localization</title>
-    <link href="https://openai.com/index/our-approach-to-localization" rel="alternate" type="text/html"/>
-    <id>https://openai.com/index/our-approach-to-localization</id>
-    <updated>2026-02-06T10:00:00.000Z</updated>
-    <category term="ethics-regulation" label="Ethics &amp; Regulation"/>
-    <summary type="html"><![CDATA[OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.]]></summary>
-    <source><title>OpenAI Blog</title></source>
-  </entry>
-  <entry>
-    <title>A new bill in New York would require disclaimers on AI-generated news content</title>
-    <link href="https://www.niemanlab.org/2026/02/a-new-bill-in-new-york-would-require-disclaimers-on-ai-generated-news-content/" rel="alternate" type="text/html"/>
-    <id>https://www.niemanlab.org/2026/02/a-new-bill-in-new-york-would-require-disclaimers-on-ai-generated-news-content/</id>
-    <updated>2026-02-06T09:56:55.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Article URL: https://www.niemanlab.org/2026/02/a-new-bill-in-new-york-would-require-disclaimers-on-ai-generated-news-content/ Comments URL: https://news.ycombinator.com/item?id=46910963 Points: 564 # Comments: 234]]></summary>
-    <source><title>Hacker News AI</title></source>
-  </entry>
-  <entry>
-    <title>voxtral.c: Pure C inference of Mistral Voxtral Realtime 4B speech to text model</title>
-    <link href="https://github.com/antirez/voxtral.c" rel="alternate" type="text/html"/>
-    <id>https://github.com/antirez/voxtral.c</id>
-    <updated>2026-02-06T07:44:20.000Z</updated>
-    <category term="voice-audio" label="Voice &amp; Audio"/>
-    <summary type="html"><![CDATA[Comments]]></summary>
-    <source><title>Lobsters AI</title></source>
-  </entry>
-  <entry>
-    <title>[AINews] OpenAI and Anthropic go to war: Claude Opus 4.6 vs GPT 5.3 Codex</title>
-    <link href="https://www.latent.space/p/ainews-openai-and-anthropic-go-to" rel="alternate" type="text/html"/>
-    <id>https://www.latent.space/p/ainews-openai-and-anthropic-go-to</id>
-    <updated>2026-02-06T04:10:33.000Z</updated>
+    <title>Generative coding: 10 Breakthrough Technologies 2026 | MIT Technology Review</title>
+    <link href="https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/</id>
+    <updated>2026-03-23T08:05:03.762Z</updated>
     <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
-    <summary type="html"><![CDATA[The battle of the SOTA Coding Models steps up a notch]]></summary>
+    <summary type="html"><![CDATA[Meanwhile, <strong>powerful new AI tools like GitHub Copilot, Cursor, Lovable, and Replit</strong> have given even people with little to no knowledge of coding the ability to knock up impressive-looking apps, games, websites, and other digital projects using ...]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>Google Gemini’s dominance is over — Anthropic’s new Claude is now the best AI for real work | Tom&apos;s Guide</title>
+    <link href="https://www.tomsguide.com/ai/google-geminis-dominance-is-over-anthropics-new-claude-is-now-the-best-ai-for-real-work" rel="alternate" type="text/html"/>
+    <id>https://www.tomsguide.com/ai/google-geminis-dominance-is-over-anthropics-new-claude-is-now-the-best-ai-for-real-work</id>
+    <updated>2026-03-23T08:05:03.762Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[The launch of Claude Opus 4.6 underscores how Anthropic quietly pulled ahead of Google’s Gemini 3 Flash. I break down the benchmarks, real-world performance, pricing and why Claude is now the best chatbot for serious work.]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>Towards Autonomous Mathematics Research</title>
+    <link href="https://arxiv.org/abs/2602.10177" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.10177</id>
+    <updated>2026-02-12T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.10177v1 Announce Type: new Abstract: Recent advances in foundational models have yielded reasoning systems capable of achieving a gold-medal standard at the International Mathematical Olympiad. The transition from competition-level problem-solving to professional…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Signature-Kernel Based Evaluation Metrics for Robust Probabilistic and Tail-Event Forecasting</title>
+    <link href="https://arxiv.org/abs/2602.10182" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.10182</id>
+    <updated>2026-02-12T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.10182v1 Announce Type: new Abstract: Probabilistic forecasting is increasingly critical across high-stakes domains, from finance and epidemiology to climate science. However, current evaluation frameworks lack a consensus metric and suffer from two critical flaws:…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Adaptive Optimization via Momentum on Variance-Normalized Gradients</title>
+    <link href="https://arxiv.org/abs/2602.10204" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.10204</id>
+    <updated>2026-02-12T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.10204v1 Announce Type: new Abstract: We introduce MVN-Grad (Momentum on Variance-Normalized Gradients), an Adam-style optimizer that improves stability and performance by combining two complementary ideas: variance-based normalization and momentum applied after…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Rank-Accuracy Trade-off for LoRA: A Gradient-Flow Analysis</title>
+    <link href="https://arxiv.org/abs/2602.10212" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.10212</id>
+    <updated>2026-02-12T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.10212v1 Announce Type: new Abstract: Previous empirical studies have shown that LoRA achieves accuracy comparable to full-parameter methods on downstream fine-tuning tasks, even for rank-1 updates. By contrast, the theoretical underpinnings of the dependence of LoRA's…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Frame-Level Internal Tool Use for Temporal Grounding in Audio LMs</title>
+    <link href="https://arxiv.org/abs/2602.10230" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.10230</id>
+    <updated>2026-02-12T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.10230v1 Announce Type: new Abstract: Large audio language models are increasingly used for complex audio understanding tasks, but they struggle with temporal tasks that require precise temporal grounding, such as word alignment and speaker diarization. The standard…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Anthropic executive on spending, ads, Claude Cowork market sell-off</title>
+    <link href="https://www.cnbc.com/2026/02/11/anthropic-vs-openai-ads-spending-criticism.html" rel="alternate" type="text/html"/>
+    <id>https://www.cnbc.com/2026/02/11/anthropic-vs-openai-ads-spending-criticism.html</id>
+    <updated>2026-03-23T08:05:03.762Z</updated>
+    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
+    <summary type="html"><![CDATA[Smith said Anthropic&#x27;s leadership is discussing how much to spend on compute daily. But he added that he was &quot;comfortable&quot; with its spending because demand remains strong. &quot;This isn&#x27;t us buying ahead of demand,&quot; Smith said, praising the…]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>Anthropic Is Concerned As Claude AI&apos;s Latest Version Could Help People Make Chemical Weapons | AI - Times Now</title>
+    <link href="https://www.timesnownews.com/technology-science/artificial-intelligence/anthropic-is-concerned-as-claude-ais-latest-version-could-help-people-make-chemical-weapons-article-153596819" rel="alternate" type="text/html"/>
+    <id>https://www.timesnownews.com/technology-science/artificial-intelligence/anthropic-is-concerned-as-claude-ais-latest-version-could-help-people-make-chemical-weapons-article-153596819</id>
+    <updated>2026-03-23T08:05:03.762Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[However, the latest version of the model, <strong>Claude Opus 4.6, has sparked a controversy due to its tendency to help people in committing heinous crimes</strong>. According to Anthropic, as mentioned in the company&#x27;s Sabotage Risk Report: Claude Opus 4.6, ...]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>Anthropic says Claude could be misused for &quot;heinous crimes&quot; like chemical weapons</title>
+    <link href="https://www.axios.com/2026/02/11/anthropic-claude-safety-chemical-weapons-values" rel="alternate" type="text/html"/>
+    <id>https://www.axios.com/2026/02/11/anthropic-claude-safety-chemical-weapons-values</id>
+    <updated>2026-03-23T08:05:03.762Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[<strong>Anthropic&#x27;s latest models display some vulnerability to being used in &quot;heinous crimes,&quot; including the development of chemical weapons</strong>, the company said in a new sabotage report released late Tuesday.]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>r/singularity on Reddit: Google Gemini 3.1 Pro Preview Soon?</title>
+    <link href="https://www.reddit.com/r/singularity/comments/1r2d9o6/google_gemini_31_pro_preview_soon/" rel="alternate" type="text/html"/>
+    <id>https://www.reddit.com/r/singularity/comments/1r2d9o6/google_gemini_31_pro_preview_soon/</id>
+    <updated>2026-03-23T08:05:03.762Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[<strong>Google Gemini 3 will be announced on Wednesday, but the release date will be November 12</strong> · r/GeminiAI • · r/GeminiAI · Gemini AI is a neural network that has been trained on a massive dataset of text and code.]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>Australia’s national AI plan has just been released. Who exactly will benefit?</title>
+    <link href="https://theconversation.com/australias-national-ai-plan-has-just-been-released-who-exactly-will-benefit-270981" rel="alternate" type="text/html"/>
+    <id>https://theconversation.com/australias-national-ai-plan-has-just-been-released-who-exactly-will-benefit-270981</id>
+    <updated>2026-03-23T08:05:03.763Z</updated>
+    <category term="australia" label="Australia"/>
+    <summary type="html"><![CDATA[With this plan, the government promises an inclusive artificial intelligence (AI) economy that protects workers, fills service gaps, and supports local AI development. In a major reversal, it also confirms Australia won’t implement mandatory guardrails for high-risk AI.]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>How AI is disrupting the tech boom on global markets - ABC News</title>
+    <link href="https://www.abc.net.au/news/2026-02-10/ai-disrupts-tech-boom-shares-drop/106323844" rel="alternate" type="text/html"/>
+    <id>https://www.abc.net.au/news/2026-02-10/ai-disrupts-tech-boom-shares-drop/106323844</id>
+    <updated>2026-03-23T08:05:03.763Z</updated>
+    <category term="australia" label="Australia"/>
+    <summary type="html"><![CDATA[In a world increasingly concerned about bloated stock market valuations, investors have now begun to question whether they&#x27;ll ever see a return on the stupendous amount of cash that&#x27;s being thrown at AI. The uncertainty has led to a series of violent swings on Wall…]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>AI shift to operations exposes Australia readiness gap</title>
+    <link href="https://itbrief.com.au/story/ai-shift-to-operations-exposes-australia-readiness-gap" rel="alternate" type="text/html"/>
+    <id>https://itbrief.com.au/story/ai-shift-to-operations-exposes-australia-readiness-gap</id>
+    <updated>2026-03-23T08:05:03.763Z</updated>
+    <category term="australia" label="Australia"/>
+    <summary type="html"><![CDATA[<strong>Australian tech leaders shift AI from trials to daily operations, but warn a gap in skills and infrastructure risks stalling productivity gains</strong>.]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>AI shift to operations exposes Australia readiness gap</title>
+    <link href="https://securitybrief.com.au/story/ai-shift-to-operations-exposes-australia-readiness-gap" rel="alternate" type="text/html"/>
+    <id>https://securitybrief.com.au/story/ai-shift-to-operations-exposes-australia-readiness-gap</id>
+    <updated>2026-03-23T08:05:03.763Z</updated>
+    <category term="australia" label="Australia"/>
+    <summary type="html"><![CDATA[<strong>Australian tech leaders shift AI from trials to daily operations, but warn a gap in skills and infrastructure risks stalling productivity gains</strong>.]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>Artificial Intelligence News -- ScienceDaily</title>
+    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/" rel="alternate" type="text/html"/>
+    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
+    <updated>2026-03-23T08:05:03.763Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[This AI Spots Dangerous Blood Cells Doctors Often Miss · Jan. 13, 2026  <strong>A generative AI system can now analyze blood cells with greater accuracy and confidence than human experts, detecting subtle signs of diseases like leukemia</strong>.]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>As Claude disrupts stock market, Anthropic researcher warns ’world is in peril’ By Investing.com</title>
+    <link href="https://www.investing.com/news/stock-market-news/as-claude-disrupts-stock-market-anthropic-researcher-warns-world-is-in-peril-4501259" rel="alternate" type="text/html"/>
+    <id>https://www.investing.com/news/stock-market-news/as-claude-disrupts-stock-market-anthropic-researcher-warns-world-is-in-peril-4501259</id>
+    <updated>2026-03-23T08:05:03.763Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[As Claude disrupts stock market, Anthropic researcher warns ’world is in peril’]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>Gemini (language model) - Wikipedia</title>
+    <link href="https://en.wikipedia.org/wiki/Gemini_(language_model)" rel="alternate" type="text/html"/>
+    <id>https://en.wikipedia.org/wiki/Gemini_(language_model)</id>
+    <updated>2026-03-23T08:05:03.763Z</updated>
+    <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
+    <summary type="html"><![CDATA[Gemini is a family of multimodal large language models (LLMs) developed by Google DeepMind, and the successor to LaMDA and PaLM 2. Comprising Gemini Pro, Gemini Deep Think, Gemini Flash, and Gemini Flash Lite, it was announced on <strong>December 6, 2023</strong>. It powers the…]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>Something big is happening in AI — and most people will be blindsided | Fortune</title>
+    <link href="https://fortune.com/2026/02/11/something-big-is-happening-ai-february-2020-moment-matt-shumer/" rel="alternate" type="text/html"/>
+    <id>https://fortune.com/2026/02/11/something-big-is-happening-ai-february-2020-moment-matt-shumer/</id>
+    <updated>2026-03-23T08:05:03.763Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[The models available today are unrecognizable from what existed even six months ago. The debate about whether AI is “really getting better” or “hitting a wall” — which has been going on for over a year — is over. It’s done.]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>New York CEO&apos;s chilling warning goes viral; says AI will be ‘much bigger than Covid’ | Hindustan Times</title>
+    <link href="https://www.hindustantimes.com/trending/us/new-york-ceos-chilling-warning-goes-viral-says-ai-will-be-much-bigger-than-covid-101770867724401.html" rel="alternate" type="text/html"/>
+    <id>https://www.hindustantimes.com/trending/us/new-york-ceos-chilling-warning-goes-viral-says-ai-will-be-much-bigger-than-covid-101770867724401.html</id>
+    <updated>2026-03-23T08:05:03.763Z</updated>
+    <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
+    <summary type="html"><![CDATA[Hyperwrite CEO Matt Schumer, in an essay titled &quot;Something Big Is Happening,&quot; shared about the rapid advancement of artificial intelligence (AI), adding how it can do all his technical work with near perfection.]]></summary>
+    <source><title>Brave Search</title></source>
+  </entry>
+  <entry>
+    <title>[D] Which scaled up AI model or approaches can beat commercial ones?</title>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1re74ao/d_which_scaled_up_ai_model_or_approaches_can_beat/" rel="alternate" type="text/html"/>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1re74ao/d_which_scaled_up_ai_model_or_approaches_can_beat/</id>
+    <updated>2026-02-25T07:52:09.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[It could be in terms of efficiency with nearly the same performance or just raw performance. There are many new and interesting approaches (so many that I can't track them all) and some even beat the transformer based architecture in small models (like 7 B). I read about a lot…]]></summary>
+    <source><title>r/MachineLearning</title></source>
+  </entry>
+  <entry>
+    <title>Multilevel Determinants of Overweight and Obesity Among U.S. Children Aged 10-17: Comparative Evaluation of Statistical and Machine Learning Approaches Using the 2021 National Survey of Children&apos;s Health</title>
+    <link href="https://arxiv.org/abs/2602.20303" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20303</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20303v1 Announce Type: new Abstract: Background: Childhood and adolescent overweight and obesity remain major public health concerns in the United States and are shaped by behavioral, household, and community factors. Their joint predictive structure at the population…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>An artificial intelligence framework for end-to-end rare disease phenotyping from clinical notes using large language models</title>
+    <link href="https://arxiv.org/abs/2602.20324" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20324</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="workflow-automation" label="Workflow &amp; Automation"/>
+    <summary type="html"><![CDATA[arXiv:2602.20324v1 Announce Type: new Abstract: Phenotyping is fundamental to rare disease diagnosis, but manual curation of structured phenotypes from clinical notes is labor-intensive and difficult to scale. Existing artificial intelligence approaches typically optimize…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>DMCD: Semantic-Statistical Framework for Causal Discovery</title>
+    <link href="https://arxiv.org/abs/2602.20333" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20333</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20333v1 Announce Type: new Abstract: We present DMCD (DataMap Causal Discovery), a two-phase causal discovery framework that integrates LLM-based semantic drafting from variable metadata with statistical validation on observational data. In Phase I, a large language…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>Diffusion Modulation via Environment Mechanism Modeling for Planning</title>
+    <link href="https://arxiv.org/abs/2602.20422" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20422</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20422v1 Announce Type: new Abstract: Diffusion models have shown promising capabilities in trajectory generation for planning in offline reinforcement learning (RL). However, conventional diffusion-based planning methods often fail to account for the fact that…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>Implicit Intelligence -- Evaluating Agents on What Users Don&apos;t Say</title>
+    <link href="https://arxiv.org/abs/2602.20424" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20424</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20424v1 Announce Type: new Abstract: Real-world requests to AI agents are fundamentally underspecified. Natural human communication relies on shared context and unstated constraints that speakers expect listeners to infer. Current agentic benchmarks test explicit…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>Learning to Rewrite Tool Descriptions for Reliable LLM-Agent Tool Use</title>
+    <link href="https://arxiv.org/abs/2602.20426" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20426</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
+    <summary type="html"><![CDATA[arXiv:2602.20426v1 Announce Type: new Abstract: The performance of LLM-based agents depends not only on the agent itself but also on the quality of the tool interfaces it consumes. While prior work has focused heavily on agent fine-tuning, tool interfaces-including natural…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>PreScience: A Benchmark for Forecasting Scientific Contributions</title>
+    <link href="https://arxiv.org/abs/2602.20459" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20459</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20459v1 Announce Type: new Abstract: Can AI systems trained on the scientific record up to a fixed point in time forecast the scientific advances that follow? Such a capability could help researchers identify collaborators and impactful research directions, and…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>KairosVL: Orchestrating Time Series and Semantics for Unified Reasoning</title>
+    <link href="https://arxiv.org/abs/2602.20494" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20494</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20494v1 Announce Type: new Abstract: Driven by the increasingly complex and decision-oriented demands of time series analysis, we introduce the Semantic-Conditional Time Series Reasoning task, which extends conventional time series analysis beyond purely numerical…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>ActionEngine: From Reactive to Programmatic GUI Agents via State Machine Memory</title>
+    <link href="https://arxiv.org/abs/2602.20502" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20502</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20502v1 Announce Type: new Abstract: Existing Graphical User Interface (GUI) agents operate through step-by-step calls to vision language models--taking a screenshot, reasoning about the next action, executing it, then repeating on the new page--resulting in high…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>Inner Speech as Behavior Guides: Steerable Imitation of Diverse Behaviors for Human-AI coordination</title>
+    <link href="https://arxiv.org/abs/2602.20517" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20517</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20517v1 Announce Type: new Abstract: Effective human-AI coordination requires artificial agents capable of exhibiting and responding to human-like behaviors while adapting to changing contexts. Imitation learning has emerged as one of the prominent approaches to build…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production</title>
+    <link href="https://arxiv.org/abs/2602.20558" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20558</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20558v1 Announce Type: new Abstract: Large language models (LLMs) are promising backbones for generative recommender systems, yet a key challenge remains underexplored: verbalization, i.e., converting structured user interaction logs into effective natural language…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>CausalReasoningBenchmark: A Real-World Benchmark for Disentangled Evaluation of Causal Identification and Estimation</title>
+    <link href="https://arxiv.org/abs/2602.20571" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20571</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20571v1 Announce Type: new Abstract: Many benchmarks for automated causal inference evaluate a system's performance based on a single numerical output, such as an Average Treatment Effect (ATE). This approach conflates two distinct steps in causal analysis:…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>Physics-based phenomenological characterization of cross-modal bias in multimodal models</title>
+    <link href="https://arxiv.org/abs/2602.20624" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20624</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="ethics-regulation" label="Ethics &amp; Regulation"/>
+    <summary type="html"><![CDATA[arXiv:2602.20624v1 Announce Type: new Abstract: The term 'algorithmic fairness' is used to evaluate whether AI models operate fairly in both comparative (where fairness is understood as formal equality, such as "treat like cases as like") and non-comparative (where unfairness…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>When can we trust untrusted monitoring? A safety case sketch across collusion strategies</title>
+    <link href="https://arxiv.org/abs/2602.20628" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20628</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="ethics-regulation" label="Ethics &amp; Regulation"/>
+    <summary type="html"><![CDATA[arXiv:2602.20628v1 Announce Type: new Abstract: AIs are increasingly being deployed with greater autonomy and capabilities, which increases the risk that a misaligned AI may be able to cause catastrophic harm. Untrusted monitoring -- using one untrusted model to oversee another…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>Identifying two piecewise linear additive value functions from anonymous preference information</title>
+    <link href="https://arxiv.org/abs/2602.20638" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20638</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20638v1 Announce Type: new Abstract: Eliciting a preference model involves asking a person, named decision-maker, a series of questions. We assume that these preferences can be represented by an additive value function. In this work, we query simultaneously two…]]></summary>
+    <source><title>arXiv cs.AI</title></source>
+  </entry>
+  <entry>
+    <title>Talking to Yourself: Defying Forgetting in Large Language Models</title>
+    <link href="https://arxiv.org/abs/2602.20162" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20162</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20162v1 Announce Type: new Abstract: Catastrophic forgetting remains a major challenge when fine-tuning large language models (LLMs) on narrow, task-specific data, often degrading their general knowledge and reasoning abilities. We propose SA-SFT, a lightweight…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>Benchmarking Distilled Language Models: Performance and Efficiency in Resource-Constrained Settings</title>
+    <link href="https://arxiv.org/abs/2602.20164" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20164</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20164v1 Announce Type: new Abstract: Knowledge distillation offers a transformative pathway to developing powerful, yet efficient, small language models (SLMs) suitable for resource-constrained environments. In this paper, we benchmark the performance and…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>ConceptRM: The Quest to Mitigate Alert Fatigue through Consensus-Based Purity-Driven Data Cleaning for Reflection Modelling</title>
+    <link href="https://arxiv.org/abs/2602.20166" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20166</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20166v1 Announce Type: new Abstract: In many applications involving intelligent agents, the overwhelming volume of alerts (mostly false) generated by the agents may desensitize users and cause them to overlook critical issues, leading to the so-called ''alert…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>InterviewSim: A Scalable Framework for Interview-Grounded Personality Simulation</title>
+    <link href="https://arxiv.org/abs/2602.20294" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20294</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20294v1 Announce Type: new Abstract: Simulating real personalities with large language models requires grounding generation in authentic personal data. Existing evaluation approaches rely on demographic surveys, personality questionnaires, or short AI-led interviews…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance</title>
+    <link href="https://arxiv.org/abs/2602.20300" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20300</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="image-video-generation" label="Image &amp; Video Generation"/>
+    <summary type="html"><![CDATA[arXiv:2602.20300v1 Announce Type: new Abstract: Large Language Model (LLM) hallucinations are usually treated as defects of the model or its decoding strategy. Drawing on classical linguistics, we argue that a query's form can also shape a listener's (and model's) response. We…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>No One Size Fits All: QueryBandits for Hallucination Mitigation</title>
+    <link href="https://arxiv.org/abs/2602.20332" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20332</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20332v1 Announce Type: new Abstract: Advanced reasoning capabilities in Large Language Models (LLMs) have led to more frequent hallucinations; yet most mitigation work focuses on open-source models for post-hoc detection and parameter editing. The dearth of studies…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>Natural Language Processing Models for Robust Document Categorization</title>
+    <link href="https://arxiv.org/abs/2602.20336" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20336</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20336v1 Announce Type: new Abstract: This article presents an evaluation of several machine learning methods applied to automated text classification, alongside the design of a demonstrative system for unbalanced document categorization and distribution. The study…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>How communicatively optimal are exact numeral systems? Once more on lexicon size and morphosyntactic complexity</title>
+    <link href="https://arxiv.org/abs/2602.20372" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20372</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20372v1 Announce Type: new Abstract: Recent research argues that exact recursive numeral systems optimize communicative efficiency by balancing a tradeoff between the size of the numeral lexicon and the average morphosyntactic complexity (roughly length in morphemes)…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>Case-Aware LLM-as-a-Judge Evaluation for Enterprise-Scale RAG Systems</title>
+    <link href="https://arxiv.org/abs/2602.20379" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20379</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20379v1 Announce Type: new Abstract: Enterprise Retrieval-Augmented Generation (RAG) assistants operate in multi-turn, case-based workflows such as technical support and IT operations, where evaluation must reflect operational constraints, structured identifiers…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>Disentangling Geometry, Performance, and Training in Language Models</title>
+    <link href="https://arxiv.org/abs/2602.20433" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20433</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20433v1 Announce Type: new Abstract: Geometric properties of Transformer weights, particularly the unembedding matrix, have been widely useful in language model interpretability research. Yet, their utility for estimating downstream performance remains unclear. In…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>From Performance to Purpose: A Sociotechnical Taxonomy for Evaluating Large Language Model Utility</title>
+    <link href="https://arxiv.org/abs/2602.20513" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20513</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20513v1 Announce Type: new Abstract: As large language models (LLMs) continue to improve at completing discrete tasks, they are being integrated into increasingly complex and diverse real-world systems. However, task-level success alone does not establish a model's…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>Stop-Think-AutoRegress: Language Modeling with Latent Diffusion Planning</title>
+    <link href="https://arxiv.org/abs/2602.20528" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20528</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20528v1 Announce Type: new Abstract: The Stop-Think-AutoRegress Language Diffusion Model (STAR-LDM) integrates latent diffusion planning with autoregressive generation. Unlike conventional autoregressive language models limited to token-by-token decisions, STAR-LDM…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>Personal Information Parroting in Language Models</title>
+    <link href="https://arxiv.org/abs/2602.20580" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20580</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20580v1 Announce Type: new Abstract: Modern language models (LM) are trained on large scrapes of the Web, containing millions of personal information (PI) instances, many of which LMs memorize, increasing privacy risks. In this work, we develop the regexes and rules…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>Enhancing Hate Speech Detection on Social Media: A Comparative Analysis of Machine Learning Models and Text Transformation Approaches</title>
+    <link href="https://arxiv.org/abs/2602.20634" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20634</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20634v1 Announce Type: new Abstract: The proliferation of hate speech on social media platforms has necessitated the development of effective detection and moderation tools. This study evaluates the efficacy of various machine learning models in identifying hate…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>Semantic Novelty at Scale: Narrative Shape Taxonomy and Readership Prediction in 28,606 Books</title>
+    <link href="https://arxiv.org/abs/2602.20647" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20647</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="image-video-generation" label="Image &amp; Video Generation"/>
+    <summary type="html"><![CDATA[arXiv:2602.20647v1 Announce Type: new Abstract: I introduce semantic novelty--cosine distance between each paragraph's sentence embedding and the running centroid of all preceding paragraphs--as an information-theoretic measure of narrative structure at corpus scale. Applying it…]]></summary>
+    <source><title>arXiv cs.CL</title></source>
+  </entry>
+  <entry>
+    <title>MoBiQuant: Mixture-of-Bits Quantization for Token-Adaptive Elastic LLMs</title>
+    <link href="https://arxiv.org/abs/2602.20191" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20191</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20191v1 Announce Type: new Abstract: Changing runtime complexity on cloud and edge devices necessitates elastic large language model (LLM) deployment, where an LLM can be inferred with various quantization precisions based on available computational resources.…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>FedAvg-Based CTMC Hazard Model for Federated Bridge Deterioration Assessment</title>
+    <link href="https://arxiv.org/abs/2602.20194" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20194</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="ethics-regulation" label="Ethics &amp; Regulation"/>
+    <summary type="html"><![CDATA[arXiv:2602.20194v1 Announce Type: new Abstract: Bridge periodic inspection records contain sensitive information about public infrastructure, making cross-organizational data sharing impractical under existing data governance constraints. We propose a federated framework for…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning</title>
+    <link href="https://arxiv.org/abs/2602.20197" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20197</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20197v1 Announce Type: new Abstract: Reinforcement Learning with verifiable rewards (RLVR) has emerged as a primary learning paradigm for enhancing the reasoning capabilities of multi-modal large language models (MLLMs). However, during RL training, the enormous state…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>IMOVNO+: A Regional Partitioning and Meta-Heuristic Ensemble Framework for Imbalanced Multi-Class Learning</title>
+    <link href="https://arxiv.org/abs/2602.20199" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20199</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="image-video-generation" label="Image &amp; Video Generation"/>
+    <summary type="html"><![CDATA[arXiv:2602.20199v1 Announce Type: new Abstract: Class imbalance, overlap, and noise degrade data quality, reduce model reliability, and limit generalization. Although widely studied in binary classification, these issues remain underexplored in multi-class settings, where…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Golden Layers and Where to Find Them: Improved Knowledge Editing for Large Language Models Via Layer Gradient Analysis</title>
+    <link href="https://arxiv.org/abs/2602.20207" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20207</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20207v1 Announce Type: new Abstract: Knowledge editing in Large Language Models (LLMs) aims to update the model's prediction for a specific query to a desired target while preserving its behavior on all other inputs. This process typically involves two stages:…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Model Merging in the Essential Subspace</title>
+    <link href="https://arxiv.org/abs/2602.20208" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20208</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20208v1 Announce Type: new Abstract: Model merging aims to integrate multiple task-specific fine-tuned models derived from a shared pre-trained checkpoint into a single multi-task model without additional training. Despite extensive research, task interference remains…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Multimodal Crystal Flow: Any-to-Any Modality Generation for Unified Crystal Modeling</title>
+    <link href="https://arxiv.org/abs/2602.20210" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20210</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20210v1 Announce Type: new Abstract: Crystal modeling spans a family of conditional and unconditional generation tasks across different modalities, including crystal structure prediction (CSP) and \emph{de novo} generation (DNG). While recent deep generative models…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>KnapSpec: Self-Speculative Decoding via Adaptive Layer Selection as a Knapsack Problem</title>
+    <link href="https://arxiv.org/abs/2602.20217" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20217</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20217v1 Announce Type: new Abstract: Self-speculative decoding (SSD) accelerates LLM inference by skipping layers to create an efficient draft model, yet existing methods often rely on static heuristics that ignore the dynamic computational overhead of attention in…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>MultiModalPFN: Extending Prior-Data Fitted Networks for Multimodal Tabular Learning</title>
+    <link href="https://arxiv.org/abs/2602.20223" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20223</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20223v1 Announce Type: new Abstract: Recently, TabPFN has gained attention as a foundation model for tabular data. However, it struggles to integrate heterogeneous modalities such as images and text, which are common in domains like healthcare and marketing, thereby…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Exploring Anti-Aging Literature via ConvexTopics and Large Language Models</title>
+    <link href="https://arxiv.org/abs/2602.20224" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20224</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20224v1 Announce Type: new Abstract: The rapid expansion of biomedical publications creates challenges for organizing knowledge and detecting emerging trends, underscoring the need for scalable and interpretable methods. Common clustering and topic modeling approaches…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Coupled Cluster con M\=oLe: Molecular Orbital Learning for Neural Wavefunctions</title>
+    <link href="https://arxiv.org/abs/2602.20232" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20232</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20232v1 Announce Type: new Abstract: Density functional theory (DFT) is the most widely used method for calculating molecular properties; however, its accuracy is often insufficient for quantitative predictions. Coupled-cluster (CC) theory is the most successful…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Uncertainty-Aware Delivery Delay Duration Prediction via Multi-Task Deep Learning</title>
+    <link href="https://arxiv.org/abs/2602.20271" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20271</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20271v1 Announce Type: new Abstract: Accurate delivery delay prediction is critical for maintaining operational efficiency and customer satisfaction across modern supply chains. Yet the increasing complexity of logistics networks, spanning multimodal transportation,…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>The Truthfulness Spectrum Hypothesis</title>
+    <link href="https://arxiv.org/abs/2602.20273" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20273</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20273v1 Announce Type: new Abstract: Large language models (LLMs) have been reported to linearly encode truthfulness, yet recent work questions this finding's generality. We reconcile these views with the truthfulness spectrum hypothesis: the representational space…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Discrete Diffusion with Sample-Efficient Estimators for Conditionals</title>
+    <link href="https://arxiv.org/abs/2602.20293" rel="alternate" type="text/html"/>
+    <id>https://arxiv.org/abs/2602.20293</id>
+    <updated>2026-02-25T05:00:00.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[arXiv:2602.20293v1 Announce Type: new Abstract: We study a discrete denoising diffusion framework that integrates a sample-efficient estimator of single-site conditionals with round-robin noising and denoising dynamics for generative modeling over discrete state spaces. Rather…]]></summary>
+    <source><title>arXiv cs.LG</title></source>
+  </entry>
+  <entry>
+    <title>Quoting Kellan Elliott-McCrea</title>
+    <link href="https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything" rel="alternate" type="text/html"/>
+    <id>https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything</id>
+    <updated>2026-02-25T03:30:32.000Z</updated>
+    <category term="industry-business" label="Industry &amp; Business"/>
+    <summary type="html"><![CDATA[It’s also reasonable for people who entered technology in the last couple of decades because it was good job, or because they enjoyed coding to look at this moment with a real feeling of loss. That feeling of loss though can be hard to understand emotionally for people my age…]]></summary>
+    <source><title>Simon Willison</title></source>
+  </entry>
+  <entry>
+    <title>[AINews] The Unreasonable Effectiveness of Closing the Loop</title>
+    <link href="https://www.latent.space/p/ainews-the-unreasonable-effectiveness" rel="alternate" type="text/html"/>
+    <id>https://www.latent.space/p/ainews-the-unreasonable-effectiveness</id>
+    <updated>2026-02-25T02:18:56.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[Through the dozens of midsize launches today (see the rest of the recaps below), one theme that we&#8217;re seeing is something I&#8217;ve come to call &#8220;closing the loop&#8221;:]]></summary>
     <source><title>Latent Space</title></source>
   </entry>
   <entry>
-    <title>How I Set Up OpenClaw Without Giving It the Keys to My Life - Security-First Guide</title>
-    <link href="https://x.com/JordanLyall/status/2019594755370545168" rel="alternate" type="text/html"/>
-    <id>https://x.com/JordanLyall/status/2019594755370545168</id>
-    <updated>2026-02-06T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    
-    <source><title>telegram-share</title></source>
-  </entry>
-  <entry>
-    <title>Mitchell Hashimoto: My AI Adoption Journey</title>
-    <link href="https://simonwillison.net/2026/Feb/5/ai-adoption-journey/#atom-everything" rel="alternate" type="text/html"/>
-    <id>https://simonwillison.net/2026/Feb/5/ai-adoption-journey/#atom-everything</id>
-    <updated>2026-02-05T23:39:07.000Z</updated>
-    <category term="workflow-automation" label="Workflow &amp; Automation"/>
-    <summary type="html"><![CDATA[Mitchell Hashimoto: My AI Adoption Journey Some really good and unconventional tips in here for getting to a place with coding agents where they demonstrably improve your workflow and productivity. I particularly liked: Reproduce your own work - when learning to use coding…]]></summary>
-    <source><title>Simon Willison</title></source>
-  </entry>
-  <entry>
-    <title>Reddit looks to AI search as its next big opportunity</title>
-    <link href="https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/" rel="alternate" type="text/html"/>
-    <id>https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/</id>
-    <updated>2026-02-05T23:20:27.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[During the company's fourth-quarter earnings call on Thursday, it offered an update on its plans to merge traditional and AI search together and hinted that although search is not yet monetized, "it's an enormous market and opportunity."]]></summary>
-    <source><title>TechCrunch AI</title></source>
-  </entry>
-  <entry>
-    <title>AWS revenue continues to soar as cloud demand remains high</title>
-    <link href="https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/" rel="alternate" type="text/html"/>
-    <id>https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/</id>
-    <updated>2026-02-05T23:11:37.000Z</updated>
+    <title>India’s AI boom pushes firms to trade near-term revenue for users</title>
+    <link href="https://techcrunch.com/2026/02/24/india-ai-boom-pushes-firms-to-trade-near-term-revenue-for-users/" rel="alternate" type="text/html"/>
+    <id>https://techcrunch.com/2026/02/24/india-ai-boom-pushes-firms-to-trade-near-term-revenue-for-users/</id>
+    <updated>2026-02-25T02:00:00.000Z</updated>
     <category term="industry-business" label="Industry &amp; Business"/>
-    <summary type="html"><![CDATA[AWS recorded its best quarter, in terms of revenue growth, in 13 quarters in Q4 2025 as AI drives AWS adoption.]]></summary>
+    <summary type="html"><![CDATA[ChatGPT and rivals are testing whether India's massive AI user boom can translate into paying customers as free offers wind down.]]></summary>
     <source><title>TechCrunch AI</title></source>
   </entry>
   <entry>
-    <title>India&apos;s female workers watching hours of abusive content to train AI</title>
-    <link href="https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai" rel="alternate" type="text/html"/>
-    <id>https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai</id>
-    <updated>2026-02-05T22:55:11.000Z</updated>
+    <title>Pete Hegseth’s Pentagon AI bro squad includes a former Uber executive and a private equity billionaire</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/884165/pentagon-anthropic-emil-michael-steve-feinberg" rel="alternate" type="text/html"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/884165/pentagon-anthropic-emil-michael-steve-feinberg</id>
+    <updated>2026-02-25T01:59:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Article URL: https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai Comments URL: https://news.ycombinator.com/item?id=46906590 Points: 127 # Comments: 198]]></summary>
-    <source><title>Hacker News AI</title></source>
+    <summary type="html"><![CDATA[Hello and welcome to Regulator, a newsletter for Verge subscribers covering the broligarchs, the influencers, and the (potentially conscious) artificial intelligence models scrambling for power in Washington. If you're not a subscriber yet, assert your humanity against the will…]]></summary>
+    <source><title>The Verge AI</title></source>
   </entry>
   <entry>
-    <title>AI companies want you to stop chatting with bots and start managing them</title>
-    <link href="https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/" rel="alternate" type="text/html"/>
-    <id>https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/</id>
-    <updated>2026-02-05T22:47:54.000Z</updated>
-    <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
-    <summary type="html"><![CDATA[Claude Opus 4.6 and OpenAI Frontier pitch a future of supervising AI agents.]]></summary>
-    <source><title>Ars Technica AI</title></source>
-  </entry>
-  <entry>
-    <title>Amazon and Google are winning the AI capex race — but what’s the prize?</title>
-    <link href="https://techcrunch.com/2026/02/05/amazon-and-google-are-winning-the-ai-capex-race-but-whats-the-prize/" rel="alternate" type="text/html"/>
-    <id>https://techcrunch.com/2026/02/05/amazon-and-google-are-winning-the-ai-capex-race-but-whats-the-prize/</id>
-    <updated>2026-02-05T22:43:11.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[In 2026, Amazon plans to spend $200 billion in capex. Google is just behind at $175 billion to $185 billion. It's a lot of money!]]></summary>
-    <source><title>TechCrunch AI</title></source>
-  </entry>
-  <entry>
-    <title>Opus 4.6 and Codex 5.3</title>
-    <link href="https://simonwillison.net/2026/Feb/5/two-new-models/#atom-everything" rel="alternate" type="text/html"/>
-    <id>https://simonwillison.net/2026/Feb/5/two-new-models/#atom-everything</id>
-    <updated>2026-02-05T20:29:20.000Z</updated>
+    <title>Linear walkthroughs</title>
+    <link href="https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything" rel="alternate" type="text/html"/>
+    <id>https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything</id>
+    <updated>2026-02-25T01:07:10.000Z</updated>
     <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
-    <summary type="html"><![CDATA[Two major new model releases today, within about 15 minutes of each other. Anthropic released Opus 4.6. Here's its pelican: OpenAI release GPT-5.3-Codex, albeit only via their Codex app, not yet in their API. Here's its pelican: I've had a bit of preview access to both of these…]]></summary>
+    <summary type="html"><![CDATA[Agentic Engineering Patterns > Sometimes it's useful to have a coding agent give you a structured walkthrough of a codebase. Maybe it's existing code you need to get up to speed on, maybe it's your own code that you've forgotten the details of, or maybe you vibe coded the whole…]]></summary>
     <source><title>Simon Willison</title></source>
   </entry>
   <entry>
-    <title>Claude Opus 4.6 extra usage promo</title>
-    <link href="https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo" rel="alternate" type="text/html"/>
-    <id>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</id>
-    <updated>2026-02-05T20:15:48.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Article URL: https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo Comments URL: https://news.ycombinator.com/item?id=46904569 Points: 210 # Comments: 73]]></summary>
-    <source><title>Hacker News AI</title></source>
+    <title>Signs of psychosis seen in Australian users’ interactions with AI chatbots, expert warns</title>
+    <link href="https://www.theguardian.com/technology/2026/feb/25/signs-of-psychosis-seen-in-australian-users-interactions-with-ai-chatbots-expert-warns" rel="alternate" type="text/html"/>
+    <id>https://www.theguardian.com/technology/2026/feb/25/signs-of-psychosis-seen-in-australian-users-interactions-with-ai-chatbots-expert-warns</id>
+    <updated>2026-02-25T01:00:00.000Z</updated>
+    <category term="ethics-regulation" label="Ethics &amp; Regulation"/>
+    <summary type="html"><![CDATA[Toby Walsh says he despairs at Australian government’s lack of regulation of artificial intelligenceFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastA leading AI expert has warned some Australians are showing signs…]]></summary>
+    <source><title>Guardian AI</title></source>
   </entry>
   <entry>
-    <title>OpenAI launches new agentic coding model only minutes after Anthropic drops its own</title>
-    <link href="https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/" rel="alternate" type="text/html"/>
-    <id>https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/</id>
-    <updated>2026-02-05T20:01:39.000Z</updated>
-    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
-    <summary type="html"><![CDATA[The new model is built to accelerate the capabilities of Codex, the agentic coding tool OpenAI launched earlier this week.]]></summary>
+    <title>Nvidia challenger AI chip startup MatX raised $500M</title>
+    <link href="https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/" rel="alternate" type="text/html"/>
+    <id>https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/</id>
+    <updated>2026-02-25T00:45:47.000Z</updated>
+    <category term="industry-business" label="Industry &amp; Business"/>
+    <summary type="html"><![CDATA[The startup was founded by former Google TPU engineers in 2023.]]></summary>
     <source><title>TechCrunch AI</title></source>
   </entry>
   <entry>
-    <title>My AI Adoption Journey</title>
-    <link href="https://mitchellh.com/writing/my-ai-adoption-journey" rel="alternate" type="text/html"/>
-    <id>https://mitchellh.com/writing/my-ai-adoption-journey</id>
-    <updated>2026-02-05T19:04:40.000Z</updated>
+    <title>US military leaders pressure Anthropic to bend Claude safeguards</title>
+    <link href="https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai" rel="alternate" type="text/html"/>
+    <id>https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai</id>
+    <updated>2026-02-25T00:35:31.000Z</updated>
+    <category term="ethics-regulation" label="Ethics &amp; Regulation"/>
+    <summary type="html"><![CDATA[Anthropic presents itself as most safety-forward AI firm and Pentagon has threatened penalties if it does not yieldUS military leaders including Pete Hegseth, the defense secretary, met with executives from the artificial intelligence firm Anthropic on Tuesday to hash out a…]]></summary>
+    <source><title>Guardian AI</title></source>
+  </entry>
+  <entry>
+    <title>Claude Code + Analytics = Vibe PMing</title>
+    <link href="https://www.news.aakashg.com/p/frank-lee-podcast" rel="alternate" type="text/html"/>
+    <id>https://www.news.aakashg.com/p/frank-lee-podcast</id>
+    <updated>2026-02-25T00:16:38.000Z</updated>
+    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
+    <summary type="html"><![CDATA[I got Amplitude Principal AI PM Frank Lee to give a masterclass on Vibe PMing with Claude Code, Cursor, and Your Analytics Data]]></summary>
+    <source><title>Aakash Gupta AI Update</title></source>
+  </entry>
+  <entry>
+    <title>Qwen3.5-35B-A3B is a gamechanger for agentic coding.</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1rdxfdu/qwen3535ba3b_is_a_gamechanger_for_agentic_coding/" rel="alternate" type="text/html"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1rdxfdu/qwen3535ba3b_is_a_gamechanger_for_agentic_coding/</id>
+    <updated>2026-02-25T00:04:44.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Article URL: https://mitchellh.com/writing/my-ai-adoption-journey Comments URL: https://news.ycombinator.com/item?id=46903558 Points: 936 # Comments: 395]]></summary>
+    <summary type="html"><![CDATA[Qwen3.5-35B-A3B with Opencode Just tested this badboy with Opencode cause frankly I couldn't believe those benchmarks. Running it on a single RTX 3090 on a headless Linux box. Freshly compiled Llama.cpp and those are my settings after some tweaking, still not fully tuned:…]]></summary>
+    <source><title>r/LocalLLaMA</title></source>
+  </entry>
+  <entry>
+    <title>Fed&apos;s Cook says AI triggering big changes, sees possible unemployment rise</title>
+    <link href="https://www.reuters.com/business/feds-cook-says-ai-triggering-big-changes-sees-possible-short-term-unemployment-2026-02-24/" rel="alternate" type="text/html"/>
+    <id>https://www.reuters.com/business/feds-cook-says-ai-triggering-big-changes-sees-possible-short-term-unemployment-2026-02-24/</id>
+    <updated>2026-02-24T23:34:26.000Z</updated>
+    <category term="industry-business" label="Industry &amp; Business"/>
+    <summary type="html"><![CDATA[Article URL: https://www.reuters.com/business/feds-cook-says-ai-triggering-big-changes-sees-possible-short-term-unemployment-2026-02-24/ Comments URL: https://news.ycombinator.com/item?id=47145088 Points: 61 # Comments: 69]]></summary>
     <source><title>Hacker News AI</title></source>
   </entry>
   <entry>
-    <title>Anthropic debuts new model with hopes to corner the market beyond coding</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/874440/anthropic-opus-4-6-new-model-claude" rel="alternate" type="text/html"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/874440/anthropic-opus-4-6-new-model-claude</id>
-    <updated>2026-02-05T18:00:00.000Z</updated>
-    <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
-    <summary type="html"><![CDATA[Anthropic's "smartest model" is getting a major boost, the company said in a blog post announcing Claude Opus 4.6. It called the new model a "direct upgrade" from its predecessor in a release, noting that it can better take on complex, multi-step tasks and get "much closer to…]]></summary>
+    <title>Spanish ‘soonicorn’ Multiverse Computing releases free compressed AI model</title>
+    <link href="https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/" rel="alternate" type="text/html"/>
+    <id>https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/</id>
+    <updated>2026-02-24T23:32:00.000Z</updated>
+    <category term="industry-business" label="Industry &amp; Business"/>
+    <summary type="html"><![CDATA[Spanish startup Multiverse Computing has released a new version of its HyperNova 60B model on Hugging Face that, it says, bests Mistral's model.]]></summary>
+    <source><title>TechCrunch AI</title></source>
+  </entry>
+  <entry>
+    <title>Uber engineers built an AI version of their boss</title>
+    <link href="https://techcrunch.com/2026/02/24/uber-engineers-built-ai-version-of-boss-dara-khosrowshahi/" rel="alternate" type="text/html"/>
+    <id>https://techcrunch.com/2026/02/24/uber-engineers-built-ai-version-of-boss-dara-khosrowshahi/</id>
+    <updated>2026-02-24T23:09:28.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[Uber CEO Dara Khosrowshahi said the company’s employees have gone all in on AI, going so far as to build a chatbot of him that they use to practice their pitches.]]></summary>
+    <source><title>TechCrunch AI</title></source>
+  </entry>
+  <entry>
+    <title>OpenAI defeats xAI’s trade secrets lawsuit</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/884049/openai-elon-musk-xai-trade-secrets-lawsuit" rel="alternate" type="text/html"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/884049/openai-elon-musk-xai-trade-secrets-lawsuit</id>
+    <updated>2026-02-24T23:05:28.000Z</updated>
+    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
+    <summary type="html"><![CDATA[OpenAI won a victory Tuesday in one of its legal battles with xAI, which involved allegations of poaching and theft of trade secrets. The former company's motion to dismiss the lawsuit was granted on Tuesday with leave to amend, meaning xAI has the option to refile with modified…]]></summary>
     <source><title>The Verge AI</title></source>
   </entry>
   <entry>
-    <title>Nvidia&amp;#8217;s RTX 50-series Super refresh is delayed, and the RTX 60-series might miss 2027</title>
-    <link href="https://www.theverge.com/tech/874439/nvidia-rtx-50-super-60-series-delay" rel="alternate" type="text/html"/>
-    <id>https://www.theverge.com/tech/874439/nvidia-rtx-50-super-60-series-delay</id>
-    <updated>2026-02-05T16:33:27.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[The Super refresh to Nvidia's RTX 50-series GPUs was expected at CES 2026 in January, but it didn't make an appearance. The Information reports that in December, Nvidia managers decided not to release the new cards as scheduled, choosing to prioritize AI chips instead due to the…]]></summary>
-    <source><title>The Verge AI</title></source>
+    <title>Qwen3.5 27B is Match Made in Heaven for Size and Performance</title>
+    <link href="https://www.reddit.com/r/LocalLLaMA/comments/1rdvq3s/qwen35_27b_is_match_made_in_heaven_for_size_and/" rel="alternate" type="text/html"/>
+    <id>https://www.reddit.com/r/LocalLLaMA/comments/1rdvq3s/qwen35_27b_is_match_made_in_heaven_for_size_and/</id>
+    <updated>2026-02-24T22:57:12.000Z</updated>
+    <category term="research-papers" label="Research &amp; Papers"/>
+    <summary type="html"><![CDATA[Just got Qwen3.5 27B running on server and wanted to share the full setup for anyone trying to do the same. Setup: Model: Qwen3.5-27B-Q8_0 (unsloth GGUF) , Thanks Dan GPU: RTX A6000 48GB Inference: llama.cpp with CUDA Context: 32K Speed: ~19.7 tokens/sec Why Q8 and not a lower…]]></summary>
+    <source><title>r/LocalLLaMA</title></source>
   </entry>
   <entry>
-    <title>Increase of AI bots on the Internet sparks arms race</title>
-    <link href="https://arstechnica.com/ai/2026/02/increase-of-ai-bots-on-the-internet-sparks-arms-race/" rel="alternate" type="text/html"/>
-    <id>https://arstechnica.com/ai/2026/02/increase-of-ai-bots-on-the-internet-sparks-arms-race/</id>
-    <updated>2026-02-05T14:21:20.000Z</updated>
+    <title>Mercury 2: Fast reasoning LLM powered by diffusion</title>
+    <link href="https://www.inceptionlabs.ai/blog/introducing-mercury-2" rel="alternate" type="text/html"/>
+    <id>https://www.inceptionlabs.ai/blog/introducing-mercury-2</id>
+    <updated>2026-02-24T22:46:23.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Publishers are rolling out more aggressive defenses.]]></summary>
-    <source><title>Ars Technica AI</title></source>
+    <summary type="html"><![CDATA[Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-2 Comments URL: https://news.ycombinator.com/item?id=47144464 Points: 197 # Comments: 87]]></summary>
+    <source><title>Hacker News AI</title></source>
   </entry>
   <entry>
-    <title>Three questions about next-generation nuclear power, answered</title>
-    <link href="https://www.technologyreview.com/2026/02/05/1132197/nuclear-questions/" rel="alternate" type="text/html"/>
-    <id>https://www.technologyreview.com/2026/02/05/1132197/nuclear-questions/</id>
-    <updated>2026-02-05T11:00:00.000Z</updated>
+    <title>Just pull a string to turn these tile patterns into useful 3D structures</title>
+    <link href="https://www.technologyreview.com/2026/02/24/1132074/just-pull-a-string-to-turn-these-tile-patterns-into-useful-3d-structures/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/24/1132074/just-pull-a-string-to-turn-these-tile-patterns-into-useful-3d-structures/</id>
+    <updated>2026-02-24T22:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Nuclear power continues to be one of the hottest topics in energy today, and in our recent online Roundtables discussion about next-generation nuclear power, hyperscale AI data centers, and the grid, we got dozens of great audience questions. These ran the gamut, and while we…]]></summary>
+    <summary type="html"><![CDATA[MIT researchers have developed a new method for designing 3D structures that can spring up from a flat sheet of interconnected tiles with a single pull of a string. The technique could be used to make foldable bike helmets and medical devices, emergency shelters and field…]]></summary>
     <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>GPT-5 lowers the cost of cell-free protein synthesis</title>
-    <link href="https://openai.com/index/gpt-5-lowers-protein-synthesis-cost" rel="alternate" type="text/html"/>
-    <id>https://openai.com/index/gpt-5-lowers-protein-synthesis-cost</id>
-    <updated>2026-02-05T11:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.]]></summary>
-    <source><title>OpenAI Blog</title></source>
-  </entry>
-  <entry>
-    <title>An Interview with Benedict Evans About AI and Software</title>
-    <link href="https://stratechery.com/2026/an-interview-with-benedict-evans-about-ai-and-software/" rel="alternate" type="text/html"/>
-    <id>https://stratechery.com/2026/an-interview-with-benedict-evans-about-ai-and-software/</id>
-    <updated>2026-02-05T11:00:00.000Z</updated>
-    <category term="strategy-opinion" label="Strategy &amp; Opinion"/>
-    <summary type="html"><![CDATA[An interview with Benedict Evans about the crisis facing software, the future of the corporation, OpenAI, and the struggle to define the LLM paradigm.]]></summary>
-    <source><title>Stratechery</title></source>
-  </entry>
-  <entry>
-    <title>Introducing Trusted Access for Cyber</title>
-    <link href="https://openai.com/index/trusted-access-for-cyber" rel="alternate" type="text/html"/>
-    <id>https://openai.com/index/trusted-access-for-cyber</id>
-    <updated>2026-02-05T10:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.]]></summary>
-    <source><title>OpenAI Blog</title></source>
-  </entry>
-  <entry>
-    <title>[AINews] ElevenLabs $500m Series D at $11B, Cerebras $1B Series H at $23B, Vibe Coding -&gt; Agentic Engineering</title>
-    <link href="https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at" rel="alternate" type="text/html"/>
-    <id>https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at</id>
-    <updated>2026-02-05T08:26:43.000Z</updated>
-    <category term="voice-audio" label="Voice &amp; Audio"/>
-    <summary type="html"><![CDATA[SOTA Audio models, Fast Chips, and Koding Agents are all you need.]]></summary>
-    <source><title>Latent Space</title></source>
-  </entry>
-  <entry>
-    <title>Introducing OpenAI Frontier</title>
-    <link href="https://openai.com/index/introducing-openai-frontier" rel="alternate" type="text/html"/>
-    <id>https://openai.com/index/introducing-openai-frontier</id>
-    <updated>2026-02-05T06:00:00.000Z</updated>
-    <category term="industry-business" label="Industry &amp; Business"/>
-    <summary type="html"><![CDATA[OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.]]></summary>
-    <source><title>OpenAI Blog</title></source>
-  </entry>
-  <entry>
-    <title>7 Claude prompts for 30 days of social content in 2 hours</title>
-    <link href="https://x.com/viipin8/status/2018983888434172229" rel="alternate" type="text/html"/>
-    <id>https://x.com/viipin8/status/2018983888434172229</id>
-    <updated>2026-02-04T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    
-    <source><title>telegram-share</title></source>
-  </entry>
-  <entry>
-    <title>Snowflake and OpenAI partner to bring frontier intelligence to enterprise data</title>
-    <link href="https://openai.com/index/snowflake-partnership" rel="alternate" type="text/html"/>
-    <id>https://openai.com/index/snowflake-partnership</id>
-    <updated>2026-02-02T06:00:00.000Z</updated>
-    <category term="industry-business" label="Industry &amp; Business"/>
-    <summary type="html"><![CDATA[OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.]]></summary>
-    <source><title>OpenAI Blog</title></source>
-  </entry>
-  <entry>
-    <title>Introducing the Codex app</title>
-    <link href="https://openai.com/index/introducing-the-codex-app" rel="alternate" type="text/html"/>
-    <id>https://openai.com/index/introducing-the-codex-app</id>
-    <updated>2026-02-02T00:00:00.000Z</updated>
-    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
-    <summary type="html"><![CDATA[Introducing the Codex app for macOS—a command center for AI coding and software development with multiple agents, parallel workflows, and long-running tasks.]]></summary>
-    <source><title>OpenAI Blog</title></source>
-  </entry>
-  <entry>
-    <title>Move over, SEOs: AIO is here.</title>
-    <link href="https://x.com/pmddomingos/status/2018180738311709026" rel="alternate" type="text/html"/>
-    <id>https://x.com/pmddomingos/status/2018180738311709026</id>
-    <updated>2026-02-02T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Move over, SEOs: AIO is here. https://t.co/pPZhLgl1WN]]></summary>
-    <source><title>@pmddomingos</title></source>
-  </entry>
-  <entry>
-    <title>🎁 Download the n8n template from the episode here: https://t.co/nm7Yl294Az</title>
-    <link href="https://x.com/n8n_io/status/2018247808449483058" rel="alternate" type="text/html"/>
-    <id>https://x.com/n8n_io/status/2018247808449483058</id>
-    <updated>2026-02-02T00:00:00.000Z</updated>
-    <category term="workflow-automation" label="Workflow &amp; Automation"/>
-    <summary type="html"><![CDATA[🎁 Download the n8n template from the episode here: https://t.co/nm7Yl294Az]]></summary>
-    <source><title>@n8n_io</title></source>
-  </entry>
-  <entry>
-    <title>&quot;This will replace 80% of the apps that you have on your phone.&quot;</title>
-    <link href="https://x.com/petergyang/status/2017983908340785220" rel="alternate" type="text/html"/>
-    <id>https://x.com/petergyang/status/2017983908340785220</id>
-    <updated>2026-02-01T00:00:00.000Z</updated>
-    <category term="workflow-automation" label="Workflow &amp; Automation"/>
-    <summary type="html"><![CDATA["This will replace 80% of the apps that you have on your phone."  Here's my new episode with @steipete where he showed me:  ✅ His personal OpenClaw use cases - flight check-in, home security, and much more  ✅ His counterintuitive AI coding workflow -...]]></summary>
-    <source><title>@petergyang</title></source>
-  </entry>
-  <entry>
-    <title>@gregisenberg definitely agree, no mental model for how it works if you don&apos;t understand cc.</title>
-    <link href="https://x.com/carlvellotti/status/2018051204975370720" rel="alternate" type="text/html"/>
-    <id>https://x.com/carlvellotti/status/2018051204975370720</id>
-    <updated>2026-02-01T00:00:00.000Z</updated>
-    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
-    <summary type="html"><![CDATA[@gregisenberg definitely agree, no mental model for how it works if you don't understand cc.  here's the best way to get started with claude code. it's taught IN claude code, so you learn by DOING, not reading or watching https://t.co/soMpVyp96s  100...]]></summary>
-    <source><title>@carlvellotti</title></source>
-  </entry>
-  <entry>
-    <title>At last an AI tool I can get behind</title>
-    <link href="https://x.com/SustainableTall/status/2017509966706520158" rel="alternate" type="text/html"/>
-    <id>https://x.com/SustainableTall/status/2017509966706520158</id>
-    <updated>2026-01-31T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[At last an AI tool I can get behind  “Upload an architectural render. Get back what it'll actually look like on a random Tuesday in November.”  https://t.co/23Ay7MD4ka https://t.co/DikU2lyDay]]></summary>
-    <source><title>@SustainableTall</title></source>
-  </entry>
-  <entry>
-    <title>Clawdbot + MakeUGC V.2 = 550 videos per day</title>
-    <link href="https://x.com/spwfeijen/status/2017561060144816416" rel="alternate" type="text/html"/>
-    <id>https://x.com/spwfeijen/status/2017561060144816416</id>
-    <updated>2026-01-31T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Clawdbot + MakeUGC V.2 = 550 videos per day  Fully-realistic UGC ads — cinematic lighting, human motion, perfect pacing — powered by AI agents.  UGC cost: $0 Production time: minutes Scale: instant  One AI engine that creates, tests, and scales short...]]></summary>
-    <source><title>@spwfeijen</title></source>
-  </entry>
-  <entry>
-    <title>Anthropic&apos;s Claude Constitution; or love as the solution to the AI alignment problem</title>
-    <link href="https://nintil.com/claude-constitution/" rel="alternate" type="text/html"/>
-    <id>https://nintil.com/claude-constitution/</id>
-    <updated>2026-01-30T18:39:55.000Z</updated>
-    <category term="ethics-regulation" label="Ethics &amp; Regulation"/>
-    <summary type="html"><![CDATA[Comments]]></summary>
-    <source><title>Lobsters AI</title></source>
-  </entry>
-  <entry>
-    <title>Full AI Suite for LispE: llama.cpp, tiktoken, MLX and PyTorch</title>
-    <link href="https://lobste.rs/s/clng5d/full_ai_suite_for_lispe_llama_cpp_tiktoken" rel="alternate" type="text/html"/>
-    <id>https://lobste.rs/s/clng5d/full_ai_suite_for_lispe_llama_cpp_tiktoken</id>
-    <updated>2026-01-30T13:26:50.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[I have presented LispE a few times in this forum. LispE is an Open Source version of Lisp, which offers a wide range of features, which are seldom found in other Lisps. I have always wanted to push LispE beyond a simple niche language, so I have implemented 4 new libraries:…]]></summary>
-    <source><title>Lobsters AI</title></source>
-  </entry>
-  <entry>
-    <title>Clawdbot + Kling = 550 videos per day</title>
-    <link href="https://x.com/maverickecom/status/2017245473145245815" rel="alternate" type="text/html"/>
-    <id>https://x.com/maverickecom/status/2017245473145245815</id>
-    <updated>2026-01-30T00:00:00.000Z</updated>
+    <title>A retinal reboot for amblyopia</title>
+    <link href="https://www.technologyreview.com/2026/02/24/1132077/a-retinal-reboot-for-amblyopia/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/24/1132077/a-retinal-reboot-for-amblyopia/</id>
+    <updated>2026-02-24T22:00:00.000Z</updated>
     <category term="image-video-generation" label="Image &amp; Video Generation"/>
-    <summary type="html"><![CDATA[Clawdbot + Kling = 550 videos per day  Fully-realistic UGC ads — cinematic lighting, human motion, perfect pacing — powered by AI agents.  UGC cost: $5 Production time: minutes Scale: instant  One AI engine that creates, tests, and scales short-form ...]]></summary>
-    <source><title>@maverickecom</title></source>
+    <summary type="html"><![CDATA[In the vision disorder amblyopia (or “lazy eye”), impaired vision in one eye early in life causes neural connections in the brain’s visual system to shift toward supporting the other eye, leaving the amblyopic eye less capable even if the original impairment is corrected.…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>Inside OpenAI’s in-house data agent</title>
-    <link href="https://openai.com/index/inside-our-in-house-data-agent" rel="alternate" type="text/html"/>
-    <id>https://openai.com/index/inside-our-in-house-data-agent</id>
-    <updated>2026-01-29T10:00:00.000Z</updated>
-    <category term="ai-coding-agents" label="AI Coding &amp; Agents"/>
-    <summary type="html"><![CDATA[How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.]]></summary>
-    <source><title>OpenAI Blog</title></source>
-  </entry>
-  <entry>
-    <title>Taisei Corporation shapes the next generation of talent with ChatGPT</title>
-    <link href="https://openai.com/index/taisei" rel="alternate" type="text/html"/>
-    <id>https://openai.com/index/taisei</id>
-    <updated>2026-01-29T00:00:00.000Z</updated>
-    <category term="industry-business" label="Industry &amp; Business"/>
-    <summary type="html"><![CDATA[Taisei Corporation uses ChatGPT Enterprise to support HR-led talent development and scale generative AI across its global construction business.]]></summary>
-    <source><title>OpenAI Blog</title></source>
-  </entry>
-  <entry>
-    <title>Just found a Moltbot (clawd) Skill that reduces token usage by 95%+</title>
-    <link href="https://x.com/milesdeutscher/status/2016964602702287019" rel="alternate" type="text/html"/>
-    <id>https://x.com/milesdeutscher/status/2016964602702287019</id>
-    <updated>2026-01-29T00:00:00.000Z</updated>
+    <title>A new way to rejuvenate the immune system</title>
+    <link href="https://www.technologyreview.com/2026/02/24/1132080/a-new-way-to-rejuvenate-the-immune-system/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/24/1132080/a-new-way-to-rejuvenate-the-immune-system/</id>
+    <updated>2026-02-24T22:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Just found a Moltbot (clawd) Skill that reduces token usage by 95%+  Insanely valuable.]]></summary>
-    <source><title>@milesdeutscher</title></source>
+    <summary type="html"><![CDATA[As people age, their immune function weakens. Owing to shrinkage of the thymus, where T cells normally mature and diversify, populations of these immune cells become smaller and can’t react to pathogens as quickly. But researchers at MIT and the Broad Institute have now found a…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>Darren Aronofsky just did what most Hollywood directors are too scared to do</title>
-    <link href="https://x.com/EHuanglu/status/2016988624152056274" rel="alternate" type="text/html"/>
-    <id>https://x.com/EHuanglu/status/2016988624152056274</id>
-    <updated>2026-01-29T00:00:00.000Z</updated>
+    <title>A I-designed proteins may help spot cancer</title>
+    <link href="https://www.technologyreview.com/2026/02/24/1132083/a-i-designed-proteins-may-help-spot-cancer/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/24/1132083/a-i-designed-proteins-may-help-spot-cancer/</id>
+    <updated>2026-02-24T22:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Darren Aronofsky just did what most Hollywood directors are too scared to do  He built his own AI studio  Collab with Google and use Nano Banana + Veo generating a short-form series called Revolutionary War  The mindset shift is alr here   https://t....]]></summary>
-    <source><title>@EHuanglu</title></source>
+    <summary type="html"><![CDATA[Researchers at MIT and Microsoft have used artificial intelligence to create molecular sensors that could detect early signs of cancer via a urine test. The researchers developed an AI model to design short proteins that are targeted by enzymes called proteases, which are…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>kimi 2.5 is the best model for clawdbot/moltbot right now. almost opus 4.5 quality but 95% cheaper.</title>
-    <link href="https://x.com/Legendaryy/status/2016873766362464472" rel="alternate" type="text/html"/>
-    <id>https://x.com/Legendaryy/status/2016873766362464472</id>
-    <updated>2026-01-29T00:00:00.000Z</updated>
+    <title>Reformulated antibodies could be injected for easier treatment</title>
+    <link href="https://www.technologyreview.com/2026/02/24/1132086/reformulated-antibodies-could-be-injected-for-easier-treatment/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/24/1132086/reformulated-antibodies-could-be-injected-for-easier-treatment/</id>
+    <updated>2026-02-24T22:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[kimi 2.5 is the best model for clawdbot/moltbot right now. almost opus 4.5 quality but 95% cheaper.  but there is a catch: moonshot api sends your data to china  heres how to fix it: serve it through openrouter instead. turn on ZDR (zero data retenti...]]></summary>
-    <source><title>@Legendaryy</title></source>
+    <summary type="html"><![CDATA[Antibody treatments for cancer and other diseases are typically delivered intravenously, requiring patients to go to a hospital and potentially spend hours receiving infusions. Now Professor Patrick Doyle and his colleagues have taken a major step toward reformulating antibodies…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>3 steps to use Molt (formerly Clawd) safely without getting compromised:</title>
-    <link href="https://x.com/petergyang/status/2016692800029675592" rel="alternate" type="text/html"/>
-    <id>https://x.com/petergyang/status/2016692800029675592</id>
-    <updated>2026-01-29T00:00:00.000Z</updated>
+    <title>Vine-inspired robot fingers can reach out and grab someone</title>
+    <link href="https://www.technologyreview.com/2026/02/24/1132089/vine-inspired-robot-fingers-can-reach-out-and-grab-someone/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/24/1132089/vine-inspired-robot-fingers-can-reach-out-and-grab-someone/</id>
+    <updated>2026-02-24T22:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[3 steps to use Molt (formerly Clawd) safely without getting compromised:  1. Run it on a dedicated machine  An old laptop works fine. I bought a Mac Mini because I want 24/7 uptime and it's cute (see pic). You can also use a VPS.  2. Give it its own ...]]></summary>
-    <source><title>@petergyang</title></source>
+    <summary type="html"><![CDATA[In the horticultural world, some vines are especially grabby. As they grow, the woody tendrils can wrap around obstacles with enough force to pull down fences and trees. Inspired by vines’ twisty tenacity, engineers at MIT and Stanford University have developed a robotic gripper…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>Nothing extra </title>
-    <link href="https://x.com/egeberkina/status/2016493139003949371" rel="alternate" type="text/html"/>
-    <id>https://x.com/egeberkina/status/2016493139003949371</id>
-    <updated>2026-01-28T00:00:00.000Z</updated>
+    <title>Recent books from the MIT community</title>
+    <link href="https://www.technologyreview.com/2026/02/24/1132091/recent-books-from-the-mit-community-27/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/24/1132091/recent-books-from-the-mit-community-27/</id>
+    <updated>2026-02-24T22:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Nothing extra   Prompt 👇 https://t.co/DpwHy4Tgz6]]></summary>
-    <source><title>@egeberkina</title></source>
+    <summary type="html"><![CDATA[Launching from the Lab: Building a Deep-Tech StartupBy Lita Nelsen ’64, SM ’66, SM ’79, former director of the MIT Technology Licensing Office, and Maureen StancikBoyce, SM ’91, SM ’93, PhD ’95, with Sophie Hagerty&#160;MIT PRESS, 2026, $35 Empty Vessel: The Story of the Global…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
   <entry>
-    <title>You can try this directly in AI Studio.</title>
-    <link href="https://x.com/fofrAI/status/2016591039285645380" rel="alternate" type="text/html"/>
-    <id>https://x.com/fofrAI/status/2016591039285645380</id>
-    <updated>2026-01-28T00:00:00.000Z</updated>
+    <title>A boost for manufacturing</title>
+    <link href="https://www.technologyreview.com/2026/02/24/1132163/a-boost-for-manufacturing/" rel="alternate" type="text/html"/>
+    <id>https://www.technologyreview.com/2026/02/24/1132163/a-boost-for-manufacturing/</id>
+    <updated>2026-02-24T22:00:00.000Z</updated>
     <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[You can try this directly in AI Studio.  Use Gemini 3 Pro or Flash, turn on code execution, high thinking level, and prompt something like:  > Add bounding boxes and labels to this image. The label should tell me how to clean my table with an explana...]]></summary>
-    <source><title>@fofrAI</title></source>
-  </entry>
-  <entry>
-    <title>We now have real-time AI character swap 🤯</title>
-    <link href="https://x.com/venturetwins/status/2016307180232966168" rel="alternate" type="text/html"/>
-    <id>https://x.com/venturetwins/status/2016307180232966168</id>
-    <updated>2026-01-28T00:00:00.000Z</updated>
-    <category term="image-video-generation" label="Image &amp; Video Generation"/>
-    <summary type="html"><![CDATA[We now have real-time AI character swap 🤯  Models like Kling Motion Control are very cool - but they take 5-10 min to generate from your reference video + new image.  The new @DecartAI model can swap with zero latency, which means you can truly stre...]]></summary>
-    <source><title>@venturetwins</title></source>
-  </entry>
-  <entry>
-    <title>I spent a day with @openclaw giving it my calendar, email, and more, all so I could show you *exactl...</title>
-    <link href="https://x.com/clairevo/status/2016554446420136005" rel="alternate" type="text/html"/>
-    <id>https://x.com/clairevo/status/2016554446420136005</id>
-    <updated>2026-01-28T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[I spent a day with @openclaw giving it my calendar, email, and more, all so I could show you *exactly* what happens when you give AI the keys to your life.  1 hour of setup, security, and 🆘, featuring special studio guest: Clawdbot 🦞  Watch on YT: ...]]></summary>
-    <source><title>@clairevo</title></source>
-  </entry>
-  <entry>
-    <title>@vamsibatchuk @GoogleAIStudio What did you use for the map</title>
-    <link href="https://x.com/petergyang/status/2013096852539969663" rel="alternate" type="text/html"/>
-    <id>https://x.com/petergyang/status/2013096852539969663</id>
-    <updated>2026-01-19T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[@vamsibatchuk @GoogleAIStudio What did you use for the map]]></summary>
-    <source><title>@petergyang</title></source>
-  </entry>
-  <entry>
-    <title>Hey Papi Promotions Launches AI Marketing Services - MarTech Cube</title>
-    <link href="https://www.martechcube.com/hey-papi-promotions-launches-ai-marketing-services/" rel="alternate" type="text/html"/>
-    <id>https://www.martechcube.com/hey-papi-promotions-launches-ai-marketing-services/</id>
-    <updated>2026-03-22T08:03:05.774Z</updated>
-    <category term="industry-business" label="Industry &amp; Business"/>
-    <summary type="html"><![CDATA[As artificial intelligence rapidly transforms how people search for information, services, and trusted brands, <strong>Hey Papi Promotions</strong>, an award-winning, full-service Christian digital marketing and advertising agency, today announced the launch of its new AI…]]></summary>
-    <source><title>Brave Search</title></source>
-  </entry>
-  <entry>
-    <title>How to Get Started With Visual Generative AI on NVIDIA RTX PCs | NVIDIA Blog</title>
-    <link href="https://blogs.nvidia.com/blog/rtx-ai-garage-comfyui-tutorial/" rel="alternate" type="text/html"/>
-    <id>https://blogs.nvidia.com/blog/rtx-ai-garage-comfyui-tutorial/</id>
-    <updated>2026-03-22T08:03:05.774Z</updated>
-    <category term="image-video-generation" label="Image &amp; Video Generation"/>
-    <summary type="html"><![CDATA[Save with a new name, and text prompt for image and video in one workflow. Beyond generating images with FLUX.2 and videos with LTX‑2, the next step is adding 3D guidance. The NVIDIA Blueprint for 3D-guided generative AI shows how to use 3D scenes and assets to drive more…]]></summary>
-    <source><title>Brave Search</title></source>
-  </entry>
-  <entry>
-    <title>GMI Cloud Highlights Production-First Capabilities of GMI Studio for Scalable Generative AI Workflows - TipRanks.com</title>
-    <link href="https://www.tipranks.com/news/private-companies/gmi-cloud-highlights-production-first-capabilities-of-gmi-studio-for-scalable-generative-ai-workflows" rel="alternate" type="text/html"/>
-    <id>https://www.tipranks.com/news/private-companies/gmi-cloud-highlights-production-first-capabilities-of-gmi-studio-for-scalable-generative-ai-workflows</id>
-    <updated>2026-03-22T08:03:05.774Z</updated>
-    <category term="image-video-generation" label="Image &amp; Video Generation"/>
-    <summary type="html"><![CDATA[The company has released a new blog post providing a ~6-minute deep dive into GMI Studio, its generative AI workflow platform. The blog emphasizes Studio’s “production-first” design, the use of visual workflows to convert ad hoc prompts into repeatable pipelines, and the…]]></summary>
-    <source><title>Brave Search</title></source>
-  </entry>
-  <entry>
-    <title>[AINews] Anthropic launches the MCP Apps open spec, in Claude.ai</title>
-    <link href="https://www.latent.space/p/ainews-anthropic-launches-the-mcp" rel="alternate" type="text/html"/>
-    <id>https://www.latent.space/p/ainews-anthropic-launches-the-mcp</id>
-    <updated>2026-01-27T07:20:28.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[Open Standards for Rich generative UI is all you need.]]></summary>
-    <source><title>Latent Space</title></source>
-  </entry>
-  <entry>
-    <title>This is getting scary. I&apos;m doing some research this morning when all of a sudden my computer starts ...</title>
-    <link href="https://x.com/AlexFinn/status/2016253994033938550" rel="alternate" type="text/html"/>
-    <id>https://x.com/AlexFinn/status/2016253994033938550</id>
-    <updated>2026-01-27T00:00:00.000Z</updated>
-    <category term="ai-tools-platforms" label="AI Tools &amp; Platforms"/>
-    <summary type="html"><![CDATA[This is getting scary. I'm doing some research this morning when all of a sudden my computer starts speaking to me  I look to my left and my ClawdBot Henry all of a sudden has a voice  He coded himself a voice using the ChatGPT API. Without me asking...]]></summary>
-    <source><title>@AlexFinn</title></source>
-  </entry>
-  <entry>
-    <title>AI can alr generate ads that no one can tell</title>
-    <link href="https://x.com/EHuanglu/status/2016289950325444621" rel="alternate" type="text/html"/>
-    <id>https://x.com/EHuanglu/status/2016289950325444621</id>
-    <updated>2026-01-27T00:00:00.000Z</updated>
-    <category term="workflow-automation" label="Workflow &amp; Automation"/>
-    <summary type="html"><![CDATA[AI can alr generate ads that no one can tell  you just need to use the right tool, workflow, prompts and a few bucks subs https://t.co/pQg85maKmy]]></summary>
-    <source><title>@EHuanglu</title></source>
-  </entry>
-  <entry>
-    <title>A few random notes from claude coding quite a bit last few weeks.</title>
-    <link href="https://x.com/karpathy/status/2015883857489522876" rel="alternate" type="text/html"/>
-    <id>https://x.com/karpathy/status/2015883857489522876</id>
-    <updated>2026-01-26T00:00:00.000Z</updated>
-    <category term="workflow-automation" label="Workflow &amp; Automation"/>
-    <summary type="html"><![CDATA[A few random notes from claude coding quite a bit last few weeks.  Coding workflow. Given the latest lift in LLM coding capability, like many others I rapidly went from about 80% manual+autocomplete coding and 20% agents in November to 80% agent codi...]]></summary>
-    <source><title>@karpathy</title></source>
+    <summary type="html"><![CDATA[Several years ago, Suzanne Berger was visiting a manufacturing facility in Ohio, talking to workers on the shop floor, when a machinist offered a thought that could serve as her current credo.&#160; “Technology takes a step forward—workers take a step forward too,” the employee…]]></summary>
+    <source><title>MIT Tech Review AI</title></source>
   </entry>
 </feed>
