@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-03-25T08:12:30.534Z",
+  "generatedAt": "2026-03-26T08:04:55.972Z",
   "window": {
-    "start": "2026-03-18T08:12:30.452Z",
-    "end": "2026-03-25T08:12:30.452Z",
+    "start": "2026-03-19T08:04:55.925Z",
+    "end": "2026-03-26T08:04:55.925Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 920,
+    "totalEntries": 883,
     "categoriesWithEntries": 10,
     "totalSelected": 30
   },
@@ -16,16 +16,9 @@
     "source": "The Verge AI",
     "date": "2026-03-24T17:08:10-04:00",
     "summary": "On Tuesday afternoon, OpenAI announced \"We're saying goodbye to Sora,\" the video generation tool that it launched at the end of 2024, and centered in a massive licensing deal with Disney only a few months ago. The Wall Street Journal reported the move earlier, saying that OpenAI boss Sam Altman had informed staff that both [&#8230;]",
-    "score": 0.89
+    "score": 0.869
   },
   "trending": [
-    {
-      "tag": "machine learning",
-      "count": 6,
-      "prevCount": 1,
-      "growth": 5,
-      "relevance": 5
-    },
     {
       "tag": "coding agents",
       "count": 15,
@@ -34,60 +27,67 @@
       "relevance": 2.75
     },
     {
-      "tag": "march 2026",
-      "count": 8,
-      "prevCount": 3,
-      "growth": 1.67,
-      "relevance": 1.6666666666666667
+      "tag": "sora",
+      "count": 13,
+      "prevCount": 4,
+      "growth": 2.25,
+      "relevance": 2.75
     },
     {
-      "tag": "sora",
+      "tag": "safety",
       "count": 10,
       "prevCount": 5,
       "growth": 1,
       "relevance": 1.5
     },
     {
-      "tag": "reinforcement learning",
-      "count": 7,
-      "prevCount": 3,
-      "growth": 1.33,
-      "relevance": 1.3333333333333333
+      "tag": "inference",
+      "count": 8,
+      "prevCount": 5,
+      "growth": 0.6,
+      "relevance": 1.1
     },
     {
-      "tag": "vibe",
+      "tag": "internal coding",
       "count": 5,
-      "prevCount": 3,
-      "growth": 0.67,
-      "relevance": 1.1666666666666665
-    },
-    {
-      "tag": "training",
-      "count": 14,
-      "prevCount": 9,
-      "growth": 0.56,
-      "relevance": 1.0555555555555556
-    },
-    {
-      "tag": "video",
-      "count": 20,
-      "prevCount": 13,
-      "growth": 0.54,
-      "relevance": 1.0384615384615383
-    },
-    {
-      "tag": "qcon london",
-      "count": 6,
-      "prevCount": 3,
+      "prevCount": 0,
       "growth": 1,
       "relevance": 1
     },
     {
-      "tag": "inference",
-      "count": 9,
-      "prevCount": 6,
-      "growth": 0.5,
-      "relevance": 1
+      "tag": "video",
+      "count": 19,
+      "prevCount": 13,
+      "growth": 0.46,
+      "relevance": 0.9615384615384616
+    },
+    {
+      "tag": "training",
+      "count": 12,
+      "prevCount": 9,
+      "growth": 0.33,
+      "relevance": 0.8333333333333333
+    },
+    {
+      "tag": "march 2026",
+      "count": 7,
+      "prevCount": 4,
+      "growth": 0.75,
+      "relevance": 0.75
+    },
+    {
+      "tag": "coding",
+      "count": 59,
+      "prevCount": 48,
+      "growth": 0.23,
+      "relevance": 0.7291666666666666
+    },
+    {
+      "tag": "mcp",
+      "count": 11,
+      "prevCount": 9,
+      "growth": 0.22,
+      "relevance": 0.7222222222222222
     }
   ],
   "categories": {
@@ -98,7 +98,7 @@
         "source": "Hacker News AI",
         "date": "Tue, 24 Mar 2026 07:46:46 +0000",
         "summary": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken o...",
-        "score": 0.818
+        "score": 0.797
       },
       {
         "title": "Auto mode for Claude Code",
@@ -106,51 +106,59 @@
         "source": "Simon Willison",
         "date": "2026-03-24T23:57:33+00:00",
         "summary": "Auto mode for Claude Code Really interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions: Today, we're introducing auto mode, a new permissions mode in ...",
-        "score": 0.796
+        "score": 0.775
       },
       {
-        "title": "PCGamer Article Performance Audit",
-        "url": "https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-03-22T22:49:00+00:00",
-        "summary": "Research: PCGamer Article Performance Audit Stuart Breckenridge pointed out that PC Gamer Recommends RSS Readers in a 37MB Article That Just Keeps Downloading, highlighting a truly horrifying examp...",
-        "score": 0.752
+        "title": "Anthropic’s Claude Code gets ‘safer’ auto mode",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/900201/anthropic-claude-code-auto-mode",
+        "source": "The Verge AI",
+        "date": "2026-03-25T07:39:46-04:00",
+        "summary": "Anthropic has launched an \"auto mode\" for Claude Code, a new tool that lets AI make permissions-level decisions on users' behalf. The company says the feature offers vibe coders a safer alternative...",
+        "score": 0.772
       }
     ],
     "AI Tools & Platforms": [
       {
-        "title": "I built an app for work in 5 minutes with Tasklet - and watched my no-code dreams come true",
-        "url": "https://www.zdnet.com/article/if-ai-agents-are-workers-tasklet-is-a-miracle-worker/",
-        "source": "ZDNet Australia",
-        "date": "Wed, 25 Mar 2026 03:00:00 GMT",
-        "summary": "In my 30 years covering technology, I have never been so impressed. Here's why this agentic AI authoring and deployment tool changes everything.",
-        "score": 0.835
+        "title": "Updates to GitHub Copilot interaction data usage policy",
+        "url": "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/",
+        "source": "GitHub Blog",
+        "date": "Wed, 25 Mar 2026 19:02:29 +0000",
+        "summary": "From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unl...",
+        "score": 0.845
       },
       {
-        "title": "Package Managers Need to Cool Down",
-        "url": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-03-24T21:11:38+00:00",
-        "summary": "Package Managers Need to Cool Down Today's LiteLLM supply chain attack inspired me to revisit the idea of dependency cooldowns, the practice of only installing updated dependencies once they've bee...",
-        "score": 0.793
+        "title": "OpenAI's latest repo has Claude as the third top contributor",
+        "url": "https://twitter.com/CodeByNZ/status/2036723050197012771",
+        "source": "Hacker News AI",
+        "date": "Wed, 25 Mar 2026 14:44:10 +0000",
+        "summary": "Article URL: https://twitter.com/CodeByNZ/status/2036723050197012771 Comments URL: https://news.ycombinator.com/item?id=47518001 Points: 57 # Comments: 24",
+        "score": 0.825
       },
       {
-        "title": "Quoting Christopher Mims",
-        "url": "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-03-24T20:35:52+00:00",
-        "summary": "I really think \"give AI total control of my computer and therefore my entire life\" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon...",
-        "score": 0.793
+        "title": "Meta turns to AI to make shopping easier on Instagram and Facebook",
+        "url": "https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/",
+        "source": "TechCrunch AI",
+        "date": "Wed, 25 Mar 2026 14:16:17 +0000",
+        "summary": "Meta is using generative AI to provide more product and brand information to consumers when they're shopping in its apps.",
+        "score": 0.824
       }
     ],
     "Research & Papers": [
+      {
+        "title": "LiteLLM Hack: Were You One of the 47,000?",
+        "url": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-03-25T17:21:04+00:00",
+        "summary": "LiteLLM Hack: Were You One of the 47,000? Daniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteLLM packages during the 46 minute period they we...",
+        "score": 0.79
+      },
       {
         "title": "Lie to Me: How Faithful Is Chain-of-Thought Reasoning in Reasoning Models?",
         "url": "https://arxiv.org/abs/2603.22582",
         "source": "arXiv cs.CL",
         "date": "Wed, 25 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.22582v1 Announce Type: new Abstract: Chain-of-thought (CoT) reasoning has been proposed as a transparency mechanism for large language models in safety-critical deployments, yet its effe...",
-        "score": 0.796
+        "score": 0.775
       },
       {
         "title": "Between the Layers Lies the Truth: Uncertainty Estimation in LLMs Using Intra-Layer Local Information Scores",
@@ -158,15 +166,7 @@
         "source": "arXiv cs.LG",
         "date": "Wed, 25 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.22299v1 Announce Type: new Abstract: Large language models (LLMs) are often confidently wrong, making reliable uncertainty estimation (UE) essential. Output-based heuristics are cheap bu...",
-        "score": 0.788
-      },
-      {
-        "title": "Me, Myself, and $\\pi$ : Evaluating and Explaining LLM Introspection",
-        "url": "https://arxiv.org/abs/2603.20276",
-        "source": "arXiv cs.AI",
-        "date": "Tue, 24 Mar 2026 00:00:00 -0400",
-        "summary": "arXiv:2603.20276v1 Announce Type: new Abstract: A hallmark of human intelligence is Introspection-the ability to assess and reason about one's own cognitive processes. Introspection has emerged as ...",
-        "score": 0.745
+        "score": 0.767
       }
     ],
     "Strategy & Opinion": [
@@ -176,7 +176,7 @@
         "source": "arXiv cs.CL",
         "date": "Wed, 25 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.22295v1 Announce Type: new Abstract: Large language models appear to develop internal representations of emotion -- \"emotion circuits,\" \"emotion neurons,\" and structured emotional manifo...",
-        "score": 0.796
+        "score": 0.775
       },
       {
         "title": "LLM-guided headline rewriting for clickability enhancement without clickbait",
@@ -184,7 +184,7 @@
         "source": "arXiv cs.CL",
         "date": "Wed, 25 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.22459v1 Announce Type: new Abstract: Enhancing reader engagement while preserving informational fidelity is a central challenge in controllable text generation for news media. Optimizing...",
-        "score": 0.796
+        "score": 0.775
       },
       {
         "title": "@unknown: 🚨 BREAKING: @AnthropicAI just gave Claude Code more autonomy while SaaStr revea...",
@@ -192,7 +192,7 @@
         "source": "X/@unknown",
         "date": "Wed Mar 25 08:01:04 +0000 2026",
         "summary": "🚨 BREAKING: @AnthropicAI just gave Claude Code more autonomy while SaaStr reveals their AI agent \"fell off the rails\" when left unattended.\n\nThis is the paradox EVERY founder needs to solve in 202...",
-        "score": 0.743
+        "score": 0.722
       }
     ],
     "Image & Video Generation": [
@@ -202,7 +202,7 @@
         "source": "X/@unknown",
         "date": "Mon Mar 23 20:30:33 +0000 2026",
         "summary": "Truly blown away by a new AI image model launching this week ✨\n\nFinally, you can generate photos that actually look like you! \n\nIt's so much better than everything I've tried - from LoRAs to NB Pro...",
-        "score": 0.915
+        "score": 0.893
       },
       {
         "title": "@unknown: Don't make videos — program them.\n\nIntroducing Renoise = Claude Code + Seedance ...",
@@ -210,7 +210,7 @@
         "source": "X/@unknown",
         "date": "Mon Mar 23 14:37:14 +0000 2026",
         "summary": "Don't make videos — program them.\n\nIntroducing Renoise = Claude Code + Seedance 2.0.\nScale your video ad production 100x. One product photo → hundreds of finished creatives.👇\n\nhttps://t.co/L0xP50T...",
-        "score": 0.91
+        "score": 0.888
       },
       {
         "title": "OpenAI just gave up on Sora and its billion-dollar Disney deal",
@@ -218,7 +218,7 @@
         "source": "The Verge AI",
         "date": "2026-03-24T17:08:10-04:00",
         "summary": "On Tuesday afternoon, OpenAI announced \"We're saying goodbye to Sora,\" the video generation tool that it launched at the end of 2024, and centered in a massive licensing deal with Disney only a few...",
-        "score": 0.89
+        "score": 0.869
       }
     ],
     "Workflow & Automation": [
@@ -228,7 +228,7 @@
         "source": "OpenAI Blog",
         "date": "Tue, 24 Mar 2026 09:00:00 GMT",
         "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
-        "score": 0.783
+        "score": 0.761
       },
       {
         "title": "Anthropic’s Claude Code and Cowork can control your computer",
@@ -236,7 +236,7 @@
         "source": "The Verge AI",
         "date": "2026-03-24T09:32:23-04:00",
         "summary": "Anthropic has updated Claude to perform tasks in its Code and Cowork AI tools autonomously by using your computer for you. The new feature can be used to automatically open files, use web browsers ...",
-        "score": 0.773
+        "score": 0.752
       },
       {
         "title": "Fast-Slow Thinking RM: Efficient Integration of Scalar and Generative Reward Models",
@@ -244,7 +244,7 @@
         "source": "arXiv cs.CL",
         "date": "Tue, 24 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.20212v1 Announce Type: new Abstract: Reward models (RMs) are critical for aligning Large Language Models via Reinforcement Learning from Human Feedback (RLHF). While Generative Reward Mo...",
-        "score": 0.745
+        "score": 0.723
       }
     ],
     "Industry & Business": [
@@ -254,7 +254,7 @@
         "source": "Guardian AI",
         "date": "Tue, 24 Mar 2026 22:34:10 GMT",
         "summary": "Tech firm ‘says goodbye’ to Sora, made publicly available in 2024, just six months after its launch of a stand-alone appIn an abrupt announcement on Tuesday, OpenAI said it was “saying goodbye” to ...",
-        "score": 0.883
+        "score": 0.862
       },
       {
         "title": "Update on the OpenAI Foundation",
@@ -262,7 +262,7 @@
         "source": "OpenAI Blog",
         "date": "Tue, 24 Mar 2026 09:00:00 GMT",
         "summary": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
-        "score": 0.783
+        "score": 0.761
       },
       {
         "title": "ChatGPT and Gemini are fighting to be the AI bot that sells you stuff",
@@ -270,33 +270,33 @@
         "source": "The Verge AI",
         "date": "2026-03-24T13:13:00-04:00",
         "summary": "The AI-powered shopping rivalry is heating up as Google and OpenAI launch new features to help you buy things while interacting with their chatbots. Now, Google is teaming up with Gap Inc to allow ...",
-        "score": 0.777
+        "score": 0.755
       }
     ],
     "Voice & Audio": [
+      {
+        "title": "Google Lyria 3 Pro makes longer AI songs",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
+        "source": "The Verge AI",
+        "date": "2026-03-25T12:00:00-04:00",
+        "summary": "Google is expanding the capabilities of its Lyria 3 music-making AI, enabling it to create tracks up to three minutes long and from within multiple other Google Products. Until now, Lyria had been ...",
+        "score": 0.776
+      },
+      {
+        "title": "Google launches Lyria 3 Pro music generation model",
+        "url": "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/",
+        "source": "TechCrunch AI",
+        "date": "Wed, 25 Mar 2026 16:37:43 +0000",
+        "summary": "Google is launching Lyria 3 Pro, an upgraded music model that generates longer, more customizable tracks, as it expands AI music tools across Gemini, enterprise products, and other services.",
+        "score": 0.716
+      },
       {
         "title": "MuQ-Eval: An Open-Source Per-Sample Quality Metric for AI Music Generation Evaluation",
         "url": "https://arxiv.org/abs/2603.22677",
         "source": "arXiv cs.AI",
         "date": "Wed, 25 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.22677v1 Announce Type: new Abstract: Distributional metrics such as Fr\\'echet Audio Distance cannot score individual music clips and correlate poorly with human judgments, while the only...",
-        "score": 0.686
-      },
-      {
-        "title": "US man pleads guilty to defrauding music streamers out of millions using AI",
-        "url": "https://www.theguardian.com/us-news/2026/mar/21/man-pleads-guilty-music-streaming-fraud-ai",
-        "source": "Guardian AI",
-        "date": "Sat, 21 Mar 2026 15:14:59 GMT",
-        "summary": "Michael Smith, 52, charged after flooding platforms with thousands of AI songs and boosting them with botsSign up for the Breaking News US email to get newsletter alerts in your inboxA North Caroli...",
-        "score": 0.676
-      },
-      {
-        "title": "DEAF: A Benchmark for Diagnostic Evaluation of Acoustic Faithfulness in Audio Language Models",
-        "url": "https://arxiv.org/abs/2603.18048",
-        "source": "arXiv cs.AI",
-        "date": "Fri, 20 Mar 2026 00:00:00 -0400",
-        "summary": "arXiv:2603.18048v1 Announce Type: new Abstract: Recent Audio Multimodal Large Language Models (Audio MLLMs) demonstrate impressive performance on speech benchmarks, yet it remains unclear whether t...",
-        "score": 0.659
+        "score": 0.665
       }
     ],
     "Ethics & Regulation": [
@@ -306,23 +306,23 @@
         "source": "CAIS Newsletter",
         "date": "Tue, 24 Mar 2026 14:16:06 GMT",
         "summary": "Also, a new open letter advocating for pro-human values and control over AI development",
-        "score": 0.824
+        "score": 0.803
       },
       {
-        "title": "Sample Transform Cost-Based Training-Free Hallucination Detector for Large Language Models",
-        "url": "https://arxiv.org/abs/2603.22303",
-        "source": "arXiv cs.LG",
-        "date": "Wed, 25 Mar 2026 00:00:00 -0400",
-        "summary": "arXiv:2603.22303v1 Announce Type: new Abstract: Hallucinations in large language models (LLMs) remain a central obstacle to trustworthy deployment, motivating detectors that are accurate, lightweig...",
-        "score": 0.788
-      },
-      {
-        "title": "Helping developers build safer AI experiences for teens",
-        "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+        "title": "Inside our approach to the Model Spec",
+        "url": "https://openai.com/index/our-approach-to-the-model-spec",
         "source": "OpenAI Blog",
-        "date": "Tue, 24 Mar 2026 11:00:00 GMT",
-        "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
+        "date": "Wed, 25 Mar 2026 10:00:00 GMT",
+        "summary": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
         "score": 0.784
+      },
+      {
+        "title": "Introducing the OpenAI Safety Bug Bounty program",
+        "url": "https://openai.com/index/safety-bug-bounty",
+        "source": "OpenAI Blog",
+        "date": "Wed, 25 Mar 2026 00:00:00 GMT",
+        "summary": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
+        "score": 0.775
       }
     ],
     "Australia": [
@@ -332,7 +332,7 @@
         "source": "InnovationAus",
         "date": "Wed, 25 Mar 2026 07:15:51 +0000",
         "summary": "Australia has just two years to lock in the policy settings and investment capital it will need to reap transformational economic benefits from an international artificial intelligence boom, a new ...",
-        "score": 0.742
+        "score": 0.721
       },
       {
         "title": "Business investment boost critical to research translation",
@@ -340,7 +340,7 @@
         "source": "InnovationAus",
         "date": "Mon, 23 Mar 2026 07:06:33 +0000",
         "summary": "Encouraging greater business investment in R&#38;D to activate the Australian innovation system is key to driving better commercial translation outcomes for local research, according to Science and...",
-        "score": 0.699
+        "score": 0.678
       },
       {
         "title": "Tech sector’s slice of GDP hits 9 per cent: TCA",
@@ -348,7 +348,7 @@
         "source": "InnovationAus",
         "date": "Mon, 23 Mar 2026 07:04:53 +0000",
         "summary": "Australia’s digital uplift has delivered a decade of economic growth, a new report shows, but tech firms are only partly responsible for the boom and have grown increasingly vulnerable to global sh...",
-        "score": 0.699
+        "score": 0.678
       }
     ]
   }
