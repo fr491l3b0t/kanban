@@ -6,7 +6,7 @@
     <description>Curated daily intelligence on generative AI: tools, research, strategy, industry moves. 4,600+ entries from 41 RSS feeds, Reddit, X bookmarks, and Brave Search.</description>
     <language>en-AU</language>
     <copyright>© 2026 Raphael Ruz</copyright>
-    <lastBuildDate>Thu, 26 Mar 2026 08:04:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 08:03:36 GMT</lastBuildDate>
     <generator>Product Intelligence KB Feed Builder</generator>
     <atom:link href="https://fr491l3b0t.github.io/kanban/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -15,904 +15,1107 @@
       <link>https://fr491l3b0t.github.io/kanban/genai-kb-editorial.html</link>
     </image>
     <item>
-      <title>Updates to GitHub Copilot interaction data usage policy</title>
-      <link>https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/</link>
-      <description><![CDATA[From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. The post Updates to GitHub Copilot interaction data usage policy…]]></description>
-      <pubDate>Wed, 25 Mar 2026 19:02:29 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/</guid>
-      <source url="https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/">GitHub Blog</source>
-    </item>
-    <item>
-      <title>There’s Something Very Dark About a Lot of Those Viral AI Fruit Videos</title>
-      <link>https://www.wired.com/story/theres-something-very-dark-about-a-lot-of-those-viral-ai-fruit-videos/</link>
-      <description><![CDATA[From female fruit being fart-shamed or even sexually assaulted, there’s a misogynistic undercurrent to the fruit slop microdramas, even as they appear to be cultivating genuine fans.]]></description>
-      <pubDate>Wed, 25 Mar 2026 18:49:40 GMT</pubDate>
-      <category>Image &amp; Video Generation</category>
-      <guid isPermaLink="true">https://www.wired.com/story/theres-something-very-dark-about-a-lot-of-those-viral-ai-fruit-videos/</guid>
-      <source url="https://www.wired.com/story/theres-something-very-dark-about-a-lot-of-those-viral-ai-fruit-videos/">Wired AI</source>
-    </item>
-    <item>
-      <title>[D] Is LeCun’s $1B seed round the signal that autoregressive LLMs have actually hit a wall for formal reasoning?</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/</link>
-      <description><![CDATA[I’m still trying to wrap my head around the Bloomberg news from a couple of weeks ago. A $1 billion seed round is wild enough, but the actual technical bet they are making is what's really keeping me up. LeCun has been loudly arguing for years that next-token predictors are…]]></description>
-      <pubDate>Wed, 25 Mar 2026 18:32:19 GMT</pubDate>
+      <title>@unknown: anthropic launched a $100m claude partner network (training, certification, tech...</title>
+      <link>https://x.com/unknown/status/2036715968903155807</link>
+      <description><![CDATA[anthropic launched a $100m claude partner network (training, certification, technical support, co-selling). this is how ‘ai pilots’ becomes enterprise default. https://t.co/1Uf9oUsyOU]]></description>
+      <pubDate>Wed, 25 Mar 2026 08:05:01 GMT</pubDate>
       <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1s3j3ef/d_is_lecuns_1b_seed_round_the_signal_that/">r/MachineLearning</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036715968903155807</guid>
+      <source url="https://x.com/unknown/status/2036715968903155807">X/@unknown</source>
     </item>
     <item>
-      <title>30 Years Ago, Robots Learned to Walk Without Falling</title>
-      <link>https://spectrum.ieee.org/honda-p2-robot-ieee-milestone</link>
-      <description><![CDATA[When you hear the term humanoid robot, you may think of C-3PO, the human-cyborg-relations android from Star Wars. C-3PO was designed to assist humans in communicating with robots and alien species. The droid, which first appeared on screen in 1977, joined the characters on their…]]></description>
-      <pubDate>Wed, 25 Mar 2026 18:00:05 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://spectrum.ieee.org/honda-p2-robot-ieee-milestone</guid>
-      <source url="https://spectrum.ieee.org/honda-p2-robot-ieee-milestone">IEEE Spectrum Robotics</source>
-    </item>
-    <item>
-      <title>OpenClaw Agents Can Be Guilt-Tripped Into Self-Sabotage</title>
-      <link>https://www.wired.com/story/openclaw-ai-agent-manipulation-security-northeastern-study/</link>
-      <description><![CDATA[In a controlled experiment, OpenClaw agents proved prone to panic and vulnerable to manipulation. They even disabled their own functionality when gaslit by humans.]]></description>
-      <pubDate>Wed, 25 Mar 2026 18:00:00 GMT</pubDate>
+      <title>@unknown: Anthropic just launched Auto Mode for Claude Code.
+
+I have been experimenting wi...</title>
+      <link>https://x.com/unknown/status/2036715774770057263</link>
+      <description><![CDATA[Anthropic just launched Auto Mode for Claude Code.
+
+I have been experimenting with it and https://t.co/7iQQlsdLrP since this morning, and it seems like Shuru is the perfect environment for running Claude Code in auto mode: sandboxed, on your local device, without risking your…]]></description>
+      <pubDate>Wed, 25 Mar 2026 08:04:15 GMT</pubDate>
       <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://www.wired.com/story/openclaw-ai-agent-manipulation-security-northeastern-study/</guid>
-      <source url="https://www.wired.com/story/openclaw-ai-agent-manipulation-security-northeastern-study/">Wired AI</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036715774770057263</guid>
+      <source url="https://x.com/unknown/status/2036715774770057263">X/@unknown</source>
     </item>
     <item>
-      <title>Bernie Sanders and AOC propose a ban on data center construction</title>
-      <link>https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/</link>
-      <description><![CDATA[Senator Bernie Sanders and Rep. Alexandria Ocasio-Cortez introduced companion legislation to halt construction on new data centers until Congress passes comprehensive AI regulation.]]></description>
-      <pubDate>Wed, 25 Mar 2026 17:15:50 GMT</pubDate>
+      <title>@unknown: spent the entire day experimenting with Claude console
+
+i connected every tool i...</title>
+      <link>https://x.com/unknown/status/2036715324641542337</link>
+      <description><![CDATA[spent the entire day experimenting with Claude console
+
+i connected every tool i use, created function specific projects, fed the AI targeted files and instructions to optimize output 
+
+the results i’m seeing are SCARY 
+
+i see myself using this tool daily to get all sorts of…]]></description>
+      <pubDate>Wed, 25 Mar 2026 08:02:28 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036715324641542337</guid>
+      <source url="https://x.com/unknown/status/2036715324641542337">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: Claude Code v2.1.83 est disponible : support du répertoire managed-settings.d/ p...</title>
+      <link>https://x.com/unknown/status/2036715092142637371</link>
+      <description><![CDATA[Claude Code v2.1.83 est disponible : support du répertoire managed-settings.d/ pour les configs drop-in, nouveaux hooks CwdChanged et FileChanged, et l'option sandbox.failIfUnavailable pour plus de contrôle sur l'exécution sécurisée.
+
+https://t.co/TA4yfyRLP1]]></description>
+      <pubDate>Wed, 25 Mar 2026 08:01:32 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036715092142637371</guid>
+      <source url="https://x.com/unknown/status/2036715092142637371">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: AI just stepped out of the chat box and onto your desktop. 🤯
+
+Anthropic’s lates...</title>
+      <link>https://x.com/unknown/status/2036715008856604715</link>
+      <description><![CDATA[AI just stepped out of the chat box and onto your desktop. 🤯
+
+Anthropic’s latest update lets Claude actually use your PC. It’s clicking, typing, and navigating just like a human user.
+
+From Claude Cowork to Claude Code, the "Computer Use" era has officially begun (macOS…]]></description>
+      <pubDate>Wed, 25 Mar 2026 08:01:13 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036715008856604715</guid>
+      <source url="https://x.com/unknown/status/2036715008856604715">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: 🚨 BREAKING: @AnthropicAI just gave Claude Code more autonomy while SaaStr revea...</title>
+      <link>https://x.com/unknown/status/2036714971074019510</link>
+      <description><![CDATA[🚨 BREAKING: @AnthropicAI just gave Claude Code more autonomy while SaaStr reveals their AI agent "fell off the rails" when left unattended.
+
+This is the paradox EVERY founder needs to solve in 2026:
+
+🧵 Thread 👇]]></description>
+      <pubDate>Wed, 25 Mar 2026 08:01:04 GMT</pubDate>
+      <category>Strategy &amp; Opinion</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036714971074019510</guid>
+      <source url="https://x.com/unknown/status/2036714971074019510">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: Anthropic’s Claude Code and Cowork gain ability to control Mac computers...
+
+Ena...</title>
+      <link>https://x.com/unknown/status/2036714969329258677</link>
+      <description><![CDATA[Anthropic’s Claude Code and Cowork gain ability to control Mac computers...
+
+Enables AI to automate complex tasks by directly...
+
+Evidence: 3 posts | 3 origins | 3 publishers.
+
+https://t.co/NSJDasIlYU]]></description>
+      <pubDate>Wed, 25 Mar 2026 08:01:03 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036714969329258677</guid>
+      <source url="https://x.com/unknown/status/2036714969329258677">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: Best AI tools for Motion Designers:
+
+1. Ideation
+- ChatGPT
+- Claude
+- Midjourney...</title>
+      <link>https://x.com/unknown/status/2036713471870468488</link>
+      <description><![CDATA[Best AI tools for Motion Designers:
+
+1. Ideation
+- ChatGPT
+- Claude
+- Midjourney
+- Perplexity
+- Grok
+
+2. Animation
+- Rive
+- LottieFiles
+- After Effects
+
+3. Video Generation
+- Sora
+- Kling
+- Luma Dream Machine
+- Runway ML
+- Google Flow
+
+4. Image & Style
+- Midjourney
+- Nano…]]></description>
+      <pubDate>Wed, 25 Mar 2026 07:55:06 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036713471870468488</guid>
+      <source url="https://x.com/unknown/status/2036713471870468488">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: 🔍 OpenAI&apos;s Sora shutdown signals a strategic retreat from high-risk generative ...</title>
+      <link>https://x.com/unknown/status/2036710873813946565</link>
+      <description><![CDATA[🔍 OpenAI's Sora shutdown signals a strategic retreat from high-risk generative frontiers. While competitors push multimodal agents, OpenAI is consolidating around core text/chat products (GPT-5.3, Codex) and ceding complex video/agentic commerce—where copyright and…]]></description>
+      <pubDate>Wed, 25 Mar 2026 07:44:47 GMT</pubDate>
+      <category>Industry &amp; Business</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036710873813946565</guid>
+      <source url="https://x.com/unknown/status/2036710873813946565">X/@unknown</source>
+    </item>
+    <item>
+      <title>Policy or perish: Two years to grab AI boom, Deloitte says</title>
+      <link>https://www.innovationaus.com/policy-or-perish-two-years-to-grab-ai-boom-deloitte-says/</link>
+      <description><![CDATA[Australia has just two years to lock in the policy settings and investment capital it will need to reap transformational economic benefits from an international artificial intelligence boom, a new report from Deloitte says. The Google-commissioned report on domestic AI…]]></description>
+      <pubDate>Wed, 25 Mar 2026 07:15:51 GMT</pubDate>
+      <category>Australia</category>
+      <guid isPermaLink="true">https://www.innovationaus.com/policy-or-perish-two-years-to-grab-ai-boom-deloitte-says/</guid>
+      <source url="https://www.innovationaus.com/policy-or-perish-two-years-to-grab-ai-boom-deloitte-says/">InnovationAus</source>
+    </item>
+    <item>
+      <title>[AINews] Apple&apos;s War on Slop</title>
+      <link>https://www.latent.space/p/ainews-apples-war-on-slop</link>
+      <description><![CDATA[a quiet day lets us reflect on the End of Sora, LiteLLM, AI2, and other not so happy news.]]></description>
+      <pubDate>Wed, 25 Mar 2026 06:18:48 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-apples-war-on-slop</guid>
+      <source url="https://www.latent.space/p/ainews-apples-war-on-slop">Latent Space</source>
+    </item>
+    <item>
+      <title>@unknown: 🔴 أوبن إيه آي (OpenAI) تطلق رسمياً GPT-5.4 ونسخة Pro للأداء العالي.
+
+الموديل ال...</title>
+      <link>https://x.com/unknown/status/2036689187215204443</link>
+      <description><![CDATA[🔴 أوبن إيه آي (OpenAI) تطلق رسمياً GPT-5.4 ونسخة Pro للأداء العالي.
+
+الموديل الجديد صار يتحكم بالكمبيوتر بشكل أصلي (Native Computer Use)، وبميزة Tool Search اللي تقلل استهلاك التوكنز بنسبة 47%!
+
+القدرات في البرمجة والمهام المعقدة قفزت بشكل مرعب. يعني باختصار: عصر الـ AI Agents…]]></description>
+      <pubDate>Wed, 25 Mar 2026 06:18:36 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036689187215204443</guid>
+      <source url="https://x.com/unknown/status/2036689187215204443">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: Amodei is once again putting on his “confused” AI doomer face and using fear-mon...</title>
+      <link>https://x.com/unknown/status/2036689124594454552</link>
+      <description><![CDATA[Amodei is once again putting on his “confused” AI doomer face and using fear-mongering to stir panic. He’s also pushing the Automation Paradox (Hype vs. Reality Paradox)- warning that AI will wipe out jobs to sound urgent, while those same warnings conveniently help drive more…]]></description>
+      <pubDate>Wed, 25 Mar 2026 06:18:21 GMT</pubDate>
       <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/</guid>
-      <source url="https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/">TechCrunch AI</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036689124594454552</guid>
+      <source url="https://x.com/unknown/status/2036689124594454552">X/@unknown</source>
     </item>
     <item>
-      <title>Google launches Lyria 3 Pro music generation model</title>
-      <link>https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/</link>
-      <description><![CDATA[Google is launching Lyria 3 Pro, an upgraded music model that generates longer, more customizable tracks, as it expands AI music tools across Gemini, enterprise products, and other services.]]></description>
-      <pubDate>Wed, 25 Mar 2026 16:37:43 GMT</pubDate>
+      <title>[P] Best approach for online crowd density prediction from noisy video counts? (no training data)</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1s32g40/p_best_approach_for_online_crowd_density/</link>
+      <description><![CDATA[I have per-frame head counts from P2PNet running on crowd video clips. Counts are stable but noisy (±10%). I need to predict density 5-10 frames ahead per zone, and estimate time-to-critical-threshold. Currently using EMA-smoothed Gaussian-weighted linear extrapolation. MAE ~20…]]></description>
+      <pubDate>Wed, 25 Mar 2026 05:52:42 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s32g40/p_best_approach_for_online_crowd_density/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1s32g40/p_best_approach_for_online_crowd_density/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>@unknown: AI hype puts LLMs in everything, even simple searches.
+
+Upside: richer contextua...</title>
+      <link>https://x.com/unknown/status/2036677862460367213</link>
+      <description><![CDATA[AI hype puts LLMs in everything, even simple searches.
+
+Upside: richer contextual answers.
+
+Reality: ~100x energy vs classic queries.
+
+Energy crisis? We need efficiency &amp; clean power to scale AI responsibly.
+
+Innovation &amp; responsibility can coexist. ⚡…]]></description>
+      <pubDate>Wed, 25 Mar 2026 05:33:36 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036677862460367213</guid>
+      <source url="https://x.com/unknown/status/2036677862460367213">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: @GabbbarSingh Video AI is economically brutal — Video generation requires 10-100...</title>
+      <link>https://x.com/unknown/status/2036673082308596148</link>
+      <description><![CDATA[@GabbbarSingh Video AI is economically brutal — Video generation requires 10-100x more compute than text/image models, with inference costs that make it difficult to monetize at scale . OpenAI’s Sora, Google’s Veo, Runway—all burning massive R&amp;D budgets with unclear revenue…]]></description>
+      <pubDate>Wed, 25 Mar 2026 05:14:37 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036673082308596148</guid>
+      <source url="https://x.com/unknown/status/2036673082308596148">X/@unknown</source>
+    </item>
+    <item>
+      <title>TurboQuant: Redefining AI efficiency with extreme compression</title>
+      <link>https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/</link>
+      <description><![CDATA[Article URL: https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/ Comments URL: https://news.ycombinator.com/item?id=47513475 Points: 107 # Comments: 13]]></description>
+      <pubDate>Wed, 25 Mar 2026 05:00:54 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/</guid>
+      <source url="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/">Hacker News AI</source>
+    </item>
+    <item>
+      <title>@unknown: Nobody tells you which AI to actually use. Here&apos;s the cheat sheet 🧵
+
+💻 Coding ...</title>
+      <link>https://x.com/unknown/status/2036668520969146440</link>
+      <description><![CDATA[Nobody tells you which AI to actually use. Here's the cheat sheet 🧵
+
+💻 Coding → Claude (powers Cursor, GitHub Copilot, Claude Code)
+
+🔍 Research / Reasoning → Gemini (leads benchmarks, 1M context)
+
+✍️ Writing & Long-form → Claude (most natural prose, 128K output)
+
+🌐 Real-time…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:56:29 GMT</pubDate>
+      <category>Strategy &amp; Opinion</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036668520969146440</guid>
+      <source url="https://x.com/unknown/status/2036668520969146440">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: OpenClaw vs. Anthropic Computer Use vs. NVIDIA Agent Toolkit.
+
+PR hype is one th...</title>
+      <link>https://x.com/unknown/status/2036662103705268262</link>
+      <description><![CDATA[OpenClaw vs. Anthropic Computer Use vs. NVIDIA Agent Toolkit.
+
+PR hype is one thing; terminal reality is another. I stress-tested all three on a 50-step 'Unstructured Data Extraction + Browser Navigation' workflow.
+
+One is a toy, one is too expensive, and one is a genuine…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:30:59 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036662103705268262</guid>
+      <source url="https://x.com/unknown/status/2036662103705268262">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: Hopefully, the same will happen to Midjourney, Runway and others.
+
+Video generat...</title>
+      <link>https://x.com/unknown/status/2036659489978343744</link>
+      <description><![CDATA[Hopefully, the same will happen to Midjourney, Runway and others.
+
+Video generation is the most expensive &amp; GPU-intensive GenAI process; perhaps they didn’t generate enough revenue, who knows. Or OpenAI already collected enough data from users, now want to focus on other…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:20:36 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036659489978343744</guid>
+      <source url="https://x.com/unknown/status/2036659489978343744">X/@unknown</source>
+    </item>
+    <item>
+      <title>AI Mental Models: Learned Intuition and Deliberation in a Bounded Neural Architecture</title>
+      <link>https://arxiv.org/abs/2603.22561</link>
+      <description><![CDATA[arXiv:2603.22561v1 Announce Type: new Abstract: This paper asks whether a bounded neural architecture can exhibit a meaningful division of labor between intuition and deliberation on a classic 64-item syllogistic reasoning benchmark. More broadly, the benchmark is relevant to…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22561</guid>
+      <source url="https://arxiv.org/abs/2603.22561">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Sparse but Critical: A Token-Level Analysis of Distributional Shifts in RLVR Fine-Tuning of LLMs</title>
+      <link>https://arxiv.org/abs/2603.22446</link>
+      <description><![CDATA[arXiv:2603.22446v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) has significantly improved reasoning in large language models (LLMs), yet the token-level mechanisms underlying these improvements remain unclear. We present a systematic…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22446</guid>
+      <source url="https://arxiv.org/abs/2603.22446">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Memory Bear AI Memory Science Engine for Multimodal Affective Intelligence: A Technical Report</title>
+      <link>https://arxiv.org/abs/2603.22306</link>
+      <description><![CDATA[arXiv:2603.22306v1 Announce Type: new Abstract: Affective judgment in real interaction is rarely a purely local prediction problem. Emotional meaning often depends on prior trajectory, accumulated context, and multimodal evidence that may be weak, noisy, or incomplete at the…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22306</guid>
+      <source url="https://arxiv.org/abs/2603.22306">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>The Efficiency Attenuation Phenomenon: A Computational Challenge to the Language of Thought Hypothesis</title>
+      <link>https://arxiv.org/abs/2603.22312</link>
+      <description><![CDATA[arXiv:2603.22312v1 Announce Type: new Abstract: This paper computationally investigates whether thought requires a language-like format, as posited by the Language of Thought (LoT) hypothesis. We introduce the ``AI Private Language'' thought experiment: if two artificial agents…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22312</guid>
+      <source url="https://arxiv.org/abs/2603.22312">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Dynamic Fusion-Aware Graph Convolutional Neural Network for Multimodal Emotion Recognition in Conversations</title>
+      <link>https://arxiv.org/abs/2603.22345</link>
+      <description><![CDATA[arXiv:2603.22345v1 Announce Type: new Abstract: Multimodal emotion recognition in conversations (MERC) aims to identify and understand the emotions expressed by speakers during utterance interaction from multiple modalities (e.g., text, audio, images, etc.). Existing studies…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22345</guid>
+      <source url="https://arxiv.org/abs/2603.22345">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Intelligence Inertia: Physical Principles and Applications</title>
+      <link>https://arxiv.org/abs/2603.22347</link>
+      <description><![CDATA[arXiv:2603.22347v1 Announce Type: new Abstract: While Landauer's principle establishes the fundamental thermodynamic floor for information erasure and Fisher Information provides a metric for local curvature in parameter space, these classical frameworks function effectively…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22347</guid>
+      <source url="https://arxiv.org/abs/2603.22347">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Session Risk Memory (SRM): Temporal Authorization for Deterministic Pre-Execution Safety Gates</title>
+      <link>https://arxiv.org/abs/2603.22350</link>
+      <description><![CDATA[arXiv:2603.22350v1 Announce Type: new Abstract: Deterministic pre-execution safety gates evaluate whether individual agent actions are compatible with their assigned roles. While effective at per-action authorization, these systems are structurally blind to distributed attacks…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Ethics &amp; Regulation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22350</guid>
+      <source url="https://arxiv.org/abs/2603.22350">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>STEM Agent: A Self-Adapting, Tool-Enabled, Extensible Architecture for Multi-Protocol AI Agent Systems</title>
+      <link>https://arxiv.org/abs/2603.22359</link>
+      <description><![CDATA[arXiv:2603.22359v1 Announce Type: new Abstract: Current AI agent frameworks commit early to a single interaction protocol, a fixed tool integration strategy, and static user models, limiting their deployment across diverse interaction paradigms. To address these constraints, we…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22359</guid>
+      <source url="https://arxiv.org/abs/2603.22359">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents</title>
+      <link>https://arxiv.org/abs/2603.22386</link>
+      <description><![CDATA[arXiv:2603.22386v1 Announce Type: new Abstract: Large language model (LLM)-based systems are becoming increasingly popular for solving tasks by constructing executable workflows that interleave LLM calls, information retrieval, tool use, code execution, memory updates, and…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22386</guid>
+      <source url="https://arxiv.org/abs/2603.22386">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Computational Arbitrage in AI Model Markets</title>
+      <link>https://arxiv.org/abs/2603.22404</link>
+      <description><![CDATA[arXiv:2603.22404v1 Announce Type: new Abstract: Consider a market of competing model providers selling query access to models with varying costs and capabilities. Customers submit problem instances and are willing to pay up to a budget for a verifiable solution. An arbitrageur…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Industry &amp; Business</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22404</guid>
+      <source url="https://arxiv.org/abs/2603.22404">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Understanding LLM Performance Degradation in Multi-Instance Processing: The Roles of Instance Count and Context Length</title>
+      <link>https://arxiv.org/abs/2603.22608</link>
+      <description><![CDATA[arXiv:2603.22608v1 Announce Type: new Abstract: Users often rely on Large Language Models (LLMs) for processing multiple documents or performing analysis over a number of instances. For example, analysing the overall sentiment of a number of movie reviews requires an LLM to…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22608</guid>
+      <source url="https://arxiv.org/abs/2603.22608">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Bridging the Know-Act Gap via Task-Level Autoregressive Reasoning</title>
+      <link>https://arxiv.org/abs/2603.22619</link>
+      <description><![CDATA[arXiv:2603.22619v1 Announce Type: new Abstract: LLMs often generate seemingly valid answers to flawed or ill-posed inputs. This is not due to missing knowledge: under discriminative prompting, the same models can mostly identify such issues, yet fail to reflect this in standard…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Strategy &amp; Opinion</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22619</guid>
+      <source url="https://arxiv.org/abs/2603.22619">arXiv cs.AI</source>
+    </item>
+    <item>
+      <title>MuQ-Eval: An Open-Source Per-Sample Quality Metric for AI Music Generation Evaluation</title>
+      <link>https://arxiv.org/abs/2603.22677</link>
+      <description><![CDATA[arXiv:2603.22677v1 Announce Type: new Abstract: Distributional metrics such as Fr\'echet Audio Distance cannot score individual music clips and correlate poorly with human judgments, while the only per-sample learned metric achieving high human correlation is closed-source. We…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Voice &amp; Audio</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/</guid>
-      <source url="https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/">TechCrunch AI</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22677</guid>
+      <source url="https://arxiv.org/abs/2603.22677">arXiv cs.AI</source>
     </item>
     <item>
-      <title>Reddit accounts with ‘fishy’ bot-like behavior will soon need to prove they��re human</title>
-      <link>https://www.theverge.com/tech/900363/reddit-human-verification-bots-crackdown</link>
-      <description><![CDATA[Reddit is taking new steps to identify bots on the platform - a process that may require some users to confirm that they're human. In a post on Wednesday, Reddit CEO Steve Huffman writes that the company will introduce a labeling system for accounts registered as bots, and ask…]]></description>
-      <pubDate>Wed, 25 Mar 2026 16:10:00 GMT</pubDate>
+      <title>Evaluating Prompting Strategies for Chart Question Answering with Large Language Models</title>
+      <link>https://arxiv.org/abs/2603.22288</link>
+      <description><![CDATA[arXiv:2603.22288v1 Announce Type: new Abstract: Prompting strategies affect LLM reasoning performance, but their role in chart-based QA remains underexplored. We present a systematic evaluation of four widely used prompting paradigms (Zero-Shot, Few-Shot, Zero-Shot…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22288</guid>
+      <source url="https://arxiv.org/abs/2603.22288">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Less is More: Adapting Text Embeddings for Low-Resource Languages with Small Scale Noisy Synthetic Data</title>
+      <link>https://arxiv.org/abs/2603.22290</link>
+      <description><![CDATA[arXiv:2603.22290v1 Announce Type: new Abstract: Low-resource languages (LRLs) often lack high-quality, large-scale datasets for training effective text embedding models, hindering their application in tasks like retrieval-augmented generation (RAG) and semantic search. In this…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22290</guid>
+      <source url="https://arxiv.org/abs/2603.22290">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>TIPS: Turn-Level Information-Potential Reward Shaping for Search-Augmented LLMs</title>
+      <link>https://arxiv.org/abs/2603.22293</link>
+      <description><![CDATA[arXiv:2603.22293v1 Announce Type: new Abstract: Search-augmented large language models (LLMs) trained with reinforcement learning (RL) have achieved strong results on open-domain question answering (QA), but training still remains a significant challenge. The optimization is…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://www.theverge.com/tech/900363/reddit-human-verification-bots-crackdown</guid>
-      <source url="https://www.theverge.com/tech/900363/reddit-human-verification-bots-crackdown">The Verge AI</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22293</guid>
+      <source url="https://arxiv.org/abs/2603.22293">arXiv cs.CL</source>
     </item>
     <item>
-      <title>Reddit takes on the bots with new ‘human verification’ requirements for fishy behavior</title>
-      <link>https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/</link>
-      <description><![CDATA[Reddit will require suspected automated accounts to verify they’re human, as it ramps up efforts to curb bot-driven spam and manipulation.]]></description>
-      <pubDate>Wed, 25 Mar 2026 16:10:00 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/</guid>
-      <source url="https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>5 ways to use AI when your budget is tight</title>
-      <link>https://www.zdnet.com/article/how-to-use-ai-on-a-budget-professonals/</link>
-      <description><![CDATA[Yes, you can use AI cost-effectively. Here's how professionals are doing it.]]></description>
-      <pubDate>Wed, 25 Mar 2026 16:08:41 GMT</pubDate>
+      <title>Whether, Not Which: Mechanistic Interpretability Reveals Dissociable Affect Reception and Emotion Categorization in LLMs</title>
+      <link>https://arxiv.org/abs/2603.22295</link>
+      <description><![CDATA[arXiv:2603.22295v1 Announce Type: new Abstract: Large language models appear to develop internal representations of emotion -- "emotion circuits," "emotion neurons," and structured emotional manifolds have been reported across multiple model families. But every study making…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/how-to-use-ai-on-a-budget-professonals/</guid>
-      <source url="https://www.zdnet.com/article/how-to-use-ai-on-a-budget-professonals/">ZDNet Australia</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22295</guid>
+      <source url="https://arxiv.org/abs/2603.22295">arXiv cs.CL</source>
     </item>
     <item>
-      <title>Stop telling AI your secrets - 5 reasons why, and what to do if you already overshared</title>
-      <link>https://www.zdnet.com/article/6-reasons-you-should-be-more-tight-lipped-with-your-chatbot/</link>
-      <description><![CDATA[Your casual conversations with chatbots could have some major privacy implications.]]></description>
-      <pubDate>Wed, 25 Mar 2026 16:00:46 GMT</pubDate>
+      <title>Towards Automated Community Notes Generation with Large Vision Language Models for Combating Contextual Deception</title>
+      <link>https://arxiv.org/abs/2603.22453</link>
+      <description><![CDATA[arXiv:2603.22453v1 Announce Type: new Abstract: Community Notes have emerged as an effective crowd-sourced mechanism for combating online deception on social media platforms. However, its reliance on human contributors limits both the timeliness and scalability. In this work, we…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/6-reasons-you-should-be-more-tight-lipped-with-your-chatbot/</guid>
-      <source url="https://www.zdnet.com/article/6-reasons-you-should-be-more-tight-lipped-with-your-chatbot/">ZDNet Australia</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22453</guid>
+      <source url="https://arxiv.org/abs/2603.22453">arXiv cs.CL</source>
     </item>
     <item>
-      <title>Build with Lyria 3, our newest music generation model</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/</link>
-      <description><![CDATA[Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.]]></description>
-      <pubDate>Wed, 25 Mar 2026 16:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/</guid>
-      <source url="https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/">Google AI Blog</source>
-    </item>
-    <item>
-      <title>Lyria 3 Pro: Create longer tracks in more Google products</title>
-      <link>https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/</link>
-      <description><![CDATA[We are bringing Lyria 3 to the tools where professionals work and create every day.]]></description>
-      <pubDate>Wed, 25 Mar 2026 16:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/</guid>
-      <source url="https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/">Google AI Blog</source>
-    </item>
-    <item>
-      <title>Google Lyria 3 Pro makes longer AI songs</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music</link>
-      <description><![CDATA[Google is expanding the capabilities of its Lyria 3 music-making AI, enabling it to create tracks up to three minutes long and from within multiple other Google Products. Until now, Lyria had been limited to 30-second clips. Lyria 3 Pro not only increases the maximum length…]]></description>
-      <pubDate>Wed, 25 Mar 2026 16:00:00 GMT</pubDate>
-      <category>Voice &amp; Audio</category>
-      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music</guid>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music">The Verge AI</source>
-    </item>
-    <item>
-      <title>Google bumps up Q Day deadline to 2029, far sooner than previously thought</title>
-      <link>https://arstechnica.com/security/2026/03/google-bumps-up-q-day-estimate-to-2029-far-sooner-than-previously-thought/</link>
-      <description><![CDATA[Company warns entire industry to move off RSA and EC more quickly.]]></description>
-      <pubDate>Wed, 25 Mar 2026 15:49:17 GMT</pubDate>
-      <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://arstechnica.com/security/2026/03/google-bumps-up-q-day-estimate-to-2029-far-sooner-than-previously-thought/</guid>
-      <source url="https://arstechnica.com/security/2026/03/google-bumps-up-q-day-estimate-to-2029-far-sooner-than-previously-thought/">Ars Technica AI</source>
-    </item>
-    <item>
-      <title>Intel will sell a cheap GPU with 32GB VRAM next week</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s3e8bd/intel_will_sell_a_cheap_gpu_with_32gb_vram_next/</link>
-      <description><![CDATA[It seems Intel will release a GPU with 32 GB of VRAM on March 31, which they would sell directly for $949. Bandwidth would be 608 GB/s (a little less than an NVIDIA 5070), and wattage would be 290W. Probably/hopefully very good for local AI and models like Qwen 3.5 27B at 4 bit…]]></description>
-      <pubDate>Wed, 25 Mar 2026 15:38:21 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s3e8bd/intel_will_sell_a_cheap_gpu_with_32gb_vram_next/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s3e8bd/intel_will_sell_a_cheap_gpu_with_32gb_vram_next/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>QCon London 2026: Tools That Enable the Next 1B Developers</title>
-      <link>https://www.infoq.com/news/2026/03/qcon-next-developers/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering</link>
-      <description><![CDATA[At QCon London 2026, Ivan Zarea, Director of Platform Engineering at Netlify, discussed the impact of AI on web development, noting a surge in non-traditional developers among the 11 million users on the platform. He presented three pillars for developer tools: developing…]]></description>
-      <pubDate>Wed, 25 Mar 2026 15:22:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/03/qcon-next-developers/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering</guid>
-      <source url="https://www.infoq.com/news/2026/03/qcon-next-developers/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering">InfoQ AI/ML</source>
-    </item>
-    <item>
-      <title>Senate Democrats are trying to ‘codify’ Anthropic&amp;#8217;s red lines on autonomous weapons and mass surveillance</title>
-      <link>https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance</link>
-      <description><![CDATA[Anthropic's fight with the Pentagon is expanding to Congress. Sen. Adam Schiff (D-CA) is working on a new bill to "codify" Anthropic's red lines and ensure humans make the ultimate decisions in questions of life and death, and Sen. Elissa Slotkin (D-MI) recently introduced a…]]></description>
-      <pubDate>Wed, 25 Mar 2026 15:05:46 GMT</pubDate>
-      <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance</guid>
-      <source url="https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance">The Verge AI</source>
-    </item>
-    <item>
-      <title>Why this battery company is pivoting to AI</title>
-      <link>https://www.technologyreview.com/2026/03/25/1134657/battery-company-ai-pivot-ses/</link>
-      <description><![CDATA[Qichao Hu doesn’t mince words about how he sees the state of the battery industry. “Almost every Western battery company has either died or is going to die. It’s kind of the reality,” he says. Hu is the CEO of SES AI, a Massachusetts-based battery company. It once had aims of…]]></description>
-      <pubDate>Wed, 25 Mar 2026 15:02:50 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/03/25/1134657/battery-company-ai-pivot-ses/</guid>
-      <source url="https://www.technologyreview.com/2026/03/25/1134657/battery-company-ai-pivot-ses/">MIT Tech Review AI</source>
-    </item>
-    <item>
-      <title>OpenAI Enters Its Focus Era by Killing Sora</title>
-      <link>https://www.wired.com/story/openai-shuts-down-sora-ipo-ai-superapp/</link>
-      <description><![CDATA[As the ChatGPT-maker eyes an IPO, it's ditching Sora in favor of a unified AI assistant and enterprise coding tools.]]></description>
-      <pubDate>Wed, 25 Mar 2026 14:57:45 GMT</pubDate>
-      <category>Image &amp; Video Generation</category>
-      <guid isPermaLink="true">https://www.wired.com/story/openai-shuts-down-sora-ipo-ai-superapp/</guid>
-      <source url="https://www.wired.com/story/openai-shuts-down-sora-ipo-ai-superapp/">Wired AI</source>
-    </item>
-    <item>
-      <title>Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app</title>
-      <link>https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/</link>
-      <description><![CDATA[Granola's valuation jumped from $250 million to $1.5 billion with this round, and it has added more support for AI agents after users previously complained.]]></description>
-      <pubDate>Wed, 25 Mar 2026 14:48:40 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/</guid>
-      <source url="https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Meta launches new initiative to support entrepreneurship, drive AI adoption</title>
-      <link>https://techcrunch.com/2026/03/25/meta-launches-new-initiative-to-support-entrepreneurship-drive-ai-adoption/</link>
-      <description><![CDATA[Meta CEO Mark Zuckerberg said in a memo to staff that small businesses have always been a big part of the company's business model, and that while tens of millions of entrepreneurs already use its platforms to grow and connect with customers, the company wants to do more in the…]]></description>
-      <pubDate>Wed, 25 Mar 2026 14:45:20 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/25/meta-launches-new-initiative-to-support-entrepreneurship-drive-ai-adoption/</guid>
-      <source url="https://techcrunch.com/2026/03/25/meta-launches-new-initiative-to-support-entrepreneurship-drive-ai-adoption/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>OpenAI&apos;s latest repo has Claude as the third top contributor</title>
-      <link>https://twitter.com/CodeByNZ/status/2036723050197012771</link>
-      <description><![CDATA[Article URL: https://twitter.com/CodeByNZ/status/2036723050197012771 Comments URL: https://news.ycombinator.com/item?id=47518001 Points: 57 # Comments: 24]]></description>
-      <pubDate>Wed, 25 Mar 2026 14:44:10 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://twitter.com/CodeByNZ/status/2036723050197012771</guid>
-      <source url="https://twitter.com/CodeByNZ/status/2036723050197012771">Hacker News AI</source>
-    </item>
-    <item>
-      <title>Meta turns to AI to make shopping easier on Instagram and Facebook</title>
-      <link>https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/</link>
-      <description><![CDATA[Meta is using generative AI to provide more product and brand information to consumers when they're shopping in its apps.]]></description>
-      <pubDate>Wed, 25 Mar 2026 14:16:17 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/</guid>
-      <source url="https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Uber Launches IngestionNext: Streaming-First Data Lake Cuts Latency and Compute by 25%</title>
-      <link>https://www.infoq.com/news/2026/03/uber-streaming-date-lake/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering</link>
-      <description><![CDATA[Uber launches IngestionNext, a streaming-first data lake ingestion platform that reduces data latency from hours to minutes and cuts compute usage by 25%. Built on Kafka, Flink, and Apache Hudi, it supports thousands of datasets, enabling faster analytics, experimentation, and…]]></description>
-      <pubDate>Wed, 25 Mar 2026 14:05:00 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/03/uber-streaming-date-lake/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering</guid>
-      <source url="https://www.infoq.com/news/2026/03/uber-streaming-date-lake/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering">InfoQ AI/ML</source>
-    </item>
-    <item>
-      <title>This startup wants to change how mathematicians do math</title>
-      <link>https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/</link>
-      <description><![CDATA[Axiom Math, a startup based in Palo Alto, California, has released a free new AI tool for mathematicians, designed to discover mathematical patterns that could unlock solutions to long-standing problems. The tool, called Axplorer, is a redesign of an existing one called…]]></description>
-      <pubDate>Wed, 25 Mar 2026 13:59:17 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/</guid>
-      <source url="https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/">MIT Tech Review AI</source>
-    </item>
-    <item>
-      <title>Intel launches Arc Pro B70 and B65 with 32GB GDDR6</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s3bb3y/intel_launches_arc_pro_b70_and_b65_with_32gb_gddr6/</link>
-      <description><![CDATA[https://preview.redd.it/yo5e6l4r47rg1.png?width=2000&format=png&auto=webp&s=9a68269f5909f40a341f2c4bfaa2468f1e8864b5 https://preview.redd.it/47v84p0s47rg1.png?width=768&format=png&auto=webp&s=6f99e9bee461771d41b6eb1c643f0020f5853719…]]></description>
-      <pubDate>Wed, 25 Mar 2026 13:50:36 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s3bb3y/intel_launches_arc_pro_b70_and_b65_with_32gb_gddr6/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s3bb3y/intel_launches_arc_pro_b70_and_b65_with_32gb_gddr6/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>RWDS Big Questions: how do we highlight the role of statistics in AI?</title>
-      <link>https://aihub.org/2026/03/25/rwds-big-questions-how-do-we-highlight-the-role-of-statistics-in-ai/</link>
-      <description><![CDATA[By Annie Flynn Artificial intelligence may be today’s headline act, but behind many of its most powerful systems lies something older, deeper, and quietly essential: statistics. Earlier this month, the RSS released a landmark position paper titled AI is Statistics. Introducing…]]></description>
-      <pubDate>Wed, 25 Mar 2026 13:39:36 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://aihub.org/2026/03/25/rwds-big-questions-how-do-we-highlight-the-role-of-statistics-in-ai/</guid>
-      <source url="https://aihub.org/2026/03/25/rwds-big-questions-how-do-we-highlight-the-role-of-statistics-in-ai/">AIHub</source>
-    </item>
-    <item>
-      <title>New Bernie Sanders AI Safety Bill Would Halt Data Center Construction</title>
-      <link>https://www.wired.com/story/new-bernie-sanders-ai-safety-bill-would-halt-data-center-construction/</link>
-      <description><![CDATA[The US senator said on Tuesday that a moratorium would give lawmakers time to "ensure that AI is safe." Alexandria Ocasio-Cortez will introduce a similar bill in the House in the weeks ahead.]]></description>
-      <pubDate>Wed, 25 Mar 2026 13:28:50 GMT</pubDate>
-      <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://www.wired.com/story/new-bernie-sanders-ai-safety-bill-would-halt-data-center-construction/</guid>
-      <source url="https://www.wired.com/story/new-bernie-sanders-ai-safety-bill-would-halt-data-center-construction/">Wired AI</source>
-    </item>
-    <item>
-      <title>Basler and Orbbec partner for 3D vision systems for mobile robots</title>
-      <link>https://www.therobotreport.com/basler-orbbec-partner-3d-vision-systems-mobile-robots/</link>
-      <description><![CDATA[Orbbec and Basler unveiled at LogiMAT the Stereo mini, which combines 3D cameras and computer vision for logistics and other applications. The post Basler and Orbbec partner for 3D vision systems for mobile robots appeared first on The Robot Report.]]></description>
-      <pubDate>Wed, 25 Mar 2026 13:01:30 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.therobotreport.com/basler-orbbec-partner-3d-vision-systems-mobile-robots/</guid>
-      <source url="https://www.therobotreport.com/basler-orbbec-partner-3d-vision-systems-mobile-robots/">The Robot Report</source>
-    </item>
-    <item>
-      <title>Lucid Bots raises Series B funding as operator network hits $75M in revenue</title>
-      <link>https://www.therobotreport.com/lucid-bots-raises-20m-series-b-operator-network-hits-75m-revenue/</link>
-      <description><![CDATA[Lucid Bots has raised a total of $34 million, as its drones collect data helping its owner-operators clean more consistently. The post Lucid Bots raises Series B funding as operator network hits $75M in revenue appeared first on The Robot Report.]]></description>
-      <pubDate>Wed, 25 Mar 2026 13:00:30 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://www.therobotreport.com/lucid-bots-raises-20m-series-b-operator-network-hits-75m-revenue/</guid>
-      <source url="https://www.therobotreport.com/lucid-bots-raises-20m-series-b-operator-network-hits-75m-revenue/">The Robot Report</source>
-    </item>
-    <item>
-      <title>With Sift, two ex-SpaceX engineers are bringing the software that helped launch rockets to the factory floor</title>
-      <link>https://techcrunch.com/2026/03/25/with-sift-stack-two-ex-spacex-engineers-are-bringing-the-software-that-helped-launch-rockets-to-the-factory-floor/</link>
-      <description><![CDATA[Sift is building the data infrastructure for advanced manufacturing.]]></description>
-      <pubDate>Wed, 25 Mar 2026 13:00:00 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/25/with-sift-stack-two-ex-spacex-engineers-are-bringing-the-software-that-helped-launch-rockets-to-the-factory-floor/</guid>
-      <source url="https://techcrunch.com/2026/03/25/with-sift-stack-two-ex-spacex-engineers-are-bringing-the-software-that-helped-launch-rockets-to-the-factory-floor/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Local LLM App by Ente</title>
-      <link>https://ente.com/blog/ensu/</link>
-      <description><![CDATA[Article URL: https://ente.com/blog/ensu/ Comments URL: https://news.ycombinator.com/item?id=47516650 Points: 279 # Comments: 129]]></description>
-      <pubDate>Wed, 25 Mar 2026 12:49:14 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://ente.com/blog/ensu/</guid>
-      <source url="https://ente.com/blog/ensu/">Hacker News AI</source>
-    </item>
-    <item>
-      <title>The Download: reawakening frozen brains, and the AI Hype Index returns</title>
-      <link>https://www.technologyreview.com/2026/03/25/1134636/the-download-reawakening-frozen-brains-and-the-ai-hype-index-returns/</link>
-      <description><![CDATA[This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This scientist rewarmed and studied pieces of his friend’s cryopreserved brain&#160; L. Stephen&#160;Coles’s&#160;brain sits in a…]]></description>
-      <pubDate>Wed, 25 Mar 2026 12:47:44 GMT</pubDate>
+      <title>LLM-guided headline rewriting for clickability enhancement without clickbait</title>
+      <link>https://arxiv.org/abs/2603.22459</link>
+      <description><![CDATA[arXiv:2603.22459v1 Announce Type: new Abstract: Enhancing reader engagement while preserving informational fidelity is a central challenge in controllable text generation for news media. Optimizing news headlines for reader engagement is often conflated with clickbait, resulting…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/03/25/1134636/the-download-reawakening-frozen-brains-and-the-ai-hype-index-returns/</guid>
-      <source url="https://www.technologyreview.com/2026/03/25/1134636/the-download-reawakening-frozen-brains-and-the-ai-hype-index-returns/">MIT Tech Review AI</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22459</guid>
+      <source url="https://arxiv.org/abs/2603.22459">arXiv cs.CL</source>
     </item>
     <item>
-      <title>NORD Drivesystems to show modular systems for intelligent automation at MODEX</title>
-      <link>https://www.therobotreport.com/nord-drivesystems-to-show-modular-systems-for-intelligent-automation-at-modex/</link>
-      <description><![CDATA[NORD says its modular product portfolio offers high configurability for compact, efficient, and reliable drive systems engineered to individual application needs. The post NORD Drivesystems to show modular systems for intelligent automation at MODEX appeared first on The Robot…]]></description>
-      <pubDate>Wed, 25 Mar 2026 12:30:50 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://www.therobotreport.com/nord-drivesystems-to-show-modular-systems-for-intelligent-automation-at-modex/</guid>
-      <source url="https://www.therobotreport.com/nord-drivesystems-to-show-modular-systems-for-intelligent-automation-at-modex/">The Robot Report</source>
+      <title>Functional Component Ablation Reveals Specialization Patterns in Hybrid Language Model Architectures</title>
+      <link>https://arxiv.org/abs/2603.22473</link>
+      <description><![CDATA[arXiv:2603.22473v1 Announce Type: new Abstract: Hybrid language models combining attention with state space models (SSMs) or linear attention offer improved efficiency, but whether both components are genuinely utilized remains unclear. We present a functional component ablation…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22473</guid>
+      <source url="https://arxiv.org/abs/2603.22473">arXiv cs.CL</source>
     </item>
     <item>
-      <title>DeepSeek Employee Teases &quot;Massive&quot; New Model Surpassing DeepSeek V3.2</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s39024/deepseek_employee_teases_massive_new_model/</link>
-      <description><![CDATA[Translated by Nano Banana https://preview.redd.it/8bfh5zk1q6rg1.png?width=1158&format=png&auto=webp&s=9d8e6c2f285ba04527f0e9578f9ca7b75124c11f https://preview.redd.it/jpa7aikcr6rg1.png?width=688&format=png&auto=webp&s=2a35594f8ff5eb5f2cd18ad2f4de6662f2898b1d Note: The employee…]]></description>
-      <pubDate>Wed, 25 Mar 2026 12:14:10 GMT</pubDate>
+      <title>Rashid: A Cipher-Based Framework for Exploring In-Context Language Learning</title>
+      <link>https://arxiv.org/abs/2603.22497</link>
+      <description><![CDATA[arXiv:2603.22497v1 Announce Type: new Abstract: Where there is growing interest in in-context language learning (ICLL) for unseen languages with large language models, such languages usually suffer from the lack of NLP tools, data resources, and researcher expertise. This means…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22497</guid>
+      <source url="https://arxiv.org/abs/2603.22497">arXiv cs.CL</source>
+    </item>
+    <item>
+      <title>CAPITU: A Benchmark for Evaluating Instruction-Following in Brazilian Portuguese with Literary Context</title>
+      <link>https://arxiv.org/abs/2603.22576</link>
+      <description><![CDATA[arXiv:2603.22576v1 Announce Type: new Abstract: We introduce CAPITU, a benchmark for evaluating instruction-following capabilities of Large Language Models (LLMs) in Brazilian Portuguese. Unlike existing benchmarks that focus on English or use generic prompts, CAPITU…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s39024/deepseek_employee_teases_massive_new_model/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s39024/deepseek_employee_teases_massive_new_model/">r/LocalLLaMA</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22576</guid>
+      <source url="https://arxiv.org/abs/2603.22576">arXiv cs.CL</source>
     </item>
     <item>
-      <title>Agentic commerce runs on truth and context</title>
-      <link>https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/</link>
-      <description><![CDATA[Imagine telling a digital agent, “Use my points and book a family trip to Italy. Keep it within budget, pick hotels we’ve liked before, and handle the details.” Instead of returning a list of links, the agent assembles an itinerary and executes the purchase. That shift, from…]]></description>
-      <pubDate>Wed, 25 Mar 2026 11:48:13 GMT</pubDate>
-      <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/</guid>
-      <source url="https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/">MIT Tech Review AI</source>
+      <title>Lie to Me: How Faithful Is Chain-of-Thought Reasoning in Reasoning Models?</title>
+      <link>https://arxiv.org/abs/2603.22582</link>
+      <description><![CDATA[arXiv:2603.22582v1 Announce Type: new Abstract: Chain-of-thought (CoT) reasoning has been proposed as a transparency mechanism for large language models in safety-critical deployments, yet its effectiveness depends on faithfulness (whether models accurately verbalize the factors…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22582</guid>
+      <source url="https://arxiv.org/abs/2603.22582">arXiv cs.CL</source>
     </item>
     <item>
-      <title>Anthropic’s Claude Code gets ‘safer’ auto mode</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/900201/anthropic-claude-code-auto-mode</link>
-      <description><![CDATA[Anthropic has launched an "auto mode" for Claude Code, a new tool that lets AI make permissions-level decisions on users' behalf. The company says the feature offers vibe coders a safer alternative between constant handholding or giving the model dangerous levels of autonomy.…]]></description>
-      <pubDate>Wed, 25 Mar 2026 11:39:46 GMT</pubDate>
-      <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/900201/anthropic-claude-code-auto-mode</guid>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/900201/anthropic-claude-code-auto-mode">The Verge AI</source>
-    </item>
-    <item>
-      <title>Bernie Sanders and AOC introduce bill to pause building of new datacenters</title>
-      <link>https://www.theguardian.com/us-news/2026/mar/25/datacenters-bernie-sanders-aoc</link>
-      <description><![CDATA[Lawmakers say moratorium on construction would buy time to create strong, federal guardrails for AIAmid an unprecedented energy crisis and the rapid buildout of artificial intelligence infrastructure, progressive lawmakers have unveiled a new policy to place a moratorium on the…]]></description>
-      <pubDate>Wed, 25 Mar 2026 11:00:05 GMT</pubDate>
-      <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/mar/25/datacenters-bernie-sanders-aoc</guid>
-      <source url="https://www.theguardian.com/us-news/2026/mar/25/datacenters-bernie-sanders-aoc">Guardian AI</source>
-    </item>
-    <item>
-      <title>Podcast: [Video Podcast] Agentic Systems Without Chaos: Early Operating Models for Autonomous Agents</title>
-      <link>https://www.infoq.com/podcasts/agentic-systems-without-chaos/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering</link>
-      <description><![CDATA[In this episode, Shweta Vohra and Joseph Stein explore what changes when software systems start planning, acting, and making decisions on their own. The conversation distinguishes truly agentic use cases from traditional automation and looks at how architects and engineers…]]></description>
-      <pubDate>Wed, 25 Mar 2026 11:00:00 GMT</pubDate>
-      <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://www.infoq.com/podcasts/agentic-systems-without-chaos/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering</guid>
-      <source url="https://www.infoq.com/podcasts/agentic-systems-without-chaos/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=AI%2C+ML+%26+Data+Engineering">InfoQ AI/ML</source>
-    </item>
-    <item>
-      <title>‘I’m ambitious for reform’: Tim Ayres talks up R&amp;D</title>
-      <link>https://www.innovationaus.com/im-ambitious-for-reform-tim-ayres-talks-up-rd/</link>
-      <description><![CDATA[Industry minister Tim Ayres has given the strongest signal yet that the federal government intends to take a more strategic, coordinated approach to Australia’s R&#38;D system. But he has stressed that a whole-of-government response to the most comprehensive review of the…]]></description>
-      <pubDate>Wed, 25 Mar 2026 10:49:47 GMT</pubDate>
-      <category>Australia</category>
-      <guid isPermaLink="true">https://www.innovationaus.com/im-ambitious-for-reform-tim-ayres-talks-up-rd/</guid>
-      <source url="https://www.innovationaus.com/im-ambitious-for-reform-tim-ayres-talks-up-rd/">InnovationAus</source>
-    </item>
-    <item>
-      <title>Govt weighs ‘high-risk’ tech ban for critical infrastructure</title>
-      <link>https://www.innovationaus.com/govt-weighs-high-risk-tech-ban-for-critical-infrastructure/</link>
-      <description><![CDATA[Critical infrastructure providers could be forced to remove or avoid technology deemed “high-risk” by the federal government under sweeping changes proposed to plug gaps in existing laws. The powers, part of a package of urgent legislative reforms, would likely extend existing…]]></description>
-      <pubDate>Wed, 25 Mar 2026 10:48:27 GMT</pubDate>
-      <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://www.innovationaus.com/govt-weighs-high-risk-tech-ban-for-critical-infrastructure/</guid>
-      <source url="https://www.innovationaus.com/govt-weighs-high-risk-tech-ban-for-critical-infrastructure/">InnovationAus</source>
-    </item>
-    <item>
-      <title>Activist industrial policy, but with a blind-spot for AI</title>
-      <link>https://www.innovationaus.com/activist-industrial-policy-but-with-a-blind-spot-for-ai/</link>
-      <description><![CDATA[Industry minister Tim Ayres’ first National Press Club address was a full-throated argument in support of “activist industrial policy” as core to economic policy and economic resilience. This makes sense, given the minister had just returned to Canberra, from announcing on…]]></description>
-      <pubDate>Wed, 25 Mar 2026 10:47:58 GMT</pubDate>
-      <category>Australia</category>
-      <guid isPermaLink="true">https://www.innovationaus.com/activist-industrial-policy-but-with-a-blind-spot-for-ai/</guid>
-      <source url="https://www.innovationaus.com/activist-industrial-policy-but-with-a-blind-spot-for-ai/">InnovationAus</source>
-    </item>
-    <item>
-      <title>I tried to prove I&apos;m not AI. My aunt wasn&apos;t convinced</title>
-      <link>https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake</link>
-      <description><![CDATA[Article URL: https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake Comments URL: https://news.ycombinator.com/item?id=47515502 Points: 128 # Comments: 146]]></description>
-      <pubDate>Wed, 25 Mar 2026 10:28:49 GMT</pubDate>
-      <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake</guid>
-      <source url="https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake">Hacker News AI</source>
-    </item>
-    <item>
-      <title>Arm Launches Own CPU, Arm’s Motivation, Constraints and Systems</title>
-      <link>https://stratechery.com/2026/arm-launches-own-cpu-arms-motivation-constraints-and-systems/</link>
-      <description><![CDATA[Arm is selling its own chips, not just licensing IP. It's a big change compared to Arm's history, but not surprising given how computing is evolving.]]></description>
-      <pubDate>Wed, 25 Mar 2026 10:00:00 GMT</pubDate>
+      <title>LGSE: Lexically Grounded Subword Embedding Initialization for Low-Resource Language Adaptation</title>
+      <link>https://arxiv.org/abs/2603.22629</link>
+      <description><![CDATA[arXiv:2603.22629v1 Announce Type: new Abstract: Adapting pretrained language models to low-resource, morphologically rich languages remains a significant challenge. Existing vocabulary expansion methods typically rely on arbitrarily segmented subword units, resulting in…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://stratechery.com/2026/arm-launches-own-cpu-arms-motivation-constraints-and-systems/</guid>
-      <source url="https://stratechery.com/2026/arm-launches-own-cpu-arms-motivation-constraints-and-systems/">Stratechery</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22629</guid>
+      <source url="https://arxiv.org/abs/2603.22629">arXiv cs.CL</source>
     </item>
     <item>
-      <title>[R] Adversarial Machine Learning</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1s36bxr/r_adversarial_machine_learning/</link>
-      <description><![CDATA[Adversarial Machine Learning Hy guys, i'm new in this field since my background is math (Bachelor and Master). I've started to work on security machine learning and the usage of Deep models to detect threats and malicious actions. I've started a PhD in Cybersecurity working in…]]></description>
-      <pubDate>Wed, 25 Mar 2026 09:52:17 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s36bxr/r_adversarial_machine_learning/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1s36bxr/r_adversarial_machine_learning/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>[R] Ternary neural networks as a path to more efficient AI - is (+1, 0, -1) weight quantization getting serious research attention?</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1s366un/r_ternary_neural_networks_as_a_path_to_more/</link>
-      <description><![CDATA[I've been reading about ternary weight quantization in neural networks and wanted to get a sence of how seriously the ML research community is taking this direction.The theoretical appeal seems clear: ternary weights (+1, 0, -1) cut model size and inference cost a lot compared…]]></description>
-      <pubDate>Wed, 25 Mar 2026 09:43:49 GMT</pubDate>
+      <title>Beyond Hard Constraints: Budget-Conditioned Reachability For Safe Offline Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2603.22292</link>
+      <description><![CDATA[arXiv:2603.22292v1 Announce Type: new Abstract: Sequential decision making using Markov Decision Process underpins many realworld applications. Both model-based and model free methods have achieved strong results in these settings. However, real-world tasks must balance reward…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s366un/r_ternary_neural_networks_as_a_path_to_more/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1s366un/r_ternary_neural_networks_as_a_path_to_more/">r/MachineLearning</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22292</guid>
+      <source url="https://arxiv.org/abs/2603.22292">arXiv cs.LG</source>
     </item>
     <item>
-      <title>After the supply chain attack, here are some litellm alternatives</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s34173/after_the_supply_chain_attack_here_are_some/</link>
-      <description><![CDATA[litellm versions 1.82.7 and 1.82.8 on PyPI were compromised with credential-stealing malware. And here are a few open-source alternatives: 1. Bifrost: Probably the most direct litellm replacement right now. Written in Go, claims ~50x faster P99 latency than litellm. Apache 2.0…]]></description>
-      <pubDate>Wed, 25 Mar 2026 07:26:03 GMT</pubDate>
+      <title>Efficient Embedding-based Synthetic Data Generation for Complex Reasoning Tasks</title>
+      <link>https://arxiv.org/abs/2603.22294</link>
+      <description><![CDATA[arXiv:2603.22294v1 Announce Type: new Abstract: Synthetic Data Generation (SDG), leveraging Large Language Models (LLMs), has recently been recognized and broadly adopted as an effective approach to improve the performance of smaller but more resource and compute efficient LLMs…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s34173/after_the_supply_chain_attack_here_are_some/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s34173/after_the_supply_chain_attack_here_are_some/">r/LocalLLaMA</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22294</guid>
+      <source url="https://arxiv.org/abs/2603.22294">arXiv cs.LG</source>
     </item>
     <item>
-      <title>Maximum Entropy Relaxation of Multi-Way Cardinality Constraints for Synthetic Population Generation</title>
-      <link>https://arxiv.org/abs/2603.22558</link>
-      <description><![CDATA[arXiv:2603.22558v1 Announce Type: new Abstract: Generating synthetic populations from aggregate statistics is a core component of microsimulation, agent-based modeling, policy analysis, and privacy-preserving data release. Beyond classical census marginals, many applications…]]></description>
+      <title>Between the Layers Lies the Truth: Uncertainty Estimation in LLMs Using Intra-Layer Local Information Scores</title>
+      <link>https://arxiv.org/abs/2603.22299</link>
+      <description><![CDATA[arXiv:2603.22299v1 Announce Type: new Abstract: Large language models (LLMs) are often confidently wrong, making reliable uncertainty estimation (UE) essential. Output-based heuristics are cheap but brittle, while probing internal representations is effective yet…]]></description>
       <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22558</guid>
-      <source url="https://arxiv.org/abs/2603.22558">arXiv cs.AI</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22299</guid>
+      <source url="https://arxiv.org/abs/2603.22299">arXiv cs.LG</source>
     </item>
     <item>
-      <title>Benchmarking Multi-Agent LLM Architectures for Financial Document Processing: A Comparative Study of Orchestration Patterns, Cost-Accuracy Tradeoffs and Production Scaling Strategies</title>
-      <link>https://arxiv.org/abs/2603.22651</link>
-      <description><![CDATA[arXiv:2603.22651v1 Announce Type: new Abstract: The adoption of large language models (LLMs) for structured information extraction from financial documents has accelerated rapidly, yet production deployments face fundamental architectural decisions with limited empirical…]]></description>
+      <title>Scaling Attention via Feature Sparsity</title>
+      <link>https://arxiv.org/abs/2603.22300</link>
+      <description><![CDATA[arXiv:2603.22300v1 Announce Type: new Abstract: Scaling Transformers to ultra-long contexts is bottlenecked by the $O(n^2 d)$ cost of self-attention. Existing methods reduce this cost along the sequence axis through local windows, kernel approximations, or token-level sparsity,…]]></description>
       <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
-      <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22651</guid>
-      <source url="https://arxiv.org/abs/2603.22651">arXiv cs.AI</source>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22300</guid>
+      <source url="https://arxiv.org/abs/2603.22300">arXiv cs.LG</source>
     </item>
     <item>
-      <title>Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm</title>
-      <link>https://arxiv.org/abs/2603.22302</link>
-      <description><![CDATA[arXiv:2603.22302v1 Announce Type: new Abstract: With the development of information technology, the application of artificial intelligence and machine learning in the field of education shows great potential. This study aims to explore how to utilize K-means clustering algorithm…]]></description>
+      <title>Latent Semantic Manifolds in Large Language Models</title>
+      <link>https://arxiv.org/abs/2603.22301</link>
+      <description><![CDATA[arXiv:2603.22301v1 Announce Type: new Abstract: Large Language Models (LLMs) perform internal computations in continuous vector spaces yet produce discrete tokens -- a fundamental mismatch whose geometric consequences remain poorly understood. We develop a mathematical framework…]]></description>
       <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22302</guid>
-      <source url="https://arxiv.org/abs/2603.22302">arXiv cs.LG</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22301</guid>
+      <source url="https://arxiv.org/abs/2603.22301">arXiv cs.LG</source>
     </item>
     <item>
-      <title>A Multi-Modal CNN-LSTM Framework with Multi-Head Attention and Focal Loss for Real-Time Elderly Fall Detection</title>
-      <link>https://arxiv.org/abs/2603.22313</link>
-      <description><![CDATA[arXiv:2603.22313v1 Announce Type: new Abstract: The increasing global aging population has intensified the demand for reliable health monitoring systems, particularly those capable of detecting critical events such as falls among elderly individuals. Traditional fall detection…]]></description>
+      <title>Sample Transform Cost-Based Training-Free Hallucination Detector for Large Language Models</title>
+      <link>https://arxiv.org/abs/2603.22303</link>
+      <description><![CDATA[arXiv:2603.22303v1 Announce Type: new Abstract: Hallucinations in large language models (LLMs) remain a central obstacle to trustworthy deployment, motivating detectors that are accurate, lightweight, and broadly applicable. Since an LLM with a prompt defines a conditional…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
+      <category>Ethics &amp; Regulation</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22303</guid>
+      <source url="https://arxiv.org/abs/2603.22303">arXiv cs.LG</source>
+    </item>
+    <item>
+      <title>Mitigating Premature Discretization with Progressive Quantization for Robust Vector Tokenization</title>
+      <link>https://arxiv.org/abs/2603.22304</link>
+      <description><![CDATA[arXiv:2603.22304v1 Announce Type: new Abstract: Vector Quantization (VQ) has become the cornerstone of tokenization for many multimodal Large Language Models and diffusion synthesis. However, existing VQ paradigms suffer from a fundamental conflict: they enforce discretization…]]></description>
       <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Image &amp; Video Generation</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22313</guid>
-      <source url="https://arxiv.org/abs/2603.22313">arXiv cs.LG</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22304</guid>
+      <source url="https://arxiv.org/abs/2603.22304">arXiv cs.LG</source>
     </item>
     <item>
-      <title>Emergency Preemption Without Online Exploration: A Decision Transformer Approach</title>
-      <link>https://arxiv.org/abs/2603.22315</link>
-      <description><![CDATA[arXiv:2603.22315v1 Announce Type: new Abstract: Emergency vehicle (EV) response time is a critical determinant of survival outcomes, yet deployed signal preemption strategies remain reactive and uncontrollable. We propose a return-conditioned framework for emergency corridor…]]></description>
+      <title>CN-Buzz2Portfolio: A Chinese-Market Dataset and Benchmark for LLM-Based Macro and Sector Asset Allocation from Daily Trending Financial News</title>
+      <link>https://arxiv.org/abs/2603.22305</link>
+      <description><![CDATA[arXiv:2603.22305v1 Announce Type: new Abstract: Large Language Models (LLMs) are rapidly transitioning from static Natural Language Processing (NLP) tasks including sentiment analysis and event extraction to acting as dynamic decision-making agents in complex financial…]]></description>
       <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22315</guid>
-      <source url="https://arxiv.org/abs/2603.22315">arXiv cs.LG</source>
+      <category>Industry &amp; Business</category>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22305</guid>
+      <source url="https://arxiv.org/abs/2603.22305">arXiv cs.LG</source>
     </item>
     <item>
-      <title>OpenCode source code audit: 7 external domains contacted, no privacy policy, 12 community PRs unmerged for 3+ months</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s2q4et/opencode_source_code_audit_7_external_domains/</link>
-      <description><![CDATA[What's actually going on, corrected: OpenCode is genuinely the best agentic coding tool I've used in the past 1.5 years. The TUI is excellent and you can do serious agentic workflows even with smaller context windows if you orchestrate things well. I want to set the record…]]></description>
-      <pubDate>Tue, 24 Mar 2026 20:53:54 GMT</pubDate>
-      <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s2q4et/opencode_source_code_audit_7_external_domains/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s2q4et/opencode_source_code_audit_7_external_domains/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>Show HN: AI Roundtable – Let 200 models debate your question</title>
-      <link>https://opper.ai/ai-roundtable/</link>
-      <description><![CDATA[Hey HN! After the Car Wash Test post got quite a big discussion going (400+ comments, https://news.ycombinator.com/item?id=47128138), I spent the past few weeks building a tool so anyone can run these kinds of questions and get structured results. No signup and free to use.You…]]></description>
-      <pubDate>Tue, 24 Mar 2026 19:15:27 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://opper.ai/ai-roundtable/</guid>
-      <source url="https://opper.ai/ai-roundtable/">Hacker News AI</source>
-    </item>
-    <item>
-      <title>Agents should interview you</title>
-      <link>https://www.bensbites.com/p/agents-should-interview-you</link>
-      <description><![CDATA[is claude trying to become openclaw?]]></description>
-      <pubDate>Tue, 24 Mar 2026 14:01:06 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.bensbites.com/p/agents-should-interview-you</guid>
-      <source url="https://www.bensbites.com/p/agents-should-interview-you">Ben&apos;s Bites</source>
-    </item>
-    <item>
-      <title>Science Meets Parliament now meets the economy</title>
-      <link>https://www.innovationaus.com/science-meets-parliament-now-meets-the-economy/</link>
-      <description><![CDATA[Science and Technology Australia aims to drive commercialisation and productivity outcomes through closer connections between science and business with a new national leadership initiative to be unveiled at its flagship Science Meets Parliament event. STA will on Wednesday…]]></description>
-      <pubDate>Tue, 24 Mar 2026 13:01:45 GMT</pubDate>
-      <category>Australia</category>
-      <guid isPermaLink="true">https://www.innovationaus.com/science-meets-parliament-now-meets-the-economy/</guid>
-      <source url="https://www.innovationaus.com/science-meets-parliament-now-meets-the-economy/">InnovationAus</source>
-    </item>
-    <item>
-      <title>#482 – Pavel Durov: Telegram, Freedom, Censorship, Money, Power &amp; Human Nature</title>
-      <link>https://lexfridman.com/pavel-durov/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pavel-durov</link>
-      <description><![CDATA[Pavel Durov is the founder and CEO of Telegram. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep482-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript:…]]></description>
-      <pubDate>Wed, 01 Oct 2025 01:40:10 GMT</pubDate>
-      <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://lexfridman.com/pavel-durov/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pavel-durov</guid>
-      <source url="https://lexfridman.com/pavel-durov/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pavel-durov">Lex Fridman</source>
-    </item>
-    <item>
-      <title>OpenAI Kills Sora and Loses Disney&apos;s $1B Investment | PetaPixel</title>
-      <link>https://petapixel.com/2026/03/24/openai-kills-sora-and-loses-disneys-1b-investment/</link>
-      <description><![CDATA[OpenAI CEO Sam Altman reportedly told OpenAI staff today that <strong>the company is shutting down products that use its generative video models</strong>, including the Sora app, and will not support video functionality inside the company’s widely used ChatGPT ...]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
+      <title>ST-GDance++: A Scalable Spatial-Temporal Diffusion for Long-Duration Group Choreography</title>
+      <link>https://arxiv.org/abs/2603.22316</link>
+      <description><![CDATA[arXiv:2603.22316v1 Announce Type: new Abstract: Group dance generation from music requires synchronizing multiple dancers while maintaining spatial coordination, making it highly relevant to applications such as film production, gaming, and animation. Recent group dance…]]></description>
+      <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
       <category>Image &amp; Video Generation</category>
-      <guid isPermaLink="true">https://petapixel.com/2026/03/24/openai-kills-sora-and-loses-disneys-1b-investment/</guid>
-      <source url="https://petapixel.com/2026/03/24/openai-kills-sora-and-loses-disneys-1b-investment/">Brave Search</source>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.22316</guid>
+      <source url="https://arxiv.org/abs/2603.22316">arXiv cs.LG</source>
     </item>
     <item>
-      <title>AI is creating the first generation of cognitively outsourced humans</title>
-      <link>https://www.fastcompany.com/91513823/ai-is-creating-the-first-generation-of-cognitively-outsourced-humans</link>
-      <description><![CDATA[Research from Microsoft Research found that <strong>higher confidence in generative AI is associated with less critical thinking</strong>, while an open-access study in Acta Psychologica linked greater AI dependence to lower critical thinking.]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://www.fastcompany.com/91513823/ai-is-creating-the-first-generation-of-cognitively-outsourced-humans</guid>
-      <source url="https://www.fastcompany.com/91513823/ai-is-creating-the-first-generation-of-cognitively-outsourced-humans">Brave Search</source>
-    </item>
-    <item>
-      <title>How AI Is Creeping Into The New York Times - The Atlantic</title>
-      <link>https://www.theatlantic.com/culture/2026/03/how-ai-creeping-new-york-times/686528/</link>
-      <description><![CDATA[Regardless of the exact numbers, the fact remains: Some of the most trusted publications in the United States have been publishing opinions—under real people’s names—that appear to include text generated with AI models. As AI slop has become a fixture of all kinds of online…]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://www.theatlantic.com/culture/2026/03/how-ai-creeping-new-york-times/686528/</guid>
-      <source url="https://www.theatlantic.com/culture/2026/03/how-ai-creeping-new-york-times/686528/">Brave Search</source>
-    </item>
-    <item>
-      <title>Anthropic’s Claude can now control your Mac, escalating the fight to build AI agents that actually do work | VentureBeat</title>
-      <link>https://venturebeat.com/technology/anthropics-claude-can-now-control-your-mac-escalating-the-fight-to-build-ai</link>
-      <description><![CDATA[<strong>Anthropic on Monday launched the most ambitious consumer AI agent to date</strong>, giving its Claude chatbot the ability to directly control a user&#x27;s Mac — clicking buttons, opening applications, typing into fields, and navigating software on the ...]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
+      <title>@unknown: Every AI coding agent assumes it owns the codebase.
+
+None of them do.
+
+Claude Co...</title>
+      <link>https://x.com/unknown/status/2036654049853067720</link>
+      <description><![CDATA[Every AI coding agent assumes it owns the codebase.
+
+None of them do.
+
+Claude Code, Cursor, Gemini CLI, Codex, Copilot — all affected.
+
+Fix drops tonight.
+#CodingAgents]]></description>
+      <pubDate>Wed, 25 Mar 2026 03:58:59 GMT</pubDate>
       <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://venturebeat.com/technology/anthropics-claude-can-now-control-your-mac-escalating-the-fight-to-build-ai</guid>
-      <source url="https://venturebeat.com/technology/anthropics-claude-can-now-control-your-mac-escalating-the-fight-to-build-ai">Brave Search</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036654049853067720</guid>
+      <source url="https://x.com/unknown/status/2036654049853067720">X/@unknown</source>
     </item>
     <item>
-      <title>OpenAI’s ChatGPT Is Making a Big Change to Its Commerce Strategy</title>
-      <link>https://www.adweek.com/commerce/openais-chatgpt-is-making-a-big-change-to-its-commerce-strategy/</link>
-      <description><![CDATA[Six months into making a big bet on shopping, OpenAI-owned ChatGPT is switching its strategy.]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://www.adweek.com/commerce/openais-chatgpt-is-making-a-big-change-to-its-commerce-strategy/</guid>
-      <source url="https://www.adweek.com/commerce/openais-chatgpt-is-making-a-big-change-to-its-commerce-strategy/">Brave Search</source>
+      <title>@unknown: Children&apos;s Intelligence Tests Pose Challenges for MLLMs? KidGym: A 2D Grid-Based...</title>
+      <link>https://x.com/unknown/status/2036650169177923692</link>
+      <description><![CDATA[Children's Intelligence Tests Pose Challenges for MLLMs? KidGym: A 2D Grid-Based Reasoning Benchmark for MLLMs
+
+Hengwei Ye, Yuanting Guan, Yuxuan Ge, Tianying Zhu, Zhenhan Guan, Yijia Zhong, Yijing Zhang, Han Zhang, Yingna Wu, …
+https://t.co/LOW9gwVHnN [𝚌𝚜.𝙲𝙻 𝚌𝚜.𝙰𝙸]…]]></description>
+      <pubDate>Wed, 25 Mar 2026 03:43:34 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036650169177923692</guid>
+      <source url="https://x.com/unknown/status/2036650169177923692">X/@unknown</source>
     </item>
     <item>
-      <title>Master Google NotebookLM with a Four-Step Workflow for Accurate Summaries &amp; Reports</title>
-      <link>https://www.geeky-gadgets.com/master-notebooklm-workflow/</link>
-      <description><![CDATA[NotebookLM Data Tables Explained, Free for All Google Users · NotebookLM Alternative Open Notebook Lets You Build a Private AI Notebook · NotebookLM Guide: Summaries, Slide Decks, SOPs &amp; Data Tables · NotebookLM Feature Guide : Cinematic Video Overviews · NotebookLM Update:…]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://www.geeky-gadgets.com/master-notebooklm-workflow/</guid>
-      <source url="https://www.geeky-gadgets.com/master-notebooklm-workflow/">Brave Search</source>
-    </item>
-    <item>
-      <title>Gemini Gems Bring NotebookLM Notes into Google Docs &amp; Sheets</title>
-      <link>https://www.geeky-gadgets.com/notebooklm-drive-workaround/</link>
-      <description><![CDATA[NotebookLM is a highly effective system for organizing research data, but its lack of direct integration with Google Drive can pose challenges for users who rely on Google Docs and Sheets for document creation and data management. Paul Lipsky demonstrates how to bridge this gap…]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://www.geeky-gadgets.com/notebooklm-drive-workaround/</guid>
-      <source url="https://www.geeky-gadgets.com/notebooklm-drive-workaround/">Brave Search</source>
-    </item>
-    <item>
-      <title>The Secret to Turning NotebookLM Prompts Into a Full Website - Geeky Gadgets</title>
-      <link>https://www.geeky-gadgets.com/notebooklm-interactive-features/</link>
-      <description><![CDATA[Explore how to integrate NotebookLM with Google Gemini to use features like the Pro, Thinking and Fast models, each tailored to specific project needs. Learn how to write effective AI prompts to shape your website’s design, incorporate interactive elements such as timelines or…]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://www.geeky-gadgets.com/notebooklm-interactive-features/</guid>
-      <source url="https://www.geeky-gadgets.com/notebooklm-interactive-features/">Brave Search</source>
-    </item>
-    <item>
-      <title>New data centre expectations help bring the benefit of AI to all Australians | Department of Industry Science and Resources</title>
-      <link>https://www.industry.gov.au/news/new-data-centre-expectations-help-bring-benefit-ai-all-australians</link>
-      <description><![CDATA[We expect industry to put Australia’s needs first. This includes in areas like security, sustainability and community benefit. In return for meeting these expectations, we will prioritise projects in the regulatory approval processes. There are 5 national expectations of data…]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Australia</category>
-      <guid isPermaLink="true">https://www.industry.gov.au/news/new-data-centre-expectations-help-bring-benefit-ai-all-australians</guid>
-      <source url="https://www.industry.gov.au/news/new-data-centre-expectations-help-bring-benefit-ai-all-australians">Brave Search</source>
-    </item>
-    <item>
-      <title>The Melbourne doctor who built a $660m health AI company just launched hardware</title>
-      <link>https://www.forbes.com.au/news/entrepreneurs/australian-ai-startup-heidi-health-launches-its-first-hardware-device/</link>
-      <description><![CDATA[But where Jobs used his signature black turtleneck to signal a revolution in consumer hardware, Kelly wore a green t-shirt, brown slacks, and – testament to his Australian roots – Blundstone boots. Kelly’s “one more thing” was not a computer or a phone, but a 21-gram,…]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Australia</category>
-      <guid isPermaLink="true">https://www.forbes.com.au/news/entrepreneurs/australian-ai-startup-heidi-health-launches-its-first-hardware-device/</guid>
-      <source url="https://www.forbes.com.au/news/entrepreneurs/australian-ai-startup-heidi-health-launches-its-first-hardware-device/">Brave Search</source>
-    </item>
-    <item>
-      <title>Tech Council says data centres foundation of Australia&apos;s AI capability - ABC listen</title>
-      <link>https://www.abc.net.au/listen/programs/radionational-breakfast/tech-council-says-data-centres-important/106485056</link>
-      <description><![CDATA[<strong>Billions of dollars are flowing into the data centre industry in Australia - powered by the explosion of artificial intelligence</strong>, with new research - from the Tech Council of Australia - showing the tech sector now makes up the equivalent of ...]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Australia</category>
-      <guid isPermaLink="true">https://www.abc.net.au/listen/programs/radionational-breakfast/tech-council-says-data-centres-important/106485056</guid>
-      <source url="https://www.abc.net.au/listen/programs/radionational-breakfast/tech-council-says-data-centres-important/106485056">Brave Search</source>
-    </item>
-    <item>
-      <title>Australia lays out data centre expectations - ABC listen</title>
-      <link>https://www.abc.net.au/listen/programs/am/australia-lays-out-data-centre-expectations/106485174</link>
-      <description><![CDATA[The Federal Government is putting out the welcome mat for tech giants keen to build massive data centres in Australia to help drive the artificial intelligence revolution and the economic benefits its expected to bring.(ABC News: John Gunn)]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Australia</category>
-      <guid isPermaLink="true">https://www.abc.net.au/listen/programs/am/australia-lays-out-data-centre-expectations/106485174</guid>
-      <source url="https://www.abc.net.au/listen/programs/am/australia-lays-out-data-centre-expectations/106485174">Brave Search</source>
-    </item>
-    <item>
-      <title>AI skills gap costing Australia billions | 7NEWS - YouTube</title>
-      <link>https://www.youtube.com/watch?v=oi5OWC_or0A</link>
-      <description><![CDATA[<strong>84% of Australian employees use artificial intelligence tools daily, but only 7% are considered proficient</strong>, leaving 5 million workers classified as AI beginn...]]></description>
-      <pubDate>Thu, 26 Mar 2026 08:04:55 GMT</pubDate>
-      <category>Australia</category>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=oi5OWC_or0A</guid>
-      <source url="https://www.youtube.com/watch?v=oi5OWC_or0A">Brave Search</source>
-    </item>
-    <item>
-      <title>I built a real-time pipeline that reads game subtitles and converts them into dynamic voice acting (OCR → TTS → RVC) [P]</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1s40gtd/i_built_a_realtime_pipeline_that_reads_game/</link>
-      <description><![CDATA[I've been experimenting with real-time pipelines that combine OCR + TTS + voice conversion, and I ended up building a desktop app that can "voice" game subtitles dynamically. The idea is simple: - Capture subtitles from screen (OCR) - Convert them into speech (TTS) - Transform…]]></description>
-      <pubDate>Thu, 26 Mar 2026 07:06:17 GMT</pubDate>
-      <category>Voice &amp; Audio</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s40gtd/i_built_a_realtime_pipeline_that_reads_game/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1s40gtd/i_built_a_realtime_pipeline_that_reads_game/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>[R] ARC Round 3 - released + technical report</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1s40a34/r_arc_round_3_released_technical_report/</link>
-      <description><![CDATA[https://arcprize.org/arc-agi/3 Interesting stuff, they find all well performing models probably have ARC-like data in their training set based on inspecting their reasoning traces. Also all frontier models on round 3 are below 1% score. Lots of room for improvement, specially…]]></description>
-      <pubDate>Thu, 26 Mar 2026 06:55:21 GMT</pubDate>
+      <title>I built an app for work in 5 minutes with Tasklet - and watched my no-code dreams come true</title>
+      <link>https://www.zdnet.com/article/if-ai-agents-are-workers-tasklet-is-a-miracle-worker/</link>
+      <description><![CDATA[In my 30 years covering technology, I have never been so impressed. Here's why this agentic AI authoring and deployment tool changes everything.]]></description>
+      <pubDate>Wed, 25 Mar 2026 03:00:00 GMT</pubDate>
       <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s40a34/r_arc_round_3_released_technical_report/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1s40a34/r_arc_round_3_released_technical_report/">r/MachineLearning</source>
+      <guid isPermaLink="true">https://www.zdnet.com/article/if-ai-agents-are-workers-tasklet-is-a-miracle-worker/</guid>
+      <source url="https://www.zdnet.com/article/if-ai-agents-are-workers-tasklet-is-a-miracle-worker/">ZDNet Australia</source>
     </item>
     <item>
-      <title>Dual-Criterion Curriculum Learning: Application to Temporal Data</title>
-      <link>https://arxiv.org/abs/2603.23573</link>
-      <description><![CDATA[arXiv:2603.23573v1 Announce Type: new Abstract: Curriculum Learning (CL) is a meta-learning paradigm that trains a model by feeding the data instances incrementally according to a schedule, which is based on difficulty progression. Defining meaningful difficulty assessment…]]></description>
-      <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
-      <category>Workflow &amp; Automation</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.23573</guid>
-      <source url="https://arxiv.org/abs/2603.23573">arXiv cs.LG</source>
+      <title>@unknown: sora says goodbye.
+
+you can use these alternatives for video generation:
+- higgs...</title>
+      <link>https://x.com/unknown/status/2036637989778989101</link>
+      <description><![CDATA[sora says goodbye.
+
+you can use these alternatives for video generation:
+- higgsfield
+- gemini
+- runway
+- grok]]></description>
+      <pubDate>Wed, 25 Mar 2026 02:55:10 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036637989778989101</guid>
+      <source url="https://x.com/unknown/status/2036637989778989101">X/@unknown</source>
     </item>
     <item>
-      <title>APreQEL: Adaptive Mixed Precision Quantization For Edge LLMs</title>
-      <link>https://arxiv.org/abs/2603.23575</link>
-      <description><![CDATA[arXiv:2603.23575v1 Announce Type: new Abstract: Today, large language models have demonstrated their strengths in various tasks ranging from reasoning, code generation, and complex problem solving. However, this advancement comes with a high computational cost and memory…]]></description>
-      <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+      <title>[R] KALAVAI: Predicting When Independent Specialist Fusion Works (gain = 0.82 × divergence − 2.72, R² = 0.856, tested 410M–6.9B)</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1s2yr9b/r_kalavai_predicting_when_independent_specialist/</link>
+      <description><![CDATA[Hey all, I've been working on this for a few months and just put the paper on arXiv: https://arxiv.org/abs/2603.22755 Project page: https://murailabs.com/kalavai/ Code + scripts: https://github.com/mechramc/Kalavai The basic idea: take a base checkpoint, give copies to a bunch…]]></description>
+      <pubDate>Wed, 25 Mar 2026 02:42:47 GMT</pubDate>
+      <category>Research &amp; Papers</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s2yr9b/r_kalavai_predicting_when_independent_specialist/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1s2yr9b/r_kalavai_predicting_when_independent_specialist/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>@unknown: Here are 10 similar AI video generation tools to Sora: 
+1. Google Veo 3.1 
+2. Kl...</title>
+      <link>https://x.com/unknown/status/2036628198176264486</link>
+      <description><![CDATA[Here are 10 similar AI video generation tools to Sora: 
+1. Google Veo 3.1 
+2. Kling AI 3.0 
+3. Luma Dream Machine 3 
+4. Runway Gen-4 
+5. Pika Labs 
+6. Hailuo MiniMax 
+7. WAN 2.6 
+8. Grok Imagine by xAI 
+9. HeyGen 
+10. Synthesia 
+
+Most have free trials or tiers—check their sites…]]></description>
+      <pubDate>Wed, 25 Mar 2026 02:16:15 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036628198176264486</guid>
+      <source url="https://x.com/unknown/status/2036628198176264486">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: GPT-5.4 dropped with 1M-token context + native computer-use agents and it’s hone...</title>
+      <link>https://x.com/unknown/status/2036620278076498030</link>
+      <description><![CDATA[GPT-5.4 dropped with 1M-token context + native computer-use agents and it’s honestly wild.  
+
+As someone who used to train LLMs at Turing, the real story isn’t the size — it’s the inference-time reasoning mode that’s finally making agentic workflows reliable.  
+
+Tried it on a…]]></description>
+      <pubDate>Wed, 25 Mar 2026 01:44:47 GMT</pubDate>
       <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.23575</guid>
-      <source url="https://arxiv.org/abs/2603.23575">arXiv cs.LG</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036620278076498030</guid>
+      <source url="https://x.com/unknown/status/2036620278076498030">X/@unknown</source>
     </item>
     <item>
-      <title>The Geometric Price of Discrete Logic: Context-driven Manifold Dynamics of Number Representations</title>
-      <link>https://arxiv.org/abs/2603.23577</link>
-      <description><![CDATA[arXiv:2603.23577v1 Announce Type: new Abstract: Large language models (LLMs) generalize smoothly across continuous semantic spaces, yet strict logical reasoning demands the formation of discrete decision boundaries. Prevailing theories relying on linear isometric projections…]]></description>
-      <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+      <title>[P] AgentGuard – a policy engine + proxy to control what AI agents are allowed to do</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1s2x252/p_agentguard_a_policy_engine_proxy_to_control/</link>
+      <description><![CDATA[I’ve been seeing a trend where AI agents are getting more and more autonomy, running shell commands, calling APIs, even handling sensitive operations. But most setups I’ve seen have basically no enforcement layer. It’s just “hope the agent behaves.” So I built a project called…]]></description>
+      <pubDate>Wed, 25 Mar 2026 01:28:20 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s2x252/p_agentguard_a_policy_engine_proxy_to_control/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1s2x252/p_agentguard_a_policy_engine_proxy_to_control/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>@unknown: ChatGPT dropped MORE in March 2026 than most companies ship in a year 🤯
+
+Here&apos;s...</title>
+      <link>https://x.com/unknown/status/2036611697935310881</link>
+      <description><![CDATA[ChatGPT dropped MORE in March 2026 than most companies ship in a year 🤯
+
+Here's everything that landed:
+
+• GPT-5.4 Thinking — reasoning + coding + agents in one model
+• GPT-5.3-Codex — best-in-class agentic coding
+• Interactive math/science visuals — 70+ topics, real-time…]]></description>
+      <pubDate>Wed, 25 Mar 2026 01:10:41 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036611697935310881</guid>
+      <source url="https://x.com/unknown/status/2036611697935310881">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: AI discourse is global.
+
+AI power is local.
+
+That gap:
+
+Models are trained globa...</title>
+      <link>https://x.com/unknown/status/2036610319553048695</link>
+      <description><![CDATA[AI discourse is global.
+
+AI power is local.
+
+That gap:
+
+Models are trained globally
+
+Infrastructure is built locally
+
+Regulation is enforced nationally
+
+So outcomes fragment.
+
+US builds
+China scales
+EU regulates
+
+Australia?
+
+Still deciding if it wants to play.]]></description>
+      <pubDate>Wed, 25 Mar 2026 01:05:13 GMT</pubDate>
       <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.23577</guid>
-      <source url="https://arxiv.org/abs/2603.23577">arXiv cs.LG</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036610319553048695</guid>
+      <source url="https://x.com/unknown/status/2036610319553048695">X/@unknown</source>
     </item>
     <item>
-      <title>To make sense of AI, first make sense of your data</title>
-      <link>https://www.innovationaus.com/to-make-sense-of-ai-first-make-sense-of-your-data/</link>
-      <description><![CDATA[There’s a moment in every technology cycle where the conversation shifts from possibility to execution. According to Mandy Andress, chief information security officer at Elastic, that moment has arrived for AI – particularly in the public sector, where ambition is now colliding…]]></description>
-      <pubDate>Thu, 26 Mar 2026 03:41:23 GMT</pubDate>
-      <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://www.innovationaus.com/to-make-sense-of-ai-first-make-sense-of-your-data/</guid>
-      <source url="https://www.innovationaus.com/to-make-sense-of-ai-first-make-sense-of-your-data/">InnovationAus</source>
+      <title>@unknown: My most popular Sora video was “an Elaborate regency romance where everyone is w...</title>
+      <link>https://x.com/unknown/status/2036609949577413085</link>
+      <description><![CDATA[My most popular Sora video was “an Elaborate regency romance where everyone is wearing a live duck for a hat (each duck is also wearing a hat), a llama plays a flute, prestige drama”
+
+I am not sure why OpenAI has decided their  compute has more valuable uses. Really a mystery.…]]></description>
+      <pubDate>Wed, 25 Mar 2026 01:03:45 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036609949577413085</guid>
+      <source url="https://x.com/unknown/status/2036609949577413085">X/@unknown</source>
     </item>
     <item>
-      <title>Meta, Google lose US case over social media harm to kids</title>
-      <link>https://www.innovationaus.com/meta-google-lose-us-case-over-social-media-harm-to-kids/</link>
-      <description><![CDATA[A Los Angeles jury has found Meta and Alphabet&#8217;s Google negligent for designing social media platforms that are harmful to young people, in a US$6 million verdict that will serve as a bellwether for numerous similar cases. The jury on Wednesday (Thursday AEDT) found Meta…]]></description>
-      <pubDate>Thu, 26 Mar 2026 03:17:23 GMT</pubDate>
+      <title>With $3.5B in fresh capital, Kleiner Perkins is going all in on AI</title>
+      <link>https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/</link>
+      <description><![CDATA[The fundraise includes $1 billion for investing in early-stage startups, and $2.5 billion for late-stage growth businesses.]]></description>
+      <pubDate>Wed, 25 Mar 2026 00:47:20 GMT</pubDate>
+      <category>Industry &amp; Business</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/</guid>
+      <source url="https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>@unknown: OpenAI just dropped GPT-5.4 with planning abilities that make GPT-4 look ancient...</title>
+      <link>https://x.com/unknown/status/2036605519633244407</link>
+      <description><![CDATA[OpenAI just dropped GPT-5.4 with planning abilities that make GPT-4 look ancient. Meanwhile, Claude can now control your computer and NVIDIA launched AI agents that text you on Telegram. March 2026 is absolutely wild for AI.]]></description>
+      <pubDate>Wed, 25 Mar 2026 00:46:08 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036605519633244407</guid>
+      <source url="https://x.com/unknown/status/2036605519633244407">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: 95% of GenAI pilots fail to reach production (MIT, 2025). 
+
+The common thread: n...</title>
+      <link>https://x.com/unknown/status/2036597182883574113</link>
+      <description><![CDATA[95% of GenAI pilots fail to reach production (MIT, 2025). 
+
+The common thread: no governed context between the data stack and the AI layer. 
+
+44+ resources on what an enterprise context layer is and how to build one. https://t.co/cee6KmzYss]]></description>
+      <pubDate>Wed, 25 Mar 2026 00:13:01 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036597182883574113</guid>
+      <source url="https://x.com/unknown/status/2036597182883574113">X/@unknown</source>
+    </item>
+    <item>
+      <title>@unknown: OWASP just published an MCP Top 10 security framework for agent tool integration...</title>
+      <link>https://x.com/unknown/status/2036593947527823738</link>
+      <description><![CDATA[OWASP just published an MCP Top 10 security framework for agent tool integration.
+
+We now have an official vulnerability taxonomy for the protocol layer connecting AI agents to your systems. If your security team isn't reviewing this alongside every MCP deployment, you're…]]></description>
+      <pubDate>Wed, 25 Mar 2026 00:00:09 GMT</pubDate>
       <category>Ethics &amp; Regulation</category>
-      <guid isPermaLink="true">https://www.innovationaus.com/meta-google-lose-us-case-over-social-media-harm-to-kids/</guid>
-      <source url="https://www.innovationaus.com/meta-google-lose-us-case-over-social-media-harm-to-kids/">InnovationAus</source>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036593947527823738</guid>
+      <source url="https://x.com/unknown/status/2036593947527823738">X/@unknown</source>
     </item>
     <item>
-      <title>@unknown: I think that if companies are not failing at all with their AI efforts it is a s...</title>
-      <link>https://x.com/unknown/status/2036997633730896357</link>
-      <description><![CDATA[I think that if companies are not failing at all with their AI efforts it is a sign that they are not being ambitious enough. This is a fundamentally new technology that we do not know how to use well. Achieving breakthroughs will require experimentation, which require failure.]]></description>
-      <pubDate>Thu, 26 Mar 2026 02:44:16 GMT</pubDate>
-      <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://x.com/unknown/status/2036997633730896357</guid>
-      <source url="https://x.com/unknown/status/2036997633730896357">X/@unknown</source>
+      <title>OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down</title>
+      <link>https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/</link>
+      <description><![CDATA[Though the underlying Sora 2 video- and audio-generation model is scarily impressive, there was not sustained interest in an AI-only social feed.]]></description>
+      <pubDate>Tue, 24 Mar 2026 23:57:55 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/</guid>
+      <source url="https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/">TechCrunch AI</source>
     </item>
     <item>
-      <title>Having Android Auto issues? How users are handling persistent connection drops lately</title>
-      <link>https://www.zdnet.com/article/does-android-auto-keep-disconnecting-what-to-do-about-it/</link>
-      <description><![CDATA[Android Auto is broken, and users aren't happy. Here are some workarounds until Google fixes things.]]></description>
-      <pubDate>Thu, 26 Mar 2026 01:42:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/does-android-auto-keep-disconnecting-what-to-do-about-it/</guid>
-      <source url="https://www.zdnet.com/article/does-android-auto-keep-disconnecting-what-to-do-about-it/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>Want wireless Android Auto for cheap? This Motorola adapter is 60% off right now</title>
-      <link>https://www.zdnet.com/article/motorola-sound-ma1-deal-amazon-spring-sale-2026/</link>
-      <description><![CDATA[It's not the fanciest option out there, but the Motorola Sound MA1 gets the job done for your wireless connection needs.]]></description>
-      <pubDate>Thu, 26 Mar 2026 01:31:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/motorola-sound-ma1-deal-amazon-spring-sale-2026/</guid>
-      <source url="https://www.zdnet.com/article/motorola-sound-ma1-deal-amazon-spring-sale-2026/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>This discounted Wi-Fi 7 mesh system has me seriously considering an internet upgrade</title>
-      <link>https://www.zdnet.com/article/eero-7-wifi-system-amazon-spring-sale-2026/</link>
-      <description><![CDATA[During Amazon's Spring Sale, this Eero 7 mesh system has dropped to a new low price, making it a great time to upgrade your home Wi-Fi.]]></description>
-      <pubDate>Thu, 26 Mar 2026 00:43:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/eero-7-wifi-system-amazon-spring-sale-2026/</guid>
-      <source url="https://www.zdnet.com/article/eero-7-wifi-system-amazon-spring-sale-2026/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>iOS 26.4 brings meaningful upgrades to your iPhone - including a long-awaited keyboard fix</title>
-      <link>https://www.zdnet.com/article/apple-ios-26-4-new-features-siri/</link>
-      <description><![CDATA[But a new and improved Siri isn't coming until a few more months.]]></description>
-      <pubDate>Thu, 26 Mar 2026 00:40:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/apple-ios-26-4-new-features-siri/</guid>
-      <source url="https://www.zdnet.com/article/apple-ios-26-4-new-features-siri/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>I stopped stressing about public Wi-Fi after using this pocket router - why it works</title>
-      <link>https://www.zdnet.com/article/tp-link-roam-7-review/</link>
-      <description><![CDATA[Designed for travel, the TP-Link Roam 7 provides fast, private networks in public spaces.]]></description>
-      <pubDate>Thu, 26 Mar 2026 00:36:53 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/tp-link-roam-7-review/</guid>
-      <source url="https://www.zdnet.com/article/tp-link-roam-7-review/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>Amazon Spring Sale live blog 2026: Real-time updates on the best deals</title>
-      <link>https://www.zdnet.com/article/amazon-spring-sale-live-blog-03-25-2026/</link>
-      <description><![CDATA[We're tracking the best Amazon Spring Sale deals on home, tech, and more, live as the sale starts today.]]></description>
-      <pubDate>Thu, 26 Mar 2026 00:01:18 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/amazon-spring-sale-live-blog-03-25-2026/</guid>
-      <source url="https://www.zdnet.com/article/amazon-spring-sale-live-blog-03-25-2026/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>Why I left Evernote for Notion after 14 years - and a 900% price creep</title>
-      <link>https://www.zdnet.com/article/why-i-left-evernote-for-notion/</link>
-      <description><![CDATA[Opinion: For over a decade, Evernote served as my digital brain. But its new $250 price floor for power users finally pushed me to Notion - and I'm glad.]]></description>
-      <pubDate>Thu, 26 Mar 2026 00:00:55 GMT</pubDate>
-      <category>Strategy &amp; Opinion</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/why-i-left-evernote-for-notion/</guid>
-      <source url="https://www.zdnet.com/article/why-i-left-evernote-for-notion/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>This digital photo frame is my favorite gift to give (and it&apos;s on sale)</title>
-      <link>https://www.zdnet.com/article/pexar-digital-photo-frame-amazon-spring-sale-2026/</link>
-      <description><![CDATA[The Pexar Digital Photo Frame displays photo memories to your loved ones, and you can snag it at 22% off during Amazon's Big Spring Sale this week.]]></description>
-      <pubDate>Wed, 25 Mar 2026 21:58:07 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/pexar-digital-photo-frame-amazon-spring-sale-2026/</guid>
-      <source url="https://www.zdnet.com/article/pexar-digital-photo-frame-amazon-spring-sale-2026/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>[N] LiteLLM supply chain attack risks to Al pipelines and API key exposure</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1s3okes/n_litellm_supply_chain_attack_risks_to_al/</link>
-      <description><![CDATA[LiteLLM is widely used in LLM/agent pipelines, which makes this supply chain attack particularly concerning. Malicious releases (via compromised CI credentials) effectively turned it into a vector for extracting API keys, cloud creds, and other secrets from runtime environments.…]]></description>
-      <pubDate>Wed, 25 Mar 2026 21:51:32 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s3okes/n_litellm_supply_chain_attack_risks_to_al/</guid>
-      <source url="https://www.reddit.com/r/MachineLearning/comments/1s3okes/n_litellm_supply_chain_attack_risks_to_al/">r/MachineLearning</source>
-    </item>
-    <item>
-      <title>The Apple Watch Series 9 is over 50% off during the Amazon Spring Sale for a limited time</title>
-      <link>https://www.zdnet.com/article/apple-watch-series-9-deal-amazon-spring-sale-2026/</link>
-      <description><![CDATA[This featured Amazon Spring Sale flash deal brings the price of the Apple Watch Series 9 to just $349, but you'll have to hurry - it ends tonight.]]></description>
-      <pubDate>Wed, 25 Mar 2026 21:37:00 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/apple-watch-series-9-deal-amazon-spring-sale-2026/</guid>
-      <source url="https://www.zdnet.com/article/apple-watch-series-9-deal-amazon-spring-sale-2026/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>Get your pup the smart Halo Collar 5 that&apos;s 25% off</title>
-      <link>https://www.zdnet.com/article/halo-collar-5-amazon-spring-sale-2026/</link>
-      <description><![CDATA[You can get $154 off the high-tech Halo dog collar that keeps track of your pup's location and activity levels as part of Amazon's Big Spring Sale.]]></description>
-      <pubDate>Wed, 25 Mar 2026 21:29:54 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/halo-collar-5-amazon-spring-sale-2026/</guid>
-      <source url="https://www.zdnet.com/article/halo-collar-5-amazon-spring-sale-2026/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>Liquid AI&apos;s LFM2-24B-A2B running at ~50 tokens/second in a web browser on WebGPU</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s3n5hn/liquid_ais_lfm224ba2b_running_at_50_tokenssecond/</link>
-      <description><![CDATA[The model (MoE w/ 24B total & 2B active params) runs at ~50 tokens per second on my M4 Max, and the 8B A1B variant runs at over 100 tokens per second on the same hardware. Demo (+ source code): https://huggingface.co/spaces/LiquidAI/LFM2-MoE-WebGPU Optimized ONNX models: -…]]></description>
-      <pubDate>Wed, 25 Mar 2026 20:59:18 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s3n5hn/liquid_ais_lfm224ba2b_running_at_50_tokenssecond/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s3n5hn/liquid_ais_lfm224ba2b_running_at_50_tokenssecond/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>I&apos;ve tested every Apple Watch model - my top pick is on sale for $299</title>
-      <link>https://www.zdnet.com/article/apple-watch-series-11-review/</link>
-      <description><![CDATA[Looking to get ahead of your 2026 fitness goals? The Apple Watch Series 11 is on sale for the first time this year.]]></description>
-      <pubDate>Wed, 25 Mar 2026 20:57:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/apple-watch-series-11-review/</guid>
-      <source url="https://www.zdnet.com/article/apple-watch-series-11-review/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>Get Kindle Unlimited for $0.99 a month with this Amazon Spring Sale deal - here&apos;s how</title>
-      <link>https://www.zdnet.com/article/kindle-unlimited-deal-amazon-spring-sale-2026/</link>
-      <description><![CDATA[Access a library of millions of e-books and audiobooks with Kindle Unlimited for just $1 a month, down from the usual price of $12 a month. Here's what to know.]]></description>
-      <pubDate>Wed, 25 Mar 2026 20:55:38 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/kindle-unlimited-deal-amazon-spring-sale-2026/</guid>
-      <source url="https://www.zdnet.com/article/kindle-unlimited-deal-amazon-spring-sale-2026/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>5 Dyson Amazon Spring Sale deals that are worth a second glance</title>
-      <link>https://www.zdnet.com/article/dyson-amazon-spring-sale-2026-deals/</link>
-      <description><![CDATA[Amazon's Big Spring Sale is live through March 31, and there are plenty of savings on top gear from Dyson (including vacuums, hair tools, and more).]]></description>
-      <pubDate>Wed, 25 Mar 2026 20:33:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/dyson-amazon-spring-sale-2026-deals/</guid>
-      <source url="https://www.zdnet.com/article/dyson-amazon-spring-sale-2026-deals/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>3 robotics trends from NVIDIA GTC 2026</title>
-      <link>https://www.therobotreport.com/3-robotics-trends-from-nvidia-gtc-2026/</link>
-      <description><![CDATA[Our reporter shares major AI and robotics takeaways from speakers and exhibitors at NVIDIA's GTC event in San Jose last week. The post 3 robotics trends from NVIDIA GTC 2026 appeared first on The Robot Report.]]></description>
-      <pubDate>Wed, 25 Mar 2026 20:27:33 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.therobotreport.com/3-robotics-trends-from-nvidia-gtc-2026/</guid>
-      <source url="https://www.therobotreport.com/3-robotics-trends-from-nvidia-gtc-2026/">The Robot Report</source>
-    </item>
-    <item>
-      <title>Dyson&apos;s cordless vacuum can handle kid and pet messes - and it&apos;s nearly 30% off at Amazon</title>
-      <link>https://www.zdnet.com/article/dyson-v15-detect-deal-amazon-spring-sale-2026/</link>
-      <description><![CDATA[I love the Dyson V15 Detect Plus vacuum and how it moves easily between carpet and hardwood floors. It gets a 29% discount during Amazon's Big Spring Sale.]]></description>
-      <pubDate>Wed, 25 Mar 2026 20:20:00 GMT</pubDate>
-      <category>AI Tools &amp; Platforms</category>
-      <guid isPermaLink="true">https://www.zdnet.com/article/dyson-v15-detect-deal-amazon-spring-sale-2026/</guid>
-      <source url="https://www.zdnet.com/article/dyson-v15-detect-deal-amazon-spring-sale-2026/">ZDNet Australia</source>
-    </item>
-    <item>
-      <title>Introducing ARC-AGI-3</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s3ll4i/introducing_arcagi3/</link>
-      <description><![CDATA[ARC-AGI-3 gives us a formal measure to compare human and AI skill acquisition efficiency Humans don’t brute force - they build mental models, test ideas, and refine quickly How close AI is to that? (Spoiler: not close) &#32; submitted by &#32; /u/Complete-Sea6655 [link] &#32;…]]></description>
-      <pubDate>Wed, 25 Mar 2026 20:02:02 GMT</pubDate>
-      <category>Research &amp; Papers</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s3ll4i/introducing_arcagi3/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s3ll4i/introducing_arcagi3/">r/LocalLLaMA</source>
-    </item>
-    <item>
-      <title>Space Machines unveils next-gen manufacturing plan</title>
-      <link>https://www.innovationaus.com/space-machines-unveils-next-gen-manufacturing-plan/</link>
-      <description><![CDATA[A collaboration of Sydney tech firms and a university have ambitions to put artificial intelligence, 3D printing and robotics inside two of Australia&#8217;s most advanced space manufacturing facilities. Aerospace startup Space Machines Company on Thursday said it has begun to…]]></description>
-      <pubDate>Wed, 25 Mar 2026 20:00:11 GMT</pubDate>
-      <category>Australia</category>
-      <guid isPermaLink="true">https://www.innovationaus.com/space-machines-unveils-next-gen-manufacturing-plan/</guid>
-      <source url="https://www.innovationaus.com/space-machines-unveils-next-gen-manufacturing-plan/">InnovationAus</source>
-    </item>
-    <item>
-      <title>Unitree IPO shows a real hardware business, but the humanoid case is still early</title>
-      <link>https://www.therobotreport.com/unitree-ipo-shows-a-real-hardware-business-the-humanoid-case-is-still-early/</link>
-      <description><![CDATA[While Unitree IPO is growing as a credible hardware business, industrial humanoid robots have a ways to go, says one roboticist. The post Unitree IPO shows a real hardware business, but the humanoid case is still early appeared first on The Robot Report.]]></description>
-      <pubDate>Wed, 25 Mar 2026 19:13:48 GMT</pubDate>
-      <category>Industry &amp; Business</category>
-      <guid isPermaLink="true">https://www.therobotreport.com/unitree-ipo-shows-a-real-hardware-business-the-humanoid-case-is-still-early/</guid>
-      <source url="https://www.therobotreport.com/unitree-ipo-shows-a-real-hardware-business-the-humanoid-case-is-still-early/">The Robot Report</source>
-    </item>
-    <item>
-      <title>Has anyone implemented Google&apos;s TurboQuant paper yet?</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s3ffzo/has_anyone_implemented_googles_turboquant_paper/</link>
-      <description><![CDATA[Just read the google recent blog post they're claiming 6x KV cache compression with zero accuracy loss and up to 8x attention speedup on H100s. Presented at ICLR 2026. Curious if anyone has tried it and what real world gains they got outside of the paper benchmarks. &#32;…]]></description>
-      <pubDate>Wed, 25 Mar 2026 16:22:38 GMT</pubDate>
+      <title>Auto mode for Claude Code</title>
+      <link>https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything</link>
+      <description><![CDATA[Auto mode for Claude Code Really interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions: Today, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with…]]></description>
+      <pubDate>Tue, 24 Mar 2026 23:57:33 GMT</pubDate>
       <category>AI Coding &amp; Agents</category>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s3ffzo/has_anyone_implemented_googles_turboquant_paper/</guid>
-      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s3ffzo/has_anyone_implemented_googles_turboquant_paper/">r/LocalLLaMA</source>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything</guid>
+      <source url="https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything">Simon Willison</source>
+    </item>
+    <item>
+      <title>Omnicoder v2 dropped</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s2u2p2/omnicoder_v2_dropped/</link>
+      <description><![CDATA[The new Omnicoder-v2 dropped, so far it seems to really improve on the previous. Still early testing tho HF: https://huggingface.co/Tesslate/OmniCoder-2-9B-GGUF &#32; submitted by &#32; /u/Western-Cod-3486 [link] &#32; [comments]]]></description>
+      <pubDate>Tue, 24 Mar 2026 23:23:49 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s2u2p2/omnicoder_v2_dropped/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s2u2p2/omnicoder_v2_dropped/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>@unknown: All the AI labs are exploring the opportunity space for LLMs. Anthropic has alwa...</title>
+      <link>https://x.com/unknown/status/2036573117431095665</link>
+      <description><![CDATA[All the AI labs are exploring the opportunity space for LLMs. Anthropic has always been very focused and OpenAI more prone to testing, and abandoning, concepts (GPT Store, Sora, etc.). Google sort of does everything at once. It is unclear which strategy will be best in the end.]]></description>
+      <pubDate>Tue, 24 Mar 2026 22:37:23 GMT</pubDate>
+      <category>Industry &amp; Business</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036573117431095665</guid>
+      <source url="https://x.com/unknown/status/2036573117431095665">X/@unknown</source>
+    </item>
+    <item>
+      <title>OpenAI shutters AI video generator Sora in abrupt announcement</title>
+      <link>https://www.theguardian.com/technology/2026/mar/24/openai-ai-video-sora</link>
+      <description><![CDATA[Tech firm ‘says goodbye’ to Sora, made publicly available in 2024, just six months after its launch of a stand-alone appIn an abrupt announcement on Tuesday, OpenAI said it was “saying goodbye” to its AI video generator Sora. The move comes just six months after the company’s…]]></description>
+      <pubDate>Tue, 24 Mar 2026 22:34:10 GMT</pubDate>
+      <category>Industry &amp; Business</category>
+      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/mar/24/openai-ai-video-sora</guid>
+      <source url="https://www.theguardian.com/technology/2026/mar/24/openai-ai-video-sora">Guardian AI</source>
+    </item>
+    <item>
+      <title>@unknown: &quot;anti-trust legislation, enforceable regulation of generative AI, and steps to f...</title>
+      <link>https://x.com/unknown/status/2036570635879719325</link>
+      <description><![CDATA["anti-trust legislation, enforceable regulation of generative AI, and steps to force companies to take responsibility for online disinformation are urgently needed"
+
+leaders outline already-present fossil fuel dependence, climate disinformation threats 
+
+https://t.co/tDitgqvQoB]]></description>
+      <pubDate>Tue, 24 Mar 2026 22:27:31 GMT</pubDate>
+      <category>Ethics &amp; Regulation</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036570635879719325</guid>
+      <source url="https://x.com/unknown/status/2036570635879719325">X/@unknown</source>
+    </item>
+    <item>
+      <title>Kentucky woman rejects $26M offer to turn her farm into a data center</title>
+      <link>https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/</link>
+      <description><![CDATA[A "major artificial intelligence company" reportedly offered a Kentucky family $26 million to build a data center on their farm.]]></description>
+      <pubDate>Tue, 24 Mar 2026 22:22:57 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/</guid>
+      <source url="https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Amazon acquires humanoid developer Fauna Robotics</title>
+      <link>https://www.therobotreport.com/amazon-acquires-humanoid-developer-fauna-robotics/</link>
+      <description><![CDATA[Amazon said it's taking a 'well thought-out and measured approach' to understanding how personal robots could improve their customers' lives. The post Amazon acquires humanoid developer Fauna Robotics appeared first on The Robot Report.]]></description>
+      <pubDate>Tue, 24 Mar 2026 22:22:11 GMT</pubDate>
+      <category>Industry &amp; Business</category>
+      <guid isPermaLink="true">https://www.therobotreport.com/amazon-acquires-humanoid-developer-fauna-robotics/</guid>
+      <source url="https://www.therobotreport.com/amazon-acquires-humanoid-developer-fauna-robotics/">The Robot Report</source>
+    </item>
+    <item>
+      <title>Pentagon’s ‘Attempt to Cripple’ Anthropic Is Troubling, Judge Says</title>
+      <link>https://www.wired.com/story/pentagons-attempt-to-cripple-anthropic-is-troublesome-judge-says/</link>
+      <description><![CDATA[During a hearing Tuesday, a district court judge questioned the Department of Defense’s motivations for labeling the Claude AI developer a supply-chain risk.]]></description>
+      <pubDate>Tue, 24 Mar 2026 22:13:17 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.wired.com/story/pentagons-attempt-to-cripple-anthropic-is-troublesome-judge-says/</guid>
+      <source url="https://www.wired.com/story/pentagons-attempt-to-cripple-anthropic-is-troublesome-judge-says/">Wired AI</source>
+    </item>
+    <item>
+      <title>@unknown: A real .NET agent app — not just a demo.
+Agent Framework + Foundry + MCP + Aspir...</title>
+      <link>https://x.com/unknown/status/2036559954530762851</link>
+      <description><![CDATA[A real .NET agent app — not just a demo.
+Agent Framework + Foundry + MCP + Aspire working together with multi‑agent handoffs, MCP tool servers, a Blazor streaming UI, Aspire orchestration/telemetry, and Foundry powering the model backend.
+
+👉 Blog: https://t.co/VdVbDNK8AC…]]></description>
+      <pubDate>Tue, 24 Mar 2026 21:45:05 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036559954530762851</guid>
+      <source url="https://x.com/unknown/status/2036559954530762851">X/@unknown</source>
+    </item>
+    <item>
+      <title>Package Managers Need to Cool Down</title>
+      <link>https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything</link>
+      <description><![CDATA[Package Managers Need to Cool Down Today's LiteLLM supply chain attack inspired me to revisit the idea of dependency cooldowns, the practice of only installing updated dependencies once they've been out in the wild for a few days to give the community a chance to spot if they've…]]></description>
+      <pubDate>Tue, 24 Mar 2026 21:11:38 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything</guid>
+      <source url="https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything">Simon Willison</source>
+    </item>
+    <item>
+      <title>Anthropic and Pentagon face off in court over ban on company’s AI model</title>
+      <link>https://www.theguardian.com/us-news/2026/mar/24/anthropic-pentagon-lawsuit</link>
+      <description><![CDATA[After Anthropic refused to let its AI to be used in autonomous weapons systems, Trump ordered US agencies to quit using itSign up for the Breaking News US email to get newsletter alerts in your inboxAnthropic faced against the Department of Defense in a federal court on Tuesday…]]></description>
+      <pubDate>Tue, 24 Mar 2026 21:09:40 GMT</pubDate>
+      <category>Ethics &amp; Regulation</category>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/mar/24/anthropic-pentagon-lawsuit</guid>
+      <source url="https://www.theguardian.com/us-news/2026/mar/24/anthropic-pentagon-lawsuit">Guardian AI</source>
+    </item>
+    <item>
+      <title>OpenAI just gave up on Sora and its billion-dollar Disney deal</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/899850/openai-sora-ai-chatgpt</link>
+      <description><![CDATA[On Tuesday afternoon, OpenAI announced "We're saying goodbye to Sora," the video generation tool that it launched at the end of 2024, and centered in a massive licensing deal with Disney only a few months ago. The Wall Street Journal reported the move earlier, saying that OpenAI…]]></description>
+      <pubDate>Tue, 24 Mar 2026 21:08:10 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/899850/openai-sora-ai-chatgpt</guid>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/899850/openai-sora-ai-chatgpt">The Verge AI</source>
+    </item>
+    <item>
+      <title>[R] How are you managing long-running preprocessing jobs at scale? Curious what&apos;s actually working</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1s2qham/r_how_are_you_managing_longrunning_preprocessing/</link>
+      <description><![CDATA[We're a small ML team for a project and we keep running into the same wall: large preprocessing jobs (think 50–100GB datasets) running on a single machine take hours, and when something fails halfway through, it's painful. We've looked at Prefect, Temporal, and a few others —…]]></description>
+      <pubDate>Tue, 24 Mar 2026 21:07:11 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s2qham/r_how_are_you_managing_longrunning_preprocessing/</guid>
+      <source url="https://www.reddit.com/r/MachineLearning/comments/1s2qham/r_how_are_you_managing_longrunning_preprocessing/">r/MachineLearning</source>
+    </item>
+    <item>
+      <title>@unknown: Provides AI coding agents with a complete mental model of your Rails app, includ...</title>
+      <link>https://x.com/unknown/status/2036549571518579146</link>
+      <description><![CDATA[Provides AI coding agents with a complete mental model of your Rails app, including schema, models, routes, and controllers. Generates context files for Claude Code, Cursor, Windsurf, Copilot, and OpenCode.
+
+https://t.co/XDNIOgyNPn]]></description>
+      <pubDate>Tue, 24 Mar 2026 21:03:49 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036549571518579146</guid>
+      <source url="https://x.com/unknown/status/2036549571518579146">X/@unknown</source>
+    </item>
+    <item>
+      <title>Disney Exits OpenAI Deal After AI Giant Shutters Sora</title>
+      <link>https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/</link>
+      <description><![CDATA[Article URL: https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/ Comments URL: https://news.ycombinator.com/item?id=47509234 Points: 201 # Comments: 2]]></description>
+      <pubDate>Tue, 24 Mar 2026 21:01:21 GMT</pubDate>
+      <category>Image &amp; Video Generation</category>
+      <guid isPermaLink="true">https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/</guid>
+      <source url="https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/">Hacker News AI</source>
+    </item>
+    <item>
+      <title>@unknown: Forget the chat UIs — open agents beat closed today, and infra bent the curve.
+
+...</title>
+      <link>https://x.com/unknown/status/2036548950069563760</link>
+      <description><![CDATA[Forget the chat UIs — open agents beat closed today, and infra bent the curve.
+
+→ @allen_ai drops MolmoWeb: fully open web agent (4B/8B) sets SOTA across 4 web‑agent benchmarks; surpasses GPT‑4o‑based SoM Agents and beats OpenAI CUA on 3/4. Also ships MolmoWebMix (150K+…]]></description>
+      <pubDate>Tue, 24 Mar 2026 21:01:21 GMT</pubDate>
+      <category>Strategy &amp; Opinion</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036548950069563760</guid>
+      <source url="https://x.com/unknown/status/2036548950069563760">X/@unknown</source>
+    </item>
+    <item>
+      <title>Anthropic hands Claude Code more control, but keeps it on a leash</title>
+      <link>https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/</link>
+      <description><![CDATA[Anthropic’s new auto mode for Claude Code lets AI execute tasks with fewer approvals, reflecting a broader shift toward more autonomous tools that balance speed with safety through built-in safeguards.]]></description>
+      <pubDate>Tue, 24 Mar 2026 21:00:30 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/</guid>
+      <source url="https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Spotify tests new tool to stop AI slop from being attributed to real artists</title>
+      <link>https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/</link>
+      <description><![CDATA[The idea behind the new tool is to give artists more control over which tracks are associated with their name on Spotify.]]></description>
+      <pubDate>Tue, 24 Mar 2026 20:56:25 GMT</pubDate>
+      <category>Ethics &amp; Regulation</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/</guid>
+      <source url="https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Arm’s first CPU ever will plug into Meta’s AI data centers later this year</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/899823/arm-agi-cpu-meta</link>
+      <description><![CDATA[After decades of only licensing its chip designs for others to use, UK-based Arm revealed the first chip it's producing on its own, and the first customer. Dubbed the Arm AGI CPU, it's another chip designed for inference, or running the cloud processing for AI tools like AI…]]></description>
+      <pubDate>Tue, 24 Mar 2026 20:43:14 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/899823/arm-agi-cpu-meta</guid>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/899823/arm-agi-cpu-meta">The Verge AI</source>
+    </item>
+    <item>
+      <title>Databricks bought two startups to underpin its new AI security product</title>
+      <link>https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/</link>
+      <description><![CDATA[With an overflowing war chest from its recent $5 billion raise, Databricks is buying startups and looking for more. It acquired Antimatter and SiftD.ai.]]></description>
+      <pubDate>Tue, 24 Mar 2026 20:40:56 GMT</pubDate>
+      <category>Industry &amp; Business</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/</guid>
+      <source url="https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Quoting Christopher Mims</title>
+      <link>https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything</link>
+      <description><![CDATA[I really think "give AI total control of my computer and therefore my entire life" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon holding up a picture of his Bored Ape &mdash; Christopher Mims, Technology…]]></description>
+      <pubDate>Tue, 24 Mar 2026 20:35:52 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything</guid>
+      <source url="https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything">Simon Willison</source>
+    </item>
+    <item>
+      <title>New open weights models: GigaChat-3.1-Ultra-702B and GigaChat-3.1-Lightning-10B-A1.8B</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s2pkfw/new_open_weights_models_gigachat31ultra702b_and/</link>
+      <description><![CDATA[Hey, folks! We've released the weights of our GigaChat-3.1-Ultra and Lightning models under MIT license at our HF. These models are pretrained from scratch on our hardware and target both high resource environments (Ultra is a large 702B MoE) and local inference (Lightning is a…]]></description>
+      <pubDate>Tue, 24 Mar 2026 20:33:23 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s2pkfw/new_open_weights_models_gigachat31ultra702b_and/</guid>
+      <source url="https://www.reddit.com/r/LocalLLaMA/comments/1s2pkfw/new_open_weights_models_gigachat31ultra702b_and/">r/LocalLLaMA</source>
+    </item>
+    <item>
+      <title>Semantic Code Search: What It Is and How It Works</title>
+      <link>https://webflow.sourcegraph.com/blog/semantic-code-search-what-it-is-and-how-it-works</link>
+      <description><![CDATA[semantic-code-search-what-it-is-and-how-it-works]]></description>
+      <pubDate>Tue, 24 Mar 2026 20:19:27 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://webflow.sourcegraph.com/blog/semantic-code-search-what-it-is-and-how-it-works</guid>
+      <source url="https://webflow.sourcegraph.com/blog/semantic-code-search-what-it-is-and-how-it-works">Sourcegraph Blog</source>
+    </item>
+    <item>
+      <title>@unknown: 🚨 BREAKING: CHINA just released a Python framework for building AI agents. 100%...</title>
+      <link>https://x.com/unknown/status/2036531659378663490</link>
+      <description><![CDATA[🚨 BREAKING: CHINA just released a Python framework for building AI agents. 100% OPEN SOURCE.
+
+It has visual agent design, MCP tools, memory, RAG, and reasoning. All built in. All working together.
+
+It's called AgentScope.
+
+You describe your agent system. It builds the…]]></description>
+      <pubDate>Tue, 24 Mar 2026 19:52:39 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036531659378663490</guid>
+      <source url="https://x.com/unknown/status/2036531659378663490">X/@unknown</source>
+    </item>
+    <item>
+      <title>Arm is releasing the first in-house chip in its 35-year history</title>
+      <link>https://techcrunch.com/2026/03/24/arm-is-releasing-its-first-in-house-chip-in-its-35-year-history/</link>
+      <description><![CDATA[Arm is producing its own CPU for the first time. It developed the CPU with Meta, which is also the chip's first customer.]]></description>
+      <pubDate>Tue, 24 Mar 2026 19:48:54 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/24/arm-is-releasing-its-first-in-house-chip-in-its-35-year-history/</guid>
+      <source url="https://techcrunch.com/2026/03/24/arm-is-releasing-its-first-in-house-chip-in-its-35-year-history/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Microsoft may finally remove its frustrating Windows 11 setup requirement</title>
+      <link>https://www.zdnet.com/article/windows-11-local-account-microsoft-account/</link>
+      <description><![CDATA[A Microsoft VP just hinted at a change Windows 11 users have wanted for years.]]></description>
+      <pubDate>Tue, 24 Mar 2026 19:47:59 GMT</pubDate>
+      <category>Workflow &amp; Automation</category>
+      <guid isPermaLink="true">https://www.zdnet.com/article/windows-11-local-account-microsoft-account/</guid>
+      <source url="https://www.zdnet.com/article/windows-11-local-account-microsoft-account/">ZDNet Australia</source>
+    </item>
+    <item>
+      <title>5 ways to harden your network against the new speed of AI attacks</title>
+      <link>https://www.zdnet.com/article/cyberattackers-getting-faster-and-smarter-how-to-fight-back/</link>
+      <description><![CDATA[As attackers get more sophisticated and persistent, IT workers have to step up their game as well. Here's how to do that in 2026.]]></description>
+      <pubDate>Tue, 24 Mar 2026 19:32:00 GMT</pubDate>
+      <category>Ethics &amp; Regulation</category>
+      <guid isPermaLink="true">https://www.zdnet.com/article/cyberattackers-getting-faster-and-smarter-how-to-fight-back/</guid>
+      <source url="https://www.zdnet.com/article/cyberattackers-getting-faster-and-smarter-how-to-fight-back/">ZDNet Australia</source>
+    </item>
+    <item>
+      <title>OpenAI’s plans to make ChatGPT more like Amazon aren’t going so well</title>
+      <link>https://techcrunch.com/2026/03/24/openais-plans-to-make-chatgpt-more-like-amazon-arent-going-so-well/</link>
+      <description><![CDATA[OpenAI says it's moving away from Instant Checkout, which allowed users to buy items directly through the ChatGPT interface.]]></description>
+      <pubDate>Tue, 24 Mar 2026 19:27:56 GMT</pubDate>
+      <category>Industry &amp; Business</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/24/openais-plans-to-make-chatgpt-more-like-amazon-arent-going-so-well/</guid>
+      <source url="https://techcrunch.com/2026/03/24/openais-plans-to-make-chatgpt-more-like-amazon-arent-going-so-well/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>@unknown: &quot;just seems like a total no-brainer that PyPi/npm/crates.io/etc. should do AI-po...</title>
+      <link>https://x.com/unknown/status/2036523236729692240</link>
+      <description><![CDATA["just seems like a total no-brainer that PyPi/npm/crates.io/etc. should do AI-powered scans for this pattern of attack"
+
+PyPI does that via an API used by scanning partners. I expect that may be why the package was quarantined on PyPI within an hour of it going live…]]></description>
+      <pubDate>Tue, 24 Mar 2026 19:19:11 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036523236729692240</guid>
+      <source url="https://x.com/unknown/status/2036523236729692240">X/@unknown</source>
+    </item>
+    <item>
+      <title>Google TV’s new Gemini features keep fans updated on sports teams and more</title>
+      <link>https://techcrunch.com/2026/03/24/google-tv-new-gemini-features-keep-fans-updated-on-sports-teams-deep-dives-visual-answers/</link>
+      <description><![CDATA[Three Gemini-powered features are coming to your Google TV. This includes visual responses, deep dives, and sports briefs.]]></description>
+      <pubDate>Tue, 24 Mar 2026 19:12:11 GMT</pubDate>
+      <category>AI Tools &amp; Platforms</category>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/24/google-tv-new-gemini-features-keep-fans-updated-on-sports-teams-deep-dives-visual-answers/</guid>
+      <source url="https://techcrunch.com/2026/03/24/google-tv-new-gemini-features-keep-fans-updated-on-sports-teams-deep-dives-visual-answers/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>@unknown: OPENAI DROPS GPT-5.4 MINI &amp;amp; NANO: 2X+ FASTER AGENTIC CODING, SUB-AGENTS, COM...</title>
+      <link>https://x.com/unknown/status/2036518557534835177</link>
+      <description><![CDATA[OPENAI DROPS GPT-5.4 MINI &amp; NANO: 2X+ FASTER AGENTIC CODING, SUB-AGENTS, COMPUTER USE — mini models eating the entire dev stack. incumbents nuking startup moats again]]></description>
+      <pubDate>Tue, 24 Mar 2026 19:00:35 GMT</pubDate>
+      <category>AI Coding &amp; Agents</category>
+      <guid isPermaLink="true">https://x.com/unknown/status/2036518557534835177</guid>
+      <source url="https://x.com/unknown/status/2036518557534835177">X/@unknown</source>
     </item>
   </channel>
 </rss>
