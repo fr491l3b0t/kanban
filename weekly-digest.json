@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-03-28T08:03:37.058Z",
+  "generatedAt": "2026-03-28T19:06:27.349Z",
   "window": {
-    "start": "2026-03-21T08:03:36.984Z",
-    "end": "2026-03-28T08:03:36.984Z",
+    "start": "2026-03-21T19:06:27.272Z",
+    "end": "2026-03-28T19:06:27.272Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 939,
+    "totalEntries": 948,
     "categoriesWithEntries": 10,
     "totalSelected": 30
   },
@@ -16,9 +16,16 @@
     "source": "The Verge AI",
     "date": "2026-03-25T16:02:48-04:00",
     "summary": "Less than a week into his tenure as Disney's newly-appointed CEO, Josh D'Amaro is already dealing with two separate crises that have cast a shadow over the company's future plans. OpenAI is shutting down its Sora image-generation program just months after Disney announced a $1 billion dollar collaboration to bake the tech into Disney Plus. [&#8230;]",
-    "score": 0.846
+    "score": 0.837
   },
   "trending": [
+    {
+      "tag": "sora",
+      "count": 23,
+      "prevCount": 3,
+      "growth": 6.67,
+      "relevance": 7.166666666666667
+    },
     {
       "tag": "data centers",
       "count": 7,
@@ -27,7 +34,7 @@
       "relevance": 6
     },
     {
-      "tag": "tokens",
+      "tag": "voice",
       "count": 6,
       "prevCount": 1,
       "growth": 5,
@@ -41,13 +48,6 @@
       "relevance": 4.5
     },
     {
-      "tag": "sora",
-      "count": 23,
-      "prevCount": 5,
-      "growth": 3.6,
-      "relevance": 4.1
-    },
-    {
       "tag": "multimodal",
       "count": 7,
       "prevCount": 2,
@@ -55,25 +55,32 @@
       "relevance": 3
     },
     {
-      "tag": "march 2026",
-      "count": 7,
-      "prevCount": 3,
-      "growth": 1.33,
-      "relevance": 1.3333333333333333
+      "tag": "tokens",
+      "count": 5,
+      "prevCount": 2,
+      "growth": 1.5,
+      "relevance": 2
     },
     {
       "tag": "inference",
-      "count": 7,
+      "count": 8,
       "prevCount": 4,
-      "growth": 0.75,
-      "relevance": 1.25
+      "growth": 1,
+      "relevance": 1.5
     },
     {
       "tag": "mcp",
       "count": 13,
-      "prevCount": 8,
-      "growth": 0.63,
-      "relevance": 1.125
+      "prevCount": 7,
+      "growth": 0.86,
+      "relevance": 1.3571428571428572
+    },
+    {
+      "tag": "march 2026",
+      "count": 6,
+      "prevCount": 3,
+      "growth": 1,
+      "relevance": 1
     },
     {
       "tag": "supply chain",
@@ -81,13 +88,6 @@
       "prevCount": 0,
       "growth": 1,
       "relevance": 1
-    },
-    {
-      "tag": "generation",
-      "count": 22,
-      "prevCount": 17,
-      "growth": 0.29,
-      "relevance": 0.7941176470588236
     }
   ],
   "categories": {
@@ -98,7 +98,7 @@
         "source": "Hacker News AI",
         "date": "Tue, 24 Mar 2026 07:46:46 +0000",
         "summary": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken o...",
-        "score": 0.754
+        "score": 0.744
       },
       {
         "title": "Auto mode for Claude Code",
@@ -106,7 +106,7 @@
         "source": "Simon Willison",
         "date": "2026-03-24T23:57:33+00:00",
         "summary": "Auto mode for Claude Code Really interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions: Today, we're introducing auto mode, a new permissions mode in ...",
-        "score": 0.732
+        "score": 0.722
       },
       {
         "title": "Anthropic’s Claude Code gets ‘safer’ auto mode",
@@ -114,7 +114,7 @@
         "source": "The Verge AI",
         "date": "2026-03-25T07:39:46-04:00",
         "summary": "Anthropic has launched an \"auto mode\" for Claude Code, a new tool that lets AI make permissions-level decisions on users' behalf. The company says the feature offers vibe coders a safer alternative...",
-        "score": 0.729
+        "score": 0.719
       }
     ],
     "AI Tools & Platforms": [
@@ -124,7 +124,7 @@
         "source": "ZDNet Australia",
         "date": "Fri, 27 Mar 2026 16:24:00 GMT",
         "summary": "Gemini will now let you transfer your memories, chat history, and preferences from another AI so you don't have to start from scratch.",
-        "score": 0.826
+        "score": 0.816
       },
       {
         "title": "OpenAI Extends the Responses API to Serve as a Foundation for Autonomous Agents",
@@ -132,15 +132,15 @@
         "source": "InfoQ AI/ML",
         "date": "Fri, 27 Mar 2026 12:00:00 GMT",
         "summary": "OpenAI announced they are extending the Responses API to make it easier for developer to build agentic workflows, adding support for a shell tool, a built-in agent execution loop, a hosted containe...",
-        "score": 0.822
+        "score": 0.812
       },
       {
-        "title": "I Asked ChatGPT 500 Questions. Here Are the Ads I Saw Most Often",
-        "url": "https://www.wired.com/story/i-asked-chatgpt-500-questions-here-are-the-ads-i-saw-most-often/",
-        "source": "Wired AI",
-        "date": "Fri, 27 Mar 2026 10:30:00 +0000",
-        "summary": "Ads are rolling out across the US on ChatGPT’s free tier. I asked OpenAI's bot 500 questions to see what these ads were like and how they related to my prompts.",
-        "score": 0.812
+        "title": "@unknown: We've gotten questions about how Phota works, so we wanted to share more about w...",
+        "url": "https://x.com/unknown/status/2037723587071918541",
+        "source": "X/@unknown",
+        "date": "Sat Mar 28 02:48:56 +0000 2026",
+        "summary": "We've gotten questions about how Phota works, so we wanted to share more about what we've built.\n\nPhota, like many modern AI products, is a system of multiple models, each optimized for a different...",
+        "score": 0.809
       }
     ],
     "Research & Papers": [
@@ -150,7 +150,7 @@
         "source": "Simon Willison",
         "date": "2026-03-25T17:21:04+00:00",
         "summary": "LiteLLM Hack: Were You One of the 47,000? Daniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteLLM packages during the 46 minute period they we...",
-        "score": 0.747
+        "score": 0.737
       },
       {
         "title": "Lie to Me: How Faithful Is Chain-of-Thought Reasoning in Reasoning Models?",
@@ -158,7 +158,7 @@
         "source": "arXiv cs.CL",
         "date": "Wed, 25 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.22582v1 Announce Type: new Abstract: Chain-of-thought (CoT) reasoning has been proposed as a transparency mechanism for large language models in safety-critical deployments, yet its effe...",
-        "score": 0.732
+        "score": 0.722
       },
       {
         "title": "@unknown: Donald Knuth — father of algorithm analysis — just published a paper about Claud...",
@@ -166,7 +166,7 @@
         "source": "X/@unknown",
         "date": "Fri Mar 27 18:59:55 +0000 2026",
         "summary": "Donald Knuth — father of algorithm analysis — just published a paper about Claude AI.\n\nHis opening word: \"Shock!\"\n\nIt solved a graph theory problem he'd worked on for weeks.\n\nAI isn't just automati...",
-        "score": 0.732
+        "score": 0.722
       }
     ],
     "Strategy & Opinion": [
@@ -176,7 +176,15 @@
         "source": "InfoQ AI/ML",
         "date": "Thu, 26 Mar 2026 09:00:00 GMT",
         "summary": "In the GenAI era, code is a commodity, but alignment is not. Traditional review boards can't scale with AI-generated output. This article explores \"Declarative Architecture\" - transforming ADRs and...",
-        "score": 0.798
+        "score": 0.788
+      },
+      {
+        "title": "@unknown: We dramatically underestimate how much change management it is going to take to ...",
+        "url": "https://x.com/unknown/status/2037200776389681499",
+        "source": "X/@unknown",
+        "date": "Thu Mar 26 16:11:29 +0000 2026",
+        "summary": "We dramatically underestimate how much change management it is going to take to automate most knowledge worker tasks.\n\nBetween data being in legacy environments or systems or without good APIs, con...",
+        "score": 0.778
       },
       {
         "title": "Shopping with a Platform AI Assistant: Who Adopts, When in the Journey, and What For",
@@ -184,15 +192,7 @@
         "source": "arXiv cs.AI",
         "date": "Fri, 27 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.24947v1 Announce Type: new Abstract: This paper provides some of the first large-scale descriptive evidence on how consumers adopt and use platform-embedded shopping AI in e-commerce. Us...",
-        "score": 0.775
-      },
-      {
-        "title": "Whether, Not Which: Mechanistic Interpretability Reveals Dissociable Affect Reception and Emotion Categorization in LLMs",
-        "url": "https://arxiv.org/abs/2603.22295",
-        "source": "arXiv cs.CL",
-        "date": "Wed, 25 Mar 2026 00:00:00 -0400",
-        "summary": "arXiv:2603.22295v1 Announce Type: new Abstract: Large language models appear to develop internal representations of emotion -- \"emotion circuits,\" \"emotion neurons,\" and structured emotional manifo...",
-        "score": 0.732
+        "score": 0.765
       }
     ],
     "Image & Video Generation": [
@@ -202,7 +202,7 @@
         "source": "X/@unknown",
         "date": "Mon Mar 23 20:30:33 +0000 2026",
         "summary": "Truly blown away by a new AI image model launching this week ✨\n\nFinally, you can generate photos that actually look like you! \n\nIt's so much better than everything I've tried - from LoRAs to NB Pro...",
-        "score": 0.851
+        "score": 0.841
       },
       {
         "title": "@unknown: Don't make videos — program them.\n\nIntroducing Renoise = Claude Code + Seedance ...",
@@ -210,7 +210,7 @@
         "source": "X/@unknown",
         "date": "Mon Mar 23 14:37:14 +0000 2026",
         "summary": "Don't make videos — program them.\n\nIntroducing Renoise = Claude Code + Seedance 2.0.\nScale your video ad production 100x. One product photo → hundreds of finished creatives.👇\n\nhttps://t.co/L0xP50T...",
-        "score": 0.845
+        "score": 0.836
       },
       {
         "title": "OpenAI just gave up on Sora and its billion-dollar Disney deal",
@@ -218,17 +218,25 @@
         "source": "The Verge AI",
         "date": "2026-03-24T17:08:10-04:00",
         "summary": "On Tuesday afternoon, OpenAI announced \"We're saying goodbye to Sora,\" the video generation tool that it launched at the end of 2024, and centered in a massive licensing deal with Disney only a few...",
-        "score": 0.826
+        "score": 0.816
       }
     ],
     "Workflow & Automation": [
+      {
+        "title": "@unknown: Pair LTX-2.3 with Custom Styles and Brand Kit and something clicks.\n\nEvery scene...",
+        "url": "https://x.com/unknown/status/2037532722361671786",
+        "source": "X/@unknown",
+        "date": "Fri Mar 27 14:10:31 +0000 2026",
+        "summary": "Pair LTX-2.3 with Custom Styles and Brand Kit and something clicks.\n\nEvery scene, every shot, locked into the same visual world. We built this spec ad to show what that looks like in practice. http...",
+        "score": 0.921
+      },
       {
         "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
         "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
         "source": "Hacker News AI",
         "date": "Thu, 26 Mar 2026 22:41:25 +0000",
         "summary": "The stack: two agents on separate boxes. The public one (nullclaw) is a 678 KB Zig binary using ~1 MB RAM, connected to an Ergo IRC server. Visitors talk to it via a gamja web client embedded in my...",
-        "score": 0.81
+        "score": 0.8
       },
       {
         "title": "[D] Why evaluating only final outputs is misleading for local LLM agents",
@@ -236,15 +244,7 @@
         "source": "r/MachineLearning",
         "date": "2026-03-26T20:01:45+00:00",
         "summary": "Been running local agents with Ollama + LangChain lately and noticed something kind of uncomfortable — you can get a completely correct final answer while the agent is doing absolute nonsense inter...",
-        "score": 0.768
-      },
-      {
-        "title": "Fast and Faithful: Real-Time Verification for Long-Document Retrieval-Augmented Generation Systems",
-        "url": "https://arxiv.org/abs/2603.23508",
-        "source": "arXiv cs.CL",
-        "date": "Thu, 26 Mar 2026 00:00:00 -0400",
-        "summary": "arXiv:2603.23508v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) is increasingly deployed in enterprise search and document-centric assistants, where responses must be grounded ...",
-        "score": 0.754
+        "score": 0.758
       }
     ],
     "Industry & Business": [
@@ -254,7 +254,7 @@
         "source": "The Verge AI",
         "date": "2026-03-25T16:02:48-04:00",
         "summary": "Less than a week into his tenure as Disney's newly-appointed CEO, Josh D'Amaro is already dealing with two separate crises that have cast a shadow over the company's future plans. OpenAI is shuttin...",
-        "score": 0.846
+        "score": 0.837
       },
       {
         "title": "OpenAI shutters AI video generator Sora in abrupt announcement",
@@ -262,7 +262,7 @@
         "source": "Guardian AI",
         "date": "Tue, 24 Mar 2026 22:34:10 GMT",
         "summary": "Tech firm ‘says goodbye’ to Sora, made publicly available in 2024, just six months after its launch of a stand-alone appIn an abrupt announcement on Tuesday, OpenAI said it was “saying goodbye” to ...",
-        "score": 0.819
+        "score": 0.809
       },
       {
         "title": "Thoughts on slowing the fuck down",
@@ -270,7 +270,7 @@
         "source": "Simon Willison",
         "date": "2026-03-25T21:47:17+00:00",
         "summary": "Thoughts on slowing the fuck down Mario Zechner created the Pi agent framework used by OpenClaw, giving considerable credibility to his opinions on current trends in agentic engineering. He's not i...",
-        "score": 0.751
+        "score": 0.741
       }
     ],
     "Voice & Audio": [
@@ -280,7 +280,15 @@
         "source": "r/LocalLLaMA",
         "date": "2026-03-26T14:11:04+00:00",
         "summary": "Announcement Blog: https://cohere.com/blog/transcribe Cohere just released their 2B transcription model. It's Apache 2.0 licensed and claims to be SOTA among open transcription models. It supports ...",
-        "score": 0.763
+        "score": 0.753
+      },
+      {
+        "title": "@unknown: You can now build custom voice AI agents with OpenAI’s gpt-realtime-1.5 model. \n...",
+        "url": "https://x.com/unknown/status/2037698508312973525",
+        "source": "X/@unknown",
+        "date": "Sat Mar 28 01:09:17 +0000 2026",
+        "summary": "You can now build custom voice AI agents with OpenAI’s gpt-realtime-1.5 model. \n\nReceptionists and appointment setters are cooked. \nhttps://t.co/1EyIS4n0DQ",
+        "score": 0.727
       },
       {
         "title": "Google Lyria 3 Pro makes longer AI songs",
@@ -288,25 +296,25 @@
         "source": "The Verge AI",
         "date": "2026-03-25T12:00:00-04:00",
         "summary": "Google is expanding the capabilities of its Lyria 3 music-making AI, enabling it to create tracks up to three minutes long and from within multiple other Google Products. Until now, Lyria had been ...",
-        "score": 0.733
-      },
-      {
-        "title": "@unknown: Lightning V3 (Resemble AI): TTS conversacional que bate ElevenLabs, Cartesia e O...",
-        "url": "https://x.com/unknown/status/2037180516932231195",
-        "source": "X/@unknown",
-        "date": "Thu Mar 26 14:50:58 +0000 2026",
-        "summary": "Lightning V3 (Resemble AI): TTS conversacional que bate ElevenLabs, Cartesia e OpenAI. MOS 3.9, 76% win rate vs gpt-4o-mini-tts, 150ms latencia, roda local. Voice agents ficaram viaveis de verdade.",
-        "score": 0.707
+        "score": 0.723
       }
     ],
     "Ethics & Regulation": [
+      {
+        "title": "Quoting Richard Fontana",
+        "url": "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything",
+        "source": "Simon Willison",
+        "date": "2026-03-27T21:11:17+00:00",
+        "summary": "FWIW, IANDBL, TINLA, etc., I don’t currently see any basis for concluding that chardet 7.0.0 is required to be released under the LGPL. AFAIK no one including Mark Pilgrim has identified persistenc...",
+        "score": 0.784
+      },
       {
         "title": "Resisting Humanization: Ethical Front-End Design Choices in AI for Sensitive Contexts",
         "url": "https://arxiv.org/abs/2603.24853",
         "source": "arXiv cs.AI",
         "date": "Fri, 27 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.24853v1 Announce Type: new Abstract: Ethical debates in AI have primarily focused on back-end issues such as data governance, model training, and algorithmic decision-making. Less attent...",
-        "score": 0.775
+        "score": 0.765
       },
       {
         "title": "Exons-Detect: Identifying and Amplifying Exonic Tokens via Hidden-State Discrepancy for Robust AI-Generated Text Detection",
@@ -314,15 +322,7 @@
         "source": "arXiv cs.CL",
         "date": "Fri, 27 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.24981v1 Announce Type: new Abstract: The rapid advancement of large language models has increasingly blurred the boundary between human-written and AI-generated text, raising societal ri...",
-        "score": 0.775
-      },
-      {
-        "title": "Wikipedia bans AI-generated content in its online encyclopedia",
-        "url": "https://www.theguardian.com/technology/2026/mar/27/wikipedia-bans-ai",
-        "source": "Guardian AI",
-        "date": "Fri, 27 Mar 2026 13:19:08 GMT",
-        "summary": "Ban includes two exceptions: AI can still be used for translations, and to make minor copy editsWikipedia has banned the use of artificial intelligence in the generation or rewriting of content for...",
-        "score": 0.767
+        "score": 0.765
       }
     ],
     "Australia": [
@@ -332,7 +332,7 @@
         "source": "InnovationAus",
         "date": "Fri, 27 Mar 2026 03:05:23 +0000",
         "summary": "Innovation hub operator Stone &#38; Chalk has pulled off a recruitment coup de gras with the appointment of nationally prominent artificial intelligence leader and tech expert Stela Solar as its ne...",
-        "score": 0.717
+        "score": 0.708
       },
       {
         "title": "SA elevates AI with new Cabinet-level ‘super-portfolio’",
@@ -340,7 +340,7 @@
         "source": "InnovationAus",
         "date": "Thu, 26 Mar 2026 09:06:44 +0000",
         "summary": "South Australian Premier Peter Malinauskas has elevated artificial intelligence to a central plank of his economic agenda as part of a new “economic super portfolio” with a Cabinet-level minister. ...",
-        "score": 0.701
+        "score": 0.692
       },
       {
         "title": "Space Machines unveils next-gen manufacturing plan",
@@ -348,7 +348,7 @@
         "source": "InnovationAus",
         "date": "Wed, 25 Mar 2026 20:00:11 +0000",
         "summary": "A collaboration of Sydney tech firms and a university have ambitions to put artificial intelligence, 3D printing and robotics inside two of Australia&#8217;s most advanced space manufacturing facil...",
-        "score": 0.69
+        "score": 0.68
       }
     ]
   }
