@@ -71,12 +71,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Running reliably since Feb 2026. KB: 8,112 entries. Updated 2026-03-24.",
             "Running reliably since Feb 2026. KB: 8,534 entries. Updated 2026-03-26.",
-            "Running reliably since Feb 2026. KB: 8,855 entries. Updated 2026-03-28."
+            "Running reliably since Feb 2026. KB: 8,855 entries. Updated 2026-03-28.",
+            "Running reliably since Feb 2026. KB: 8,983 entries. Updated 2026-03-29."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-28T16:07:54.792Z",
+          "updatedAt": "2026-03-29T16:09:06.781Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -90,12 +90,12 @@
           "priority": "high",
           "status": "in-progress",
           "notes": [
-            "Dashboard live. 8,112 KB entries, 30 memory files. Updated 2026-03-24.",
             "Dashboard live. 8,534 KB entries, 30 memory files. Updated 2026-03-26.",
-            "Dashboard live. 8,855 KB entries, 30 memory files. Updated 2026-03-28."
+            "Dashboard live. 8,855 KB entries, 30 memory files. Updated 2026-03-28.",
+            "Dashboard live. 8,983 KB entries, 30 memory files. Updated 2026-03-29."
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-28T16:07:54.792Z",
+          "updatedAt": "2026-03-29T16:09:06.781Z",
           "updatedBy": "kanban-updater"
         },
         {
@@ -121,7 +121,7 @@
         {
           "id": "ip-2",
           "title": "GenAI Knowledge Base",
-          "description": "8,855 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
+          "description": "8,983 entries from 51 sources. Quality gate + semantic dedup active. Auto-syncs daily 08:00 UTC. AI search API on port 3001.",
           "tags": [
             "infrastructure",
             "kb"
@@ -134,7 +134,7 @@
             "Sources config: ~/clawd/scripts/sources-config.js"
           ],
           "needsPickup": false,
-          "updatedAt": "2026-03-28T16:07:54.792Z",
+          "updatedAt": "2026-03-29T16:09:06.781Z",
           "updatedBy": "kanban-updater"
         }
       ]
@@ -148,6 +148,22 @@
       "id": "done",
       "title": "✅ Done",
       "cards": [
+        {
+          "id": "done-build-2026-03-29",
+          "title": "Trend Intelligence Pipeline — History + Morning Briefing + Dashboard",
+          "description": "Build queue exhausted. Kanban backlog has only low-priority or blocked items. Yesterday's build (KB Trend Radar) created entity tracking and competitive intelligence — but the data only surfaces on th",
+          "tags": [
+            "newsletter",
+            "kb",
+            "infrastructure",
+            "operations",
+            "memory"
+          ],
+          "status": "done",
+          "completedDate": "2026-03-29",
+          "updatedAt": "2026-03-29T16:09:06.771Z",
+          "updatedBy": "kanban-updater"
+        },
         {
           "id": "done-build-2026-03-22",
           "title": "System Health & Integration Test Runner",
@@ -697,12 +713,12 @@
       ]
     }
   ],
-  "lastUpdated": "2026-03-28T16:07:54.792Z",
+  "lastUpdated": "2026-03-29T16:09:06.781Z",
   "stats": {
-    "totalCards": 48,
+    "totalCards": 49,
     "backlog": 3,
     "inProgress": 4,
     "blocked": 0,
-    "done": 41
+    "done": 42
   }
 }
