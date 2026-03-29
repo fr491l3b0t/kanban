@@ -1,30 +1,37 @@
 {
-  "generatedAt": "2026-03-28T19:06:27.349Z",
+  "generatedAt": "2026-03-29T07:00:06.924Z",
   "window": {
-    "start": "2026-03-21T19:06:27.272Z",
-    "end": "2026-03-28T19:06:27.272Z",
+    "start": "2026-03-22T07:00:06.835Z",
+    "end": "2026-03-29T07:00:06.835Z",
     "days": 7
   },
   "stats": {
-    "totalEntries": 948,
+    "totalEntries": 962,
     "categoriesWithEntries": 10,
     "totalSelected": 30
   },
   "storyOfTheWeek": {
-    "title": "Disney’s big bets on the metaverse and AI slop aren’t going so well",
-    "url": "https://www.theverge.com/streaming/900837/disney-open-ai-sora-epic-fortnite-metaverse",
+    "title": "TikTok&#8217;s policy for AI ads isn&#8217;t working",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure",
     "source": "The Verge AI",
-    "date": "2026-03-25T16:02:48-04:00",
-    "summary": "Less than a week into his tenure as Disney's newly-appointed CEO, Josh D'Amaro is already dealing with two separate crises that have cast a shadow over the company's future plans. OpenAI is shutting down its Sora image-generation program just months after Disney announced a $1 billion dollar collaboration to bake the tech into Disney Plus. [&#8230;]",
-    "score": 0.837
+    "date": "2026-03-28T10:00:00-04:00",
+    "summary": "I've been struggling to tell whether the ads appearing in my TikTok feeds have been made with generative AI tools. As someone who spends a great deal of time scrutinizing images and videos for the usual \"tells\" that something was synthetically generated, some of the promotions I've seen have definitely sparked suspicion. For several weeks, [&#8230;]",
+    "score": 0.885
   },
   "trending": [
     {
+      "tag": "voice",
+      "count": 8,
+      "prevCount": 1,
+      "growth": 7,
+      "relevance": 7.5
+    },
+    {
       "tag": "sora",
-      "count": 23,
+      "count": 24,
       "prevCount": 3,
-      "growth": 6.67,
-      "relevance": 7.166666666666667
+      "growth": 7,
+      "relevance": 7.5
     },
     {
       "tag": "data centers",
@@ -32,13 +39,6 @@
       "prevCount": 1,
       "growth": 6,
       "relevance": 6
-    },
-    {
-      "tag": "voice",
-      "count": 6,
-      "prevCount": 1,
-      "growth": 5,
-      "relevance": 5.5
     },
     {
       "tag": "diffusion",
@@ -55,25 +55,18 @@
       "relevance": 3
     },
     {
-      "tag": "tokens",
-      "count": 5,
-      "prevCount": 2,
-      "growth": 1.5,
-      "relevance": 2
-    },
-    {
       "tag": "inference",
-      "count": 8,
+      "count": 9,
       "prevCount": 4,
-      "growth": 1,
-      "relevance": 1.5
+      "growth": 1.25,
+      "relevance": 1.75
     },
     {
       "tag": "mcp",
-      "count": 13,
+      "count": 15,
       "prevCount": 7,
-      "growth": 0.86,
-      "relevance": 1.3571428571428572
+      "growth": 1.14,
+      "relevance": 1.6428571428571428
     },
     {
       "tag": "march 2026",
@@ -84,6 +77,13 @@
     },
     {
       "tag": "supply chain",
+      "count": 6,
+      "prevCount": 0,
+      "growth": 1,
+      "relevance": 1
+    },
+    {
+      "tag": "lyria pro",
       "count": 5,
       "prevCount": 0,
       "growth": 1,
@@ -98,7 +98,15 @@
         "source": "Hacker News AI",
         "date": "Tue, 24 Mar 2026 07:46:46 +0000",
         "summary": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken o...",
-        "score": 0.744
+        "score": 0.734
+      },
+      {
+        "title": "@unknown: OpenAI isn't just building bigger models — it's building smaller, smarter ones d...",
+        "url": "https://x.com/unknown/status/2037936111926772115",
+        "source": "X/@unknown",
+        "date": "Sat Mar 28 16:53:26 +0000 2026",
+        "summary": "OpenAI isn't just building bigger models — it's building smaller, smarter ones designed to power the next layer of AI agents. The subagent era is here.\n\nOpenAI Releases GPT-5.4 Mini and Nano, Usher...",
+        "score": 0.731
       },
       {
         "title": "Auto mode for Claude Code",
@@ -106,25 +114,25 @@
         "source": "Simon Willison",
         "date": "2026-03-24T23:57:33+00:00",
         "summary": "Auto mode for Claude Code Really interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions: Today, we're introducing auto mode, a new permissions mode in ...",
-        "score": 0.722
-      },
-      {
-        "title": "Anthropic’s Claude Code gets ‘safer’ auto mode",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/900201/anthropic-claude-code-auto-mode",
-        "source": "The Verge AI",
-        "date": "2026-03-25T07:39:46-04:00",
-        "summary": "Anthropic has launched an \"auto mode\" for Claude Code, a new tool that lets AI make permissions-level decisions on users' behalf. The company says the feature offers vibe coders a safer alternative...",
-        "score": 0.719
+        "score": 0.711
       }
     ],
     "AI Tools & Platforms": [
+      {
+        "title": "@unknown: Karpathy's AutoResearch is changing how campaigns get optimized and most markete...",
+        "url": "https://x.com/unknown/status/2036461256006357409",
+        "source": "X/@unknown",
+        "date": "Tue Mar 24 15:12:53 +0000 2026",
+        "summary": "Karpathy's AutoResearch is changing how campaigns get optimized and most marketers haven´t heard of it yet.\n\nOle Lehmann tested it on landing page copy, 56% → 92% pass rate overnight.\n\nhere´s how i...",
+        "score": 0.847
+      },
       {
         "title": "Gemini just made it super easy for you to switch from ChatGPT - here's how",
         "url": "https://www.zdnet.com/article/switching-to-googles-gemini-from-another-ai-is-now-much-easier-heres-how/",
         "source": "ZDNet Australia",
         "date": "Fri, 27 Mar 2026 16:24:00 GMT",
         "summary": "Gemini will now let you transfer your memories, chat history, and preferences from another AI so you don't have to start from scratch.",
-        "score": 0.816
+        "score": 0.806
       },
       {
         "title": "OpenAI Extends the Responses API to Serve as a Foundation for Autonomous Agents",
@@ -132,15 +140,7 @@
         "source": "InfoQ AI/ML",
         "date": "Fri, 27 Mar 2026 12:00:00 GMT",
         "summary": "OpenAI announced they are extending the Responses API to make it easier for developer to build agentic workflows, adding support for a shell tool, a built-in agent execution loop, a hosted containe...",
-        "score": 0.812
-      },
-      {
-        "title": "@unknown: We've gotten questions about how Phota works, so we wanted to share more about w...",
-        "url": "https://x.com/unknown/status/2037723587071918541",
-        "source": "X/@unknown",
-        "date": "Sat Mar 28 02:48:56 +0000 2026",
-        "summary": "We've gotten questions about how Phota works, so we wanted to share more about what we've built.\n\nPhota, like many modern AI products, is a system of multiple models, each optimized for a different...",
-        "score": 0.809
+        "score": 0.802
       }
     ],
     "Research & Papers": [
@@ -150,7 +150,7 @@
         "source": "Simon Willison",
         "date": "2026-03-25T17:21:04+00:00",
         "summary": "LiteLLM Hack: Were You One of the 47,000? Daniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteLLM packages during the 46 minute period they we...",
-        "score": 0.737
+        "score": 0.727
       },
       {
         "title": "Lie to Me: How Faithful Is Chain-of-Thought Reasoning in Reasoning Models?",
@@ -158,7 +158,7 @@
         "source": "arXiv cs.CL",
         "date": "Wed, 25 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.22582v1 Announce Type: new Abstract: Chain-of-thought (CoT) reasoning has been proposed as a transparency mechanism for large language models in safety-critical deployments, yet its effe...",
-        "score": 0.722
+        "score": 0.712
       },
       {
         "title": "@unknown: Donald Knuth — father of algorithm analysis — just published a paper about Claud...",
@@ -166,7 +166,7 @@
         "source": "X/@unknown",
         "date": "Fri Mar 27 18:59:55 +0000 2026",
         "summary": "Donald Knuth — father of algorithm analysis — just published a paper about Claude AI.\n\nHis opening word: \"Shock!\"\n\nIt solved a graph theory problem he'd worked on for weeks.\n\nAI isn't just automati...",
-        "score": 0.722
+        "score": 0.711
       }
     ],
     "Strategy & Opinion": [
@@ -176,7 +176,7 @@
         "source": "InfoQ AI/ML",
         "date": "Thu, 26 Mar 2026 09:00:00 GMT",
         "summary": "In the GenAI era, code is a commodity, but alignment is not. Traditional review boards can't scale with AI-generated output. This article explores \"Declarative Architecture\" - transforming ADRs and...",
-        "score": 0.788
+        "score": 0.777
       },
       {
         "title": "@unknown: We dramatically underestimate how much change management it is going to take to ...",
@@ -184,7 +184,7 @@
         "source": "X/@unknown",
         "date": "Thu Mar 26 16:11:29 +0000 2026",
         "summary": "We dramatically underestimate how much change management it is going to take to automate most knowledge worker tasks.\n\nBetween data being in legacy environments or systems or without good APIs, con...",
-        "score": 0.778
+        "score": 0.767
       },
       {
         "title": "Shopping with a Platform AI Assistant: Who Adopts, When in the Journey, and What For",
@@ -192,17 +192,25 @@
         "source": "arXiv cs.AI",
         "date": "Fri, 27 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.24947v1 Announce Type: new Abstract: This paper provides some of the first large-scale descriptive evidence on how consumers adopt and use platform-embedded shopping AI in e-commerce. Us...",
-        "score": 0.765
+        "score": 0.754
       }
     ],
     "Image & Video Generation": [
+      {
+        "title": "Why OpenAI killed Sora",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/902368/openai-sora-dead-ai-video-generation-competition",
+        "source": "The Verge AI",
+        "date": "2026-03-28T08:00:00-04:00",
+        "summary": "On Tuesday morning, everything was business as usual at OpenAI. By the end of the day, the company had announced that it would scrap its video-generation app, Sora, and reverse plans for video gene...",
+        "score": 0.883
+      },
       {
         "title": "@unknown: Truly blown away by a new AI image model launching this week ✨\n\nFinally, you can...",
         "url": "https://x.com/unknown/status/2036178812036325769",
         "source": "X/@unknown",
         "date": "Mon Mar 23 20:30:33 +0000 2026",
         "summary": "Truly blown away by a new AI image model launching this week ✨\n\nFinally, you can generate photos that actually look like you! \n\nIt's so much better than everything I've tried - from LoRAs to NB Pro...",
-        "score": 0.841
+        "score": 0.83
       },
       {
         "title": "@unknown: Don't make videos — program them.\n\nIntroducing Renoise = Claude Code + Seedance ...",
@@ -210,15 +218,7 @@
         "source": "X/@unknown",
         "date": "Mon Mar 23 14:37:14 +0000 2026",
         "summary": "Don't make videos — program them.\n\nIntroducing Renoise = Claude Code + Seedance 2.0.\nScale your video ad production 100x. One product photo → hundreds of finished creatives.👇\n\nhttps://t.co/L0xP50T...",
-        "score": 0.836
-      },
-      {
-        "title": "OpenAI just gave up on Sora and its billion-dollar Disney deal",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/899850/openai-sora-ai-chatgpt",
-        "source": "The Verge AI",
-        "date": "2026-03-24T17:08:10-04:00",
-        "summary": "On Tuesday afternoon, OpenAI announced \"We're saying goodbye to Sora,\" the video generation tool that it launched at the end of 2024, and centered in a massive licensing deal with Disney only a few...",
-        "score": 0.816
+        "score": 0.825
       }
     ],
     "Workflow & Automation": [
@@ -228,7 +228,7 @@
         "source": "X/@unknown",
         "date": "Fri Mar 27 14:10:31 +0000 2026",
         "summary": "Pair LTX-2.3 with Custom Styles and Brand Kit and something clicks.\n\nEvery scene, every shot, locked into the same visual world. We built this spec ad to show what that looks like in practice. http...",
-        "score": 0.921
+        "score": 0.91
       },
       {
         "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
@@ -236,7 +236,7 @@
         "source": "Hacker News AI",
         "date": "Thu, 26 Mar 2026 22:41:25 +0000",
         "summary": "The stack: two agents on separate boxes. The public one (nullclaw) is a 678 KB Zig binary using ~1 MB RAM, connected to an Ergo IRC server. Visitors talk to it via a gamja web client embedded in my...",
-        "score": 0.8
+        "score": 0.79
       },
       {
         "title": "[D] Why evaluating only final outputs is misleading for local LLM agents",
@@ -244,17 +244,25 @@
         "source": "r/MachineLearning",
         "date": "2026-03-26T20:01:45+00:00",
         "summary": "Been running local agents with Ollama + LangChain lately and noticed something kind of uncomfortable — you can get a completely correct final answer while the agent is doing absolute nonsense inter...",
-        "score": 0.758
+        "score": 0.747
       }
     ],
     "Industry & Business": [
+      {
+        "title": "TikTok&#8217;s policy for AI ads isn&#8217;t working",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure",
+        "source": "The Verge AI",
+        "date": "2026-03-28T10:00:00-04:00",
+        "summary": "I've been struggling to tell whether the ads appearing in my TikTok feeds have been made with generative AI tools. As someone who spends a great deal of time scrutinizing images and videos for the ...",
+        "score": 0.885
+      },
       {
         "title": "Disney’s big bets on the metaverse and AI slop aren’t going so well",
         "url": "https://www.theverge.com/streaming/900837/disney-open-ai-sora-epic-fortnite-metaverse",
         "source": "The Verge AI",
         "date": "2026-03-25T16:02:48-04:00",
         "summary": "Less than a week into his tenure as Disney's newly-appointed CEO, Josh D'Amaro is already dealing with two separate crises that have cast a shadow over the company's future plans. OpenAI is shuttin...",
-        "score": 0.837
+        "score": 0.826
       },
       {
         "title": "OpenAI shutters AI video generator Sora in abrupt announcement",
@@ -262,15 +270,7 @@
         "source": "Guardian AI",
         "date": "Tue, 24 Mar 2026 22:34:10 GMT",
         "summary": "Tech firm ‘says goodbye’ to Sora, made publicly available in 2024, just six months after its launch of a stand-alone appIn an abrupt announcement on Tuesday, OpenAI said it was “saying goodbye” to ...",
-        "score": 0.809
-      },
-      {
-        "title": "Thoughts on slowing the fuck down",
-        "url": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything",
-        "source": "Simon Willison",
-        "date": "2026-03-25T21:47:17+00:00",
-        "summary": "Thoughts on slowing the fuck down Mario Zechner created the Pi agent framework used by OpenClaw, giving considerable credibility to his opinions on current trends in agentic engineering. He's not i...",
-        "score": 0.741
+        "score": 0.798
       }
     ],
     "Voice & Audio": [
@@ -280,7 +280,15 @@
         "source": "r/LocalLLaMA",
         "date": "2026-03-26T14:11:04+00:00",
         "summary": "Announcement Blog: https://cohere.com/blog/transcribe Cohere just released their 2B transcription model. It's Apache 2.0 licensed and claims to be SOTA among open transcription models. It supports ...",
-        "score": 0.753
+        "score": 0.742
+      },
+      {
+        "title": "@unknown: 🖥️Google: Launched Lyria 3 Pro for full-length 3min AI tracks and Gemini 3.1 Fl...",
+        "url": "https://x.com/unknown/status/2037901719984840795",
+        "source": "X/@unknown",
+        "date": "Sat Mar 28 14:36:47 +0000 2026",
+        "summary": "🖥️Google: Launched Lyria 3 Pro for full-length 3min AI tracks and Gemini 3.1 Flash Live for ultra-low latency voice. 🎵OpenAI: GPT-5.4 is here, focused on \"professional-grade\" productivity. 📈The ...",
+        "score": 0.729
       },
       {
         "title": "@unknown: You can now build custom voice AI agents with OpenAI’s gpt-realtime-1.5 model. \n...",
@@ -288,15 +296,7 @@
         "source": "X/@unknown",
         "date": "Sat Mar 28 01:09:17 +0000 2026",
         "summary": "You can now build custom voice AI agents with OpenAI’s gpt-realtime-1.5 model. \n\nReceptionists and appointment setters are cooked. \nhttps://t.co/1EyIS4n0DQ",
-        "score": 0.727
-      },
-      {
-        "title": "Google Lyria 3 Pro makes longer AI songs",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
-        "source": "The Verge AI",
-        "date": "2026-03-25T12:00:00-04:00",
-        "summary": "Google is expanding the capabilities of its Lyria 3 music-making AI, enabling it to create tracks up to three minutes long and from within multiple other Google Products. Until now, Lyria had been ...",
-        "score": 0.723
+        "score": 0.717
       }
     ],
     "Ethics & Regulation": [
@@ -306,7 +306,7 @@
         "source": "Simon Willison",
         "date": "2026-03-27T21:11:17+00:00",
         "summary": "FWIW, IANDBL, TINLA, etc., I don’t currently see any basis for concluding that chardet 7.0.0 is required to be released under the LGPL. AFAIK no one including Mark Pilgrim has identified persistenc...",
-        "score": 0.784
+        "score": 0.773
       },
       {
         "title": "Resisting Humanization: Ethical Front-End Design Choices in AI for Sensitive Contexts",
@@ -314,7 +314,7 @@
         "source": "arXiv cs.AI",
         "date": "Fri, 27 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.24853v1 Announce Type: new Abstract: Ethical debates in AI have primarily focused on back-end issues such as data governance, model training, and algorithmic decision-making. Less attent...",
-        "score": 0.765
+        "score": 0.754
       },
       {
         "title": "Exons-Detect: Identifying and Amplifying Exonic Tokens via Hidden-State Discrepancy for Robust AI-Generated Text Detection",
@@ -322,7 +322,7 @@
         "source": "arXiv cs.CL",
         "date": "Fri, 27 Mar 2026 00:00:00 -0400",
         "summary": "arXiv:2603.24981v1 Announce Type: new Abstract: The rapid advancement of large language models has increasingly blurred the boundary between human-written and AI-generated text, raising societal ri...",
-        "score": 0.765
+        "score": 0.754
       }
     ],
     "Australia": [
@@ -332,7 +332,7 @@
         "source": "InnovationAus",
         "date": "Fri, 27 Mar 2026 03:05:23 +0000",
         "summary": "Innovation hub operator Stone &#38; Chalk has pulled off a recruitment coup de gras with the appointment of nationally prominent artificial intelligence leader and tech expert Stela Solar as its ne...",
-        "score": 0.708
+        "score": 0.697
       },
       {
         "title": "SA elevates AI with new Cabinet-level ‘super-portfolio’",
@@ -340,7 +340,7 @@
         "source": "InnovationAus",
         "date": "Thu, 26 Mar 2026 09:06:44 +0000",
         "summary": "South Australian Premier Peter Malinauskas has elevated artificial intelligence to a central plank of his economic agenda as part of a new “economic super portfolio” with a Cabinet-level minister. ...",
-        "score": 0.692
+        "score": 0.681
       },
       {
         "title": "Space Machines unveils next-gen manufacturing plan",
@@ -348,7 +348,7 @@
         "source": "InnovationAus",
         "date": "Wed, 25 Mar 2026 20:00:11 +0000",
         "summary": "A collaboration of Sydney tech firms and a university have ambitions to put artificial intelligence, 3D printing and robotics inside two of Australia&#8217;s most advanced space manufacturing facil...",
-        "score": 0.68
+        "score": 0.669
       }
     ]
   }
